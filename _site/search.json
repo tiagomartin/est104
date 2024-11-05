@@ -1816,7 +1816,7 @@
     "href": "analise_dados/recem_nascidos.html#objetivos",
     "title": "Análise de dados: Recém-nascidos prematuros",
     "section": "Objetivos",
-    "text": "Objetivos\n\nExplorar os dados sobre recém-nascidos prematuros.\n\nFonte dos dados:"
+    "text": "Objetivos\n\nExplorar os dados sobre recém-nascidos prematuros.\n\nFonte dos dados:\n\nhttps://github.com/tiagomartin/est104/blob/master/dados/recem_nascidos.xlsx\n\n\nload &lt;- function(pkg){\n  new.pkg &lt;- pkg[!(pkg %in% installed.packages()[, \"Package\"])]\n  if (length(new.pkg))\n    install.packages(new.pkg, dependencies = TRUE)\n  sapply(pkg, require, character.only = TRUE)\n1}\n\n2packages &lt;- c(\"tidyverse\", \"knitr\", \"DT\")\n3load(packages)\n\n\n1\n\nA função load verifica se os pacotes estão instalados em sua máquina. Se sim, faz o carregamento dos pacotes para a memória. Se não, instala os pacotes e os carrega para a memória.\n\n2\n\nCarregando o pacote tidyverse, uma coleção de pacotes que facilitam a manipulação e visualização de dados. Os pacotes knitr e DT, para apresentar os resultados de forma mais amigável no arquivo final.\n\n3\n\nRetorna TRUE para todos os pacotes se forem carregados com sucesso.\n\n\n\n\ntidyverse     knitr        DT \n     TRUE      TRUE      TRUE"
   },
   {
     "objectID": "aulas.html",

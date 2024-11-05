@@ -1,0 +1,15 @@
+{
+  "hash": "6bd9ab7c9486ca0f7c604029261135e8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Análise de dados: Recém-nascidos prematuros\"\nlang: pt\ntoc: true\ncode-annotations: \"hover\"\n---\n\n\n\nConsidere o conjunto de dados referente a um estudo sobre recém-nascidos prematuros de baixo peso. Os dados de cada recém-nascido estão dispostos em uma linha e cada coluna corresponde à informação de uma variável específica.\n\n## Objetivos\n\n-   Explorar os dados sobre recém-nascidos prematuros.\n\nFonte dos dados:\n\n- <https://github.com/tiagomartin/est104/blob/master/dados/recem_nascidos.xlsx>\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nload <- function(pkg){\n  new.pkg <- pkg[!(pkg %in% installed.packages()[, \"Package\"])]\n  if (length(new.pkg))\n    install.packages(new.pkg, dependencies = TRUE)\n  sapply(pkg, require, character.only = TRUE)\n} # <1>\n\npackages <- c(\"tidyverse\", \"knitr\", \"DT\") #<2>\nload(packages) # <3>\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\ntidyverse     knitr        DT \n     TRUE      TRUE      TRUE \n```\n\n\n:::\n:::\n\n\n\n1. A função load verifica se os pacotes estão instalados em sua máquina. Se sim, faz o carregamento dos pacotes para a memória. Se não, instala os pacotes e os carrega para a memória.\n\n2. Carregando o pacote tidyverse, uma coleção de pacotes que facilitam a manipulação e visualização de dados. Os pacotes knitr e DT, para apresentar os resultados de forma mais amigável no arquivo final.\n\n3. Retorna TRUE para todos os pacotes se forem carregados com sucesso.",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -13,4 +13,34 @@ Considere o conjunto de dados referente a um estudo sobre recém-nascidos premat
 
 Fonte dos dados:
 
+- <https://github.com/tiagomartin/est104/blob/master/dados/recem_nascidos.xlsx>
 
+
+
+
+```{r}
+#| message: false
+load <- function(pkg){
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  if (length(new.pkg))
+    install.packages(new.pkg, dependencies = TRUE)
+  sapply(pkg, require, character.only = TRUE)
+} # <1>
+
+packages <- c("tidyverse", "knitr", "DT", "readxl") #<2>
+load(packages) # <3>
+```
+
+1. A função load verifica se os pacotes estão instalados em sua máquina. Se sim, faz o carregamento dos pacotes para a memória. Se não, instala os pacotes e os carrega para a memória.
+
+2. Carregando o pacote tidyverse, uma coleção de pacotes que facilitam a manipulação e visualização de dados. Os pacotes knitr e DT, para apresentar os resultados de forma mais amigável no arquivo final. O pacote readxl possui diversas funções para importação de dados do Excel.
+
+3. Retorna TRUE para todos os pacotes se forem carregados com sucesso.
+
+
+## Carregando os dados
+
+```{r}
+dados_brutos = read_xlsx("https://github.com/tiagomartin/est104/blob/master/dados/recem_nascidos.xlsx") # <1>
+```
+1. Importando a tabela disponível neste link, usando a função `read_xlsx()`. Essa função importa arquivos excel `.xlsx`. Após a importação, os dados são armazenados na variável `dados_brutos` 
