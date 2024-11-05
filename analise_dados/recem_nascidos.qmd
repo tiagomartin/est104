@@ -1,0 +1,16 @@
+---
+title: "Análise de dados: Recém-nascidos prematuros"
+lang: pt
+toc: true
+code-annotations: "hover"
+---
+
+Considere o conjunto de dados referente a um estudo sobre recém-nascidos prematuros de baixo peso. Os dados de cada recém-nascido estão dispostos em uma linha e cada coluna corresponde à informação de uma variável específica.
+
+## Objetivos
+
+-   Explorar os dados sobre recém-nascidos prematuros.
+
+Fonte dos dados:
+
+

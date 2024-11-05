@@ -1,0 +1,9 @@
+---
+title: "Estudos de caso"
+editor: visual
+---
+
+-   [Estudo de caso 01](estudos_de_casos/estudo01.html "Lab slides"){aria-label="Lab 0 slides"}
+
+
+

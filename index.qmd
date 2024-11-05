@@ -1,0 +1,18 @@
+---
+title: "Estatística Aplicada à Saúde"
+ 
+page-layout: full
+title-block-banner: false
+comments: false
+toc: false
+---
+
+::: {#hero-heading}
+Página dedicada à disciplina **EST104 - Estatística Aplicada à Saúde**
+:::
+
+------------------------------------------------------------------------
+
+Bioestatística é o conjunto de métodos estatísticos usados para o planejamento e análise de dados de estudos em ciências médicas, biológicas ou, de forma geral, na área de saúde. É uma ferramenta útil para a tomada de decisões!
+
+![](images/estatisticasaude.jpeg){width="1000"}

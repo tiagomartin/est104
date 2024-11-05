@@ -1,0 +1,811 @@
+---
+title: "Conceitos básicos"
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    footer: ""
+    theme: quartomonothemer.scss
+    slide-number: c/t
+    show-slide-number: all
+incremental: false
+code-link: true
+bibliography: references.bib
+title-slide-attributes:
+    data-background-image: /images/back.jpeg
+    data-background-size: cover
+    data-background-opacity: "0.3"
+---
+
+## Estatística {auto-animate="true"}
+
+
+> É a ciência que oferece uma coleção de métodos para produzir e obter dados, organizá-los, resumi-los, analisá-los, interpretá-los e deles extrair conhecimento. 
+
+@triola1999
+
+
+## Estatística {auto-animate="true"}
+
+Métodos estatísticos são essenciais no estudo de situações em que as variáveis de interesse estão sujeitas a flutuações aleatórias.
+
+. . .
+
+Este é o caso de estudos na área da saúde.
+
+. . .
+
+- Por exemplo, pressão arterial
+    - varia não só entre indivíduos, como também no mesmo indivíduo.
+
+## Bioestatística {auto-animate="true"}
+
+Convencionou-se chamar de **Bioestatística** o conjunto de métodos estatísticos usados para o planejamento e análise de dados de estudos de **ciências médicas**, **biológicas** ou, de forma mais geral, da **área de saúde**. 
+
+
+## Áreas da Estatística
+
+![](/images/areas.png){fig-align="center"}
+
+## População e Amostra 
+
+![](/images/amostragem.png){fig-align="center"}
+
+## População e Amostra {auto-animate="true"}
+
+<br>
+
+![](/images/amostragem2.png){fig-align="center"}
+
+## Variável
+
+Característica de interesse a ser analisada.
+
+![](/images/tiposVar.png){fig-align="center"}
+
+## Variável
+
+![](/images/tiposVar2.png){fig-align="center"}
+
+## Estimativa e Parâmetro
+
+Parâmetros são informações extraídas da população
+
+<br>
+
+![](/images/parametro.png){fig-align="center"}
+
+## Estimativa e Parâmetro
+
+Estimativas são informações extraídas da amostra
+
+<br>
+
+![](/images/estatistica.png){fig-align="center"}
+
+## Margem de erro 
+
+É a diferença máxima provável entre o valor da estimativa e o verdadeiro valor do parâmetro populacional
+
+## Margem de erro {auto-animate="true"}
+
+É a diferença máxima provavel entre o valor da estimativa e o verdadeiro valor do parâmetro populacional
+
+$$ e = z_{\frac{\alpha}{2}}\dfrac{\sigma}{\sqrt{n}}$$
+
+## Viés ou Vício 
+
+Tecnicamente, é definido como a **diferença entre a estimativa e o verdadeiro valor do parâmetro**. 
+
+. . .
+
+Na prática, é considerado como um **erro sistemático**, que ocorre no momento da coleta das informações sobre as variáveis de interesse.
+
+## Viés ou Vício {auto-animate="true"}
+
+![](/images/vies.png){fig-align="center"}
+
+## Viés de seleção
+
+Um estudo sobre tabagismo e demência encontrou um potencial viés de seleção em idosos. 
+
+. . .
+
+O viés de seleção devido à censura pela morte foi uma das explicações para a menor taxa relativa de demência em fumantes com idade mais avançada.
+
+## Viés de aferição
+
+:::: {.columns}
+
+::: {.column width="60%"}
+**Hipertensão do jaleco branco** 
+
+Aumento na pressão sistólica, quando a pressão é aferida manualmente por um médico ou por enfermeiro sem vínculo prévio com o paciente.
+:::
+
+::: {.column width="40%"}
+
+![](/images/jalecoBranco2.png){.absolute top=140  width="450"}
+:::
+
+::::
+
+
+
+
+
+## Viés de confusão
+
+
+:::: {.columns}
+
+::: {.column width="60%" style="font-size: 32px;"}
+
+**Variáveis confundidoras** 
+
+A relação entre ingestão de antioxidantes e risco de doenças cardiovasculares é potencialmente confundida pelas características do paciente e por comportamentos relacionados tanto ao uso de antioxidantes quanto ao desenvolvimento de doenças cardiovasculares.
+:::
+
+::: {.column width="40%"}
+
+![](/images/confundimento1.png){.absolute top=140  width="650"}
+:::
+
+::::
+
+## Viés de confusão
+
+:::: {.columns}
+
+::: {.column width="60%" style="font-size: 32px;"}
+
+**Variáveis confundidoras** 
+
+A relação entre ingestão de antioxidantes e risco de doenças cardiovasculares é potencialmente confundida pelas características do paciente e por comportamentos relacionados tanto ao uso de antioxidantes quanto ao desenvolvimento de doenças cardiovasculares.
+:::
+
+::: {.column width="40%"}
+
+![](/images/confundimento2.png){.absolute top=140  width="650"}
+:::
+
+::::
+
+
+
+## Acaso {auto-animate=true}
+
+As observações sobre as doenças são normalmente feitas em uma amostra de pacientes, uma vez que não é possível estudar todos os pacientes que apresentam a doença em questão.
+
+## Acaso {auto-animate=true}
+
+::: {style="margin-top: 100px; font-size: 2em; color: #30AF9E; text-align: center;"}
+<strong>Variação aleatória</strong>
+:::
+
+As observações sobre as doenças são normalmente feitas em uma amostra de pacientes, uma vez que não é possível estudar todos os pacientes que apresentam a doença em questão.
+
+
+
+## Viés e Acaso
+
+
+![](/images/viesAcaso2.png){fig-align="center"}
+
+
+## Amostragem
+
+Trata-se do precedimento para a coleta da amostra.
+
+. . .
+
+<br>
+
+### Por que amostrar?
+
+- **Economia:** Em geral é mais econômico levantar apenas uma parte da população
+
+    - Censo x PNAD
+
+
+
+
+## Amostragem
+
+- **Tempo:** Maior rapidez; por vezes, nem há tempo suficiente para observar toda a população
+
+    - A três dias das eleições, não haveria tempo para sondar toda a população
+
+. . .
+
+- **Confiabilidade:** Avaliando número menor de elementos, é possível dar mais atenção e cuidado a cada elemento observado.
+
+
+
+
+
+## Amostragem
+
+- **Detalhamento:** É possível aprofundar a análise, por exemplo, avaliando mais variáveis.
+
+. . .
+
+- **Análises destrutivas:** Neste caso, não faz sentido avaliar toda a população!
+
+    - Por exemplo, em um lote de cobaias, algumas são sacrificadas para estudos histológicos.
+
+
+
+## Representatividade
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+Qualidade das amostras de terem ou reproduzirem, sem tendenciosidade, as propriedades da população
+
+
+Deseja-se sempre **amostras representativas!**
+
+:::
+
+::: {.column width="40%"}
+
+
+![](/images/amostra_repres.jpeg){fig-align="center"}
+:::
+
+::::
+
+
+
+
+## Unidade Amostral
+
+
+Elemento, **definido pela pesquisa**, ao qual corresponde cada observação
+
+![](/images/unidade_amostral.png){.r-stretch fig-align="center"}
+
+Pode ser um indivíduo ou um conjunto de indivíduos
+
+
+
+## Sorteio
+
+Procedimento que confere a **todos os elementos** de um conjunto a **mesma probabilidade** de serem tomados
+
+
+<br>
+
+. . .
+
+### Amostragem aleatória
+
+Quando algum **mecanismo de sorteio** é utilizado para compor a amostra
+
+
+
+
+
+
+
+# Mecanismos de sorteio
+
+
+## Mecanismos físicos
+
+![](/images/sorteio.jpg){fig-align="center"}
+
+
+
+## Números Aleatórios
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](/images/calculadora.png){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+
+Números aleatórios entre 0,000 e 0,999
+
+$$\fbox{SHIFT} \quad \fbox{Ran#} \quad \fbox{=}$$
+:::
+
+::::
+
+
+
+
+
+## Números Aleatórios
+
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](/images/excel.png){.absolute top=110 left=0 width="300" height="150"}
+
+![](/images/libre.png){.absolute top=310 left=0 width="300" height="150"}
+:::
+
+::: {.column width="70%"}
+
+- função **=ALEATÓRIO()** 
+
+    - números aleatórios entre 0 e 1  
+
+ou,
+
+- função **=ALEATÓRIOENTRE(a;b)**
+
+    - números aleatórios entre valores escolhidos "a" e "b"
+:::
+
+::::
+
+
+## Procedimentos do sorteio 
+
+### Sorteio de n elementos de um  total de N
+
+- **Método 1:** utilizando n números aleatórios
+
+
+    
+## Procedimentos do sorteio {auto-animate=true}
+
+### Sorteio de n elementos de um  total de N
+
+- **Método 1:** utilizando n números aleatórios
+
+    1. Enumere os elementos da população de 1 a N
+    
+
+## Procedimentos do sorteio {auto-animate=true}
+
+### Sorteio de n elementos de um  total de N
+
+- **Método 1:** utilizando n números aleatórios
+
+    1. Enumere os elementos da população de 1 a N
+    
+    2. Gere um número aleatório entre 0,000 e 0,999 
+
+
+## Procedimentos do sorteio {auto-animate=true}
+
+### Sorteio de n elementos de um  total de N
+
+- **Método 1:** utilizando n números aleatórios
+
+    1. Enumere os elementos da população de 1 a N
+    
+    2. Gere um número aleatório entre 0,000 e 0,999 
+
+    3. O elemento sorteado é aquele identificado pelo número:
+$$ 0,5+\frac{N}{0,999}\times \text{n}^{\underline{\text{o}}}\text{ aleatório gerado} $$ 
+
+
+
+
+## Procedimentos do sorteio {auto-animate=true}
+
+### Sorteio de n elementos de um  total de N
+
+- **Método 1:** utilizando n números aleatórios
+
+    1. Enumere os elementos da população de 1 a N
+    
+    2. Gere um número aleatório entre 0,000 e 0,999 
+
+    3. O elemento sorteado é aquele identificado pelo número:
+$$ 0,5+\frac{N}{0,999}\times \text{n}^{\underline{\text{o}}}\text{ aleatório gerado} $$ 
+    4. Repita o processo n vezes
+
+
+## Procedimentos do sorteio 
+
+**Exemplo:** Em uma turma de Estatística, há N = 41 alunos matriculados. Podemos numerá-los conforme a ordem alfabética.
+   
+. . .
+
+- Suponha que desejamos sortear n = 3 alunos.
+
+
+. . .
+
+- Suponha ainda que os números aleatórios tenham sido
+
+$$0,567\quad\quad\quad 0,024\quad\quad\quad 0,788 $$ 
+
+
+
+## Procedimentos do sorteio 
+
+Os alunos sorteados serão... 
+
+
+$$ 0,5+\frac{41}{0,999}\times 0,567 = 23,77 \approx 24 \rightarrow \text{aluno }24 $$ 
+
+. . .
+
+$$ 0,5+\frac{41}{0,999}\times 0,024 = 1,48 \approx 1 \rightarrow \text{aluno }1 $$ 
+
+. . .
+
+$$ 0,5+\frac{41}{0,999}\times 0,788 = 32,84 \approx 33 \rightarrow \text{aluno }33 $$ 
+
+
+## Procedimentos do sorteio 
+
+- **Método 2:** utilizando N números aleatórios
+
+
+## Procedimentos do sorteio {auto-animate=true}
+
+- **Método 2:** utilizando N números aleatórios
+
+    1. Gera-se um número aleatório para cada um dos N elementos da população
+    
+
+
+
+## Procedimentos do sorteio {auto-animate=true}
+
+- **Método 2:** utilizando N números aleatórios
+
+    1. Gera-se um número aleatório para cada um dos N elementos da população
+    
+    2. Ordena-se os elementos da população conforme os números aleatórios (a consequência disso é "embaralhar" os elementos da população) 
+
+
+
+
+## Procedimentos do sorteio {auto-animate=true}
+
+- **Método 2:** utilizando N números aleatórios
+
+    1. Gera-se um número aleatório para cada um dos N elementos da população
+    
+    2. Ordena-se os elementos da população conforme os números aleatórios (a consequência disso é "embaralhar" os elementos da população) 
+
+    3. Toma-se os n primeiros elementos neste novo conjunto. Estes são os elementos sorteados.
+
+
+## Procedimentos do sorteio
+
+
+**Exemplo:** Suponha que disponhamos de 12 voluntários para um ensaio clínico em que queremos comparar um novo medicamento com um placebo.
+
+
+. . .
+
+Temos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas que receberão o placebo (Grupo 2).
+
+
+## Procedimentos do sorteio 
+
+- Procedimento
+
+
+
+## Procedimentos do sorteio {auto-animate=true}
+
+- Procedimento
+
+    1. Identifique os voluntários de 1 a 12 
+    
+
+## Procedimentos do sorteio {auto-animate=true}
+
+- Procedimento
+
+    1. Identifique os voluntários de 1 a 12 
+    
+    2. Gere um número aleatório para cada um 
+    
+## Procedimentos do sorteio {auto-animate=true}
+
+- Procedimento
+
+    1. Identifique os voluntários de 1 a 12 
+    
+    2. Gere um número aleatório para cada um 
+    
+    3. Ordene-os conforme os números aleatórios 
+
+
+## Procedimentos do sorteio {auto-animate=true}
+
+- Procedimento
+
+    1. Identifique os voluntários de 1 a 12 
+    
+    2. Gere um número aleatório para cada um 
+    
+    3. Ordene-os conforme os números aleatórios 
+    
+    4. Os 6 primeiros estarão no Grupo 1, e os outros 6 no Grupo 2
+
+
+
+## Procedimentos do sorteio 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:20px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:20px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-c3ow">Voluntário</th>
+    <th class="tg-c3ow">Número Aleatório</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 1</td>
+    <td class="tg-c3ow">0,964</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 2</td>
+    <td class="tg-c3ow">0,017</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 3</td>
+    <td class="tg-c3ow">0,043</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 4</td>
+    <td class="tg-c3ow">0,199</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 5</td>
+    <td class="tg-c3ow">0,900</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 6</td>
+    <td class="tg-c3ow">0,786</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 7</td>
+    <td class="tg-c3ow">0,177</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 8</td>
+    <td class="tg-c3ow">0,181</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 9</td>
+    <td class="tg-c3ow">0,309</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 10</td>
+    <td class="tg-c3ow">0,003</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 11</td>
+    <td class="tg-c3ow">0,247</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 12</td>
+    <td class="tg-c3ow">0,665</td>
+  </tr>
+    <tr> 
+  </tr>
+</tbody></table>
+
+:::
+
+::: {.column width="50%"}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:20px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:20px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-c3ow">Grupo</th>
+    <th class="tg-c3ow">Número Aleatório</th>
+    <th class="tg-c3ow">Voluntário</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-34fe">1</td>
+    <td class="tg-34fe">0,003</td>
+    <td class="tg-34fe">Indivíduo 10</td>
+  </tr>
+  <tr>
+    <td class="tg-34fe">1</td>
+    <td class="tg-34fe">0,017</td>
+    <td class="tg-34fe">Indivíduo 2</td>
+  </tr>
+  <tr>
+    <td class="tg-34fe">1</td>
+    <td class="tg-34fe">0,043</td>
+    <td class="tg-34fe">Indivíduo 3</td>
+  </tr>
+  <tr>
+    <td class="tg-34fe">1</td>
+    <td class="tg-34fe">0,177</td>
+    <td class="tg-34fe">Indivíduo 7</td>
+  </tr>
+  <tr>
+    <td class="tg-34fe">1</td>
+    <td class="tg-34fe">0,181</td>
+    <td class="tg-34fe">Indivíduo 8</td>
+  </tr>
+  <tr>
+    <td class="tg-34fe">1</td>
+    <td class="tg-34fe">0,199</td>
+    <td class="tg-34fe">Indivíduo 4</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">0,247</td>
+    <td class="tg-c3ow">Indivíduo 11</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">0,309</td>
+    <td class="tg-c3ow">Indivíduo 9</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">0,665</td>
+    <td class="tg-c3ow">Indivíduo 12</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">0,786</td>
+    <td class="tg-c3ow">Indivíduo 6</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">0,900</td>
+    <td class="tg-c3ow">Indivíduo 5</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">0,964</td>
+    <td class="tg-c3ow">Indivíduo 1</td>
+  </tr>
+  <tr>
+  </tr>
+</tbody></table>
+
+:::
+
+::::
+
+
+
+
+
+
+# Amostragem não aleatória
+
+## Amostragem não aleatória
+
+Quando o sorteio não é possível ou viável
+
+- **Inacessibilidade:** Nem sempre todos os elementos da população estão disponíveis 
+
+    - Ex.: Estudo de casos de doença (apenas) dentre os pacientes atendidos em um centro
+
+
+## Amostragem não aleatória
+
+- **Operacionalidade:**  Nem sempre é viável identificar ou numerar todos os elementos, mesmo estando acessíveis. 
+
+    - Ex.: Amostra de folhas de uma árvore para uma análise de composição química 
+
+. . .
+
+- **Populações contínuas:** Se a população é formada de material contínuo (como líquido ou gás), não é possível enumerar os elementos da população 
+
+    - Ex.: amostras de água em pontos do rio para avaliar poluentes
+
+
+
+
+## Amostragem não aleatória
+
+- **Populações infinitas**  
+
+. . .
+
+Se a amostra é não aleatória, deve-se ao menos tentar garantir sua representatividade 
+
+. . .
+
+- **Coleta a esmo:** Apesar da subjetividade possível, consiste em tentar evitar tendenciosidade, coletando "ao acaso"
+
+    - entrevistar pessoas na rua, \emph{sem preferência} 
+    - coletar folhas em diferentes alturas e profundidades da copa
+
+
+
+
+## Amostragem não aleatória
+
+Quando parte da população é inacessível, buscar investigar se o segmento amostrado a representa, ou se devemos restringir as conclusões 
+
+. . .
+
+Muitas vezes, a amostra a esmo, para fins de análise, é considerada aleatória.
+
+. . .
+ 
+Mas atenção sobre a representatividade!
+
+
+
+
+# Aplicações potenciais
+
+## Aplicações
+
+-   Levantamentos epidemiológicos
+
+    -   prevalência de doenças
+    -   identificação de grupos mais susceptíveis
+
+-   Avaliação de fatores de risco de doenças
+
+## Aplicações
+
+-   Comparação de tratamentos para doenças
+
+    -   tratamento medicamentoso *vs* cirúrgico
+    -   diferentes associações de medicamentos
+
+-   Comparação de medicamentos: bioequivalência
+
+-   Avaliação de eficácia de vacinas
+
+## Aplicações
+
+-   Estratégias de diagnóstico e de tratamentos para estabelecer conduta clínica
+
+-   Avaliação de serviços de ambulatórios e hospitais
+
+# Exemplos de estudos
+
+## Impacto de celular na saúde
+
+Neste estudo, os autores revisaram dados de 63 estudos conduzidos entre 1994 e 2022. A revisão analisou cânceres cerebrais em adultos e crianças, assim como cânceres nas glândulas salivares e leucemia, e os riscos relacionados ao uso de telefones móveis, estações de base e transmissão, assim como exposição ocupacional e indicou que não houve alta dos casos.
+
+@KARIPIDIS2024108983
+
+## Consumo de carne vermelha e câncer
+
+Parra-Soto et al. (2022) investigaram diferentes tipos de dieta (onívora, apenas com carne branca, pescetariana e vegetariana/vegana) e sua associação com o desenvolvimento de câncer colorretal. Esses estudos indicam que limitar o consumo de carne é uma medida importante para a redução do risco de câncer colorretal.
+
+@parra-soto-2022
+
+## Medicamentos para disfunção erétil e perda de audição
+
+Os autores descrevem o caso de um paciente que desenvolveu perda auditiva neurossensorial súbita unilateral possivelmente relacionada ao uso de vardenafil para disfunção erétil. Este caso fornece mais evidências de que o consumo de inibidores da PDE-5 deve ser considerado como uma possível causa em pacientes que apresentam perda auditiva neurossensorial súbita.
+
+@snodgrass-2010
+
+## References {visibility="uncounted"}
+
+::: {#refs}
+:::

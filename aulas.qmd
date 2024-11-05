@@ -1,0 +1,12 @@
+---
+title: "Aulas"
+editor: visual
+---
+
+-   [Conceitos básicos](aulas/Conceitos básicos/index.html "Lab slides"){aria-label="Lab 0 slides"}
+
+-   [Planejamento na área de saúde](aulas/Planejamento/index.html "Lab slides"){aria-label="Lab 0 slides"}
+
+-   Medidas de acurácia e testes diagnósticos
+
+-   Modelos Logístico e Riscos Proporcionais (Cox)

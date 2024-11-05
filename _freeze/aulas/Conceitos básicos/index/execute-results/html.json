@@ -1,0 +1,19 @@
+{
+  "hash": "0f6a0f9d6d35b9fbaa475aec556c5eaa",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Conceitos básicos\"\nformat: \n  revealjs:\n    footer: \"\"\n    theme: quartomonothemer.scss\nincremental: false\ncode-link: true\n---\n\n::: {.cell}\n\n:::\n\n\n\n## Estatística a\n\n*A Estatística tem um papel relevante a nível da investigação científica na área das Ciências da Saúde, uma vez que as práticas e as investigações médicas geram uma grande quantidade de dados, cheios de incerteza e variabilidade, estando assim as variáveis de interesse sujeitas a flutuações aleatórias.*\n\n## R-Ladies São Paulo\n\n-   R-Ladies é uma organização **mundial** cuja missão é promover a diversidade de gênero na comunidade da linguagem R.\n\n-   [R-Ladies São Paulo](https://rladies-sp.org) faz parte da [R-Ladies Global](https://rladies.org).\n\n-   Nosso principal objetivo é promover a linguagem R, com foco na participação pessoas que se identificam com gêneros sub-representados na comunidade R, portanto: mulheres cis, mulheres trans, homens trans, pessoas não-binárias e queer.\n\n-   É apoiada financeiramente pela [R Consortium](https://www.r-consortium.org/all-projects/call-for-proposals#Rstats) (em parceria com a [Linux Foundation](https://www.linuxfoundation.org/projects)).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

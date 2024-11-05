@@ -1,0 +1,2370 @@
+---
+title: "Planejamento na área da saúde"
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    footer: ""
+    theme: quartomonothemer.scss
+    slide-number: c/t
+    show-slide-number: all
+incremental: false
+code-link: true
+bibliography: references.bib
+title-slide-attributes:
+    data-background-image: /images/back.jpeg
+    data-background-size: cover
+    data-background-opacity: "0.3"
+---
+
+## Planejamento de estudos
+
+O planejamento de um estudo refere-se à forma de sua organização.
+
+-   Quais os objetivos e hipóteses da pesquisa?
+-   Qual a população alvo?
+-   Quais as variáveis a serem consideradas?
+-   Qual o tamanho da amostra?
+-   Quais métodos de coleta de dados?
+-   ...
+
+## Delineamentos na área de saúde 
+
+![](/images/tiposEstudo.png){fig-align="center"}
+
+## Delineamentos na área de saúde 
+
+Consideram a dimensão "tempo"?
+
+<br>
+
+![](/images/estudos2.png){fig-align="center"}
+
+## Delineamentos na área de saúde 
+
+Estudos que levam em consideração o tempo
+
+<br>
+
+![](/images/estudos3.png){fig-align="center"}
+
+O termo **longitudinal** geralmente só é utilizado para estudos prospectivos
+
+## Estudos observacionais
+
+-   A pesquisa deve ser feita sem intervenções no evento
+
+    -   O pesquisador apenas coleta os dados
+
+-   Grupos estudados são classificados no começo do estudo
+
+-   Não há intervenção direta do pesquisador
+
+## Estudos observacionais descritivos
+
+É um tipo de pesquisa cujo objeto de uma análise é uma unidade de interesse. Tem como objetivo a simples descrição de um fato.
+
+-   É o tipo mais básico de estudo clínico.
+-   Não é necessário o cálculo do tamanho da amostra (Amostragem a esmo).
+
+## Estudos observacionais descritivos
+
+-   Geram uma hipótese.
+-   Geralmente são o primeiro passo de uma investigação clínica.
+-   De forma geral, são estudos transversais.
+
+## Estudos observacionais descritivos
+
+<br>
+
+**Relato de caso:** consiste na cuidadosa e minuciosa descrição por um ou mais pesquisadores (médicos), do diagnóstico e evolução da doença de um pequeno número de pacientes.
+
+
+
+
+## Estudos observacionais descritivos
+
+<br>
+
+**Série de casos:** o pesquisador usa dados dos arquivos de suas instituições para produzir artigos que consistem na apresentação dos resultados de tratamentos, descrição dos pacientes e outras informações relevantes.
+
+
+
+## Estudos observacionais descritivos
+
+### Exemplos
+
+O Oftalmologista N. Gregg observou, em 1941, na Austrália, recém-nascidos com catarata congênita. Fazendo um estudo do *histórico* dos casos, verificou que as mães haviam tido rubéola no primeiro trimestre de gestação. Esta constatação levou ao desenvolvimento de vacinas.
+
+@Gregg1977
+
+## Estudos observacionais descritivos
+
+### Exemplos
+
+::: {style="font-size: 36px;"}
+Em 1987 foram analisados dados de 150 pacientes com linfomas não-Hodgkin da Santa Casa de Misericórdia e do Hospital de Belo Horizonte, tentando identificar fatores relacionados ao nível de remissão.
+
+Os fatores mais importantes foram a histologia, estádio da doença e sintomas, que permitiram separar os pacientes em 18 grupos, com remissão variando de 17% a 95%.
+:::
+
+@brandao-1987
+
+## Estudos observacionais analíticos
+
+Estudos analíticos são aqueles delineados para examinar a existência de associação entre uma exposição e uma doença ou condição relacionada à saúde.
+
+## Estudos observacionais analíticos
+
+Ao se iniciar um estudo analítico, é fundamental identificar a resposta de interesse.
+
+-   ocorrência da cura da doença ou remissão de um tumor (dicotômica)
+-   tempo de sobrevivência ou tempo de remissão até a recidiva (contínua)
+-   índices de qualidade de vida, entre outras.
+
+## Estudos observacionais analíticos
+
+Para investigar a associação entre um fator de risco (ou a exposição) e a doença (ou a ocorrência de um desfecho), vamos definir alguns eventos de interesse.
+
+## Estudos observacionais analíticos
+
+<br>
+
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:2px;font-family:Arial, sans-serif;font-size:36px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:2px;font-family:Arial, sans-serif;font-size:36px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-sej6{border-color:inherit;font-family:"Montserrat", Monaco, monospace !important;text-align:left;vertical-align:top;font-size:36px}
+.tg .tg-9gjn{background-color:#30af9e;border-color:inherit;font-family:"Montserrat", Monaco, monospace !important;font-weight:bold;text-align:left;
+  vertical-align:top;font-size:36px}
+.tg .tg-hv44{border-color:inherit;font-family:"Montserrat", Monaco, monospace !important;text-align:center;vertical-align:top;font-size:36px}
+.tg .tg-wi6j{background-color:#30af9e;border-color:inherit;font-family:"Montserrat", Monaco, monospace !important;font-weight:bold;text-align:center;
+  vertical-align:top;font-size:36px}
+.tg .tg-wb37{border-color:inherit;font-family:"Montserrat", Monaco, monospace !important;font-size:100%;text-align:left;
+  vertical-align:top}
+
+</style>
+
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-9gjn">Evento</th>
+    <th class="tg-wi6j">Descrição</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-hv44">E<sub>+</sub></td>
+    <td class="tg-sej6">ser Exposto</td>
+  </tr>
+  <tr>
+    <td class="tg-hv44">E<sub>-</sub></td>
+    <td class="tg-sej6">não ser Exposto</td>
+  </tr>
+  <tr>
+    <td class="tg-hv44">D<sub>+</sub></td>
+    <td class="tg-sej6">ser Doente (apresentar o desfecho)</td>
+  </tr>
+  <tr>
+    <td class="tg-hv44">D<sub>-</sub> </td>
+    <td class="tg-sej6">não ser Doente (não apresentar o desfecho)</td>
+  </tr>
+  <tr>
+    <td class="tg-hv44">C<sub>+</sub></td>
+    <td class="tg-sej6">ser Caso (apresentar o desfecho)</td>
+  </tr>
+  <tr>
+    <td class="tg-hv44">C<sub>-</sub></td>
+    <td class="tg-sej6">ser Controle (não apresentar o desfecho)</td>
+  </tr>
+  <tr>
+    <td class="tg-hv44">F<sub>+</sub></td>
+    <td class="tg-sej6">apresentar um Fator de risco (ou fator investigado)</td>
+  </tr>
+  <tr>
+    <td class="tg-hv44">F<sub>-</sub></td>
+    <td class="tg-sej6">não apresentar um Fator de risco (ou fator investigado)</td>
+  </tr>
+  <tr> 
+  </tr>
+</tbody></table>
+
+
+# Estudo de coorte
+Estudos observacionais analíticos
+
+## Estudos de coorte
+
+O termo *coorte* é usado para designar um grupo de pessoas que tenham determinadas características em comum, por exemplo, terem nascido no mesmo ano.
+
+
+## Estudos de coorte
+
+São estudos observacionais onde a situação dos participantes quanto à exposição de interesse determina sua seleção para o estudo, ou sua classificação após inclusão no estudo. 
+
+
+
+
+
+## Estudos de coorte{auto-animate="true"}
+
+São estudos observacionais onde a situação dos participantes quanto à exposição de interesse determina sua seleção para o estudo, ou sua classificação após inclusão no estudo. 
+
+Esses indivíduos são monitorados ao longo do tempo para avaliar a incidência de doença ou de outro desfecho de interesse
+
+
+## Finalidade dos estudos de coorte
+
+- Etiologia de doenças. 
+    
+   - fumo x câncer pulmonar    
+    
+    
+      
+- História natural. 
+
+   - evolução de uma doença
+
+
+
+## Finalidade dos estudos de coorte{auto-animate="true"}
+
+- Estudo de impacto de fatores prognósticos. 
+
+    - marcadores tumorais e evolução de câncer
+    
+- Intervenções diagnósticas. 
+
+    - papanicolau x mortalidade por câncer de útero
+
+- Terapêuticas. 
+
+    - tratamento de hipertensão arterial  x infarto agudo do miocárdio
+
+
+## Estudos de coorte
+
+Em estudos de coorte, o pesquisador define datas de início e de final do seguimento dos participantes: durante este intervalo são colhidas informações sobre a exposição de interesse, sobre covariáveis e sobre o(s) desfecho(s)
+
+
+## Estudos de coorte{auto-animate="true"}
+
+
+![](/images/coorte.png){fig-align="center"}
+
+
+
+## Estudos de coorte{auto-animate="true"}
+
+
+Inicialmente, os participantes são distribuídos em grupos, de acordo com sua situação quanto à exposição investigada.
+
+
+
+## Estudos de coorte{auto-animate="true"}
+
+
+Inicialmente, os participantes são distribuídos em grupos, de acordo com sua situação quanto à exposição investigada.
+
+Os dois grupos são acompanhados por um período de tempo e as incidências da doença são calculadas.
+
+
+
+
+## Incidência{auto-animate="true"}
+
+Os dois grupos são acompanhados por um período de tempo e as incidências da doença são calculadas.
+
+
+$$\text{incidência} = \dfrac{\text{Nº de casos novos em determinado período} }{\text{Nº de pessoas expostas ao risco no mesmo período}}$$
+
+
+## Incidência{auto-animate="true"}
+
+
+$$\text{incidência} = \dfrac{\text{Nº de casos novos em determinado período} }{\text{Nº de pessoas expostas ao risco no mesmo período}}$$
+
+
+A **incidência** diz respeito à frequência com que surgem **novos casos** de uma doença num intervalo de tempo oriundos de uma população sob risco de adoecimento no início da observação.
+
+
+
+## Incidência{auto-animate="true"}
+
+
+A **incidência** diz respeito à frequência com que surgem **novos casos** de uma doença num intervalo de tempo oriundos de uma população sob risco de adoecimento no início da observação.
+
+- Se a incidência entre os expostos (E~+~) for mais alta do que entre os não expostos (E~-~):
+
+    - indica associação entre fator e doença.
+
+
+
+
+## Risco Relativo ou Razão de Riscos (RR) 
+
+Para análise dos dados, considere a seguinte tabela de contingência:
+
+<br>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky">D~+~</th>
+    <th class="tg-0pky">D~-~</th>
+    <th class="tg-0pky">Total</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-re1e">E~+~</td>
+    <td class="tg-0pky">a</td>
+    <td class="tg-0pky">b</td>
+    <td class="tg-0pky">a+b</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">E~-~</td>
+    <td class="tg-0pky">c</td>
+    <td class="tg-0pky">d</td>
+    <td class="tg-0pky">c+d</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Total</td>
+    <td class="tg-0pky">a+c</td>
+    <td class="tg-0pky">b+d</td>
+    <td class="tg-0pky">a+b+c+d</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+## Risco Relativo ou Razão de Riscos (RR) {auto-animate="true"}
+
+
+
+$$\text{Risco Relativo (RR)} = \dfrac{\dfrac{a}{a+b}}{\dfrac{c}{c+d}}$$
+
+## Risco Relativo ou Razão de Riscos (RR) {auto-animate="true"}
+
+
+
+$$\text{Risco Relativo (RR)} = \dfrac{\dfrac{a}{a+b}}{\dfrac{c}{c+d}}$$
+
+Ou seja, o risco relativo é a razão entre a incidência nos expostos e a incidência nos não expostos ao fator de risco. 
+
+
+
+
+## Risco Relativo ou Razão de Riscos (RR) {auto-animate="true"}
+
+**Interpretação:** É o número de vezes que as pessoas expostas ao fator de risco estão mais sujeitas a se tornarem doentes em relação as não expostas
+
+
+
+
+## Risco Relativo ou Razão de Riscos (RR) {auto-animate="true"}
+
+**Interpretação:** É o número de vezes que as pessoas expostas ao fator de risco estão mais sujeitas a se tornarem doentes em relação as não expostas
+
+
+- Se RR > 1  -  fator de risco
+
+- Se RR < 1  -  fator de proteção
+
+- Se RR = 1  -  sem associação
+
+
+## Risco Relativo ou Razão de Riscos (RR) {auto-animate="true"}
+
+**Exemplo:** O risco de desenvolver AIDS é 1,39 vezes maior entre os que tem úlcera genital do que os sem úlcera
+
+  - O risco de desenvolver AIDS é 39% maior para quem tem úlcera do que nos indivíduos sem úlcera
+
+
+
+## Estudos de coorte{auto-animate="true"}
+
+
+
+![](/images/tiposCoorte2.png){fig-align="center"}
+
+## Estudos de coorte{auto-animate="true"}
+
+
+Os estudos de coorte possuem várias vantagens:
+
+- Permite o cálculo de taxas de incidência em expostos e não expostos e, através destas, o Risco Relativo (RR);
+
+- O fator de exposição é definido no início do estudo não sofrendo influências da presença ou ausência do evento de interesse;
+
+
+
+## Estudos de coorte{auto-animate="true"}
+
+
+Os estudos de coorte possuem várias vantagens:
+
+- Melhor método para se conhecer com precisão a história natural de uma doença, assim como sua incidência;
+
+- Permite o estudo de múltiplos efeitos/consequências de um mesmo fator de exposição;
+
+
+
+## Estudos de coorte{auto-animate="true"}
+
+Os estudos de coorte possuem várias vantagens:
+
+- Vieses de confusão são mais fáceis de controlar;
+
+- Permite o estudo de fatores de exposição pouco frequentes;
+
+
+
+
+## Estudos de coorte{auto-animate="true"}
+
+Os estudos de coorte possuem algumas desvantagens:
+
+
+- Caros, devido ao longo período de seguimento;
+
+- Existência de possíveis fatores (viés) de confusão;
+
+
+
+
+## Estudos de coorte{auto-animate="true"}
+
+Os estudos de coorte possuem algumas desvantagens:
+
+
+- Longa duração, com a existência implícita de perdas de magnitude diferente entre expostos e não-expostos;
+
+- Menos adequados para o estudo de múltiplas causas de um evento específico (multicausalidade);
+
+
+## Estudos de coorte{auto-animate="true"}
+
+
+Os estudos de coorte possuem algumas desvantagens:
+
+
+- Não apropriados para o estudo de doenças raras;
+
+- Suscetíveis a perdas que podem comprometer a validez do estudo;
+
+- Pouco reprodutíveis;
+
+
+
+## Estudos de coorte{auto-animate="true"}
+
+Os estudos de coorte possuem algumas desvantagens:
+
+- Possibilidade de mudança no estado de exposição entre os dois grupos (exposto vira não-exposto; não-exposto vira exposto);
+
+- Pouco apropriados para doenças com longo período de latência.
+
+
+
+## Estudos de coorte{auto-animate="true"}
+
+
+Um exemplo de estudo de coorte é uma pesquisa para verificar a relação entre a incidência de câncer de pulmão e a exposição à fumaça do cigarro. Começa-se selecionando o grupo de indivíduos expostos à fumaça do cigarro e outra amostra de indivíduos que não são expostos.
+
+
+## Estudos de coorte{auto-animate="true"}
+
+Depois, após um período específico, verifica-se o quanto os indivíduos expostos ao cigarro estão mais sujeitos ao câncer de pulmão.
+
+
+## Estudos de coorte{auto-animate="true"}
+
+
+Outro exemplo pode ser a análise da eficácia de uma vacina. Em primeiro lugar, separa-se um grupo de pessoas que tomaram vacina e outro grupo de pessoas que não tomaram. Em seguida, compara-se a incidência da doença em pessoas que tomaram a vacina entre a incidência de pessoas que não tomaram.
+
+
+# Estudo caso-controle
+
+Estudos observacionais analíticos 
+
+## Estudo caso-controle
+
+Tipo de estudo observacional que se inicia com a seleção de um grupo de pessoas portadoras de uma doença ou condição específica (casos), e um outro grupo de pessoas que não sofrem dessa doença ou condição (controle).
+
+
+## Estudo caso-controle
+
+O propósito desse estudo é identificar características (exposições, ou fatores de risco) que ocorrem em maior (ou menor) freqüência entre casos do que entre controles.
+
+
+## Estudo caso-controle
+
+- Retrospectivo
+- Identifica um grupo de pacientes com o desfecho (casos) e um outro sem o desfecho (controles)
+- Examina as variáveis de predição no passado
+- Determina a força da associação entre a variável de predição e a variável de desfecho
+
+
+
+## Estudo caso-controle
+
+![](/images/caso-controle.png){fig-align="center"}
+
+## Estudo caso-controle {auto-animate="true"}
+
+
+O estudo começa com o levantamento da história clínica de todos os pacientes selecionados.
+
+
+
+## Estudo caso-controle {auto-animate="true"}
+
+
+O estudo começa com o levantamento da história clínica de todos os pacientes selecionados.
+
+Procura-se saber se o fator de risco está presente mais frequentemente entre os casos do que entre os controles.
+
+
+## Estudo caso-controle {auto-animate="true"}
+
+Procura-se saber se o fator de risco está presente mais frequentemente entre os casos do que entre os controles.
+
+Se a evidência for suficiente, o pesquisador concluirá que existe associação entre o fator de risco e a doença.
+
+
+## Estudo caso-controle {auto-animate="true"}
+
+Se a evidência for suficiente, o pesquisador concluirá que existe associação entre o fator de risco e a doença.
+
+Com este tipo de delineamento, estima-se a prevalência e não a incidência do desfecho de interesse.
+
+
+## Estudo caso-controle {auto-animate="true"}
+
+Com este tipo de delineamento, estima-se a prevalência e não a incidência do desfecho de interesse.
+
+$$\text{prevalência} = \dfrac{\text{Nº de casos existentes em determinado período} }{\text{Nº de pessoas na população no mesmo período}}$$
+
+## Estudo caso-controle {auto-animate="true"}
+
+$$\text{prevalência} = \dfrac{\text{Nº de casos existentes em determinado período} }{\text{Nº de pessoas na população no mesmo período}}$$
+
+
+A **prevalência** se refere ao número de casos existentes de uma doença em um dado momento. Os casos existentes são daqueles que adoeceram em algum momento do passado, somados aos casos novos dos que ainda estão vivos e doentes
+
+
+
+
+## Estudo caso-controle
+
+Como o número de casos é deffinido pelo pesquisador, o cálculo da incidência não pode ser feito diretamente, necessitando-se, assim, adotar uma medida alternativa conhecida como *odds-ratio*. 
+
+
+## Estudos caso-controle
+
+<br>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky">C~+~</th>
+    <th class="tg-0pky">C~-~</th>
+    <th class="tg-0pky">Total</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-re1e">F~+~</td>
+    <td class="tg-0pky">a</td>
+    <td class="tg-0pky">b</td>
+    <td class="tg-0pky">a+b</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">F~-~</td>
+    <td class="tg-0pky">c</td>
+    <td class="tg-0pky">d</td>
+    <td class="tg-0pky">c+d</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Total</td>
+    <td class="tg-0pky">a+c</td>
+    <td class="tg-0pky">b+d</td>
+    <td class="tg-0pky">a+b+c+d</td>
+  </tr>
+</tbody>
+</table>
+
+
+## Razão de chances ou *odds-ratio* {auto-animate="true"}
+
+
+
+$$\text{Razão de chances (OR)} = \dfrac{\dfrac{\dfrac{a}{a+c}}{\dfrac{c}{a+c}}}{\dfrac{\dfrac{b}{b+d}}{\dfrac{d}{b+d}}} = \dfrac{\dfrac{a}{c}}{\dfrac{b}{d}} = \dfrac{ad}{bc}$$
+## Razão de chances ou *odds-ratio* {auto-animate="true"}
+
+
+**Interpretação:** O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.
+
+
+
+
+## Razão de chances ou *odds-ratio* {auto-animate="true"}
+
+
+**Interpretação:** O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.
+
+
+- Se OR > 1  -  fator de risco
+
+- Se OR < 1  -  fator de proteção
+
+- Se OR = 1  -  sem associação
+
+
+
+
+## Vantagens
+
+- São mais baratos
+
+- Mais eficientes para doenças raras
+
+- Factível em menos tempo
+
+- Mais comum
+
+
+## Desvantagens
+
+
+- Não guarda relação de temporalidade
+
+- Não estima risco diretamente
+
+- Não serve para estimar incidência de desfecho
+
+- Susceptíveis a viéses
+
+
+
+
+
+## Exemplo {auto-animate="true"}
+
+
+Traumatismos cranianos são relativamente comuns entre esquiadores e praticantes de snowboard nos alpes. Parece plausível que os capacetes impediriam essas lesões, mas os críticos apontam que os capacetes podem também aumentar as lesões, pois reduzem o campo de visão, prejudicam a audição e dão aos atletas uma falsa sensação de segurança. 
+
+
+## Exemplo {auto-animate="true"}
+
+
+Para obter evidências mais definitivas sobre os reais efeitos dos capacetes, pesquisadores na Noruega conduziram um estudo de caso-controle. Casos e controles foram escolhidos entre os visitantes de oito grandes estações de esqui durante o inverno de 2002.
+
+
+
+
+## Exemplo {auto-animate="true"}
+
+
+
+![](/images/exemploCaso-controle.png){fig-align="center"}
+
+
+
+## Exemplo {auto-animate="true"}
+
+- **Casos:** 578 pessoas com traumatismos cranianos registradas
+
+
+
+## Exemplo {auto-animate="true"}
+
+- **Casos:** 578 pessoas com traumatismos cranianos registradas
+
+- **Controles:** uma amostra das pessoas que estavam esperando na fila para o principal teleférico em cada uma das oito estações
+
+
+## Exemplo 
+
+- **Variáveis confundidoras:** idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis.
+
+
+  
+  
+## Exemplo {auto-animate="true"}
+
+- **Variáveis confundidoras:** idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis.
+
+  - Analisadas tanto nos casos quanto nos controles
+  
+
+
+## Exemplo 
+
+
+Após considerar os confundidores, o uso de capacete foi associado a uma redução de 60% no risco de traumatismo craniano.
+
+@Sulheim44
+
+
+
+
+# Estudos Transversais
+
+Estudos observacionais analíticos
+
+
+## Estudo Transversal{auto-animate="true"}
+
+É uma forma de pesquisa que se caracteriza pela observação direta de determinada
+quantidade planejada de indivíduos em uma única oportunidade, após um corte no tempo.
+
+
+## Estudo Transversal{auto-animate="true"}
+
+É uma forma de pesquisa que se caracteriza pela observação direta de determinada
+quantidade planejada de indivíduos em uma única oportunidade, após um corte no tempo.
+
+Tanto a exposição como o desfecho são observados simultaneamente para cada indivíduo.
+
+
+
+## Estudo Transversal{auto-animate="true"}
+
+Funciona como uma fotografia do que acontece naquele instante...
+
+
+
+## Estudo Transversal{auto-animate="true"}
+
+
+![](/images/transversal.png){fig-align="center"}
+
+
+## Estudo Transversal{auto-animate="true"}
+
+- Útil para estudar condições que são avaliadas de forma quantitativa e que podem variar ao longo do tempo,
+
+    - **Exemplo:** Pressão sanguínea
+
+
+
+## Estudo Transversal{auto-animate="true"}
+
+- Útil para estudar condições que são avaliadas de forma quantitativa e que podem variar ao longo do tempo,
+
+    - **Exemplo:** Pressão sanguínea
+
+
+- ou doenças que são relativamente frequentes e têm longa duração.
+
+    - **Exemplo:** Bronquite crônica
+    
+
+
+## Estudo Transversal{auto-animate="true"}
+
+<br>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky">D~+~</th>
+    <th class="tg-0pky">D~-~</th>
+    <th class="tg-0pky">Total</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-re1e">E~+~</td>
+    <td class="tg-0pky">a</td>
+    <td class="tg-0pky">b</td>
+    <td class="tg-0pky">a+b</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">E~-~</td>
+    <td class="tg-0pky">c</td>
+    <td class="tg-0pky">d</td>
+    <td class="tg-0pky">c+d</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Total</td>
+    <td class="tg-0pky">a+c</td>
+    <td class="tg-0pky">b+d</td>
+    <td class="tg-0pky">a+b+c+d</td>
+  </tr>
+</tbody>
+</table>
+
+
+## Razão de prevalência {auto-animate="true"}
+
+
+$$\begin{eqnarray*}\text{Razão de prevalência (RP)} &=& \dfrac{\dfrac{\text{Expostos com desfecho}}{\text{Total de expostos}}}{\dfrac{\text{Não Expostos com desfecho}}{\text{Total de Não expostos}}}\\ &=& \dfrac{\dfrac{a}{a+b}}{\dfrac{c}{c+d}}\end{eqnarray*}$$
+
+
+
+## Razão de prevalência {auto-animate="true"}
+
+
+**Interpretação:** O significado da razão de prevalência é análogo aos anteriores.
+
+
+- Se RP > 1  -  fator de risco
+
+- Se RP < 1  -  fator de proteção
+
+- Se RP = 1  -  sem associação
+
+
+
+
+
+## Exemplo {auto-animate="true"}
+
+
+- Estudar a associação entre mulheres que fumam e cólica infantil. Para isso foi observada a seguinte tabela de contingência
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky">Com cólica</th>
+    <th class="tg-0pky">Sem cólica</th>
+    <th class="tg-0pky">Total</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-re1e">Mãe fuma</td>
+    <td class="tg-0pky">15</td>
+    <td class="tg-0pky">167</td>
+    <td class="tg-0pky">182</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Mãe não fuma</td>
+    <td class="tg-0pky">111</td>
+    <td class="tg-0pky">2477</td>
+    <td class="tg-0pky">2588</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Total</td>
+    <td class="tg-0pky">126</td>
+    <td class="tg-0pky">2644</td>
+    <td class="tg-0pky">2770</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+## Exemplo {auto-animate="true"}
+
+
+$$\text{Razão de prevalência (RP)} = \dfrac{\dfrac{15}{15+167}}{\dfrac{111}{111+2477}} = \dfrac{0,08}{0,04} = 2 > 1$$
+
+
+
+## Exemplo {auto-animate="true"}
+
+A razão de prevalência de cólica infantil entre mulheres que fumam é de **2 vezes** mais que as mulheres que não fumam. 
+
+
+
+## Exemplo {auto-animate="true"}
+
+A razão de prevalência de cólica infantil entre mulheres que fumam é de **2 vezes** mais que as mulheres que não fumam. 
+
+O hábito de fumar parece ser **fator de risco** para cólica infantil naquele dado momento na população.
+
+
+
+
+
+## Vantagens {auto-animate="true"}
+
+- Representa a população
+- Conveniente e não muito caro
+- Várias exposições e doenças
+- Doenças comuns e de longa duração: gera hipóteses
+- Estudos de coortes e Ensaios Clínicos Randomizados: testam hipóteses
+
+
+## Desvantagens {auto-animate="true"}## Vantagens {auto-animate="true"}
+
+- Vulnerável a viéses
+- Inclui somente casos que sobrevivem (disponíveis para o estudo)
+- Doenças de curta duração podem não ser representativas
+
+
+
+
+# Estudos Ecológicos
+
+Estudos observacionais analíticos
+
+
+
+## Características principais {auto-animate="true"}
+
+Os tipos de estudos que vimos até agora (Coorte, Caso-controle e Transversais) têm como unidade de análise o **indivíduo**.
+
+
+
+## Características principais {auto-animate="true"}
+
+Os tipos de estudos que vimos até agora (Coorte, Caso-controle e Transversais) têm como unidade de análise o **indivíduo**.
+
+Em **estudos ecológicos**, a unidade de análise é um **grupo de indivíduos** agregados, em geral, em função de fatores geográficos ou temporais.
+
+
+## Características principais {auto-animate="true"}
+
+Em **estudos ecológicos**, a unidade de análise é um **grupo de indivíduos** agregados, em geral, em função de fatores geográficos ou temporais.
+
+O interesse, nesse caso, está na comparação de uma **medida agregada** (proporção, taxa, média, etc.) da exposição com uma medida agregada do desfecho.
+
+
+
+## Características principais {auto-animate="true"}
+
+O interesse, nesse caso, está na comparação de uma **medida agregada** (proporção, taxa, média, mediana, etc.) da exposição com uma medida agregada do desfecho.
+
+- Compara-se grupos com maior ou menor **nível** de exposição.
+
+
+## Características principais {auto-animate="true"}
+
+
+- Compara-se grupos com maior ou menor **nível** de exposição.
+
+![](/images/ecologico.png){fig-align="center"}
+
+## Características principais 
+
+
+- Compara-se grupos com maior ou menor **nível** de exposição.
+
+![](/images/ecologico2.png){fig-align="center"}
+
+
+## Características principais 
+
+
+Dados ecológicos ou agregados:
+
+-  Informação sobre exposição e desfecho em grupos populacionais
+
+    - Escolas, cidades, países, etc.
+
+
+
+
+## Características principais {auto-animate="true"}
+
+
+Dados ecológicos ou agregados:
+
+-  Informação sobre exposição e desfecho em grupos populacionais
+
+    - Escolas, cidades, países, etc.
+
+- Quase sempre obtidos rotineiramente através de inquéritos ou sistemas de vigilância.
+
+
+
+## Características principais {auto-animate="true"}
+
+
+Dados ecológicos ou agregados:
+
+
+- Quase sempre obtidos através de inquéritos ou sistemas de vigilância.
+
+- Unidades de análise:
+
+    - Diferentes grupos (cidades, estados, etc.)
+    - Mesmo grupo em diferentes tempos (cidade de Ouro Preto em 2021, 2022, 2023, 2024)
+
+
+
+## Características principais
+
+@BARKER19861077
+
+![](/images/exemplo01.png){.absolute top=200 left=0 width="450" height="450"}
+
+. . .
+
+
+![](/images/exemplo02.png){.absolute top=200 right=0 width="450" height="450"}
+
+
+
+
+
+
+## Características principais 
+
+- O que os resultados sugerem?
+
+
+
+
+## Características principais {auto-animate="true"}
+
+- O que os resultados sugerem?
+
+    - Locais com maior mortalidade infantil tendem a apresentar maiores taxas de mortalidade por doenças cardiovasculares no futuro.
+
+
+
+## Características principais {auto-animate="true"}
+
+- O que os resultados sugerem?
+
+    - Locais com maior mortalidade infantil tendem a apresentar maiores taxas de mortalidade por doenças cardiovasculares no futuro.
+
+
+- É sabido que taxa de mortalidade infantil é indicador da situação de saúde no início da vida.
+
+
+    - Alta taxa de mortalidade: mais crianças desnutridas
+
+
+
+
+
+
+## Características principais {auto-animate="true"}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red;"}
+Hipótese
+:::
+
+
+## Características principais {auto-animate=true}
+
+::: {style="margin-top: 100px;"}
+Hipótese
+:::
+
+ Desnutrição na gestação e infância aumenta mortalidadepor doenças cardiovasculares na fase adulta?
+
+
+
+
+## Características principais {auto-animate=true}
+
+Por que fazer estudos ecológicos?
+
+
+- Dados disponíveis: rapidez e baixo custo
+
+- Geram hipóteses a serem comprovadas em outros delineamentos
+
+- Estudar os efeitos de exposições com nenhuma ou pouca variabilidade intra-grupo, ou difíceis de mensurar a nível individual.
+
+- Quando o objetivo é fazer inferências ecológicas.
+
+
+
+## Características principais {auto-animate=true}
+
+Níveis de medida
+
+
+- Medidas agregadas
+
+- Medidas coletivas
+
+
+
+
+## Características principais {auto-animate=true}
+
+Níveis de medida
+
+
+- Medidas agregadas: médias ou proporções obtidas a partir de dados individuais
+
+    - **Exemplo:** Média de idade, % de hipertensão
+
+- Medidas coletivas
+
+
+
+## Características principais 
+
+Níveis de medida
+
+
+- Medidas agregadas: médias ou proporções obtidas a partir de dados individuais
+
+    - **Exemplo:** Média de idade, % de hipertensão
+
+- Medidas coletivas: características que não variam entre indivíduos do mesmo grupo
+
+    - **Exemplo:** Imposto sobre tabaco, características do sistema de saúde
+
+
+
+
+## Características principais{auto-animate=true}
+
+Níveis de medida
+
+
+- Estudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.
+
+    - **nível de poluição do ar:** é mais fácil medir o **nível médio** de poluição do ar de determinada cidade do que o quanto cada indivíduo respira ao longo do dia. 
+
+
+## Características principais{auto-animate=true}
+
+Níveis de medida
+
+
+- Estudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.
+
+    - **variáveis com pouca variabilidade intra-grupos, mas com muita variabilidade entre grupos:** exposição à radiação em Chernobyl.
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+É possível classificar os estudos ecológicos da seguinte forma:
+
+- Comparação entre múltiplos grupos em um único momento
+
+- Estudos de série temporal
+
+- Delineamentos mistos
+
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+Comparação entre múltiplos grupos em um único momento
+
+
+Comparar a ocorrência do desfecho entre diferentes grupos ao mesmo tempo.
+
+
+- Estudos de série temporal
+
+- Delineamentos mistos
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+Estudos de série temporal
+
+
+Avaliar a evolução da ocorrência do desfecho em um mesmo local ao longo do tempo.
+
+- Delineamentos mistos
+
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Delineamentos mistos
+
+Combinam as duas estratégias acima.
+
+
+
+
+## Tipos de estudos ecológicos
+
+::: {layout-ncol=2}
+![Múltiplos grupos](/images/exemplo02.png){width="400" height="400"}
+
+![Series temporais](/images/autismo.png){width="500" height="400"}
+:::
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+**Exemplo:** Efeito de políticas de redução do tabagismo no Brasil
+
+ - Algumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)
+ 
+ 
+ 
+## Tipos de estudos ecológicos{auto-animate=true}
+
+Algumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)
+
+- Múltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
+ 
+ 
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Múltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
+ 
+- Série temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.
+
+
+
+ 
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Múltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
+ 
+- Série temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.
+
+
+- Misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.
+
+
+
+ 
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Múltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
+ 
+
+![](/images/multiplosGrupos.png){fig-align="center"}
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+Limitações do delineamento de múltiplos grupos
+ 
+
+- Cidades com políticas &rarr; maiores taxas de tabagismo.
+    
+     - Implementar políticas contra tabagismo aumenta as taxas de tabagismo?
+
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Por que avaliar em apenas um ponto no tempo aponta para este resultado?
+
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Por que avaliar em apenas um ponto no tempo aponta para este resultado?
+
+
+![](/images/confundimentoEcologico.png){fig-align="center"}
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Série temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.
+
+ 
+
+![](/images/serieTemporal.png){fig-align="center"}
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+Limitações do delineamento de série temporal
+ 
+
+- Cidades com políticas &rarr; grande redução nas taxas de tabagismo.
+    
+     - Implementar essas políticas parece ser muito efetivo!
+
+
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Será que não teria acontecido uma redução das taxas de tabagismo mesmo que nenhuma política tivesse sido implementada?
+
+    - Se sim, podemos estar superestimando (ou subestimando) o efeito da política
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Para termos uma ideia disso, é necessário avaliar as mudanças ao longo do tempo em cidades do grupo controle &rarr; **delineamento misto**
+
+![](/images/misto.png){fig-align="center"}
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Delineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.
+
+
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Delineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.
+
+
+- Permite comparar a mudança pré-implementação *versus* pós-implementação no grupo exposto com a mudança no mesmo período  no grupo não-exposto.
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- Delineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.
+
+
+- Permite comparar a mudança pré-implementação *versus* pós-implementação no grupo exposto com a mudança no mesmo período  no grupo não-exposto.
+
+    - Com isso, é possível **remover** a parte da mudança observada no grupo exposto que não se deve à política em questão.
+
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+- **Limitação:** Os grupos expostos e não-expostos devem ser comparáveis
+
+. . .
+
+- Base do método diferença-em-diferenças, muito usado em Ciências Sociais e em Economia para avaliar mudanças coletivas que envolvem toda a população.
+
+    - **Exemplo:** Mudanças de legislação, implementação de uma nova política, etc.
+
+
+
+
+## Tipos de estudos ecológicos
+
+**Falácia Ecológica** 
+
+-  Pode não ser verdadeira a redução/aumento ao âmbito individual de padrões observados no nível agregado 
+
+. . .
+    
+- O viés pode ocorrer porque uma associação observada entre variáveis relativas a agregados populacionais, não expressa necessariamente a associação existente no nível do indivíduo
+
+
+
+
+
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+
+Vantagens:
+
+- Permitir o estudo de grandes populações(comparações internacionais das taxas de incidência de doenças)
+
+- Investigação de cluster de doenças
+
+- Baixo custo e rápido
+
+- Disponibilidade de grandes bases de dados.
+
+
+
+## Tipos de estudos ecológicos{auto-animate=true}
+
+Alguns problemas metodológicos
+
+- Limitação na inferência causal **(Falácia Ecológica)**
+
+- Qualidade das informações
+
+- Auto-correlação espacial e temporal 
+
+- Problemas no controle de confundimento.
+
+
+
+
+# Estudos Experimentais
+
+
+## Estudos Experimentais
+
+Estudos em que o pesquisador manipula o fator de exposição, ou seja, provoca uma modificação intencional em algum aspecto do estado de saúde dos indivíduos, através da introdução de um esquema profilático ou
+terapêutico.
+
+
+# Ensaios Clínicos Aleatorizados
+
+Delineamento experimental a nível individual, prospectivos
+
+
+## Características principais{auto-animate=true}
+
+- Os ensaios clínicos são indicados para avaliar a segurança e eficácia de:
+    
+    - um novo produto;
+    - uma nova formulação de um mesmo produto ou associação de produtos já em uso e,
+    - uma nova indicação clínica de um produto já aprovado
+
+- Os ensaios podem avaliar o efeito terapêutico (drogas) ou profilático (vacinas)
+
+
+
+## Características principais{auto-animate=true}
+
+**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção
+
+
+
+
+## Características principais{auto-animate=true}
+
+**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção
+
+
+![](/images/ensaio_clinico.png){fig-align="center"}
+
+
+## Características principais
+
+**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção
+
+
+- **Grupo intervenção:** indivíduos que **recebem** o tratamento/intervenção
+    - Por exemplo, medicamento ativo
+    
+
+    
+## Características principais{auto-animate=true}
+
+**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção
+
+
+- **Grupo intervenção:** indivíduos que **recebem** o tratamento/intervenção
+    - Por exemplo, medicamento ativo
+    
+- **Grupo controle:** indivíduos que **não recebem** o tratamento/intervenção
+    - Por exemplo, placebo
+    
+    
+
+## Características principais{auto-animate=true}
+
+Cada grupo pode ser entendido como uma subamostra da amostra total
+
+
+    
+
+## Características principais{auto-animate=true}
+
+Cada grupo pode ser entendido como uma subamostra da amostra total
+
+
+- Como se a amostra total fosse a população e cada grupo uma amostra
+    
+
+    
+    
+## Características principais{auto-animate=true}
+
+Cada grupo pode ser entendido como uma subamostra da amostra total
+
+
+- Como se a amostra total fosse a população e cada grupo uma amostra
+    
+- Isto significa que cada grupo é similar à amostra total
+
+    - Os grupos são parecidos entre si!
+
+
+
+
+## Fases da pesquisa
+
+<br>
+
+![](/images/fases_ensaio_01.png){fig-align="center"}
+
+## Fases da pesquisa
+
+![](/images/fases_ensaio_02.png){fig-align="center"}
+
+## Fases da pesquisa
+
+<br>
+
+![](/images/fases_ensaio_03.png){fig-align="center"}
+
+
+
+## Mascaramento{auto-animate=true}
+
+- **Mascaramento (cegamento):** desconhecimento do grupo ao qual o participante pertence
+
+
+
+
+## Mascaramento{auto-animate=true}
+
+- **Mascaramento (cegamento):** desconhecimento do grupo ao qual o participante pertence
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-bottom-width:1px;border-color:black;border-style:solid;border-top-width:1px;border-width:0px;
+  font-family:"Montserrat", Monaco, monospace !important;font-size:24px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-bottom-width:1px;border-color:black;border-style:solid;border-top-width:1px;border-width:0px;
+  font-family:"Montserrat", Monaco, monospace !important;font-size:24px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"></th>
+    <th class="tg-1wig">Sem mascaramento</th>
+    <th class="tg-1wig">Uni-cego</th>
+    <th class="tg-1wig">Duplo-cego</th>
+    <th class="tg-1wig">Triplo-cego</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-1wig">Pacientes</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">NÃO</td>
+    <td class="tg-baqh">NÃO</td>
+    <td class="tg-baqh">NÃO</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">Investigador</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">NÃO</td>
+    <td class="tg-baqh">NÃO</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">Analista de dados</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">NÃO</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+## Mascaramento
+
+- **Mascaramento (cegamento):** desconhecimento do grupo ao qual o participante pertence
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-bottom-width:1px;border-color:black;border-style:solid;border-top-width:1px;border-width:0px;
+  font-family:"Montserrat", Monaco, monospace !important;font-size:24px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-bottom-width:1px;border-color:black;border-style:solid;border-top-width:1px;border-width:0px;
+  font-family:"Montserrat", Monaco, monospace !important;font-size:24px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"></th>
+    <th class="tg-1wig">Sem mascaramento</th>
+    <th class="tg-1wig">Uni-cego</th>
+    <th class="tg-1wig">Duplo-cego</th>
+    <th class="tg-1wig">Triplo-cego</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-1wig">Pacientes</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">NÃO</td>
+    <td class="tg-baqh">NÃO</td>
+    <td class="tg-baqh">NÃO</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">Investigador</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">NÃO</td>
+    <td class="tg-baqh">NÃO</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">Analista de dados</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">SIM</td>
+    <td class="tg-baqh">NÃO</td>
+  </tr>
+</tbody>
+</table>
+
+- Diferentes formas de mascaramento evitam diferentes viéses
+
+    - reduzem as diferenças sistemáticas entre os grupos
+
+
+
+
+
+## Mascaramento{auto-animate=true}
+
+- Por que fazer mascaramento dos pacientes?
+
+- Por que fazer mascaramento dos investigadores?
+
+- Por que fazer mascaramento dos analistas?
+
+
+
+
+
+## Mascaramento{auto-animate=true}
+
+- Por que fazer mascaramento dos pacientes?
+    - Alguns pacientes podem não aderir ao tratamento proposto ou buscarem por outros tratamentos os quais acreditam ser mais benéficos caso saibam que estão no grupo placebo.
+
+
+- Por que fazer mascaramento dos investigadores?
+
+- Por que fazer mascaramento dos analistas?
+
+
+
+## Mascaramento{auto-animate=true}
+
+- Por que fazer mascaramento dos pacientes?
+
+- Por que fazer mascaramento dos investigadores?
+    - Já pesquisadores e equipe podem, de modo consciente ou inconsciente, modificar sua conduta no tratamento e no suporte dado aos participantes a depender do grupo de alocação.
+
+- Por que fazer mascaramento dos analistas?
+
+
+
+## Mascaramento{auto-animate=true}
+
+- Por que fazer mascaramento dos pacientes?
+
+- Por que fazer mascaramento dos investigadores?
+
+- Por que fazer mascaramento dos analistas?
+    - Saber a qual grupo o indivíduo da base de dados pertence pode influenciar os analistas a "torturar os dados" de forma a obter os resultados esperados/desejados.
+    
+    
+    
+
+## Mascaramento{auto-animate=true}
+
+Todos os ensaios clínicos devem ser mascarados?
+
+
+
+## Mascaramento{auto-animate=true}
+
+Todos os ensaios clínicos devem ser mascarados?
+
+- Por mais que o mascaramento seja uma característica importante de um ensaio clínico, sua implementação nem sempre é viável devido, por exemplo, à natureza de algumas intervenções 
+
+    - Por exemplo, procedimentos cirúrgicos, tratamentos fisioterapêuticos e psicológicos. 
+
+
+## Mascaramento{auto-animate=true}
+
+Todos os ensaios clínicos devem ser mascarados?
+
+- Sempre que for factível manter o mascaramento, ele deve ser utilizado.
+    - Quanto mais mascaramento, mais robustas serão as conclusões do estudo.
+    - Mascaramento dos analistas de dados é sempre possível!
+
+
+
+
+
+## Análise de dados{auto-animate=true}
+
+Os procedimentos analíticos de um ensaio clínico vão depender da natureza do estudo, dos
+parâmetros estimados, e dos efeitos que foram medidos.
+
+
+
+
+## Análise de dados{auto-animate=true}
+
+Os procedimentos analíticos de um ensaio clínico vão depender da natureza do estudo, dos
+parâmetros estimados, e dos efeitos que foram medidos.
+
+
+O plano de análise do ensaio clínico deve estar incluído no protocolo. Neste plano se identificam os efeitos principal e secundários que se quer avaliar e a forma de comparação.
+
+
+
+
+## Análise de dados{auto-animate=true}
+
+Como regra geral, a análise de dados deve inicialmente verificar a comparabilidade (decorrente da aleatorização) dos grupos incluídos no estudo em relação às características eventualmente associadas ao desfecho.
+
+
+## Análise de dados{auto-animate=true}
+
+Podemos definir a **Eficácia (EF)** de uma intervenção da seguinte forma:
+
+
+$$\dfrac{\% \text{de falha no grupo controle} - \% \text{de falha no grupo intervenção}}{\% \text{de falha no grupo controle}}$$
+
+## Análise de dados{auto-animate=true}
+
+**Exemplo:** A tabela abaixo mostra o resultado de um ensaio clínico que recrutou 50 pacientes em
+cada um dos grupos. 
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Grupo</th>
+    <th class="tg-0pky">Falha</th>
+    <th class="tg-0pky">Sucesso</th>
+    <th class="tg-0pky">Total</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-re1e">Experimental</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">45</td>
+    <td class="tg-0pky">50</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Placebo</td>
+    <td class="tg-0pky">37</td>
+    <td class="tg-0pky">13</td>
+    <td class="tg-0pky">50</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Total</td>
+    <td class="tg-0pky">42</td>
+    <td class="tg-0pky">58</td>
+    <td class="tg-0pky">100</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+
+## Análise de dados
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Grupo</th>
+    <th class="tg-0pky">Falha</th>
+    <th class="tg-0pky">Sucesso</th>
+    <th class="tg-0pky">Total</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-re1e">Experimental</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">45</td>
+    <td class="tg-0pky">50</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Placebo</td>
+    <td class="tg-0pky">37</td>
+    <td class="tg-0pky">13</td>
+    <td class="tg-0pky">50</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Total</td>
+    <td class="tg-0pky">42</td>
+    <td class="tg-0pky">58</td>
+    <td class="tg-0pky">100</td>
+  </tr>
+</tbody>
+</table>
+
+
+O tratamento experimental não curou 5/50 (10%) dos indivíduos e o tratamento placebo falhou em 37/50 (74%) dos indivíduos. 
+
+
+## Análise de dados
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Grupo</th>
+    <th class="tg-0pky">Falha</th>
+    <th class="tg-0pky">Sucesso</th>
+    <th class="tg-0pky">Total</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-re1e">Experimental</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">45</td>
+    <td class="tg-0pky">50</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Placebo</td>
+    <td class="tg-0pky">37</td>
+    <td class="tg-0pky">13</td>
+    <td class="tg-0pky">50</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Total</td>
+    <td class="tg-0pky">42</td>
+    <td class="tg-0pky">58</td>
+    <td class="tg-0pky">100</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+$$EF = \dfrac{\dfrac{37}{50} - \dfrac{5}{50}}{\dfrac{37}{50}} \times 100 \approx 86,5\%$$
+
+
+## Análise de dados
+
+
+$$EF = \dfrac{\dfrac{37}{50} - \dfrac{5}{50}}{\dfrac{37}{50}} \approx 86,5\%$$
+
+
+
+
+Logo, a eficácia terapêutica do tratamento experimental foi de 86,5%, aproximadamente.
+
+
+## Análise de dados
+
+Este mesmo resultado pode ser obtido utilizando-se a fórmula:
+
+
+$$EF = 1 - RR$$
+
+Lembre-se:
+
+
+$$\text{Risco Relativo (RR)} = \dfrac{\dfrac{a}{a+b}}{\dfrac{c}{c+d}}$$
+
+
+## Análise de dados
+
+Voltando ao exemplo...
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Grupo</th>
+    <th class="tg-0pky">Falha</th>
+    <th class="tg-0pky">Sucesso</th>
+    <th class="tg-0pky">Total</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-re1e">Experimental</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">45</td>
+    <td class="tg-0pky">50</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Placebo</td>
+    <td class="tg-0pky">37</td>
+    <td class="tg-0pky">13</td>
+    <td class="tg-0pky">50</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Total</td>
+    <td class="tg-0pky">42</td>
+    <td class="tg-0pky">58</td>
+    <td class="tg-0pky">100</td>
+  </tr>
+</tbody>
+</table>
+
+
+$$\text{Risco Relativo (RR)} = \dfrac{\dfrac{5}{50}}{\dfrac{37}{50}} = \dfrac{5}{37} \times 100 \approx 13,5\%$$
+
+
+
+## Análise de dados{auto-animate=true}
+
+Voltando ao exemplo...
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Grupo</th>
+    <th class="tg-0pky">Falha</th>
+    <th class="tg-0pky">Sucesso</th>
+    <th class="tg-0pky">Total</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-re1e">Experimental</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">45</td>
+    <td class="tg-0pky">50</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Placebo</td>
+    <td class="tg-0pky">37</td>
+    <td class="tg-0pky">13</td>
+    <td class="tg-0pky">50</td>
+  </tr>
+  <tr>
+    <td class="tg-re1e">Total</td>
+    <td class="tg-0pky">42</td>
+    <td class="tg-0pky">58</td>
+    <td class="tg-0pky">100</td>
+  </tr>
+</tbody>
+</table>
+
+
+De forma que,
+
+
+
+$$EF = 1 - RR = (1 - 0,135) \times 100 = 86,5\%$$
+
+## Vantagens e desvantagens{auto-animate=true}
+
+- Vantagens:
+
+    - Não são sujeitos a causalidade reversa.
+    - São de natureza experimental (randomização e controle preciso da intervenção)
+    - Permitem estudar a história natural da doença.
+
+
+## Vantagens e desvantagens{auto-animate=true}
+
+- Desvantagens:
+
+    - Às vezes são muito caros, demorados e complexos
+    - Podem não ser generalizáveis devido aos critérios de exclusão
+    - Correm o risco de serem eticamente inaceitáveis
+    - A desistência ao tratamento pode ser grande.
+
+
+
+
+# Ensaios de Campo
+
+Delineamento experimental a nível individual, prospectivos
+
+
+## Ensaios de Campo{auto-animate=true}
+
+São semelhantes ao Ensaio Clínico Aleatorizados, mas a população estudada não são pacientes e sim pessoas livres de doenças e presumivelmente sob risco.
+
+
+## Ensaios de Campo{auto-animate=true}
+
+São semelhantes ao Ensaio Clínico Aleatorizados, mas a população estudada não são pacientes e sim pessoas livres de doenças e presumivelmente sob risco.
+
+Os dados são coletados na população em geral. 
+
+
+
+## Ensaios de Campo{auto-animate=true}
+
+São semelhantes ao Ensaio Clínico Aleatorizados, mas a população estudada não são pacientes e sim pessoas livres de doenças e presumivelmente sob risco.
+
+Os dados são coletados na população em geral. 
+
+
+São mais caros e de maior duração de tempo.
+
+
+
+
+# Ensaios Comunitários
+
+Delineamento experimental a nível de comunidades, prospectivos
+
+
+## Ensaios comunitários {auto-animate=true}
+
+
+Envolvem a intervenção em nível de comunidades, ao invés de indivíduos. 
+
+
+
+
+## Ensaios comunitários {auto-animate=true}
+
+
+Envolvem a intervenção em nível de comunidades, ao invés de indivíduos. 
+
+Usados para avaliar a eficácia e efetividade de intervenções que busquem a prevenção primária através da modificação dos fatores de risco numa população. 
+
+
+
+
+## Ensaios comunitários {auto-animate=true}
+
+
+Envolvem a intervenção em nível de comunidades, ao invés de indivíduos. 
+
+Usados para avaliar a eficácia e efetividade de intervenções que busquem a prevenção primária através da modificação dos fatores de risco numa população. 
+
+
+
+
+
+## Ensaios comunitários {auto-animate=true}
+
+
+São conduzidos dentro de um contexto socioeconômico de uma população naturalmente formada. 
+
+
+
+
+## Ensaios comunitários {auto-animate=true}
+
+
+São conduzidos dentro de um contexto socioeconômico de uma população naturalmente formada. 
+
+Limitações: Dificuldade de isolar uma comunidade.
+
+
+
+
+
+# Outros tipos de estudo
+
+
+# Estudos de bioequivalência
+
+
+## Introdução{auto-animate=true}
+
+Geralmente, quando uma indústria farmacêutica descobre um novo princípio ativo ela cria um medicamento inovador, que ainda não existe no mercado. 
+
+
+
+## Introdução{auto-animate=true}
+
+Geralmente, quando uma indústria farmacêutica descobre um novo princípio ativo ela cria um medicamento inovador, que ainda não existe no mercado. 
+
+
+Ela tem direito a produzir e comercializar esse mesmo medicamento por anos antes de a fórmula ser compartilhada com outros laboratórios interessados em produzi-la.
+
+
+## Introdução{auto-animate=true}
+
+Ela tem direito a produzir e comercializar esse mesmo medicamento por anos antes de a fórmula ser compartilhada com outros laboratórios interessados em produzi-la.
+
+A partir do momento em que a patente acaba, outros laboratórios podem criar fórmulas genéricas desse mesmo princípio ativo.
+
+
+## Introdução{auto-animate=true}
+
+
+A partir do momento em que a patente acaba, outros laboratórios podem criar fórmulas genéricas desse mesmo princípio ativo.
+
+A partir daí iniciam-se os testes para analisar se o medicamento genérico produzido é realmente compatível e possui as mesmas propriedades que o pioneiro lançado anteriormente.
+
+
+## Introdução{auto-animate=true}
+
+
+Em tese, um medicamento genérico pode substituir o medicamento referência sem interferir no tratamento do paciente.
+
+
+## Introdução{auto-animate=true}
+
+
+Em tese, um medicamento genérico pode substituir o medicamento referência sem interferir no tratamento do paciente.
+
+
+Por não ser mais necessária toda a pesquisa obrigatória para a lançamento de um novo fármaco, o genérico possui um custo muito mais baixo, tornando-o muito mais atrativo.
+
+
+
+
+## Bioequivalência
+
+
+Entretanto, para que um genérico seja comercializado, é necessário que ele seja declarado **bioequivalente** ao medicamento referência.
+
+. . .
+
+A **bioequivalência** é a comprovação de que um medicamento é o equivalente terapêutico do medicamento referência, tanto em questão de quantidade de fármaco quanto da velocidade que atinge a corrente sanguínea. 
+
+
+
+## Bioequivalência
+
+
+**Estudos de bioequivalência** são estudos comparativo entre o medicamento de referência e o genérico correspondente. 
+
+. . .
+
+Se referem ao processo de comparação entre dois medicamentos que possuem as mesmas moléculas, concentrações e formas farmacêuticas.
+
+. . .
+
+No Brasil, são normatizados e fiscalizados pela [Anvisa](https://www.gov.br/anvisa/pt-br).
+
+
+
+## Etapas do estudo{auto-animate=true}
+
+
+Todos os estudos de bioequivalência devem completar três etapas para serem validados pela ANVISA:
+
+
+
+- **Etapa Clínica:** seleção de voluntários para administração dos medicamentos e coleta de amostras (sangue ou urina) 
+
+
+
+
+## Etapas do estudo{auto-animate=true}
+
+
+Todos os estudos de bioequivalência devem completar três etapas para serem validados pela ANVISA:
+
+- **Etapa Clínica:** seleção de voluntários para administração dos medicamentos e coleta de amostras (sangue ou urina) 
+
+
+- **Etapa Analítica:** análise das amostras coletadas na etapa clínica com a quantificação do fármaco por métodos bioanalíticos validados.
+
+
+
+
+
+
+## Etapas do estudo{auto-animate=true}
+
+
+Todos os estudos de bioequivalência devem completar três etapas para serem validados pela ANVISA:
+
+
+
+- **Etapa Estatística:** análise dos dados obtidos na etapa analítica com o cálculo dos parâmetros farmacocinéticos e análise estatística para determinar a bioequivalência ou bioinequivalência.
+
+
+
+## Etapas do estudo{auto-animate=true}
+
+![](/images/par_farmaco.png){fig-align="center"}
+
+
+
+
+## Delineamento
+
+Ensaios clínicos do tipo *crossover 2x2* são os mais utilizados em estudos de bioequivalência.
+
+. . .
+
+Cada indivíduo recebe as duas formulações do fármaco em períodos diferentes.
+
+. . .
+
+A ordem na qual os medicamentos são administrados é denominada de **sequência**.
+
+
+
+
+## Delineamento
+
+Por exemplo, para medicamentos Teste (T) e Referência (R) as duas sequências são RT e TR.
+
+<br>
+
+![](/images/par_farmaco2.png){fig-align="center"}
+
+
+# Estudos com delineamentos sequenciais ou adaptativos
+
+
+## Definição
+
+São ensaios clínicos que permitem modificações planejadas ao longo do estudo para um ou mais aspectos do delineamento.
+
+. . . 
+
+As modificações só ocorrem se um prévio limite estabelecido foi atendido.
+
+
+
+## Delineamento
+
+
+![](/images/ensaio_adaptativo.png){fig-align="center"}
+
+## Tipos de ensaios adaptativos
+
+**Adaptativo de dosagem:** os participantes são alocados para várias doses, e as respostas são avaliadas em análises interinas. 
+
+. . .
+
+Então, o estudo se adapta para alocar mais pacientes para as doses de maior interesse.
+
+
+## Tipos de ensaios adaptativos
+
+**Adaptativo de hipótese:** as hipóteses do estudo podem ser adaptadas de acordo com os resultados da análise interina. 
+
+. . .
+
+Por exemplo, várias hipóteses podem ser testadas simultaneamente ou as hipóteses nula e alternativa podem se alternar.
+
+
+## Tipos de ensaios adaptativos
+
+**Adaptativo de grupo sequencial:** após a análise interina, existem opções pré-especificadas para adaptações possíveis. 
+
+. . .
+
+Exemplos incluem re-estimar o tamanho da amostra, alterar os braços de tratamento, mudar desfechos, entre outros.
+
+
+
+# Meta-análise
+
+
+## Definição
+
+
+> Uma análise estatística de uma grande coleção de análises resultante de estudos individuais com o propósito de integrar os resultados.
+
+
+@glass1976
+
+. . .
+
+- Primeiros estudos surgiram nas áreas de Psicologia e Educação na década de 70
+
+
+
+## Definição
+
+
+Pode-se definir *meta-análise* como um conjunto de métodos quantitativos para integrar os dados provenientes de uma **revisão sistemática**.
+
+. . .
+
+Procuram contrastar e combinar resultados de diferentes estudos, com o objetivo de identificar padrões consistentes e fontes de discordância entre eles.
+
+
+## Fluxograma
+
+![](/images/metaanalise.png){fig-align="center"}
+
+::: footer
+Fonte: Adaptação (@santana2021).
+:::
+
+## References {visibility="uncounted"}
+
+::: {#refs}
+:::
