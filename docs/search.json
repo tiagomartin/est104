@@ -1,0 +1,1859 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Estatística Aplicada à Saúde",
+    "section": "",
+    "text": "Página dedicada à disciplina EST104 - Estatística Aplicada à Saúde\n\n\nBioestatística é o conjunto de métodos estatísticos usados para o planejamento e análise de dados de estudos em ciências médicas, biológicas ou, de forma geral, na área de saúde. É uma ferramenta útil para a tomada de decisões!"
+  },
+  {
+    "objectID": "estudos.html",
+    "href": "estudos.html",
+    "title": "Estudos de caso",
+    "section": "",
+    "text": "Estudo de caso 01",
+    "crumbs": [
+      "Estudos de caso"
+    ]
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#planejamento-de-estudos",
+    "href": "aulas/Planejamento/index.html#planejamento-de-estudos",
+    "title": "Planejamento na área da saúde",
+    "section": "Planejamento de estudos",
+    "text": "Planejamento de estudos\nO planejamento de um estudo refere-se à forma de sua organização.\n\nQuais os objetivos e hipóteses da pesquisa?\nQual a população alvo?\nQuais as variáveis a serem consideradas?\nQual o tamanho da amostra?\nQuais métodos de coleta de dados?\n…"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#delineamentos-na-área-de-saúde",
+    "href": "aulas/Planejamento/index.html#delineamentos-na-área-de-saúde",
+    "title": "Planejamento na área da saúde",
+    "section": "Delineamentos na área de saúde",
+    "text": "Delineamentos na área de saúde"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#delineamentos-na-área-de-saúde-1",
+    "href": "aulas/Planejamento/index.html#delineamentos-na-área-de-saúde-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Delineamentos na área de saúde",
+    "text": "Delineamentos na área de saúde\nConsideram a dimensão “tempo”?"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#delineamentos-na-área-de-saúde-2",
+    "href": "aulas/Planejamento/index.html#delineamentos-na-área-de-saúde-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Delineamentos na área de saúde",
+    "text": "Delineamentos na área de saúde\nEstudos que levam em consideração o tempo\n\n\nO termo longitudinal geralmente só é utilizado para estudos prospectivos"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais",
+    "text": "Estudos observacionais\n\nA pesquisa deve ser feita sem intervenções no evento\n\nO pesquisador apenas coleta os dados\n\nGrupos estudados são classificados no começo do estudo\nNão há intervenção direta do pesquisador"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais-descritivos",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais-descritivos",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais descritivos",
+    "text": "Estudos observacionais descritivos\nÉ um tipo de pesquisa cujo objeto de uma análise é uma unidade de interesse. Tem como objetivo a simples descrição de um fato.\n\nÉ o tipo mais básico de estudo clínico.\nNão é necessário o cálculo do tamanho da amostra (Amostragem a esmo)."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais-descritivos-1",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais-descritivos-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais descritivos",
+    "text": "Estudos observacionais descritivos\n\nGeram uma hipótese.\nGeralmente são o primeiro passo de uma investigação clínica.\nDe forma geral, são estudos transversais."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais-descritivos-2",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais-descritivos-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais descritivos",
+    "text": "Estudos observacionais descritivos\n\nRelato de caso: consiste na cuidadosa e minuciosa descrição por um ou mais pesquisadores (médicos), do diagnóstico e evolução da doença de um pequeno número de pacientes."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais-descritivos-3",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais-descritivos-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais descritivos",
+    "text": "Estudos observacionais descritivos\n\nSérie de casos: o pesquisador usa dados dos arquivos de suas instituições para produzir artigos que consistem na apresentação dos resultados de tratamentos, descrição dos pacientes e outras informações relevantes."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais-descritivos-4",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais-descritivos-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais descritivos",
+    "text": "Estudos observacionais descritivos\nExemplos\nO Oftalmologista N. Gregg observou, em 1941, na Austrália, recém-nascidos com catarata congênita. Fazendo um estudo do histórico dos casos, verificou que as mães haviam tido rubéola no primeiro trimestre de gestação. Esta constatação levou ao desenvolvimento de vacinas.\nGregg (1977)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais-descritivos-5",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais-descritivos-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais descritivos",
+    "text": "Estudos observacionais descritivos\nExemplos\n\nEm 1987 foram analisados dados de 150 pacientes com linfomas não-Hodgkin da Santa Casa de Misericórdia e do Hospital de Belo Horizonte, tentando identificar fatores relacionados ao nível de remissão.\nOs fatores mais importantes foram a histologia, estádio da doença e sintomas, que permitiram separar os pacientes em 18 grupos, com remissão variando de 17% a 95%.\n\nBrandão et al. (1987)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais-analíticos",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais-analíticos",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais analíticos",
+    "text": "Estudos observacionais analíticos\nEstudos analíticos são aqueles delineados para examinar a existência de associação entre uma exposição e uma doença ou condição relacionada à saúde."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais-analíticos-1",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais-analíticos-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais analíticos",
+    "text": "Estudos observacionais analíticos\nAo se iniciar um estudo analítico, é fundamental identificar a resposta de interesse.\n\nocorrência da cura da doença ou remissão de um tumor (dicotômica)\ntempo de sobrevivência ou tempo de remissão até a recidiva (contínua)\níndices de qualidade de vida, entre outras."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais-analíticos-2",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais-analíticos-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais analíticos",
+    "text": "Estudos observacionais analíticos\nPara investigar a associação entre um fator de risco (ou a exposição) e a doença (ou a ocorrência de um desfecho), vamos definir alguns eventos de interesse."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-observacionais-analíticos-3",
+    "href": "aulas/Planejamento/index.html#estudos-observacionais-analíticos-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos observacionais analíticos",
+    "text": "Estudos observacionais analíticos\n\n\n\n\n\n\n\nEvento\n\n\nDescrição\n\n\n\n\n\n\nE+\n\n\nser Exposto\n\n\n\n\nE-\n\n\nnão ser Exposto\n\n\n\n\nD+\n\n\nser Doente (apresentar o desfecho)\n\n\n\n\nD-\n\n\nnão ser Doente (não apresentar o desfecho)\n\n\n\n\nC+\n\n\nser Caso (apresentar o desfecho)\n\n\n\n\nC-\n\n\nser Controle (não apresentar o desfecho)\n\n\n\n\nF+\n\n\napresentar um Fator de risco (ou fator investigado)\n\n\n\n\nF-\n\n\nnão apresentar um Fator de risco (ou fator investigado)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nO termo coorte é usado para designar um grupo de pessoas que tenham determinadas características em comum, por exemplo, terem nascido no mesmo ano."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-1",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nSão estudos observacionais onde a situação dos participantes quanto à exposição de interesse determina sua seleção para o estudo, ou sua classificação após inclusão no estudo."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-2",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nSão estudos observacionais onde a situação dos participantes quanto à exposição de interesse determina sua seleção para o estudo, ou sua classificação após inclusão no estudo.\nEsses indivíduos são monitorados ao longo do tempo para avaliar a incidência de doença ou de outro desfecho de interesse"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#finalidade-dos-estudos-de-coorte",
+    "href": "aulas/Planejamento/index.html#finalidade-dos-estudos-de-coorte",
+    "title": "Planejamento na área da saúde",
+    "section": "Finalidade dos estudos de coorte",
+    "text": "Finalidade dos estudos de coorte\n\nEtiologia de doenças.\n\nfumo x câncer pulmonar\n\nHistória natural.\n\nevolução de uma doença"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#finalidade-dos-estudos-de-coorte-1",
+    "href": "aulas/Planejamento/index.html#finalidade-dos-estudos-de-coorte-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Finalidade dos estudos de coorte",
+    "text": "Finalidade dos estudos de coorte\n\nEstudo de impacto de fatores prognósticos.\n\nmarcadores tumorais e evolução de câncer\n\nIntervenções diagnósticas.\n\npapanicolau x mortalidade por câncer de útero\n\nTerapêuticas.\n\ntratamento de hipertensão arterial x infarto agudo do miocárdio"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-3",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nEm estudos de coorte, o pesquisador define datas de início e de final do seguimento dos participantes: durante este intervalo são colhidas informações sobre a exposição de interesse, sobre covariáveis e sobre o(s) desfecho(s)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-4",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-5",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nInicialmente, os participantes são distribuídos em grupos, de acordo com sua situação quanto à exposição investigada."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-6",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-6",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nInicialmente, os participantes são distribuídos em grupos, de acordo com sua situação quanto à exposição investigada.\nOs dois grupos são acompanhados por um período de tempo e as incidências da doença são calculadas."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#incidência",
+    "href": "aulas/Planejamento/index.html#incidência",
+    "title": "Planejamento na área da saúde",
+    "section": "Incidência",
+    "text": "Incidência\nOs dois grupos são acompanhados por um período de tempo e as incidências da doença são calculadas.\n\\[\\text{incidência} = \\dfrac{\\text{Nº de casos novos em determinado período} }{\\text{Nº de pessoas expostas ao risco no mesmo período}}\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#incidência-1",
+    "href": "aulas/Planejamento/index.html#incidência-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Incidência",
+    "text": "Incidência\n\\[\\text{incidência} = \\dfrac{\\text{Nº de casos novos em determinado período} }{\\text{Nº de pessoas expostas ao risco no mesmo período}}\\]\nA incidência diz respeito à frequência com que surgem novos casos de uma doença num intervalo de tempo oriundos de uma população sob risco de adoecimento no início da observação."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#incidência-2",
+    "href": "aulas/Planejamento/index.html#incidência-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Incidência",
+    "text": "Incidência\nA incidência diz respeito à frequência com que surgem novos casos de uma doença num intervalo de tempo oriundos de uma população sob risco de adoecimento no início da observação.\n\nSe a incidência entre os expostos (E+) for mais alta do que entre os não expostos (E-):\n\nindica associação entre fator e doença."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr",
+    "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr",
+    "title": "Planejamento na área da saúde",
+    "section": "Risco Relativo ou Razão de Riscos (RR)",
+    "text": "Risco Relativo ou Razão de Riscos (RR)\nPara análise dos dados, considere a seguinte tabela de contingência:\n\n\n\n\n\n\n\n\nD+\n\n\nD-\n\n\nTotal\n\n\n\n\n\n\nE+\n\n\na\n\n\nb\n\n\na+b\n\n\n\n\nE-\n\n\nc\n\n\nd\n\n\nc+d\n\n\n\n\nTotal\n\n\na+c\n\n\nb+d\n\n\na+b+c+d"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-1",
+    "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Risco Relativo ou Razão de Riscos (RR)",
+    "text": "Risco Relativo ou Razão de Riscos (RR)\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{a}{a+b}}{\\dfrac{c}{c+d}}\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-2",
+    "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Risco Relativo ou Razão de Riscos (RR)",
+    "text": "Risco Relativo ou Razão de Riscos (RR)\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{a}{a+b}}{\\dfrac{c}{c+d}}\\]\nOu seja, o risco relativo é a razão entre a incidência nos expostos e a incidência nos não expostos ao fator de risco."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-3",
+    "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Risco Relativo ou Razão de Riscos (RR)",
+    "text": "Risco Relativo ou Razão de Riscos (RR)\nInterpretação: É o número de vezes que as pessoas expostas ao fator de risco estão mais sujeitas a se tornarem doentes em relação as não expostas"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-4",
+    "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Risco Relativo ou Razão de Riscos (RR)",
+    "text": "Risco Relativo ou Razão de Riscos (RR)\nInterpretação: É o número de vezes que as pessoas expostas ao fator de risco estão mais sujeitas a se tornarem doentes em relação as não expostas\n\nSe RR &gt; 1 - fator de risco\nSe RR &lt; 1 - fator de proteção\nSe RR = 1 - sem associação"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-5",
+    "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Risco Relativo ou Razão de Riscos (RR)",
+    "text": "Risco Relativo ou Razão de Riscos (RR)\nExemplo: O risco de desenvolver AIDS é 1,39 vezes maior entre os que tem úlcera genital do que os sem úlcera\n\nO risco de desenvolver AIDS é 39% maior para quem tem úlcera do que nos indivíduos sem úlcera"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-7",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-7",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-8",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-8",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nOs estudos de coorte possuem várias vantagens:\n\nPermite o cálculo de taxas de incidência em expostos e não expostos e, através destas, o Risco Relativo (RR);\nO fator de exposição é definido no início do estudo não sofrendo influências da presença ou ausência do evento de interesse;"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-9",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-9",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nOs estudos de coorte possuem várias vantagens:\n\nMelhor método para se conhecer com precisão a história natural de uma doença, assim como sua incidência;\nPermite o estudo de múltiplos efeitos/consequências de um mesmo fator de exposição;"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-10",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-10",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nOs estudos de coorte possuem várias vantagens:\n\nVieses de confusão são mais fáceis de controlar;\nPermite o estudo de fatores de exposição pouco frequentes;"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-11",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-11",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nOs estudos de coorte possuem algumas desvantagens:\n\nCaros, devido ao longo período de seguimento;\nExistência de possíveis fatores (viés) de confusão;"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-12",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-12",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nOs estudos de coorte possuem algumas desvantagens:\n\nLonga duração, com a existência implícita de perdas de magnitude diferente entre expostos e não-expostos;\nMenos adequados para o estudo de múltiplas causas de um evento específico (multicausalidade);"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-13",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-13",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nOs estudos de coorte possuem algumas desvantagens:\n\nNão apropriados para o estudo de doenças raras;\nSuscetíveis a perdas que podem comprometer a validez do estudo;\nPouco reprodutíveis;"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-14",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-14",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nOs estudos de coorte possuem algumas desvantagens:\n\nPossibilidade de mudança no estado de exposição entre os dois grupos (exposto vira não-exposto; não-exposto vira exposto);\nPouco apropriados para doenças com longo período de latência."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-15",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-15",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nUm exemplo de estudo de coorte é uma pesquisa para verificar a relação entre a incidência de câncer de pulmão e a exposição à fumaça do cigarro. Começa-se selecionando o grupo de indivíduos expostos à fumaça do cigarro e outra amostra de indivíduos que não são expostos."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-16",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-16",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nDepois, após um período específico, verifica-se o quanto os indivíduos expostos ao cigarro estão mais sujeitos ao câncer de pulmão."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-17",
+    "href": "aulas/Planejamento/index.html#estudos-de-coorte-17",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos de coorte",
+    "text": "Estudos de coorte\nOutro exemplo pode ser a análise da eficácia de uma vacina. Em primeiro lugar, separa-se um grupo de pessoas que tomaram vacina e outro grupo de pessoas que não tomaram. Em seguida, compara-se a incidência da doença em pessoas que tomaram a vacina entre a incidência de pessoas que não tomaram."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-1",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\nTipo de estudo observacional que se inicia com a seleção de um grupo de pessoas portadoras de uma doença ou condição específica (casos), e um outro grupo de pessoas que não sofrem dessa doença ou condição (controle)."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-2",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\nO propósito desse estudo é identificar características (exposições, ou fatores de risco) que ocorrem em maior (ou menor) freqüência entre casos do que entre controles."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-3",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\n\nRetrospectivo\nIdentifica um grupo de pacientes com o desfecho (casos) e um outro sem o desfecho (controles)\nExamina as variáveis de predição no passado\nDetermina a força da associação entre a variável de predição e a variável de desfecho"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-4",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-5",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\nO estudo começa com o levantamento da história clínica de todos os pacientes selecionados."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-6",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-6",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\nO estudo começa com o levantamento da história clínica de todos os pacientes selecionados.\nProcura-se saber se o fator de risco está presente mais frequentemente entre os casos do que entre os controles."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-7",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-7",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\nProcura-se saber se o fator de risco está presente mais frequentemente entre os casos do que entre os controles.\nSe a evidência for suficiente, o pesquisador concluirá que existe associação entre o fator de risco e a doença."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-8",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-8",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\nSe a evidência for suficiente, o pesquisador concluirá que existe associação entre o fator de risco e a doença.\nCom este tipo de delineamento, estima-se a prevalência e não a incidência do desfecho de interesse."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-9",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-9",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\nCom este tipo de delineamento, estima-se a prevalência e não a incidência do desfecho de interesse.\n\\[\\text{prevalência} = \\dfrac{\\text{Nº de casos existentes em determinado período} }{\\text{Nº de pessoas na população no mesmo período}}\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-10",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-10",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\n\\[\\text{prevalência} = \\dfrac{\\text{Nº de casos existentes em determinado período} }{\\text{Nº de pessoas na população no mesmo período}}\\]\nA prevalência se refere ao número de casos existentes de uma doença em um dado momento. Os casos existentes são daqueles que adoeceram em algum momento do passado, somados aos casos novos dos que ainda estão vivos e doentes"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-11",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-11",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\nComo o número de casos é deffinido pelo pesquisador, o cálculo da incidência não pode ser feito diretamente, necessitando-se, assim, adotar uma medida alternativa conhecida como odds-ratio."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-caso-controle",
+    "href": "aulas/Planejamento/index.html#estudos-caso-controle",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos caso-controle",
+    "text": "Estudos caso-controle\n\n\n\n\n\n\n\n\nC+\n\n\nC-\n\n\nTotal\n\n\n\n\n\n\nF+\n\n\na\n\n\nb\n\n\na+b\n\n\n\n\nF-\n\n\nc\n\n\nd\n\n\nc+d\n\n\n\n\nTotal\n\n\na+c\n\n\nb+d\n\n\na+b+c+d"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio",
+    "text": "Razão de chances ou odds-ratio\n\\[\\text{Razão de chances (OR)} = \\dfrac{\\dfrac{\\dfrac{a}{a+c}}{\\dfrac{c}{a+c}}}{\\dfrac{\\dfrac{b}{b+d}}{\\dfrac{d}{b+d}}} = \\dfrac{\\dfrac{a}{c}}{\\dfrac{b}{d}} = \\dfrac{ad}{bc}\\] ## Razão de chances ou odds-ratio {auto-animate=“true”}\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-1",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio",
+    "text": "Razão de chances ou odds-ratio\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.\n\nSe OR &gt; 1 - fator de risco\nSe OR &lt; 1 - fator de proteção\nSe OR = 1 - sem associação"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#vantagens",
+    "href": "aulas/Planejamento/index.html#vantagens",
+    "title": "Planejamento na área da saúde",
+    "section": "Vantagens",
+    "text": "Vantagens\n\nSão mais baratos\nMais eficientes para doenças raras\nFactível em menos tempo\nMais comum"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#desvantagens",
+    "href": "aulas/Planejamento/index.html#desvantagens",
+    "title": "Planejamento na área da saúde",
+    "section": "Desvantagens",
+    "text": "Desvantagens\n\nNão guarda relação de temporalidade\nNão estima risco diretamente\nNão serve para estimar incidência de desfecho\nSusceptíveis a viéses"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo",
+    "href": "aulas/Planejamento/index.html#exemplo",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\nTraumatismos cranianos são relativamente comuns entre esquiadores e praticantes de snowboard nos alpes. Parece plausível que os capacetes impediriam essas lesões, mas os críticos apontam que os capacetes podem também aumentar as lesões, pois reduzem o campo de visão, prejudicam a audição e dão aos atletas uma falsa sensação de segurança."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-1",
+    "href": "aulas/Planejamento/index.html#exemplo-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\nPara obter evidências mais definitivas sobre os reais efeitos dos capacetes, pesquisadores na Noruega conduziram um estudo de caso-controle. Casos e controles foram escolhidos entre os visitantes de oito grandes estações de esqui durante o inverno de 2002."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-2",
+    "href": "aulas/Planejamento/index.html#exemplo-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-3",
+    "href": "aulas/Planejamento/index.html#exemplo-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\n\nCasos: 578 pessoas com traumatismos cranianos registradas"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-4",
+    "href": "aulas/Planejamento/index.html#exemplo-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\n\nCasos: 578 pessoas com traumatismos cranianos registradas\nControles: uma amostra das pessoas que estavam esperando na fila para o principal teleférico em cada uma das oito estações"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-5",
+    "href": "aulas/Planejamento/index.html#exemplo-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\n\nVariáveis confundidoras: idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-6",
+    "href": "aulas/Planejamento/index.html#exemplo-6",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\n\nVariáveis confundidoras: idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis.\n\nAnalisadas tanto nos casos quanto nos controles"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-7",
+    "href": "aulas/Planejamento/index.html#exemplo-7",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\nApós considerar os confundidores, o uso de capacete foi associado a uma redução de 60% no risco de traumatismo craniano.\nSulheim et al. (2017)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-transversal",
+    "href": "aulas/Planejamento/index.html#estudo-transversal",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo Transversal",
+    "text": "Estudo Transversal\nÉ uma forma de pesquisa que se caracteriza pela observação direta de determinada quantidade planejada de indivíduos em uma única oportunidade, após um corte no tempo."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-transversal-1",
+    "href": "aulas/Planejamento/index.html#estudo-transversal-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo Transversal",
+    "text": "Estudo Transversal\nÉ uma forma de pesquisa que se caracteriza pela observação direta de determinada quantidade planejada de indivíduos em uma única oportunidade, após um corte no tempo.\nTanto a exposição como o desfecho são observados simultaneamente para cada indivíduo."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-transversal-2",
+    "href": "aulas/Planejamento/index.html#estudo-transversal-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo Transversal",
+    "text": "Estudo Transversal\nFunciona como uma fotografia do que acontece naquele instante…"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-transversal-3",
+    "href": "aulas/Planejamento/index.html#estudo-transversal-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo Transversal",
+    "text": "Estudo Transversal"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-transversal-4",
+    "href": "aulas/Planejamento/index.html#estudo-transversal-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo Transversal",
+    "text": "Estudo Transversal\n\nÚtil para estudar condições que são avaliadas de forma quantitativa e que podem variar ao longo do tempo,\n\nExemplo: Pressão sanguínea"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-transversal-5",
+    "href": "aulas/Planejamento/index.html#estudo-transversal-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo Transversal",
+    "text": "Estudo Transversal\n\nÚtil para estudar condições que são avaliadas de forma quantitativa e que podem variar ao longo do tempo,\n\nExemplo: Pressão sanguínea\n\nou doenças que são relativamente frequentes e têm longa duração.\n\nExemplo: Bronquite crônica"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-transversal-6",
+    "href": "aulas/Planejamento/index.html#estudo-transversal-6",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo Transversal",
+    "text": "Estudo Transversal\n\n\n\n\n\n\n\n\nD+\n\n\nD-\n\n\nTotal\n\n\n\n\n\n\nE+\n\n\na\n\n\nb\n\n\na+b\n\n\n\n\nE-\n\n\nc\n\n\nd\n\n\nc+d\n\n\n\n\nTotal\n\n\na+c\n\n\nb+d\n\n\na+b+c+d"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-prevalência",
+    "href": "aulas/Planejamento/index.html#razão-de-prevalência",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de prevalência",
+    "text": "Razão de prevalência\n\\[\\begin{eqnarray*}\\text{Razão de prevalência (RP)} &=& \\dfrac{\\dfrac{\\text{Expostos com desfecho}}{\\text{Total de expostos}}}{\\dfrac{\\text{Não Expostos com desfecho}}{\\text{Total de Não expostos}}}\\\\ &=& \\dfrac{\\dfrac{a}{a+b}}{\\dfrac{c}{c+d}}\\end{eqnarray*}\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-prevalência-1",
+    "href": "aulas/Planejamento/index.html#razão-de-prevalência-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de prevalência",
+    "text": "Razão de prevalência\nInterpretação: O significado da razão de prevalência é análogo aos anteriores.\n\nSe RP &gt; 1 - fator de risco\nSe RP &lt; 1 - fator de proteção\nSe RP = 1 - sem associação"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-8",
+    "href": "aulas/Planejamento/index.html#exemplo-8",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\n\nEstudar a associação entre mulheres que fumam e cólica infantil. Para isso foi observada a seguinte tabela de contingência\n\n\n\n\n\n\n\n\nCom cólica\n\n\nSem cólica\n\n\nTotal\n\n\n\n\n\n\nMãe fuma\n\n\n15\n\n\n167\n\n\n182\n\n\n\n\nMãe não fuma\n\n\n111\n\n\n2477\n\n\n2588\n\n\n\n\nTotal\n\n\n126\n\n\n2644\n\n\n2770"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-9",
+    "href": "aulas/Planejamento/index.html#exemplo-9",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\n\\[\\text{Razão de prevalência (RP)} = \\dfrac{\\dfrac{15}{15+167}}{\\dfrac{111}{111+2477}} = \\dfrac{0,08}{0,04} = 2 &gt; 1\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-10",
+    "href": "aulas/Planejamento/index.html#exemplo-10",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#exemplo-11",
+    "href": "aulas/Planejamento/index.html#exemplo-11",
+    "title": "Planejamento na área da saúde",
+    "section": "Exemplo",
+    "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam.\nO hábito de fumar parece ser fator de risco para cólica infantil naquele dado momento na população."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#vantagens-1",
+    "href": "aulas/Planejamento/index.html#vantagens-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Vantagens",
+    "text": "Vantagens\n\nRepresenta a população\nConveniente e não muito caro\nVárias exposições e doenças\nDoenças comuns e de longa duração: gera hipóteses\nEstudos de coortes e Ensaios Clínicos Randomizados: testam hipóteses"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#desvantagens-auto-animatetrue-vantagens",
+    "href": "aulas/Planejamento/index.html#desvantagens-auto-animatetrue-vantagens",
+    "title": "Planejamento na área da saúde",
+    "section": "Desvantagens {auto-animate=“true”}## Vantagens",
+    "text": "Desvantagens {auto-animate=“true”}## Vantagens\n\nVulnerável a viéses\nInclui somente casos que sobrevivem (disponíveis para o estudo)\nDoenças de curta duração podem não ser representativas"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais",
+    "href": "aulas/Planejamento/index.html#características-principais",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nOs tipos de estudos que vimos até agora (Coorte, Caso-controle e Transversais) têm como unidade de análise o indivíduo."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-1",
+    "href": "aulas/Planejamento/index.html#características-principais-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nOs tipos de estudos que vimos até agora (Coorte, Caso-controle e Transversais) têm como unidade de análise o indivíduo.\nEm estudos ecológicos, a unidade de análise é um grupo de indivíduos agregados, em geral, em função de fatores geográficos ou temporais."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-2",
+    "href": "aulas/Planejamento/index.html#características-principais-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nEm estudos ecológicos, a unidade de análise é um grupo de indivíduos agregados, em geral, em função de fatores geográficos ou temporais.\nO interesse, nesse caso, está na comparação de uma medida agregada (proporção, taxa, média, etc.) da exposição com uma medida agregada do desfecho."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-3",
+    "href": "aulas/Planejamento/index.html#características-principais-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nO interesse, nesse caso, está na comparação de uma medida agregada (proporção, taxa, média, mediana, etc.) da exposição com uma medida agregada do desfecho.\n\nCompara-se grupos com maior ou menor nível de exposição."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-4",
+    "href": "aulas/Planejamento/index.html#características-principais-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\n\nCompara-se grupos com maior ou menor nível de exposição."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-5",
+    "href": "aulas/Planejamento/index.html#características-principais-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\n\nCompara-se grupos com maior ou menor nível de exposição."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-6",
+    "href": "aulas/Planejamento/index.html#características-principais-6",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nDados ecológicos ou agregados:\n\nInformação sobre exposição e desfecho em grupos populacionais\n\nEscolas, cidades, países, etc."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-7",
+    "href": "aulas/Planejamento/index.html#características-principais-7",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nDados ecológicos ou agregados:\n\nInformação sobre exposição e desfecho em grupos populacionais\n\nEscolas, cidades, países, etc.\n\nQuase sempre obtidos rotineiramente através de inquéritos ou sistemas de vigilância."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-8",
+    "href": "aulas/Planejamento/index.html#características-principais-8",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nDados ecológicos ou agregados:\n\nQuase sempre obtidos através de inquéritos ou sistemas de vigilância.\nUnidades de análise:\n\nDiferentes grupos (cidades, estados, etc.)\nMesmo grupo em diferentes tempos (cidade de Ouro Preto em 2021, 2022, 2023, 2024)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-9",
+    "href": "aulas/Planejamento/index.html#características-principais-9",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nBarker and Osmond (1986)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-10",
+    "href": "aulas/Planejamento/index.html#características-principais-10",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\n\nO que os resultados sugerem?"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-11",
+    "href": "aulas/Planejamento/index.html#características-principais-11",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\n\nO que os resultados sugerem?\n\nLocais com maior mortalidade infantil tendem a apresentar maiores taxas de mortalidade por doenças cardiovasculares no futuro."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-12",
+    "href": "aulas/Planejamento/index.html#características-principais-12",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\n\nO que os resultados sugerem?\n\nLocais com maior mortalidade infantil tendem a apresentar maiores taxas de mortalidade por doenças cardiovasculares no futuro.\n\nÉ sabido que taxa de mortalidade infantil é indicador da situação de saúde no início da vida.\n\nAlta taxa de mortalidade: mais crianças desnutridas"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-13",
+    "href": "aulas/Planejamento/index.html#características-principais-13",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\n\nHipótese"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-14",
+    "href": "aulas/Planejamento/index.html#características-principais-14",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\n\nHipótese\n\nDesnutrição na gestação e infância aumenta mortalidadepor doenças cardiovasculares na fase adulta?"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-15",
+    "href": "aulas/Planejamento/index.html#características-principais-15",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nPor que fazer estudos ecológicos?\n\nDados disponíveis: rapidez e baixo custo\nGeram hipóteses a serem comprovadas em outros delineamentos\nEstudar os efeitos de exposições com nenhuma ou pouca variabilidade intra-grupo, ou difíceis de mensurar a nível individual.\nQuando o objetivo é fazer inferências ecológicas."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-16",
+    "href": "aulas/Planejamento/index.html#características-principais-16",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nNíveis de medida\n\nMedidas agregadas\nMedidas coletivas"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-17",
+    "href": "aulas/Planejamento/index.html#características-principais-17",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nNíveis de medida\n\nMedidas agregadas: médias ou proporções obtidas a partir de dados individuais\n\nExemplo: Média de idade, % de hipertensão\n\nMedidas coletivas"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-18",
+    "href": "aulas/Planejamento/index.html#características-principais-18",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nNíveis de medida\n\nMedidas agregadas: médias ou proporções obtidas a partir de dados individuais\n\nExemplo: Média de idade, % de hipertensão\n\nMedidas coletivas: características que não variam entre indivíduos do mesmo grupo\n\nExemplo: Imposto sobre tabaco, características do sistema de saúde"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-19",
+    "href": "aulas/Planejamento/index.html#características-principais-19",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nNíveis de medida\n\nEstudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.\n\nnível de poluição do ar: é mais fácil medir o nível médio de poluição do ar de determinada cidade do que o quanto cada indivíduo respira ao longo do dia."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-20",
+    "href": "aulas/Planejamento/index.html#características-principais-20",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nNíveis de medida\n\nEstudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.\n\nvariáveis com pouca variabilidade intra-grupos, mas com muita variabilidade entre grupos: exposição à radiação em Chernobyl."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\nÉ possível classificar os estudos ecológicos da seguinte forma:\n\nComparação entre múltiplos grupos em um único momento\nEstudos de série temporal\nDelineamentos mistos"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-1",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\nComparação entre múltiplos grupos em um único momento\nComparar a ocorrência do desfecho entre diferentes grupos ao mesmo tempo.\n\nEstudos de série temporal\nDelineamentos mistos"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-2",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\nEstudos de série temporal\nAvaliar a evolução da ocorrência do desfecho em um mesmo local ao longo do tempo.\n\nDelineamentos mistos"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-3",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nDelineamentos mistos\n\nCombinam as duas estratégias acima."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-4",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\n\n\n\n\n\n\n\n\nMúltiplos grupos\n\n\n\n\n\n\n\nSeries temporais"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-5",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\nExemplo: Efeito de políticas de redução do tabagismo no Brasil\n\nAlgumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-6",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-6",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\nAlgumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-7",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-7",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas\nSérie temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-8",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-8",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas\nSérie temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.\nMisto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-9",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-9",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-10",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-10",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\nLimitações do delineamento de múltiplos grupos\n\nCidades com políticas → maiores taxas de tabagismo.\n\nImplementar políticas contra tabagismo aumenta as taxas de tabagismo?"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-11",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-11",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nPor que avaliar em apenas um ponto no tempo aponta para este resultado?"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-12",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-12",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nPor que avaliar em apenas um ponto no tempo aponta para este resultado?"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-13",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-13",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nSérie temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-14",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-14",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\nLimitações do delineamento de série temporal\n\nCidades com políticas → grande redução nas taxas de tabagismo.\n\nImplementar essas políticas parece ser muito efetivo!"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-15",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-15",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nSerá que não teria acontecido uma redução das taxas de tabagismo mesmo que nenhuma política tivesse sido implementada?\n\nSe sim, podemos estar superestimando (ou subestimando) o efeito da política"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-16",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-16",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nPara termos uma ideia disso, é necessário avaliar as mudanças ao longo do tempo em cidades do grupo controle → delineamento misto"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-17",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-17",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nDelineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-18",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-18",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nDelineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.\nPermite comparar a mudança pré-implementação versus pós-implementação no grupo exposto com a mudança no mesmo período no grupo não-exposto."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-19",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-19",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nDelineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.\nPermite comparar a mudança pré-implementação versus pós-implementação no grupo exposto com a mudança no mesmo período no grupo não-exposto.\n\nCom isso, é possível remover a parte da mudança observada no grupo exposto que não se deve à política em questão."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-20",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-20",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\n\nLimitação: Os grupos expostos e não-expostos devem ser comparáveis\n\n\n\nBase do método diferença-em-diferenças, muito usado em Ciências Sociais e em Economia para avaliar mudanças coletivas que envolvem toda a população.\n\nExemplo: Mudanças de legislação, implementação de uma nova política, etc."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-21",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-21",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\nFalácia Ecológica\n\nPode não ser verdadeira a redução/aumento ao âmbito individual de padrões observados no nível agregado\n\n\n\nO viés pode ocorrer porque uma associação observada entre variáveis relativas a agregados populacionais, não expressa necessariamente a associação existente no nível do indivíduo"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-22",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-22",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\nVantagens:\n\nPermitir o estudo de grandes populações(comparações internacionais das taxas de incidência de doenças)\nInvestigação de cluster de doenças\nBaixo custo e rápido\nDisponibilidade de grandes bases de dados."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-23",
+    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-23",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de estudos ecológicos",
+    "text": "Tipos de estudos ecológicos\nAlguns problemas metodológicos\n\nLimitação na inferência causal (Falácia Ecológica)\nQualidade das informações\nAuto-correlação espacial e temporal\nProblemas no controle de confundimento."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudos-experimentais-1",
+    "href": "aulas/Planejamento/index.html#estudos-experimentais-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudos Experimentais",
+    "text": "Estudos Experimentais\nEstudos em que o pesquisador manipula o fator de exposição, ou seja, provoca uma modificação intencional em algum aspecto do estado de saúde dos indivíduos, através da introdução de um esquema profilático ou terapêutico."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-21",
+    "href": "aulas/Planejamento/index.html#características-principais-21",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\n\nOs ensaios clínicos são indicados para avaliar a segurança e eficácia de:\n\num novo produto;\numa nova formulação de um mesmo produto ou associação de produtos já em uso e,\numa nova indicação clínica de um produto já aprovado\n\nOs ensaios podem avaliar o efeito terapêutico (drogas) ou profilático (vacinas)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-22",
+    "href": "aulas/Planejamento/index.html#características-principais-22",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-23",
+    "href": "aulas/Planejamento/index.html#características-principais-23",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-24",
+    "href": "aulas/Planejamento/index.html#características-principais-24",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção\n\nGrupo intervenção: indivíduos que recebem o tratamento/intervenção\n\nPor exemplo, medicamento ativo"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-25",
+    "href": "aulas/Planejamento/index.html#características-principais-25",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção\n\nGrupo intervenção: indivíduos que recebem o tratamento/intervenção\n\nPor exemplo, medicamento ativo\n\nGrupo controle: indivíduos que não recebem o tratamento/intervenção\n\nPor exemplo, placebo"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-26",
+    "href": "aulas/Planejamento/index.html#características-principais-26",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-27",
+    "href": "aulas/Planejamento/index.html#características-principais-27",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-28",
+    "href": "aulas/Planejamento/index.html#características-principais-28",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#fases-da-pesquisa",
+    "href": "aulas/Planejamento/index.html#fases-da-pesquisa",
+    "title": "Planejamento na área da saúde",
+    "section": "Fases da pesquisa",
+    "text": "Fases da pesquisa"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#fases-da-pesquisa-1",
+    "href": "aulas/Planejamento/index.html#fases-da-pesquisa-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Fases da pesquisa",
+    "text": "Fases da pesquisa"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#fases-da-pesquisa-2",
+    "href": "aulas/Planejamento/index.html#fases-da-pesquisa-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Fases da pesquisa",
+    "text": "Fases da pesquisa"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#mascaramento",
+    "href": "aulas/Planejamento/index.html#mascaramento",
+    "title": "Planejamento na área da saúde",
+    "section": "Mascaramento",
+    "text": "Mascaramento\n\nMascaramento (cegamento): desconhecimento do grupo ao qual o participante pertence"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#mascaramento-1",
+    "href": "aulas/Planejamento/index.html#mascaramento-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Mascaramento",
+    "text": "Mascaramento\n\nMascaramento (cegamento): desconhecimento do grupo ao qual o participante pertence\n\n\n\n\n\n\n\n\nSem mascaramento\n\n\nUni-cego\n\n\nDuplo-cego\n\n\nTriplo-cego\n\n\n\n\n\n\nPacientes\n\n\nSIM\n\n\nNÃO\n\n\nNÃO\n\n\nNÃO\n\n\n\n\nInvestigador\n\n\nSIM\n\n\nSIM\n\n\nNÃO\n\n\nNÃO\n\n\n\n\nAnalista de dados\n\n\nSIM\n\n\nSIM\n\n\nSIM\n\n\nNÃO"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#mascaramento-2",
+    "href": "aulas/Planejamento/index.html#mascaramento-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Mascaramento",
+    "text": "Mascaramento\n\nMascaramento (cegamento): desconhecimento do grupo ao qual o participante pertence\n\n\n\n\n\n\n\n\nSem mascaramento\n\n\nUni-cego\n\n\nDuplo-cego\n\n\nTriplo-cego\n\n\n\n\n\n\nPacientes\n\n\nSIM\n\n\nNÃO\n\n\nNÃO\n\n\nNÃO\n\n\n\n\nInvestigador\n\n\nSIM\n\n\nSIM\n\n\nNÃO\n\n\nNÃO\n\n\n\n\nAnalista de dados\n\n\nSIM\n\n\nSIM\n\n\nSIM\n\n\nNÃO\n\n\n\n\n\nDiferentes formas de mascaramento evitam diferentes viéses\n\nreduzem as diferenças sistemáticas entre os grupos"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#mascaramento-3",
+    "href": "aulas/Planejamento/index.html#mascaramento-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Mascaramento",
+    "text": "Mascaramento\n\nPor que fazer mascaramento dos pacientes?\nPor que fazer mascaramento dos investigadores?\nPor que fazer mascaramento dos analistas?"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#mascaramento-4",
+    "href": "aulas/Planejamento/index.html#mascaramento-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Mascaramento",
+    "text": "Mascaramento\n\nPor que fazer mascaramento dos pacientes?\n\nAlguns pacientes podem não aderir ao tratamento proposto ou buscarem por outros tratamentos os quais acreditam ser mais benéficos caso saibam que estão no grupo placebo.\n\nPor que fazer mascaramento dos investigadores?\nPor que fazer mascaramento dos analistas?"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#mascaramento-5",
+    "href": "aulas/Planejamento/index.html#mascaramento-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Mascaramento",
+    "text": "Mascaramento\n\nPor que fazer mascaramento dos pacientes?\nPor que fazer mascaramento dos investigadores?\n\nJá pesquisadores e equipe podem, de modo consciente ou inconsciente, modificar sua conduta no tratamento e no suporte dado aos participantes a depender do grupo de alocação.\n\nPor que fazer mascaramento dos analistas?"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#mascaramento-6",
+    "href": "aulas/Planejamento/index.html#mascaramento-6",
+    "title": "Planejamento na área da saúde",
+    "section": "Mascaramento",
+    "text": "Mascaramento\n\nPor que fazer mascaramento dos pacientes?\nPor que fazer mascaramento dos investigadores?\nPor que fazer mascaramento dos analistas?\n\nSaber a qual grupo o indivíduo da base de dados pertence pode influenciar os analistas a “torturar os dados” de forma a obter os resultados esperados/desejados."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#mascaramento-7",
+    "href": "aulas/Planejamento/index.html#mascaramento-7",
+    "title": "Planejamento na área da saúde",
+    "section": "Mascaramento",
+    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#mascaramento-8",
+    "href": "aulas/Planejamento/index.html#mascaramento-8",
+    "title": "Planejamento na área da saúde",
+    "section": "Mascaramento",
+    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\nPor mais que o mascaramento seja uma característica importante de um ensaio clínico, sua implementação nem sempre é viável devido, por exemplo, à natureza de algumas intervenções\n\nPor exemplo, procedimentos cirúrgicos, tratamentos fisioterapêuticos e psicológicos."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#mascaramento-9",
+    "href": "aulas/Planejamento/index.html#mascaramento-9",
+    "title": "Planejamento na área da saúde",
+    "section": "Mascaramento",
+    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\nSempre que for factível manter o mascaramento, ele deve ser utilizado.\n\nQuanto mais mascaramento, mais robustas serão as conclusões do estudo.\nMascaramento dos analistas de dados é sempre possível!"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados",
+    "href": "aulas/Planejamento/index.html#análise-de-dados",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\nOs procedimentos analíticos de um ensaio clínico vão depender da natureza do estudo, dos parâmetros estimados, e dos efeitos que foram medidos."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados-1",
+    "href": "aulas/Planejamento/index.html#análise-de-dados-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\nOs procedimentos analíticos de um ensaio clínico vão depender da natureza do estudo, dos parâmetros estimados, e dos efeitos que foram medidos.\nO plano de análise do ensaio clínico deve estar incluído no protocolo. Neste plano se identificam os efeitos principal e secundários que se quer avaliar e a forma de comparação."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados-2",
+    "href": "aulas/Planejamento/index.html#análise-de-dados-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\nComo regra geral, a análise de dados deve inicialmente verificar a comparabilidade (decorrente da aleatorização) dos grupos incluídos no estudo em relação às características eventualmente associadas ao desfecho."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados-3",
+    "href": "aulas/Planejamento/index.html#análise-de-dados-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\nPodemos definir a Eficácia (EF) de uma intervenção da seguinte forma:\n\\[\\dfrac{\\% \\text{de falha no grupo controle} - \\% \\text{de falha no grupo intervenção}}{\\% \\text{de falha no grupo controle}}\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados-4",
+    "href": "aulas/Planejamento/index.html#análise-de-dados-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\nExemplo: A tabela abaixo mostra o resultado de um ensaio clínico que recrutou 50 pacientes em cada um dos grupos.\n\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados-5",
+    "href": "aulas/Planejamento/index.html#análise-de-dados-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\n\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\nO tratamento experimental não curou 5/50 (10%) dos indivíduos e o tratamento placebo falhou em 37/50 (74%) dos indivíduos."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados-6",
+    "href": "aulas/Planejamento/index.html#análise-de-dados-6",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\n\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\n\\[EF = \\dfrac{\\dfrac{37}{50} - \\dfrac{5}{50}}{\\dfrac{37}{50}} \\times 100 \\approx 86,5\\%\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados-7",
+    "href": "aulas/Planejamento/index.html#análise-de-dados-7",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\n\\[EF = \\dfrac{\\dfrac{37}{50} - \\dfrac{5}{50}}{\\dfrac{37}{50}} \\approx 86,5\\%\\]\nLogo, a eficácia terapêutica do tratamento experimental foi de 86,5%, aproximadamente."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados-8",
+    "href": "aulas/Planejamento/index.html#análise-de-dados-8",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\nEste mesmo resultado pode ser obtido utilizando-se a fórmula:\n\\[EF = 1 - RR\\]\nLembre-se:\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{a}{a+b}}{\\dfrac{c}{c+d}}\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados-9",
+    "href": "aulas/Planejamento/index.html#análise-de-dados-9",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{5}{50}}{\\dfrac{37}{50}} = \\dfrac{5}{37} \\times 100 \\approx 13,5\\%\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#análise-de-dados-10",
+    "href": "aulas/Planejamento/index.html#análise-de-dados-10",
+    "title": "Planejamento na área da saúde",
+    "section": "Análise de dados",
+    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\nDe forma que,\n\\[EF = 1 - RR = (1 - 0,135) \\times 100 = 86,5\\%\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#vantagens-e-desvantagens",
+    "href": "aulas/Planejamento/index.html#vantagens-e-desvantagens",
+    "title": "Planejamento na área da saúde",
+    "section": "Vantagens e desvantagens",
+    "text": "Vantagens e desvantagens\n\nVantagens:\n\nNão são sujeitos a causalidade reversa.\nSão de natureza experimental (randomização e controle preciso da intervenção)\nPermitem estudar a história natural da doença."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#vantagens-e-desvantagens-1",
+    "href": "aulas/Planejamento/index.html#vantagens-e-desvantagens-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Vantagens e desvantagens",
+    "text": "Vantagens e desvantagens\n\nDesvantagens:\n\nÀs vezes são muito caros, demorados e complexos\nPodem não ser generalizáveis devido aos critérios de exclusão\nCorrem o risco de serem eticamente inaceitáveis\nA desistência ao tratamento pode ser grande."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-de-campo-1",
+    "href": "aulas/Planejamento/index.html#ensaios-de-campo-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios de Campo",
+    "text": "Ensaios de Campo\nSão semelhantes ao Ensaio Clínico Aleatorizados, mas a população estudada não são pacientes e sim pessoas livres de doenças e presumivelmente sob risco."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-de-campo-2",
+    "href": "aulas/Planejamento/index.html#ensaios-de-campo-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios de Campo",
+    "text": "Ensaios de Campo\nSão semelhantes ao Ensaio Clínico Aleatorizados, mas a população estudada não são pacientes e sim pessoas livres de doenças e presumivelmente sob risco.\nOs dados são coletados na população em geral."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-de-campo-3",
+    "href": "aulas/Planejamento/index.html#ensaios-de-campo-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios de Campo",
+    "text": "Ensaios de Campo\nSão semelhantes ao Ensaio Clínico Aleatorizados, mas a população estudada não são pacientes e sim pessoas livres de doenças e presumivelmente sob risco.\nOs dados são coletados na população em geral.\nSão mais caros e de maior duração de tempo."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-comunitários-1",
+    "href": "aulas/Planejamento/index.html#ensaios-comunitários-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios comunitários",
+    "text": "Ensaios comunitários\nEnvolvem a intervenção em nível de comunidades, ao invés de indivíduos."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-comunitários-2",
+    "href": "aulas/Planejamento/index.html#ensaios-comunitários-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios comunitários",
+    "text": "Ensaios comunitários\nEnvolvem a intervenção em nível de comunidades, ao invés de indivíduos.\nUsados para avaliar a eficácia e efetividade de intervenções que busquem a prevenção primária através da modificação dos fatores de risco numa população."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-comunitários-3",
+    "href": "aulas/Planejamento/index.html#ensaios-comunitários-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios comunitários",
+    "text": "Ensaios comunitários\nEnvolvem a intervenção em nível de comunidades, ao invés de indivíduos.\nUsados para avaliar a eficácia e efetividade de intervenções que busquem a prevenção primária através da modificação dos fatores de risco numa população."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-comunitários-4",
+    "href": "aulas/Planejamento/index.html#ensaios-comunitários-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios comunitários",
+    "text": "Ensaios comunitários\nSão conduzidos dentro de um contexto socioeconômico de uma população naturalmente formada."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-comunitários-5",
+    "href": "aulas/Planejamento/index.html#ensaios-comunitários-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios comunitários",
+    "text": "Ensaios comunitários\nSão conduzidos dentro de um contexto socioeconômico de uma população naturalmente formada.\nLimitações: Dificuldade de isolar uma comunidade."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#introdução",
+    "href": "aulas/Planejamento/index.html#introdução",
+    "title": "Planejamento na área da saúde",
+    "section": "Introdução",
+    "text": "Introdução\nGeralmente, quando uma indústria farmacêutica descobre um novo princípio ativo ela cria um medicamento inovador, que ainda não existe no mercado."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#introdução-1",
+    "href": "aulas/Planejamento/index.html#introdução-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Introdução",
+    "text": "Introdução\nGeralmente, quando uma indústria farmacêutica descobre um novo princípio ativo ela cria um medicamento inovador, que ainda não existe no mercado.\nEla tem direito a produzir e comercializar esse mesmo medicamento por anos antes de a fórmula ser compartilhada com outros laboratórios interessados em produzi-la."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#introdução-2",
+    "href": "aulas/Planejamento/index.html#introdução-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Introdução",
+    "text": "Introdução\nEla tem direito a produzir e comercializar esse mesmo medicamento por anos antes de a fórmula ser compartilhada com outros laboratórios interessados em produzi-la.\nA partir do momento em que a patente acaba, outros laboratórios podem criar fórmulas genéricas desse mesmo princípio ativo."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#introdução-3",
+    "href": "aulas/Planejamento/index.html#introdução-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Introdução",
+    "text": "Introdução\nA partir do momento em que a patente acaba, outros laboratórios podem criar fórmulas genéricas desse mesmo princípio ativo.\nA partir daí iniciam-se os testes para analisar se o medicamento genérico produzido é realmente compatível e possui as mesmas propriedades que o pioneiro lançado anteriormente."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#introdução-4",
+    "href": "aulas/Planejamento/index.html#introdução-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Introdução",
+    "text": "Introdução\nEm tese, um medicamento genérico pode substituir o medicamento referência sem interferir no tratamento do paciente."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#introdução-5",
+    "href": "aulas/Planejamento/index.html#introdução-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Introdução",
+    "text": "Introdução\nEm tese, um medicamento genérico pode substituir o medicamento referência sem interferir no tratamento do paciente.\nPor não ser mais necessária toda a pesquisa obrigatória para a lançamento de um novo fármaco, o genérico possui um custo muito mais baixo, tornando-o muito mais atrativo."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#bioequivalência",
+    "href": "aulas/Planejamento/index.html#bioequivalência",
+    "title": "Planejamento na área da saúde",
+    "section": "Bioequivalência",
+    "text": "Bioequivalência\nEntretanto, para que um genérico seja comercializado, é necessário que ele seja declarado bioequivalente ao medicamento referência.\n\nA bioequivalência é a comprovação de que um medicamento é o equivalente terapêutico do medicamento referência, tanto em questão de quantidade de fármaco quanto da velocidade que atinge a corrente sanguínea."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#bioequivalência-1",
+    "href": "aulas/Planejamento/index.html#bioequivalência-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Bioequivalência",
+    "text": "Bioequivalência\nEstudos de bioequivalência são estudos comparativo entre o medicamento de referência e o genérico correspondente.\n\nSe referem ao processo de comparação entre dois medicamentos que possuem as mesmas moléculas, concentrações e formas farmacêuticas.\n\n\nNo Brasil, são normatizados e fiscalizados pela Anvisa."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#etapas-do-estudo",
+    "href": "aulas/Planejamento/index.html#etapas-do-estudo",
+    "title": "Planejamento na área da saúde",
+    "section": "Etapas do estudo",
+    "text": "Etapas do estudo\nTodos os estudos de bioequivalência devem completar três etapas para serem validados pela ANVISA:\n\nEtapa Clínica: seleção de voluntários para administração dos medicamentos e coleta de amostras (sangue ou urina)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#etapas-do-estudo-1",
+    "href": "aulas/Planejamento/index.html#etapas-do-estudo-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Etapas do estudo",
+    "text": "Etapas do estudo\nTodos os estudos de bioequivalência devem completar três etapas para serem validados pela ANVISA:\n\nEtapa Clínica: seleção de voluntários para administração dos medicamentos e coleta de amostras (sangue ou urina)\nEtapa Analítica: análise das amostras coletadas na etapa clínica com a quantificação do fármaco por métodos bioanalíticos validados."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#etapas-do-estudo-2",
+    "href": "aulas/Planejamento/index.html#etapas-do-estudo-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Etapas do estudo",
+    "text": "Etapas do estudo\nTodos os estudos de bioequivalência devem completar três etapas para serem validados pela ANVISA:\n\nEtapa Estatística: análise dos dados obtidos na etapa analítica com o cálculo dos parâmetros farmacocinéticos e análise estatística para determinar a bioequivalência ou bioinequivalência."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#etapas-do-estudo-3",
+    "href": "aulas/Planejamento/index.html#etapas-do-estudo-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Etapas do estudo",
+    "text": "Etapas do estudo"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#delineamento",
+    "href": "aulas/Planejamento/index.html#delineamento",
+    "title": "Planejamento na área da saúde",
+    "section": "Delineamento",
+    "text": "Delineamento\nEnsaios clínicos do tipo crossover 2x2 são os mais utilizados em estudos de bioequivalência.\n\nCada indivíduo recebe as duas formulações do fármaco em períodos diferentes.\n\n\nA ordem na qual os medicamentos são administrados é denominada de sequência."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#delineamento-1",
+    "href": "aulas/Planejamento/index.html#delineamento-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Delineamento",
+    "text": "Delineamento\nPor exemplo, para medicamentos Teste (T) e Referência (R) as duas sequências são RT e TR."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#definição",
+    "href": "aulas/Planejamento/index.html#definição",
+    "title": "Planejamento na área da saúde",
+    "section": "Definição",
+    "text": "Definição\nSão ensaios clínicos que permitem modificações planejadas ao longo do estudo para um ou mais aspectos do delineamento.\n\nAs modificações só ocorrem se um prévio limite estabelecido foi atendido."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#delineamento-2",
+    "href": "aulas/Planejamento/index.html#delineamento-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Delineamento",
+    "text": "Delineamento"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-ensaios-adaptativos",
+    "href": "aulas/Planejamento/index.html#tipos-de-ensaios-adaptativos",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de ensaios adaptativos",
+    "text": "Tipos de ensaios adaptativos\nAdaptativo de dosagem: os participantes são alocados para várias doses, e as respostas são avaliadas em análises interinas.\n\nEntão, o estudo se adapta para alocar mais pacientes para as doses de maior interesse."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-ensaios-adaptativos-1",
+    "href": "aulas/Planejamento/index.html#tipos-de-ensaios-adaptativos-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de ensaios adaptativos",
+    "text": "Tipos de ensaios adaptativos\nAdaptativo de hipótese: as hipóteses do estudo podem ser adaptadas de acordo com os resultados da análise interina.\n\nPor exemplo, várias hipóteses podem ser testadas simultaneamente ou as hipóteses nula e alternativa podem se alternar."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-ensaios-adaptativos-2",
+    "href": "aulas/Planejamento/index.html#tipos-de-ensaios-adaptativos-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de ensaios adaptativos",
+    "text": "Tipos de ensaios adaptativos\nAdaptativo de grupo sequencial: após a análise interina, existem opções pré-especificadas para adaptações possíveis.\n\nExemplos incluem re-estimar o tamanho da amostra, alterar os braços de tratamento, mudar desfechos, entre outros."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#definição-1",
+    "href": "aulas/Planejamento/index.html#definição-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Definição",
+    "text": "Definição\n\nUma análise estatística de uma grande coleção de análises resultante de estudos individuais com o propósito de integrar os resultados.\n\nGlass (1976)\n\n\nPrimeiros estudos surgiram nas áreas de Psicologia e Educação na década de 70"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#definição-2",
+    "href": "aulas/Planejamento/index.html#definição-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Definição",
+    "text": "Definição\nPode-se definir meta-análise como um conjunto de métodos quantitativos para integrar os dados provenientes de uma revisão sistemática.\n\nProcuram contrastar e combinar resultados de diferentes estudos, com o objetivo de identificar padrões consistentes e fontes de discordância entre eles."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#fluxograma",
+    "href": "aulas/Planejamento/index.html#fluxograma",
+    "title": "Planejamento na área da saúde",
+    "section": "Fluxograma",
+    "text": "Fluxograma\n\n\nFonte: Adaptação (Santana and Dias (2021))."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#references",
+    "href": "aulas/Planejamento/index.html#references",
+    "title": "Planejamento na área da saúde",
+    "section": "References",
+    "text": "References\n\n\nBarker, D. J. P., and C. Osmond. 1986. “INFANT MORTALITY, CHILDHOOD NUTRITION, AND ISCHAEMIC HEART DISEASE IN ENGLAND AND WALES.” The Lancet 327 (8489): 1077–81. https://doi.org/https://doi.org/10.1016/S0140-6736(86)91340-1.\n\n\nBrandão, Soares, E. C., E. Nascimento, E. B. Lopes, J. A. M. Teixeira, M. C. L. R. Vieira, M. N. Alvares, N. M. V. Novaes, S. C. Filho, and W. B. Moreira. 1987. “Tratamento de Linfomas Não-Hodgkin Agressivos Com CHOP-BLEO: Estudo Retrospectivo.” Rev. Bras. Cancerol. 33(2) (June).\n\n\nGlass, Gene. 1976. “Primary, Secondary, and Meta-Analysis of Research.” Educational Researcher 5 (November): 3–8. https://doi.org/10.3102/0013189X005010003.\n\n\nGregg, N. McAlister. 1977. “Congenital Cataract Following German Measles in the Mother.” Edited by T. V. N. Persaud, 170–80. https://doi.org/10.1007/978-94-011-6621-8_22.\n\n\nSantana, Alanny, and Janaina Dias. 2021. “Tremor Essencial e Aspectos Psicológicos: Considerações Sobre Estudos Insuficientes Associados.” Revista Psicologia e Saúde 2 (February): 81–94. https://doi.org/10.20435/pssa.vi.990.\n\n\nSulheim, Steinar, Arne Ekeland, Ingar Holme, and Roald Bahr. 2017. “Helmet Use and Risk of Head Injuries in Alpine Skiers and Snowboarders: Changes After an Interval of One Decade.” British Journal of Sports Medicine 51 (1): 44–50. https://doi.org/10.1136/bjsports-2015-095798."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#estatística",
+    "href": "aulas/Conceitos básicos/index.html#estatística",
+    "title": "Conceitos básicos",
+    "section": "Estatística",
+    "text": "Estatística\n\nÉ a ciência que oferece uma coleção de métodos para produzir e obter dados, organizá-los, resumi-los, analisá-los, interpretá-los e deles extrair conhecimento.\n\nTriola (1999)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#estatística-1",
+    "href": "aulas/Conceitos básicos/index.html#estatística-1",
+    "title": "Conceitos básicos",
+    "section": "Estatística",
+    "text": "Estatística\nMétodos estatísticos são essenciais no estudo de situações em que as variáveis de interesse estão sujeitas a flutuações aleatórias.\n\nEste é o caso de estudos na área da saúde.\n\n\n\nPor exemplo, pressão arterial\n\nvaria não só entre indivíduos, como também no mesmo indivíduo."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#bioestatística",
+    "href": "aulas/Conceitos básicos/index.html#bioestatística",
+    "title": "Conceitos básicos",
+    "section": "Bioestatística",
+    "text": "Bioestatística\nConvencionou-se chamar de Bioestatística o conjunto de métodos estatísticos usados para o planejamento e análise de dados de estudos de ciências médicas, biológicas ou, de forma mais geral, da área de saúde."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#áreas-da-estatística",
+    "href": "aulas/Conceitos básicos/index.html#áreas-da-estatística",
+    "title": "Conceitos básicos",
+    "section": "Áreas da Estatística",
+    "text": "Áreas da Estatística"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#população-e-amostra",
+    "href": "aulas/Conceitos básicos/index.html#população-e-amostra",
+    "title": "Conceitos básicos",
+    "section": "População e Amostra",
+    "text": "População e Amostra"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#população-e-amostra-1",
+    "href": "aulas/Conceitos básicos/index.html#população-e-amostra-1",
+    "title": "Conceitos básicos",
+    "section": "População e Amostra",
+    "text": "População e Amostra"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#variável",
+    "href": "aulas/Conceitos básicos/index.html#variável",
+    "title": "Conceitos básicos",
+    "section": "Variável",
+    "text": "Variável\nCaracterística de interesse a ser analisada."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#variável-1",
+    "href": "aulas/Conceitos básicos/index.html#variável-1",
+    "title": "Conceitos básicos",
+    "section": "Variável",
+    "text": "Variável"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro",
+    "href": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro",
+    "title": "Conceitos básicos",
+    "section": "Estimativa e Parâmetro",
+    "text": "Estimativa e Parâmetro\nParâmetros são informações extraídas da população"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro-1",
+    "href": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro-1",
+    "title": "Conceitos básicos",
+    "section": "Estimativa e Parâmetro",
+    "text": "Estimativa e Parâmetro\nEstimativas são informações extraídas da amostra"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#margem-de-erro",
+    "href": "aulas/Conceitos básicos/index.html#margem-de-erro",
+    "title": "Conceitos básicos",
+    "section": "Margem de erro",
+    "text": "Margem de erro\nÉ a diferença máxima provável entre o valor da estimativa e o verdadeiro valor do parâmetro populacional"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#margem-de-erro-1",
+    "href": "aulas/Conceitos básicos/index.html#margem-de-erro-1",
+    "title": "Conceitos básicos",
+    "section": "Margem de erro",
+    "text": "Margem de erro\nÉ a diferença máxima provavel entre o valor da estimativa e o verdadeiro valor do parâmetro populacional\n\\[ e = z_{\\frac{\\alpha}{2}}\\dfrac{\\sigma}{\\sqrt{n}}\\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-ou-vício",
+    "href": "aulas/Conceitos básicos/index.html#viés-ou-vício",
+    "title": "Conceitos básicos",
+    "section": "Viés ou Vício",
+    "text": "Viés ou Vício\nTecnicamente, é definido como a diferença entre a estimativa e o verdadeiro valor do parâmetro.\n\nNa prática, é considerado como um erro sistemático, que ocorre no momento da coleta das informações sobre as variáveis de interesse."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-ou-vício-1",
+    "href": "aulas/Conceitos básicos/index.html#viés-ou-vício-1",
+    "title": "Conceitos básicos",
+    "section": "Viés ou Vício",
+    "text": "Viés ou Vício"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-de-seleção",
+    "href": "aulas/Conceitos básicos/index.html#viés-de-seleção",
+    "title": "Conceitos básicos",
+    "section": "Viés de seleção",
+    "text": "Viés de seleção\nUm estudo sobre tabagismo e demência encontrou um potencial viés de seleção em idosos.\n\nO viés de seleção devido à censura pela morte foi uma das explicações para a menor taxa relativa de demência em fumantes com idade mais avançada."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-de-aferição",
+    "href": "aulas/Conceitos básicos/index.html#viés-de-aferição",
+    "title": "Conceitos básicos",
+    "section": "Viés de aferição",
+    "text": "Viés de aferição\n\n\nHipertensão do jaleco branco\nAumento na pressão sistólica, quando a pressão é aferida manualmente por um médico ou por enfermeiro sem vínculo prévio com o paciente."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-de-confusão",
+    "href": "aulas/Conceitos básicos/index.html#viés-de-confusão",
+    "title": "Conceitos básicos",
+    "section": "Viés de confusão",
+    "text": "Viés de confusão\n\n\nVariáveis confundidoras\nA relação entre ingestão de antioxidantes e risco de doenças cardiovasculares é potencialmente confundida pelas características do paciente e por comportamentos relacionados tanto ao uso de antioxidantes quanto ao desenvolvimento de doenças cardiovasculares."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-de-confusão-1",
+    "href": "aulas/Conceitos básicos/index.html#viés-de-confusão-1",
+    "title": "Conceitos básicos",
+    "section": "Viés de confusão",
+    "text": "Viés de confusão\n\n\nVariáveis confundidoras\nA relação entre ingestão de antioxidantes e risco de doenças cardiovasculares é potencialmente confundida pelas características do paciente e por comportamentos relacionados tanto ao uso de antioxidantes quanto ao desenvolvimento de doenças cardiovasculares."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#acaso",
+    "href": "aulas/Conceitos básicos/index.html#acaso",
+    "title": "Conceitos básicos",
+    "section": "Acaso",
+    "text": "Acaso\nAs observações sobre as doenças são normalmente feitas em uma amostra de pacientes, uma vez que não é possível estudar todos os pacientes que apresentam a doença em questão."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#acaso-1",
+    "href": "aulas/Conceitos básicos/index.html#acaso-1",
+    "title": "Conceitos básicos",
+    "section": "Acaso",
+    "text": "Acaso\n\nVariação aleatória\n\nAs observações sobre as doenças são normalmente feitas em uma amostra de pacientes, uma vez que não é possível estudar todos os pacientes que apresentam a doença em questão."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-e-acaso",
+    "href": "aulas/Conceitos básicos/index.html#viés-e-acaso",
+    "title": "Conceitos básicos",
+    "section": "Viés e Acaso",
+    "text": "Viés e Acaso"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem",
+    "href": "aulas/Conceitos básicos/index.html#amostragem",
+    "title": "Conceitos básicos",
+    "section": "Amostragem",
+    "text": "Amostragem\nTrata-se do precedimento para a coleta da amostra.\n\n\nPor que amostrar?\n\nEconomia: Em geral é mais econômico levantar apenas uma parte da população\n\nCenso x PNAD"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-1",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-1",
+    "title": "Conceitos básicos",
+    "section": "Amostragem",
+    "text": "Amostragem\n\nTempo: Maior rapidez; por vezes, nem há tempo suficiente para observar toda a população\n\nA três dias das eleições, não haveria tempo para sondar toda a população\n\n\n\n\nConfiabilidade: Avaliando número menor de elementos, é possível dar mais atenção e cuidado a cada elemento observado."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-2",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-2",
+    "title": "Conceitos básicos",
+    "section": "Amostragem",
+    "text": "Amostragem\n\nDetalhamento: É possível aprofundar a análise, por exemplo, avaliando mais variáveis.\n\n\n\nAnálises destrutivas: Neste caso, não faz sentido avaliar toda a população!\n\nPor exemplo, em um lote de cobaias, algumas são sacrificadas para estudos histológicos."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#representatividade",
+    "href": "aulas/Conceitos básicos/index.html#representatividade",
+    "title": "Conceitos básicos",
+    "section": "Representatividade",
+    "text": "Representatividade\n\n\nQualidade das amostras de terem ou reproduzirem, sem tendenciosidade, as propriedades da população\nDeseja-se sempre amostras representativas!"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#unidade-amostral",
+    "href": "aulas/Conceitos básicos/index.html#unidade-amostral",
+    "title": "Conceitos básicos",
+    "section": "Unidade Amostral",
+    "text": "Unidade Amostral\nElemento, definido pela pesquisa, ao qual corresponde cada observação\n\nPode ser um indivíduo ou um conjunto de indivíduos"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio",
+    "href": "aulas/Conceitos básicos/index.html#sorteio",
+    "title": "Conceitos básicos",
+    "section": "Sorteio",
+    "text": "Sorteio\nProcedimento que confere a todos os elementos de um conjunto a mesma probabilidade de serem tomados\n\n\nAmostragem aleatória\nQuando algum mecanismo de sorteio é utilizado para compor a amostra"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#mecanismos-físicos",
+    "href": "aulas/Conceitos básicos/index.html#mecanismos-físicos",
+    "title": "Conceitos básicos",
+    "section": "Mecanismos físicos",
+    "text": "Mecanismos físicos"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#números-aleatórios",
+    "href": "aulas/Conceitos básicos/index.html#números-aleatórios",
+    "title": "Conceitos básicos",
+    "section": "Números Aleatórios",
+    "text": "Números Aleatórios\n\n\n\n\n\n\n\n\nNúmeros aleatórios entre 0,000 e 0,999\n\\[\\fbox{SHIFT} \\quad \\fbox{Ran#} \\quad \\fbox{=}\\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#números-aleatórios-1",
+    "href": "aulas/Conceitos básicos/index.html#números-aleatórios-1",
+    "title": "Conceitos básicos",
+    "section": "Números Aleatórios",
+    "text": "Números Aleatórios\n\n\n\n\n\n\nfunção =ALEATÓRIO()\n\nnúmeros aleatórios entre 0 e 1\n\n\nou,\n\nfunção =ALEATÓRIOENTRE(a;b)\n\nnúmeros aleatórios entre valores escolhidos “a” e “b”"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\nMétodo 1: utilizando n números aleatórios"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-1",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-1",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-2",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-2",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-3",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-3",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-4",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-4",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]\nRepita o processo n vezes"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-5",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-5",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\nExemplo: Em uma turma de Estatística, há N = 41 alunos matriculados. Podemos numerá-los conforme a ordem alfabética.\n\n\nSuponha que desejamos sortear n = 3 alunos.\n\n\n\n\nSuponha ainda que os números aleatórios tenham sido\n\n\\[0,567\\quad\\quad\\quad 0,024\\quad\\quad\\quad 0,788 \\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-6",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-6",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\nOs alunos sorteados serão…\n\\[ 0,5+\\frac{41}{0,999}\\times 0,567 = 23,77 \\approx 24 \\rightarrow \\text{aluno }24 \\]\n\n\\[ 0,5+\\frac{41}{0,999}\\times 0,024 = 1,48 \\approx 1 \\rightarrow \\text{aluno }1 \\]\n\n\n\\[ 0,5+\\frac{41}{0,999}\\times 0,788 = 32,84 \\approx 33 \\rightarrow \\text{aluno }33 \\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-7",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-7",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\n\nMétodo 2: utilizando N números aleatórios"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-8",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-8",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-9",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-9",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-10",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-10",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)\nToma-se os n primeiros elementos neste novo conjunto. Estes são os elementos sorteados."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-11",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-11",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\nExemplo: Suponha que disponhamos de 12 voluntários para um ensaio clínico em que queremos comparar um novo medicamento com um placebo.\n\nTemos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas que receberão o placebo (Grupo 2)."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-12",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-12",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\n\nProcedimento"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-13",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-13",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-14",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-14",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-15",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-15",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-16",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-16",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios\nOs 6 primeiros estarão no Grupo 1, e os outros 6 no Grupo 2"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-17",
+    "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-17",
+    "title": "Conceitos básicos",
+    "section": "Procedimentos do sorteio",
+    "text": "Procedimentos do sorteio\n\n\n\n\n\n\n\nVoluntário\n\n\nNúmero Aleatório\n\n\n\n\n\n\nIndivíduo 1\n\n\n0,964\n\n\n\n\nIndivíduo 2\n\n\n0,017\n\n\n\n\nIndivíduo 3\n\n\n0,043\n\n\n\n\nIndivíduo 4\n\n\n0,199\n\n\n\n\nIndivíduo 5\n\n\n0,900\n\n\n\n\nIndivíduo 6\n\n\n0,786\n\n\n\n\nIndivíduo 7\n\n\n0,177\n\n\n\n\nIndivíduo 8\n\n\n0,181\n\n\n\n\nIndivíduo 9\n\n\n0,309\n\n\n\n\nIndivíduo 10\n\n\n0,003\n\n\n\n\nIndivíduo 11\n\n\n0,247\n\n\n\n\nIndivíduo 12\n\n\n0,665\n\n\n\n\n\n\n\n\n\n\n\n\nGrupo\n\n\nNúmero Aleatório\n\n\nVoluntário\n\n\n\n\n\n\n1\n\n\n0,003\n\n\nIndivíduo 10\n\n\n\n\n1\n\n\n0,017\n\n\nIndivíduo 2\n\n\n\n\n1\n\n\n0,043\n\n\nIndivíduo 3\n\n\n\n\n1\n\n\n0,177\n\n\nIndivíduo 7\n\n\n\n\n1\n\n\n0,181\n\n\nIndivíduo 8\n\n\n\n\n1\n\n\n0,199\n\n\nIndivíduo 4\n\n\n\n\n2\n\n\n0,247\n\n\nIndivíduo 11\n\n\n\n\n2\n\n\n0,309\n\n\nIndivíduo 9\n\n\n\n\n2\n\n\n0,665\n\n\nIndivíduo 12\n\n\n\n\n2\n\n\n0,786\n\n\nIndivíduo 6\n\n\n\n\n2\n\n\n0,900\n\n\nIndivíduo 5\n\n\n\n\n2\n\n\n0,964\n\n\nIndivíduo 1"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-1",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-1",
+    "title": "Conceitos básicos",
+    "section": "Amostragem não aleatória",
+    "text": "Amostragem não aleatória\nQuando o sorteio não é possível ou viável\n\nInacessibilidade: Nem sempre todos os elementos da população estão disponíveis\n\nEx.: Estudo de casos de doença (apenas) dentre os pacientes atendidos em um centro"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-2",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-2",
+    "title": "Conceitos básicos",
+    "section": "Amostragem não aleatória",
+    "text": "Amostragem não aleatória\n\nOperacionalidade: Nem sempre é viável identificar ou numerar todos os elementos, mesmo estando acessíveis.\n\nEx.: Amostra de folhas de uma árvore para uma análise de composição química\n\n\n\n\nPopulações contínuas: Se a população é formada de material contínuo (como líquido ou gás), não é possível enumerar os elementos da população\n\nEx.: amostras de água em pontos do rio para avaliar poluentes"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-3",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-3",
+    "title": "Conceitos básicos",
+    "section": "Amostragem não aleatória",
+    "text": "Amostragem não aleatória\n\nPopulações infinitas\n\n\nSe a amostra é não aleatória, deve-se ao menos tentar garantir sua representatividade\n\n\n\nColeta a esmo: Apesar da subjetividade possível, consiste em tentar evitar tendenciosidade, coletando “ao acaso”\n\nentrevistar pessoas na rua, \ncoletar folhas em diferentes alturas e profundidades da copa"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-4",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-4",
+    "title": "Conceitos básicos",
+    "section": "Amostragem não aleatória",
+    "text": "Amostragem não aleatória\nQuando parte da população é inacessível, buscar investigar se o segmento amostrado a representa, ou se devemos restringir as conclusões\n\nMuitas vezes, a amostra a esmo, para fins de análise, é considerada aleatória.\n\n\nMas atenção sobre a representatividade!"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#aplicações",
+    "href": "aulas/Conceitos básicos/index.html#aplicações",
+    "title": "Conceitos básicos",
+    "section": "Aplicações",
+    "text": "Aplicações\n\nLevantamentos epidemiológicos\n\nprevalência de doenças\nidentificação de grupos mais susceptíveis\n\nAvaliação de fatores de risco de doenças"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#aplicações-1",
+    "href": "aulas/Conceitos básicos/index.html#aplicações-1",
+    "title": "Conceitos básicos",
+    "section": "Aplicações",
+    "text": "Aplicações\n\nComparação de tratamentos para doenças\n\ntratamento medicamentoso vs cirúrgico\ndiferentes associações de medicamentos\n\nComparação de medicamentos: bioequivalência\nAvaliação de eficácia de vacinas"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#aplicações-2",
+    "href": "aulas/Conceitos básicos/index.html#aplicações-2",
+    "title": "Conceitos básicos",
+    "section": "Aplicações",
+    "text": "Aplicações\n\nEstratégias de diagnóstico e de tratamentos para estabelecer conduta clínica\nAvaliação de serviços de ambulatórios e hospitais"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#impacto-de-celular-na-saúde",
+    "href": "aulas/Conceitos básicos/index.html#impacto-de-celular-na-saúde",
+    "title": "Conceitos básicos",
+    "section": "Impacto de celular na saúde",
+    "text": "Impacto de celular na saúde\nNeste estudo, os autores revisaram dados de 63 estudos conduzidos entre 1994 e 2022. A revisão analisou cânceres cerebrais em adultos e crianças, assim como cânceres nas glândulas salivares e leucemia, e os riscos relacionados ao uso de telefones móveis, estações de base e transmissão, assim como exposição ocupacional e indicou que não houve alta dos casos.\nKaripidis et al. (2024)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#consumo-de-carne-vermelha-e-câncer",
+    "href": "aulas/Conceitos básicos/index.html#consumo-de-carne-vermelha-e-câncer",
+    "title": "Conceitos básicos",
+    "section": "Consumo de carne vermelha e câncer",
+    "text": "Consumo de carne vermelha e câncer\nParra-Soto et al. (2022) investigaram diferentes tipos de dieta (onívora, apenas com carne branca, pescetariana e vegetariana/vegana) e sua associação com o desenvolvimento de câncer colorretal. Esses estudos indicam que limitar o consumo de carne é uma medida importante para a redução do risco de câncer colorretal.\nParra Soto et al. (2022)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#medicamentos-para-disfunção-erétil-e-perda-de-audição",
+    "href": "aulas/Conceitos básicos/index.html#medicamentos-para-disfunção-erétil-e-perda-de-audição",
+    "title": "Conceitos básicos",
+    "section": "Medicamentos para disfunção erétil e perda de audição",
+    "text": "Medicamentos para disfunção erétil e perda de audição\nOs autores descrevem o caso de um paciente que desenvolveu perda auditiva neurossensorial súbita unilateral possivelmente relacionada ao uso de vardenafil para disfunção erétil. Este caso fornece mais evidências de que o consumo de inibidores da PDE-5 deve ser considerado como uma possível causa em pacientes que apresentam perda auditiva neurossensorial súbita.\nSnodgrass et al. (2010)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#references",
+    "href": "aulas/Conceitos básicos/index.html#references",
+    "title": "Conceitos básicos",
+    "section": "References",
+    "text": "References\n\n\nKaripidis, Ken, Dan Baaken, Tom Loney, Maria Blettner, Chris Brzozek, Mark Elwood, Clement Narh, et al. 2024. “The Effect of Exposure to Radiofrequency Fields on Cancer Risk in the General and Working Population: A Systematic Review of Human Observational Studies – Part i: Most Researched Outcomes.” Environment International 191: 108983. https://doi.org/https://doi.org/10.1016/j.envint.2024.108983.\n\n\nParra Soto, Solange, Danay Ahumada, Fanny Petermann-Rocha, Jirapitcha Boonpor, Jose Gallegos, Jana Anderson, Linda Sharp, et al. 2022. “Association of Meat, Vegetarian, Pescatarian and Fish-Poultry Diets with Risk of 19 Cancer Sites and All Cancer: Findings from the UK Biobank Prospective Cohort Study and Meta-Analysis.” BMC Medicine 20 (February). https://doi.org/10.1186/s12916-022-02257-9.\n\n\nSnodgrass, Amanda J., Heather M. Campbell, David L. Mace, Victoria L. Faria, Kathleen M. Swanson, and Mark Holodniy. 2010. “Sudden Sensorineural Hearing Loss Associated with Vardenafil.” Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy 30 (1): 112–12. https://doi.org/https://doi.org/10.1592/phco.30.1.112.\n\n\nTriola, M. F. 1999. Introducao a Estatistica. Livros Técnicos e Cientı́ficos. https://books.google.com.br/books?id=wqLqtwAACAAJ."
+  },
+  {
+    "objectID": "analises.html",
+    "href": "analises.html",
+    "title": "Análise de dados",
+    "section": "",
+    "text": "Recém-nascidos",
+    "crumbs": [
+      "Análise de dados"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre",
+    "section": "",
+    "text": "Disciplina oferecida em caráter eletivo no semestre 2024/2"
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html",
+    "href": "analise_dados/recem_nascidos.html",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "",
+    "text": "Considere o conjunto de dados referente a um estudo sobre recém-nascidos prematuros de baixo peso. Os dados de cada recém-nascido estão dispostos em uma linha e cada coluna corresponde à informação de uma variável específica."
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html#objetivos",
+    "href": "analise_dados/recem_nascidos.html#objetivos",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nExplorar os dados sobre recém-nascidos prematuros.\n\nFonte dos dados:\n\nhttps://github.com/tiagomartin/est104/blob/master/dados/recem_nascidos.xlsx\n\n\nload &lt;- function(pkg){\n  new.pkg &lt;- pkg[!(pkg %in% installed.packages()[, \"Package\"])]\n  if (length(new.pkg))\n    install.packages(new.pkg, dependencies = TRUE)\n  sapply(pkg, require, character.only = TRUE)\n1}\n\n2packages &lt;- c(\"tidyverse\", \"knitr\", \"DT\", \"readxl\")\n3load(packages)\n\n\n1\n\nA função load verifica se os pacotes estão instalados em sua máquina. Se sim, faz o carregamento dos pacotes para a memória. Se não, instala os pacotes e os carrega para a memória.\n\n2\n\nCarregando o pacote tidyverse, uma coleção de pacotes que facilitam a manipulação e visualização de dados. Os pacotes knitr e DT, para apresentar os resultados de forma mais amigável no arquivo final. O pacote readxl possui diversas funções para importação de dados do Excel.\n\n3\n\nRetorna TRUE para todos os pacotes se forem carregados com sucesso.\n\n\n\n\ntidyverse     knitr        DT    readxl \n     TRUE      TRUE      TRUE      TRUE"
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html#carregando-os-dados",
+    "href": "analise_dados/recem_nascidos.html#carregando-os-dados",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "Carregando os dados",
+    "text": "Carregando os dados\n\n1dados_brutos = read_csv2(\"https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv\")\n\n\n1\n\nImportando a tabela disponível neste link, usando a função read_csv(). Essa função importa arquivos separados por vírgula .csv2), utilizando o ponto e vírgula (;) como separador. Após a importação, os dados são armazenados na variável dados_brutos\n\n\n\n\nℹ Using \"','\" as decimal and \"'.'\" as grouping mark. Use `read_delim()` for more control.\n\n\nRows: 48 Columns: 9\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \";\"\nchr (3): pre_natal, sexo, desfecho\ndbl (6): registro, n_consultas, peso, comprimento, idade_gestacional, tempo_...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html#conhecendo-a-base-de-dados",
+    "href": "analise_dados/recem_nascidos.html#conhecendo-a-base-de-dados",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "Conhecendo a base de dados",
+    "text": "Conhecendo a base de dados\n\nO que cada linha significa?\nQuais são as variáveis presentes na base de dados?\nQual é o tipo de cada variável? É o esperado? \n\n\ndados_brutos %&gt;% \n1  glimpse()\n\n\n1\n\nA função glimpse() é usada para visualizar um resumo da estrutura do conjunto de dados. Ela mostra o número de observações e variáveis, além de listar as variáveis presentes e seus tipos.\n\n\n\n\nRows: 48\nColumns: 9\n$ registro          &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…\n$ pre_natal         &lt;chr&gt; \"N\", \"S\", \"N\", \"N\", \"N\", \"S\", \"N\", \"S\", \"N\", \"N\", \"N…\n$ n_consultas       &lt;dbl&gt; 0, 5, 0, 0, 0, 2, 0, 4, 0, 0, 0, 4, 0, 5, 1, 5, 4, 3…\n$ sexo              &lt;chr&gt; \"F\", \"M\", \"F\", \"F\", \"M\", \"F\", \"F\", \"M\", \"F\", \"M\", \"F…\n$ peso              &lt;dbl&gt; 750, 650, 650, 750, 800, 600, 940, 940, 900, 600, 61…\n$ comprimento       &lt;dbl&gt; 31, 32, 33, 33, 33, 34, 34, 34, 34, 28, 31, 31, 32, …\n$ idade_gestacional &lt;dbl&gt; 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, …\n$ tempo_permanencia &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 3, 4, 5, 5, 15, 75,…\n$ desfecho          &lt;chr&gt; \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O…"
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html#análise-exploratória",
+    "href": "analise_dados/recem_nascidos.html#análise-exploratória",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "Análise exploratória",
+    "text": "Análise exploratória\n\nQuais são os desfechos presentes na base de dados?\n\ndados_brutos  %&gt;%  \n1  distinct(desfecho)\n\n\n1\n\nA função distinct() é usada para retornar apenas os valores únicos de uma variável (ou conjunto de variáveis).\n\n\n\n\n# A tibble: 2 × 1\n  desfecho\n  &lt;chr&gt;   \n1 O       \n2 V"
+  },
+  {
+    "objectID": "aulas.html",
+    "href": "aulas.html",
+    "title": "Aulas",
+    "section": "",
+    "text": "Conceitos básicos\nPlanejamento na área de saúde\nMedidas de acurácia e testes diagnósticos\nModelos Logístico e Riscos Proporcionais (Cox)",
+    "crumbs": [
+      "Aulas"
+    ]
+  },
+  {
+    "objectID": "estudos_de_casos/estudo01.html",
+    "href": "estudos_de_casos/estudo01.html",
+    "title": "Estudo de Caso: Desgaste de lentes de contato",
+    "section": "",
+    "text": "Coles et al. (2002) abordaram a possibilidade das novas lentes de contato gelatinosas tratadas com uma solução de condicionamento oferesem um maior grau de conforto ao paciente do que lentes semelhantes sem esse tratamento. Para isso,\n\nSessenta e um usuários experientes de lentes de contato com características oculares incomuns foram recrutados no banco de dados de indivíduos da Breman Consultants e por anúncios em jornais locais. Para serem elegíveis para participar do estudo, os indivíduos tinham que ter pelo menos 18 anos de idade e estar usando lentes de contato gelatinosas com sucesso por pelo menos um mês antes do estudo. Os míopes com até -12,00 D com menos de 0,75 D de anisometropia foram incluídos.\n\nOs dados de 59 dos indivíduos, 24 homens e 35 mulheres, foram considerados apropriados para análise. A idade média desses indivíduos era de 31,5, com desvio padrão de 10,2.\nOs pacientes foram categorizados como pertencentes a um de dois grupos, aqueles que no começo do estudo responderam com um “sim” à pergunta “Você é capaz de usar suas lentes de contato pelo tempo que desejar?” e aqueles que responderam negativamente à mesma pergunta. Os pacientes nas duas categorias tiveram uma lente condicionada colocada em um olho escolhido aleatoriamente e uma lente não condicionada colocada no outro olho. A ordem de inserção, isto é, lente condicionada primeiro ou lente não condicionada primeiro, também foi aleatória. Os pacientes não puderam saber qual das lentes era condicionada.\nAs lentes foram inseridas durante uma visita na parte da manhã ao local da pesquisa. Depois da inserção, os indivíduos responderam com qual lente eles se sentiam mais confortáveis. Aproximandamente oito horas depois, os indivíduos retornaram para uma visita à tarde, quando foram novamente questionados sobre a lente mais confortável. Os pacientes não poderiam indicar “nenhuma diferença”, de modo que foram exigidas designações de escolha forçada. Os resultados para essa parte do estudo são dados na Tabela abaixo.\n\n\n\n\n\n\n\n\nNão\n\n\nSim\n\n\n\n\nLente tratada\n\n\nLente não tratada\n\n\nLente tratada\n\n\nLente não tratada\n\n\n\n\n\n\nManhã\n\n\n10\n\n\n2\n\n\n23\n\n\n24\n\n\n\n\nTarde\n\n\n7\n\n\n5\n\n\n26\n\n\n21\n\n\n\n\n\nNa tabela, “não” significa não para a pergunta de duração, “sim” significa sim para a pergunta de duração, “lente tratada” significa que o indivíduo escolheu a lente tratada com solução de condicionamento, “lente não tratada” significa que o indivíduo escolheu a lente sem solução de condicionamento, “manhã” significa que a avaliação foi feita durante a visita da manhã, e “tarde” significa que a avaliação foi feita durante a visita da tarde.\nAlém desses dadosm diversas variáveis de saúde ocular foram avaliadas para cada olho em cada visita. Essas medições constituem uma escala contínua.\nBaseado nesse estudo de caso, responda as seguintes questões:\n\nIdentifique a amostra nesse estudo.\nA população nesse estudo é bem identificada? Justifique sua resposta.\nDescreva a população da melhor forma possível.\nPodemos encontrar uma estatística descritiva nesse estudo? Se sim, dê exemplos.\nPodemos encontrar um parâmetro nesse estudo? Se sim, dê exemplos; se não, explique o motivo.\nPodemos encontrar algum dado nesse estudo? Se sim, dê exemplos.\n\n\n\n\n\nReferências\n\nColes, Chantal, Noel Brennan, Vicki Shuley, Jill Woods, Melissa Hall, Brennan Consultants, Joe Vehige, e Peter Simmons. 2002. «THE INFLUENCE OF LENS CONDITIONING ON SIGNS AND SYMPTOMS WITH NEW HYDROGEL LENSES.» Optometry and Vision Science 79 (dezembro): 138. https://doi.org/10.1097/00006324-200212001-00263."
+  }
+]
