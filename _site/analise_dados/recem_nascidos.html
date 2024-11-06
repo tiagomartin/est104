@@ -174,6 +174,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#objetivos" id="toc-objetivos" class="nav-link active" data-scroll-target="#objetivos">Objetivos</a></li>
+  <li><a href="#carregando-os-dados" id="toc-carregando-os-dados" class="nav-link" data-scroll-target="#carregando-os-dados">Carregando os dados</a></li>
+  <li><a href="#conhecendo-a-base-de-dados" id="toc-conhecendo-a-base-de-dados" class="nav-link" data-scroll-target="#conhecendo-a-base-de-dados">Conhecendo a base de dados</a></li>
+  <li><a href="#análise-exploratória" id="toc-análise-exploratória" class="nav-link" data-scroll-target="#análise-exploratória">Análise exploratória</a>
+  <ul class="collapse">
+  <li><a href="#quais-são-os-desfechos-presentes-na-base-de-dados" id="toc-quais-são-os-desfechos-presentes-na-base-de-dados" class="nav-link" data-scroll-target="#quais-são-os-desfechos-presentes-na-base-de-dados">Quais são os desfechos presentes na base de dados?</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/sta210-s22/website/edit/main/analise_dados/recem_nascidos.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/sta210-s22/website/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -217,7 +223,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="annotated-cell-1-5"><a href="#annotated-cell-1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">sapply</span>(pkg, require, <span class="at">character.only =</span> <span class="cn">TRUE</span>)</span>
 <button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1">1</button><span id="annotated-cell-1-6" class="code-annotation-target"><a href="#annotated-cell-1-6" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="annotated-cell-1-7"><a href="#annotated-cell-1-7" aria-hidden="true" tabindex="-1"></a></span>
-<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2">2</button><span id="annotated-cell-1-8" class="code-annotation-target"><a href="#annotated-cell-1-8" aria-hidden="true" tabindex="-1"></a>packages <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"tidyverse"</span>, <span class="st">"knitr"</span>, <span class="st">"DT"</span>)</span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2">2</button><span id="annotated-cell-1-8" class="code-annotation-target"><a href="#annotated-cell-1-8" aria-hidden="true" tabindex="-1"></a>packages <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"tidyverse"</span>, <span class="st">"knitr"</span>, <span class="st">"DT"</span>, <span class="st">"readxl"</span>)</span>
 <button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="3">3</button><span id="annotated-cell-1-9" class="code-annotation-target"><a href="#annotated-cell-1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(packages)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-annotation">
 <dl class="code-annotation-container-hidden code-annotation-container-grid">
@@ -227,7 +233,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-lines="8" data-code-annotation="2">Carregando o pacote tidyverse, uma coleção de pacotes que facilitam a manipulação e visualização de dados. Os pacotes knitr e DT, para apresentar os resultados de forma mais amigável no arquivo final.</span>
+<span data-code-cell="annotated-cell-1" data-code-lines="8" data-code-annotation="2">Carregando o pacote tidyverse, uma coleção de pacotes que facilitam a manipulação e visualização de dados. Os pacotes knitr e DT, para apresentar os resultados de forma mais amigável no arquivo final. O pacote readxl possui diversas funções para importação de dados do Excel.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
 <dd>
@@ -236,12 +242,97 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </dl>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>tidyverse     knitr        DT 
-     TRUE      TRUE      TRUE </code></pre>
+<pre><code>tidyverse     knitr        DT    readxl 
+     TRUE      TRUE      TRUE      TRUE </code></pre>
+</div>
+</div>
+</section>
+<section id="carregando-os-dados" class="level2">
+<h2 class="anchored" data-anchor-id="carregando-os-dados">Carregando os dados</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-2"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><button class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="1">1</button><span id="annotated-cell-2-1" class="code-annotation-target"><a href="#annotated-cell-2-1" aria-hidden="true" tabindex="-1"></a>dados_brutos <span class="ot">=</span> <span class="fu">read_csv2</span>(<span class="st">"https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv"</span>)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-hidden code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="1" data-code-annotation="1">Importando a tabela disponível neste link, usando a função <code>read_csv()</code>. Essa função importa arquivos separados por vírgula <code>.csv2</code>), utilizando o ponto e vírgula (;) como separador. Após a importação, os dados são armazenados na variável <code>dados_brutos</code></span>
+</dd>
+</dl>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ Using "','" as decimal and "'.'" as grouping mark. Use `read_delim()` for more control.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 48 Columns: 9
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ";"
+chr (3): pre_natal, sexo, desfecho
+dbl (6): registro, n_consultas, peso, comprimento, idade_gestacional, tempo_...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+</div>
+</section>
+<section id="conhecendo-a-base-de-dados" class="level2">
+<h2 class="anchored" data-anchor-id="conhecendo-a-base-de-dados">Conhecendo a base de dados</h2>
+<ul>
+<li>O que cada linha significa?</li>
+<li>Quais são as variáveis presentes na base de dados?</li>
+<li>Qual é o tipo de cada variável? É o esperado? <!-- - Tem alguma variável que seria interessante gerar a partir das informações presentes na base de dados? --></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-3"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-3-1"><a href="#annotated-cell-3-1" aria-hidden="true" tabindex="-1"></a>dados_brutos <span class="sc">%&gt;%</span> </span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="1">1</button><span id="annotated-cell-3-2" class="code-annotation-target"><a href="#annotated-cell-3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">glimpse</span>()</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-hidden code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-3" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="2" data-code-annotation="1">A função <code>glimpse()</code> é usada para visualizar um resumo da estrutura do conjunto de dados. Ela mostra o número de observações e variáveis, além de listar as variáveis presentes e seus tipos.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 48
+Columns: 9
+$ registro          &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…
+$ pre_natal         &lt;chr&gt; "N", "S", "N", "N", "N", "S", "N", "S", "N", "N", "N…
+$ n_consultas       &lt;dbl&gt; 0, 5, 0, 0, 0, 2, 0, 4, 0, 0, 0, 4, 0, 5, 1, 5, 4, 3…
+$ sexo              &lt;chr&gt; "F", "M", "F", "F", "M", "F", "F", "M", "F", "M", "F…
+$ peso              &lt;dbl&gt; 750, 650, 650, 750, 800, 600, 940, 940, 900, 600, 61…
+$ comprimento       &lt;dbl&gt; 31, 32, 33, 33, 33, 34, 34, 34, 34, 28, 31, 31, 32, …
+$ idade_gestacional &lt;dbl&gt; 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, …
+$ tempo_permanencia &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 3, 4, 5, 5, 15, 75,…
+$ desfecho          &lt;chr&gt; "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O…</code></pre>
+</div>
+</div>
+</section>
+<section id="análise-exploratória" class="level2">
+<h2 class="anchored" data-anchor-id="análise-exploratória">Análise exploratória</h2>
+<section id="quais-são-os-desfechos-presentes-na-base-de-dados" class="level3">
+<h3 class="anchored" data-anchor-id="quais-são-os-desfechos-presentes-na-base-de-dados">Quais são os desfechos presentes na base de dados?</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-4"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-4-1"><a href="#annotated-cell-4-1" aria-hidden="true" tabindex="-1"></a>dados_brutos  <span class="sc">%&gt;%</span>  </span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="1">1</button><span id="annotated-cell-4-2" class="code-annotation-target"><a href="#annotated-cell-4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(desfecho)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-hidden code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-4" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="2" data-code-annotation="1">A função <code>distinct()</code> é usada para retornar apenas os valores únicos de uma variável (ou conjunto de variáveis).</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 1
+  desfecho
+  &lt;chr&gt;   
+1 O       
+2 V       </code></pre>
 </div>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

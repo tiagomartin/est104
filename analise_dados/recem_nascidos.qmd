@@ -13,7 +13,7 @@ Considere o conjunto de dados referente a um estudo sobre recém-nascidos premat
 
 Fonte dos dados:
 
-- <https://github.com/tiagomartin/est104/blob/master/dados/recem_nascidos.xlsx>
+- <https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv>
 
 
 
@@ -41,6 +41,33 @@ load(packages) # <3>
 ## Carregando os dados
 
 ```{r}
-dados_brutos = read_xlsx("https://github.com/tiagomartin/est104/blob/master/dados/recem_nascidos.xlsx") # <1>
+dados_brutos = read_csv2("https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv") # <1>
 ```
-1. Importando a tabela disponível neste link, usando a função `read_xlsx()`. Essa função importa arquivos excel `.xlsx`. Após a importação, os dados são armazenados na variável `dados_brutos` 
+1. Importando a tabela disponível neste link, usando a função `read_csv()`. Essa função importa arquivos separados por vírgula `.csv2`), utilizando o ponto e vírgula (;) como separador. Após a importação, os dados são armazenados na variável `dados_brutos` 
+
+
+## Conhecendo a base de dados
+
+- O que cada linha significa?
+- Quais são as variáveis presentes na base de dados?
+- Qual é o tipo de cada variável? É o esperado?
+<!-- - Tem alguma variável que seria interessante gerar a partir das informações presentes na base de dados? -->
+
+
+```{r}
+dados_brutos %>% 
+  glimpse() # <1>
+```
+1. A função `glimpse()` é usada para visualizar um resumo da estrutura do conjunto de dados. Ela mostra o número de observações e variáveis, além de listar as variáveis presentes e seus tipos.
+
+
+
+## Análise exploratória
+
+### Quais são os desfechos presentes na base de dados?
+
+```{r}
+dados_brutos  %>%  
+  distinct(desfecho) # <1>
+```
+1. A função `distinct()` é usada para retornar apenas os valores únicos de uma variável (ou conjunto de variáveis).
