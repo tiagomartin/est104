@@ -1,6 +1,5 @@
 ---
 title: "Estatística Aplicada à Saúde"
- 
 page-layout: full
 title-block-banner: false
 comments: false
@@ -17,6 +16,30 @@ Página dedicada à disciplina **EST104 - Estatística Aplicada à Saúde**
 Bioestatística é o conjunto de métodos estatísticos usados para o planejamento e análise de dados de estudos em ciências médicas, biológicas ou, de forma geral, na área de saúde. É uma ferramenta útil para a tomada de decisões!
 
 ![](images/estatisticasaude.jpeg){width="1000"}
+
+# Ementa
+
+Estatística na área da saúde; planejamento na área da saúde; medidas de acurácia e testes diagnósticos; modelos logístico e riscos proporcionais (Cox).
+
+
+
+# Conteúdo Programático
+
+1. **Estatística na área da saúde:** conceitos básicos.
+
+2. **Planejamento na área da saúde:** estudo descritivo; estudos comparativos;
+estudos de Bioequivalência; estudos com Delineamentos Sequenciais ou Adaptativos;
+seleção das Coortes; confusão de Efeitos e Controle de Fatores de Confusão;
+Metanálise.
+
+3. **Medidas de acurácia e testes diagnósticos:** Sensibilidade e Especificidade;
+medidas obtidas pela Combinação da Sensibilidade e da Especificidade; Valor das
+Predições; Decisões Incorretas; Combinação de Testes; Testes Diagnósticos baseados
+em Variáveis Contínuas; escolha entre Testes Diagnósticos: mais sensibilidade ou mais especificidade?
+
+4. **Modelos logístico e riscos proporcionais (Cox)**
+
+
 
 # Referências Bibliográficas
 
