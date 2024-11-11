@@ -8,17 +8,21 @@ website:
   description: "Homepage da disciplina EST104 - Estatística Aplicada à Saúde, 2024/2."
   site-url: "http://professortp.com.br/est104/"
 
-  repo-url: https://github.com/tiagomartin/est104
+  repo-url: "https://github.com/tiagomartin/est104"
   repo-actions: [edit, issue]
 
   open-graph: true
-
+  
   page-footer:
     right: "Página construída usando [Quarto](https://quarto.org/)."
     left: "&copy; Copyright 2024, Tiago Pereira"
     background: "#D9E3E4"
 
   sidebar:
+    tools: 
+    - icon: github
+      text: github
+      href: https://github.com/tiagomartin/est104
     background: "#D9E3E4"
     logo: "images/logo.png"
     pinned: true
@@ -45,4 +49,3 @@ format:
 
 freeze: auto
 
-editor: visual

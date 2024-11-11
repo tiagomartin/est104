@@ -6,6 +6,5 @@ Leia com atenção o **plano de ensino da disciplina** que será oferecida neste
 
 
 
-Plano de ensino:
 
-- <https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv>
+- [Plano de ensino](https://github.com/tiagomartin/est104/blob/master/documentos/Plano_Ensino_EST104_Estatistica%20aplicada%20a%20saude_2024-2.pdf)

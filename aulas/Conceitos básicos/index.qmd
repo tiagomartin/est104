@@ -64,6 +64,28 @@ Característica de interesse a ser analisada.
 
 ![](/images/tiposVar2.png){fig-align="center"}
 
+
+## Desfechos de saúde
+
+- **Morte:** Um desfecho ruim, se for antes do tempo
+
+. . .
+
+- **Doença:** Um conjunto de sintomas, sinais físicos e anormalidades laboratoriais
+
+. . .
+
+- **Desconforto:** Sintomas como dor, náusea, dispneia, prurido e zumbido
+
+. . .
+
+- **Deficiência funcional:** Limitação na capacidade de funcional desempenhar as atividades normais em casa, o trabalho ou no lazer
+
+. . .
+
+- **Descontentamento:** Reação emocional à doença e ao seu cuidado, como tristeza e raiva
+
+
 ## Estimativa e Parâmetro
 
 Parâmetros são informações extraídas da população
