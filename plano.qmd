@@ -1,0 +1,11 @@
+---
+title: "Plano de Ensino"
+---
+
+Leia com atenção o **plano de ensino da disciplina** que será oferecida neste período. Nele estão as regras do jogo.
+
+
+
+Plano de ensino:
+
+- <https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv>

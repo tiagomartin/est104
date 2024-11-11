@@ -6,9 +6,9 @@ website:
   page-navigation: true
   title: "EST104 - Estatística Aplicada à Saúde"
   description: "Homepage da disciplina EST104 - Estatística Aplicada à Saúde, 2024/2."
-  site-url: "https://sta210-s22.github.io/website/"
+  site-url: "http://professortp.com.br/est104/"
 
-  repo-url: https://github.com/sta210-s22/website
+  repo-url: https://github.com/tiagomartin/est104
   repo-actions: [edit, issue]
 
   open-graph: true
@@ -30,6 +30,7 @@ website:
       - aulas.qmd
       - estudos.qmd
       - analises.qmd
+      - plano.qmd
 
       
 format:
