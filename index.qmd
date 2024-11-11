@@ -3,7 +3,7 @@ title: "Estatística Aplicada à Saúde"
 page-layout: full
 title-block-banner: false
 comments: false
-toc: false
+toc: FALSE
 bibliography: references.bib
 ---
 
@@ -39,6 +39,15 @@ em Variáveis Contínuas; escolha entre Testes Diagnósticos: mais sensibilidade
 
 4. **Modelos logístico e riscos proporcionais (Cox)**
 
+
+# Horário de Aulas
+
+Neste semestre, as aulas da disciplina serão ministradas no LABEST III.
+
+| Dia           | Horário         | Local        |
+|---------------|-----------------|--------------|
+| Segunda-feira | 17:10 - 18:50   | LABEST III   |
+| Quarta-feira  | 17:10 - 18:50   | LABEST III   |
 
 
 # Referências Bibliográficas

@@ -16,14 +16,14 @@ website:
   page-footer:
     right: "Página construída usando [Quarto](https://quarto.org/)."
     left: "&copy; Copyright 2024, Tiago Pereira"
-    background: "#D9E3E4"
+
 
   sidebar:
     tools: 
     - icon: github
       text: github
       href: https://github.com/tiagomartin/est104
-    background: "#D9E3E4"
+    background: "#F2F2F2"
     logo: "images/logo.png"
     pinned: true
     align: center
