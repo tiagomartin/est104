@@ -17,6 +17,12 @@ title-slide-attributes:
     data-background-opacity: "0.3"
 ---
 
+
+```{r include = FALSE}
+library(countdown)
+```
+
+
 ## Estatística {auto-animate="true"}
 
 > É a ciência que oferece uma coleção de métodos para produzir e obter dados, organizá-los, resumi-los, analisá-los, interpretá-los e deles extrair conhecimento.
@@ -42,27 +48,27 @@ Convencionou-se chamar de **Bioestatística** o conjunto de métodos estatístic
 
 ## Áreas da Estatística
 
-![](/images/areas.png){fig-align="center"}
+![](/images/areas.png){fig-align="center"  .lightbox}
 
 ## População e Amostra
 
-![](/images/amostragem.png){fig-align="center"}
+![](/images/amostragem.png){fig-align="center"  .lightbox}
 
 ## População e Amostra {auto-animate="true"}
 
 <br>
 
-![](/images/amostragem2.png){fig-align="center"}
+![](/images/amostragem2.png){fig-align="center"  .lightbox}
 
 ## Variável
 
 Característica de interesse a ser analisada.
 
-![](/images/tiposVar.png){fig-align="center"}
+![](/images/tiposVar.png){fig-align="center"  .lightbox}
 
 ## Variável
 
-![](/images/tiposVar2.png){fig-align="center"}
+![](/images/tiposVar2.png){fig-align="center"  .lightbox}
 
 
 ## Desfechos de saúde
@@ -92,7 +98,7 @@ Parâmetros são informações extraídas da população
 
 <br>
 
-![](/images/parametro.png){fig-align="center"}
+![](/images/parametro.png){fig-align="center"  .lightbox}
 
 ## Estimativa e Parâmetro
 
@@ -100,7 +106,7 @@ Estimativas são informações extraídas da amostra
 
 <br>
 
-![](/images/estatistica.png){fig-align="center"}
+![](/images/estatistica.png){fig-align="center"  .lightbox}
 
 ## Margem de erro
 
@@ -122,7 +128,7 @@ Na prática, é considerado como um **erro sistemático**, que ocorre no momento
 
 ## Viés ou Vício {auto-animate="true"}
 
-![](/images/vies.png){fig-align="center"}
+![](/images/vies.png){fig-align="center"  .lightbox}
 
 ## Viés de seleção
 
@@ -142,7 +148,7 @@ Aumento na pressão sistólica, quando a pressão é aferida manualmente por um 
 :::
 
 ::: {.column width="40%"}
-![](/images/jalecoBranco2.png){.absolute top="140" width="450"}
+![](/images/jalecoBranco2.png){top="140" width="450"  .lightbox}
 :::
 :::::
 
@@ -156,7 +162,7 @@ A relação entre ingestão de antioxidantes e risco de doenças cardiovasculare
 :::
 
 ::: {.column width="40%"}
-![](/images/confundimento1.png){.absolute top="140" width="650"}
+![](/images/confundimento1.png){.lightbox top="140" width="650"}
 :::
 :::::
 
@@ -170,7 +176,7 @@ A relação entre ingestão de antioxidantes e risco de doenças cardiovasculare
 :::
 
 ::: {.column width="40%"}
-![](/images/confundimento2.png){.absolute top="140" width="650"}
+![](/images/confundimento2.png){.lightbox top="140" width="650"}
 :::
 :::::
 
@@ -188,7 +194,7 @@ As observações sobre as doenças são normalmente feitas em uma amostra de pac
 
 ## Viés e Acaso
 
-![](/images/viesAcaso2.png){fig-align="center"}
+![](/images/viesAcaso2.png){.r-stretch fig-align="center"}
 
 ## Amostragem
 
@@ -234,7 +240,7 @@ Deseja-se sempre **amostras representativas!**
 :::
 
 ::: {.column width="40%"}
-![](/images/amostra_repres.jpeg){fig-align="center"}
+![](/images/amostra_repres.jpeg){fig-align="center" .lightbox}
 :::
 :::::
 
@@ -282,9 +288,9 @@ $$\fbox{SHIFT} \quad \fbox{Ran#} \quad \fbox{=}$$
 
 ::::: columns
 ::: {.column width="30%"}
-![](/images/excel.png){.absolute top="110" left="0" width="300" height="150"}
+![](/images/excel.png){.absolute top="110" left="0" width="300" height="150"  .lightbox}
 
-![](/images/libre.png){.absolute top="310" left="0" width="300" height="150"}
+![](/images/libre.png){.absolute top="310" left="0" width="300" height="150"  .lightbox}
 :::
 
 ::: {.column width="70%"}
@@ -377,6 +383,17 @@ $$ 0,5+\frac{41}{0,999}\times 0,024 = 1,48 \approx 1 \rightarrow \text{aluno }1 
 . . .
 
 $$ 0,5+\frac{41}{0,999}\times 0,788 = 32,84 \approx 33 \rightarrow \text{aluno }33 $$
+
+## Prática 
+
+- Dos 12 alunos matriculados na disciplina EST104 neste semestre, queremos sortear 4 para comporem uma amostra
+
+- Para isso, usaremos o **método 1** gerando números aleatórios via calculadora!
+
+```{r}
+countdown(minutes = 5)
+```
+
 
 ## Procedimentos do sorteio
 
@@ -615,6 +632,21 @@ Temos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas 
 :::
 :::::
 
+
+
+## Prática 
+
+- Dos 12 alunos matriculados na disciplina EST104 neste semestre, queremos formar dois grupos
+
+- Para isso, usaremos o **método 2** gerando números aleatórios via calculadora!
+
+```{r}
+countdown(minutes = 5)
+```
+
+
+
+
 # Amostragem não aleatória
 
 ## Amostragem não aleatória
@@ -672,23 +704,36 @@ Mas atenção sobre a representatividade!
 
     -   prevalência de doenças
     -   identificação de grupos mais susceptíveis
+    
+. . .
 
 -   Avaliação de fatores de risco de doenças
 
-## Aplicações
+. . .
+
 
 -   Comparação de tratamentos para doenças
 
     -   tratamento medicamentoso *vs* cirúrgico
     -   diferentes associações de medicamentos
 
--   Comparação de medicamentos: bioequivalência
-
--   Avaliação de eficácia de vacinas
 
 ## Aplicações
 
+
+
+-   Comparação de medicamentos: bioequivalência
+
+
+. . .
+
+-   Avaliação de eficácia de vacinas
+
+. . .
+
 -   Estratégias de diagnóstico e de tratamentos para estabelecer conduta clínica
+
+. . .
 
 -   Avaliação de serviços de ambulatórios e hospitais
 

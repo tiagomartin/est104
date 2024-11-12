@@ -139,7 +139,7 @@
     "href": "aulas/Conceitos básicos/index.html#desfechos-de-saúde",
     "title": "Conceitos básicos",
     "section": "Desfechos de saúde",
-    "text": "Desfechos de saúde\n\nMorte: Um desfecho ruim, se for antes do tempo\n\n\n\nDoença: Um conjunto de sintomas, sinais físicos e anormalidades laboratoriais\n\n\n\n\nDesconforto: Sintomas como dor, náusea, dispneia, prurido e zumbido\n\n\n\n\nDeficiência funcional: Limitação na capacidade de funcional desempenhar as atividades normais em casa, o trabalho ou no lazer\n\n\n\n\nDescontentamento: Reação emocional à doença e ao seu cuidado, como tristeza e raiva"
+    "text": "Desfechos de saúde\n\n\nMorte: Um desfecho ruim, se for antes do tempo\n\n\n\n\nDoença: Um conjunto de sintomas, sinais físicos e anormalidades laboratoriais\n\n\n\n\n\nDesconforto: Sintomas como dor, náusea, dispneia, prurido e zumbido\n\n\n\n\n\nDeficiência funcional: Limitação na capacidade de funcional desempenhar as atividades normais em casa, o trabalho ou no lazer\n\n\n\n\n\nDescontentamento: Reação emocional à doença e ao seu cuidado, como tristeza e raiva"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro",
@@ -237,21 +237,21 @@
     "href": "aulas/Conceitos básicos/index.html#amostragem",
     "title": "Conceitos básicos",
     "section": "Amostragem",
-    "text": "Amostragem\nTrata-se do precedimento para a coleta da amostra.\n\n\nPor que amostrar?\n\nEconomia: Em geral é mais econômico levantar apenas uma parte da população\n\nCenso x PNAD"
+    "text": "Amostragem\nTrata-se do precedimento para a coleta da amostra.\n\n\nPor que amostrar?\n\n\nEconomia: Em geral é mais econômico levantar apenas uma parte da população\n\nCenso x PNAD"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#amostragem-1",
     "href": "aulas/Conceitos básicos/index.html#amostragem-1",
     "title": "Conceitos básicos",
     "section": "Amostragem",
-    "text": "Amostragem\n\nTempo: Maior rapidez; por vezes, nem há tempo suficiente para observar toda a população\n\nA três dias das eleições, não haveria tempo para sondar toda a população\n\n\n\n\nConfiabilidade: Avaliando número menor de elementos, é possível dar mais atenção e cuidado a cada elemento observado."
+    "text": "Amostragem\n\n\nTempo: Maior rapidez; por vezes, nem há tempo suficiente para observar toda a população\n\nA três dias das eleições, não haveria tempo para sondar toda a população\n\n\n\n\n\n\nConfiabilidade: Avaliando número menor de elementos, é possível dar mais atenção e cuidado a cada elemento observado."
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#amostragem-2",
     "href": "aulas/Conceitos básicos/index.html#amostragem-2",
     "title": "Conceitos básicos",
     "section": "Amostragem",
-    "text": "Amostragem\n\nDetalhamento: É possível aprofundar a análise, por exemplo, avaliando mais variáveis.\n\n\n\nAnálises destrutivas: Neste caso, não faz sentido avaliar toda a população!\n\nPor exemplo, em um lote de cobaias, algumas são sacrificadas para estudos histológicos."
+    "text": "Amostragem\n\n\nDetalhamento: É possível aprofundar a análise, por exemplo, avaliando mais variáveis.\n\n\n\n\nAnálises destrutivas: Neste caso, não faz sentido avaliar toda a população!\n\nPor exemplo, em um lote de cobaias, algumas são sacrificadas para estudos histológicos."
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#representatividade",
@@ -286,49 +286,49 @@
     "href": "aulas/Conceitos básicos/index.html#números-aleatórios",
     "title": "Conceitos básicos",
     "section": "Números Aleatórios",
-    "text": "Números Aleatórios\n\n\n\n\n\n\n\n\nNúmeros aleatórios entre 0,000 e 0,999\n\\[\\fbox{SHIFT} \\quad \\fbox{Ran#} \\quad \\fbox{=}\\]"
+    "text": "Números Aleatórios\n\n\n\n\n\n\n\nNúmeros aleatórios entre 0,000 e 0,999\n\\[\\fbox{SHIFT} \\quad \\fbox{Ran#} \\quad \\fbox{=}\\]"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#números-aleatórios-1",
     "href": "aulas/Conceitos básicos/index.html#números-aleatórios-1",
     "title": "Conceitos básicos",
     "section": "Números Aleatórios",
-    "text": "Números Aleatórios\n\n\n\n\n\n\nfunção =ALEATÓRIO()\n\nnúmeros aleatórios entre 0 e 1\n\n\nou,\n\nfunção =ALEATÓRIOENTRE(a;b)\n\nnúmeros aleatórios entre valores escolhidos “a” e “b”"
+    "text": "Números Aleatórios\n\n\n\n\n\n\n\nfunção =ALEATÓRIO()\n\nnúmeros aleatórios entre 0 e 1\n\n\n\nou,\n\n\nfunção =ALEATÓRIOENTRE(a;b)\n\nnúmeros aleatórios entre valores escolhidos “a” e “b”"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\nMétodo 1: utilizando n números aleatórios"
+    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-1",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-1",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N"
+    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-2",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-2",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999"
+    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-3",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-3",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]"
+    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-4",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-4",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]\nRepita o processo n vezes"
+    "text": "Procedimentos do sorteio\nSorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]\nRepita o processo n vezes"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-5",
@@ -345,32 +345,39 @@
     "text": "Procedimentos do sorteio\nOs alunos sorteados serão…\n\\[ 0,5+\\frac{41}{0,999}\\times 0,567 = 23,77 \\approx 24 \\rightarrow \\text{aluno }24 \\]\n\n\\[ 0,5+\\frac{41}{0,999}\\times 0,024 = 1,48 \\approx 1 \\rightarrow \\text{aluno }1 \\]\n\n\n\\[ 0,5+\\frac{41}{0,999}\\times 0,788 = 32,84 \\approx 33 \\rightarrow \\text{aluno }33 \\]"
   },
   {
+    "objectID": "aulas/Conceitos básicos/index.html#prática",
+    "href": "aulas/Conceitos básicos/index.html#prática",
+    "title": "Conceitos básicos",
+    "section": "Prática",
+    "text": "Prática\n\nDos 12 alunos matriculados na disciplina EST104 neste semestre, queremos sortear 4 para comporem uma amostra\nPara isso, usaremos o método 1 gerando números aleatórios via calculadora!\n\n\n\n\n\n−&plus;\n\n05:00"
+  },
+  {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-7",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-7",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\n\nMétodo 2: utilizando N números aleatórios"
+    "text": "Procedimentos do sorteio\n\n\nMétodo 2: utilizando N números aleatórios"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-8",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-8",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população"
+    "text": "Procedimentos do sorteio\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-9",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-9",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)"
+    "text": "Procedimentos do sorteio\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-10",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-10",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)\nToma-se os n primeiros elementos neste novo conjunto. Estes são os elementos sorteados."
+    "text": "Procedimentos do sorteio\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)\nToma-se os n primeiros elementos neste novo conjunto. Estes são os elementos sorteados."
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-11",
@@ -391,56 +398,63 @@
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-13",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12"
+    "text": "Procedimentos do sorteio\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-14",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-14",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um"
+    "text": "Procedimentos do sorteio\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-15",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-15",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios"
+    "text": "Procedimentos do sorteio\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-16",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-16",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios\nOs 6 primeiros estarão no Grupo 1, e os outros 6 no Grupo 2"
+    "text": "Procedimentos do sorteio\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios\nOs 6 primeiros estarão no Grupo 1, e os outros 6 no Grupo 2"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-17",
     "href": "aulas/Conceitos básicos/index.html#procedimentos-do-sorteio-17",
     "title": "Conceitos básicos",
     "section": "Procedimentos do sorteio",
-    "text": "Procedimentos do sorteio\n\n\n\n\n\n\n\n\nVoluntário\n\n\nNúmero Aleatório\n\n\n\n\n\n\nIndivíduo 1\n\n\n0,964\n\n\n\n\nIndivíduo 2\n\n\n0,017\n\n\n\n\nIndivíduo 3\n\n\n0,043\n\n\n\n\nIndivíduo 4\n\n\n0,199\n\n\n\n\nIndivíduo 5\n\n\n0,900\n\n\n\n\nIndivíduo 6\n\n\n0,786\n\n\n\n\nIndivíduo 7\n\n\n0,177\n\n\n\n\nIndivíduo 8\n\n\n0,181\n\n\n\n\nIndivíduo 9\n\n\n0,309\n\n\n\n\nIndivíduo 10\n\n\n0,003\n\n\n\n\nIndivíduo 11\n\n\n0,247\n\n\n\n\nIndivíduo 12\n\n\n0,665\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrupo\n\n\nNúmero Aleatório\n\n\nVoluntário\n\n\n\n\n\n\n1\n\n\n0,003\n\n\nIndivíduo 10\n\n\n\n\n1\n\n\n0,017\n\n\nIndivíduo 2\n\n\n\n\n1\n\n\n0,043\n\n\nIndivíduo 3\n\n\n\n\n1\n\n\n0,177\n\n\nIndivíduo 7\n\n\n\n\n1\n\n\n0,181\n\n\nIndivíduo 8\n\n\n\n\n1\n\n\n0,199\n\n\nIndivíduo 4\n\n\n\n\n2\n\n\n0,247\n\n\nIndivíduo 11\n\n\n\n\n2\n\n\n0,309\n\n\nIndivíduo 9\n\n\n\n\n2\n\n\n0,665\n\n\nIndivíduo 12\n\n\n\n\n2\n\n\n0,786\n\n\nIndivíduo 6\n\n\n\n\n2\n\n\n0,900\n\n\nIndivíduo 5\n\n\n\n\n2\n\n\n0,964\n\n\nIndivíduo 1"
+    "text": "Procedimentos do sorteio\n\n\n\n\n\n\n\nVoluntário\n\n\nNúmero Aleatório\n\n\n\n\n\nIndivíduo 1\n\n\n0,964\n\n\n\n\nIndivíduo 2\n\n\n0,017\n\n\n\n\nIndivíduo 3\n\n\n0,043\n\n\n\n\nIndivíduo 4\n\n\n0,199\n\n\n\n\nIndivíduo 5\n\n\n0,900\n\n\n\n\nIndivíduo 6\n\n\n0,786\n\n\n\n\nIndivíduo 7\n\n\n0,177\n\n\n\n\nIndivíduo 8\n\n\n0,181\n\n\n\n\nIndivíduo 9\n\n\n0,309\n\n\n\n\nIndivíduo 10\n\n\n0,003\n\n\n\n\nIndivíduo 11\n\n\n0,247\n\n\n\n\nIndivíduo 12\n\n\n0,665\n\n\n\n\n\n\n\n\n\n\n\n\nGrupo\n\n\nNúmero Aleatório\n\n\nVoluntário\n\n\n\n\n\n1\n\n\n0,003\n\n\nIndivíduo 10\n\n\n\n\n1\n\n\n0,017\n\n\nIndivíduo 2\n\n\n\n\n1\n\n\n0,043\n\n\nIndivíduo 3\n\n\n\n\n1\n\n\n0,177\n\n\nIndivíduo 7\n\n\n\n\n1\n\n\n0,181\n\n\nIndivíduo 8\n\n\n\n\n1\n\n\n0,199\n\n\nIndivíduo 4\n\n\n\n\n2\n\n\n0,247\n\n\nIndivíduo 11\n\n\n\n\n2\n\n\n0,309\n\n\nIndivíduo 9\n\n\n\n\n2\n\n\n0,665\n\n\nIndivíduo 12\n\n\n\n\n2\n\n\n0,786\n\n\nIndivíduo 6\n\n\n\n\n2\n\n\n0,900\n\n\nIndivíduo 5\n\n\n\n\n2\n\n\n0,964\n\n\nIndivíduo 1"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#prática-1",
+    "href": "aulas/Conceitos básicos/index.html#prática-1",
+    "title": "Conceitos básicos",
+    "section": "Prática",
+    "text": "Prática\n\nDos 12 alunos matriculados na disciplina EST104 neste semestre, queremos formar dois grupos\nPara isso, usaremos o método 2 gerando números aleatórios via calculadora!\n\n\n\n\n\n−&plus;\n\n05:00"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-1",
     "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-1",
     "title": "Conceitos básicos",
     "section": "Amostragem não aleatória",
-    "text": "Amostragem não aleatória\nQuando o sorteio não é possível ou viável\n\nInacessibilidade: Nem sempre todos os elementos da população estão disponíveis\n\nEx.: Estudo de casos de doença (apenas) dentre os pacientes atendidos em um centro"
+    "text": "Amostragem não aleatória\nQuando o sorteio não é possível ou viável\n\n\nInacessibilidade: Nem sempre todos os elementos da população estão disponíveis\n\nEx.: Estudo de casos de doença (apenas) dentre os pacientes atendidos em um centro"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-2",
     "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-2",
     "title": "Conceitos básicos",
     "section": "Amostragem não aleatória",
-    "text": "Amostragem não aleatória\n\nOperacionalidade: Nem sempre é viável identificar ou numerar todos os elementos, mesmo estando acessíveis.\n\nEx.: Amostra de folhas de uma árvore para uma análise de composição química\n\n\n\n\nPopulações contínuas: Se a população é formada de material contínuo (como líquido ou gás), não é possível enumerar os elementos da população\n\nEx.: amostras de água em pontos do rio para avaliar poluentes"
+    "text": "Amostragem não aleatória\n\n\nOperacionalidade: Nem sempre é viável identificar ou numerar todos os elementos, mesmo estando acessíveis.\n\nEx.: Amostra de folhas de uma árvore para uma análise de composição química\n\n\n\n\n\n\nPopulações contínuas: Se a população é formada de material contínuo (como líquido ou gás), não é possível enumerar os elementos da população\n\nEx.: amostras de água em pontos do rio para avaliar poluentes"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-3",
     "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-3",
     "title": "Conceitos básicos",
     "section": "Amostragem não aleatória",
-    "text": "Amostragem não aleatória\n\nPopulações infinitas\n\n\nSe a amostra é não aleatória, deve-se ao menos tentar garantir sua representatividade\n\n\n\nColeta a esmo: Apesar da subjetividade possível, consiste em tentar evitar tendenciosidade, coletando “ao acaso”\n\nentrevistar pessoas na rua, \ncoletar folhas em diferentes alturas e profundidades da copa"
+    "text": "Amostragem não aleatória\n\nPopulações infinitas\n\n\nSe a amostra é não aleatória, deve-se ao menos tentar garantir sua representatividade\n\n\n\n\nColeta a esmo: Apesar da subjetividade possível, consiste em tentar evitar tendenciosidade, coletando “ao acaso”\n\nentrevistar pessoas na rua, \ncoletar folhas em diferentes alturas e profundidades da copa"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-4",
@@ -454,21 +468,21 @@
     "href": "aulas/Conceitos básicos/index.html#aplicações",
     "title": "Conceitos básicos",
     "section": "Aplicações",
-    "text": "Aplicações\n\nLevantamentos epidemiológicos\n\nprevalência de doenças\nidentificação de grupos mais susceptíveis\n\nAvaliação de fatores de risco de doenças"
+    "text": "Aplicações\n\n\nLevantamentos epidemiológicos\n\nprevalência de doenças\nidentificação de grupos mais susceptíveis\n\n\n\n\n\nAvaliação de fatores de risco de doenças\n\n\n\n\n\nComparação de tratamentos para doenças\n\ntratamento medicamentoso vs cirúrgico\ndiferentes associações de medicamentos"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#aplicações-1",
     "href": "aulas/Conceitos básicos/index.html#aplicações-1",
     "title": "Conceitos básicos",
     "section": "Aplicações",
-    "text": "Aplicações\n\nComparação de tratamentos para doenças\n\ntratamento medicamentoso vs cirúrgico\ndiferentes associações de medicamentos\n\nComparação de medicamentos: bioequivalência\nAvaliação de eficácia de vacinas"
+    "text": "Aplicações\n\nComparação de medicamentos: bioequivalência\n\n\n\nAvaliação de eficácia de vacinas\n\n\n\n\nEstratégias de diagnóstico e de tratamentos para estabelecer conduta clínica\n\n\n\n\nAvaliação de serviços de ambulatórios e hospitais"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#aplicações-2",
     "href": "aulas/Conceitos básicos/index.html#aplicações-2",
     "title": "Conceitos básicos",
     "section": "Aplicações",
-    "text": "Aplicações\n\nEstratégias de diagnóstico e de tratamentos para estabelecer conduta clínica\nAvaliação de serviços de ambulatórios e hospitais"
+    "text": "Aplicações\n\nEstratégias de diagnóstico e de tratamentos para estabelecer conduta clínica\n\n\n\nAvaliação de serviços de ambulatórios e hospitais"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#impacto-de-celular-na-saúde",
