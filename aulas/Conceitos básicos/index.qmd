@@ -458,86 +458,160 @@ Temos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas 
 
 ::::: columns
 ::: {.column width="50%"}
+<center>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:20px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:30px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:20px;
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:30px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
 </style>
-
-+--------------+------------------+
-| Voluntário   | Número Aleatório |
-+==============+==================+
-| Indivíduo 1  | 0,964            |
-+--------------+------------------+
-| Indivíduo 2  | 0,017            |
-+--------------+------------------+
-| Indivíduo 3  | 0,043            |
-+--------------+------------------+
-| Indivíduo 4  | 0,199            |
-+--------------+------------------+
-| Indivíduo 5  | 0,900            |
-+--------------+------------------+
-| Indivíduo 6  | 0,786            |
-+--------------+------------------+
-| Indivíduo 7  | 0,177            |
-+--------------+------------------+
-| Indivíduo 8  | 0,181            |
-+--------------+------------------+
-| Indivíduo 9  | 0,309            |
-+--------------+------------------+
-| Indivíduo 10 | 0,003            |
-+--------------+------------------+
-| Indivíduo 11 | 0,247            |
-+--------------+------------------+
-| Indivíduo 12 | 0,665            |
-+--------------+------------------+
-|              |                  |
-+--------------+------------------+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-7btt">Voluntário </th>
+    <th class="tg-7btt">Número Aleatório</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 1</td>
+    <td class="tg-c3ow">0,964</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 2</td>
+    <td class="tg-c3ow">0,017</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 3</td>
+    <td class="tg-c3ow">0,043</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 4</td>
+    <td class="tg-c3ow">0,199</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 5</td>
+    <td class="tg-c3ow">0,900</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 6</td>
+    <td class="tg-c3ow">0,786</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 7</td>
+    <td class="tg-c3ow">0,177</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 8</td>
+    <td class="tg-c3ow">0,181</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 9</td>
+    <td class="tg-c3ow">0,309</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 10</td>
+    <td class="tg-c3ow">0,003</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 11</td>
+    <td class="tg-c3ow">0,247</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Indivíduo 12</td>
+    <td class="tg-c3ow">0,665</td>
+  </tr>
+  <tr>
+  </tr>
+</tbody></table>
+</center>
 :::
 
 ::: {.column width="50%"}
+<center>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:20px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:30px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:20px;
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:"Montserrat", Monaco, monospace !important;font-size:30px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-34fe{background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
 </style>
-
-+-------+------------------+--------------+
-| Grupo | Número Aleatório | Voluntário   |
-+=======+==================+==============+
-| 1     | 0,003            | Indivíduo 10 |
-+-------+------------------+--------------+
-| 1     | 0,017            | Indivíduo 2  |
-+-------+------------------+--------------+
-| 1     | 0,043            | Indivíduo 3  |
-+-------+------------------+--------------+
-| 1     | 0,177            | Indivíduo 7  |
-+-------+------------------+--------------+
-| 1     | 0,181            | Indivíduo 8  |
-+-------+------------------+--------------+
-| 1     | 0,199            | Indivíduo 4  |
-+-------+------------------+--------------+
-| 2     | 0,247            | Indivíduo 11 |
-+-------+------------------+--------------+
-| 2     | 0,309            | Indivíduo 9  |
-+-------+------------------+--------------+
-| 2     | 0,665            | Indivíduo 12 |
-+-------+------------------+--------------+
-| 2     | 0,786            | Indivíduo 6  |
-+-------+------------------+--------------+
-| 2     | 0,900            | Indivíduo 5  |
-+-------+------------------+--------------+
-| 2     | 0,964            | Indivíduo 1  |
-+-------+------------------+--------------+
-|       |                  |              |
-+-------+------------------+--------------+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:bold">Grupo</span></th>
+    <th class="tg-7btt">Número Aleatório</th>
+    <th class="tg-amwm">Voluntário </th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh">1</td>
+    <td class="tg-c3ow">0,003</td>
+    <td class="tg-baqh">Indivíduo 10</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1</td>
+    <td class="tg-c3ow">0,017</td>
+    <td class="tg-baqh">Indivíduo 2</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1</td>
+    <td class="tg-c3ow">0,043</td>
+    <td class="tg-baqh">Indivíduo 3</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1</td>
+    <td class="tg-c3ow">0,177</td>
+    <td class="tg-baqh">Indivíduo 7</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1</td>
+    <td class="tg-c3ow">0,181</td>
+    <td class="tg-baqh">Indivíduo 8</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1</td>
+    <td class="tg-c3ow">0,199</td>
+    <td class="tg-baqh">Indivíduo 4</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2</td>
+    <td class="tg-c3ow">0,247</td>
+    <td class="tg-baqh">Indivíduo 11</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2</td>
+    <td class="tg-c3ow">0,309</td>
+    <td class="tg-baqh">Indivíduo 9</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2</td>
+    <td class="tg-c3ow">0,665</td>
+    <td class="tg-baqh">Indivíduo 12</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2</td>
+    <td class="tg-c3ow">0,786</td>
+    <td class="tg-baqh">Indivíduo 6</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2</td>
+    <td class="tg-c3ow">0,900</td>
+    <td class="tg-baqh">Indivíduo 5</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2</td>
+    <td class="tg-c3ow">0,964</td>
+    <td class="tg-baqh">Indivíduo 1</td>
+  </tr>
+    <tr>
+  </tr>
+</tbody></table>
+</center>
 :::
 :::::
 
