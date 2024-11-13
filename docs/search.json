@@ -1886,5 +1886,131 @@
     "title": "Estatística Aplicada à Saúde",
     "section": "",
     "text": "Página dedicada à disciplina EST104 - Estatística Aplicada à Saúde\n\n\nBioestatística é o conjunto de métodos estatísticos usados para o planejamento e análise de dados de estudos em ciências médicas, biológicas ou, de forma geral, na área de saúde. É uma ferramenta útil para a tomada de decisões!\n\n\nEmenta\nEstatística na área da saúde; planejamento na área da saúde; medidas de acurácia e testes diagnósticos; modelos logístico e riscos proporcionais (Cox).\n\n\nConteúdo Programático\n\nEstatística na área da saúde: conceitos básicos.\nPlanejamento na área da saúde: estudo descritivo; estudos comparativos; estudos de Bioequivalência; estudos com Delineamentos Sequenciais ou Adaptativos; seleção das Coortes; confusão de Efeitos e Controle de Fatores de Confusão; Metanálise.\nMedidas de acurácia e testes diagnósticos: Sensibilidade e Especificidade; medidas obtidas pela Combinação da Sensibilidade e da Especificidade; Valor das Predições; Decisões Incorretas; Combinação de Testes; Testes Diagnósticos baseados em Variáveis Contínuas; escolha entre Testes Diagnósticos: mais sensibilidade ou mais especificidade?\nModelos logístico e riscos proporcionais (Cox)\n\n\n\nHorário de Aulas\nNeste semestre, as aulas da disciplina serão ministradas no LABEST III.\n\n\n\nDia\nHorário\nLocal\n\n\n\n\nSegunda-feira\n17:10 - 18:50\nLABEST III\n\n\nQuarta-feira\n17:10 - 18:50\nLABEST III\n\n\n\n\n\n\n\n\n\n\n\nReferências Bibliográficas\n\nAgresti, A. 2012. Categorical Data Analysis. Wiley Series in Probability and Statistics. Wiley. https://books.google.com.br/books?id=UOrr47-2oisC.\n\n\nHosmer, D. W., and S. Lemeshow. 2004. Applied Logistic Regression. Applied Logistic Regression. Wiley. https://books.google.com.br/books?id=Po0RLQ7USIMC.\n\n\nPregibon, Daryl. 1981. “Logistic Regression Diagnostics.” The Annals of Statistics 9 (4): 705–24. https://doi.org/10.1214/aos/1176345513.\n\n\nSiqueira, A. L., and J. D. Tibúrcio. 2011. Estatística Na Área Da Saúde: Conceitos, Metodologia, Aplicações e Prática. Coopmed.\n\n\nSoares, J. F., and A. L. Siqueira. 2002. Introdução à Estatística Médica. Coopmed.\n\n\nVieira, S. 2021. Introdução à Bioestatística. GEN Guanabara Koogan."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-1",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-1",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-2",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-2",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-3",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-3",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-4",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-4",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]\nRepita o processo n vezes"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-5",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-5",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\nExemplo: Em uma turma de Estatística, há N = 41 alunos matriculados. Podemos numerá-los conforme a ordem alfabética.\n\n\nSuponha que desejamos sortear n = 3 alunos.\n\n\n\n\nSuponha ainda que os números aleatórios tenham sido\n\n\\[0,567\\quad\\quad\\quad 0,024\\quad\\quad\\quad 0,788 \\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-6",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-6",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\nOs alunos sorteados serão…\n\\[ 0,5+\\frac{41}{0,999}\\times 0,567 = 23,77 \\approx 24 \\rightarrow \\text{aluno }24 \\]\n\n\\[ 0,5+\\frac{41}{0,999}\\times 0,024 = 1,48 \\approx 1 \\rightarrow \\text{aluno }1 \\]\n\n\n\\[ 0,5+\\frac{41}{0,999}\\times 0,788 = 32,84 \\approx 33 \\rightarrow \\text{aluno }33 \\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-7",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-7",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-8",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-8",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-9",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-9",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-10",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-10",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)\nToma-se os n primeiros elementos neste novo conjunto. Estes são os elementos sorteados."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-11",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-11",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\nExemplo: Suponha que disponhamos de 12 voluntários para um ensaio clínico em que queremos comparar um novo medicamento com um placebo.\n\nTemos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas que receberão o placebo (Grupo 2)."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-12",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-12",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\nProcedimento"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-14",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-14",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-15",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-15",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-16",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-16",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios\nOs 6 primeiros estarão no Grupo 1, e os outros 6 no Grupo 2"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-17",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-17",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\n\n\n\n\n\nVoluntário\n\n\nNúmero Aleatório\n\n\n\n\n\nIndivíduo 1\n\n\n0,964\n\n\n\n\nIndivíduo 2\n\n\n0,017\n\n\n\n\nIndivíduo 3\n\n\n0,043\n\n\n\n\nIndivíduo 4\n\n\n0,199\n\n\n\n\nIndivíduo 5\n\n\n0,900\n\n\n\n\nIndivíduo 6\n\n\n0,786\n\n\n\n\nIndivíduo 7\n\n\n0,177\n\n\n\n\nIndivíduo 8\n\n\n0,181\n\n\n\n\nIndivíduo 9\n\n\n0,309\n\n\n\n\nIndivíduo 10\n\n\n0,003\n\n\n\n\nIndivíduo 11\n\n\n0,247\n\n\n\n\nIndivíduo 12\n\n\n0,665\n\n\n\n\n\n\n\n\n\n\n\n\nGrupo\n\n\nNúmero Aleatório\n\n\nVoluntário\n\n\n\n\n\n1\n\n\n0,003\n\n\nIndivíduo 10\n\n\n\n\n1\n\n\n0,017\n\n\nIndivíduo 2\n\n\n\n\n1\n\n\n0,043\n\n\nIndivíduo 3\n\n\n\n\n1\n\n\n0,177\n\n\nIndivíduo 7\n\n\n\n\n1\n\n\n0,181\n\n\nIndivíduo 8\n\n\n\n\n1\n\n\n0,199\n\n\nIndivíduo 4\n\n\n\n\n2\n\n\n0,247\n\n\nIndivíduo 11\n\n\n\n\n2\n\n\n0,309\n\n\nIndivíduo 9\n\n\n\n\n2\n\n\n0,665\n\n\nIndivíduo 12\n\n\n\n\n2\n\n\n0,786\n\n\nIndivíduo 6\n\n\n\n\n2\n\n\n0,900\n\n\nIndivíduo 5\n\n\n\n\n2\n\n\n0,964\n\n\nIndivíduo 1"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-13",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-13",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12"
   }
 ]

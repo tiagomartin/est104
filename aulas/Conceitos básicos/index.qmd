@@ -288,9 +288,9 @@ $$\fbox{SHIFT} \quad \fbox{Ran#} \quad \fbox{=}$$
 
 ::::: columns
 ::: {.column width="30%"}
-![](/images/excel.png){.absolute top="110" left="0" width="300" height="150"  .lightbox}
+![](/images/excel.png){.absolute top="110" left="0" width="400" height="200"}
 
-![](/images/libre.png){.absolute top="310" left="0" width="300" height="150"  .lightbox}
+![](/images/libre.png){.absolute top="310" left="0" width="400" height="200"}
 :::
 
 ::: {.column width="70%"}
@@ -306,23 +306,19 @@ ou,
 :::
 :::::
 
-## Procedimentos do sorteio
+# Procedimentos do sorteio
 
-### Sorteio de n elementos de um total de N
+## Sorteio de n elementos de um total de N
 
 -   **Método 1:** utilizando n números aleatórios
 
-## Procedimentos do sorteio {auto-animate="true"}
-
-### Sorteio de n elementos de um total de N
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   **Método 1:** utilizando n números aleatórios
 
     1.  Enumere os elementos da população de 1 a N
 
-## Procedimentos do sorteio {auto-animate="true"}
-
-### Sorteio de n elementos de um total de N
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   **Método 1:** utilizando n números aleatórios
 
@@ -330,9 +326,7 @@ ou,
 
     2.  Gere um número aleatório entre 0,000 e 0,999
 
-## Procedimentos do sorteio {auto-animate="true"}
-
-### Sorteio de n elementos de um total de N
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   **Método 1:** utilizando n números aleatórios
 
@@ -342,9 +336,7 @@ ou,
 
     3.  O elemento sorteado é aquele identificado pelo número: $$ 0,5+\frac{N}{0,999}\times \text{n}^{\underline{\text{o}}}\text{ aleatório gerado} $$
 
-## Procedimentos do sorteio {auto-animate="true"}
-
-### Sorteio de n elementos de um total de N
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   **Método 1:** utilizando n números aleatórios
 
@@ -356,7 +348,7 @@ ou,
 
     4.  Repita o processo n vezes
 
-## Procedimentos do sorteio
+## Sorteio de n elementos de um total de N
 
 **Exemplo:** Em uma turma de Estatística, há N = 41 alunos matriculados. Podemos numerá-los conforme a ordem alfabética.
 
@@ -370,7 +362,7 @@ ou,
 
 $$0,567\quad\quad\quad 0,024\quad\quad\quad 0,788 $$
 
-## Procedimentos do sorteio
+## Sorteio de n elementos de um total de N 
 
 Os alunos sorteados serão...
 
@@ -395,17 +387,17 @@ countdown(minutes = 5)
 ```
 
 
-## Procedimentos do sorteio
+## Sorteio de n elementos de um total de N
 
 -   **Método 2:** utilizando N números aleatórios
 
-## Procedimentos do sorteio {auto-animate="true"}
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   **Método 2:** utilizando N números aleatórios
 
     1.  Gera-se um número aleatório para cada um dos N elementos da população
 
-## Procedimentos do sorteio {auto-animate="true"}
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   **Método 2:** utilizando N números aleatórios
 
@@ -413,7 +405,7 @@ countdown(minutes = 5)
 
     2.  Ordena-se os elementos da população conforme os números aleatórios (a consequência disso é "embaralhar" os elementos da população)
 
-## Procedimentos do sorteio {auto-animate="true"}
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   **Método 2:** utilizando N números aleatórios
 
@@ -423,7 +415,7 @@ countdown(minutes = 5)
 
     3.  Toma-se os n primeiros elementos neste novo conjunto. Estes são os elementos sorteados.
 
-## Procedimentos do sorteio
+## Sorteio de n elementos de um total de N 
 
 **Exemplo:** Suponha que disponhamos de 12 voluntários para um ensaio clínico em que queremos comparar um novo medicamento com um placebo.
 
@@ -431,17 +423,17 @@ countdown(minutes = 5)
 
 Temos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas que receberão o placebo (Grupo 2).
 
-## Procedimentos do sorteio
+## Sorteio de n elementos de um total de N 
 
 -   Procedimento
 
-## Procedimentos do sorteio {auto-animate="true"}
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   Procedimento
 
     1.  Identifique os voluntários de 1 a 12
 
-## Procedimentos do sorteio {auto-animate="true"}
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   Procedimento
 
@@ -449,7 +441,7 @@ Temos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas 
 
     2.  Gere um número aleatório para cada um
 
-## Procedimentos do sorteio {auto-animate="true"}
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   Procedimento
 
@@ -459,7 +451,7 @@ Temos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas 
 
     3.  Ordene-os conforme os números aleatórios
 
-## Procedimentos do sorteio {auto-animate="true"}
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 -   Procedimento
 
@@ -471,7 +463,7 @@ Temos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas 
 
     4.  Os 6 primeiros estarão no Grupo 1, e os outros 6 no Grupo 2
 
-## Procedimentos do sorteio
+## Sorteio de n elementos de um total de N {auto-animate="true"}
 
 ::::: columns
 ::: {.column width="50%"}
