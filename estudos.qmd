@@ -1,9 +1,7 @@
 ---
-title: "Estudos de caso"
-editor: visual
+title: "Estudos de Caso"
 ---
 
--   [Estudo de caso 01](estudos_de_casos/estudo01.html "Lab slides"){aria-label="Lab 0 slides"}
+-   [Estudo de Caso 01: Desgaste de lentes de contato](estudos_de_casos/estudo01.html "Estudo de caso 01"){aria-label="Estudo de caso 01"}
 
-
-
+-   [Estudo de Caso 02: Correlação entre volume cerebral e desempenho neurocognitivo em paciente infectados por HIV](estudos_de_casos/estudo02.html "Estudo de caso 02"){aria-label="Estudo de caso 02"}

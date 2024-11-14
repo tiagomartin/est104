@@ -1,0 +1,217 @@
+---
+title: "Estudo de Caso: Correlação entre volume cerebral e desempenho neurocognitivo em paciente infectados por HIV"
+lang: pt
+toc: true
+code-annotations: "hover"
+bibliography: references.bib
+---
+
+@patel02 realizaram um estudo cuja intenção era determinar se a função neuropsicológica nas pessoas infectadas com HIV estaria correlacionada à perda de volume cerebral. O desempenho neuropsicológico foi acessado pela aplicação de uma bateria de teste de funcionamento neuropsicológico (NPZ-8), enquanto o volume cerebral foi medido como porcentagem de volume parenquimatoso do cérebro, obtido pela imagem de ressonância magnética (MRI). Os pesquisadores formularam uma hipótese de que existe uma relação entre essas duas medidas antes mesmo que a disfunção clínica visível seja evidente.
+
+A Tabela abaixo mostra medidas de volume parenquimatoso do cérebro (PBV), função neuropsicológica (NPZ-8), *status* de HIV (positivo ou negativo), se o paciente foi diagnosticado ou não como manifestando o estágio do complexo de demência da AIDS (ADC) e o *status* do sistema imunológico (CD4) para os indivíduos envolvidos no estudo. Valores mais baixos de PBV indicam menor volume cerebral, enquanto escores mais baixos de NPZ-8 indicam melhor função neuropsicológica. Um valor ADC positivo indica que foi feito um diagnóstico de demência da AIDS. Para pacientes com AIDS, contagens de CD4 mais altas estão associadas ao melhor funcionamento do sistema imunológico.
+
+<center>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-zlqz{background-color:#c0c0c0;border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-zlqz">Indivíduo</th>
+    <th class="tg-zlqz">PBV</th>
+    <th class="tg-zlqz">NPZ-8</th>
+    <th class="tg-zlqz">HIV</th>
+    <th class="tg-zlqz">ADC</th>
+    <th class="tg-zlqz">CD4</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-c3ow">0,791</td>
+    <td class="tg-c3ow">12</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">16</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">0,782</td>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">324</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">0,646</td>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">256</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">4</td>
+    <td class="tg-c3ow">0,740</td>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">563</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">0,804</td>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">321</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">0,858</td>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">190</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">7</td>
+    <td class="tg-c3ow">0,729</td>
+    <td class="tg-c3ow">8</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">818</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">8</td>
+    <td class="tg-c3ow">0,803</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">355</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">9</td>
+    <td class="tg-c3ow">0,831</td>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">465</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">10</td>
+    <td class="tg-c3ow">0,826</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">519</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">11</td>
+    <td class="tg-c3ow">0,786</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">87</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">12</td>
+    <td class="tg-c3ow">0,882</td>
+    <td class="tg-c3ow">7</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">108</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">13</td>
+    <td class="tg-c3ow">0,889</td>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">190</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">14</td>
+    <td class="tg-c3ow">0,917</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">573</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">15</td>
+    <td class="tg-c3ow">0,885</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">+</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">1032</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">16</td>
+    <td class="tg-c3ow">0,886</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">17</td>
+    <td class="tg-c3ow">0,883</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">18</td>
+    <td class="tg-c3ow">0,851</td>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">19</td>
+    <td class="tg-c3ow">0,897</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">20</td>
+    <td class="tg-c3ow">0,901</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+</tbody></table>
+</center>
+
+
+### Questões
+
+Baseado nesse estudo de caso, responda as seguintes questões:
+
+1. Construa uma distribuição de frequências para o escores NPZ-8.
+
+2. Construa um histograma de frequência relativa e um polígono de frequências relativa para os escores NPZ-8.
+
+3. Calcule a média, mediana e moda para os dados NPZ-8.
+
+4. Calcule a média, mediana e moda para os dados PBV.
+
+5. Calcule a variância e o desvio-padrão para os dados NPZ-8.
+
+6. Encontre os quartis dos dados NPZ-8.
+
+7. Observe o histograma e o polígono de frequências da variável NPZ-8 constuídos no exercício 2. Pela sua compreensão, você caracteriza essa distribuição simétrica ou assimétrica (positiva ou negativa)?
+
+8. Calcule a assimetria para os dados NPZ-8. Esse cálculo confirma sua observação feita no exercício anterior?
+
+9. Calcule a assimetria para os dados NPZ-8 usando apenas dados dos 15 indivíduos infectados. A inclusão dos cinco indivíduos saudáveis no conjunto de dados aumenta de forma marcante a assimetria, em sua opinião?

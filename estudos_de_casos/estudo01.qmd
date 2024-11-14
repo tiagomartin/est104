@@ -63,7 +63,9 @@ As lentes foram inseridas durante uma visita na parte da manhã ao local da pesq
 
 Na tabela, "não" significa não para a pergunta de duração, "sim" significa sim para a pergunta de duração, "lente tratada" significa que o indivíduo escolheu a lente tratada com solução de condicionamento, "lente não tratada" significa que o indivíduo escolheu a lente sem solução de condicionamento, "manhã" significa que a avaliação foi feita durante a visita da manhã, e "tarde" significa que a avaliação foi feita durante a visita da tarde.
 
-Além desses dadosm diversas variáveis de saúde ocular foram avaliadas para cada olho em cada visita. Essas medições constituem uma escala contínua.
+Além desses dados, diversas variáveis de saúde ocular foram avaliadas para cada olho em cada visita. Essas medições constituem uma escala contínua.
+
+### Questões
 
 Baseado nesse estudo de caso, responda as seguintes questões:
 
