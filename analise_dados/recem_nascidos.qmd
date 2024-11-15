@@ -16,34 +16,35 @@ Fonte dos dados:
 - <https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv>
 
 
+## Preparação
+
+
+### Carregando os pacotes R
 
 
 ```{r}
-#| message: false
-load <- function(pkg){
-  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
-  if (length(new.pkg))
-    install.packages(new.pkg, dependencies = TRUE)
-  sapply(pkg, require, character.only = TRUE)
-} # <1>
-
-packages <- c("tidyverse", "knitr", "DT", "readxl") #<2>
-load(packages) # <3>
+pacman::p_load(
+  rio,          # importa arquivos
+  here,         # localiza arquivos
+  skimr,        # gera visualização dos dados
+  tidyverse,    # gestão dos dados + gráficos no ggplot2 
+  gtsummary,    # resumo estatísticos e testes
+  rstatix,      # resumo e testes estatísticos
+  janitor,      # adiciona números absolutos e porcentagens às tabelas
+  scales,       # facilmente converte proporções para porcentagens
+  flextable,    # converte tabelas para o formato de imagens
+  descriptr     # construir tabela de distribuição de frequência em classes
+  ) # <1>
 ```
 
-1. A função load verifica se os pacotes estão instalados em sua máquina. Se sim, faz o carregamento dos pacotes para a memória. Se não, instala os pacotes e os carrega para a memória.
-
-2. Carregando o pacote tidyverse, uma coleção de pacotes que facilitam a manipulação e visualização de dados. Os pacotes knitr e DT, para apresentar os resultados de forma mais amigável no arquivo final. O pacote readxl possui diversas funções para importação de dados do Excel.
-
-3. Retorna TRUE para todos os pacotes se forem carregados com sucesso.
-
+1. A função p_load(), do pacote pacman, instala os pacotes, caso não estejam instalados, e os carrega no R para utilização.
 
 ## Carregando os dados
 
 ```{r}
-dados_brutos = read_csv2("https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv") # <1>
+dados_brutos = rio::import("https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv") # <1>
 ```
-1. Importando a tabela disponível neste link, usando a função `read_csv()`. Essa função importa arquivos separados por vírgula `.csv2`), utilizando o ponto e vírgula (;) como separador. Após a importação, os dados são armazenados na variável `dados_brutos` 
+1. Uso da função import() do pacote rio para importar um conjunto de dados fornecendo o caminho para o arquivo (incluindo o nome do arquivo e a extensão do arquivo) entre aspas. Após a importação, os dados são armazenados na variável `dados_brutos` 
 
 
 ## Conhecendo a base de dados
@@ -62,7 +63,25 @@ dados_brutos %>%
 
 
 
-## Análise exploratória
+## Explore seus dados
+
+## Obtenha informações sobre cada variável no banco de dados
+
+```{r}
+dados_brutos %>% 
+  select(-c(registro)) %>% 
+  skim()
+```
+
+### Resumos estatísticos
+
+```{r}
+dados_brutos %>% 
+  select(-c(registro)) %>% 
+  get_summary_stats(type = "common")                    # tipo do resumo estatístico a ser gerado
+```
+
+
 
 ### Quais são os desfechos presentes na base de dados?
 
@@ -71,3 +90,148 @@ dados_brutos  %>%
   distinct(desfecho) # <1>
 ```
 1. A função `distinct()` é usada para retornar apenas os valores únicos de uma variável (ou conjunto de variáveis).
+
+
+### Distribuição de frequências da variável sexo
+
+```{r}
+dados_brutos %>%               # fonte dos dados
+  tabyl(sexo) %>%              # tabula números absolutos e proporções por sexo
+  adorn_pct_formatting() %>%   # converte as proporções para porcentagens
+  adorn_totals(where = "row")  # adiciona uma linha chamada 'Total', com os totais
+```
+
+### Distribuição de frequências da variável número de consultas
+
+```{r}
+dados_brutos %>% group_by(n_consultas) %>%
+  summarise(fa = n()) %>%
+  mutate(fr = fa / sum(fa),
+         Fr = fr * 100) %>% 
+  adorn_totals(where = 'row') # <1>
+```
+
+1. Podemos utilizar as funções adorn_*(), do pacote janitor, em outras tabelas criadas por outras funções.
+
+### Distribuição de frequências da variável peso
+
+
+```{r}
+dados_brutos %>% 
+  ds_freq_table(peso,7)  
+```
+
+ou, de forma alternativa,
+
+```{r}
+dados_brutos %>% 
+  mutate(classes = cut(peso ,breaks = 7)) %>% 
+  group_by(classes) %>% 
+  summarise(fa = n()) %>% 
+  complete(classes, fill = list(fa = 0)) %>% 
+  mutate(fr = fa / sum(fa),
+         Fr = fr * 100) %>% 
+  adorn_totals(where = 'row')
+```
+
+
+### Faixa de peso proporcional por desfecho
+
+```{r}
+dados_brutos %>%
+  mutate(classes = cut(peso ,breaks = 7)) %>% 
+  group_by(desfecho) %>% 
+  count(classes) %>% 
+  complete(classes, fill = list(n = 0)) %>%  
+  mutate(porcentagem = scales::percent(n / sum(n)))
+```
+
+### Visualizando graficamente
+
+```{r}
+dados_brutos %>%
+  mutate(classes = cut(peso ,breaks = 7)) %>% 
+  group_by(desfecho) %>% 
+  count(classes) %>% 
+  complete(classes, fill = list(n = 0)) %>%     # agrupe e tabule as contagens utilizando duas variáveis
+  ggplot()+                       # utilize a tabulação gerada no ggplot
+    geom_col(                     # crie um gráfico de barras
+      mapping = aes(   
+        x = desfecho,              # mapeie o grupo desfecho para o eixo x
+        fill = classes,           # mapeie o grupo classes para o fill
+        y = n))                   # mapeie as contagens (coluna 'n') para o eixo y
+```
+
+### Calculando os percentis da variavel peso por desfecho
+
+```{r}
+dados_brutos %>% 
+  group_by(desfecho) %>% 
+  rstatix::get_summary_stats(peso, type = "quantile")
+```
+
+### Resumo dos dados agregados
+
+```{r warning=FALSE}
+dados_brutos %>% 
+  select(-c(registro)) %>% 
+  group_by(desfecho) %>% 
+  summarise(across(
+    .cols = where(is.numeric),  # all numeric columns in the data frame
+    .fns = mean,
+    na.rm=T))
+```
+
+### Tabela de contingência das variáveis pre_natal e desfecho
+
+```{r}
+dados_brutos %>% 
+  tabyl(pre_natal, desfecho)%>% 
+  adorn_totals(where = 'both')
+```
+### Visualizando graficamente
+
+```{r message=FALSE}
+dados_brutos %>% 
+  group_by(pre_natal, desfecho) %>% 
+  summarise(n = n()) %>% 
+  ggplot(aes(x = desfecho, y = n, fill = pre_natal)) +
+  geom_col(position = "dodge")
+```
+
+
+
+
+### Fazer consultas pré natal está associado ao desfecho?
+
+```{r warning=FALSE}
+dados_brutos %>% 
+  tabyl(pre_natal, desfecho) %>% 
+  chisq.test()
+```
+
+### Relação entre peso e comprimento dos recém-nascidos
+
+
+```{r}
+dados_brutos %>% 
+  ggplot(aes(x = comprimento,
+             y = peso)) +
+  geom_point()+
+  labs(title="Relação entre peso e comprimento dos recém-nascidos",
+       x = "Comprimento (cm)",
+       y = "Peso (g)")
+```
+
+### Distribuição de pesos segundo sexo dos recém-nascidos
+
+
+```{r}
+dados_brutos %>% 
+  ggplot(aes(x = sexo,
+             y = peso)) +
+  geom_boxplot()+
+  labs(title="Distribuição de pesos segundo sexo dos recém-nascidos",
+       x = "Sexo",
+       y = "Peso (g)")
+```
