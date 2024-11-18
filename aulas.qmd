@@ -3,7 +3,7 @@ title: "Aulas"
 editor: visual
 ---
 
--   [Conceitos básicos](aulas/Conceitos básicos/index.html "Lab slides"){aria-label="Lab 0 slides"}
+-   [Conceitos básicos](aulas/Conceitos%20básicos/index.html "Conceitos básicos"){aria-label="Conceitos básicos"}
 
 -   [Planejamento na área de saúde](aulas/Planejamento/index.html "Lab slides"){aria-label="Lab 0 slides"}
 

@@ -1,0 +1,8 @@
+---
+title: "Semana 01"
+---
+
+
+Sejam bem-vindos à disciplina EST104 - Estatística Aplicada à Saúde.
+
+Leiam com atenção o [plano de ensino](https://github.com/tiagomartin/est104/blob/master/documentos/Plano_Ensino_EST104_Estatistica%20aplicada%20a%20saude_2024-2.pdf) da disciplina. Nele estão as regras do jogo!

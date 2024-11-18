@@ -35,6 +35,7 @@ website:
       - estudos.qmd
       - analises.qmd
       - plano.qmd
+      - cronograma.qmd
 
       
 format:
