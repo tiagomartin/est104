@@ -1,0 +1,30 @@
+---
+title: "Semana 03"
+---
+
+## Para ler antes da aula...
+
+## Slides
+
+{{< fa file-powerpoint size=lg >}} [Conceitos básicos](/aulas/Conceitos%20básicos/index.html "Conceitos básicos"){aria-label="Conceitos básicos"}
+
+
+## Script de análise de dados
+
+{{< fa brands r-project size=lg >}} [Recém-nascidos](/analise_dados/recem_nascidos.html "Script análise de dados"){aria-label="Script análise de dados"}
+
+
+## Estudo de Caso
+
+::: callout-important
+
+## Fique Atento!
+
+{{< fa laptop-file size=lg >}} [Estudo de Caso 02: Correlação entre volume cerebral e desempenho neurocognitivo em paciente infectados por HIV](/estudos_de_casos/estudo02.html "Estudo de caso 02"){aria-label="Estudo de caso 02"} 
+
+-   Data de entrega:
+    -   01 de dezembro de 2024
+:::
+
+
+

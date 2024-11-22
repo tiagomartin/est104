@@ -1,59 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://professortp.com.br/est104/programacao/semana-2.html</loc>
-    <lastmod>2024-11-18T19:07:18.907Z</lastmod>
+    <loc>http://professortp.com.br/est104/programacao/semana-3.html</loc>
+    <lastmod>2024-11-22T16:15:27.721Z</lastmod>
   </url>
   <url>
-    <loc>http://professortp.com.br/est104/plano.html</loc>
-    <lastmod>2024-11-11T16:32:57.952Z</lastmod>
-  </url>
-  <url>
-    <loc>http://professortp.com.br/est104/estudos_de_casos/estudo02.html</loc>
-    <lastmod>2024-11-14T14:33:32.993Z</lastmod>
-  </url>
-  <url>
-    <loc>http://professortp.com.br/est104/estudos.html</loc>
-    <lastmod>2024-11-14T14:05:47.299Z</lastmod>
-  </url>
-  <url>
-    <loc>http://professortp.com.br/est104/aulas.html</loc>
-    <lastmod>2024-11-18T18:48:32.992Z</lastmod>
-  </url>
-  <url>
-    <loc>http://professortp.com.br/est104/analise_dados/recem_nascidos.html</loc>
-    <lastmod>2024-11-15T20:20:37.897Z</lastmod>
-  </url>
-  <url>
-    <loc>http://professortp.com.br/est104/about.html</loc>
-    <lastmod>2024-09-26T18:43:10.215Z</lastmod>
-  </url>
-  <url>
-    <loc>http://professortp.com.br/est104/analises.html</loc>
-    <lastmod>2024-11-05T23:16:59.404Z</lastmod>
-  </url>
-  <url>
-    <loc>http://professortp.com.br/est104/aulas/Conceitos básicos/index.html</loc>
-    <lastmod>2024-11-13T18:39:18.127Z</lastmod>
-  </url>
-  <url>
-    <loc>http://professortp.com.br/est104/aulas/Planejamento/index.html</loc>
-    <lastmod>2024-11-05T18:27:45.203Z</lastmod>
-  </url>
-  <url>
-    <loc>http://professortp.com.br/est104/cronograma.html</loc>
-    <lastmod>2024-11-18T18:45:43.492Z</lastmod>
-  </url>
-  <url>
-    <loc>http://professortp.com.br/est104/estudos_de_casos/estudo01.html</loc>
-    <lastmod>2024-11-14T13:43:42.911Z</lastmod>
+    <loc>http://professortp.com.br/est104/programacao/semana-1.html</loc>
+    <lastmod>2024-11-18T18:37:57.722Z</lastmod>
   </url>
   <url>
     <loc>http://professortp.com.br/est104/index.html</loc>
     <lastmod>2024-11-11T17:28:54.634Z</lastmod>
   </url>
   <url>
-    <loc>http://professortp.com.br/est104/programacao/semana-1.html</loc>
-    <lastmod>2024-11-18T18:37:57.722Z</lastmod>
+    <loc>http://professortp.com.br/est104/estudos_de_casos/estudo01.html</loc>
+    <lastmod>2024-11-14T13:43:42.911Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/cronograma.html</loc>
+    <lastmod>2024-11-22T16:20:22.076Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/aulas/Planejamento/index.html</loc>
+    <lastmod>2024-11-05T18:27:45.203Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/aulas/Conceitos básicos/index.html</loc>
+    <lastmod>2024-11-13T18:39:18.127Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/analises.html</loc>
+    <lastmod>2024-11-22T16:15:17.645Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/about.html</loc>
+    <lastmod>2024-09-26T18:43:10.215Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/analise_dados/recem_nascidos.html</loc>
+    <lastmod>2024-11-15T20:20:37.897Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/aulas.html</loc>
+    <lastmod>2024-11-18T18:48:32.992Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/estudos.html</loc>
+    <lastmod>2024-11-21T12:59:23.092Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/estudos_de_casos/estudo02.html</loc>
+    <lastmod>2024-11-14T14:33:32.993Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/plano.html</loc>
+    <lastmod>2024-11-11T16:32:57.952Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/programacao/semana-2.html</loc>
+    <lastmod>2024-11-18T19:07:18.907Z</lastmod>
   </url>
 </urlset>
