@@ -4,6 +4,11 @@ title: "Semana 03"
 
 ## Para ler antes da aula...
 
+## Leitura adicional
+
+{{< fa file-pdf size=lg >}} [Análise estatística: Série Entendendo a Pesquisa Clínica 1](/artigos/Entendendo_analise_estatistica.pdf)
+
+
 ## Slides
 
 {{< fa file-powerpoint size=lg >}} [Conceitos básicos](/aulas/Conceitos%20básicos/index.html "Conceitos básicos"){aria-label="Conceitos básicos"}
