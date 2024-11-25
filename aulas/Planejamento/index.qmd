@@ -50,65 +50,200 @@ Estudos que levam em consideração o tempo
 
 O termo **longitudinal** geralmente só é utilizado para estudos prospectivos
 
+# Estudos observacionais
+
 ## Estudos observacionais
 
 -   A pesquisa deve ser feita sem intervenções no evento
 
     -   O pesquisador apenas coleta os dados
 
+. . .
+
 -   Grupos estudados são classificados no começo do estudo
 
+. . .
+
 -   Não há intervenção direta do pesquisador
+
+
+# Estudos observacionais descritivos
 
 ## Estudos observacionais descritivos
 
 É um tipo de pesquisa cujo objeto de uma análise é uma unidade de interesse. Tem como objetivo a simples descrição de um fato.
 
+. . .
+
 -   É o tipo mais básico de estudo clínico.
+
+. . .
+
 -   Não é necessário o cálculo do tamanho da amostra (Amostragem a esmo).
 
 ## Estudos observacionais descritivos
 
 -   Geram uma hipótese.
+
+. . .
+
 -   Geralmente são o primeiro passo de uma investigação clínica.
+
+. . .
+
 -   De forma geral, são estudos transversais.
 
-## Estudos observacionais descritivos
+# Relato de caso
+Estudos observacionais descritivos
+
+## Relato de caso
 
 <br>
 
-**Relato de caso:** consiste na cuidadosa e minuciosa descrição por um ou mais pesquisadores (médicos), do diagnóstico e evolução da doença de um pequeno número de pacientes.
+Consiste na cuidadosa e minuciosa descrição por um ou mais pesquisadores (médicos), do diagnóstico e evolução da doença de um pequeno número de pacientes.
+
+. . .
+
+- Costumam ser a primeira abordagem de um tema.
+
+
+## Relato de caso
+
+
+Usado para a avaliação inicial de problemas ainda **mal conhecidos** e cujas características ou variações naturais não foram **convenientemente detalhadas**.
+
+. . .
+
+- Muitas revistas científicas apresentam uma seção de “relato” ou “apresentação de casos”, para difundir os resultados destes estudos.
+
+. . .
+
+- Em geral, o estudo de caso é relativamente fácil de ser realizado e de baixo custo.
+
+
+. . .
+
+- Útil para levantar problemas, muitos dos quais são complementarmente investigados com o auxílio de outros métodos.
 
 
 
 
-## Estudos observacionais descritivos
+
+
+
+
+## Série de casos
 
 <br>
 
-**Série de casos:** o pesquisador usa dados dos arquivos de suas instituições para produzir artigos que consistem na apresentação dos resultados de tratamentos, descrição dos pacientes e outras informações relevantes.
+Semelhante aos relatos de caso, diferindo, basicamente, em relação ao número de pacientes incluídos na investigação.
+
+. . .
+
+- Em termos práticos, a série de casos ficou constituída de um mínimo de 10 unidades e, o estudo de casos, de um a nove pacientes.
+
+
+## Série de caso
+
+<br>
+
+::: callout-important
+## Atenção
+
+Tanto relato quanto série de casos possuem limitações importantes e podem levar a conclusões equivocadas, uma vez que frequentemente avaliam acontecimentos passados, não possuem **grupos de comparação** e apresentam resultados que se aplicam somente àquele paciente ou grupo de participantes específicos.
 
 
 
-## Estudos observacionais descritivos
-
-### Exemplos
-
-O Oftalmologista N. Gregg observou, em 1941, na Austrália, recém-nascidos com catarata congênita. Fazendo um estudo do *histórico* dos casos, verificou que as mães haviam tido rubéola no primeiro trimestre de gestação. Esta constatação levou ao desenvolvimento de vacinas.
-
-@Gregg1977
-
-## Estudos observacionais descritivos
-
-### Exemplos
-
-::: {style="font-size: 36px;"}
-Em 1987 foram analisados dados de 150 pacientes com linfomas não-Hodgkin da Santa Casa de Misericórdia e do Hospital de Belo Horizonte, tentando identificar fatores relacionados ao nível de remissão.
-
-Os fatores mais importantes foram a histologia, estádio da doença e sintomas, que permitiram separar os pacientes em 18 grupos, com remissão variando de 17% a 95%.
+- **Viés de seleção**, dificultando a generalização dos resultados
 :::
 
-@brandao-1987
+
+## Análise de dados
+
+- Nenhuma se apenas um caso;
+
+. . .
+
+- Simples se for uma série de casos:
+
+    - Medidas de tendência central;
+    - Proporções e intervalos de confiança;
+    - Subgrupos podem ser agrupados por características (sexo, idade, etc.)
+
+## Questões que podem ser respondidas
+
+1. O que se sabia antes do relato?
+
+. . .
+
+2. Que fenômeno novo foi ilustrado?
+
+. . .
+
+3. Que outros estudos devem ser conduzidos?
+
+. . .
+
+4. O grupo estudado é representativo do conjunto de pacientes com esta doença?
+
+. . .
+
+5. Que conclusões podem ser generalizadas?
+
+# Exemplos
+
+## Exemplos
+
+::::: columns
+::: {.column width="60%" style="font-size: 36px;"}
+@Mota_Nascimento_de_Brito_Nascimento_Cruz_dos_Santos_Carneiro_Pires_2021 relataram o caso de 10 crianças com diagnóstico de hanseníase em um serviço no norte do Brasil. Os autores demonstraram a diversidade de apresentações da infecção pelo *Mycobacterium leprae* na população pediátrica, chamando atenção para o dano neurológico que pode ocorrer nesta faixa etária.
+
+@Mota_Nascimento_de_Brito_Nascimento_Cruz_dos_Santos_Carneiro_Pires_2021
+:::
+
+::: {.column width="40%"}
+![](/images/serie_casos.png){width="1100"  .lightbox fig-align="center"}
+:::
+:::::
+
+
+
+
+## Exemplos
+
+::::: columns
+::: {.column width="60%" style="font-size: 36px;"}
+@JUNIOR2007  relataram o caso de um paciente portador de oclusão aterosclerótica da aorta abdominal cuja
+vascularização dos membros inferiores era mantida por colaterais mesentéricas com reenchimento retrógrado
+da aorta distal.
+
+@JUNIOR2007
+:::
+
+::: {.column width="40%"}
+![](/images/relato_caso.png){width="1100"  .lightbox fig-align="center"}
+:::
+:::::
+
+
+## Prática
+
+```{r include = FALSE}
+library(countdown)
+```
+
+Em relação ao artigo *Coronavírus e o Coração | Um Relato de Caso sobre a Evolução da COVID-19 Associado à Evolução Cardiológica*, procure responder às questões propostas no [slide anterior](/aulas/Planejamento/index.html#/questões-que-podem-ser-respondidas).
+
+
+
+```{r}
+countdown(minutes = 15)
+```
+
+
+
+
+# Estudos observacionais analíticos
 
 ## Estudos observacionais analíticos
 
@@ -220,23 +355,28 @@ Esses indivíduos são monitorados ao longo do tempo para avaliar a incidência 
     
    - fumo x câncer pulmonar    
     
-    
+. . .   
       
 - História natural. 
 
    - evolução de uma doença
 
-
-
-## Finalidade dos estudos de coorte{auto-animate="true"}
+. . .
 
 - Estudo de impacto de fatores prognósticos. 
 
     - marcadores tumorais e evolução de câncer
+
+
+## Finalidade dos estudos de coorte
+
+
     
 - Intervenções diagnósticas. 
 
     - papanicolau x mortalidade por câncer de útero
+
+. . .
 
 - Terapêuticas. 
 
@@ -392,106 +532,114 @@ Ou seja, o risco relativo é a razão entre a incidência nos expostos e a incid
 
 
 
-## Estudos de coorte{auto-animate="true"}
+## Tipos de coorte{auto-animate="true"}
 
 
 
 ![](/images/tiposCoorte2.png){fig-align="center"}
 
-## Estudos de coorte{auto-animate="true"}
-
-
-Os estudos de coorte possuem várias vantagens:
+## Vantagens
 
 - Permite o cálculo de taxas de incidência em expostos e não expostos e, através destas, o Risco Relativo (RR);
+
+. . .
 
 - O fator de exposição é definido no início do estudo não sofrendo influências da presença ou ausência do evento de interesse;
 
 
-
-## Estudos de coorte{auto-animate="true"}
-
-
-Os estudos de coorte possuem várias vantagens:
+. . .
 
 - Melhor método para se conhecer com precisão a história natural de uma doença, assim como sua incidência;
+
+. . .
 
 - Permite o estudo de múltiplos efeitos/consequências de um mesmo fator de exposição;
 
 
 
-## Estudos de coorte{auto-animate="true"}
+## Vantagens
 
-Os estudos de coorte possuem várias vantagens:
 
 - Vieses de confusão são mais fáceis de controlar;
+
+. . .
 
 - Permite o estudo de fatores de exposição pouco frequentes;
 
 
 
 
-## Estudos de coorte{auto-animate="true"}
-
-Os estudos de coorte possuem algumas desvantagens:
+## Desvantagens
 
 
 - Caros, devido ao longo período de seguimento;
 
+. . .
+
 - Existência de possíveis fatores (viés) de confusão;
 
-
-
-
-## Estudos de coorte{auto-animate="true"}
-
-Os estudos de coorte possuem algumas desvantagens:
-
+. . .
 
 - Longa duração, com a existência implícita de perdas de magnitude diferente entre expostos e não-expostos;
+
+. . .
 
 - Menos adequados para o estudo de múltiplas causas de um evento específico (multicausalidade);
 
 
-## Estudos de coorte{auto-animate="true"}
-
-
-Os estudos de coorte possuem algumas desvantagens:
+## Desvantagens
 
 
 - Não apropriados para o estudo de doenças raras;
 
+. . .
+
 - Suscetíveis a perdas que podem comprometer a validez do estudo;
+
+. . .
 
 - Pouco reprodutíveis;
 
-
-
-## Estudos de coorte{auto-animate="true"}
-
-Os estudos de coorte possuem algumas desvantagens:
+. . .
 
 - Possibilidade de mudança no estado de exposição entre os dois grupos (exposto vira não-exposto; não-exposto vira exposto);
+
+. . .
 
 - Pouco apropriados para doenças com longo período de latência.
 
 
 
-## Estudos de coorte{auto-animate="true"}
+## Exemplos
 
 
 Um exemplo de estudo de coorte é uma pesquisa para verificar a relação entre a incidência de câncer de pulmão e a exposição à fumaça do cigarro. Começa-se selecionando o grupo de indivíduos expostos à fumaça do cigarro e outra amostra de indivíduos que não são expostos.
 
 
-## Estudos de coorte{auto-animate="true"}
+. . .
 
 Depois, após um período específico, verifica-se o quanto os indivíduos expostos ao cigarro estão mais sujeitos ao câncer de pulmão.
 
 
-## Estudos de coorte{auto-animate="true"}
+## Exemplo
 
 
-Outro exemplo pode ser a análise da eficácia de uma vacina. Em primeiro lugar, separa-se um grupo de pessoas que tomaram vacina e outro grupo de pessoas que não tomaram. Em seguida, compara-se a incidência da doença em pessoas que tomaram a vacina entre a incidência de pessoas que não tomaram.
+::::: columns
+::: {.column style="font-size: 28px;"}
+
+O objetivo desse artigo foi avaliar o uso clínico da Escala de Autoeficácia na amamentação como preditiva do desmame precoce e verificar se as mulheres que obtiveram maiores escores de autoeficácia amamentaram por mais tempo. 
+
+Após realização de um estudo de coorte com 100 puérperas, os resultados não permitiram confirmar a utilização da escala como preditiva de risco de desmame precoce. 
+
+Não se observou relação entre maiores escores de alta eficácia e maior tempo de aleitamento materno exclusivo.
+
+@souza_fernandes_2014
+:::
+
+::: {.column}
+![](/images/exemplo_coorte.png){width="1000"  .lightbox fig-align="center"}
+:::
+:::::
 
 
 # Estudo caso-controle

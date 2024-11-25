@@ -1,11 +1,10 @@
 ---
 title: "Aulas"
-editor: visual
 ---
 
 -   [Conceitos básicos](aulas/Conceitos%20básicos/index.html "Conceitos básicos"){aria-label="Conceitos básicos"}
 
--   [Planejamento na área de saúde](aulas/Planejamento/index.html "Lab slides"){aria-label="Lab 0 slides"}
+-   [Planejamento na área de saúde](aulas/Planejamento/index.html "Planejamento na área de saúde"){aria-label="Planejamento na área de saúde"}
 
 -   Medidas de acurácia e testes diagnósticos
 
