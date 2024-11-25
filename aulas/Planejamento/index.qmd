@@ -642,6 +642,24 @@ Não se observou relação entre maiores escores de alta eficácia e maior tempo
 :::::
 
 
+## Prática
+
+```{r include = FALSE}
+library(countdown)
+```
+
+Discussão do artigo [Impacto da hospitalização na funcionalidade de idosos: estudo de coorte](/artigos/impacto_funcionalidade_idosos_estudo_coorte.pdf).
+
+
+
+```{r}
+countdown(minutes = 15)
+```
+
+
+
+
+
 # Estudo caso-controle
 
 Estudos observacionais analíticos 
