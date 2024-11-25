@@ -6,7 +6,7 @@ title: "Semana 04"
 
 {{< fa file-pdf size=lg >}} [Coronavírus e o Coração | Um Relato de Caso sobre a Evolução da COVID-19 Associado à Evolução Cardiológica](/artigos/relato_de_caso_coronavirus_coracao.pdf)
 
-{{< fa file-pdf size=lg >}} [Impacto da hospitalização na funcionalidade de idosos: estudo de coorte](artigos/impacto_funcionalidade_idosos_estudo_coorte.pdf)
+{{< fa file-pdf size=lg >}} [Impacto da hospitalização na funcionalidade de idosos: estudo de coorte](/artigos/impacto_funcionalidade_idosos_estudo_coorte.pdf)
 
 ## Leitura adicional
 

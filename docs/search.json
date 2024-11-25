@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "programacao/semana-6.html",
+    "href": "programacao/semana-6.html",
+    "title": "Semana 06",
+    "section": "",
+    "text": "Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil\n Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto"
+  },
+  {
+    "objectID": "programacao/semana-6.html#para-ler-antes-da-aula",
+    "href": "programacao/semana-6.html#para-ler-antes-da-aula",
+    "title": "Semana 06",
+    "section": "",
+    "text": "Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil\n Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto"
+  },
+  {
+    "objectID": "programacao/semana-6.html#leitura-adicional",
+    "href": "programacao/semana-6.html#leitura-adicional",
+    "title": "Semana 06",
+    "section": "Leitura adicional",
+    "text": "Leitura adicional\n Entendendo a pesquisa clínica IV: Estudos de caso controle\n Tópicos de metodologia de pesquisa: Estudos de corte transversal"
+  },
+  {
+    "objectID": "programacao/semana-6.html#slides",
+    "href": "programacao/semana-6.html#slides",
+    "title": "Semana 06",
+    "section": "Slides",
+    "text": "Slides\n Estudos caso-controle\n Estudos transversais"
+  },
+  {
     "objectID": "programacao/semana-4.html",
     "href": "programacao/semana-4.html",
     "title": "Semana 04",
@@ -968,25 +996,32 @@
     "href": "aulas/Planejamento/index.html#estudo-caso-controle-11",
     "title": "Planejamento na área da saúde",
     "section": "Estudo caso-controle",
-    "text": "Estudo caso-controle\nComo o número de casos é deffinido pelo pesquisador, o cálculo da incidência não pode ser feito diretamente, necessitando-se, assim, adotar uma medida alternativa conhecida como odds-ratio."
+    "text": "Estudo caso-controle\nComo o número de casos é definido pelo pesquisador, o cálculo da incidência não pode ser feito diretamente, necessitando-se, assim, adotar uma medida alternativa conhecida como odds-ratio."
   },
   {
-    "objectID": "aulas/Planejamento/index.html#estudos-caso-controle",
-    "href": "aulas/Planejamento/index.html#estudos-caso-controle",
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-12",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-12",
     "title": "Planejamento na área da saúde",
-    "section": "Estudos caso-controle",
-    "text": "Estudos caso-controle\n\n\n\n\n\n\n\nC+\n\n\nC-\n\n\nTotal\n\n\n\n\n\nF+\n\n\na\n\n\nb\n\n\na+b\n\n\n\n\nF-\n\n\nc\n\n\nd\n\n\nc+d\n\n\n\n\nTotal\n\n\na+c\n\n\nb+d\n\n\na+b+c+d"
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\n\n\n\n\n\n\n\nC+\n\n\nC-\n\n\nTotal\n\n\n\n\n\nF+\n\n\na\n\n\nb\n\n\na+b\n\n\n\n\nF-\n\n\nc\n\n\nd\n\n\nc+d\n\n\n\n\nTotal\n\n\na+c\n\n\nb+d\n\n\na+b+c+d"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\n\\[\\text{Razão de chances (OR)} = \\dfrac{\\dfrac{\\dfrac{a}{a+c}}{\\dfrac{c}{a+c}}}{\\dfrac{\\dfrac{b}{b+d}}{\\dfrac{d}{b+d}}} = \\dfrac{\\dfrac{a}{c}}{\\dfrac{b}{d}} = \\dfrac{ad}{bc}\\] ## Razão de chances ou odds-ratio {auto-animate=“true”}\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte."
+    "text": "Razão de chances ou odds-ratio\n\n\\[\\text{Razão de chances (OR)} = \\dfrac{\\dfrac{\\dfrac{a}{a+c}}{\\dfrac{c}{a+c}}}{\\dfrac{\\dfrac{b}{b+d}}{\\dfrac{d}{b+d}}} = \\dfrac{\\dfrac{a}{c}}{\\dfrac{b}{d}} = \\dfrac{ad}{bc}\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-1",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-2",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-2",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
     "text": "Razão de chances ou odds-ratio\n\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.\n\nSe OR &gt; 1 - fator de risco\nSe OR &lt; 1 - fator de proteção\nSe OR = 1 - sem associação"
@@ -1017,7 +1052,7 @@
     "href": "aulas/Planejamento/index.html#exemplo-2",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
-    "text": "Exemplo\nPara obter evidências mais definitivas sobre os reais efeitos dos capacetes, pesquisadores na Noruega conduziram um estudo de caso-controle. Casos e controles foram escolhidos entre os visitantes de oito grandes estações de esqui durante o inverno de 2002."
+    "text": "Exemplo\nTraumatismos cranianos são relativamente comuns entre esquiadores e praticantes de snowboard nos alpes. Parece plausível que os capacetes impediriam essas lesões, mas os críticos apontam que os capacetes podem também aumentar as lesões, pois reduzem o campo de visão, prejudicam a audição e dão aos atletas uma falsa sensação de segurança.\nPara obter evidências mais definitivas sobre os reais efeitos dos capacetes, pesquisadores na Noruega conduziram um estudo de caso-controle. Casos e controles foram escolhidos entre os visitantes de oito grandes estações de esqui durante o inverno de 2002."
   },
   {
     "objectID": "aulas/Planejamento/index.html#exemplo-3",
@@ -1060,6 +1095,13 @@
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
     "text": "Exemplo\nApós considerar os confundidores, o uso de capacete foi associado a uma redução de 60% no risco de traumatismo craniano.\nSulheim et al. (2017)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#prática-2",
+    "href": "aulas/Planejamento/index.html#prática-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Prática",
+    "text": "Prática\nDiscussão do artigo Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil.\n\n\n\n\n−&plus;\n\n15:00"
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudo-transversal",
@@ -1160,11 +1202,18 @@
     "text": "Vantagens\n\nRepresenta a população\nConveniente e não muito caro\nVárias exposições e doenças\nDoenças comuns e de longa duração: gera hipóteses\nEstudos de coortes e Ensaios Clínicos Randomizados: testam hipóteses"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#desvantagens-auto-animatetrue-vantagens",
-    "href": "aulas/Planejamento/index.html#desvantagens-auto-animatetrue-vantagens",
+    "objectID": "aulas/Planejamento/index.html#desvantagens-3",
+    "href": "aulas/Planejamento/index.html#desvantagens-3",
     "title": "Planejamento na área da saúde",
-    "section": "Desvantagens {auto-animate=“true”}## Vantagens",
-    "text": "Desvantagens {auto-animate=“true”}## Vantagens\n\nVulnerável a viéses\nInclui somente casos que sobrevivem (disponíveis para o estudo)\nDoenças de curta duração podem não ser representativas"
+    "section": "Desvantagens",
+    "text": "Desvantagens\n\nVulnerável a viéses\nInclui somente casos que sobrevivem (disponíveis para o estudo)\nDoenças de curta duração podem não ser representativas"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#prática-3",
+    "href": "aulas/Planejamento/index.html#prática-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Prática",
+    "text": "Prática\nDiscussão do artigo Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto.\n\n\n\n\n−&plus;\n\n15:00"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais",
@@ -1948,7 +1997,7 @@
     "href": "cronograma.html",
     "title": "Cronograma da disciplina",
     "section": "",
-    "text": "Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nData\nTópico\nArtigo\nSlides\nEC\nLE\nScript\nAvaliação\nProjeto\n\n\n\n\n1\nSeg, 11/11\nApresentação da disciplina\n\n\n\n\n\n\n\n\n\n\nQua, 13/11\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n2\nSeg, 18/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 20/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n3\nSeg, 25/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 27/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n4\nSeg, 02/12\nRelato (Série) de casos\n\n️\n\n\n\n\n\n\n\n\nQua, 04/11\nEstudos de coorte\n\n️",
+    "text": "Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nData\nTópico\nArtigo\nSlides\nEC\nLE\nScript\nAvaliação\nProjeto\n\n\n\n\n1\nSeg, 11/11\nApresentação da disciplina\n\n\n\n\n\n\n\n\n\n\nQua, 13/11\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n2\nSeg, 18/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 20/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n3\nSeg, 25/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 27/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n4\nSeg, 02/12\nRelato (Série) de casos\n\n️\n\n\n\n\n\n\n\n\nQua, 04/11\nEstudos de coorte\n\n️\n\n\n\n\n\n\n\n5\nSeg, 09/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n\nQua, 11/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n6\nSeg, 16/12\nEstudos caso-controle\n\n️\n\n\n\n\n\n\n\n\nQua, 18/12\nEstudos Transversais\n\n️",
     "crumbs": [
       "Cronograma da disciplina"
     ]
@@ -1994,5 +2043,12 @@
     "title": "Semana 03",
     "section": "Estudo de Caso",
     "text": "Estudo de Caso\n\n\n\n\n\n\nFique Atento!\n\n\n\n Estudo de Caso 02: Correlação entre volume cerebral e desempenho neurocognitivo em paciente infectados por HIV\n\nData de entrega:\n\n01 de dezembro de 2024"
+  },
+  {
+    "objectID": "programacao/semana-5.html",
+    "href": "programacao/semana-5.html",
+    "title": "Semana 05",
+    "section": "",
+    "text": "De acordo com a PORTARIA CONJUNTA No 01/2024/PROGRAD/PROPPI/ PROEX,DE 24 DE OUTUBRO DE 2024 não haverá aulas nesta semana."
   }
 ]

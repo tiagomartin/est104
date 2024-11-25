@@ -734,10 +734,10 @@ A **prevalência** se refere ao número de casos existentes de uma doença em um
 
 ## Estudo caso-controle
 
-Como o número de casos é deffinido pelo pesquisador, o cálculo da incidência não pode ser feito diretamente, necessitando-se, assim, adotar uma medida alternativa conhecida como *odds-ratio*. 
+Como o número de casos é definido pelo pesquisador, o cálculo da incidência não pode ser feito diretamente, necessitando-se, assim, adotar uma medida alternativa conhecida como *odds-ratio*. 
 
 
-## Estudos caso-controle
+## Estudo caso-controle
 
 <br>
 
@@ -785,6 +785,7 @@ Como o número de casos é deffinido pelo pesquisador, o cálculo da incidência
 
 
 $$\text{Razão de chances (OR)} = \dfrac{\dfrac{\dfrac{a}{a+c}}{\dfrac{c}{a+c}}}{\dfrac{\dfrac{b}{b+d}}{\dfrac{d}{b+d}}} = \dfrac{\dfrac{a}{c}}{\dfrac{b}{d}} = \dfrac{ad}{bc}$$
+
 ## Razão de chances ou *odds-ratio* {auto-animate="true"}
 
 
@@ -834,13 +835,15 @@ $$\text{Razão de chances (OR)} = \dfrac{\dfrac{\dfrac{a}{a+c}}{\dfrac{c}{a+c}}}
 
 
 
-## Exemplo {auto-animate="true"}
+## Exemplo 
 
 
 Traumatismos cranianos são relativamente comuns entre esquiadores e praticantes de snowboard nos alpes. Parece plausível que os capacetes impediriam essas lesões, mas os críticos apontam que os capacetes podem também aumentar as lesões, pois reduzem o campo de visão, prejudicam a audição e dão aos atletas uma falsa sensação de segurança. 
 
 
 ## Exemplo {auto-animate="true"}
+
+Traumatismos cranianos são relativamente comuns entre esquiadores e praticantes de snowboard nos alpes. Parece plausível que os capacetes impediriam essas lesões, mas os críticos apontam que os capacetes podem também aumentar as lesões, pois reduzem o campo de visão, prejudicam a audição e dão aos atletas uma falsa sensação de segurança. 
 
 
 Para obter evidências mais definitivas sobre os reais efeitos dos capacetes, pesquisadores na Noruega conduziram um estudo de caso-controle. Casos e controles foram escolhidos entre os visitantes de oito grandes estações de esqui durante o inverno de 2002.
@@ -890,6 +893,25 @@ Para obter evidências mais definitivas sobre os reais efeitos dos capacetes, pe
 Após considerar os confundidores, o uso de capacete foi associado a uma redução de 60% no risco de traumatismo craniano.
 
 @Sulheim44
+
+
+
+
+
+## Prática
+
+```{r include = FALSE}
+library(countdown)
+```
+
+Discussão do artigo [Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil](/artigos/fatores_cancer_boca_caso_controle.pdf).
+
+
+
+```{r}
+countdown(minutes = 15)
+```
+
 
 
 
@@ -1093,11 +1115,29 @@ O hábito de fumar parece ser **fator de risco** para cólica infantil naquele d
 - Estudos de coortes e Ensaios Clínicos Randomizados: testam hipóteses
 
 
-## Desvantagens {auto-animate="true"}## Vantagens {auto-animate="true"}
+## Desvantagens {auto-animate="true"}
 
 - Vulnerável a viéses
 - Inclui somente casos que sobrevivem (disponíveis para o estudo)
 - Doenças de curta duração podem não ser representativas
+
+
+
+## Prática
+
+```{r include = FALSE}
+library(countdown)
+```
+
+Discussão do artigo [Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto](/artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf).
+
+
+
+```{r}
+countdown(minutes = 15)
+```
+
+
 
 
 

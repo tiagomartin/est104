@@ -1,0 +1,21 @@
+---
+title: "Semana 06"
+---
+
+## Para ler antes da aula...
+
+{{< fa file-pdf size=lg >}} [Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil](/artigos/fatores_cancer_boca_caso_controle.pdf)
+
+{{< fa file-pdf size=lg >}} [Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto](/artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf)
+
+## Leitura adicional
+
+{{< fa file-pdf size=lg >}} [Entendendo a pesquisa clínica IV: Estudos de caso controle](/artigos/Entendendo_estudos_caso_controle.pdf)
+
+{{< fa file-pdf size=lg >}} [Tópicos de metodologia de pesquisa: Estudos de corte transversal](/artigos/Entendendo_estudos_transversais.pdf)
+
+## Slides
+
+{{< fa file-powerpoint size=lg >}} [Estudos caso-controle](/aulas/Planejamento/#/estudo-caso-controle "Estudo caso-controle"){aria-label="Estudo caso-controle"}
+
+{{< fa file-powerpoint size=lg >}} [Estudos transversais](/aulas/Planejamento/#/estudos-transversais "Estudos transversais"){aria-label="Estudos transversais"}

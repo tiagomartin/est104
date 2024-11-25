@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://professortp.com.br/est104/programacao/semana-6.html</loc>
+    <lastmod>2024-11-25T20:51:10.639Z</lastmod>
+  </url>
+  <url>
     <loc>http://professortp.com.br/est104/programacao/semana-4.html</loc>
-    <lastmod>2024-11-25T19:33:05.380Z</lastmod>
+    <lastmod>2024-11-25T20:42:50.343Z</lastmod>
   </url>
   <url>
     <loc>http://professortp.com.br/est104/programacao/semana-2.html</loc>
@@ -42,11 +46,11 @@
   </url>
   <url>
     <loc>http://professortp.com.br/est104/aulas/Planejamento/index.html</loc>
-    <lastmod>2024-11-25T19:36:27.104Z</lastmod>
+    <lastmod>2024-11-25T20:53:44.377Z</lastmod>
   </url>
   <url>
     <loc>http://professortp.com.br/est104/cronograma.html</loc>
-    <lastmod>2024-11-25T19:04:13.830Z</lastmod>
+    <lastmod>2024-11-25T21:01:19.991Z</lastmod>
   </url>
   <url>
     <loc>http://professortp.com.br/est104/estudos_de_casos/estudo01.html</loc>
@@ -63,5 +67,9 @@
   <url>
     <loc>http://professortp.com.br/est104/programacao/semana-3.html</loc>
     <lastmod>2024-11-22T16:15:27.721Z</lastmod>
+  </url>
+  <url>
+    <loc>http://professortp.com.br/est104/programacao/semana-5.html</loc>
+    <lastmod>2024-11-25T20:12:38.734Z</lastmod>
   </url>
 </urlset>

@@ -27,8 +27,15 @@ Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semest
 |                           | Qua, 27/11 | Conceitos básicos |  | [{{< fa file-powerpoint size=2xl >}}️](aulas/Conceitos%20básicos/index.html "Conceitos básicos"){aria-label="Conceitos básicos"}   |[ {{< fa laptop-file size=2xl >}}](estudos_de_casos/estudo02.html "Estudo de caso 02"){aria-label="Estudo de caso 02"}  |  | [{{< fa brands r-project size=2xl >}}](/analise_dados/recem_nascidos.html "Script análise de dados"){aria-label="Script análise de dados"} |  |   
 |  [4](programacao/semana-4.html)  | Seg, 02/12 | Relato (Série) de casos | [{{< fa file-pdf size=2xl >}}](artigos/relato_de_caso_coronavirus_coracao.pdf) | [{{< fa file-powerpoint size=2xl >}}️](/aulas/Planejamento/index.html "Relato e Séries de casos"){aria-label="Relato e Séries de casos"}    |  |  ||   
 |                           | Qua, 04/11 | Estudos de coorte | [{{< fa file-pdf size=2xl >}}](artigos/impacto_funcionalidade_idosos_estudo_coorte.pdf) | [{{< fa file-powerpoint size=2xl >}}️](/aulas/Planejamento/#/estudos-observacionais-analíticos "Estudos de coorte"){aria-label="Estudos de coorte"}  |  |  |  |  |  
+|  [5](programacao/semana-5.html)  | Seg, 09/12 | Não haverá aula! (Encontro de Saberes) |  | |  |  ||   
+|                           | Qua, 11/12 | Não haverá aula! (Encontro de Saberes) |  |  |  |  |  |  |  
+|  [6](programacao/semana-6.html)  | Seg, 16/12 | Estudos caso-controle | [{{< fa file-pdf size=2xl >}}](artigos/fatores_cancer_boca_caso_controle.pdf) | [{{< fa file-powerpoint size=2xl >}}️](/aulas/Planejamento/#/estudo-caso-controle  "Estudos caso-controle"){aria-label="Estudos caso-controle"}    |  |  ||   
+|                           | Qua, 18/12 | Estudos Transversais | [{{< fa file-pdf size=2xl >}}](artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf) | [{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Planejamento/#/estudos-transversais "Estudos transversais"){aria-label="Estudos transversais"}  |  |  |  |  | 
 :::
 
 ```{r echo = FALSE}
 knitr::knit_exit()
 ```
+
+
+/aulas/Planejamento/index.html#/estudo-caso-controle
