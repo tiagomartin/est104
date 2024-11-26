@@ -265,65 +265,73 @@ Para investigar a associação entre um fator de risco (ou a exposição) e a do
 
 <br>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-color:#ccc;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:2px;font-family:Arial, sans-serif;font-size:36px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:2px;font-family:Arial, sans-serif;font-size:36px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-sej6{border-color:inherit;font-family:"Montserrat", Monaco, monospace !important;text-align:left;vertical-align:top;font-size:36px}
-.tg .tg-9gjn{background-color:#30af9e;border-color:inherit;font-family:"Montserrat", Monaco, monospace !important;font-weight:bold;text-align:left;
-  vertical-align:top;font-size:36px}
-.tg .tg-hv44{border-color:inherit;font-family:"Montserrat", Monaco, monospace !important;text-align:center;vertical-align:top;font-size:36px}
-.tg .tg-wi6j{background-color:#30af9e;border-color:inherit;font-family:"Montserrat", Monaco, monospace !important;font-weight:bold;text-align:center;
-  vertical-align:top;font-size:36px}
-.tg .tg-wb37{border-color:inherit;font-family:"Montserrat", Monaco, monospace !important;font-size:100%;text-align:left;
-  vertical-align:top}
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</style>
 
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-9gjn">Evento</th>
-    <th class="tg-wi6j">Descrição</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-hv44">E<sub>+</sub></td>
-    <td class="tg-sej6">ser Exposto</td>
-  </tr>
-  <tr>
-    <td class="tg-hv44">E<sub>-</sub></td>
-    <td class="tg-sej6">não ser Exposto</td>
-  </tr>
-  <tr>
-    <td class="tg-hv44">D<sub>+</sub></td>
-    <td class="tg-sej6">ser Doente (apresentar o desfecho)</td>
-  </tr>
-  <tr>
-    <td class="tg-hv44">D<sub>-</sub> </td>
-    <td class="tg-sej6">não ser Doente (não apresentar o desfecho)</td>
-  </tr>
-  <tr>
-    <td class="tg-hv44">C<sub>+</sub></td>
-    <td class="tg-sej6">ser Caso (apresentar o desfecho)</td>
-  </tr>
-  <tr>
-    <td class="tg-hv44">C<sub>-</sub></td>
-    <td class="tg-sej6">ser Controle (não apresentar o desfecho)</td>
-  </tr>
-  <tr>
-    <td class="tg-hv44">F<sub>+</sub></td>
-    <td class="tg-sej6">apresentar um Fator de risco (ou fator investigado)</td>
-  </tr>
-  <tr>
-    <td class="tg-hv44">F<sub>-</sub></td>
-    <td class="tg-sej6">não apresentar um Fator de risco (ou fator investigado)</td>
-  </tr>
-  <tr> 
-  </tr>
-</tbody></table>
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab">Evento</td>
+                <td class="cab">Descrição</td>
+            </tr>
+
+            <tr class="item">
+                <td>E<sub>+</td>
+                <td class="desc"> ser Exposto</td>
+            </tr>
+
+            <tr class="item">
+                <td>E<sub>-</td>
+                <td class="desc"> não ser Exposto</td>
+            </tr>
+
+            <tr class="item color">
+                <td>D<sub>+</td>
+                <td class="desc"> ser Doente (apresentar o desfecho)</td>
+            </tr>
+
+            <tr class="item color">
+                <td>D<sub>-</td>
+                <td class="desc"> não ser Doente (não apresentar o desfecho)</td>
+            </tr>
+
+            <tr class="item">
+                <td>C<sub>+</td>
+                <td class="desc"> ser Caso (apresentar o desfecho)</td>
+            </tr>
+
+            <tr class="item">
+                <td>C<sub>-</td>
+                <td class="desc"> ser Controle (não apresentar o desfecho)</td>
+            </tr>
+
+            <tr class="item color">
+                <td>F<sub>+</td>
+                <td class="desc"> apresentar um Fator de risco (ou fator investigado)</td>
+            </tr>
+
+            <tr class="item color">
+                <td>F<sub>-</td>
+                <td class="desc"> não apresentar um Fator de risco (ou fator investigado)</td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
+```
 
 
 # Estudo de coorte
@@ -448,43 +456,60 @@ Para análise dos dados, considere a seguinte tabela de contingência:
 
 <br>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky">D~+~</th>
-    <th class="tg-0pky">D~-~</th>
-    <th class="tg-0pky">Total</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-re1e">E~+~</td>
-    <td class="tg-0pky">a</td>
-    <td class="tg-0pky">b</td>
-    <td class="tg-0pky">a+b</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">E~-~</td>
-    <td class="tg-0pky">c</td>
-    <td class="tg-0pky">d</td>
-    <td class="tg-0pky">c+d</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Total</td>
-    <td class="tg-0pky">a+c</td>
-    <td class="tg-0pky">b+d</td>
-    <td class="tg-0pky">a+b+c+d</td>
-  </tr>
-</tbody>
-</table>
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab"> </td>
+                <td class="cab">D<sub>+</td>
+                <td class="cab">D<sub>-</td>
+                <td class="cab">Total</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">E<sub>+</td>
+                <td class="cont"> a </td>
+                <td class="cont"> b </td>
+                <td class="cont"> a + b </td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">E<sub>-</td>
+                <td class="cont"> c </td>
+                <td class="cont"> d </td>
+                <td class="cont"> c + d </td>
+            </tr>
+
+            <tr class="item color">
+                <td class="cab">Total</td>
+                <td class="cont"> a + c </td>
+                <td class="cont"> b + d </td>
+                <td class="cont"> a + b + c + d </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
+
+
+
+
 
 
 
@@ -741,43 +766,56 @@ Como o número de casos é definido pelo pesquisador, o cálculo da incidência 
 
 <br>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky">C~+~</th>
-    <th class="tg-0pky">C~-~</th>
-    <th class="tg-0pky">Total</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-re1e">F~+~</td>
-    <td class="tg-0pky">a</td>
-    <td class="tg-0pky">b</td>
-    <td class="tg-0pky">a+b</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">F~-~</td>
-    <td class="tg-0pky">c</td>
-    <td class="tg-0pky">d</td>
-    <td class="tg-0pky">c+d</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Total</td>
-    <td class="tg-0pky">a+c</td>
-    <td class="tg-0pky">b+d</td>
-    <td class="tg-0pky">a+b+c+d</td>
-  </tr>
-</tbody>
-</table>
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab"> </td>
+                <td class="cab">C<sub>+</td>
+                <td class="cab">C<sub>-</td>
+                <td class="cab">Total</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">F<sub>+</td>
+                <td class="cont"> a </td>
+                <td class="cont"> b </td>
+                <td class="cont"> a + b </td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">F<sub>-</td>
+                <td class="cont"> c </td>
+                <td class="cont"> d </td>
+                <td class="cont"> c + d </td>
+            </tr>
+
+            <tr class="item color">
+                <td class="cab">Total</td>
+                <td class="cont"> a + c </td>
+                <td class="cont"> b + d </td>
+                <td class="cont"> a + b + c + d </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
+
 
 
 ## Razão de chances ou *odds-ratio* {auto-animate="true"}
@@ -973,43 +1011,56 @@ Funciona como uma fotografia do que acontece naquele instante...
 
 <br>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky">D~+~</th>
-    <th class="tg-0pky">D~-~</th>
-    <th class="tg-0pky">Total</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-re1e">E~+~</td>
-    <td class="tg-0pky">a</td>
-    <td class="tg-0pky">b</td>
-    <td class="tg-0pky">a+b</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">E~-~</td>
-    <td class="tg-0pky">c</td>
-    <td class="tg-0pky">d</td>
-    <td class="tg-0pky">c+d</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Total</td>
-    <td class="tg-0pky">a+c</td>
-    <td class="tg-0pky">b+d</td>
-    <td class="tg-0pky">a+b+c+d</td>
-  </tr>
-</tbody>
-</table>
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab"> </td>
+                <td class="cab">D<sub>+</td>
+                <td class="cab">D<sub>-</td>
+                <td class="cab">Total</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">E<sub>+</td>
+                <td class="cont"> a </td>
+                <td class="cont"> b </td>
+                <td class="cont"> a + b </td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">E<sub>-</td>
+                <td class="cont"> c </td>
+                <td class="cont"> d </td>
+                <td class="cont"> c + d </td>
+            </tr>
+
+            <tr class="item color">
+                <td class="cab">Total</td>
+                <td class="cont"> a + c </td>
+                <td class="cont"> b + d </td>
+                <td class="cont"> a + b + c + d </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
+
 
 
 ## Razão de prevalência {auto-animate="true"}
@@ -1019,7 +1070,7 @@ $$\begin{eqnarray*}\text{Razão de prevalência (RP)} &=& \dfrac{\dfrac{\text{Ex
 
 
 
-## Razão de prevalência {auto-animate="true"}
+## Razão de prevalência 
 
 
 **Interpretação:** O significado da razão de prevalência é análogo aos anteriores.
@@ -1035,62 +1086,68 @@ $$\begin{eqnarray*}\text{Razão de prevalência (RP)} &=& \dfrac{\dfrac{\text{Ex
 
 
 
-## Exemplo {auto-animate="true"}
+## Exemplo 
 
 
 - Estudar a associação entre mulheres que fumam e cólica infantil. Para isso foi observada a seguinte tabela de contingência
 
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky">Com cólica</th>
-    <th class="tg-0pky">Sem cólica</th>
-    <th class="tg-0pky">Total</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-re1e">Mãe fuma</td>
-    <td class="tg-0pky">15</td>
-    <td class="tg-0pky">167</td>
-    <td class="tg-0pky">182</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Mãe não fuma</td>
-    <td class="tg-0pky">111</td>
-    <td class="tg-0pky">2477</td>
-    <td class="tg-0pky">2588</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Total</td>
-    <td class="tg-0pky">126</td>
-    <td class="tg-0pky">2644</td>
-    <td class="tg-0pky">2770</td>
-  </tr>
-</tbody>
-</table>
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab"> </td>
+                <td class="cab">Com cólica</td>
+                <td class="cab">Sem cólica</td>
+                <td class="cab">Total</td>
+            </tr>
 
+            <tr class="item">
+                <td class="cab">Mãe fuma</td>
+                <td class="cont"> 15 </td>
+                <td class="cont"> 167 </td>
+                <td class="cont"> 182 </td>
+            </tr>
 
+            <tr class="item">
+                <td class="cab">Mãe não fuma</td>
+                <td class="cont"> 111 </td>
+                <td class="cont"> 2477 </td>
+                <td class="cont"> 2588 </td>
+            </tr>
 
-## Exemplo {auto-animate="true"}
+            <tr class="item color">
+                <td class="cab">Total</td>
+                <td class="cont"> 126 </td>
+                <td class="cont"> 2644 </td>
+                <td class="cont"> 2770 </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
 
+. . .
 
 $$\text{Razão de prevalência (RP)} = \dfrac{\dfrac{15}{15+167}}{\dfrac{111}{111+2477}} = \dfrac{0,08}{0,04} = 2 > 1$$
 
 
 
-## Exemplo {auto-animate="true"}
+## Exemplo 
 
 A razão de prevalência de cólica infantil entre mulheres que fumam é de **2 vezes** mais que as mulheres que não fumam. 
 
@@ -1106,19 +1163,37 @@ O hábito de fumar parece ser **fator de risco** para cólica infantil naquele d
 
 
 
-## Vantagens {auto-animate="true"}
+## Vantagens 
 
 - Representa a população
+
+. . .
+
 - Conveniente e não muito caro
-- Várias exposições e doenças
-- Doenças comuns e de longa duração: gera hipóteses
+
+. . .
+
+- Várias exposições e doenças 
+
+. . .
+
+- Doenças comuns e de longa duração: gera hipóteses 
+
+. . .
+
 - Estudos de coortes e Ensaios Clínicos Randomizados: testam hipóteses
 
 
 ## Desvantagens {auto-animate="true"}
 
 - Vulnerável a viéses
+
+. . .
+
 - Inclui somente casos que sobrevivem (disponíveis para o estudo)
+
+. . .
+
 - Doenças de curta duração podem não ser representativas
 
 
@@ -1161,11 +1236,9 @@ Os tipos de estudos que vimos até agora (Coorte, Caso-controle e Transversais) 
 Em **estudos ecológicos**, a unidade de análise é um **grupo de indivíduos** agregados, em geral, em função de fatores geográficos ou temporais.
 
 
-## Características principais {auto-animate="true"}
+## Características principais 
 
-Em **estudos ecológicos**, a unidade de análise é um **grupo de indivíduos** agregados, em geral, em função de fatores geográficos ou temporais.
-
-O interesse, nesse caso, está na comparação de uma **medida agregada** (proporção, taxa, média, etc.) da exposição com uma medida agregada do desfecho.
+O interesse, nesse caso, está na comparação de uma **medida agregada** (proporção, taxa, média, mediana, etc.) da exposição com uma medida agregada do desfecho.
 
 
 
@@ -1176,22 +1249,21 @@ O interesse, nesse caso, está na comparação de uma **medida agregada** (propo
 - Compara-se grupos com maior ou menor **nível** de exposição.
 
 
-## Características principais {auto-animate="true"}
+## Características principais 
 
 
-- Compara-se grupos com maior ou menor **nível** de exposição.
 
 ![](/images/ecologico.png){fig-align="center"}
 
 ## Características principais 
 
 
-- Compara-se grupos com maior ou menor **nível** de exposição.
+
 
 ![](/images/ecologico2.png){fig-align="center"}
 
 
-## Características principais 
+## Características principais
 
 
 Dados ecológicos ou agregados:
@@ -1199,30 +1271,13 @@ Dados ecológicos ou agregados:
 -  Informação sobre exposição e desfecho em grupos populacionais
 
     - Escolas, cidades, países, etc.
-
-
-
-
-## Características principais {auto-animate="true"}
-
-
-Dados ecológicos ou agregados:
-
--  Informação sobre exposição e desfecho em grupos populacionais
-
-    - Escolas, cidades, países, etc.
+    
+. . .    
 
 - Quase sempre obtidos rotineiramente através de inquéritos ou sistemas de vigilância.
 
 
-
-## Características principais {auto-animate="true"}
-
-
-Dados ecológicos ou agregados:
-
-
-- Quase sempre obtidos através de inquéritos ou sistemas de vigilância.
+. . .
 
 - Unidades de análise:
 
@@ -1242,35 +1297,15 @@ Dados ecológicos ou agregados:
 
 ![](/images/exemplo02.png){.absolute top=200 right=0 width="450" height="450"}
 
-
-
-
-
-
 ## Características principais 
 
 - O que os resultados sugerem?
 
-
-
-
-## Características principais {auto-animate="true"}
-
-- O que os resultados sugerem?
-
     - Locais com maior mortalidade infantil tendem a apresentar maiores taxas de mortalidade por doenças cardiovasculares no futuro.
 
-
-
-## Características principais {auto-animate="true"}
-
-- O que os resultados sugerem?
-
-    - Locais com maior mortalidade infantil tendem a apresentar maiores taxas de mortalidade por doenças cardiovasculares no futuro.
-
+. . .
 
 - É sabido que taxa de mortalidade infantil é indicador da situação de saúde no início da vida.
-
 
     - Alta taxa de mortalidade: mais crianças desnutridas
 
@@ -1292,48 +1327,31 @@ Hipótese
 Hipótese
 :::
 
- Desnutrição na gestação e infância aumenta mortalidadepor doenças cardiovasculares na fase adulta?
+ Desnutrição na gestação e infância aumenta mortalidade por doenças cardiovasculares na fase adulta?
 
 
 
 
-## Características principais {auto-animate=true}
+## Características principais 
 
 Por que fazer estudos ecológicos?
 
+. . .
 
 - Dados disponíveis: rapidez e baixo custo
 
+. . .
+
 - Geram hipóteses a serem comprovadas em outros delineamentos
+
+. . .
 
 - Estudar os efeitos de exposições com nenhuma ou pouca variabilidade intra-grupo, ou difíceis de mensurar a nível individual.
 
+. . .
+
 - Quando o objetivo é fazer inferências ecológicas.
 
-
-
-## Características principais {auto-animate=true}
-
-Níveis de medida
-
-
-- Medidas agregadas
-
-- Medidas coletivas
-
-
-
-
-## Características principais {auto-animate=true}
-
-Níveis de medida
-
-
-- Medidas agregadas: médias ou proporções obtidas a partir de dados individuais
-
-    - **Exemplo:** Média de idade, % de hipertensão
-
-- Medidas coletivas
 
 
 
@@ -1341,10 +1359,13 @@ Níveis de medida
 
 Níveis de medida
 
+. . .
 
 - Medidas agregadas: médias ou proporções obtidas a partir de dados individuais
 
     - **Exemplo:** Média de idade, % de hipertensão
+
+. . .
 
 - Medidas coletivas: características que não variam entre indivíduos do mesmo grupo
 
@@ -1353,72 +1374,54 @@ Níveis de medida
 
 
 
-## Características principais{auto-animate=true}
-
-Níveis de medida
+## Características principais
 
 
 - Estudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.
 
     - **nível de poluição do ar:** é mais fácil medir o **nível médio** de poluição do ar de determinada cidade do que o quanto cada indivíduo respira ao longo do dia. 
-
-
-## Características principais{auto-animate=true}
-
-Níveis de medida
-
-
-- Estudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.
-
     - **variáveis com pouca variabilidade intra-grupos, mas com muita variabilidade entre grupos:** exposição à radiação em Chernobyl.
 
 
 
-## Tipos de estudos ecológicos{auto-animate=true}
+## Tipos de estudos ecológicos
 
 É possível classificar os estudos ecológicos da seguinte forma:
 
+. . .
+
 - Comparação entre múltiplos grupos em um único momento
 
+. . .
+
 - Estudos de série temporal
+
+. . .
 
 - Delineamentos mistos
 
 
 
 
-## Tipos de estudos ecológicos{auto-animate=true}
+## Tipos de estudos ecológicos
 
 Comparação entre múltiplos grupos em um único momento
 
 
-Comparar a ocorrência do desfecho entre diferentes grupos ao mesmo tempo.
+- Comparar a ocorrência do desfecho entre diferentes grupos ao mesmo tempo.
 
-
-- Estudos de série temporal
-
-- Delineamentos mistos
-
-
-
-## Tipos de estudos ecológicos{auto-animate=true}
+. . .
 
 Estudos de série temporal
 
 
-Avaliar a evolução da ocorrência do desfecho em um mesmo local ao longo do tempo.
+- Avaliar a evolução da ocorrência do desfecho em um mesmo local ao longo do tempo.
 
-- Delineamentos mistos
+. . .
 
+Delineamentos mistos
 
-
-
-## Tipos de estudos ecológicos{auto-animate=true}
-
-
-- Delineamentos mistos
-
-Combinam as duas estratégias acima.
+- Combinam as duas estratégias acima.
 
 
 
@@ -1432,28 +1435,31 @@ Combinam as duas estratégias acima.
 :::
 
 
+## Tipos de estudos ecológicos
+
+
+**Exemplo:** Efeito de políticas de redução do tabagismo no Brasil
+
+ - Algumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)
+
+
+
 ## Tipos de estudos ecológicos{auto-animate=true}
 
 
 **Exemplo:** Efeito de políticas de redução do tabagismo no Brasil
 
  - Algumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)
- 
- 
- 
-## Tipos de estudos ecológicos{auto-animate=true}
+    - **Múltiplos grupos:** comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
 
-Algumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)
-
-- Múltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
- 
- 
 ## Tipos de estudos ecológicos{auto-animate=true}
 
 
-- Múltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
- 
-- Série temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.
+**Exemplo:** Efeito de políticas de redução do tabagismo no Brasil
+
+ - Algumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)
+    - **Múltiplos grupos:** comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
+    - **Série temporal:** comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.
 
 
 
@@ -1461,20 +1467,20 @@ Algumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto
 ## Tipos de estudos ecológicos{auto-animate=true}
 
 
-- Múltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
+**Exemplo:** Efeito de políticas de redução do tabagismo no Brasil
+
+ - Algumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)
+    - **Múltiplos grupos:** comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
+    - **Série temporal:** comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.
+    - **Misto:** comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.
+
+
+
  
-- Série temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.
+## Tipos de estudos ecológicos
 
 
-- Misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.
-
-
-
- 
-## Tipos de estudos ecológicos{auto-animate=true}
-
-
-- Múltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
+**Múltiplos grupos:** comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas
  
 
 ![](/images/multiplosGrupos.png){fig-align="center"}
@@ -1486,14 +1492,14 @@ Algumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto
 Limitações do delineamento de múltiplos grupos
  
 
-- Cidades com políticas &rarr; maiores taxas de tabagismo.
+- Cidades com políticas &#11157; maiores taxas de tabagismo.
     
      - Implementar políticas contra tabagismo aumenta as taxas de tabagismo?
 
 
 
 
-## Tipos de estudos ecológicos{auto-animate=true}
+## Tipos de estudos ecológicos
 
 
 - Por que avaliar em apenas um ponto no tempo aponta para este resultado?
@@ -1510,10 +1516,10 @@ Limitações do delineamento de múltiplos grupos
 ![](/images/confundimentoEcologico.png){fig-align="center"}
 
 
-## Tipos de estudos ecológicos{auto-animate=true}
+## Tipos de estudos ecológicos
 
 
-- Série temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.
+**Série temporal:** comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.
 
  
 
@@ -1526,15 +1532,12 @@ Limitações do delineamento de múltiplos grupos
 Limitações do delineamento de série temporal
  
 
-- Cidades com políticas &rarr; grande redução nas taxas de tabagismo.
+- Cidades com políticas &#11157; grande redução nas taxas de tabagismo.
     
      - Implementar essas políticas parece ser muito efetivo!
 
 
-
-
-
-## Tipos de estudos ecológicos{auto-animate=true}
+. . .
 
 
 - Será que não teria acontecido uma redução das taxas de tabagismo mesmo que nenhuma política tivesse sido implementada?
@@ -1542,10 +1545,10 @@ Limitações do delineamento de série temporal
     - Se sim, podemos estar superestimando (ou subestimando) o efeito da política
 
 
-## Tipos de estudos ecológicos{auto-animate=true}
+## Tipos de estudos ecológicos
 
 
-- Para termos uma ideia disso, é necessário avaliar as mudanças ao longo do tempo em cidades do grupo controle &rarr; **delineamento misto**
+- Para termos uma ideia disso, é necessário avaliar as mudanças ao longo do tempo em cidades do grupo controle &#11157; **delineamento misto**
 
 ![](/images/misto.png){fig-align="center"}
 
@@ -1554,30 +1557,11 @@ Limitações do delineamento de série temporal
 ## Tipos de estudos ecológicos{auto-animate=true}
 
 
-- Delineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.
+**Delineamento misto:** comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.
 
-
-
-
-
-## Tipos de estudos ecológicos{auto-animate=true}
-
-
-- Delineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.
-
+. . .
 
 - Permite comparar a mudança pré-implementação *versus* pós-implementação no grupo exposto com a mudança no mesmo período  no grupo não-exposto.
-
-
-
-## Tipos de estudos ecológicos{auto-animate=true}
-
-
-- Delineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.
-
-
-- Permite comparar a mudança pré-implementação *versus* pós-implementação no grupo exposto com a mudança no mesmo período  no grupo não-exposto.
-
     - Com isso, é possível **remover** a parte da mudança observada no grupo exposto que não se deve à política em questão.
 
 
@@ -1609,35 +1593,42 @@ Limitações do delineamento de série temporal
 
 
 
-
-
-
-
-
-## Tipos de estudos ecológicos{auto-animate=true}
+## Tipos de estudos ecológicos
 
 
 Vantagens:
 
 - Permitir o estudo de grandes populações(comparações internacionais das taxas de incidência de doenças)
 
+. . .
+
 - Investigação de cluster de doenças
 
+. . .
+
 - Baixo custo e rápido
+
+. . . 
 
 - Disponibilidade de grandes bases de dados.
 
 
 
-## Tipos de estudos ecológicos{auto-animate=true}
+## Tipos de estudos ecológicos
 
-Alguns problemas metodológicos
+Alguns problemas metodológicos:
 
 - Limitação na inferência causal **(Falácia Ecológica)**
 
+. . .
+
 - Qualidade das informações
 
+. . .
+
 - Auto-correlação espacial e temporal 
+
+. . .
 
 - Problemas no controle de confundimento.
 
@@ -1757,112 +1748,69 @@ Cada grupo pode ser entendido como uma subamostra da amostra total
 
 
 
-## Mascaramento{auto-animate=true}
-
-- **Mascaramento (cegamento):** desconhecimento do grupo ao qual o participante pertence
-
-
-
-
-## Mascaramento{auto-animate=true}
-
-- **Mascaramento (cegamento):** desconhecimento do grupo ao qual o participante pertence
-
-
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-bottom-width:1px;border-color:black;border-style:solid;border-top-width:1px;border-width:0px;
-  font-family:"Montserrat", Monaco, monospace !important;font-size:24px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-bottom-width:1px;border-color:black;border-style:solid;border-top-width:1px;border-width:0px;
-  font-family:"Montserrat", Monaco, monospace !important;font-size:24px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0lax"></th>
-    <th class="tg-1wig">Sem mascaramento</th>
-    <th class="tg-1wig">Uni-cego</th>
-    <th class="tg-1wig">Duplo-cego</th>
-    <th class="tg-1wig">Triplo-cego</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-1wig">Pacientes</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">NÃO</td>
-    <td class="tg-baqh">NÃO</td>
-    <td class="tg-baqh">NÃO</td>
-  </tr>
-  <tr>
-    <td class="tg-1wig">Investigador</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">NÃO</td>
-    <td class="tg-baqh">NÃO</td>
-  </tr>
-  <tr>
-    <td class="tg-1wig">Analista de dados</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">NÃO</td>
-  </tr>
-</tbody>
-</table>
-
-
-
 ## Mascaramento
 
 - **Mascaramento (cegamento):** desconhecimento do grupo ao qual o participante pertence
 
+. . .
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-bottom-width:1px;border-color:black;border-style:solid;border-top-width:1px;border-width:0px;
-  font-family:"Montserrat", Monaco, monospace !important;font-size:24px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-bottom-width:1px;border-color:black;border-style:solid;border-top-width:1px;border-width:0px;
-  font-family:"Montserrat", Monaco, monospace !important;font-size:24px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0lax"></th>
-    <th class="tg-1wig">Sem mascaramento</th>
-    <th class="tg-1wig">Uni-cego</th>
-    <th class="tg-1wig">Duplo-cego</th>
-    <th class="tg-1wig">Triplo-cego</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-1wig">Pacientes</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">NÃO</td>
-    <td class="tg-baqh">NÃO</td>
-    <td class="tg-baqh">NÃO</td>
-  </tr>
-  <tr>
-    <td class="tg-1wig">Investigador</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">NÃO</td>
-    <td class="tg-baqh">NÃO</td>
-  </tr>
-  <tr>
-    <td class="tg-1wig">Analista de dados</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">SIM</td>
-    <td class="tg-baqh">NÃO</td>
-  </tr>
-</tbody>
-</table>
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab"> </td>
+                <td class="cab">Sem Mascaramento</td>
+                <td class="cab">Uni-cego</td>
+                <td class="cab">Duplo-cego</td>
+                <td class="cab">Triplo-cego</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">Pacientes</td>
+                <td class="cont"> Sim </td>
+                <td class="cont"> Não </td>
+                <td class="cont"> Não </td>
+                <td class="cont"> Não </td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">Investigador</td>
+                <td class="cont"> Sim </td>
+                <td class="cont"> Sim </td>
+                <td class="cont"> Não </td>
+                <td class="cont"> Não </td>
+            </tr>
+            <tr class="item">
+                <td class="cab">Analista de dados</td>
+                <td class="cont"> Sim </td>
+                <td class="cont"> Sim </td>
+                <td class="cont"> Sim </td>
+                <td class="cont"> Não </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
+
+
+. . .
+
+
 
 - Diferentes formas de mascaramento evitam diferentes viéses
 
@@ -1919,24 +1867,18 @@ Cada grupo pode ser entendido como uma subamostra da amostra total
     
     
 
-## Mascaramento{auto-animate=true}
+## Mascaramento
 
 Todos os ensaios clínicos devem ser mascarados?
 
-
-
-## Mascaramento{auto-animate=true}
-
-Todos os ensaios clínicos devem ser mascarados?
+. . .
 
 - Por mais que o mascaramento seja uma característica importante de um ensaio clínico, sua implementação nem sempre é viável devido, por exemplo, à natureza de algumas intervenções 
 
     - Por exemplo, procedimentos cirúrgicos, tratamentos fisioterapêuticos e psicológicos. 
 
 
-## Mascaramento{auto-animate=true}
-
-Todos os ensaios clínicos devem ser mascarados?
+. . .
 
 - Sempre que for factível manter o mascaramento, ele deve ser utilizado.
     - Quanto mais mascaramento, mais robustas serão as conclusões do estudo.
@@ -1946,18 +1888,12 @@ Todos os ensaios clínicos devem ser mascarados?
 
 
 
-## Análise de dados{auto-animate=true}
+## Análise de dados
 
 Os procedimentos analíticos de um ensaio clínico vão depender da natureza do estudo, dos
 parâmetros estimados, e dos efeitos que foram medidos.
 
-
-
-
-## Análise de dados{auto-animate=true}
-
-Os procedimentos analíticos de um ensaio clínico vão depender da natureza do estudo, dos
-parâmetros estimados, e dos efeitos que foram medidos.
+. . .
 
 
 O plano de análise do ensaio clínico deve estar incluído no protocolo. Neste plano se identificam os efeitos principal e secundários que se quer avaliar e a forma de comparação.
@@ -1965,12 +1901,12 @@ O plano de análise do ensaio clínico deve estar incluído no protocolo. Neste 
 
 
 
-## Análise de dados{auto-animate=true}
+## Análise de dados
 
 Como regra geral, a análise de dados deve inicialmente verificar a comparabilidade (decorrente da aleatorização) dos grupos incluídos no estudo em relação às características eventualmente associadas ao desfecho.
 
 
-## Análise de dados{auto-animate=true}
+. . .
 
 Podemos definir a **Eficácia (EF)** de uma intervenção da seguinte forma:
 
@@ -1984,131 +1920,121 @@ cada um dos grupos.
 
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky">Grupo</th>
-    <th class="tg-0pky">Falha</th>
-    <th class="tg-0pky">Sucesso</th>
-    <th class="tg-0pky">Total</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-re1e">Experimental</td>
-    <td class="tg-0pky">5</td>
-    <td class="tg-0pky">45</td>
-    <td class="tg-0pky">50</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Placebo</td>
-    <td class="tg-0pky">37</td>
-    <td class="tg-0pky">13</td>
-    <td class="tg-0pky">50</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Total</td>
-    <td class="tg-0pky">42</td>
-    <td class="tg-0pky">58</td>
-    <td class="tg-0pky">100</td>
-  </tr>
-</tbody>
-</table>
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab">Grupo</td>
+                <td class="cab">Falha</td>
+                <td class="cab">Sucesso</td>
+                <td class="cab">Total</td>
+            </tr>
 
+            <tr class="item">
+                <td class="cab">Experimental</td>
+                <td class="cont"> 5 </td>
+                <td class="cont"> 45 </td>
+                <td class="cont"> 50 </td>
+            </tr>
 
-## Análise de dados
+            <tr class="item">
+                <td class="cab">Placebo</td>
+                <td class="cont"> 37 </td>
+                <td class="cont"> 13 </td>
+                <td class="cont"> 50 </td>
+            </tr>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky">Grupo</th>
-    <th class="tg-0pky">Falha</th>
-    <th class="tg-0pky">Sucesso</th>
-    <th class="tg-0pky">Total</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-re1e">Experimental</td>
-    <td class="tg-0pky">5</td>
-    <td class="tg-0pky">45</td>
-    <td class="tg-0pky">50</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Placebo</td>
-    <td class="tg-0pky">37</td>
-    <td class="tg-0pky">13</td>
-    <td class="tg-0pky">50</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Total</td>
-    <td class="tg-0pky">42</td>
-    <td class="tg-0pky">58</td>
-    <td class="tg-0pky">100</td>
-  </tr>
-</tbody>
-</table>
+            <tr class="item color">
+                <td class="cab">Total</td>
+                <td class="cont"> 42 </td>
+                <td class="cont"> 58 </td>
+                <td class="cont"> 100 </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
 
+. . .
 
 O tratamento experimental não curou 5/50 (10%) dos indivíduos e o tratamento placebo falhou em 37/50 (74%) dos indivíduos. 
 
 
+
+
+
+
+
 ## Análise de dados
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky">Grupo</th>
-    <th class="tg-0pky">Falha</th>
-    <th class="tg-0pky">Sucesso</th>
-    <th class="tg-0pky">Total</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-re1e">Experimental</td>
-    <td class="tg-0pky">5</td>
-    <td class="tg-0pky">45</td>
-    <td class="tg-0pky">50</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Placebo</td>
-    <td class="tg-0pky">37</td>
-    <td class="tg-0pky">13</td>
-    <td class="tg-0pky">50</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Total</td>
-    <td class="tg-0pky">42</td>
-    <td class="tg-0pky">58</td>
-    <td class="tg-0pky">100</td>
-  </tr>
-</tbody>
-</table>
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab">Grupo</td>
+                <td class="cab">Falha</td>
+                <td class="cab">Sucesso</td>
+                <td class="cab">Total</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">Experimental</td>
+                <td class="cont"> 5 </td>
+                <td class="cont"> 45 </td>
+                <td class="cont"> 50 </td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">Placebo</td>
+                <td class="cont"> 37 </td>
+                <td class="cont"> 13 </td>
+                <td class="cont"> 50 </td>
+            </tr>
+
+            <tr class="item color">
+                <td class="cab">Total</td>
+                <td class="cont"> 42 </td>
+                <td class="cont"> 58 </td>
+                <td class="cont"> 100 </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
+
+
+. . .
+
 
 
 
@@ -2116,12 +2042,7 @@ O tratamento experimental não curou 5/50 (10%) dos indivíduos e o tratamento p
 $$EF = \dfrac{\dfrac{37}{50} - \dfrac{5}{50}}{\dfrac{37}{50}} \times 100 \approx 86,5\%$$
 
 
-## Análise de dados
-
-
-$$EF = \dfrac{\dfrac{37}{50} - \dfrac{5}{50}}{\dfrac{37}{50}} \approx 86,5\%$$
-
-
+. . .
 
 
 Logo, a eficácia terapêutica do tratamento experimental foi de 86,5%, aproximadamente.
@@ -2145,92 +2066,63 @@ $$\text{Risco Relativo (RR)} = \dfrac{\dfrac{a}{a+b}}{\dfrac{c}{c+d}}$$
 Voltando ao exemplo...
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky">Grupo</th>
-    <th class="tg-0pky">Falha</th>
-    <th class="tg-0pky">Sucesso</th>
-    <th class="tg-0pky">Total</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-re1e">Experimental</td>
-    <td class="tg-0pky">5</td>
-    <td class="tg-0pky">45</td>
-    <td class="tg-0pky">50</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Placebo</td>
-    <td class="tg-0pky">37</td>
-    <td class="tg-0pky">13</td>
-    <td class="tg-0pky">50</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Total</td>
-    <td class="tg-0pky">42</td>
-    <td class="tg-0pky">58</td>
-    <td class="tg-0pky">100</td>
-  </tr>
-</tbody>
-</table>
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab">Grupo</td>
+                <td class="cab">Falha</td>
+                <td class="cab">Sucesso</td>
+                <td class="cab">Total</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">Experimental</td>
+                <td class="cont"> 5 </td>
+                <td class="cont"> 45 </td>
+                <td class="cont"> 50 </td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">Placebo</td>
+                <td class="cont"> 37 </td>
+                <td class="cont"> 13 </td>
+                <td class="cont"> 50 </td>
+            </tr>
+
+            <tr class="item color">
+                <td class="cab">Total</td>
+                <td class="cont"> 42 </td>
+                <td class="cont"> 58 </td>
+                <td class="cont"> 100 </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
+
 
 
 $$\text{Risco Relativo (RR)} = \dfrac{\dfrac{5}{50}}{\dfrac{37}{50}} = \dfrac{5}{37} \times 100 \approx 13,5\%$$
 
 
 
-## Análise de dados{auto-animate=true}
-
-Voltando ao exemplo...
-
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;border-style:solid;border-width:2px;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#30af9e;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-.tg .tg-re1e{background-color:#30af9e;border-color:inherit;text-align:center;vertical-align:top;font-family:"Montserrat", Monaco, monospace !important;font-size:36px}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky">Grupo</th>
-    <th class="tg-0pky">Falha</th>
-    <th class="tg-0pky">Sucesso</th>
-    <th class="tg-0pky">Total</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-re1e">Experimental</td>
-    <td class="tg-0pky">5</td>
-    <td class="tg-0pky">45</td>
-    <td class="tg-0pky">50</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Placebo</td>
-    <td class="tg-0pky">37</td>
-    <td class="tg-0pky">13</td>
-    <td class="tg-0pky">50</td>
-  </tr>
-  <tr>
-    <td class="tg-re1e">Total</td>
-    <td class="tg-0pky">42</td>
-    <td class="tg-0pky">58</td>
-    <td class="tg-0pky">100</td>
-  </tr>
-</tbody>
-</table>
-
+. . .
 
 De forma que,
 

@@ -737,7 +737,7 @@
     "href": "aulas/Planejamento/index.html#estudos-observacionais-analíticos-4",
     "title": "Planejamento na área da saúde",
     "section": "Estudos observacionais analíticos",
-    "text": "Estudos observacionais analíticos\n\n\n\n\n\nEvento\n\n\nDescrição\n\n\n\n\n\nE+\n\n\nser Exposto\n\n\n\n\nE-\n\n\nnão ser Exposto\n\n\n\n\nD+\n\n\nser Doente (apresentar o desfecho)\n\n\n\n\nD-\n\n\nnão ser Doente (não apresentar o desfecho)\n\n\n\n\nC+\n\n\nser Caso (apresentar o desfecho)\n\n\n\n\nC-\n\n\nser Controle (não apresentar o desfecho)\n\n\n\n\nF+\n\n\napresentar um Fator de risco (ou fator investigado)\n\n\n\n\nF-\n\n\nnão apresentar um Fator de risco (ou fator investigado)"
+    "text": "Estudos observacionais analíticos\n\n\n\n    \n\n\n\n\n\n        \n\n\n\n\n\n\n\nEvento\nDescrição\n\n\nE\n\n+\n\nser Exposto\n\n\nE\n\n-\n\nnão ser Exposto\n\n\nD\n\n+\n\nser Doente (apresentar o desfecho)\n\n\nD\n\n-\n\nnão ser Doente (não apresentar o desfecho)\n\n\nC\n\n+\n\nser Caso (apresentar o desfecho)\n\n\nC\n\n-\n\nser Controle (não apresentar o desfecho)\n\n\nF\n\n+\n\napresentar um Fator de risco (ou fator investigado)\n\n\nF\n\n-\n\nnão apresentar um Fator de risco (ou fator investigado)"
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudos-de-coorte",
@@ -828,7 +828,7 @@
     "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr",
     "title": "Planejamento na área da saúde",
     "section": "Risco Relativo ou Razão de Riscos (RR)",
-    "text": "Risco Relativo ou Razão de Riscos (RR)\nPara análise dos dados, considere a seguinte tabela de contingência:\n\n\n\n\n\n\n\nD+\n\n\nD-\n\n\nTotal\n\n\n\n\n\nE+\n\n\na\n\n\nb\n\n\na+b\n\n\n\n\nE-\n\n\nc\n\n\nd\n\n\nc+d\n\n\n\n\nTotal\n\n\na+c\n\n\nb+d\n\n\na+b+c+d"
+    "text": "Risco Relativo ou Razão de Riscos (RR)\nPara análise dos dados, considere a seguinte tabela de contingência:\n\n\n\n    \n\n\n\n\n\n        \n\n\n\n\n\n\n\n\n\n\nD\n\n+\n\nD\n\n-\n\nTotal\n\n\nE\n\n+\n\na\nb\na + b\n\n\nE\n\n-\n\nc\nd\nc + d\n\n\nTotal\na + c\nb + d\na + b + c + d"
   },
   {
     "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-1",
@@ -1003,7 +1003,7 @@
     "href": "aulas/Planejamento/index.html#estudo-caso-controle-12",
     "title": "Planejamento na área da saúde",
     "section": "Estudo caso-controle",
-    "text": "Estudo caso-controle\n\n\n\n\n\n\n\nC+\n\n\nC-\n\n\nTotal\n\n\n\n\n\nF+\n\n\na\n\n\nb\n\n\na+b\n\n\n\n\nF-\n\n\nc\n\n\nd\n\n\nc+d\n\n\n\n\nTotal\n\n\na+c\n\n\nb+d\n\n\na+b+c+d"
+    "text": "Estudo caso-controle\n\n\n\n    \n\n\n\n\n\n        \n\n\n\n\n\n\n\n\n\n\nC\n\n+\n\nC\n\n-\n\nTotal\n\n\nF\n\n+\n\na\nb\na + b\n\n\nF\n\n-\n\nc\nd\nc + d\n\n\nTotal\na + c\nb + d\na + b + c + d"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
@@ -1150,7 +1150,7 @@
     "href": "aulas/Planejamento/index.html#estudo-transversal-6",
     "title": "Planejamento na área da saúde",
     "section": "Estudo Transversal",
-    "text": "Estudo Transversal\n\n\n\n\n\n\n\nD+\n\n\nD-\n\n\nTotal\n\n\n\n\n\nE+\n\n\na\n\n\nb\n\n\na+b\n\n\n\n\nE-\n\n\nc\n\n\nd\n\n\nc+d\n\n\n\n\nTotal\n\n\na+c\n\n\nb+d\n\n\na+b+c+d"
+    "text": "Estudo Transversal\n\n\n\n    \n\n\n\n\n\n        \n\n\n\n\n\n\n\n\n\n\nD\n\n+\n\nD\n\n-\n\nTotal\n\n\nE\n\n+\n\na\nb\na + b\n\n\nE\n\n-\n\nc\nd\nc + d\n\n\nTotal\na + c\nb + d\na + b + c + d"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-prevalência",
@@ -1171,21 +1171,21 @@
     "href": "aulas/Planejamento/index.html#exemplo-9",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
-    "text": "Exemplo\n\nEstudar a associação entre mulheres que fumam e cólica infantil. Para isso foi observada a seguinte tabela de contingência\n\n\n\n\n\n\n\nCom cólica\n\n\nSem cólica\n\n\nTotal\n\n\n\n\n\nMãe fuma\n\n\n15\n\n\n167\n\n\n182\n\n\n\n\nMãe não fuma\n\n\n111\n\n\n2477\n\n\n2588\n\n\n\n\nTotal\n\n\n126\n\n\n2644\n\n\n2770"
+    "text": "Exemplo\n\nEstudar a associação entre mulheres que fumam e cólica infantil. Para isso foi observada a seguinte tabela de contingência\n\n\n\n\n\n\n\n        \n\n\n\nCom cólica\nSem cólica\nTotal\n\n\nMãe fuma\n15\n167\n182\n\n\nMãe não fuma\n111\n2477\n2588\n\n\nTotal\n126\n2644\n2770\n\n\n\n\n\n\n\\[\\text{Razão de prevalência (RP)} = \\dfrac{\\dfrac{15}{15+167}}{\\dfrac{111}{111+2477}} = \\dfrac{0,08}{0,04} = 2 &gt; 1\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#exemplo-10",
     "href": "aulas/Planejamento/index.html#exemplo-10",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
-    "text": "Exemplo\n\\[\\text{Razão de prevalência (RP)} = \\dfrac{\\dfrac{15}{15+167}}{\\dfrac{111}{111+2477}} = \\dfrac{0,08}{0,04} = 2 &gt; 1\\]"
+    "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam."
   },
   {
     "objectID": "aulas/Planejamento/index.html#exemplo-11",
     "href": "aulas/Planejamento/index.html#exemplo-11",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
-    "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam."
+    "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam.\nO hábito de fumar parece ser fator de risco para cólica infantil naquele dado momento na população."
   },
   {
     "objectID": "aulas/Planejamento/index.html#exemplo-12",
@@ -1199,14 +1199,14 @@
     "href": "aulas/Planejamento/index.html#vantagens-3",
     "title": "Planejamento na área da saúde",
     "section": "Vantagens",
-    "text": "Vantagens\n\nRepresenta a população\nConveniente e não muito caro\nVárias exposições e doenças\nDoenças comuns e de longa duração: gera hipóteses\nEstudos de coortes e Ensaios Clínicos Randomizados: testam hipóteses"
+    "text": "Vantagens\n\nRepresenta a população\n\n\n\nConveniente e não muito caro\n\n\n\n\nVárias exposições e doenças\n\n\n\n\nDoenças comuns e de longa duração: gera hipóteses\n\n\n\n\nEstudos de coortes e Ensaios Clínicos Randomizados: testam hipóteses"
   },
   {
     "objectID": "aulas/Planejamento/index.html#desvantagens-3",
     "href": "aulas/Planejamento/index.html#desvantagens-3",
     "title": "Planejamento na área da saúde",
     "section": "Desvantagens",
-    "text": "Desvantagens\n\nVulnerável a viéses\nInclui somente casos que sobrevivem (disponíveis para o estudo)\nDoenças de curta duração podem não ser representativas"
+    "text": "Desvantagens\n\nVulnerável a viéses\n\n\n\nInclui somente casos que sobrevivem (disponíveis para o estudo)\n\n\n\n\nDoenças de curta duração podem não ser representativas"
   },
   {
     "objectID": "aulas/Planejamento/index.html#prática-3",
@@ -1234,7 +1234,7 @@
     "href": "aulas/Planejamento/index.html#características-principais-2",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nEm estudos ecológicos, a unidade de análise é um grupo de indivíduos agregados, em geral, em função de fatores geográficos ou temporais.\nO interesse, nesse caso, está na comparação de uma medida agregada (proporção, taxa, média, etc.) da exposição com uma medida agregada do desfecho."
+    "text": "Características principais\nO interesse, nesse caso, está na comparação de uma medida agregada (proporção, taxa, média, mediana, etc.) da exposição com uma medida agregada do desfecho."
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-3",
@@ -1248,273 +1248,273 @@
     "href": "aulas/Planejamento/index.html#características-principais-4",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\n\nCompara-se grupos com maior ou menor nível de exposição."
+    "text": "Características principais"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-5",
     "href": "aulas/Planejamento/index.html#características-principais-5",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\n\nCompara-se grupos com maior ou menor nível de exposição."
+    "text": "Características principais"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-6",
     "href": "aulas/Planejamento/index.html#características-principais-6",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nDados ecológicos ou agregados:\n\n\nInformação sobre exposição e desfecho em grupos populacionais\n\nEscolas, cidades, países, etc."
+    "text": "Características principais\nDados ecológicos ou agregados:\n\n\nInformação sobre exposição e desfecho em grupos populacionais\n\nEscolas, cidades, países, etc.\n\n\n\n\n\nQuase sempre obtidos rotineiramente através de inquéritos ou sistemas de vigilância.\n\n\n\n\n\nUnidades de análise:\n\nDiferentes grupos (cidades, estados, etc.)\nMesmo grupo em diferentes tempos (cidade de Ouro Preto em 2021, 2022, 2023, 2024)"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-7",
     "href": "aulas/Planejamento/index.html#características-principais-7",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nDados ecológicos ou agregados:\n\n\nInformação sobre exposição e desfecho em grupos populacionais\n\nEscolas, cidades, países, etc.\n\n\nQuase sempre obtidos rotineiramente através de inquéritos ou sistemas de vigilância."
+    "text": "Características principais\nBarker and Osmond (1986)"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-8",
     "href": "aulas/Planejamento/index.html#características-principais-8",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nDados ecológicos ou agregados:\n\nQuase sempre obtidos através de inquéritos ou sistemas de vigilância.\n\nUnidades de análise:\n\nDiferentes grupos (cidades, estados, etc.)\nMesmo grupo em diferentes tempos (cidade de Ouro Preto em 2021, 2022, 2023, 2024)"
+    "text": "Características principais\n\n\nO que os resultados sugerem?\n\nLocais com maior mortalidade infantil tendem a apresentar maiores taxas de mortalidade por doenças cardiovasculares no futuro.\n\n\n\n\n\n\nÉ sabido que taxa de mortalidade infantil é indicador da situação de saúde no início da vida.\n\nAlta taxa de mortalidade: mais crianças desnutridas"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-9",
     "href": "aulas/Planejamento/index.html#características-principais-9",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nBarker and Osmond (1986)"
+    "text": "Características principais\n\nHipótese"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-10",
     "href": "aulas/Planejamento/index.html#características-principais-10",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\n\nO que os resultados sugerem?"
+    "text": "Características principais\n\nHipótese\n\nDesnutrição na gestação e infância aumenta mortalidade por doenças cardiovasculares na fase adulta?"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-11",
     "href": "aulas/Planejamento/index.html#características-principais-11",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\n\n\nO que os resultados sugerem?\n\nLocais com maior mortalidade infantil tendem a apresentar maiores taxas de mortalidade por doenças cardiovasculares no futuro."
+    "text": "Características principais\nPor que fazer estudos ecológicos?\n\n\nDados disponíveis: rapidez e baixo custo\n\n\n\n\nGeram hipóteses a serem comprovadas em outros delineamentos\n\n\n\n\nEstudar os efeitos de exposições com nenhuma ou pouca variabilidade intra-grupo, ou difíceis de mensurar a nível individual.\n\n\n\n\nQuando o objetivo é fazer inferências ecológicas."
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-12",
     "href": "aulas/Planejamento/index.html#características-principais-12",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\n\n\nO que os resultados sugerem?\n\nLocais com maior mortalidade infantil tendem a apresentar maiores taxas de mortalidade por doenças cardiovasculares no futuro.\n\n\n\nÉ sabido que taxa de mortalidade infantil é indicador da situação de saúde no início da vida.\n\nAlta taxa de mortalidade: mais crianças desnutridas"
+    "text": "Características principais\nNíveis de medida\n\n\n\nMedidas agregadas: médias ou proporções obtidas a partir de dados individuais\n\n\nExemplo: Média de idade, % de hipertensão\n\n\n\n\n\n\n\nMedidas coletivas: características que não variam entre indivíduos do mesmo grupo\n\n\nExemplo: Imposto sobre tabaco, características do sistema de saúde"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-13",
     "href": "aulas/Planejamento/index.html#características-principais-13",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\n\nHipótese"
+    "text": "Características principais\n\n\nEstudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.\n\n\nnível de poluição do ar: é mais fácil medir o nível médio de poluição do ar de determinada cidade do que o quanto cada indivíduo respira ao longo do dia.\n\nvariáveis com pouca variabilidade intra-grupos, mas com muita variabilidade entre grupos: exposição à radiação em Chernobyl."
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-14",
     "href": "aulas/Planejamento/index.html#características-principais-14",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\n\nHipótese\n\nDesnutrição na gestação e infância aumenta mortalidadepor doenças cardiovasculares na fase adulta?"
+    "text": "Características principais\n\n\nOs ensaios clínicos são indicados para avaliar a segurança e eficácia de:\n\num novo produto;\numa nova formulação de um mesmo produto ou associação de produtos já em uso e,\numa nova indicação clínica de um produto já aprovado\n\n\nOs ensaios podem avaliar o efeito terapêutico (drogas) ou profilático (vacinas)"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-15",
     "href": "aulas/Planejamento/index.html#características-principais-15",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nPor que fazer estudos ecológicos?\n\nDados disponíveis: rapidez e baixo custo\nGeram hipóteses a serem comprovadas em outros delineamentos\nEstudar os efeitos de exposições com nenhuma ou pouca variabilidade intra-grupo, ou difíceis de mensurar a nível individual.\nQuando o objetivo é fazer inferências ecológicas."
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-16",
     "href": "aulas/Planejamento/index.html#características-principais-16",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nNíveis de medida\n\nMedidas agregadas\nMedidas coletivas"
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-17",
     "href": "aulas/Planejamento/index.html#características-principais-17",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nNíveis de medida\n\n\nMedidas agregadas: médias ou proporções obtidas a partir de dados individuais\n\n\nExemplo: Média de idade, % de hipertensão\n\n\nMedidas coletivas"
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção\n\n\nGrupo intervenção: indivíduos que recebem o tratamento/intervenção\n\nPor exemplo, medicamento ativo"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-18",
     "href": "aulas/Planejamento/index.html#características-principais-18",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nNíveis de medida\n\n\nMedidas agregadas: médias ou proporções obtidas a partir de dados individuais\n\n\nExemplo: Média de idade, % de hipertensão\n\n\n\nMedidas coletivas: características que não variam entre indivíduos do mesmo grupo\n\n\nExemplo: Imposto sobre tabaco, características do sistema de saúde"
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção\n\n\nGrupo intervenção: indivíduos que recebem o tratamento/intervenção\n\nPor exemplo, medicamento ativo\n\n\n\nGrupo controle: indivíduos que não recebem o tratamento/intervenção\n\nPor exemplo, placebo"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-19",
     "href": "aulas/Planejamento/index.html#características-principais-19",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nNíveis de medida\n\n\nEstudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.\n\n\nnível de poluição do ar: é mais fácil medir o nível médio de poluição do ar de determinada cidade do que o quanto cada indivíduo respira ao longo do dia."
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-20",
     "href": "aulas/Planejamento/index.html#características-principais-20",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nNíveis de medida\n\n\nEstudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.\n\n\nvariáveis com pouca variabilidade intra-grupos, mas com muita variabilidade entre grupos: exposição à radiação em Chernobyl."
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nÉ possível classificar os estudos ecológicos da seguinte forma:\n\nComparação entre múltiplos grupos em um único momento\nEstudos de série temporal\nDelineamentos mistos"
+    "text": "Tipos de estudos ecológicos\nÉ possível classificar os estudos ecológicos da seguinte forma:\n\n\nComparação entre múltiplos grupos em um único momento\n\n\n\n\nEstudos de série temporal\n\n\n\n\nDelineamentos mistos"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-1",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-1",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nComparação entre múltiplos grupos em um único momento\nComparar a ocorrência do desfecho entre diferentes grupos ao mesmo tempo.\n\nEstudos de série temporal\nDelineamentos mistos"
+    "text": "Tipos de estudos ecológicos\nComparação entre múltiplos grupos em um único momento\n\nComparar a ocorrência do desfecho entre diferentes grupos ao mesmo tempo.\n\n\nEstudos de série temporal\n\nAvaliar a evolução da ocorrência do desfecho em um mesmo local ao longo do tempo.\n\n\n\nDelineamentos mistos\n\nCombinam as duas estratégias acima."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-2",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-2",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nEstudos de série temporal\nAvaliar a evolução da ocorrência do desfecho em um mesmo local ao longo do tempo.\n\nDelineamentos mistos"
+    "text": "Tipos de estudos ecológicos\n\n\n\n\n\n\n\n\nMúltiplos grupos\n\n\n\n\n\nSeries temporais"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-3",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-3",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nDelineamentos mistos\n\nCombinam as duas estratégias acima."
+    "text": "Tipos de estudos ecológicos\nExemplo: Efeito de políticas de redução do tabagismo no Brasil\n\nAlgumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-4",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-4",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\n\n\n\n\n\n\n\nMúltiplos grupos\n\n\n\n\n\nSeries temporais"
+    "text": "Tipos de estudos ecológicos\nExemplo: Efeito de políticas de redução do tabagismo no Brasil\n\nAlgumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)\n\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-5",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-5",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nExemplo: Efeito de políticas de redução do tabagismo no Brasil\n\nAlgumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)"
+    "text": "Tipos de estudos ecológicos\nExemplo: Efeito de políticas de redução do tabagismo no Brasil\n\nAlgumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)\n\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas\n\nSérie temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-6",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-6",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nAlgumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas"
+    "text": "Tipos de estudos ecológicos\nExemplo: Efeito de políticas de redução do tabagismo no Brasil\n\nAlgumas cidades implementaram essas políticas (grupo exposto) em 2020, enquanto outras não implementaram (grupo não-exposto)\n\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas\n\nSérie temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.\n\nMisto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-7",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-7",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas\nSérie temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto."
+    "text": "Tipos de estudos ecológicos\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-8",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-8",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas\nSérie temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto.\nMisto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos."
+    "text": "Tipos de estudos ecológicos\nLimitações do delineamento de múltiplos grupos\n\n\nCidades com políticas ⮕ maiores taxas de tabagismo.\n\nImplementar políticas contra tabagismo aumenta as taxas de tabagismo?"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-9",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-9",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nMúltiplos grupos: comparação das taxas de tabagismo entre cidades do grupo exposto e cidades do grupo não-exposto após a implementação das políticas"
+    "text": "Tipos de estudos ecológicos\n\nPor que avaliar em apenas um ponto no tempo aponta para este resultado?"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-10",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-10",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nLimitações do delineamento de múltiplos grupos\n\n\nCidades com políticas → maiores taxas de tabagismo.\n\nImplementar políticas contra tabagismo aumenta as taxas de tabagismo?"
+    "text": "Tipos de estudos ecológicos\n\nPor que avaliar em apenas um ponto no tempo aponta para este resultado?"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-11",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-11",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nPor que avaliar em apenas um ponto no tempo aponta para este resultado?"
+    "text": "Tipos de estudos ecológicos\nSérie temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-12",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-12",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nPor que avaliar em apenas um ponto no tempo aponta para este resultado?"
+    "text": "Tipos de estudos ecológicos\nLimitações do delineamento de série temporal\n\n\nCidades com políticas ⮕ grande redução nas taxas de tabagismo.\n\nImplementar essas políticas parece ser muito efetivo!\n\n\n\n\n\n\nSerá que não teria acontecido uma redução das taxas de tabagismo mesmo que nenhuma política tivesse sido implementada?\n\nSe sim, podemos estar superestimando (ou subestimando) o efeito da política"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-13",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-13",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nSérie temporal: comparação das taxas de tabagismo ao longo do tempo em cidades do grupo exposto."
+    "text": "Tipos de estudos ecológicos\n\nPara termos uma ideia disso, é necessário avaliar as mudanças ao longo do tempo em cidades do grupo controle ⮕ delineamento misto"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-14",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-14",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nLimitações do delineamento de série temporal\n\n\nCidades com políticas → grande redução nas taxas de tabagismo.\n\nImplementar essas políticas parece ser muito efetivo!"
+    "text": "Tipos de estudos ecológicos\nDelineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.\n\n\nPermite comparar a mudança pré-implementação versus pós-implementação no grupo exposto com a mudança no mesmo período no grupo não-exposto.\n\nCom isso, é possível remover a parte da mudança observada no grupo exposto que não se deve à política em questão."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-15",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-15",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\n\nSerá que não teria acontecido uma redução das taxas de tabagismo mesmo que nenhuma política tivesse sido implementada?\n\nSe sim, podemos estar superestimando (ou subestimando) o efeito da política"
+    "text": "Tipos de estudos ecológicos\n\n\nLimitação: Os grupos expostos e não-expostos devem ser comparáveis\n\n\n\n\nBase do método diferença-em-diferenças, muito usado em Ciências Sociais e em Economia para avaliar mudanças coletivas que envolvem toda a população.\n\n\nExemplo: Mudanças de legislação, implementação de uma nova política, etc."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-16",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-16",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nPara termos uma ideia disso, é necessário avaliar as mudanças ao longo do tempo em cidades do grupo controle → delineamento misto"
+    "text": "Tipos de estudos ecológicos\nFalácia Ecológica\n\nPode não ser verdadeira a redução/aumento ao âmbito individual de padrões observados no nível agregado\n\n\n\nO viés pode ocorrer porque uma associação observada entre variáveis relativas a agregados populacionais, não expressa necessariamente a associação existente no nível do indivíduo"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-17",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-17",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nDelineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos."
+    "text": "Tipos de estudos ecológicos\nVantagens:\n\nPermitir o estudo de grandes populações(comparações internacionais das taxas de incidência de doenças)\n\n\n\nInvestigação de cluster de doenças\n\n\n\n\nBaixo custo e rápido\n\n\n\n\nDisponibilidade de grandes bases de dados."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-18",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-18",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nDelineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.\nPermite comparar a mudança pré-implementação versus pós-implementação no grupo exposto com a mudança no mesmo período no grupo não-exposto."
+    "text": "Tipos de estudos ecológicos\nAlguns problemas metodológicos:\n\nLimitação na inferência causal (Falácia Ecológica)\n\n\n\n\nQualidade das informações\n\n\n\n\nAuto-correlação espacial e temporal\n\n\n\n\nProblemas no controle de confundimento."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-19",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-19",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\nDelineamento misto: comparação das taxas de tabagismo ao longo do tempo em cidades de ambos os grupos.\n\nPermite comparar a mudança pré-implementação versus pós-implementação no grupo exposto com a mudança no mesmo período no grupo não-exposto.\n\nCom isso, é possível remover a parte da mudança observada no grupo exposto que não se deve à política em questão."
+    "text": "Tipos de estudos ecológicos\nVantagens:\n\nPermitir o estudo de grandes populações(comparações internacionais das taxas de incidência de doenças)\nInvestigação de cluster de doenças\nBaixo custo e rápido\nDisponibilidade de grandes bases de dados."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-20",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-20",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\n\n\nLimitação: Os grupos expostos e não-expostos devem ser comparáveis\n\n\n\n\nBase do método diferença-em-diferenças, muito usado em Ciências Sociais e em Economia para avaliar mudanças coletivas que envolvem toda a população.\n\n\nExemplo: Mudanças de legislação, implementação de uma nova política, etc."
+    "text": "Tipos de estudos ecológicos\nAlguns problemas metodológicos\n\nLimitação na inferência causal (Falácia Ecológica)\nQualidade das informações\nAuto-correlação espacial e temporal\nProblemas no controle de confundimento."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-21",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-21",
     "title": "Planejamento na área da saúde",
     "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nFalácia Ecológica\n\nPode não ser verdadeira a redução/aumento ao âmbito individual de padrões observados no nível agregado\n\n\n\nO viés pode ocorrer porque uma associação observada entre variáveis relativas a agregados populacionais, não expressa necessariamente a associação existente no nível do indivíduo"
+    "text": "Tipos de estudos ecológicos\nAlguns problemas metodológicos\n\nLimitação na inferência causal (Falácia Ecológica)\nQualidade das informações\nAuto-correlação espacial e temporal\nProblemas no controle de confundimento."
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-22",
@@ -1542,49 +1542,49 @@
     "href": "aulas/Planejamento/index.html#características-principais-21",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\n\n\nOs ensaios clínicos são indicados para avaliar a segurança e eficácia de:\n\num novo produto;\numa nova formulação de um mesmo produto ou associação de produtos já em uso e,\numa nova indicação clínica de um produto já aprovado\n\n\nOs ensaios podem avaliar o efeito terapêutico (drogas) ou profilático (vacinas)"
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-22",
     "href": "aulas/Planejamento/index.html#características-principais-22",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção"
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-23",
     "href": "aulas/Planejamento/index.html#características-principais-23",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção"
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-24",
     "href": "aulas/Planejamento/index.html#características-principais-24",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção\n\n\nGrupo intervenção: indivíduos que recebem o tratamento/intervenção\n\nPor exemplo, medicamento ativo"
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-25",
     "href": "aulas/Planejamento/index.html#características-principais-25",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção\n\n\nGrupo intervenção: indivíduos que recebem o tratamento/intervenção\n\nPor exemplo, medicamento ativo\n\n\n\nGrupo controle: indivíduos que não recebem o tratamento/intervenção\n\nPor exemplo, placebo"
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-26",
     "href": "aulas/Planejamento/index.html#características-principais-26",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total"
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-27",
     "href": "aulas/Planejamento/index.html#características-principais-27",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra"
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
   },
   {
     "objectID": "aulas/Planejamento/index.html#características-principais-28",
@@ -1619,56 +1619,56 @@
     "href": "aulas/Planejamento/index.html#mascaramento",
     "title": "Planejamento na área da saúde",
     "section": "Mascaramento",
-    "text": "Mascaramento\n\n\nMascaramento (cegamento): desconhecimento do grupo ao qual o participante pertence"
+    "text": "Mascaramento\n\n\nMascaramento (cegamento): desconhecimento do grupo ao qual o participante pertence\n\n\n\n\n    \n\n\n\n\n\n        \n\n\n\nSem Mascaramento\nUni-cego\nDuplo-cego\nTriplo-cego\n\n\nPacientes\nSim\nNão\nNão\nNão\n\n\nInvestigador\nSim\nSim\nNão\nNão\n\n\nAnalista de dados\nSim\nSim\nSim\nNão\n\n\n\n\n\n\n\n\n\nDiferentes formas de mascaramento evitam diferentes viéses\n\nreduzem as diferenças sistemáticas entre os grupos"
   },
   {
     "objectID": "aulas/Planejamento/index.html#mascaramento-1",
     "href": "aulas/Planejamento/index.html#mascaramento-1",
     "title": "Planejamento na área da saúde",
     "section": "Mascaramento",
-    "text": "Mascaramento\n\n\nMascaramento (cegamento): desconhecimento do grupo ao qual o participante pertence\n\n\n\n\n\n\n\nSem mascaramento\n\n\nUni-cego\n\n\nDuplo-cego\n\n\nTriplo-cego\n\n\n\n\n\nPacientes\n\n\nSIM\n\n\nNÃO\n\n\nNÃO\n\n\nNÃO\n\n\n\n\nInvestigador\n\n\nSIM\n\n\nSIM\n\n\nNÃO\n\n\nNÃO\n\n\n\n\nAnalista de dados\n\n\nSIM\n\n\nSIM\n\n\nSIM\n\n\nNÃO"
+    "text": "Mascaramento\n\nPor que fazer mascaramento dos pacientes?\nPor que fazer mascaramento dos investigadores?\nPor que fazer mascaramento dos analistas?"
   },
   {
     "objectID": "aulas/Planejamento/index.html#mascaramento-2",
     "href": "aulas/Planejamento/index.html#mascaramento-2",
     "title": "Planejamento na área da saúde",
     "section": "Mascaramento",
-    "text": "Mascaramento\n\n\nMascaramento (cegamento): desconhecimento do grupo ao qual o participante pertence\n\n\n\n\n\n\n\nSem mascaramento\n\n\nUni-cego\n\n\nDuplo-cego\n\n\nTriplo-cego\n\n\n\n\n\nPacientes\n\n\nSIM\n\n\nNÃO\n\n\nNÃO\n\n\nNÃO\n\n\n\n\nInvestigador\n\n\nSIM\n\n\nSIM\n\n\nNÃO\n\n\nNÃO\n\n\n\n\nAnalista de dados\n\n\nSIM\n\n\nSIM\n\n\nSIM\n\n\nNÃO\n\n\n\n\n\n\nDiferentes formas de mascaramento evitam diferentes viéses\n\nreduzem as diferenças sistemáticas entre os grupos"
+    "text": "Mascaramento\n\n\nPor que fazer mascaramento dos pacientes?\n\nAlguns pacientes podem não aderir ao tratamento proposto ou buscarem por outros tratamentos os quais acreditam ser mais benéficos caso saibam que estão no grupo placebo.\n\n\nPor que fazer mascaramento dos investigadores?\nPor que fazer mascaramento dos analistas?"
   },
   {
     "objectID": "aulas/Planejamento/index.html#mascaramento-3",
     "href": "aulas/Planejamento/index.html#mascaramento-3",
     "title": "Planejamento na área da saúde",
     "section": "Mascaramento",
-    "text": "Mascaramento\n\nPor que fazer mascaramento dos pacientes?\nPor que fazer mascaramento dos investigadores?\nPor que fazer mascaramento dos analistas?"
+    "text": "Mascaramento\n\nPor que fazer mascaramento dos pacientes?\n\nPor que fazer mascaramento dos investigadores?\n\nJá pesquisadores e equipe podem, de modo consciente ou inconsciente, modificar sua conduta no tratamento e no suporte dado aos participantes a depender do grupo de alocação.\n\n\nPor que fazer mascaramento dos analistas?"
   },
   {
     "objectID": "aulas/Planejamento/index.html#mascaramento-4",
     "href": "aulas/Planejamento/index.html#mascaramento-4",
     "title": "Planejamento na área da saúde",
     "section": "Mascaramento",
-    "text": "Mascaramento\n\n\nPor que fazer mascaramento dos pacientes?\n\nAlguns pacientes podem não aderir ao tratamento proposto ou buscarem por outros tratamentos os quais acreditam ser mais benéficos caso saibam que estão no grupo placebo.\n\n\nPor que fazer mascaramento dos investigadores?\nPor que fazer mascaramento dos analistas?"
+    "text": "Mascaramento\n\nPor que fazer mascaramento dos pacientes?\nPor que fazer mascaramento dos investigadores?\n\nPor que fazer mascaramento dos analistas?\n\nSaber a qual grupo o indivíduo da base de dados pertence pode influenciar os analistas a “torturar os dados” de forma a obter os resultados esperados/desejados."
   },
   {
     "objectID": "aulas/Planejamento/index.html#mascaramento-5",
     "href": "aulas/Planejamento/index.html#mascaramento-5",
     "title": "Planejamento na área da saúde",
     "section": "Mascaramento",
-    "text": "Mascaramento\n\nPor que fazer mascaramento dos pacientes?\n\nPor que fazer mascaramento dos investigadores?\n\nJá pesquisadores e equipe podem, de modo consciente ou inconsciente, modificar sua conduta no tratamento e no suporte dado aos participantes a depender do grupo de alocação.\n\n\nPor que fazer mascaramento dos analistas?"
+    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\n\n\nPor mais que o mascaramento seja uma característica importante de um ensaio clínico, sua implementação nem sempre é viável devido, por exemplo, à natureza de algumas intervenções\n\nPor exemplo, procedimentos cirúrgicos, tratamentos fisioterapêuticos e psicológicos.\n\n\n\n\n\n\nSempre que for factível manter o mascaramento, ele deve ser utilizado.\n\nQuanto mais mascaramento, mais robustas serão as conclusões do estudo.\nMascaramento dos analistas de dados é sempre possível!"
   },
   {
     "objectID": "aulas/Planejamento/index.html#mascaramento-6",
     "href": "aulas/Planejamento/index.html#mascaramento-6",
     "title": "Planejamento na área da saúde",
     "section": "Mascaramento",
-    "text": "Mascaramento\n\nPor que fazer mascaramento dos pacientes?\nPor que fazer mascaramento dos investigadores?\n\nPor que fazer mascaramento dos analistas?\n\nSaber a qual grupo o indivíduo da base de dados pertence pode influenciar os analistas a “torturar os dados” de forma a obter os resultados esperados/desejados."
+    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\n\nPor mais que o mascaramento seja uma característica importante de um ensaio clínico, sua implementação nem sempre é viável devido, por exemplo, à natureza de algumas intervenções\n\nPor exemplo, procedimentos cirúrgicos, tratamentos fisioterapêuticos e psicológicos."
   },
   {
     "objectID": "aulas/Planejamento/index.html#mascaramento-7",
     "href": "aulas/Planejamento/index.html#mascaramento-7",
     "title": "Planejamento na área da saúde",
     "section": "Mascaramento",
-    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?"
+    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\nSempre que for factível manter o mascaramento, ele deve ser utilizado.\n\nQuanto mais mascaramento, mais robustas serão as conclusões do estudo.\nMascaramento dos analistas de dados é sempre possível!"
   },
   {
     "objectID": "aulas/Planejamento/index.html#mascaramento-8",
@@ -1689,70 +1689,70 @@
     "href": "aulas/Planejamento/index.html#análise-de-dados-1",
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
-    "text": "Análise de dados\nOs procedimentos analíticos de um ensaio clínico vão depender da natureza do estudo, dos parâmetros estimados, e dos efeitos que foram medidos."
+    "text": "Análise de dados\nOs procedimentos analíticos de um ensaio clínico vão depender da natureza do estudo, dos parâmetros estimados, e dos efeitos que foram medidos.\n\nO plano de análise do ensaio clínico deve estar incluído no protocolo. Neste plano se identificam os efeitos principal e secundários que se quer avaliar e a forma de comparação."
   },
   {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-2",
     "href": "aulas/Planejamento/index.html#análise-de-dados-2",
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
-    "text": "Análise de dados\nOs procedimentos analíticos de um ensaio clínico vão depender da natureza do estudo, dos parâmetros estimados, e dos efeitos que foram medidos.\nO plano de análise do ensaio clínico deve estar incluído no protocolo. Neste plano se identificam os efeitos principal e secundários que se quer avaliar e a forma de comparação."
+    "text": "Análise de dados\nComo regra geral, a análise de dados deve inicialmente verificar a comparabilidade (decorrente da aleatorização) dos grupos incluídos no estudo em relação às características eventualmente associadas ao desfecho.\n\nPodemos definir a Eficácia (EF) de uma intervenção da seguinte forma:\n\\[\\dfrac{\\% \\text{de falha no grupo controle} - \\% \\text{de falha no grupo intervenção}}{\\% \\text{de falha no grupo controle}}\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-3",
     "href": "aulas/Planejamento/index.html#análise-de-dados-3",
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
-    "text": "Análise de dados\nComo regra geral, a análise de dados deve inicialmente verificar a comparabilidade (decorrente da aleatorização) dos grupos incluídos no estudo em relação às características eventualmente associadas ao desfecho."
+    "text": "Análise de dados\nExemplo: A tabela abaixo mostra o resultado de um ensaio clínico que recrutou 50 pacientes em cada um dos grupos.\n\n\n    \n\n\n\n\n\n        \n\n\nGrupo\nFalha\nSucesso\nTotal\n\n\nExperimental\n5\n45\n50\n\n\nPlacebo\n37\n13\n50\n\n\nTotal\n42\n58\n100\n\n\n\n\n\n\nO tratamento experimental não curou 5/50 (10%) dos indivíduos e o tratamento placebo falhou em 37/50 (74%) dos indivíduos."
   },
   {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-4",
     "href": "aulas/Planejamento/index.html#análise-de-dados-4",
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
-    "text": "Análise de dados\nPodemos definir a Eficácia (EF) de uma intervenção da seguinte forma:\n\\[\\dfrac{\\% \\text{de falha no grupo controle} - \\% \\text{de falha no grupo intervenção}}{\\% \\text{de falha no grupo controle}}\\]"
+    "text": "Análise de dados\n\n\n    \n\n\n\n\n\n        \n\n\nGrupo\nFalha\nSucesso\nTotal\n\n\nExperimental\n5\n45\n50\n\n\nPlacebo\n37\n13\n50\n\n\nTotal\n42\n58\n100\n\n\n\n\n\n\n\\[EF = \\dfrac{\\dfrac{37}{50} - \\dfrac{5}{50}}{\\dfrac{37}{50}} \\times 100 \\approx 86,5\\%\\]\n\n\nLogo, a eficácia terapêutica do tratamento experimental foi de 86,5%, aproximadamente."
   },
   {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-5",
     "href": "aulas/Planejamento/index.html#análise-de-dados-5",
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
-    "text": "Análise de dados\nExemplo: A tabela abaixo mostra o resultado de um ensaio clínico que recrutou 50 pacientes em cada um dos grupos.\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100"
+    "text": "Análise de dados\nEste mesmo resultado pode ser obtido utilizando-se a fórmula:\n\\[EF = 1 - RR\\]\nLembre-se:\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{a}{a+b}}{\\dfrac{c}{c+d}}\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-6",
     "href": "aulas/Planejamento/index.html#análise-de-dados-6",
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
-    "text": "Análise de dados\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\nO tratamento experimental não curou 5/50 (10%) dos indivíduos e o tratamento placebo falhou em 37/50 (74%) dos indivíduos."
+    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n    \n\n\n\n\n\n        \n\n\nGrupo\nFalha\nSucesso\nTotal\n\n\nExperimental\n5\n45\n50\n\n\nPlacebo\n37\n13\n50\n\n\nTotal\n42\n58\n100\n\n\n\n\n\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{5}{50}}{\\dfrac{37}{50}} = \\dfrac{5}{37} \\times 100 \\approx 13,5\\%\\]\n\nDe forma que,\n\\[EF = 1 - RR = (1 - 0,135) \\times 100 = 86,5\\%\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-7",
     "href": "aulas/Planejamento/index.html#análise-de-dados-7",
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
-    "text": "Análise de dados\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\n\\[EF = \\dfrac{\\dfrac{37}{50} - \\dfrac{5}{50}}{\\dfrac{37}{50}} \\times 100 \\approx 86,5\\%\\]"
+    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\nDe forma que,\n\\[EF = 1 - RR = (1 - 0,135) \\times 100 = 86,5\\%\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-8",
     "href": "aulas/Planejamento/index.html#análise-de-dados-8",
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
-    "text": "Análise de dados\n\\[EF = \\dfrac{\\dfrac{37}{50} - \\dfrac{5}{50}}{\\dfrac{37}{50}} \\approx 86,5\\%\\]\nLogo, a eficácia terapêutica do tratamento experimental foi de 86,5%, aproximadamente."
+    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{5}{50}}{\\dfrac{37}{50}} = \\dfrac{5}{37} \\times 100 \\approx 13,5\\%\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-9",
     "href": "aulas/Planejamento/index.html#análise-de-dados-9",
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
-    "text": "Análise de dados\nEste mesmo resultado pode ser obtido utilizando-se a fórmula:\n\\[EF = 1 - RR\\]\nLembre-se:\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{a}{a+b}}{\\dfrac{c}{c+d}}\\]"
+    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\nDe forma que,\n\\[EF = 1 - RR = (1 - 0,135) \\times 100 = 86,5\\%\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-10",
     "href": "aulas/Planejamento/index.html#análise-de-dados-10",
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
-    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{5}{50}}{\\dfrac{37}{50}} = \\dfrac{5}{37} \\times 100 \\approx 13,5\\%\\]"
+    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\nDe forma que,\n\\[EF = 1 - RR = (1 - 0,135) \\times 100 = 86,5\\%\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-11",
@@ -2024,6 +2024,13 @@
     "text": "Sejam bem-vindos à disciplina EST104 - Estatística Aplicada à Saúde.\nLeiam com atenção o plano de ensino da disciplina. Nele estão as regras do jogo!"
   },
   {
+    "objectID": "programacao/semana-3.html#leitura-adicional",
+    "href": "programacao/semana-3.html#leitura-adicional",
+    "title": "Semana 03",
+    "section": "Leitura adicional",
+    "text": "Leitura adicional\n Análise estatística: Série Entendendo a Pesquisa Clínica 1"
+  },
+  {
     "objectID": "programacao/semana-3.html#slides",
     "href": "programacao/semana-3.html#slides",
     "title": "Semana 03",
@@ -2050,12 +2057,5 @@
     "title": "Semana 05",
     "section": "",
     "text": "De acordo com a PORTARIA CONJUNTA No 01/2024/PROGRAD/PROPPI/ PROEX,DE 24 DE OUTUBRO DE 2024 não haverá aulas nesta semana."
-  },
-  {
-    "objectID": "programacao/semana-3.html#leitura-adicional",
-    "href": "programacao/semana-3.html#leitura-adicional",
-    "title": "Semana 03",
-    "section": "Leitura adicional",
-    "text": "Leitura adicional\n Análise estatística: Série Entendendo a Pesquisa Clínica 1"
   }
 ]
