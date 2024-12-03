@@ -673,13 +673,25 @@ Não se observou relação entre maiores escores de alta eficácia e maior tempo
 library(countdown)
 ```
 
-Discussão do artigo [Impacto da hospitalização na funcionalidade de idosos: estudo de coorte](/artigos/impacto_funcionalidade_idosos_estudo_coorte.pdf).
+Leia o artigo [Impacto da hospitalização na funcionalidade de idosos: estudo de coorte](/artigos/impacto_funcionalidade_idosos_estudo_coorte.pdf) e responda às seguintes perguntas:
+
+1. O estudo é prospectivo ou retrospectivo?
+
+2. A coorte é representativa de um grupo ou população definida?
+
+3. Todos os fatores causadores de confusão significativos foram identificados?
+
+4. Todas as exposições e tratamentos, fatores de confusão em potencial e desfechos importantes foram medidos de forma acurada e objetiva em todos os membros da coorte?
+
+5. Houve perdas significativas no seguimento?
+
+6. Os participantes foram seguidos por tempo suficiente?
 
 
 
-```{r}
-countdown(minutes = 15)
-```
+<!-- ```{r} -->
+<!-- countdown(minutes = 15) -->
+<!-- ``` -->
 
 
 
