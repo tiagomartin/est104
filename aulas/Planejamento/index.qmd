@@ -249,6 +249,11 @@ countdown(minutes = 15)
 
 Estudos analíticos são aqueles delineados para examinar a existência de associação entre uma exposição e uma doença ou condição relacionada à saúde.
 
+. . .
+
+Assim, se o **objetivo** for testar **hipóteses** a respeito da associação entre determinantes e um agravo à saúde, os estudos analíticos devem ser empregados.
+
+
 ## Estudos observacionais analíticos
 
 Ao se iniciar um estudo analítico, é fundamental identificar a resposta de interesse.
@@ -261,9 +266,9 @@ Ao se iniciar um estudo analítico, é fundamental identificar a resposta de int
 
 Para investigar a associação entre um fator de risco (ou a exposição) e a doença (ou a ocorrência de um desfecho), vamos definir alguns eventos de interesse.
 
-## Estudos observacionais analíticos
+## Estudos observacionais analíticos{auto-animate="true"}
 
-<br>
+Para investigar a associação entre um fator de risco (ou a exposição) e a doença (ou a ocorrência de um desfecho), vamos definir alguns eventos de interesse.
 
 ```{=html}
 <html lang="pt">
@@ -339,7 +344,15 @@ Estudos observacionais analíticos
 
 ## Estudos de coorte
 
-O termo *coorte* é usado para designar um grupo de pessoas que tenham determinadas características em comum, por exemplo, terem nascido no mesmo ano.
+O termo *coorte* é usado para designar um grupo de pessoas que têm em comum a ocorrência de um evento num mesmo período. Por exemplo,
+
+. . .
+
+- coorte de pessoas que nasceram em 2010, 
+- coorte de pessoas admitidas para hemodiálise em uma unidade hospitalar, 
+- coorte de idosos residentes no município de Ouro Preto em 2020, 
+- coorte de trabalhadores de uma indústria, 
+- entre outros.
 
 
 ## Estudos de coorte
@@ -562,6 +575,78 @@ Ou seja, o risco relativo é a razão entre a incidência nos expostos e a incid
 
 
 ![](/images/tiposCoorte2.png){fig-align="center"}
+
+
+## Tipos de coorte
+
+Os desenhos dos estudos podem ser com coortes **abertas** ou **fechadas**. 
+
+. . .
+
+Nas coortes abertas, o momento de entrada dos indivíduos no estudo varia 
+
+
+## Tipos de coorte
+
+![](/images/coorte_aberta.png){.r-stretch fig-align="center"}
+
+
+
+## Tipos de coorte
+
+Nas coortes fechadas, todos os indivíduos que serão acompanhados estão presentes no início do estudo. 
+
+. . .
+
+Não há entradas durante o período de acompanhamento 
+
+## Tipos de coorte
+
+![](/images/coorte_fechada.png){.r-stretch fig-align="center"}
+
+
+## Densidade de incidência
+
+A **Densidade de incidência (DI)** é uma medida mais robusta que a **incidência** pelo fato de incluir no seu denominador o tempo de contribuição de cada indivíduo no acompanhamento. 
+
+. . .
+
+Em outras palavras, contabiliza o tempo de permanência do indivíduo na coorte. 
+
+. . .
+
+O tempo pode ser descrito em anos-pessoas, meses-pessoas, dias-pessoas, entre outros.
+
+
+## Densidade de incidência
+
+
+$$\text{DI} = \dfrac{\text{Nº de casos novos em determinado período} }{\text{Pessoa-Tempo da população em risco}}$$
+
+Por Pessoa-Tempo entende-se o período durante o qual o indivíduo esteve exposto ao risco e, caso viesse a adoecer, seria considerado um caso novo ou incidente.
+
+
+## Densidade de incidência
+
+Por exemplo, seja uma coorte hipotética composta por 5 indivíduos e que o indivíduo 1 foi acompanhado por 1 ano, o 2º 2 anos, o 3º por 3 anos, o 4º por 4 anos e o 5º por 5 anos. Dos 5 indivíduos, somente 2 evoluíram para o desfecho. 
+
+. . .
+
+$$
+{\small 
+\begin{eqnarray*}
+\text{DI} &=& \dfrac{2}{(\text{1 ano} \times \text{ind. 1}) + (\text{2 anos} \times \text{ind. 2}) + (\text{3 anos} \times \text{ind. 3}) + (\text{4 anos} \times \text{ind. 4}) + (\text{5 anos} \times \text{ind. 5})}\\ &=& \dfrac{2}{15} \times 100 = 13,3/100
+\end{eqnarray*}
+}
+$$
+
+. . .
+
+**Interpretação:** Temos 13,3 casos novos da condição para cada 100 pessoas. 
+
+
+
+
 
 ## Vantagens
 

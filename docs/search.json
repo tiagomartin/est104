@@ -716,7 +716,7 @@
     "href": "aulas/Planejamento/index.html#estudos-observacionais-analíticos-1",
     "title": "Planejamento na área da saúde",
     "section": "Estudos observacionais analíticos",
-    "text": "Estudos observacionais analíticos\nEstudos analíticos são aqueles delineados para examinar a existência de associação entre uma exposição e uma doença ou condição relacionada à saúde."
+    "text": "Estudos observacionais analíticos\nEstudos analíticos são aqueles delineados para examinar a existência de associação entre uma exposição e uma doença ou condição relacionada à saúde.\n\nAssim, se o objetivo for testar hipóteses a respeito da associação entre determinantes e um agravo à saúde, os estudos analíticos devem ser empregados."
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudos-observacionais-analíticos-2",
@@ -737,14 +737,14 @@
     "href": "aulas/Planejamento/index.html#estudos-observacionais-analíticos-4",
     "title": "Planejamento na área da saúde",
     "section": "Estudos observacionais analíticos",
-    "text": "Estudos observacionais analíticos\n\n\n\n    \n\n\n\n\n\n        \n\n\n\n\n\n\n\nEvento\nDescrição\n\n\nE\n\n+\n\nser Exposto\n\n\nE\n\n-\n\nnão ser Exposto\n\n\nD\n\n+\n\nser Doente (apresentar o desfecho)\n\n\nD\n\n-\n\nnão ser Doente (não apresentar o desfecho)\n\n\nC\n\n+\n\nser Caso (apresentar o desfecho)\n\n\nC\n\n-\n\nser Controle (não apresentar o desfecho)\n\n\nF\n\n+\n\napresentar um Fator de risco (ou fator investigado)\n\n\nF\n\n-\n\nnão apresentar um Fator de risco (ou fator investigado)"
+    "text": "Estudos observacionais analíticos\nPara investigar a associação entre um fator de risco (ou a exposição) e a doença (ou a ocorrência de um desfecho), vamos definir alguns eventos de interesse.\n\n\n    \n\n\n\n\n\n        \n\n\n\n\n\n\n\nEvento\nDescrição\n\n\nE\n\n+\n\nser Exposto\n\n\nE\n\n-\n\nnão ser Exposto\n\n\nD\n\n+\n\nser Doente (apresentar o desfecho)\n\n\nD\n\n-\n\nnão ser Doente (não apresentar o desfecho)\n\n\nC\n\n+\n\nser Caso (apresentar o desfecho)\n\n\nC\n\n-\n\nser Controle (não apresentar o desfecho)\n\n\nF\n\n+\n\napresentar um Fator de risco (ou fator investigado)\n\n\nF\n\n-\n\nnão apresentar um Fator de risco (ou fator investigado)"
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudos-de-coorte",
     "href": "aulas/Planejamento/index.html#estudos-de-coorte",
     "title": "Planejamento na área da saúde",
     "section": "Estudos de coorte",
-    "text": "Estudos de coorte\nO termo coorte é usado para designar um grupo de pessoas que tenham determinadas características em comum, por exemplo, terem nascido no mesmo ano."
+    "text": "Estudos de coorte\nO termo coorte é usado para designar um grupo de pessoas que têm em comum a ocorrência de um evento num mesmo período. Por exemplo,\n\n\ncoorte de pessoas que nasceram em 2010,\ncoorte de pessoas admitidas para hemodiálise em uma unidade hospitalar,\ncoorte de idosos residentes no município de Ouro Preto em 2020,\ncoorte de trabalhadores de uma indústria,\nentre outros."
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudos-de-coorte-1",
@@ -2057,5 +2057,54 @@
     "title": "Semana 05",
     "section": "",
     "text": "De acordo com a PORTARIA CONJUNTA No 01/2024/PROGRAD/PROPPI/ PROEX,DE 24 DE OUTUBRO DE 2024 não haverá aulas nesta semana."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-1",
+    "href": "aulas/Planejamento/index.html#tipos-de-coorte-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de coorte",
+    "text": "Tipos de coorte\nOs desenhos dos estudos podem ser com coortes abertas ou fechadas.\n\nNas coortes abertas, o momento de entrada dos indivíduos no estudo varia"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-2",
+    "href": "aulas/Planejamento/index.html#tipos-de-coorte-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de coorte",
+    "text": "Tipos de coorte"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-3",
+    "href": "aulas/Planejamento/index.html#tipos-de-coorte-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de coorte",
+    "text": "Tipos de coorte\nNas coortes fechadas, todos os indivíduos que serão acompanhados estão presentes no início do estudo.\n\nNão há entradas durante o período de acompanhamento"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-4",
+    "href": "aulas/Planejamento/index.html#tipos-de-coorte-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de coorte",
+    "text": "Tipos de coorte"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#densidade-de-incidência",
+    "href": "aulas/Planejamento/index.html#densidade-de-incidência",
+    "title": "Planejamento na área da saúde",
+    "section": "Densidade de incidência",
+    "text": "Densidade de incidência\nA Densidade de incidência (DI) é uma medida mais robusta que a incidência pelo fato de incluir no seu denominador o tempo de contribuição de cada indivíduo no acompanhamento.\n\nEm outras palavras, contabiliza o tempo de permanência do indivíduo na coorte.\n\n\nO tempo pode ser descrito em anos-pessoas, meses-pessoas, dias-pessoas, entre outros."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#densidade-de-incidência-1",
+    "href": "aulas/Planejamento/index.html#densidade-de-incidência-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Densidade de incidência",
+    "text": "Densidade de incidência\n\\[\\text{DI} = \\dfrac{\\text{Nº de casos novos em determinado período} }{\\text{Pessoa-Tempo da população em risco}}\\]\nPor Pessoa-Tempo entende-se o período durante o qual o indivíduo esteve exposto ao risco e, caso viesse a adoecer, seria considerado um caso novo ou incidente."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#densidade-de-incidência-2",
+    "href": "aulas/Planejamento/index.html#densidade-de-incidência-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Densidade de incidência",
+    "text": "Densidade de incidência\nPor exemplo, seja uma coorte hipotética composta por 5 indivíduos e que o indivíduo 1 foi acompanhado por 1 ano, o 2º 2 anos, o 3º por 3 anos, o 4º por 4 anos e o 5º por 5 anos. Dos 5 indivíduos, somente 2 evoluíram para o desfecho.\n\n\\[\n{\\small\n\\begin{eqnarray*}\n\\text{DI} &=& \\dfrac{2}{(\\text{1 ano} \\times \\text{ind. 1}) + (\\text{2 anos} \\times \\text{ind. 2}) + (\\text{3 anos} \\times \\text{ind. 3}) + (\\text{4 anos} \\times \\text{ind. 4}) + (\\text{5 anos} \\times \\text{ind. 5})}\\\\ &=& \\dfrac{2}{15} \\times 100 = 13,3/100\n\\end{eqnarray*}\n}\n\\]\n\n\nInterpretação: Temos 13,3 casos novos da condição para cada 100 pessoas."
   }
 ]
