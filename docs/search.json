@@ -873,6 +873,55 @@
     "text": "Tipos de coorte"
   },
   {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-1",
+    "href": "aulas/Planejamento/index.html#tipos-de-coorte-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de coorte",
+    "text": "Tipos de coorte\nOs desenhos dos estudos podem ser com coortes abertas ou fechadas.\n\nNas coortes abertas, o momento de entrada dos indivíduos no estudo varia"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-2",
+    "href": "aulas/Planejamento/index.html#tipos-de-coorte-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de coorte",
+    "text": "Tipos de coorte"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-3",
+    "href": "aulas/Planejamento/index.html#tipos-de-coorte-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de coorte",
+    "text": "Tipos de coorte\nNas coortes fechadas, todos os indivíduos que serão acompanhados estão presentes no início do estudo.\n\nNão há entradas durante o período de acompanhamento"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-4",
+    "href": "aulas/Planejamento/index.html#tipos-de-coorte-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de coorte",
+    "text": "Tipos de coorte"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#densidade-de-incidência",
+    "href": "aulas/Planejamento/index.html#densidade-de-incidência",
+    "title": "Planejamento na área da saúde",
+    "section": "Densidade de incidência",
+    "text": "Densidade de incidência\nA Densidade de incidência (DI) é uma medida mais robusta que a incidência pelo fato de incluir no seu denominador o tempo de contribuição de cada indivíduo no acompanhamento.\n\nEm outras palavras, contabiliza o tempo de permanência do indivíduo na coorte.\n\n\nO tempo pode ser descrito em anos-pessoas, meses-pessoas, dias-pessoas, entre outros."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#densidade-de-incidência-1",
+    "href": "aulas/Planejamento/index.html#densidade-de-incidência-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Densidade de incidência",
+    "text": "Densidade de incidência\n\\[\\text{DI} = \\dfrac{\\text{Nº de casos novos em determinado período} }{\\text{Pessoa-Tempo da população em risco}}\\]\nPor Pessoa-Tempo entende-se o período durante o qual o indivíduo esteve exposto ao risco e, caso viesse a adoecer, seria considerado um caso novo ou incidente."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#densidade-de-incidência-2",
+    "href": "aulas/Planejamento/index.html#densidade-de-incidência-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Densidade de incidência",
+    "text": "Densidade de incidência\nPor exemplo, seja uma coorte hipotética composta por 5 indivíduos e que o indivíduo 1 foi acompanhado por 1 ano, o 2º 2 anos, o 3º por 3 anos, o 4º por 4 anos e o 5º por 5 anos. Dos 5 indivíduos, somente 2 evoluíram para o desfecho.\n\n\\[\n{\\small\n\\begin{eqnarray*}\n\\text{DI} &=& \\dfrac{2}{(\\text{1 ano} \\times \\text{ind. 1}) + (\\text{2 anos} \\times \\text{ind. 2}) + (\\text{3 anos} \\times \\text{ind. 3}) + (\\text{4 anos} \\times \\text{ind. 4}) + (\\text{5 anos} \\times \\text{ind. 5})}\\\\ &=& \\dfrac{2}{15} \\times 100 = 13,3/100\n\\end{eqnarray*}\n}\n\\]\n\n\nInterpretação: Temos 13,3 casos novos da condição para cada 100 pessoas."
+  },
+  {
     "objectID": "aulas/Planejamento/index.html#vantagens",
     "href": "aulas/Planejamento/index.html#vantagens",
     "title": "Planejamento na área da saúde",
@@ -926,21 +975,21 @@
     "href": "aulas/Planejamento/index.html#estudo-caso-controle-1",
     "title": "Planejamento na área da saúde",
     "section": "Estudo caso-controle",
-    "text": "Estudo caso-controle\nTipo de estudo observacional que se inicia com a seleção de um grupo de pessoas portadoras de uma doença ou condição específica (casos), e um outro grupo de pessoas que não sofrem dessa doença ou condição (controle)."
+    "text": "Estudo caso-controle\nTipo de estudo observacional que se inicia com a seleção de um grupo de pessoas portadoras de uma doença ou condição específica (casos), e um outro grupo de pessoas que não sofrem dessa doença ou condição (controle).\n\nCaracterística principal: Os participantes são selecionados com base em terem ou não o desfecho."
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-2",
     "href": "aulas/Planejamento/index.html#estudo-caso-controle-2",
     "title": "Planejamento na área da saúde",
     "section": "Estudo caso-controle",
-    "text": "Estudo caso-controle\nO propósito desse estudo é identificar características (exposições, ou fatores de risco) que ocorrem em maior (ou menor) freqüência entre casos do que entre controles."
+    "text": "Estudo caso-controle\nO propósito desse estudo é identificar características (exposições, ou fatores de risco) que ocorrem em maior (ou menor) frequência entre casos do que entre controles."
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-3",
     "href": "aulas/Planejamento/index.html#estudo-caso-controle-3",
     "title": "Planejamento na área da saúde",
     "section": "Estudo caso-controle",
-    "text": "Estudo caso-controle\n\nRetrospectivo\nIdentifica um grupo de pacientes com o desfecho (casos) e um outro sem o desfecho (controles)\nExamina as variáveis de predição no passado\nDetermina a força da associação entre a variável de predição e a variável de desfecho"
+    "text": "Estudo caso-controle\n\nRetrospectivo\n\n\n\nIdentifica um grupo de pacientes com o desfecho (casos) e um outro sem o desfecho (controles)\n\n\n\n\nExamina as variáveis de predição no passado, ou seja, casos e controles são medidos quanto ao histórico de exposição.\n\n\n\n\nDetermina a força da associação entre a variável de predição e a variável de desfecho\n\n\n\n\nÚtil para identificar fatores associados à ocorrência de doenças raras\n\nA seleção de participantes é feita com base no desfecho: garantia de um número desejado de casos."
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-4",
@@ -996,7 +1045,7 @@
     "href": "aulas/Planejamento/index.html#estudo-caso-controle-11",
     "title": "Planejamento na área da saúde",
     "section": "Estudo caso-controle",
-    "text": "Estudo caso-controle\nComo o número de casos é definido pelo pesquisador, o cálculo da incidência não pode ser feito diretamente, necessitando-se, assim, adotar uma medida alternativa conhecida como odds-ratio."
+    "text": "Estudo caso-controle\nEm estudos de caso controle, não é possível calcular a incidência da doença, pois começamos o estudo com pessoas doentes e não doentes.\n\nAssim, vamos adotar uma medida alternativa conhecida como odds-ratio."
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-12",
@@ -1031,14 +1080,14 @@
     "href": "aulas/Planejamento/index.html#vantagens-2",
     "title": "Planejamento na área da saúde",
     "section": "Vantagens",
-    "text": "Vantagens\n\nSão mais baratos\nMais eficientes para doenças raras\nFactível em menos tempo\nMais comum"
+    "text": "Vantagens\n\nPermitem identificar fatores de risco de doenças raras\n\nGarantem números suficientes de indivíduos com e sem o desfecho\nCoortes e estudos transversais necessitariam de grandes tamanhos amostrais\nE, se a doença for de desenvolvimento lento, coortes precisariam de acompanhamentos muito longos.\n\n\n\n\n\nMais simples, baratos e rápidos que os estudos de coortes\n\nAmostras menores\nNão requerem acompanhamento dos participantes ⭢ menor custo, tempo e complexidade."
   },
   {
     "objectID": "aulas/Planejamento/index.html#desvantagens-2",
     "href": "aulas/Planejamento/index.html#desvantagens-2",
     "title": "Planejamento na área da saúde",
     "section": "Desvantagens",
-    "text": "Desvantagens\n\nNão guarda relação de temporalidade\nNão estima risco diretamente\nNão serve para estimar incidência de desfecho\nSusceptíveis a viéses"
+    "text": "Desvantagens\n\nSujeitos à causalidade reversa, pois os participantes são medidos uma única vez.\n\n\n\nViés de memória ⭢ o histórico de exposição geralmente obtido através de questionários recordatórios.\n\nPode ser diferencial entre casos e controles: indivíduos com a doença tendem a ser esforçar mais para lembrar do histórico de exposição que os indivíduos sem a doença ⭢ distorce a comparação entre os grupos."
   },
   {
     "objectID": "aulas/Planejamento/index.html#exemplo-1",
@@ -1188,13 +1237,6 @@
     "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam.\nO hábito de fumar parece ser fator de risco para cólica infantil naquele dado momento na população."
   },
   {
-    "objectID": "aulas/Planejamento/index.html#exemplo-12",
-    "href": "aulas/Planejamento/index.html#exemplo-12",
-    "title": "Planejamento na área da saúde",
-    "section": "Exemplo",
-    "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam.\nO hábito de fumar parece ser fator de risco para cólica infantil naquele dado momento na população."
-  },
-  {
     "objectID": "aulas/Planejamento/index.html#vantagens-3",
     "href": "aulas/Planejamento/index.html#vantagens-3",
     "title": "Planejamento na área da saúde",
@@ -1206,7 +1248,7 @@
     "href": "aulas/Planejamento/index.html#desvantagens-3",
     "title": "Planejamento na área da saúde",
     "section": "Desvantagens",
-    "text": "Desvantagens\n\nVulnerável a viéses\n\n\n\nInclui somente casos que sobrevivem (disponíveis para o estudo)\n\n\n\n\nDoenças de curta duração podem não ser representativas"
+    "text": "Desvantagens\n\nViés de seleção ⭢ relacionado ao processo de seleção dos participantes do estudo\n\nSeleção de casos: frequentemente utiliza-se amostragem por conveniência\nSeleção de controles: diferentes estratégias possuem diferentes vantagens e desvantagens"
   },
   {
     "objectID": "aulas/Planejamento/index.html#prática-3",
@@ -1312,55 +1354,6 @@
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
     "text": "Características principais\n\n\nEstudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.\n\n\nnível de poluição do ar: é mais fácil medir o nível médio de poluição do ar de determinada cidade do que o quanto cada indivíduo respira ao longo do dia.\n\nvariáveis com pouca variabilidade intra-grupos, mas com muita variabilidade entre grupos: exposição à radiação em Chernobyl."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-14",
-    "href": "aulas/Planejamento/index.html#características-principais-14",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\n\n\nOs ensaios clínicos são indicados para avaliar a segurança e eficácia de:\n\num novo produto;\numa nova formulação de um mesmo produto ou associação de produtos já em uso e,\numa nova indicação clínica de um produto já aprovado\n\n\nOs ensaios podem avaliar o efeito terapêutico (drogas) ou profilático (vacinas)"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-15",
-    "href": "aulas/Planejamento/index.html#características-principais-15",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-16",
-    "href": "aulas/Planejamento/index.html#características-principais-16",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-17",
-    "href": "aulas/Planejamento/index.html#características-principais-17",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção\n\n\nGrupo intervenção: indivíduos que recebem o tratamento/intervenção\n\nPor exemplo, medicamento ativo"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-18",
-    "href": "aulas/Planejamento/index.html#características-principais-18",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção\n\n\nGrupo intervenção: indivíduos que recebem o tratamento/intervenção\n\nPor exemplo, medicamento ativo\n\n\n\nGrupo controle: indivíduos que não recebem o tratamento/intervenção\n\nPor exemplo, placebo"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-19",
-    "href": "aulas/Planejamento/index.html#características-principais-19",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-20",
-    "href": "aulas/Planejamento/index.html#características-principais-20",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra"
   },
   {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos",
@@ -1496,41 +1489,6 @@
     "text": "Tipos de estudos ecológicos\nAlguns problemas metodológicos:\n\nLimitação na inferência causal (Falácia Ecológica)\n\n\n\n\nQualidade das informações\n\n\n\n\nAuto-correlação espacial e temporal\n\n\n\n\nProblemas no controle de confundimento."
   },
   {
-    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-19",
-    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-19",
-    "title": "Planejamento na área da saúde",
-    "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nVantagens:\n\nPermitir o estudo de grandes populações(comparações internacionais das taxas de incidência de doenças)\nInvestigação de cluster de doenças\nBaixo custo e rápido\nDisponibilidade de grandes bases de dados."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-20",
-    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-20",
-    "title": "Planejamento na área da saúde",
-    "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nAlguns problemas metodológicos\n\nLimitação na inferência causal (Falácia Ecológica)\nQualidade das informações\nAuto-correlação espacial e temporal\nProblemas no controle de confundimento."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-21",
-    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-21",
-    "title": "Planejamento na área da saúde",
-    "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nAlguns problemas metodológicos\n\nLimitação na inferência causal (Falácia Ecológica)\nQualidade das informações\nAuto-correlação espacial e temporal\nProblemas no controle de confundimento."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-22",
-    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-22",
-    "title": "Planejamento na área da saúde",
-    "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nVantagens:\n\nPermitir o estudo de grandes populações(comparações internacionais das taxas de incidência de doenças)\nInvestigação de cluster de doenças\nBaixo custo e rápido\nDisponibilidade de grandes bases de dados."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-23",
-    "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos-23",
-    "title": "Planejamento na área da saúde",
-    "section": "Tipos de estudos ecológicos",
-    "text": "Tipos de estudos ecológicos\nAlguns problemas metodológicos\n\nLimitação na inferência causal (Falácia Ecológica)\nQualidade das informações\nAuto-correlação espacial e temporal\nProblemas no controle de confundimento."
-  },
-  {
     "objectID": "aulas/Planejamento/index.html#estudos-experimentais-1",
     "href": "aulas/Planejamento/index.html#estudos-experimentais-1",
     "title": "Planejamento na área da saúde",
@@ -1538,57 +1496,57 @@
     "text": "Estudos Experimentais\nEstudos em que o pesquisador manipula o fator de exposição, ou seja, provoca uma modificação intencional em algum aspecto do estado de saúde dos indivíduos, através da introdução de um esquema profilático ou terapêutico."
   },
   {
+    "objectID": "aulas/Planejamento/index.html#características-principais-14",
+    "href": "aulas/Planejamento/index.html#características-principais-14",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\n\n\nOs ensaios clínicos são indicados para avaliar a segurança e eficácia de:\n\num novo produto;\numa nova formulação de um mesmo produto ou associação de produtos já em uso e,\numa nova indicação clínica de um produto já aprovado\n\n\nOs ensaios podem avaliar o efeito terapêutico (drogas) ou profilático (vacinas)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-15",
+    "href": "aulas/Planejamento/index.html#características-principais-15",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-16",
+    "href": "aulas/Planejamento/index.html#características-principais-16",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-17",
+    "href": "aulas/Planejamento/index.html#características-principais-17",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção\n\n\nGrupo intervenção: indivíduos que recebem o tratamento/intervenção\n\nPor exemplo, medicamento ativo"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-18",
+    "href": "aulas/Planejamento/index.html#características-principais-18",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCaracterística principal: Os participantes são escolhidos aleatoriamente para um grupo intervenção\n\n\nGrupo intervenção: indivíduos que recebem o tratamento/intervenção\n\nPor exemplo, medicamento ativo\n\n\n\nGrupo controle: indivíduos que não recebem o tratamento/intervenção\n\nPor exemplo, placebo"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-19",
+    "href": "aulas/Planejamento/index.html#características-principais-19",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-20",
+    "href": "aulas/Planejamento/index.html#características-principais-20",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra"
+  },
+  {
     "objectID": "aulas/Planejamento/index.html#características-principais-21",
     "href": "aulas/Planejamento/index.html#características-principais-21",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-22",
-    "href": "aulas/Planejamento/index.html#características-principais-22",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-23",
-    "href": "aulas/Planejamento/index.html#características-principais-23",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-24",
-    "href": "aulas/Planejamento/index.html#características-principais-24",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-25",
-    "href": "aulas/Planejamento/index.html#características-principais-25",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-26",
-    "href": "aulas/Planejamento/index.html#características-principais-26",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-27",
-    "href": "aulas/Planejamento/index.html#características-principais-27",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-28",
-    "href": "aulas/Planejamento/index.html#características-principais-28",
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
     "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
@@ -1657,34 +1615,6 @@
     "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\n\n\nPor mais que o mascaramento seja uma característica importante de um ensaio clínico, sua implementação nem sempre é viável devido, por exemplo, à natureza de algumas intervenções\n\nPor exemplo, procedimentos cirúrgicos, tratamentos fisioterapêuticos e psicológicos.\n\n\n\n\n\n\nSempre que for factível manter o mascaramento, ele deve ser utilizado.\n\nQuanto mais mascaramento, mais robustas serão as conclusões do estudo.\nMascaramento dos analistas de dados é sempre possível!"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#mascaramento-6",
-    "href": "aulas/Planejamento/index.html#mascaramento-6",
-    "title": "Planejamento na área da saúde",
-    "section": "Mascaramento",
-    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\n\nPor mais que o mascaramento seja uma característica importante de um ensaio clínico, sua implementação nem sempre é viável devido, por exemplo, à natureza de algumas intervenções\n\nPor exemplo, procedimentos cirúrgicos, tratamentos fisioterapêuticos e psicológicos."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#mascaramento-7",
-    "href": "aulas/Planejamento/index.html#mascaramento-7",
-    "title": "Planejamento na área da saúde",
-    "section": "Mascaramento",
-    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\nSempre que for factível manter o mascaramento, ele deve ser utilizado.\n\nQuanto mais mascaramento, mais robustas serão as conclusões do estudo.\nMascaramento dos analistas de dados é sempre possível!"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#mascaramento-8",
-    "href": "aulas/Planejamento/index.html#mascaramento-8",
-    "title": "Planejamento na área da saúde",
-    "section": "Mascaramento",
-    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\n\nPor mais que o mascaramento seja uma característica importante de um ensaio clínico, sua implementação nem sempre é viável devido, por exemplo, à natureza de algumas intervenções\n\nPor exemplo, procedimentos cirúrgicos, tratamentos fisioterapêuticos e psicológicos."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#mascaramento-9",
-    "href": "aulas/Planejamento/index.html#mascaramento-9",
-    "title": "Planejamento na área da saúde",
-    "section": "Mascaramento",
-    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\nSempre que for factível manter o mascaramento, ele deve ser utilizado.\n\nQuanto mais mascaramento, mais robustas serão as conclusões do estudo.\nMascaramento dos analistas de dados é sempre possível!"
-  },
-  {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-1",
     "href": "aulas/Planejamento/index.html#análise-de-dados-1",
     "title": "Planejamento na área da saúde",
@@ -1725,41 +1655,6 @@
     "title": "Planejamento na área da saúde",
     "section": "Análise de dados",
     "text": "Análise de dados\nVoltando ao exemplo…\n\n\n    \n\n\n\n\n\n        \n\n\nGrupo\nFalha\nSucesso\nTotal\n\n\nExperimental\n5\n45\n50\n\n\nPlacebo\n37\n13\n50\n\n\nTotal\n42\n58\n100\n\n\n\n\n\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{5}{50}}{\\dfrac{37}{50}} = \\dfrac{5}{37} \\times 100 \\approx 13,5\\%\\]\n\nDe forma que,\n\\[EF = 1 - RR = (1 - 0,135) \\times 100 = 86,5\\%\\]"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#análise-de-dados-7",
-    "href": "aulas/Planejamento/index.html#análise-de-dados-7",
-    "title": "Planejamento na área da saúde",
-    "section": "Análise de dados",
-    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\nDe forma que,\n\\[EF = 1 - RR = (1 - 0,135) \\times 100 = 86,5\\%\\]"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#análise-de-dados-8",
-    "href": "aulas/Planejamento/index.html#análise-de-dados-8",
-    "title": "Planejamento na área da saúde",
-    "section": "Análise de dados",
-    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\n\\[\\text{Risco Relativo (RR)} = \\dfrac{\\dfrac{5}{50}}{\\dfrac{37}{50}} = \\dfrac{5}{37} \\times 100 \\approx 13,5\\%\\]"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#análise-de-dados-9",
-    "href": "aulas/Planejamento/index.html#análise-de-dados-9",
-    "title": "Planejamento na área da saúde",
-    "section": "Análise de dados",
-    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\nDe forma que,\n\\[EF = 1 - RR = (1 - 0,135) \\times 100 = 86,5\\%\\]"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#análise-de-dados-10",
-    "href": "aulas/Planejamento/index.html#análise-de-dados-10",
-    "title": "Planejamento na área da saúde",
-    "section": "Análise de dados",
-    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\nDe forma que,\n\\[EF = 1 - RR = (1 - 0,135) \\times 100 = 86,5\\%\\]"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#análise-de-dados-11",
-    "href": "aulas/Planejamento/index.html#análise-de-dados-11",
-    "title": "Planejamento na área da saúde",
-    "section": "Análise de dados",
-    "text": "Análise de dados\nVoltando ao exemplo…\n\n\n\n\nGrupo\n\n\nFalha\n\n\nSucesso\n\n\nTotal\n\n\n\n\n\nExperimental\n\n\n5\n\n\n45\n\n\n50\n\n\n\n\nPlacebo\n\n\n37\n\n\n13\n\n\n50\n\n\n\n\nTotal\n\n\n42\n\n\n58\n\n\n100\n\n\n\n\nDe forma que,\n\\[EF = 1 - RR = (1 - 0,135) \\times 100 = 86,5\\%\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#vantagens-e-desvantagens",
@@ -2059,52 +1954,66 @@
     "text": "De acordo com a PORTARIA CONJUNTA No 01/2024/PROGRAD/PROPPI/ PROEX,DE 24 DE OUTUBRO DE 2024 não haverá aulas nesta semana."
   },
   {
-    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-1",
-    "href": "aulas/Planejamento/index.html#tipos-de-coorte-1",
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos",
     "title": "Planejamento na área da saúde",
-    "section": "Tipos de coorte",
-    "text": "Tipos de coorte\nOs desenhos dos estudos podem ser com coortes abertas ou fechadas.\n\nNas coortes abertas, o momento de entrada dos indivíduos no estudo varia"
+    "section": "Como selecionar os casos?",
+    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo."
   },
   {
-    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-2",
-    "href": "aulas/Planejamento/index.html#tipos-de-coorte-2",
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-1",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-1",
     "title": "Planejamento na área da saúde",
-    "section": "Tipos de coorte",
-    "text": "Tipos de coorte"
+    "section": "Como selecionar os casos?",
+    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-3",
-    "href": "aulas/Planejamento/index.html#tipos-de-coorte-3",
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-2",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-2",
     "title": "Planejamento na área da saúde",
-    "section": "Tipos de coorte",
-    "text": "Tipos de coorte\nNas coortes fechadas, todos os indivíduos que serão acompanhados estão presentes no início do estudo.\n\nNão há entradas durante o período de acompanhamento"
+    "section": "Como selecionar os casos?",
+    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)\nMoradores de uma cidade sendo diagnosticado em outra cidade"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#tipos-de-coorte-4",
-    "href": "aulas/Planejamento/index.html#tipos-de-coorte-4",
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-3",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-3",
     "title": "Planejamento na área da saúde",
-    "section": "Tipos de coorte",
-    "text": "Tipos de coorte"
+    "section": "Como selecionar os casos?",
+    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)\nMoradores de uma cidade sendo diagnosticado em outra cidade\nSigilo por parte dos pacientes"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#densidade-de-incidência",
-    "href": "aulas/Planejamento/index.html#densidade-de-incidência",
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-4",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-4",
     "title": "Planejamento na área da saúde",
-    "section": "Densidade de incidência",
-    "text": "Densidade de incidência\nA Densidade de incidência (DI) é uma medida mais robusta que a incidência pelo fato de incluir no seu denominador o tempo de contribuição de cada indivíduo no acompanhamento.\n\nEm outras palavras, contabiliza o tempo de permanência do indivíduo na coorte.\n\n\nO tempo pode ser descrito em anos-pessoas, meses-pessoas, dias-pessoas, entre outros."
+    "section": "Como selecionar os casos?",
+    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)\nMoradores de uma cidade sendo diagnosticado em outra cidade\nSigilo por parte dos pacientes\n\n\n\n\n\n\nNa prática: amostragem por conveniência\n\nDificuldade em definir a população alvo, e consequentemente, a seleção dos controles."
   },
   {
-    "objectID": "aulas/Planejamento/index.html#densidade-de-incidência-1",
-    "href": "aulas/Planejamento/index.html#densidade-de-incidência-1",
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-controles",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-controles",
     "title": "Planejamento na área da saúde",
-    "section": "Densidade de incidência",
-    "text": "Densidade de incidência\n\\[\\text{DI} = \\dfrac{\\text{Nº de casos novos em determinado período} }{\\text{Pessoa-Tempo da população em risco}}\\]\nPor Pessoa-Tempo entende-se o período durante o qual o indivíduo esteve exposto ao risco e, caso viesse a adoecer, seria considerado um caso novo ou incidente."
+    "section": "Como selecionar os controles?",
+    "text": "Como selecionar os controles?\n\n\nUtilizar alguma estratégia que produza “controles” comparáveis aos casos.\n\nPacientes internados no mesmo hospital, mas com outras doenças.\nVizinhos, amigos ou parentes dos casos.\nEtc.\n\n\n\n\n\nProcurar equilibrar o que é ideal (amostragem aleatória) com o que é factível (dificuldades práticas)\n\n\n\n\n\n\n\n\n\nCuidado!\n\n\n\nGrupos de casos e controles não comparáveis ⭢ distorsão nos resultados!"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#densidade-de-incidência-2",
-    "href": "aulas/Planejamento/index.html#densidade-de-incidência-2",
+    "objectID": "aulas/Planejamento/index.html#desvantagens-4",
+    "href": "aulas/Planejamento/index.html#desvantagens-4",
     "title": "Planejamento na área da saúde",
-    "section": "Densidade de incidência",
-    "text": "Densidade de incidência\nPor exemplo, seja uma coorte hipotética composta por 5 indivíduos e que o indivíduo 1 foi acompanhado por 1 ano, o 2º 2 anos, o 3º por 3 anos, o 4º por 4 anos e o 5º por 5 anos. Dos 5 indivíduos, somente 2 evoluíram para o desfecho.\n\n\\[\n{\\small\n\\begin{eqnarray*}\n\\text{DI} &=& \\dfrac{2}{(\\text{1 ano} \\times \\text{ind. 1}) + (\\text{2 anos} \\times \\text{ind. 2}) + (\\text{3 anos} \\times \\text{ind. 3}) + (\\text{4 anos} \\times \\text{ind. 4}) + (\\text{5 anos} \\times \\text{ind. 5})}\\\\ &=& \\dfrac{2}{15} \\times 100 = 13,3/100\n\\end{eqnarray*}\n}\n\\]\n\n\nInterpretação: Temos 13,3 casos novos da condição para cada 100 pessoas."
+    "section": "Desvantagens",
+    "text": "Desvantagens\n\nVulnerável a viéses\n\n\n\nInclui somente casos que sobrevivem (disponíveis para o estudo)\n\n\n\n\nDoenças de curta duração podem não ser representativas"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-3",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\n\nConsumo de álcool no passado \\(\\times\\) Câncer de Pâncreas\n\n\n\n\n\n\n\n        \n\n\n\nCom câncer de pâncreas\nSem câncer de pâncreas\nTotal\n\n\nConsumo de álcool\n1000\n3200\n4200\n\n\nSem consumo de álcool\n300\n1300\n1600\n\n\nTotal\n1300\n4500\n5800\n\n\n\n\n\n\n\\[\\text{OR} = \\dfrac{\\dfrac{\\dfrac{1000}{1300}}{\\dfrac{300}{1300}}}{\\dfrac{\\dfrac{3200}{4500}}{\\dfrac{1300}{4500}}} = \\dfrac{\\dfrac{1000}{300}}{\\dfrac{3200}{1300}} = \\dfrac{1000 \\times 1300}{300 \\times 3200} = \\dfrac{1300000}{960000} = 1,35\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-4",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\n\n\nInterpretação:\n\nA ingestão de álcool está associada à uma chance 35% maior de desenvolver CP;\nAs chances de CP são 35% maiores entre os que ingerem álcool em comparação com aqueles que não o fizeram;\nO Odds Ratio (ou a razão de chances) de desenvolver CP é de 1,35 comparando os que ingeriram álcool com aqueles que não ingeriram álcool, ou seja a ingestão de álcool é fator de risco para o desenvolvimento de CP."
   }
 ]

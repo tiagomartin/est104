@@ -790,20 +790,37 @@ Estudos observacionais analíticos
 
 Tipo de estudo observacional que se inicia com a seleção de um grupo de pessoas portadoras de uma doença ou condição específica (casos), e um outro grupo de pessoas que não sofrem dessa doença ou condição (controle).
 
+. . .
+
+**Característica principal:** Os participantes são selecionados com base em **terem ou não** o desfecho.
 
 ## Estudo caso-controle
 
-O propósito desse estudo é identificar características (exposições, ou fatores de risco) que ocorrem em maior (ou menor) freqüência entre casos do que entre controles.
+O propósito desse estudo é identificar características (exposições, ou fatores de risco) que ocorrem em maior (ou menor) frequência entre casos do que entre controles.
 
 
 ## Estudo caso-controle
 
 - Retrospectivo
+
+. . .
+
+
 - Identifica um grupo de pacientes com o desfecho (casos) e um outro sem o desfecho (controles)
-- Examina as variáveis de predição no passado
+
+. . .
+
+- Examina as variáveis de predição no passado, ou seja, casos e controles são medidos quanto ao **histórico** de exposição.
+
+. . .
+
 - Determina a força da associação entre a variável de predição e a variável de desfecho
 
 
+. . .
+
+- Útil para identificar fatores associados à ocorrência de doenças **raras**
+    - A seleção de participantes é feita com base no desfecho: garantia de um número desejado de casos.
 
 ## Estudo caso-controle
 
@@ -856,7 +873,11 @@ A **prevalência** se refere ao número de casos existentes de uma doença em um
 
 ## Estudo caso-controle
 
-Como o número de casos é definido pelo pesquisador, o cálculo da incidência não pode ser feito diretamente, necessitando-se, assim, adotar uma medida alternativa conhecida como *odds-ratio*. 
+Em estudos de caso controle, não é possível calcular a incidência da doença, pois começamos o estudo com pessoas doentes e não doentes.
+
+. . .
+
+Assim, vamos adotar uma medida alternativa conhecida como *odds-ratio*. 
 
 
 ## Estudo caso-controle
@@ -943,28 +964,180 @@ $$\text{Razão de chances (OR)} = \dfrac{\dfrac{\dfrac{a}{a+c}}{\dfrac{c}{a+c}}}
 
 
 
+## Razão de chances ou *odds-ratio*
+
+- Consumo de álcool no passado $\times$ Câncer de Pâncreas
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab"> </td>
+                <td class="cab">Com câncer de pâncreas</td>
+                <td class="cab">Sem câncer de pâncreas</td>
+                <td class="cab">Total</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">Consumo de álcool</td>
+                <td class="cont"> 1000 </td>
+                <td class="cont"> 3200 </td>
+                <td class="cont"> 4200 </td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">Sem consumo de álcool</td>
+                <td class="cont"> 300 </td>
+                <td class="cont"> 1300 </td>
+                <td class="cont"> 1600 </td>
+            </tr>
+
+            <tr class="item color">
+                <td class="cab">Total</td>
+                <td class="cont"> 1300 </td>
+                <td class="cont"> 4500 </td>
+                <td class="cont"> 5800 </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
+
+
+. . .
+
+
+$$\text{OR} = \dfrac{\dfrac{\dfrac{1000}{1300}}{\dfrac{300}{1300}}}{\dfrac{\dfrac{3200}{4500}}{\dfrac{1300}{4500}}} = \dfrac{\dfrac{1000}{300}}{\dfrac{3200}{1300}} = \dfrac{1000 \times 1300}{300 \times 3200} = \dfrac{1300000}{960000} = 1,35$$
+
+
+## Razão de chances ou *odds-ratio*
+
+
+- **Interpretação:** 
+    - A ingestão de álcool está associada à uma chance 35% maior de desenvolver CP;
+    - As chances de CP são 35% maiores entre os que ingerem álcool em comparação com aqueles que não o fizeram;
+    - O Odds Ratio (ou a razão de chances) de desenvolver CP é de 1,35 comparando os que ingeriram álcool com aqueles que não ingeriram álcool, ou seja a ingestão de álcool é fator de risco para o desenvolvimento de CP.
+
+
+## Como selecionar os casos?
+
+- **Idealmente:** amostragem aleatória do total de doentes da população alvo.
+
+
+## Como selecionar os casos?{auto-animate="true"}
+
+- **Idealmente:** amostragem aleatória do total de doentes da população alvo.
+
+    - Doentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)
+
+    
+    
+## Como selecionar os casos?{auto-animate="true"}
+
+- **Idealmente:** amostragem aleatória do total de doentes da população alvo.
+
+    - Doentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)
+    - Moradores de uma cidade sendo diagnosticado em outra cidade
+
+    
+
+## Como selecionar os casos?{auto-animate="true"}
+
+- **Idealmente:** amostragem aleatória do total de doentes da população alvo.
+
+    - Doentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)
+    - Moradores de uma cidade sendo diagnosticado em outra cidade
+    - Sigilo por parte dos pacientes
+    
+
+
+## Como selecionar os casos?
+
+- **Idealmente:** amostragem aleatória do total de doentes da população alvo.
+
+    - Doentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)
+    - Moradores de uma cidade sendo diagnosticado em outra cidade
+    - Sigilo por parte dos pacientes
+
+<br>
+
+- **Na prática:** amostragem por conveniência
+    - Dificuldade em definir a população alvo, e consequentemente, a seleção dos controles.
+
+
+
+## Como selecionar os controles?
+
+- Utilizar alguma estratégia que produza "controles" comparáveis aos casos.
+
+    - Pacientes internados no mesmo hospital, mas com outras doenças.
+    - Vizinhos, amigos ou parentes dos casos.
+    - Etc.
+
+. . .
+
+- Procurar equilibrar o que é ideal (amostragem aleatória) com o que é factível (dificuldades práticas)
+
+. . .
+
+::: callout-important
+
+## Cuidado!
+
+- Grupos de casos e controles não comparáveis &#11106; distorsão nos resultados!
+:::
 
 ## Vantagens
 
-- São mais baratos
+- Permitem identificar fatores de risco de doenças raras
+    - Garantem números suficientes de indivíduos com e sem o desfecho
+    - Coortes e estudos transversais necessitariam de grandes tamanhos amostrais
+    - E, se a doença for de desenvolvimento lento, coortes precisariam de acompanhamentos muito longos.
 
-- Mais eficientes para doenças raras
+. . .
 
-- Factível em menos tempo
-
-- Mais comum
+- Mais simples, baratos e rápidos que os estudos de coortes
+    - Amostras menores
+    - Não requerem acompanhamento dos participantes &#11106; menor custo, tempo e complexidade.
 
 
 ## Desvantagens
 
 
-- Não guarda relação de temporalidade
+- Sujeitos à causalidade reversa, pois os participantes são medidos uma única vez.
 
-- Não estima risco diretamente
+. . .
 
-- Não serve para estimar incidência de desfecho
+- Viés de memória &#11106; o histórico de exposição geralmente obtido através de questionários **recordatórios**.
+    - Pode ser diferencial entre casos e controles: indivíduos com a doença tendem a ser esforçar mais para lembrar do histórico de exposição que os indivíduos sem a doença &#11106; distorce a comparação entre os grupos.
 
-- Susceptíveis a viéses
+
+
+
+
+## Desvantagens
+
+
+
+
+- Viés de seleção &#11106; relacionado ao processo de seleção dos participantes do estudo
+    - Seleção de casos: frequentemente utiliza-se amostragem por conveniência
+    - Seleção de controles: diferentes estratégias possuem diferentes vantagens e desvantagens
 
 
 
