@@ -14,6 +14,15 @@ title: "Semana 06"
 
 {{< fa file-pdf size=lg >}} [Tópicos de metodologia de pesquisa: Estudos de corte transversal](/artigos/Entendendo_estudos_transversais.pdf)
 
+### Probabilidade ou chance?
+
+Probabilidade e chance são conceitos relacionados, mas não exatamente sinônimos! Leia os artigos abaixo e descubra mais sobre esse assunto.
+
+{{< fa file-pdf size=lg >}} [Probabilidade ou chance?](/artigos/Probabilidade_ou_chance_01.pdf)
+
+{{< fa file-pdf size=lg >}} [Probabilidade ou chance?](/artigos/Probabilidade_ou_chance.pdf)
+
+
 ## Slides
 
 {{< fa file-powerpoint size=lg >}} [Estudos caso-controle](/aulas/Planejamento/#/estudo-caso-controle "Estudo caso-controle"){aria-label="Estudo caso-controle"}
