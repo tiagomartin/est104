@@ -1122,7 +1122,7 @@
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-7",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\nPodemos construir um intervalo de confiança para o estimador da \\(OR\\). Para isso, precisamos da variância de \\(OR\\). Por razões teóricas, é mais fácil obter a variância de \\(\\log[OR]\\). Vale o seguinte resultado:\n\\[\\text{Var}(\\ln[OR]) = \\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} + \\dfrac{1}{d}\\]\ne um intervalo de confiança de \\(95\\%\\) para a \\(OR\\) é obtido por\n\\[\\exp(\\ln[OR] \\pm 1,96 \\times \\sqrt{\\text{Var}(\\ln[OR])})\\]"
+    "text": "Razão de chances ou odds-ratio\n\nPodemos construir um intervalo de confiança para o estimador da \\(OR\\). Para isso, precisamos da variância de \\(OR\\). Por razões teóricas, é mais fácil obter a variância de \\(\\ln[OR]\\). Vale o seguinte resultado:\n\\[\\text{Var}(\\ln[OR]) = \\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} + \\dfrac{1}{d}\\]\ne um intervalo de confiança de \\(95\\%\\) para a \\(OR\\) é obtido por\n\\[\\exp(\\ln[OR] \\pm 1,96 \\times \\sqrt{\\text{Var}(\\ln[OR])})\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-8",
