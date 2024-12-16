@@ -1264,6 +1264,8 @@ $$IC_{95\%}(OR) = (1,17; 1,55)$$
 
 - Sujeitos à causalidade reversa, pois os participantes são medidos uma única vez.
 
+    - **Causalidae reversa:** Quando a variável que pensamos que é a causa, na verdade é consequência.
+
 . . .
 
 - Viés de memória &#11106; o histórico de exposição geralmente obtido através de questionários **recordatórios**.
