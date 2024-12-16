@@ -23,6 +23,10 @@ Probabilidade e chance são conceitos relacionados, mas não exatamente sinônim
 {{< fa file-pdf size=lg >}} [Probabilidade ou chance?](/artigos/Probabilidade_ou_chance.pdf)
 
 
+## Tabela qui-quadrado
+
+{{< fa table size=lg >}}[Tabela Qui-quadrado](/documentos/Tabela da Qui-quadrado.pdf)
+
 ## Slides
 
 {{< fa file-powerpoint size=lg >}} [Estudos caso-controle](/aulas/Planejamento/#/estudo-caso-controle "Estudo caso-controle"){aria-label="Estudo caso-controle"}

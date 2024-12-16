@@ -547,7 +547,7 @@
 <p>Em relação ao artigo <em>Coronavírus e o Coração | Um Relato de Caso sobre a Evolução da COVID-19 Associado à Evolução Cardiológica</em>, procure responder às questões propostas no <a href="../..\aulas/Planejamento/index.html#/questões-que-podem-ser-respondidas">slide anterior</a>.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_b756fcb0" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_ae4d92ff" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls">
 <button class="countdown-bump-down">−</button><button class="countdown-bump-up">&amp;plus;</button>
 </div>
@@ -1012,16 +1012,58 @@
 <p>Com este tipo de delineamento, estima-se a prevalência e não a incidência do desfecho de interesse.</p>
 </section><section id="estudo-caso-controle-9" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Estudo caso-controle</h2>
 <p>Com este tipo de delineamento, estima-se a prevalência e não a incidência do desfecho de interesse.</p>
-<p><span class="math display">\[\text{prevalência} = \dfrac{\text{Nº de casos existentes em determinado período} }{\text{Nº de pessoas na população no mesmo período}}\]</span></p>
+<p><span class="math display">\[\text{prevalência} = \dfrac{\text{Nº de casos existentes em determinado momento} }{\text{Nº de pessoas na população no mesmo momento}}\]</span></p>
 </section><section id="estudo-caso-controle-10" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Estudo caso-controle</h2>
-<p><span class="math display">\[\text{prevalência} = \dfrac{\text{Nº de casos existentes em determinado período} }{\text{Nº de pessoas na população no mesmo período}}\]</span></p>
+<p><span class="math display">\[\text{prevalência} = \dfrac{\text{Nº de casos existentes em determinado momento} }{\text{Nº de pessoas na população no mesmo momento}}\]</span></p>
 <p>A <strong>prevalência</strong> se refere ao número de casos existentes de uma doença em um dado momento. Os casos existentes são daqueles que adoeceram em algum momento do passado, somados aos casos novos dos que ainda estão vivos e doentes</p>
-</section><section id="estudo-caso-controle-11" class="slide level2"><h2>Estudo caso-controle</h2>
-<p>Em estudos de caso controle, não é possível calcular a incidência da doença, pois começamos o estudo com pessoas doentes e não doentes.</p>
 <div class="fragment">
-<p>Assim, vamos adotar uma medida alternativa conhecida como <em>odds-ratio</em>.</p>
+<p>A prevalência é como a descrição de uma <strong>fotografia</strong> de grupo.</p>
+</div>
+</section><section id="estudo-caso-controle-11" class="slide level2"><h2>Estudo caso-controle</h2>
+<p><strong>Exemplo:</strong> Entre 10000 crianças pré-escolares submetidas a exames parasitológicos de fezes, no início do ano, foram encontradas 500 com exame positivo para <em>Ascaris</em>.</p>
+<p><span class="math display">\[\text{prevalência} = \dfrac{500}{\text{10000}} = 0,05 \times 100 = 5\%\]</span></p>
+<div class="fragment">
+<p><strong>Interpretação:</strong> A prevalência da verminose em crianças pré-escolares, no início do ano, foi de 5%.</p>
+</div>
+<div class="fragment">
+<p>É uma proporção, <strong>NÃO</strong> expressa risco!</p>
 </div>
 </section><section id="estudo-caso-controle-12" class="slide level2"><h2>Estudo caso-controle</h2>
+<p>Existem, basicamente, três formas diferentes de calcular a prevalência:</p>
+<div class="fragment">
+<ul>
+<li>
+<strong>Prevalência num período:</strong> O número de casos de um evento de saúde num determinado momento. Por exemplo, num questionário ser-lhe-ía perguntado se fuma atualmente.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>
+<strong>Prevalência-período:</strong> O número de casos de um evento de saúde relativamente a um período de tempo, frequentemente 12 meses. Por exemplo, num questionário seria perguntado se fumou durante os últimos 12 meses.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>
+<strong>Prevalência ao longo da vida:</strong> O número de casos do evento de saúde relativamente ao período de vida. Por exemplo, num questionário seria perguntado se alguma vez fumou.</li>
+</ul>
+</div>
+</section><section id="estudo-caso-controle-13" class="slide level2"><h2>Estudo caso-controle</h2>
+<p>Em estudos de caso controle, não é possível calcular a incidência da doença, pois começamos o estudo com pessoas doentes e não doentes.</p>
+<div class="fragment">
+<p>Assim, vamos adotar uma medida alternativa conhecida como razão de chances ou <em>odds-ratio</em>.</p>
+</div>
+<div class="fragment">
+<p>O conceito de <strong>chance</strong> pode ser representado matematicamente por:</p>
+<p><span class="math display">\[r = \dfrac{p}{1 - p}\]</span> onde <span class="math inline">\(r\)</span> é a chance e <span class="math inline">\(p\)</span> é a probabilidade de ocorrência do evento.</p>
+</div>
+<div class="fragment">
+<p>Leia mais sobre a relação entre <strong>probabilidade e chance</strong> <a href="../..\artigos/Probabilidade_ou_chance_01.pdf">aqui</a> e <a href="../..\artigos/Probabilidade_ou_chance.pdf">aqui</a>.</p>
+</div>
+</section><section id="razão-de-chances-ou-odds-ratio" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</h2>
+<p>A razão de chances (OR) é a chance de exposição entre os casos dividido pela chance de exposição entre os controles.</p>
+<div class="fragment">
 <p><br></p>
 
 
@@ -1074,27 +1116,35 @@
 <td class="cab">Total</td>
 <td class="cont">a + c</td>
 <td class="cont">b + d</td>
-<td class="cont">a + b + c + d</td>
+<td class="cont">n = a + b + c + d</td>
 </tr>
 </tbody>
 </table>
 </div>
 
 
-</section><section id="razão-de-chances-ou-odds-ratio" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Razão de chances ou <em>odds-ratio</em>
-</h2>
-<p><span class="math display">\[\text{Razão de chances (OR)} = \dfrac{\dfrac{\dfrac{a}{a+c}}{\dfrac{c}{a+c}}}{\dfrac{\dfrac{b}{b+d}}{\dfrac{d}{b+d}}} = \dfrac{\dfrac{a}{c}}{\dfrac{b}{d}} = \dfrac{ad}{bc}\]</span></p>
+</div>
 </section><section id="razão-de-chances-ou-odds-ratio-1" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Razão de chances ou <em>odds-ratio</em>
 </h2>
-<p><strong>Interpretação:</strong> O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.</p>
+<p><span class="math display">\[\text{Razão de chances (OR)} = \dfrac{\dfrac{\dfrac{a}{a+c}}{\dfrac{c}{a+c}}}{\dfrac{\dfrac{b}{b+d}}{\dfrac{d}{b+d}}} = \dfrac{\dfrac{a}{c}}{\dfrac{b}{d}} = \dfrac{ad}{bc}\]</span></p>
 </section><section id="razão-de-chances-ou-odds-ratio-2" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Razão de chances ou <em>odds-ratio</em>
+</h2>
+<p><strong>Interpretação:</strong> O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.</p>
+</section><section id="razão-de-chances-ou-odds-ratio-3" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Razão de chances ou <em>odds-ratio</em>
 </h2>
 <p><strong>Interpretação:</strong> O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.</p>
 <ul>
 <li><p>Se OR &gt; 1 - fator de risco</p></li>
 <li><p>Se OR &lt; 1 - fator de proteção</p></li>
 <li><p>Se OR = 1 - sem associação</p></li>
-</ul></section><section id="razão-de-chances-ou-odds-ratio-3" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</ul></section><section id="razão-de-chances-ou-odds-ratio-4" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</h2>
+<p>Para testar a hipótese nula:</p>
+<p><span class="math display">\[H_0: OR = 1\]</span></p>
+<p>podemos utilizar o teste Qui-quadrado com 1 GL.</p>
+<p>Estatística do teste:</p>
+<p><span class="math display">\[\chi^2 =  \dfrac{(ad - bc)^2 \times n}{(a + b) \times (c + d) \times (a + c) \times (b + d)}\]</span></p>
+</section><section id="razão-de-chances-ou-odds-ratio-5" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
 </h2>
 <ul>
 <li>Consumo de álcool no passado <span class="math inline">\(\times\)</span> Câncer de Pâncreas</li>
@@ -1136,16 +1186,49 @@
 
 
 <div class="fragment">
-<p><span class="math display">\[\text{OR} = \dfrac{\dfrac{\dfrac{1000}{1300}}{\dfrac{300}{1300}}}{\dfrac{\dfrac{3200}{4500}}{\dfrac{1300}{4500}}} = \dfrac{\dfrac{1000}{300}}{\dfrac{3200}{1300}} = \dfrac{1000 \times 1300}{300 \times 3200} = \dfrac{1300000}{960000} = 1,35\]</span></p>
+<p><span class="math display">\[\text{OR} = \dfrac{\dfrac{\dfrac{1000}{1300}}{\dfrac{300}{1300}}}{\dfrac{\dfrac{3200}{4500}}{\dfrac{1300}{4500}}} = \dfrac{\dfrac{1000}{300}}{\dfrac{3200}{1300}} = \dfrac{1000 \times 1300}{300 \times 3200} = \dfrac{1300000}{960000} \approx 1,35\]</span></p>
 </div>
-</section><section id="razão-de-chances-ou-odds-ratio-4" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</section><section id="razão-de-chances-ou-odds-ratio-6" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</h2>
+<p>Existe associação entre o consumo de álcool no passado e Câncer de Pâncreas?</p>
+<div class="fragment">
+<p><span class="math inline">\(H_0: OR = 1\)</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\chi^2 =  \dfrac{(1000 \times 1300 - 3200 \times 300)^2 \times 5800}{(1000 + 3200) \times (300 + 1300) \times (1000 + 300) \times (3200 + 1300)} = 17,06\]</span></p>
+</div>
+<div class="fragment">
+<p>Como <span class="math inline">\(\chi^2 = 17,06 &gt; 3,841 =\)</span> <a href="../..\documentos/Tabela da Qui-quadrado.pdf"><span class="math inline">\(\chi^2_{(1;0,05)}\)</span></a> rejeita-se a hipótese nula. Logo, o consumo de álcool no passado é fator de risco para o desenvolvimento de Câncer de Pâncreas.</p>
+</div>
+</section><section id="razão-de-chances-ou-odds-ratio-7" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</h2>
+<p>Podemos construir um intervalo de confiança para o estimador da <span class="math inline">\(OR\)</span>. Para isso, precisamos da variância de <span class="math inline">\(OR\)</span>. Por razões teóricas, é mais fácil obter a variância de <span class="math inline">\(\log[OR]\)</span>. Vale o seguinte resultado:</p>
+<p><span class="math display">\[\text{Var}(\ln[OR]) = \dfrac{1}{a} + \dfrac{1}{b} + \dfrac{1}{c} + \dfrac{1}{d}\]</span></p>
+<p>e um intervalo de confiança de <span class="math inline">\(95\%\)</span> para a <span class="math inline">\(OR\)</span> é obtido por</p>
+<p><span class="math display">\[\exp(\ln[OR] \pm 1,96 \times \sqrt{\text{Var}(\ln[OR])})\]</span></p>
+</section><section id="razão-de-chances-ou-odds-ratio-8" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</h2>
+<p>No exemplo do CA de pâncreas, temos <span class="math inline">\(OR \approx 1,35\)</span>. Logo,:</p>
+<div class="fragment">
+<p><span class="math display">\[\ln[OR] = \ln[1,35] = 0,3\]</span> e,</p>
+<p><span class="math display">\[\text{Var}(\ln[OR]) = \dfrac{1}{1000} + \dfrac{1}{3200} + \dfrac{1}{300} + \dfrac{1}{1300} = 0,0054\]</span></p>
+</div>
+<div class="fragment">
+<p>Um intervalo de confiança de 95% para <span class="math inline">\(OR\)</span> é obtido por</p>
+<p><span class="math display">\[
+\begin{eqnarray*}
+\exp(0,3 \pm 1,96 \times \sqrt{0,0054}) &amp;=&amp; (\exp(0,3 - 0,14); \exp(0,3 + 0,14)) \\&amp;=&amp; (\exp(0,16); \exp(0,44))
+\end{eqnarray*}
+\]</span> <span class="math display">\[IC_{95\%}(OR) = (1,17; 1,55)\]</span></p>
+</div>
+</section><section id="razão-de-chances-ou-odds-ratio-9" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
 </h2>
 <ul>
 <li>
-<strong>Interpretação:</strong>
+<p><strong>Interpretação:</strong></p>
 <ul>
-<li>A ingestão de álcool está associada à uma chance 35% maior de desenvolver CP;</li>
-<li>As chances de CP são 35% maiores entre os que ingerem álcool em comparação com aqueles que não o fizeram;</li>
+<li>A ingestão de álcool está associada à uma chance 35% maior de desenvolver CA de Pâncreas;</li>
+<li>As chances de CA de Pâncreas são 35% maiores entre os que ingerem álcool em comparação com aqueles que não o fizeram;</li>
 <li>O Odds Ratio (ou a razão de chances) de desenvolver CP é de 1,35 comparando os que ingeriram álcool com aqueles que não ingeriram álcool, ou seja a ingestão de álcool é fator de risco para o desenvolvimento de CP.</li>
 </ul>
 </li>
@@ -1280,19 +1363,18 @@
 <p>Para obter evidências mais definitivas sobre os reais efeitos dos capacetes, pesquisadores na Noruega conduziram um estudo de caso-controle. Casos e controles foram escolhidos entre os visitantes de oito grandes estações de esqui durante o inverno de 2002.</p>
 </section><section id="exemplo-3" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Exemplo</h2>
 
-<img data-src="../..\images/exemploCaso-controle.png" class="quarto-figure quarto-figure-center r-stretch"></section><section id="exemplo-4" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Exemplo</h2>
+<img data-src="../..\images/exemploCaso-controle.png" class="quarto-figure quarto-figure-center r-stretch"></section><section id="exemplo-4" class="slide level2"><h2>Exemplo</h2>
 <ul>
 <li>
 <strong>Casos:</strong> 578 pessoas com traumatismos cranianos registradas</li>
-</ul></section><section id="exemplo-5" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Exemplo</h2>
-<ul>
-<li><p><strong>Casos:</strong> 578 pessoas com traumatismos cranianos registradas</p></li>
-<li><p><strong>Controles:</strong> uma amostra das pessoas que estavam esperando na fila para o principal teleférico em cada uma das oito estações</p></li>
-</ul></section><section id="exemplo-6" class="slide level2"><h2>Exemplo</h2>
+</ul>
+<div class="fragment">
 <ul>
 <li>
-<strong>Variáveis confundidoras:</strong> idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis.</li>
-</ul></section><section id="exemplo-7" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Exemplo</h2>
+<strong>Controles:</strong> uma amostra das pessoas que estavam esperando na fila para o principal teleférico em cada uma das oito estações</li>
+</ul>
+</div>
+<div class="fragment">
 <ul>
 <li>
 <p><strong>Variáveis confundidoras:</strong> idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis.</p>
@@ -1300,21 +1382,19 @@
 <li>Analisadas tanto nos casos quanto nos controles</li>
 </ul>
 </li>
-</ul></section><section id="exemplo-8" class="slide level2"><h2>Exemplo</h2>
+</ul>
+</div>
+</section><section id="exemplo-5" class="slide level2"><h2>Exemplo</h2>
 <p>Após considerar os confundidores, o uso de capacete foi associado a uma redução de 60% no risco de traumatismo craniano.</p>
 <p><span class="citation" data-cites="Sulheim44">Sulheim et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span></p>
-</section><section id="prática-2" class="slide level2"><h2>Prática</h2>
-<p>Discussão do artigo <a href="../..\artigos/fatores_cancer_boca_caso_controle.pdf">Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil</a>.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_2883b19a" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls">
-<button class="countdown-bump-down">−</button><button class="countdown-bump-up">&amp;plus;</button>
-</div>
-<code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
+<!-- ## Prática -->
+<!-- ```{r include = FALSE} -->
+<!-- library(countdown) -->
+<!-- ``` -->
+<!-- Discussão do artigo [Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil](/artigos/fatores_cancer_boca_caso_controle.pdf). -->
+<!-- ```{r} -->
+<!-- countdown(minutes = 15) -->
+<!-- ``` -->
 </section></section><section><section id="estudos-transversais" class="title-slide slide level1 center"><h1>Estudos Transversais</h1>
 <p>Estudos observacionais analíticos</p>
 </section><section id="estudo-transversal" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Estudo Transversal</h2>
@@ -1419,7 +1499,7 @@
 <li><p>Se RP &gt; 1 - fator de risco</p></li>
 <li><p>Se RP &lt; 1 - fator de proteção</p></li>
 <li><p>Se RP = 1 - sem associação</p></li>
-</ul></section><section id="exemplo-9" class="slide level2"><h2>Exemplo</h2>
+</ul></section><section id="exemplo-6" class="slide level2"><h2>Exemplo</h2>
 <ul>
 <li>Estudar a associação entre mulheres que fumam e cólica infantil. Para isso foi observada a seguinte tabela de contingência</li>
 </ul>
@@ -1462,9 +1542,9 @@
 <div class="fragment">
 <p><span class="math display">\[\text{Razão de prevalência (RP)} = \dfrac{\dfrac{15}{15+167}}{\dfrac{111}{111+2477}} = \dfrac{0,08}{0,04} = 2 &gt; 1\]</span></p>
 </div>
-</section><section id="exemplo-10" class="slide level2"><h2>Exemplo</h2>
+</section><section id="exemplo-7" class="slide level2"><h2>Exemplo</h2>
 <p>A razão de prevalência de cólica infantil entre mulheres que fumam é de <strong>2 vezes</strong> mais que as mulheres que não fumam.</p>
-</section><section id="exemplo-11" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Exemplo</h2>
+</section><section id="exemplo-8" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Exemplo</h2>
 <p>A razão de prevalência de cólica infantil entre mulheres que fumam é de <strong>2 vezes</strong> mais que as mulheres que não fumam.</p>
 <p>O hábito de fumar parece ser <strong>fator de risco</strong> para cólica infantil naquele dado momento na população.</p>
 </section><section id="vantagens-3" class="slide level2"><h2>Vantagens</h2>
@@ -1505,11 +1585,11 @@
 <li>Doenças de curta duração podem não ser representativas</li>
 </ul>
 </div>
-</section><section id="prática-3" class="slide level2"><h2>Prática</h2>
+</section><section id="prática-2" class="slide level2"><h2>Prática</h2>
 <p>Discussão do artigo <a href="../..\artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf">Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto</a>.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_5ac98c2d" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_79e74bf0" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls">
 <button class="countdown-bump-down">−</button><button class="countdown-bump-up">&amp;plus;</button>
 </div>
@@ -2804,7 +2884,7 @@ Sulheim, Steinar, Arne Ekeland, Ingar Holme, and Roald Bahr. 2017. <span>“Helm
         }
       }
     });
-    </script><script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});
+    </script><script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});
     (function() {
       let previousOnload = window.onload;
       window.onload = () => {

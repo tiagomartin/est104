@@ -15,6 +15,8 @@ Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semest
 <!-- {{< fa file-powerpoint size=2xl >}}   -  slides -->
 <!-- {{< fa laptop-file size=2xl >}}  -  estudo de caso -->
 <!-- {{< fa file-pdf size=2xl >}}  -  artigo -->
+<!-- {{< fa table size=2xl >}}  -  tabelas estatisticas -->
+
 
 ::: column-screen-inset-right
 | Semana | Data | Tópico | Artigo | Slides |EC |LE |Script  | Avaliação | Projeto |

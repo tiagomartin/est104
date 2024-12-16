@@ -21,6 +21,13 @@
     "text": "Leitura adicional\n Entendendo a pesquisa clínica IV: Estudos de caso controle\n Tópicos de metodologia de pesquisa: Estudos de corte transversal\n\nProbabilidade ou chance?\nProbabilidade e chance são conceitos relacionados, mas não exatamente sinônimos! Leia os artigos abaixo e descubra mais sobre esse assunto.\n Probabilidade ou chance?\n Probabilidade ou chance?"
   },
   {
+    "objectID": "programacao/semana-6.html#tabela-qui-quadrado",
+    "href": "programacao/semana-6.html#tabela-qui-quadrado",
+    "title": "Semana 06",
+    "section": "Tabela qui-quadrado",
+    "text": "Tabela qui-quadrado\nTabela Qui-quadrado"
+  },
+  {
     "objectID": "programacao/semana-6.html#slides",
     "href": "programacao/semana-6.html#slides",
     "title": "Semana 06",
@@ -1031,49 +1038,147 @@
     "href": "aulas/Planejamento/index.html#estudo-caso-controle-9",
     "title": "Planejamento na área da saúde",
     "section": "Estudo caso-controle",
-    "text": "Estudo caso-controle\nCom este tipo de delineamento, estima-se a prevalência e não a incidência do desfecho de interesse.\n\\[\\text{prevalência} = \\dfrac{\\text{Nº de casos existentes em determinado período} }{\\text{Nº de pessoas na população no mesmo período}}\\]"
+    "text": "Estudo caso-controle\nCom este tipo de delineamento, estima-se a prevalência e não a incidência do desfecho de interesse.\n\\[\\text{prevalência} = \\dfrac{\\text{Nº de casos existentes em determinado momento} }{\\text{Nº de pessoas na população no mesmo momento}}\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-10",
     "href": "aulas/Planejamento/index.html#estudo-caso-controle-10",
     "title": "Planejamento na área da saúde",
     "section": "Estudo caso-controle",
-    "text": "Estudo caso-controle\n\\[\\text{prevalência} = \\dfrac{\\text{Nº de casos existentes em determinado período} }{\\text{Nº de pessoas na população no mesmo período}}\\]\nA prevalência se refere ao número de casos existentes de uma doença em um dado momento. Os casos existentes são daqueles que adoeceram em algum momento do passado, somados aos casos novos dos que ainda estão vivos e doentes"
+    "text": "Estudo caso-controle\n\\[\\text{prevalência} = \\dfrac{\\text{Nº de casos existentes em determinado momento} }{\\text{Nº de pessoas na população no mesmo momento}}\\]\nA prevalência se refere ao número de casos existentes de uma doença em um dado momento. Os casos existentes são daqueles que adoeceram em algum momento do passado, somados aos casos novos dos que ainda estão vivos e doentes\n\nA prevalência é como a descrição de uma fotografia de grupo."
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-11",
     "href": "aulas/Planejamento/index.html#estudo-caso-controle-11",
     "title": "Planejamento na área da saúde",
     "section": "Estudo caso-controle",
-    "text": "Estudo caso-controle\nEm estudos de caso controle, não é possível calcular a incidência da doença, pois começamos o estudo com pessoas doentes e não doentes.\n\nAssim, vamos adotar uma medida alternativa conhecida como odds-ratio."
+    "text": "Estudo caso-controle\nExemplo: Entre 10000 crianças pré-escolares submetidas a exames parasitológicos de fezes, no início do ano, foram encontradas 500 com exame positivo para Ascaris.\n\\[\\text{prevalência} = \\dfrac{500}{\\text{10000}} = 0,05 \\times 100 = 5\\%\\]\n\nInterpretação: A prevalência da verminose em crianças pré-escolares, no início do ano, foi de 5%.\n\n\nÉ uma proporção, NÃO expressa risco!"
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-12",
     "href": "aulas/Planejamento/index.html#estudo-caso-controle-12",
     "title": "Planejamento na área da saúde",
     "section": "Estudo caso-controle",
-    "text": "Estudo caso-controle\n\n\n\n    \n\n\n\n\n\n        \n\n\n\n\n\n\n\n\n\n\nC\n\n+\n\nC\n\n-\n\nTotal\n\n\nF\n\n+\n\na\nb\na + b\n\n\nF\n\n-\n\nc\nd\nc + d\n\n\nTotal\na + c\nb + d\na + b + c + d"
+    "text": "Estudo caso-controle\nExistem, basicamente, três formas diferentes de calcular a prevalência:\n\n\n\nPrevalência num período: O número de casos de um evento de saúde num determinado momento. Por exemplo, num questionário ser-lhe-ía perguntado se fuma atualmente.\n\n\n\n\n\nPrevalência-período: O número de casos de um evento de saúde relativamente a um período de tempo, frequentemente 12 meses. Por exemplo, num questionário seria perguntado se fumou durante os últimos 12 meses.\n\n\n\n\n\nPrevalência ao longo da vida: O número de casos do evento de saúde relativamente ao período de vida. Por exemplo, num questionário seria perguntado se alguma vez fumou."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#estudo-caso-controle-13",
+    "href": "aulas/Planejamento/index.html#estudo-caso-controle-13",
+    "title": "Planejamento na área da saúde",
+    "section": "Estudo caso-controle",
+    "text": "Estudo caso-controle\nEm estudos de caso controle, não é possível calcular a incidência da doença, pois começamos o estudo com pessoas doentes e não doentes.\n\nAssim, vamos adotar uma medida alternativa conhecida como razão de chances ou odds-ratio.\n\n\nO conceito de chance pode ser representado matematicamente por:\n\\[r = \\dfrac{p}{1 - p}\\] onde \\(r\\) é a chance e \\(p\\) é a probabilidade de ocorrência do evento.\n\n\nLeia mais sobre a relação entre probabilidade e chance aqui e aqui."
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\n\\[\\text{Razão de chances (OR)} = \\dfrac{\\dfrac{\\dfrac{a}{a+c}}{\\dfrac{c}{a+c}}}{\\dfrac{\\dfrac{b}{b+d}}{\\dfrac{d}{b+d}}} = \\dfrac{\\dfrac{a}{c}}{\\dfrac{b}{d}} = \\dfrac{ad}{bc}\\]"
+    "text": "Razão de chances ou odds-ratio\n\nA razão de chances (OR) é a chance de exposição entre os casos dividido pela chance de exposição entre os controles.\n\n\n\n\n    \n\n\n\n\n\n        \n\n\n\n\n\n\n\n\n\n\nC\n\n+\n\nC\n\n-\n\nTotal\n\n\nF\n\n+\n\na\nb\na + b\n\n\nF\n\n-\n\nc\nd\nc + d\n\n\nTotal\na + c\nb + d\nn = a + b + c + d"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-1",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-1",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte."
+    "text": "Razão de chances ou odds-ratio\n\n\\[\\text{Razão de chances (OR)} = \\dfrac{\\dfrac{\\dfrac{a}{a+c}}{\\dfrac{c}{a+c}}}{\\dfrac{\\dfrac{b}{b+d}}{\\dfrac{d}{b+d}}} = \\dfrac{\\dfrac{a}{c}}{\\dfrac{b}{d}} = \\dfrac{ad}{bc}\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-2",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-2",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-3",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
     "text": "Razão de chances ou odds-ratio\n\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.\n\nSe OR &gt; 1 - fator de risco\nSe OR &lt; 1 - fator de proteção\nSe OR = 1 - sem associação"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-4",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\nPara testar a hipótese nula:\n\\[H_0: OR = 1\\]\npodemos utilizar o teste Qui-quadrado com 1 GL.\nEstatística do teste:\n\\[\\chi^2 =  \\dfrac{(ad - bc)^2 \\times n}{(a + b) \\times (c + d) \\times (a + c) \\times (b + d)}\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-5",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-5",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\n\nConsumo de álcool no passado \\(\\times\\) Câncer de Pâncreas\n\n\n\n\n\n\n\n        \n\n\n\nCom câncer de pâncreas\nSem câncer de pâncreas\nTotal\n\n\nConsumo de álcool\n1000\n3200\n4200\n\n\nSem consumo de álcool\n300\n1300\n1600\n\n\nTotal\n1300\n4500\n5800\n\n\n\n\n\n\n\\[\\text{OR} = \\dfrac{\\dfrac{\\dfrac{1000}{1300}}{\\dfrac{300}{1300}}}{\\dfrac{\\dfrac{3200}{4500}}{\\dfrac{1300}{4500}}} = \\dfrac{\\dfrac{1000}{300}}{\\dfrac{3200}{1300}} = \\dfrac{1000 \\times 1300}{300 \\times 3200} = \\dfrac{1300000}{960000} \\approx 1,35\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-6",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-6",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\nExiste associação entre o consumo de álcool no passado e Câncer de Pâncreas?\n\n\\(H_0: OR = 1\\)\n\n\n\\[\\chi^2 =  \\dfrac{(1000 \\times 1300 - 3200 \\times 300)^2 \\times 5800}{(1000 + 3200) \\times (300 + 1300) \\times (1000 + 300) \\times (3200 + 1300)} = 17,06\\]\n\n\nComo \\(\\chi^2 = 17,06 &gt; 3,841 =\\) \\(\\chi^2_{(1;0,05)}\\) rejeita-se a hipótese nula. Logo, o consumo de álcool no passado é fator de risco para o desenvolvimento de Câncer de Pâncreas."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-7",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-7",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\nPodemos construir um intervalo de confiança para o estimador da \\(OR\\). Para isso, precisamos da variância de \\(OR\\). Por razões teóricas, é mais fácil obter a variância de \\(\\log[OR]\\). Vale o seguinte resultado:\n\\[\\text{Var}(\\ln[OR]) = \\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} + \\dfrac{1}{d}\\]\ne um intervalo de confiança de \\(95\\%\\) para a \\(OR\\) é obtido por\n\\[\\exp(\\ln[OR] \\pm 1,96 \\times \\sqrt{\\text{Var}(\\ln[OR])})\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-8",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-8",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\nNo exemplo do CA de pâncreas, temos \\(OR \\approx 1,35\\). Logo,:\n\n\\[\\ln[OR] = \\ln[1,35] = 0,3\\] e,\n\\[\\text{Var}(\\ln[OR]) = \\dfrac{1}{1000} + \\dfrac{1}{3200} + \\dfrac{1}{300} + \\dfrac{1}{1300} = 0,0054\\]\n\n\nUm intervalo de confiança de 95% para \\(OR\\) é obtido por\n\\[\n\\begin{eqnarray*}\n\\exp(0,3 \\pm 1,96 \\times \\sqrt{0,0054}) &=& (\\exp(0,3 - 0,14); \\exp(0,3 + 0,14)) \\\\&=& (\\exp(0,16); \\exp(0,44))\n\\end{eqnarray*}\n\\] \\[IC_{95\\%}(OR) = (1,17; 1,55)\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-9",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-9",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\n\n\nInterpretação:\n\nA ingestão de álcool está associada à uma chance 35% maior de desenvolver CA de Pâncreas;\nAs chances de CA de Pâncreas são 35% maiores entre os que ingerem álcool em comparação com aqueles que não o fizeram;\nO Odds Ratio (ou a razão de chances) de desenvolver CP é de 1,35 comparando os que ingeriram álcool com aqueles que não ingeriram álcool, ou seja a ingestão de álcool é fator de risco para o desenvolvimento de CP."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos",
+    "title": "Planejamento na área da saúde",
+    "section": "Como selecionar os casos?",
+    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-1",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Como selecionar os casos?",
+    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-2",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-2",
+    "title": "Planejamento na área da saúde",
+    "section": "Como selecionar os casos?",
+    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)\nMoradores de uma cidade sendo diagnosticado em outra cidade"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-3",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Como selecionar os casos?",
+    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)\nMoradores de uma cidade sendo diagnosticado em outra cidade\nSigilo por parte dos pacientes"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-4",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-4",
+    "title": "Planejamento na área da saúde",
+    "section": "Como selecionar os casos?",
+    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)\nMoradores de uma cidade sendo diagnosticado em outra cidade\nSigilo por parte dos pacientes\n\n\n\n\n\n\nNa prática: amostragem por conveniência\n\nDificuldade em definir a população alvo, e consequentemente, a seleção dos controles."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-controles",
+    "href": "aulas/Planejamento/index.html#como-selecionar-os-controles",
+    "title": "Planejamento na área da saúde",
+    "section": "Como selecionar os controles?",
+    "text": "Como selecionar os controles?\n\n\nUtilizar alguma estratégia que produza “controles” comparáveis aos casos.\n\nPacientes internados no mesmo hospital, mas com outras doenças.\nVizinhos, amigos ou parentes dos casos.\nEtc.\n\n\n\n\n\nProcurar equilibrar o que é ideal (amostragem aleatória) com o que é factível (dificuldades práticas)\n\n\n\n\n\n\n\n\n\nCuidado!\n\n\n\nGrupos de casos e controles não comparáveis ⭢ distorsão nos resultados!"
   },
   {
     "objectID": "aulas/Planejamento/index.html#vantagens-2",
@@ -1088,6 +1193,13 @@
     "title": "Planejamento na área da saúde",
     "section": "Desvantagens",
     "text": "Desvantagens\n\nSujeitos à causalidade reversa, pois os participantes são medidos uma única vez.\n\n\n\nViés de memória ⭢ o histórico de exposição geralmente obtido através de questionários recordatórios.\n\nPode ser diferencial entre casos e controles: indivíduos com a doença tendem a ser esforçar mais para lembrar do histórico de exposição que os indivíduos sem a doença ⭢ distorce a comparação entre os grupos."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#desvantagens-3",
+    "href": "aulas/Planejamento/index.html#desvantagens-3",
+    "title": "Planejamento na área da saúde",
+    "section": "Desvantagens",
+    "text": "Desvantagens\n\nViés de seleção ⭢ relacionado ao processo de seleção dos participantes do estudo\n\nSeleção de casos: frequentemente utiliza-se amostragem por conveniência\nSeleção de controles: diferentes estratégias possuem diferentes vantagens e desvantagens"
   },
   {
     "objectID": "aulas/Planejamento/index.html#exemplo-1",
@@ -1115,42 +1227,35 @@
     "href": "aulas/Planejamento/index.html#exemplo-4",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
-    "text": "Exemplo\n\n\nCasos: 578 pessoas com traumatismos cranianos registradas"
+    "text": "Exemplo\n\n\nCasos: 578 pessoas com traumatismos cranianos registradas\n\n\n\n\nControles: uma amostra das pessoas que estavam esperando na fila para o principal teleférico em cada uma das oito estações\n\n\n\n\n\nVariáveis confundidoras: idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis.\n\nAnalisadas tanto nos casos quanto nos controles"
   },
   {
     "objectID": "aulas/Planejamento/index.html#exemplo-5",
     "href": "aulas/Planejamento/index.html#exemplo-5",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
-    "text": "Exemplo\n\nCasos: 578 pessoas com traumatismos cranianos registradas\nControles: uma amostra das pessoas que estavam esperando na fila para o principal teleférico em cada uma das oito estações"
+    "text": "Exemplo\nApós considerar os confundidores, o uso de capacete foi associado a uma redução de 60% no risco de traumatismo craniano.\nSulheim et al. (2017)"
   },
   {
     "objectID": "aulas/Planejamento/index.html#exemplo-6",
     "href": "aulas/Planejamento/index.html#exemplo-6",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
-    "text": "Exemplo\n\n\nVariáveis confundidoras: idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis."
+    "text": "Exemplo\n\nEstudar a associação entre mulheres que fumam e cólica infantil. Para isso foi observada a seguinte tabela de contingência\n\n\n\n\n\n\n\n        \n\n\n\nCom cólica\nSem cólica\nTotal\n\n\nMãe fuma\n15\n167\n182\n\n\nMãe não fuma\n111\n2477\n2588\n\n\nTotal\n126\n2644\n2770\n\n\n\n\n\n\n\\[\\text{Razão de prevalência (RP)} = \\dfrac{\\dfrac{15}{15+167}}{\\dfrac{111}{111+2477}} = \\dfrac{0,08}{0,04} = 2 &gt; 1\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#exemplo-7",
     "href": "aulas/Planejamento/index.html#exemplo-7",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
-    "text": "Exemplo\n\n\nVariáveis confundidoras: idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis.\n\nAnalisadas tanto nos casos quanto nos controles"
+    "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam."
   },
   {
     "objectID": "aulas/Planejamento/index.html#exemplo-8",
     "href": "aulas/Planejamento/index.html#exemplo-8",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
-    "text": "Exemplo\nApós considerar os confundidores, o uso de capacete foi associado a uma redução de 60% no risco de traumatismo craniano.\nSulheim et al. (2017)"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#prática-2",
-    "href": "aulas/Planejamento/index.html#prática-2",
-    "title": "Planejamento na área da saúde",
-    "section": "Prática",
-    "text": "Prática\nDiscussão do artigo Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil.\n\n\n\n\n−&plus;\n\n15:00"
+    "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam.\nO hábito de fumar parece ser fator de risco para cólica infantil naquele dado momento na população."
   },
   {
     "objectID": "aulas/Planejamento/index.html#estudo-transversal",
@@ -1244,15 +1349,15 @@
     "text": "Vantagens\n\nRepresenta a população\n\n\n\nConveniente e não muito caro\n\n\n\n\nVárias exposições e doenças\n\n\n\n\nDoenças comuns e de longa duração: gera hipóteses\n\n\n\n\nEstudos de coortes e Ensaios Clínicos Randomizados: testam hipóteses"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#desvantagens-3",
-    "href": "aulas/Planejamento/index.html#desvantagens-3",
+    "objectID": "aulas/Planejamento/index.html#desvantagens-4",
+    "href": "aulas/Planejamento/index.html#desvantagens-4",
     "title": "Planejamento na área da saúde",
     "section": "Desvantagens",
-    "text": "Desvantagens\n\nViés de seleção ⭢ relacionado ao processo de seleção dos participantes do estudo\n\nSeleção de casos: frequentemente utiliza-se amostragem por conveniência\nSeleção de controles: diferentes estratégias possuem diferentes vantagens e desvantagens"
+    "text": "Desvantagens\n\nVulnerável a viéses\n\n\n\nInclui somente casos que sobrevivem (disponíveis para o estudo)\n\n\n\n\nDoenças de curta duração podem não ser representativas"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#prática-3",
-    "href": "aulas/Planejamento/index.html#prática-3",
+    "objectID": "aulas/Planejamento/index.html#prática-2",
+    "href": "aulas/Planejamento/index.html#prática-2",
     "title": "Planejamento na área da saúde",
     "section": "Prática",
     "text": "Prática\nDiscussão do artigo Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto.\n\n\n\n\n−&plus;\n\n15:00"
@@ -1892,7 +1997,7 @@
     "href": "cronograma.html",
     "title": "Cronograma da disciplina",
     "section": "",
-    "text": "Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nData\nTópico\nArtigo\nSlides\nEC\nLE\nScript\nAvaliação\nProjeto\n\n\n\n\n1\nSeg, 11/11\nApresentação da disciplina\n\n\n\n\n\n\n\n\n\n\nQua, 13/11\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n2\nSeg, 18/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 20/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n3\nSeg, 25/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 27/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n4\nSeg, 02/12\nRelato (Série) de casos\n\n️\n\n\n\n\n\n\n\n\nQua, 04/11\nEstudos de coorte\n\n️\n\n\n\n\n\n\n\n5\nSeg, 09/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n\nQua, 11/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n6\nSeg, 16/12\nEstudos caso-controle\n\n️\n\n\n\n\n\n\n\n\nQua, 18/12\nEstudos Transversais\n\n️\n\n\n\n\n\n\n\n\n23/12 a 19/01\nRecesso Acadêmico",
+    "text": "Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nData\nTópico\nArtigo\nSlides\nEC\nLE\nScript\nAvaliação\nProjeto\n\n\n\n\n1\nSeg, 11/11\nApresentação da disciplina\n\n\n\n\n\n\n\n\n\n\nQua, 13/11\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n2\nSeg, 18/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 20/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n3\nSeg, 25/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 27/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n4\nSeg, 02/12\nRelato (Série) de casos\n\n️\n\n\n\n\n\n\n\n\nQua, 04/11\nEstudos de coorte\n\n️\n\n\n\n\n\n\n\n5\nSeg, 09/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n\nQua, 11/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n6\nSeg, 16/12\nEstudos caso-controle\n\n️\n\n\n\n\n\n\n\n\nQua, 18/12\nEstudos Transversais\n\n️\n\n\n\n\n\n\n\n\n23/12 a 19/01\nRecesso Acadêmico",
     "crumbs": [
       "Cronograma da disciplina"
     ]
@@ -1952,68 +2057,5 @@
     "title": "Semana 05",
     "section": "",
     "text": "De acordo com a PORTARIA CONJUNTA No 01/2024/PROGRAD/PROPPI/ PROEX,DE 24 DE OUTUBRO DE 2024 não haverá aulas nesta semana."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos",
-    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos",
-    "title": "Planejamento na área da saúde",
-    "section": "Como selecionar os casos?",
-    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-1",
-    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-1",
-    "title": "Planejamento na área da saúde",
-    "section": "Como selecionar os casos?",
-    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-2",
-    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-2",
-    "title": "Planejamento na área da saúde",
-    "section": "Como selecionar os casos?",
-    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)\nMoradores de uma cidade sendo diagnosticado em outra cidade"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-3",
-    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-3",
-    "title": "Planejamento na área da saúde",
-    "section": "Como selecionar os casos?",
-    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)\nMoradores de uma cidade sendo diagnosticado em outra cidade\nSigilo por parte dos pacientes"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-casos-4",
-    "href": "aulas/Planejamento/index.html#como-selecionar-os-casos-4",
-    "title": "Planejamento na área da saúde",
-    "section": "Como selecionar os casos?",
-    "text": "Como selecionar os casos?\n\n\nIdealmente: amostragem aleatória do total de doentes da população alvo.\n\nDoentes sem diagnóstico (doença sem sintomas ou indivíduo sem acesso a serviço de saúde)\nMoradores de uma cidade sendo diagnosticado em outra cidade\nSigilo por parte dos pacientes\n\n\n\n\n\n\nNa prática: amostragem por conveniência\n\nDificuldade em definir a população alvo, e consequentemente, a seleção dos controles."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#como-selecionar-os-controles",
-    "href": "aulas/Planejamento/index.html#como-selecionar-os-controles",
-    "title": "Planejamento na área da saúde",
-    "section": "Como selecionar os controles?",
-    "text": "Como selecionar os controles?\n\n\nUtilizar alguma estratégia que produza “controles” comparáveis aos casos.\n\nPacientes internados no mesmo hospital, mas com outras doenças.\nVizinhos, amigos ou parentes dos casos.\nEtc.\n\n\n\n\n\nProcurar equilibrar o que é ideal (amostragem aleatória) com o que é factível (dificuldades práticas)\n\n\n\n\n\n\n\n\n\nCuidado!\n\n\n\nGrupos de casos e controles não comparáveis ⭢ distorsão nos resultados!"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#desvantagens-4",
-    "href": "aulas/Planejamento/index.html#desvantagens-4",
-    "title": "Planejamento na área da saúde",
-    "section": "Desvantagens",
-    "text": "Desvantagens\n\nVulnerável a viéses\n\n\n\nInclui somente casos que sobrevivem (disponíveis para o estudo)\n\n\n\n\nDoenças de curta duração podem não ser representativas"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-3",
-    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-3",
-    "title": "Planejamento na área da saúde",
-    "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\n\nConsumo de álcool no passado \\(\\times\\) Câncer de Pâncreas\n\n\n\n\n\n\n\n        \n\n\n\nCom câncer de pâncreas\nSem câncer de pâncreas\nTotal\n\n\nConsumo de álcool\n1000\n3200\n4200\n\n\nSem consumo de álcool\n300\n1300\n1600\n\n\nTotal\n1300\n4500\n5800\n\n\n\n\n\n\n\\[\\text{OR} = \\dfrac{\\dfrac{\\dfrac{1000}{1300}}{\\dfrac{300}{1300}}}{\\dfrac{\\dfrac{3200}{4500}}{\\dfrac{1300}{4500}}} = \\dfrac{\\dfrac{1000}{300}}{\\dfrac{3200}{1300}} = \\dfrac{1000 \\times 1300}{300 \\times 3200} = \\dfrac{1300000}{960000} = 1,35\\]"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-4",
-    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-4",
-    "title": "Planejamento na área da saúde",
-    "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\n\n\nInterpretação:\n\nA ingestão de álcool está associada à uma chance 35% maior de desenvolver CP;\nAs chances de CP são 35% maiores entre os que ingerem álcool em comparação com aqueles que não o fizeram;\nO Odds Ratio (ou a razão de chances) de desenvolver CP é de 1,35 comparando os que ingeriram álcool com aqueles que não ingeriram álcool, ou seja a ingestão de álcool é fator de risco para o desenvolvimento de CP."
   }
 ]

@@ -859,14 +859,51 @@ Com este tipo de delineamento, estima-se a prevalência e não a incidência do 
 
 Com este tipo de delineamento, estima-se a prevalência e não a incidência do desfecho de interesse.
 
-$$\text{prevalência} = \dfrac{\text{Nº de casos existentes em determinado período} }{\text{Nº de pessoas na população no mesmo período}}$$
+$$\text{prevalência} = \dfrac{\text{Nº de casos existentes em determinado momento} }{\text{Nº de pessoas na população no mesmo momento}}$$
 
 ## Estudo caso-controle {auto-animate="true"}
 
-$$\text{prevalência} = \dfrac{\text{Nº de casos existentes em determinado período} }{\text{Nº de pessoas na população no mesmo período}}$$
+$$\text{prevalência} = \dfrac{\text{Nº de casos existentes em determinado momento} }{\text{Nº de pessoas na população no mesmo momento}}$$
 
 
 A **prevalência** se refere ao número de casos existentes de uma doença em um dado momento. Os casos existentes são daqueles que adoeceram em algum momento do passado, somados aos casos novos dos que ainda estão vivos e doentes
+
+. . .
+
+A prevalência é como a descrição de uma **fotografia** de grupo.
+
+
+## Estudo caso-controle
+
+**Exemplo:** Entre 10000 crianças pré-escolares submetidas a exames parasitológicos de fezes, no início do ano, foram encontradas 500 com exame positivo para *Ascaris*.
+
+
+$$\text{prevalência} = \dfrac{500}{\text{10000}} = 0,05 \times 100 = 5\%$$
+
+. . .
+
+**Interpretação:** A prevalência da verminose em crianças pré-escolares, no início do ano, foi de 5%.
+
+. . .
+
+É uma proporção, **NÃO** expressa risco!
+
+
+## Estudo caso-controle
+
+Existem, basicamente, três formas diferentes de calcular a prevalência: 
+
+. . .
+
+- **Prevalência num período:** O número de casos de um evento de saúde num determinado momento. Por exemplo, num questionário ser-lhe-ía perguntado se fuma atualmente. 
+
+. . .
+
+- **Prevalência-período:** O número de casos de um evento de saúde relativamente a um período de tempo, frequentemente 12 meses. Por exemplo, num questionário seria perguntado se fumou durante os últimos 12 meses.
+
+ . . .
+ 
+- **Prevalência ao longo da vida:** O número de casos do evento de saúde relativamente ao período de vida. Por exemplo, num questionário seria perguntado se alguma vez fumou.
 
 
 
@@ -877,10 +914,30 @@ Em estudos de caso controle, não é possível calcular a incidência da doença
 
 . . .
 
-Assim, vamos adotar uma medida alternativa conhecida como *odds-ratio*. 
+Assim, vamos adotar uma medida alternativa conhecida como razão de chances ou *odds-ratio*. 
 
 
-## Estudo caso-controle
+
+
+. . .
+
+O conceito de **chance** pode ser representado matematicamente por:
+
+$$r = \dfrac{p}{1 - p}$$
+onde $r$ é a chance e $p$ é a probabilidade de ocorrência do evento.
+
+
+. . .
+
+Leia mais sobre a relação entre **probabilidade e chance** [aqui](/artigos/Probabilidade_ou_chance_01.pdf) e [aqui](/artigos/Probabilidade_ou_chance.pdf).
+
+## Razão de chances ou *odds-ratio*
+
+
+
+A razão de chances (OR) é a chance de exposição entre os casos dividido pela chance de exposição entre os controles.
+
+. . .
 
 <br>
 
@@ -926,7 +983,7 @@ Assim, vamos adotar uma medida alternativa conhecida como *odds-ratio*.
                 <td class="cab">Total</td>
                 <td class="cont"> a + c </td>
                 <td class="cont"> b + d </td>
-                <td class="cont"> a + b + c + d </td>
+                <td class="cont"> n = a + b + c + d </td>
             </tr>
         </table>
     </div>
@@ -961,6 +1018,25 @@ $$\text{Razão de chances (OR)} = \dfrac{\dfrac{\dfrac{a}{a+c}}{\dfrac{c}{a+c}}}
 - Se OR < 1  -  fator de proteção
 
 - Se OR = 1  -  sem associação
+
+
+
+
+## Razão de chances ou *odds-ratio*
+
+
+Para testar a hipótese nula:
+
+$$H_0: OR = 1$$
+
+podemos utilizar o teste Qui-quadrado com 1 GL.
+
+Estatística do teste:
+
+$$\chi^2 =  \dfrac{(ad - bc)^2 \times n}{(a + b) \times (c + d) \times (a + c) \times (b + d)}$$
+
+
+
 
 
 
@@ -1022,16 +1098,83 @@ $$\text{Razão de chances (OR)} = \dfrac{\dfrac{\dfrac{a}{a+c}}{\dfrac{c}{a+c}}}
 . . .
 
 
-$$\text{OR} = \dfrac{\dfrac{\dfrac{1000}{1300}}{\dfrac{300}{1300}}}{\dfrac{\dfrac{3200}{4500}}{\dfrac{1300}{4500}}} = \dfrac{\dfrac{1000}{300}}{\dfrac{3200}{1300}} = \dfrac{1000 \times 1300}{300 \times 3200} = \dfrac{1300000}{960000} = 1,35$$
+$$\text{OR} = \dfrac{\dfrac{\dfrac{1000}{1300}}{\dfrac{300}{1300}}}{\dfrac{\dfrac{3200}{4500}}{\dfrac{1300}{4500}}} = \dfrac{\dfrac{1000}{300}}{\dfrac{3200}{1300}} = \dfrac{1000 \times 1300}{300 \times 3200} = \dfrac{1300000}{960000} \approx 1,35$$
+
+## Razão de chances ou *odds-ratio*
+
+
+Existe associação entre o consumo de álcool no passado e Câncer de Pâncreas?
+
+
+. . .
+
+
+$H_0: OR = 1$
+
+. . .
+
+$$\chi^2 =  \dfrac{(1000 \times 1300 - 3200 \times 300)^2 \times 5800}{(1000 + 3200) \times (300 + 1300) \times (1000 + 300) \times (3200 + 1300)} = 17,06$$
+
+. . .
+
+
+Como $\chi^2 = 17,06 > 3,841 =$ [$\chi^2_{(1;0,05)}$](/documentos/Tabela da Qui-quadrado.pdf) rejeita-se a hipótese nula. Logo, o consumo de álcool no passado é fator de risco para o desenvolvimento de Câncer de Pâncreas.
+
+
+## Razão de chances ou *odds-ratio*
+
+Podemos construir um intervalo de confiança para o estimador da $OR$. Para isso, precisamos da variância de $OR$. Por razões teóricas, é mais fácil obter a variância de $\log[OR]$. Vale o seguinte resultado:
+
+
+$$\text{Var}(\ln[OR]) = \dfrac{1}{a} + \dfrac{1}{b} + \dfrac{1}{c} + \dfrac{1}{d}$$
+
+e um intervalo de confiança de $95\%$ para a $OR$ é obtido por
+
+
+$$\exp(\ln[OR] \pm 1,96 \times \sqrt{\text{Var}(\ln[OR])})$$
+
+## Razão de chances ou *odds-ratio*
+
+No exemplo do CA de pâncreas, temos $OR \approx 1,35$. Logo,:
+
+. . .
+
+$$\ln[OR] = \ln[1,35] = 0,3$$
+e,
+
+
+$$\text{Var}(\ln[OR]) = \dfrac{1}{1000} + \dfrac{1}{3200} + \dfrac{1}{300} + \dfrac{1}{1300} = 0,0054$$
+
+. . .
+
+
+Um intervalo de confiança de 95% para $OR$ é obtido por
+
+$$
+\begin{eqnarray*}
+\exp(0,3 \pm 1,96 \times \sqrt{0,0054}) &=& (\exp(0,3 - 0,14); \exp(0,3 + 0,14)) \\&=& (\exp(0,16); \exp(0,44))
+\end{eqnarray*}
+$$
+$$IC_{95\%}(OR) = (1,17; 1,55)$$
+
+
 
 
 ## Razão de chances ou *odds-ratio*
 
 
 - **Interpretação:** 
-    - A ingestão de álcool está associada à uma chance 35% maior de desenvolver CP;
-    - As chances de CP são 35% maiores entre os que ingerem álcool em comparação com aqueles que não o fizeram;
+
+    - A ingestão de álcool está associada à uma chance 35% maior de desenvolver CA de Pâncreas;
+    - As chances de CA de Pâncreas são 35% maiores entre os que ingerem álcool em comparação com aqueles que não o fizeram;
     - O Odds Ratio (ou a razão de chances) de desenvolver CP é de 1,35 comparando os que ingeriram álcool com aqueles que não ingeriram álcool, ou seja a ingestão de álcool é fator de risco para o desenvolvimento de CP.
+
+
+
+
+
+
+
 
 
 ## Como selecionar os casos?
@@ -1167,31 +1310,21 @@ Para obter evidências mais definitivas sobre os reais efeitos dos capacetes, pe
 
 
 
-## Exemplo {auto-animate="true"}
+## Exemplo 
 
 - **Casos:** 578 pessoas com traumatismos cranianos registradas
 
+. . .
 
-
-## Exemplo {auto-animate="true"}
-
-- **Casos:** 578 pessoas com traumatismos cranianos registradas
 
 - **Controles:** uma amostra das pessoas que estavam esperando na fila para o principal teleférico em cada uma das oito estações
 
 
-## Exemplo 
+. . . 
 
 - **Variáveis confundidoras:** idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis.
 
-
-  
-  
-## Exemplo {auto-animate="true"}
-
-- **Variáveis confundidoras:** idade, sexo, nacionalidade, tipo de equipamento, ter participado previamente de um curso de esqui, equipamento próprio ou alugado e habilidade com os esquis.
-
-  - Analisadas tanto nos casos quanto nos controles
+    - Analisadas tanto nos casos quanto nos controles
   
 
 
@@ -1206,19 +1339,19 @@ Após considerar os confundidores, o uso de capacete foi associado a uma reduç�
 
 
 
-## Prática
+<!-- ## Prática -->
 
-```{r include = FALSE}
-library(countdown)
-```
+<!-- ```{r include = FALSE} -->
+<!-- library(countdown) -->
+<!-- ``` -->
 
-Discussão do artigo [Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil](/artigos/fatores_cancer_boca_caso_controle.pdf).
+<!-- Discussão do artigo [Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil](/artigos/fatores_cancer_boca_caso_controle.pdf). -->
 
 
 
-```{r}
-countdown(minutes = 15)
-```
+<!-- ```{r} -->
+<!-- countdown(minutes = 15) -->
+<!-- ``` -->
 
 
 
