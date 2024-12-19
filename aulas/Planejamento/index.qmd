@@ -679,13 +679,13 @@ e um intervalo de confiança de $95\%$ para a $RR$ é obtido por
 
 $$\exp(\ln[RR] \pm 1,96 \times \sqrt{\text{Var}(\ln[RR])})$$
 
-## Razão de chances ou *odds-ratio*
+## Risco Relativo ou Razão de Riscos (RR) 
 
 No exemplo da morte perinatal, temos $RR \approx 19,2$. Logo,:
 
 . . .
 
-$$\ln[OR] = \ln[19,2] = 2,95$$
+$$\ln[RR] = \ln[19,2] = 2,95$$
 e,
 
 
