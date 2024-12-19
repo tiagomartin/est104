@@ -31,9 +31,9 @@ Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semest
 |                           | Qua, 04/11 | Estudos de coorte | [{{< fa file-pdf size=2xl >}}](artigos/impacto_funcionalidade_idosos_estudo_coorte.pdf) | [{{< fa file-powerpoint size=2xl >}}️](/aulas/Planejamento/#/estudos-observacionais-analíticos "Estudos de coorte"){aria-label="Estudos de coorte"}  |  |  |  |  |  
 |  [5](programacao/semana-5.html)  | Seg, 09/12 | Não haverá aula! (Encontro de Saberes) |  | |  |  ||   
 |                           | Qua, 11/12 | Não haverá aula! (Encontro de Saberes) |  |  |  |  |  |  |  
-|  [6](programacao/semana-6.html)  | Seg, 16/12 | Estudos caso-controle | [{{< fa file-pdf size=2xl >}}](artigos/fatores_cancer_boca_caso_controle.pdf) | [{{< fa file-powerpoint size=2xl >}}️](/aulas/Planejamento/#/estudo-caso-controle  "Estudos caso-controle"){aria-label="Estudos caso-controle"}    |  |  ||   
-|                           | Qua, 18/12 | Estudos Transversais | [{{< fa file-pdf size=2xl >}}](artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf) | [{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Planejamento/#/estudos-transversais "Estudos transversais"){aria-label="Estudos transversais"}  |  |  |  |  | 
-|     | 23/12 a 19/01  | Recesso Acadêmico |         |  | | | | |
+|  [6](programacao/semana-6.html)  | Seg, 16/12 | Estudos caso-controle | [{{< fa file-pdf size=2xl >}}](artigos/fatores_cancer_boca_caso_controle.pdf) | [{{< fa file-powerpoint size=2xl >}}️](/aulas/Planejamento/#/estudo-caso-controle  "Estudos caso-controle"){aria-label="Estudos caso-controle"}    |  |  ||
+|                           | Qua, 18/12 | Não haverá aula!  |  |  |  |  |  |  | 
+
 :::
 
 ```{r echo = FALSE}
@@ -41,4 +41,5 @@ knitr::knit_exit()
 ```
 
 
-/aulas/Planejamento/index.html#/estudo-caso-controle
+<!-- |                           | Qua, 18/12 | Estudos Transversais | [{{< fa file-pdf size=2xl >}}](artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf) | [{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Planejamento/#/estudos-transversais "Estudos transversais"){aria-label="Estudos transversais"}  |  |  |  |  |  -->
+<!-- |     | 23/12 a 19/01  | Recesso Acadêmico |         |  | | | | | -->

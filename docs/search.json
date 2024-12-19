@@ -4,21 +4,21 @@
     "href": "programacao/semana-6.html",
     "title": "Semana 06",
     "section": "",
-    "text": "Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil\n Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto"
+    "text": "Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil"
   },
   {
     "objectID": "programacao/semana-6.html#para-ler-antes-da-aula",
     "href": "programacao/semana-6.html#para-ler-antes-da-aula",
     "title": "Semana 06",
     "section": "",
-    "text": "Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil\n Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto"
+    "text": "Fatores associados ao câncer de boca: um estudo de caso-controle em uma população do Nordeste do Brasil"
   },
   {
     "objectID": "programacao/semana-6.html#leitura-adicional",
     "href": "programacao/semana-6.html#leitura-adicional",
     "title": "Semana 06",
     "section": "Leitura adicional",
-    "text": "Leitura adicional\n Entendendo a pesquisa clínica IV: Estudos de caso controle\n Tópicos de metodologia de pesquisa: Estudos de corte transversal\n\nProbabilidade ou chance?\nProbabilidade e chance são conceitos relacionados, mas não exatamente sinônimos! Leia os artigos abaixo e descubra mais sobre esse assunto.\n Probabilidade ou chance?\n Probabilidade ou chance?"
+    "text": "Leitura adicional\n Entendendo a pesquisa clínica IV: Estudos de caso controle\n\n\nProbabilidade ou chance?\nProbabilidade e chance são conceitos relacionados, mas não exatamente sinônimos! Leia os artigos abaixo e descubra mais sobre esse assunto.\n Probabilidade ou chance?\n Probabilidade ou chance?"
   },
   {
     "objectID": "programacao/semana-6.html#tabela-qui-quadrado",
@@ -32,7 +32,7 @@
     "href": "programacao/semana-6.html#slides",
     "title": "Semana 06",
     "section": "Slides",
-    "text": "Slides\n Estudos caso-controle\n Estudos transversais"
+    "text": "Slides\n Estudos caso-controle"
   },
   {
     "objectID": "programacao/semana-4.html",
@@ -873,6 +873,41 @@
     "text": "Risco Relativo ou Razão de Riscos (RR)\nExemplo: O risco de desenvolver AIDS é 1,39 vezes maior entre os que tem úlcera genital do que os sem úlcera\n\nO risco de desenvolver AIDS é 39% maior para quem tem úlcera do que nos indivíduos sem úlcera"
   },
   {
+    "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-6",
+    "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-6",
+    "title": "Planejamento na área da saúde",
+    "section": "Risco Relativo ou Razão de Riscos (RR)",
+    "text": "Risco Relativo ou Razão de Riscos (RR)\nPara testar a hipótese nula:\n\\[H_0: RR = 1\\]\npodemos utilizar o teste Qui-quadrado com 1 GL.\nEstatística do teste:\n\\[\\chi^2 =  \\dfrac{(ad - bc)^2 \\times n}{(a + b) \\times (c + d) \\times (a + c) \\times (b + d)}\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-7",
+    "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-7",
+    "title": "Planejamento na área da saúde",
+    "section": "Risco Relativo ou Razão de Riscos (RR)",
+    "text": "Risco Relativo ou Razão de Riscos (RR)\n\nAssociação entre baixo peso ao nascer (BPN: peso \\(\\leq 2500g\\)) e morte perinatal\n\n\n\n\n\n\n\n        \n\n\n\nOcorreu morte perinatal\nNão ocorreu morte perinatal\nTotal\n\n\nPeso &lt; 2500g\n150\n574\n724\n\n\nPeso &gt; 2500g\n61\n5588\n5649\n\n\nTotal\n211\n6162\n6373\n\n\n\n\n\n\n\\[\\text{RR}  = \\dfrac{\\dfrac{150}{724}}{\\dfrac{61}{5649}} = \\dfrac{150}{724} \\times \\dfrac{5649}{61} \\approx 19,2\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-8",
+    "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-8",
+    "title": "Planejamento na área da saúde",
+    "section": "Risco Relativo ou Razão de Riscos (RR)",
+    "text": "Risco Relativo ou Razão de Riscos (RR)\nExiste associação entre BPN e morte perinatal?\n\n\\(H_0: RR = 1\\)\n\n\n\\[\\chi^2 =  \\dfrac{(150 \\times 5588 - 574 \\times 61)^2 \\times 6373}{(150 + 574) \\times (61 + 5588) \\times (150 + 61) \\times (574 + 5588)} = 773,15\\]\n\n\nComo \\(\\chi^2 = 773,15 &gt; 3,841 =\\) \\(\\chi^2_{(1;0,05)}\\) rejeita-se a hipótese nula. Logo, o baixo peso ao nascer é fator de risco para a morte perinatal. O Risco de Morte Perinatal de um RN de baixo peso excede 19,2 vezes a de um RN de peso &gt; 2500g"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-9",
+    "href": "aulas/Planejamento/index.html#risco-relativo-ou-razão-de-riscos-rr-9",
+    "title": "Planejamento na área da saúde",
+    "section": "Risco Relativo ou Razão de Riscos (RR)",
+    "text": "Risco Relativo ou Razão de Riscos (RR)\nPodemos construir um intervalo de confiança para o estimador da \\(RR\\). Para isso, precisamos da variância de \\(RR\\). Por razões teóricas, é mais fácil obter a variância de \\(\\ln[RR]\\). Vale o seguinte resultado:\n\\[\\text{Var}(\\ln[RR]) = \\dfrac{1}{a} - \\dfrac{1}{a + b} + \\dfrac{1}{c} - \\dfrac{1}{c + d}\\]\ne um intervalo de confiança de \\(95\\%\\) para a \\(RR\\) é obtido por\n\\[\\exp(\\ln[RR] \\pm 1,96 \\times \\sqrt{\\text{Var}(\\ln[RR])})\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\nNo exemplo da morte perinatal, temos \\(RR \\approx 19,2\\). Logo,:\n\n\\[\\ln[OR] = \\ln[19,2] = 2,95\\] e,\n\\[\\text{Var}(\\ln[RR]) = \\dfrac{1}{150} - \\dfrac{1}{150+574} + \\dfrac{1}{61} - \\dfrac{1}{61+5588} \\approx 0,02\\]\n\n\nUm intervalo de confiança de 95% para \\(RR\\) é obtido por\n\\[\n\\begin{eqnarray*}\n\\exp(2,95 \\pm 1,96 \\times \\sqrt{0,02}) &=& (\\exp(2,95 - 0,15); \\exp(2,95 + 0,15)) \\\\&=& (\\exp(2,8); \\exp(3,1))\n\\end{eqnarray*}\n\\] \\[IC_{95\\%}(RR) = (16,44; 22,19)\\]"
+  },
+  {
     "objectID": "aulas/Planejamento/index.html#tipos-de-coorte",
     "href": "aulas/Planejamento/index.html#tipos-de-coorte",
     "title": "Planejamento na área da saúde",
@@ -1069,71 +1104,71 @@
     "text": "Estudo caso-controle\nEm estudos de caso controle, não é possível calcular a incidência da doença, pois começamos o estudo com pessoas doentes e não doentes.\n\nAssim, vamos adotar uma medida alternativa conhecida como razão de chances ou odds-ratio.\n\n\nO conceito de chance pode ser representado matematicamente por:\n\\[r = \\dfrac{p}{1 - p}\\] onde \\(r\\) é a chance e \\(p\\) é a probabilidade de ocorrência do evento.\n\n\nLeia mais sobre a relação entre probabilidade e chance aqui e aqui."
   },
   {
-    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
-    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio",
-    "title": "Planejamento na área da saúde",
-    "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\nA razão de chances (OR) é a chance de exposição entre os casos dividido pela chance de exposição entre os controles.\n\n\n\n\n    \n\n\n\n\n\n        \n\n\n\n\n\n\n\n\n\n\nC\n\n+\n\nC\n\n-\n\nTotal\n\n\nF\n\n+\n\na\nb\na + b\n\n\nF\n\n-\n\nc\nd\nc + d\n\n\nTotal\na + c\nb + d\nn = a + b + c + d"
-  },
-  {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-1",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-1",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\n\\[\\text{Razão de chances (OR)} = \\dfrac{\\dfrac{\\dfrac{a}{a+c}}{\\dfrac{c}{a+c}}}{\\dfrac{\\dfrac{b}{b+d}}{\\dfrac{d}{b+d}}} = \\dfrac{\\dfrac{a}{c}}{\\dfrac{b}{d}} = \\dfrac{ad}{bc}\\]"
+    "text": "Razão de chances ou odds-ratio\n\nA razão de chances (OR) é a chance de exposição entre os casos dividido pela chance de exposição entre os controles.\n\n\n\n\n    \n\n\n\n\n\n        \n\n\n\n\n\n\n\n\n\n\nC\n\n+\n\nC\n\n-\n\nTotal\n\n\nF\n\n+\n\na\nb\na + b\n\n\nF\n\n-\n\nc\nd\nc + d\n\n\nTotal\na + c\nb + d\nn = a + b + c + d"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-2",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-2",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte."
+    "text": "Razão de chances ou odds-ratio\n\n\\[\\text{Razão de chances (OR)} = \\dfrac{\\dfrac{\\dfrac{a}{a+c}}{\\dfrac{c}{a+c}}}{\\dfrac{\\dfrac{b}{b+d}}{\\dfrac{d}{b+d}}} = \\dfrac{\\dfrac{a}{c}}{\\dfrac{b}{d}} = \\dfrac{ad}{bc}\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-3",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-3",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.\n\nSe OR &gt; 1 - fator de risco\nSe OR &lt; 1 - fator de proteção\nSe OR = 1 - sem associação"
+    "text": "Razão de chances ou odds-ratio\n\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte."
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-4",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-4",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\nPara testar a hipótese nula:\n\\[H_0: OR = 1\\]\npodemos utilizar o teste Qui-quadrado com 1 GL.\nEstatística do teste:\n\\[\\chi^2 =  \\dfrac{(ad - bc)^2 \\times n}{(a + b) \\times (c + d) \\times (a + c) \\times (b + d)}\\]"
+    "text": "Razão de chances ou odds-ratio\n\nInterpretação: O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.\n\nSe OR &gt; 1 - fator de risco\nSe OR &lt; 1 - fator de proteção\nSe OR = 1 - sem associação"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-5",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-5",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\n\nConsumo de álcool no passado \\(\\times\\) Câncer de Pâncreas\n\n\n\n\n\n\n\n        \n\n\n\nCom câncer de pâncreas\nSem câncer de pâncreas\nTotal\n\n\nConsumo de álcool\n1000\n3200\n4200\n\n\nSem consumo de álcool\n300\n1300\n1600\n\n\nTotal\n1300\n4500\n5800\n\n\n\n\n\n\n\\[\\text{OR} = \\dfrac{\\dfrac{\\dfrac{1000}{1300}}{\\dfrac{300}{1300}}}{\\dfrac{\\dfrac{3200}{4500}}{\\dfrac{1300}{4500}}} = \\dfrac{\\dfrac{1000}{300}}{\\dfrac{3200}{1300}} = \\dfrac{1000 \\times 1300}{300 \\times 3200} = \\dfrac{1300000}{960000} \\approx 1,35\\]"
+    "text": "Razão de chances ou odds-ratio\n\nPara testar a hipótese nula:\n\\[H_0: OR = 1\\]\npodemos utilizar o teste Qui-quadrado com 1 GL.\nEstatística do teste:\n\\[\\chi^2 =  \\dfrac{(ad - bc)^2 \\times n}{(a + b) \\times (c + d) \\times (a + c) \\times (b + d)}\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-6",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-6",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\nExiste associação entre o consumo de álcool no passado e Câncer de Pâncreas?\n\n\\(H_0: OR = 1\\)\n\n\n\\[\\chi^2 =  \\dfrac{(1000 \\times 1300 - 3200 \\times 300)^2 \\times 5800}{(1000 + 3200) \\times (300 + 1300) \\times (1000 + 300) \\times (3200 + 1300)} = 17,06\\]\n\n\nComo \\(\\chi^2 = 17,06 &gt; 3,841 =\\) \\(\\chi^2_{(1;0,05)}\\) rejeita-se a hipótese nula. Logo, o consumo de álcool no passado é fator de risco para o desenvolvimento de Câncer de Pâncreas."
+    "text": "Razão de chances ou odds-ratio\n\n\nConsumo de álcool no passado \\(\\times\\) Câncer de Pâncreas\n\n\n\n\n\n\n\n        \n\n\n\nCom câncer de pâncreas\nSem câncer de pâncreas\nTotal\n\n\nConsumo de álcool\n1000\n3200\n4200\n\n\nSem consumo de álcool\n300\n1300\n1600\n\n\nTotal\n1300\n4500\n5800\n\n\n\n\n\n\n\\[\\text{OR} = \\dfrac{\\dfrac{\\dfrac{1000}{1300}}{\\dfrac{300}{1300}}}{\\dfrac{\\dfrac{3200}{4500}}{\\dfrac{1300}{4500}}} = \\dfrac{\\dfrac{1000}{300}}{\\dfrac{3200}{1300}} = \\dfrac{1000 \\times 1300}{300 \\times 3200} = \\dfrac{1300000}{960000} \\approx 1,35\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-7",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-7",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\nPodemos construir um intervalo de confiança para o estimador da \\(OR\\). Para isso, precisamos da variância de \\(OR\\). Por razões teóricas, é mais fácil obter a variância de \\(\\ln[OR]\\). Vale o seguinte resultado:\n\\[\\text{Var}(\\ln[OR]) = \\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} + \\dfrac{1}{d}\\]\ne um intervalo de confiança de \\(95\\%\\) para a \\(OR\\) é obtido por\n\\[\\exp(\\ln[OR] \\pm 1,96 \\times \\sqrt{\\text{Var}(\\ln[OR])})\\]"
+    "text": "Razão de chances ou odds-ratio\n\nExiste associação entre o consumo de álcool no passado e Câncer de Pâncreas?\n\n\\(H_0: OR = 1\\)\n\n\n\\[\\chi^2 =  \\dfrac{(1000 \\times 1300 - 3200 \\times 300)^2 \\times 5800}{(1000 + 3200) \\times (300 + 1300) \\times (1000 + 300) \\times (3200 + 1300)} = 17,06\\]\n\n\nComo \\(\\chi^2 = 17,06 &gt; 3,841 =\\) \\(\\chi^2_{(1;0,05)}\\) rejeita-se a hipótese nula. Logo, o consumo de álcool no passado é fator de risco para o desenvolvimento de Câncer de Pâncreas."
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-8",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-8",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
-    "text": "Razão de chances ou odds-ratio\n\nNo exemplo do CA de pâncreas, temos \\(OR \\approx 1,35\\). Logo,:\n\n\\[\\ln[OR] = \\ln[1,35] = 0,3\\] e,\n\\[\\text{Var}(\\ln[OR]) = \\dfrac{1}{1000} + \\dfrac{1}{3200} + \\dfrac{1}{300} + \\dfrac{1}{1300} = 0,0054\\]\n\n\nUm intervalo de confiança de 95% para \\(OR\\) é obtido por\n\\[\n\\begin{eqnarray*}\n\\exp(0,3 \\pm 1,96 \\times \\sqrt{0,0054}) &=& (\\exp(0,3 - 0,14); \\exp(0,3 + 0,14)) \\\\&=& (\\exp(0,16); \\exp(0,44))\n\\end{eqnarray*}\n\\] \\[IC_{95\\%}(OR) = (1,17; 1,55)\\]"
+    "text": "Razão de chances ou odds-ratio\n\nPodemos construir um intervalo de confiança para o estimador da \\(OR\\). Para isso, precisamos da variância de \\(OR\\). Por razões teóricas, é mais fácil obter a variância de \\(\\ln[OR]\\). Vale o seguinte resultado:\n\\[\\text{Var}(\\ln[OR]) = \\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} + \\dfrac{1}{d}\\]\ne um intervalo de confiança de \\(95\\%\\) para a \\(OR\\) é obtido por\n\\[\\exp(\\ln[OR] \\pm 1,96 \\times \\sqrt{\\text{Var}(\\ln[OR])})\\]"
   },
   {
     "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-9",
     "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-9",
+    "title": "Planejamento na área da saúde",
+    "section": "Razão de chances ou odds-ratio\n",
+    "text": "Razão de chances ou odds-ratio\n\nNo exemplo do CA de pâncreas, temos \\(OR \\approx 1,35\\). Logo,:\n\n\\[\\ln[OR] = \\ln[1,35] = 0,3\\] e,\n\\[\\text{Var}(\\ln[OR]) = \\dfrac{1}{1000} + \\dfrac{1}{3200} + \\dfrac{1}{300} + \\dfrac{1}{1300} = 0,0054\\]\n\n\nUm intervalo de confiança de 95% para \\(OR\\) é obtido por\n\\[\n\\begin{eqnarray*}\n\\exp(0,3 \\pm 1,96 \\times \\sqrt{0,0054}) &=& (\\exp(0,3 - 0,14); \\exp(0,3 + 0,14)) \\\\&=& (\\exp(0,16); \\exp(0,44))\n\\end{eqnarray*}\n\\] \\[IC_{95\\%}(OR) = (1,17; 1,55)\\]"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-10",
+    "href": "aulas/Planejamento/index.html#razão-de-chances-ou-odds-ratio-10",
     "title": "Planejamento na área da saúde",
     "section": "Razão de chances ou odds-ratio\n",
     "text": "Razão de chances ou odds-ratio\n\n\n\nInterpretação:\n\nA ingestão de álcool está associada à uma chance 35% maior de desenvolver CA de Pâncreas;\nAs chances de CA de Pâncreas são 35% maiores entre os que ingerem álcool em comparação com aqueles que não o fizeram;\nO Odds Ratio (ou a razão de chances) de desenvolver CP é de 1,35 comparando os que ingeriram álcool com aqueles que não ingeriram álcool, ou seja a ingestão de álcool é fator de risco para o desenvolvimento de CP."
@@ -1237,27 +1272,6 @@
     "text": "Exemplo\nApós considerar os confundidores, o uso de capacete foi associado a uma redução de 60% no risco de traumatismo craniano.\nSulheim et al. (2017)"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#exemplo-6",
-    "href": "aulas/Planejamento/index.html#exemplo-6",
-    "title": "Planejamento na área da saúde",
-    "section": "Exemplo",
-    "text": "Exemplo\n\nEstudar a associação entre mulheres que fumam e cólica infantil. Para isso foi observada a seguinte tabela de contingência\n\n\n\n\n\n\n\n        \n\n\n\nCom cólica\nSem cólica\nTotal\n\n\nMãe fuma\n15\n167\n182\n\n\nMãe não fuma\n111\n2477\n2588\n\n\nTotal\n126\n2644\n2770\n\n\n\n\n\n\n\\[\\text{Razão de prevalência (RP)} = \\dfrac{\\dfrac{15}{15+167}}{\\dfrac{111}{111+2477}} = \\dfrac{0,08}{0,04} = 2 &gt; 1\\]"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#exemplo-7",
-    "href": "aulas/Planejamento/index.html#exemplo-7",
-    "title": "Planejamento na área da saúde",
-    "section": "Exemplo",
-    "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#exemplo-8",
-    "href": "aulas/Planejamento/index.html#exemplo-8",
-    "title": "Planejamento na área da saúde",
-    "section": "Exemplo",
-    "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam.\nO hábito de fumar parece ser fator de risco para cólica infantil naquele dado momento na população."
-  },
-  {
     "objectID": "aulas/Planejamento/index.html#estudo-transversal",
     "href": "aulas/Planejamento/index.html#estudo-transversal",
     "title": "Planejamento na área da saúde",
@@ -1321,22 +1335,22 @@
     "text": "Razão de prevalência\nInterpretação: O significado da razão de prevalência é análogo aos anteriores.\n\nSe RP &gt; 1 - fator de risco\nSe RP &lt; 1 - fator de proteção\nSe RP = 1 - sem associação"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#exemplo-9",
-    "href": "aulas/Planejamento/index.html#exemplo-9",
+    "objectID": "aulas/Planejamento/index.html#exemplo-6",
+    "href": "aulas/Planejamento/index.html#exemplo-6",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
     "text": "Exemplo\n\nEstudar a associação entre mulheres que fumam e cólica infantil. Para isso foi observada a seguinte tabela de contingência\n\n\n\n\n\n\n\n        \n\n\n\nCom cólica\nSem cólica\nTotal\n\n\nMãe fuma\n15\n167\n182\n\n\nMãe não fuma\n111\n2477\n2588\n\n\nTotal\n126\n2644\n2770\n\n\n\n\n\n\n\\[\\text{Razão de prevalência (RP)} = \\dfrac{\\dfrac{15}{15+167}}{\\dfrac{111}{111+2477}} = \\dfrac{0,08}{0,04} = 2 &gt; 1\\]"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#exemplo-10",
-    "href": "aulas/Planejamento/index.html#exemplo-10",
+    "objectID": "aulas/Planejamento/index.html#exemplo-7",
+    "href": "aulas/Planejamento/index.html#exemplo-7",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
     "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam."
   },
   {
-    "objectID": "aulas/Planejamento/index.html#exemplo-11",
-    "href": "aulas/Planejamento/index.html#exemplo-11",
+    "objectID": "aulas/Planejamento/index.html#exemplo-8",
+    "href": "aulas/Planejamento/index.html#exemplo-8",
     "title": "Planejamento na área da saúde",
     "section": "Exemplo",
     "text": "Exemplo\nA razão de prevalência de cólica infantil entre mulheres que fumam é de 2 vezes mais que as mulheres que não fumam.\nO hábito de fumar parece ser fator de risco para cólica infantil naquele dado momento na população."
@@ -1997,7 +2011,7 @@
     "href": "cronograma.html",
     "title": "Cronograma da disciplina",
     "section": "",
-    "text": "Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nData\nTópico\nArtigo\nSlides\nEC\nLE\nScript\nAvaliação\nProjeto\n\n\n\n\n1\nSeg, 11/11\nApresentação da disciplina\n\n\n\n\n\n\n\n\n\n\nQua, 13/11\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n2\nSeg, 18/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 20/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n3\nSeg, 25/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 27/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n4\nSeg, 02/12\nRelato (Série) de casos\n\n️\n\n\n\n\n\n\n\n\nQua, 04/11\nEstudos de coorte\n\n️\n\n\n\n\n\n\n\n5\nSeg, 09/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n\nQua, 11/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n6\nSeg, 16/12\nEstudos caso-controle\n\n️\n\n\n\n\n\n\n\n\nQua, 18/12\nEstudos Transversais\n\n️\n\n\n\n\n\n\n\n\n23/12 a 19/01\nRecesso Acadêmico",
+    "text": "Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nData\nTópico\nArtigo\nSlides\nEC\nLE\nScript\nAvaliação\nProjeto\n\n\n\n\n1\nSeg, 11/11\nApresentação da disciplina\n\n\n\n\n\n\n\n\n\n\nQua, 13/11\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n2\nSeg, 18/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 20/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n3\nSeg, 25/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 27/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n4\nSeg, 02/12\nRelato (Série) de casos\n\n️\n\n\n\n\n\n\n\n\nQua, 04/11\nEstudos de coorte\n\n️\n\n\n\n\n\n\n\n5\nSeg, 09/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n\nQua, 11/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n6\nSeg, 16/12\nEstudos caso-controle\n\n️\n\n\n\n\n\n\n\n\nQua, 18/12\nNão haverá aula!",
     "crumbs": [
       "Cronograma da disciplina"
     ]

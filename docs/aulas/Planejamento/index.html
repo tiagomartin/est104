@@ -547,7 +547,7 @@
 <p>Em relação ao artigo <em>Coronavírus e o Coração | Um Relato de Caso sobre a Evolução da COVID-19 Associado à Evolução Cardiológica</em>, procure responder às questões propostas no <a href="../..\aulas/Planejamento/index.html#/questões-que-podem-ser-respondidas">slide anterior</a>.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_3c279b5c" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_504b73cc" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls">
 <button class="countdown-bump-down">−</button><button class="countdown-bump-up">&amp;plus;</button>
 </div>
@@ -820,7 +820,87 @@
 <p><strong>Exemplo:</strong> O risco de desenvolver AIDS é 1,39 vezes maior entre os que tem úlcera genital do que os sem úlcera</p>
 <ul>
 <li>O risco de desenvolver AIDS é 39% maior para quem tem úlcera do que nos indivíduos sem úlcera</li>
-</ul></section><section id="tipos-de-coorte" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Tipos de coorte</h2>
+</ul></section><section id="risco-relativo-ou-razão-de-riscos-rr-6" class="slide level2"><h2>Risco Relativo ou Razão de Riscos (RR)</h2>
+<p>Para testar a hipótese nula:</p>
+<p><span class="math display">\[H_0: RR = 1\]</span></p>
+<p>podemos utilizar o teste Qui-quadrado com 1 GL.</p>
+<p>Estatística do teste:</p>
+<p><span class="math display">\[\chi^2 =  \dfrac{(ad - bc)^2 \times n}{(a + b) \times (c + d) \times (a + c) \times (b + d)}\]</span></p>
+</section><section id="risco-relativo-ou-razão-de-riscos-rr-7" class="slide level2"><h2>Risco Relativo ou Razão de Riscos (RR)</h2>
+<ul>
+<li>Associação entre baixo peso ao nascer (BPN: peso <span class="math inline">\(\leq 2500g\)</span>) e morte perinatal</li>
+</ul>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Link da fonte está na descrição --><link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<div class="container">
+        
+<table class="caption-top" data-quarto-postprocess="true"><tbody>
+<tr class="odd">
+<td class="cab"></td>
+<td class="cab">Ocorreu morte perinatal</td>
+<td class="cab">Não ocorreu morte perinatal</td>
+<td class="cab">Total</td>
+</tr>
+<tr class="even item">
+<td class="cab">Peso &lt; 2500g</td>
+<td class="cont">150</td>
+<td class="cont">574</td>
+<td class="cont">724</td>
+</tr>
+<tr class="odd item">
+<td class="cab">Peso &gt; 2500g</td>
+<td class="cont">61</td>
+<td class="cont">5588</td>
+<td class="cont">5649</td>
+</tr>
+<tr class="even item color">
+<td class="cab">Total</td>
+<td class="cont">211</td>
+<td class="cont">6162</td>
+<td class="cont">6373</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<div class="fragment">
+<p><span class="math display">\[\text{RR}  = \dfrac{\dfrac{150}{724}}{\dfrac{61}{5649}} = \dfrac{150}{724} \times \dfrac{5649}{61} \approx 19,2\]</span></p>
+</div>
+</section><section id="risco-relativo-ou-razão-de-riscos-rr-8" class="slide level2"><h2>Risco Relativo ou Razão de Riscos (RR)</h2>
+<p>Existe associação entre BPN e morte perinatal?</p>
+<div class="fragment">
+<p><span class="math inline">\(H_0: RR = 1\)</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\chi^2 =  \dfrac{(150 \times 5588 - 574 \times 61)^2 \times 6373}{(150 + 574) \times (61 + 5588) \times (150 + 61) \times (574 + 5588)} = 773,15\]</span></p>
+</div>
+<div class="fragment">
+<p>Como <span class="math inline">\(\chi^2 = 773,15 &gt; 3,841 =\)</span> <a href="../..\documentos/Tabela da Qui-quadrado.pdf"><span class="math inline">\(\chi^2_{(1;0,05)}\)</span></a> rejeita-se a hipótese nula. Logo, o baixo peso ao nascer é fator de risco para a morte perinatal. O Risco de Morte Perinatal de um RN de baixo peso excede 19,2 vezes a de um RN de peso &gt; 2500g</p>
+</div>
+</section><section id="risco-relativo-ou-razão-de-riscos-rr-9" class="slide level2"><h2>Risco Relativo ou Razão de Riscos (RR)</h2>
+<p>Podemos construir um intervalo de confiança para o estimador da <span class="math inline">\(RR\)</span>. Para isso, precisamos da variância de <span class="math inline">\(RR\)</span>. Por razões teóricas, é mais fácil obter a variância de <span class="math inline">\(\ln[RR]\)</span>. Vale o seguinte resultado:</p>
+<p><span class="math display">\[\text{Var}(\ln[RR]) = \dfrac{1}{a} - \dfrac{1}{a + b} + \dfrac{1}{c} - \dfrac{1}{c + d}\]</span></p>
+<p>e um intervalo de confiança de <span class="math inline">\(95\%\)</span> para a <span class="math inline">\(RR\)</span> é obtido por</p>
+<p><span class="math display">\[\exp(\ln[RR] \pm 1,96 \times \sqrt{\text{Var}(\ln[RR])})\]</span></p>
+</section><section id="razão-de-chances-ou-odds-ratio" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</h2>
+<p>No exemplo da morte perinatal, temos <span class="math inline">\(RR \approx 19,2\)</span>. Logo,:</p>
+<div class="fragment">
+<p><span class="math display">\[\ln[OR] = \ln[19,2] = 2,95\]</span> e,</p>
+<p><span class="math display">\[\text{Var}(\ln[RR]) = \dfrac{1}{150} - \dfrac{1}{150+574} + \dfrac{1}{61} - \dfrac{1}{61+5588} \approx 0,02\]</span></p>
+</div>
+<div class="fragment">
+<p>Um intervalo de confiança de 95% para <span class="math inline">\(RR\)</span> é obtido por</p>
+<p><span class="math display">\[
+\begin{eqnarray*}
+\exp(2,95 \pm 1,96 \times \sqrt{0,02}) &amp;=&amp; (\exp(2,95 - 0,15); \exp(2,95 + 0,15)) \\&amp;=&amp; (\exp(2,8); \exp(3,1))
+\end{eqnarray*}
+\]</span> <span class="math display">\[IC_{95\%}(RR) = (16,44; 22,19)\]</span></p>
+</div>
+</section><section id="tipos-de-coorte" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Tipos de coorte</h2>
 
 <img data-src="../..\images/tiposCoorte2.png" class="quarto-figure quarto-figure-center r-stretch"></section><section id="tipos-de-coorte-1" class="slide level2"><h2>Tipos de coorte</h2>
 <p>Os desenhos dos estudos podem ser com coortes <strong>abertas</strong> ou <strong>fechadas</strong>.</p>
@@ -1060,7 +1140,7 @@
 <div class="fragment">
 <p>Leia mais sobre a relação entre <strong>probabilidade e chance</strong> <a href="../..\artigos/Probabilidade_ou_chance_01.pdf">aqui</a> e <a href="../..\artigos/Probabilidade_ou_chance.pdf">aqui</a>.</p>
 </div>
-</section><section id="razão-de-chances-ou-odds-ratio" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</section><section id="razão-de-chances-ou-odds-ratio-1" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
 </h2>
 <p>A razão de chances (OR) é a chance de exposição entre os casos dividido pela chance de exposição entre os controles.</p>
 <div class="fragment">
@@ -1124,27 +1204,27 @@
 
 
 </div>
-</section><section id="razão-de-chances-ou-odds-ratio-1" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Razão de chances ou <em>odds-ratio</em>
-</h2>
-<p><span class="math display">\[\text{Razão de chances (OR)} = \dfrac{\dfrac{\dfrac{a}{a+c}}{\dfrac{c}{a+c}}}{\dfrac{\dfrac{b}{b+d}}{\dfrac{d}{b+d}}} = \dfrac{\dfrac{a}{c}}{\dfrac{b}{d}} = \dfrac{ad}{bc}\]</span></p>
 </section><section id="razão-de-chances-ou-odds-ratio-2" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Razão de chances ou <em>odds-ratio</em>
 </h2>
-<p><strong>Interpretação:</strong> O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.</p>
+<p><span class="math display">\[\text{Razão de chances (OR)} = \dfrac{\dfrac{\dfrac{a}{a+c}}{\dfrac{c}{a+c}}}{\dfrac{\dfrac{b}{b+d}}{\dfrac{d}{b+d}}} = \dfrac{\dfrac{a}{c}}{\dfrac{b}{d}} = \dfrac{ad}{bc}\]</span></p>
 </section><section id="razão-de-chances-ou-odds-ratio-3" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Razão de chances ou <em>odds-ratio</em>
+</h2>
+<p><strong>Interpretação:</strong> O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.</p>
+</section><section id="razão-de-chances-ou-odds-ratio-4" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Razão de chances ou <em>odds-ratio</em>
 </h2>
 <p><strong>Interpretação:</strong> O significado da razão de chances é análogo ao do risco relativo obtido a partir dos estudos de coorte.</p>
 <ul>
 <li><p>Se OR &gt; 1 - fator de risco</p></li>
 <li><p>Se OR &lt; 1 - fator de proteção</p></li>
 <li><p>Se OR = 1 - sem associação</p></li>
-</ul></section><section id="razão-de-chances-ou-odds-ratio-4" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</ul></section><section id="razão-de-chances-ou-odds-ratio-5" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
 </h2>
 <p>Para testar a hipótese nula:</p>
 <p><span class="math display">\[H_0: OR = 1\]</span></p>
 <p>podemos utilizar o teste Qui-quadrado com 1 GL.</p>
 <p>Estatística do teste:</p>
 <p><span class="math display">\[\chi^2 =  \dfrac{(ad - bc)^2 \times n}{(a + b) \times (c + d) \times (a + c) \times (b + d)}\]</span></p>
-</section><section id="razão-de-chances-ou-odds-ratio-5" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</section><section id="razão-de-chances-ou-odds-ratio-6" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
 </h2>
 <ul>
 <li>Consumo de álcool no passado <span class="math inline">\(\times\)</span> Câncer de Pâncreas</li>
@@ -1188,7 +1268,7 @@
 <div class="fragment">
 <p><span class="math display">\[\text{OR} = \dfrac{\dfrac{\dfrac{1000}{1300}}{\dfrac{300}{1300}}}{\dfrac{\dfrac{3200}{4500}}{\dfrac{1300}{4500}}} = \dfrac{\dfrac{1000}{300}}{\dfrac{3200}{1300}} = \dfrac{1000 \times 1300}{300 \times 3200} = \dfrac{1300000}{960000} \approx 1,35\]</span></p>
 </div>
-</section><section id="razão-de-chances-ou-odds-ratio-6" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</section><section id="razão-de-chances-ou-odds-ratio-7" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
 </h2>
 <p>Existe associação entre o consumo de álcool no passado e Câncer de Pâncreas?</p>
 <div class="fragment">
@@ -1200,13 +1280,13 @@
 <div class="fragment">
 <p>Como <span class="math inline">\(\chi^2 = 17,06 &gt; 3,841 =\)</span> <a href="../..\documentos/Tabela da Qui-quadrado.pdf"><span class="math inline">\(\chi^2_{(1;0,05)}\)</span></a> rejeita-se a hipótese nula. Logo, o consumo de álcool no passado é fator de risco para o desenvolvimento de Câncer de Pâncreas.</p>
 </div>
-</section><section id="razão-de-chances-ou-odds-ratio-7" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</section><section id="razão-de-chances-ou-odds-ratio-8" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
 </h2>
 <p>Podemos construir um intervalo de confiança para o estimador da <span class="math inline">\(OR\)</span>. Para isso, precisamos da variância de <span class="math inline">\(OR\)</span>. Por razões teóricas, é mais fácil obter a variância de <span class="math inline">\(\ln[OR]\)</span>. Vale o seguinte resultado:</p>
 <p><span class="math display">\[\text{Var}(\ln[OR]) = \dfrac{1}{a} + \dfrac{1}{b} + \dfrac{1}{c} + \dfrac{1}{d}\]</span></p>
 <p>e um intervalo de confiança de <span class="math inline">\(95\%\)</span> para a <span class="math inline">\(OR\)</span> é obtido por</p>
 <p><span class="math display">\[\exp(\ln[OR] \pm 1,96 \times \sqrt{\text{Var}(\ln[OR])})\]</span></p>
-</section><section id="razão-de-chances-ou-odds-ratio-8" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</section><section id="razão-de-chances-ou-odds-ratio-9" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
 </h2>
 <p>No exemplo do CA de pâncreas, temos <span class="math inline">\(OR \approx 1,35\)</span>. Logo,:</p>
 <div class="fragment">
@@ -1221,7 +1301,7 @@
 \end{eqnarray*}
 \]</span> <span class="math display">\[IC_{95\%}(OR) = (1,17; 1,55)\]</span></p>
 </div>
-</section><section id="razão-de-chances-ou-odds-ratio-9" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
+</section><section id="razão-de-chances-ou-odds-ratio-10" class="slide level2"><h2>Razão de chances ou <em>odds-ratio</em>
 </h2>
 <ul>
 <li>
@@ -1595,7 +1675,7 @@
 <p>Discussão do artigo <a href="../..\artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf">Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto</a>.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_96b166d1" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_42a2ff00" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls">
 <button class="countdown-bump-down">−</button><button class="countdown-bump-up">&amp;plus;</button>
 </div>
@@ -2890,7 +2970,7 @@ Sulheim, Steinar, Arne Ekeland, Ingar Holme, and Roald Bahr. 2017. <span>“Helm
         }
       }
     });
-    </script><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"openEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
+    </script><script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","loop":false,"selector":".lightbox"});
     (function() {
       let previousOnload = window.onload;
       window.onload = () => {

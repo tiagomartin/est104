@@ -569,6 +569,154 @@ Ou seja, o risco relativo é a razão entre a incidência nos expostos e a incid
   - O risco de desenvolver AIDS é 39% maior para quem tem úlcera do que nos indivíduos sem úlcera
 
 
+## Risco Relativo ou Razão de Riscos (RR)
+
+Para testar a hipótese nula:
+
+$$H_0: RR = 1$$
+
+podemos utilizar o teste Qui-quadrado com 1 GL.
+
+Estatística do teste:
+
+$$\chi^2 =  \dfrac{(ad - bc)^2 \times n}{(a + b) \times (c + d) \times (a + c) \times (b + d)}$$
+
+
+
+
+
+## Risco Relativo ou Razão de Riscos (RR)
+
+- Associação entre baixo peso ao nascer (BPN: peso $\leq 2500g$) e morte perinatal
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab"> </td>
+                <td class="cab">Ocorreu morte perinatal</td>
+                <td class="cab">Não ocorreu morte perinatal</td>
+                <td class="cab">Total</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">Peso < 2500g </td>
+                <td class="cont"> 150 </td>
+                <td class="cont"> 574 </td>
+                <td class="cont"> 724 </td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">Peso > 2500g</td>
+                <td class="cont"> 61 </td>
+                <td class="cont"> 5588 </td>
+                <td class="cont"> 5649 </td>
+            </tr>
+
+            <tr class="item color">
+                <td class="cab">Total</td>
+                <td class="cont"> 211 </td>
+                <td class="cont"> 6162 </td>
+                <td class="cont"> 6373 </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
+
+
+. . .
+
+
+$$\text{RR}  = \dfrac{\dfrac{150}{724}}{\dfrac{61}{5649}} = \dfrac{150}{724} \times \dfrac{5649}{61} \approx 19,2$$
+
+## Risco Relativo ou Razão de Riscos (RR)
+
+
+Existe associação entre BPN e morte perinatal?
+
+
+. . .
+
+
+$H_0: RR = 1$
+
+. . .
+
+$$\chi^2 =  \dfrac{(150 \times 5588 - 574 \times 61)^2 \times 6373}{(150 + 574) \times (61 + 5588) \times (150 + 61) \times (574 + 5588)} = 773,15$$
+
+. . .
+
+
+Como $\chi^2 = 773,15 > 3,841 =$ [$\chi^2_{(1;0,05)}$](/documentos/Tabela da Qui-quadrado.pdf) rejeita-se a hipótese nula. Logo, o baixo peso ao nascer é fator de risco para a morte perinatal. O Risco de Morte Perinatal de um RN de baixo peso excede 19,2 vezes a de um RN de peso > 2500g 
+
+
+
+## Risco Relativo ou Razão de Riscos (RR)
+
+Podemos construir um intervalo de confiança para o estimador da $RR$. Para isso, precisamos da variância de $RR$. Por razões teóricas, é mais fácil obter a variância de $\ln[RR]$. Vale o seguinte resultado:
+
+
+$$\text{Var}(\ln[RR]) = \dfrac{1}{a} - \dfrac{1}{a + b} + \dfrac{1}{c} - \dfrac{1}{c + d}$$
+
+e um intervalo de confiança de $95\%$ para a $RR$ é obtido por
+
+
+$$\exp(\ln[RR] \pm 1,96 \times \sqrt{\text{Var}(\ln[RR])})$$
+
+## Razão de chances ou *odds-ratio*
+
+No exemplo da morte perinatal, temos $RR \approx 19,2$. Logo,:
+
+. . .
+
+$$\ln[OR] = \ln[19,2] = 2,95$$
+e,
+
+
+$$\text{Var}(\ln[RR]) = \dfrac{1}{150} - \dfrac{1}{150+574} + \dfrac{1}{61} - \dfrac{1}{61+5588} \approx 0,02$$
+
+. . .
+
+
+Um intervalo de confiança de 95% para $RR$ é obtido por
+
+$$
+\begin{eqnarray*}
+\exp(2,95 \pm 1,96 \times \sqrt{0,02}) &=& (\exp(2,95 - 0,15); \exp(2,95 + 0,15)) \\&=& (\exp(2,8); \exp(3,1))
+\end{eqnarray*}
+$$
+$$IC_{95\%}(RR) = (16,44; 22,19)$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Tipos de coorte{auto-animate="true"}
 
