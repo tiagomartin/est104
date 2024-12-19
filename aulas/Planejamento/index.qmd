@@ -681,7 +681,7 @@ $$\exp(\ln[RR] \pm 1,96 \times \sqrt{\text{Var}(\ln[RR])})$$
 
 ## Risco Relativo ou Razão de Riscos (RR) 
 
-No exemplo da morte perinatal, temos $RR \approx 19,2$. Logo,:
+No exemplo da morte perinatal, temos $RR \approx 19,2$. Logo,
 
 . . .
 
