@@ -1,0 +1,23 @@
+---
+title: "Semana 07"
+---
+
+## Para ler antes da aula...
+
+{{< fa file-pdf size=lg >}} [Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto](/artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf)
+
+{{< fa file-pdf size=lg >}} [Aumento das internações por síndrome de Guillain-Barré no Brasil: estudo ecológico](/artigos/Aumento_das_internações_por_síndrome_de_Guillain-Barré_no_Brasil_estudo_ecológico.pdf)
+
+
+## Leitura adicional
+
+
+{{< fa file-pdf size=lg >}} [Tópicos de metodologia de pesquisa: Estudos de corte transversal](/artigos/Entendendo_estudos_transversais.pdf)
+
+
+
+## Slides
+
+{{< fa file-powerpoint size=lg >}} [Estudos transversais](/aulas/Planejamento/#/estudos-transversais "Estudos transversais"){aria-label="Estudos transversais"}
+
+{{< fa file-powerpoint size=lg >}} [Estudos ecológicos](/aulas/Planejamento/#estudos-ecológicos "Estudos ecológicos"){aria-label="Estudos ecológicos"}

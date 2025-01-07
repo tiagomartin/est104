@@ -2146,10 +2146,10 @@ Limitações do delineamento de série temporal
 
 
 
-## Tipos de estudos ecológicos
+## Vantagens e desvantagens
 
 
-Vantagens:
+**Vantagens**
 
 - Permitir o estudo de grandes populações(comparações internacionais das taxas de incidência de doenças)
 
@@ -2167,9 +2167,10 @@ Vantagens:
 
 
 
-## Tipos de estudos ecológicos
+## Vantagens e desvantagens
 
-Alguns problemas metodológicos:
+
+**Alguns problemas metodológicos**
 
 - Limitação na inferência causal **(Falácia Ecológica)**
 

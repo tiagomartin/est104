@@ -33,6 +33,9 @@ Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semest
 |                           | Qua, 11/12 | Não haverá aula! (Encontro de Saberes) |  |  |  |  |  |  |  
 |  [6](programacao/semana-6.html)  | Seg, 16/12 | Estudos caso-controle | [{{< fa file-pdf size=2xl >}}](artigos/fatores_cancer_boca_caso_controle.pdf) | [{{< fa file-powerpoint size=2xl >}}️](/aulas/Planejamento/#/estudo-caso-controle  "Estudos caso-controle"){aria-label="Estudos caso-controle"}    |  |  ||
 |                           | Qua, 18/12 | Não haverá aula!  |  |  |  |  |  |  | 
+|     | 23/12 a 19/01  | Recesso Acadêmico |         |  | | | | |
+|  [7](programacao/semana-7.html)  | Seg, 20/01 | Estudos Transversais | [{{< fa file-pdf size=2xl >}}](artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf) | [{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Planejamento/#/estudos-transversais "Estudos transversais"){aria-label="Estudos transversais"}  |  |  |  |  |
+|                           | Qua, 22/01 | Estudos Ecológicos | [{{< fa file-pdf size=2xl >}}](artigos/Aumento_das_internações_por_síndrome_de_Guillain-Barré_no_Brasil_estudo_ecológico.pdf) | [{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Planejamento/#estudos-ecológicos "Estudos ecológicos"){aria-label="Estudos ecológicos"}  |  |  |  |  |
 
 :::
 
@@ -41,5 +44,3 @@ knitr::knit_exit()
 ```
 
 
-<!-- |                           | Qua, 18/12 | Estudos Transversais | [{{< fa file-pdf size=2xl >}}](artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf) | [{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Planejamento/#/estudos-transversais "Estudos transversais"){aria-label="Estudos transversais"}  |  |  |  |  |  -->
-<!-- |     | 23/12 a 19/01  | Recesso Acadêmico |         |  | | | | | -->
