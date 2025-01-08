@@ -1526,6 +1526,15 @@ quantidade planejada de indivíduos em uma única oportunidade, após um corte n
 Tanto a exposição como o desfecho são observados simultaneamente para cada indivíduo.
 
 
+## Estudo Transversal{auto-animate="true"}
+
+É uma forma de pesquisa que se caracteriza pela observação direta de determinada
+quantidade planejada de indivíduos em uma única oportunidade, após um corte no tempo.
+
+Tanto a exposição como o desfecho são observados simultaneamente para cada indivíduo.
+
+**Característica principal:** Os participantes são **avaliados apenas uma vez**.
+
 
 ## Estudo Transversal{auto-animate="true"}
 
@@ -1539,28 +1548,57 @@ Funciona como uma fotografia do que acontece naquele instante...
 ![](/images/transversal.png){fig-align="center"}
 
 
-## Estudo Transversal{auto-animate="true"}
 
-- Útil para estudar condições que são avaliadas de forma quantitativa e que podem variar ao longo do tempo,
+## Estudo Transversal
 
-    - **Exemplo:** Pressão sanguínea
-
+- Útil para medir a ocorrência de doenças na população.
 
 
 ## Estudo Transversal{auto-animate="true"}
 
-- Útil para estudar condições que são avaliadas de forma quantitativa e que podem variar ao longo do tempo,
+- Útil para medir a ocorrência de doenças na população.
 
-    - **Exemplo:** Pressão sanguínea
+    - Fazem um "diagnóstico" da situação de saúde da população num determinado momento.
 
-
-- ou doenças que são relativamente frequentes e têm longa duração.
-
-    - **Exemplo:** Bronquite crônica
+    
     
 
+## Estudo Transversal{auto-animate="true"}
+
+- Útil para medir a ocorrência de doenças na população.
+
+    - Fazem um "diagnóstico" da situação de saúde da população num determinado momento.
+    - Particularmente útil para identificar os problemas de saúde mais comuns.
+
+
+
+
+
+## Estudo Transversal
+
+- Os estudos transversais **dependem** de quando o estudo é realizado.
+
 
 ## Estudo Transversal{auto-animate="true"}
+
+- Os estudos transversais **dependem** de quando o estudo é realizado.
+
+    - As coisas mudam ao longo do tempo: entrada e saída de indivíduos da população alvo.
+    
+    
+## Estudo Transversal{auto-animate="true"}
+
+- Os estudos transversais **dependem** de quando o estudo é realizado.
+
+    - As coisas mudam ao longo do tempo: entrada e saída de indivíduos da população alvo.
+    
+    
+- Estudos transversais **sempre** devem fazer menção à **época** em que foram realizados.   
+
+    
+## Estudo Transversal
+
+### Análise de dados
 
 <br>
 
@@ -1718,15 +1756,19 @@ O hábito de fumar parece ser **fator de risco** para cólica infantil naquele d
 
 ## Vantagens 
 
-- Representa a população
+- Mais rápido, simples e barato do que estudos que envolvem medir as mesmas pessoas em dois ou mais momentos distintos (coortes).
 
 . . .
 
-- Conveniente e não muito caro
+- Amostras representativas: diagnóstico da situação de saúde da população.
 
 . . .
 
-- Várias exposições e doenças 
+- Permitem quantificar a ocorrência de doenças e identificar fatores associados.
+
+    - Ocorrência da doença: % de pessoas com a doença
+    - Fator associado: característica relacionada à maior ou menor ocorrência da doença
+        - Pode ser do ambiente, do domicílio, do indivíduo, etc.
 
 . . .
 
@@ -1737,33 +1779,55 @@ O hábito de fumar parece ser **fator de risco** para cólica infantil naquele d
 - Estudos de coortes e Ensaios Clínicos Randomizados: testam hipóteses
 
 
-## Desvantagens {auto-animate="true"}
+## Desvantagens 
 
 - Vulnerável a viéses
 
-. . .
-
-- Inclui somente casos que sobrevivem (disponíveis para o estudo)
+    - **Viés de prevalência:** são excluídos os casos curados e falecidos.
+    - **Viés de memória:** diferença entre o que realmente ocorreu e o que o entrevistado lembra.
 
 . . .
 
 - Doenças de curta duração podem não ser representativas
 
+. . .
 
-
-## Prática
-
-```{r include = FALSE}
-library(countdown)
-```
-
-Discussão do artigo [Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto](/artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf).
+- Sujeito a **causalidade reversa**.
 
 
 
-```{r}
-countdown(minutes = 15)
-```
+## Causalidade reversa 
+
+- Como só medimos os participantes uma única vez, é difícil estabelecer relações temporais.
+
+. . .
+
+- **Exemplo:** Suponha que atividade física seja um fator associado à ocorrência de obesidade. Isso aconteceu pois...
+
+    a) Indivíduos sedentários têm mais chances de se tornarem obesos? (atividade física &#11106; obesidade)
+    b) Indivíduos obesos tem mais chances de deixarem de se exercitar? (obesidade &#11106; atividade física)
+
+
+. . .
+
+
+- Em estudos transversais, muitas vezes não conseguimos distinguir o que vem antes e o que vem depois. Apenas conseguimos estabelecer se duas características **se relacionam** ou não.
+
+
+
+<!-- ## Prática -->
+
+<!-- ```{r include = FALSE} -->
+<!-- library(countdown) -->
+<!-- ``` -->
+
+<!-- Discussão do artigo [Prevalência e fatores associados ao bruxismo em universitários: um estudo transversal piloto](/artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf). -->
+
+
+
+<!-- ```{r} -->
+<!-- countdown(minutes = 15) -->
+<!-- ``` -->
 
 
 
