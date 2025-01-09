@@ -36,6 +36,8 @@ Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semest
 |     | 23/12 a 19/01  | Recesso Acadêmico |         |  | | | | |
 |  [7](programacao/semana-7.html)  | Seg, 20/01 | Estudos Transversais | [{{< fa file-pdf size=2xl >}}](artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf) | [{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Planejamento/#/estudos-transversais "Estudos transversais"){aria-label="Estudos transversais"}  |  |  |  |  |
 |                           | Qua, 22/01 | Estudos Ecológicos | [{{< fa file-pdf size=2xl >}}](artigos/Aumento_das_internações_por_síndrome_de_Guillain-Barré_no_Brasil_estudo_ecológico.pdf) | [{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Planejamento/#estudos-ecológicos "Estudos ecológicos"){aria-label="Estudos ecológicos"}  |  |  |  |  |
+|  [8](programacao/semana-8.html)  | Seg, 27/01 | Ensaios clínicos aleatorizados | [{{< fa file-pdf size=2xl >}}](artigos/Administração orofaríngea de colostro em recém-nascidos com gastrosquise_ensaio clínico randomizado.pdf) | [{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Planejamento/#estudos-experimentais "Ensaios Clínicos Aleatorizados"){aria-label="Ensaios Clínicos Aleatorizados"}  |  |  |  |  |
+|                           | Qua, 29/01 | Não haverá aula!  |  |  |  |  |  |  |
 
 :::
 

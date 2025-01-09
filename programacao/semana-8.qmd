@@ -1,0 +1,41 @@
+---
+title: "Semana 08"
+---
+
+## Para ler antes da aula...
+
+{{< fa file-pdf size=lg >}} [Administração orofaríngea de colostro em recém-nascidos com gastrosquise: ensaio clínico randomizado](/artigos/Administração orofaríngea de colostro em recém-nascidos com gastrosquise_ensaio clínico randomizado.pdf)
+
+## Leitura adicional
+
+{{< fa file-pdf size=lg >}} [Ensaios clínicos randomizados: Série Entendendo a Pesquisa Clínica 2](/artigos/Entendendo_ensaio_clinico.pdf)
+
+{{< fa file-pdf size=lg >}} [Conceitos básicos de epidemiologia e estatística para a leitura de ensaios clínicos controlados](/artigos/Conceitos básicos de epidemiologia e estatística para a leitura de ensaios clínicos controlados.pdf)
+
+{{< fa file-pdf size=lg >}} [O que é um estudo clínico randomizado?](/artigos/O que é um estudo clinico randomizado.pdf)
+
+### Outros artigos interessantes sobre ensaios clínicos
+
+{{< fa file-pdf size=lg >}} [Efeitos da música na ansiedade de doadores de sangue: ensaio clínico randomizado](/artigos/Efeitos da música na ansiedade de doadores de sangue_ensaio clínico randomizado.pdf)
+
+{{< fa file-pdf size=lg >}} [Alopurinol Versus Trimetazidina para o Tratamento da Angina: Ensaio Clínico Randomizado](/artigos/Alopurinol Versus Trimetazidina para o Tratamento da Angina_Ensaio Clínico Randomizado.pdf)
+
+{{< fa file-pdf size=lg >}} [Avaliação dos efeitos de um programa educativo em diabetes: ensaio clínico randomizado](/artigos/Avaliação dos efeitos de um programa educativo em diabetes_ensaio clínico randomizado.pdf)
+
+### Ensaios clínicos com três grupos
+
+{{< fa file-pdf size=lg >}} [Terapias complementares no trabalho de parto: ensaio clínico randomizado](/artigos/Terapias complementares no trabalho de parto_ensaio clínico randomizado_tres_grupos.pdf)
+
+
+### Ensaios clínicos *crossover*
+
+{{< fa file-pdf size=lg >}} [Efeito de um programa de resistência muscular na capacidade funcional e na força muscular dos extensores do joelho em idosas pré-frágeis da comunidade: ensaio clínico aleatorizado do tipo crossover](/artigos/Efeito de um programa de resistência muscular na capacidade funcional e na força muscular dos extensores do joelho em idosas pré-frágeis da comunidade_ensaio clínico aleatorizado do tipo crossover.pdf)
+
+
+### Ensaios clínicos fatoriais
+
+{{< fa file-pdf size=lg >}} [Eficácia do protetor solar com fotoliase ou protetor solar comum associado a antioxidantes tópicos no tratamento de fotodano avançado e campo de cancerização cutâneo: ensaio clínico randomizado](/artigos/Eficácia do protetor solar com fotoliase ou protetor_ensaio_clinico_fatorial.pdf)
+
+## Slides
+
+{{< fa file-powerpoint size=lg >}} [Ensaios Clínicos Aleatorizados](/aulas/Planejamento/#estudos-experimentais "Ensaios Clínicos Aleatorizados"){aria-label="Ensaios Clínicos Aleatorizados"}

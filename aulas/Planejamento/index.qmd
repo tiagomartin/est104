@@ -2267,7 +2267,7 @@ terapêutico.
 Delineamento experimental a nível individual, prospectivos
 
 
-## Características principais{auto-animate=true}
+## Características principais
 
 - Os ensaios clínicos são indicados para avaliar a segurança e eficácia de:
     
@@ -2279,16 +2279,16 @@ Delineamento experimental a nível individual, prospectivos
 
 
 
+## Características principais
+
+**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção e um grupo controle
+
+
+
+
 ## Características principais{auto-animate=true}
 
-**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção
-
-
-
-
-## Características principais{auto-animate=true}
-
-**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção
+**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção e um grupo controle
 
 
 ![](/images/ensaio_clinico.png){fig-align="center"}
@@ -2296,7 +2296,7 @@ Delineamento experimental a nível individual, prospectivos
 
 ## Características principais
 
-**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção
+**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção e um grupo controle
 
 
 - **Grupo intervenção:** indivíduos que **recebem** o tratamento/intervenção
@@ -2306,7 +2306,7 @@ Delineamento experimental a nível individual, prospectivos
     
 ## Características principais{auto-animate=true}
 
-**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção
+**Característica principal:** Os participantes são escolhidos **aleatoriamente** para um grupo intervenção e um grupo controle
 
 
 - **Grupo intervenção:** indivíduos que **recebem** o tratamento/intervenção
@@ -2317,7 +2317,7 @@ Delineamento experimental a nível individual, prospectivos
     
     
 
-## Características principais{auto-animate=true}
+## Características principais
 
 Cada grupo pode ser entendido como uma subamostra da amostra total
 
@@ -2346,6 +2346,18 @@ Cada grupo pode ser entendido como uma subamostra da amostra total
     - Os grupos são parecidos entre si!
 
 
+
+## Características principais{auto-animate=true}
+
+Cada grupo pode ser entendido como uma subamostra da amostra total
+
+
+- Como se a amostra total fosse a população e cada grupo uma amostra
+    
+- Isto significa que cada grupo é similar à amostra total
+
+    - Os grupos são parecidos entre si!
+    - Logo, quaisquer diferenças na ocorrência do desfecho entre grupos só podem ser consequência dos efeitos da intervenção.
 
 
 ## Fases da pesquisa
@@ -2452,13 +2464,35 @@ Cada grupo pode ser entendido como uma subamostra da amostra total
 
 ## Mascaramento{auto-animate=true}
 
+
+::: {style="margin-top: 40px; font-size: 1.5em; color: red;"}
 - Por que fazer mascaramento dos pacientes?
-    - Alguns pacientes podem não aderir ao tratamento proposto ou buscarem por outros tratamentos os quais acreditam ser mais benéficos caso saibam que estão no grupo placebo.
+:::
 
+Alguns pacientes podem não aderir ao tratamento proposto ou buscarem por outros tratamentos os quais acreditam ser mais benéficos caso saibam que estão no grupo placebo.
 
+::: {style="font-size: 0.7em; color: gray;"}
 - Por que fazer mascaramento dos investigadores?
 
 - Por que fazer mascaramento dos analistas?
+:::
+
+
+
+## Mascaramento{auto-animate=true}
+
+- Por que fazer mascaramento dos pacientes?
+
+
+::: {style="margin-top: 40px; font-size: 1.5em; color: red;"}
+- Por que fazer mascaramento dos investigadores?
+:::
+
+Pesquisadores e equipe podem, de modo consciente ou inconsciente, modificar sua conduta no tratamento e no suporte dado aos participantes a depender do grupo de alocação.
+
+::: {style="margin-top: 40px; font-size: 0.7em; color: gray;"}
+- Por que fazer mascaramento dos analistas?
+:::
 
 
 
@@ -2467,20 +2501,13 @@ Cada grupo pode ser entendido como uma subamostra da amostra total
 - Por que fazer mascaramento dos pacientes?
 
 - Por que fazer mascaramento dos investigadores?
-    - Já pesquisadores e equipe podem, de modo consciente ou inconsciente, modificar sua conduta no tratamento e no suporte dado aos participantes a depender do grupo de alocação.
 
+
+::: {style="margin-top: 40px; font-size: 1.5em; color: red;"}
 - Por que fazer mascaramento dos analistas?
+:::
 
-
-
-## Mascaramento{auto-animate=true}
-
-- Por que fazer mascaramento dos pacientes?
-
-- Por que fazer mascaramento dos investigadores?
-
-- Por que fazer mascaramento dos analistas?
-    - Saber a qual grupo o indivíduo da base de dados pertence pode influenciar os analistas a "torturar os dados" de forma a obter os resultados esperados/desejados.
+Saber a qual grupo o indivíduo da base de dados pertence pode influenciar os analistas a "torturar os dados" de forma a obter os resultados esperados/desejados.
     
     
     
@@ -2501,6 +2528,144 @@ Todos os ensaios clínicos devem ser mascarados?
 - Sempre que for factível manter o mascaramento, ele deve ser utilizado.
     - Quanto mais mascaramento, mais robustas serão as conclusões do estudo.
     - Mascaramento dos analistas de dados é sempre possível!
+
+
+
+## Tipos de ensaios clínicos
+
+- Delineamento mais simples: dois grupos (intervenção e controle)
+
+. . .
+
+- Podemos estender esse delineamento incluindo mais grupos
+
+    - ECR avaliando o efeito de um novo medicamento em três grupos de participantes: placebo, dose baixa e dose intermediária
+    
+. . .
+
+- Delineamentos mais complexos: ensaios cruzados ou *crossover* e ensaios fatoriais
+
+
+## Ensaios *crossover*
+
+<br>
+
+
+![](/images/ECRCrossover.png){fig-align="center"}
+<br>
+
+- **Washout:** período para cessação do efeito residual da intervenção, caso necessário.
+
+
+## Ensaios *crossover*
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="10%"}
+<span style='font-size:100px;'>&#128077;</span>
+:::
+
+::: {.column width="90%"}
+- Cada participante é seu próprio controle: comparabilidade garantida
+
+- Os resultados são mais estáveis
+
+    - reduz variabilidade amostral
+:::
+
+::::
+
+
+. . .
+
+
+:::: {.columns}
+
+::: {.column width="10%"}
+<span style='font-size:100px;'>&#128078;</span>
+:::
+
+::: {.column width="90%"}
+- Efeito da intervenção deve durar pouco e desaparecer com o tempo (washout)
+
+    - caso contrário: ordem da alocação fará diferença
+
+- A intervenção não pode prevenir a ocorrência do desfecho
+
+    - caso contrário: ordem da alocação fará diferença
+
+- O desfecho deve ser de curta duração e recorrente
+
+
+:::
+
+::::
+
+
+
+## Ensaios fatorias
+
+- Utilizado quando se quer avaliar mais de uma intervenção
+
+![](/images/ECRFatorial.png){fig-align="center"} 
+
+
+
+
+## Ensaios fatoriais
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="10%"}
+<span style='font-size:100px;'>&#128077;</span>
+:::
+
+::: {.column width="90%"}
+- Permitem responder mais de uma pergunta no mesmo estudo.
+
+    - Intervenção A $\times$ plabebo
+    - Intervenção B $\times$ plabebo
+    - Intervenção A + intervenção B $\times$ intervenção A
+    - etc
+
+- Permite testar uma hipótese menos "madura" junto com outra mais "amadurecida"
+
+- Permite testar o efeitos de interações entre intervenções.
+:::
+
+::::
+
+## Ensaios fatoriais
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="10%"}
+<span style='font-size:100px;'>&#128078;</span>
+:::
+
+::: {.column width="90%"}
+- Maior complexidade do delineamento
+
+- Nem sempre faz sentido combinar intervenções
+
+    - duas intervenções combinadas podem gerar efeitos colateriais imprevistos.
+
+:::
+
+::::
+
+
+
+
+
+
+
 
 
 
@@ -2748,25 +2913,41 @@ De forma que,
 
 $$EF = 1 - RR = (1 - 0,135) \times 100 = 86,5\%$$
 
-## Vantagens e desvantagens{auto-animate=true}
+## Vantagens e desvantagens
 
-- Vantagens:
+:::: {.columns}
 
-    - Não são sujeitos a causalidade reversa.
-    - São de natureza experimental (randomização e controle preciso da intervenção)
-    - Permitem estudar a história natural da doença.
+::: {.column width="10%"}
+<span style='font-size:100px;'>&#128077;</span>
+:::
 
+::: {.column width="90%"}
+- Não são sujeitos a causalidade reversa.
+    - Alocação da intervenção é feita pelos pesquisadores, e após os participantes são acompanhados.
+    
+- São de natureza experimental (randomização e controle preciso da intervenção)
 
-## Vantagens e desvantagens{auto-animate=true}
+:::
 
-- Desvantagens:
+::::
 
-    - Às vezes são muito caros, demorados e complexos
-    - Podem não ser generalizáveis devido aos critérios de exclusão
-    - Correm o risco de serem eticamente inaceitáveis
-    - A desistência ao tratamento pode ser grande.
+. . .
 
+:::: {.columns}
 
+::: {.column width="10%"}
+<span style='font-size:100px;'>&#128078;</span>
+:::
+
+::: {.column width="90%"}
+- Às vezes são muito caros, demorados e complexos
+- Podem não ser generalizáveis devido aos critérios de exclusão
+- Correm o risco de serem eticamente inaceitáveis
+- A desistência ao tratamento pode ser grande.
+
+:::
+
+::::
 
 
 # Ensaios de Campo
