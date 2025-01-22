@@ -1947,7 +1947,16 @@ Hipótese
  Desnutrição na gestação e infância aumenta mortalidade por doenças cardiovasculares na fase adulta?
 
 
+## Características principais {auto-animate=true}
 
+::: {style="margin-top: 100px;"}
+Hipótese
+:::
+
+ Desnutrição na gestação e infância aumenta mortalidade por doenças cardiovasculares na fase adulta?
+
+
+Deve ser confirmada em estudos futuros!
 
 ## Características principais 
 
