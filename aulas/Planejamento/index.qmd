@@ -2217,7 +2217,9 @@ Limitações do delineamento de série temporal
     
 - O viés pode ocorrer porque uma associação observada entre variáveis relativas a agregados populacionais, não expressa necessariamente a associação existente no nível do indivíduo
 
+. . .
 
+- Por exemplo, estudos ecológicos podem mostrar que países com maiores taxas de consumo de café têm menor incidência de doenças cardíacas, mas isso não significa que pessoas que bebem mais café tenham um risco menor de doenças cardíacas.
 
 ## Vantagens e desvantagens
 
