@@ -2221,12 +2221,14 @@ Limitações do delineamento de série temporal
 
 - Por exemplo, estudos ecológicos podem mostrar que países com maiores taxas de consumo de café têm menor incidência de doenças cardíacas, mas isso não significa que pessoas que bebem mais café tenham um risco menor de doenças cardíacas.
 
+
+
 ## Vantagens e desvantagens
 
 
 **Vantagens**
 
-- Permitir o estudo de grandes populações(comparações internacionais das taxas de incidência de doenças)
+- Permitem o estudo de grandes populações(comparações internacionais das taxas de incidência de doenças)
 
 . . .
 
@@ -2238,7 +2240,9 @@ Limitações do delineamento de série temporal
 
 . . . 
 
-- Disponibilidade de grandes bases de dados.
+- Podem gerar hipóteses acerca de relações em nível individual
+
+    - Exemplo do estudo sobre mortalidade infantil e doenças cardiovasculares.
 
 
 
@@ -2255,7 +2259,7 @@ Limitações do delineamento de série temporal
 
 . . .
 
-- Auto-correlação espacial e temporal 
+- Sujeito à causalidade reversa 
 
 . . .
 
