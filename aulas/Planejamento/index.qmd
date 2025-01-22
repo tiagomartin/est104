@@ -1863,7 +1863,7 @@ O interesse, nesse caso, está na comparação de uma **medida agregada** (propo
 
 O interesse, nesse caso, está na comparação de uma **medida agregada** (proporção, taxa, média, mediana, etc.) da exposição com uma medida agregada do desfecho.
 
-- Compara-se grupos com maior ou menor **nível** de exposição.
+- Compara-se grupos com maior ou menor **nível** de exposição com relação à uma medida agregada do desfecho.
 
 
 ## Características principais 
