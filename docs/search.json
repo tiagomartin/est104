@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "programacao/semana-9.html",
+    "href": "programacao/semana-9.html",
+    "title": "Semana 09",
+    "section": "",
+    "text": "Fique Atento!\n\n\n\n Lista de exercícios 01\n\nData de entrega:\n\n10 de fevereiro de 2025"
+  },
+  {
+    "objectID": "programacao/semana-9.html#entrega-lista-de-exercícios-01",
+    "href": "programacao/semana-9.html#entrega-lista-de-exercícios-01",
+    "title": "Semana 09",
+    "section": "",
+    "text": "Fique Atento!\n\n\n\n Lista de exercícios 01\n\nData de entrega:\n\n10 de fevereiro de 2025"
+  },
+  {
+    "objectID": "programacao/semana-9.html#leitura-artigos-interessantes-sobre",
+    "href": "programacao/semana-9.html#leitura-artigos-interessantes-sobre",
+    "title": "Semana 09",
+    "section": "Leitura: artigos interessantes sobre…",
+    "text": "Leitura: artigos interessantes sobre…\n\nEnsaios de campo\n Impactos da implementação dos dez passos da alimentação saudável para crianças: ensaio de campo randomizado\n\n\nEnsaios comunitários\n Educação nutricional e consumo de frutas e hortaliças: ensaio comunitário controlado\n\n\nEstudos de bioequivalência\n Métodos de Determinação do Ornidazol em Comprimidos Revestidos: Desenvolvimento, Validação e Comparação Estatística\n Average bioequivalence of single 500 mg doses of two oral formulations of levofloxacin: a randomized, open-label, two-period crossover study in healthy adult Brazilian volunteers\n\n\nEstudos com delineamentos sequenciais ou adaptativos\n Antivirais para pacientes adultos hospitalizados com infecção por SARS-CoV-2: Um estudo de Fase II/III, randomizado, multicêntrico, controlado por placebo, adaptativo,commúltiplos braçose estágios.COALITION COVID-19 BRAZIL IX – REVOLUTIOn: protocolo e plano de análise estatística\n\n\nMéta-análise\n Risco de iniciação ao tabagismo com o uso de cigarros eletrônicos: revisão sistemática e meta-análise"
+  },
+  {
+    "objectID": "programacao/semana-9.html#slides",
+    "href": "programacao/semana-9.html#slides",
+    "title": "Semana 09",
+    "section": "Slides",
+    "text": "Slides\n Outros tipos de estudos"
+  },
+  {
     "objectID": "programacao/semana-7.html",
     "href": "programacao/semana-7.html",
     "title": "Semana 07",
@@ -77,6 +105,13 @@
     "text": "Página dedicada à disciplina EST104 - Estatística Aplicada à Saúde\n\n\nBioestatística é o conjunto de métodos estatísticos usados para o planejamento e análise de dados de estudos em ciências médicas, biológicas ou, de forma geral, na área de saúde. É uma ferramenta útil para a tomada de decisões!\n\n\nEmenta\nEstatística na área da saúde; planejamento na área da saúde; medidas de acurácia e testes diagnósticos; modelos logístico e riscos proporcionais (Cox).\n\n\nConteúdo Programático\n\nEstatística na área da saúde: conceitos básicos.\nPlanejamento na área da saúde: estudo descritivo; estudos comparativos; estudos de Bioequivalência; estudos com Delineamentos Sequenciais ou Adaptativos; seleção das Coortes; confusão de Efeitos e Controle de Fatores de Confusão; Metanálise.\nMedidas de acurácia e testes diagnósticos: Sensibilidade e Especificidade; medidas obtidas pela Combinação da Sensibilidade e da Especificidade; Valor das Predições; Decisões Incorretas; Combinação de Testes; Testes Diagnósticos baseados em Variáveis Contínuas; escolha entre Testes Diagnósticos: mais sensibilidade ou mais especificidade?\nModelos logístico e riscos proporcionais (Cox)\n\n\n\nHorário de Aulas\nNeste semestre, as aulas da disciplina serão ministradas no LABEST III.\n\n\n\nDia\nHorário\nLocal\n\n\n\n\nSegunda-feira\n17:10 - 18:50\nLABEST III\n\n\nQuarta-feira\n17:10 - 18:50\nLABEST III\n\n\n\n\n\n\n\n\n\n\n\nReferências Bibliográficas\n\nAgresti, A. 2012. Categorical Data Analysis. Wiley Series in Probability and Statistics. Wiley. https://books.google.com.br/books?id=UOrr47-2oisC.\n\n\nHosmer, D. W., and S. Lemeshow. 2004. Applied Logistic Regression. Applied Logistic Regression. Wiley. https://books.google.com.br/books?id=Po0RLQ7USIMC.\n\n\nPregibon, Daryl. 1981. “Logistic Regression Diagnostics.” The Annals of Statistics 9 (4): 705–24. https://doi.org/10.1214/aos/1176345513.\n\n\nSiqueira, A. L., and J. D. Tibúrcio. 2011. Estatística Na Área Da Saúde: Conceitos, Metodologia, Aplicações e Prática. Coopmed.\n\n\nSoares, J. F., and A. L. Siqueira. 2002. Introdução à Estatística Médica. Coopmed.\n\n\nVieira, S. 2021. Introdução à Bioestatística. GEN Guanabara Koogan."
   },
   {
+    "objectID": "exercicios/lista01.html",
+    "href": "exercicios/lista01.html",
+    "title": "Lista de exercícios 01",
+    "section": "",
+    "text": "Uma investigação realizada em banco de sangue de um hospital chegou aos seguintes resultados: entre 2 mil pessoas que receberam transfusão sanguínea, acompanhadas durante um ano, 200 contraíram hepatite. No grupo controle, de 5 mil pessoas que não receberam transfusão, acompanhadas igualmente durante idêntico período, apenas cinco contraíram a doença. Faça uma tabela 2 × 2 com os resultados. Pergunta-se:\n\nTrata-se de um estudo de coorte ou de caso controle? Por quê?\nQual o risco de uma pessoa contrair hepatite, tendo recebido transfusão de sangue?\nE o risco de ter hepatite sem ter recebido transfusão de sangue? Quantas vezes um risco é maior do que o outro?\n\nEm uma visita de uma equipe de profissionais de saúde, com a duração de uma semana, a um município do estado de Tocantins, todos os adultos de um pequeno povoado e de fazendas vizinhas foram examinados. Entre os resultados obtidos estão os seguintes: de 40 pessoas com sorologia positiva para Tripanosoma cruzi, quatro eram desnutridas, enquanto em 100 outros indivíduos, com sorologia negativa para Tripanossoma cruzi 10 foram rotulados como desnutridos. Faça uma tabela 2 × 2 com os resultados. Pergunta-se: qual o tipo de estudo? Por quê?\nUma investigação foi realizada para verificar a eficácia de uma nova vacina contra a hepatite B. Foram selecionados 2 mil adultos, em alto risco de contrair a doença, que concordaram em participar na pesquisa. Eles foram aleatorizados para constituir o grupo experimental e o controle, cada um com mil indivíduos. Ao final da investigação foram confirmados 10 casos de hepatite B no grupo experimental e 50 no de controle. Faça uma tabela 2 × 2 com os resultados. Pergunta-se:\n\nQual o tipo de estudo e por quê?\nQual o risco de uma pessoa contrair hepatite, se vacinada?\nE o risco de contrair hepatite, se não-vacinada?\n\nUm total de 30 crianças recém-nascidas, portadoras de anomalias congênitas do coração, foram examinadas e suas mães interrogadas com respeito a exposições potencialmente teratogênicas: 10 relataram que tinham tido rubéola no primeiro trimestre de gestação em questão. Entre as crianças sadias, nascidas sem evidências de malformação congênita, foram selecionadas 300 para o grupo-controle; 20 mães afirmaram que tinham tido rubéola no primeiro trimestre da gravidez. Faça uma tabela 2 × 2 com os resultados. Pergunta-se: qual o tipo de estudo?\nUma investigação foi realizada pela comparação de estatísticas de diversos países, sendo encontrada correlação positiva, estatisticamente significativa, entre o montante de cigarros, per capita, vendido à população e o coeficiente de mortalidade por doenças cardiovasculares. Pergunta-se: qual o tipo de estudo?\nEnumere as vantagens e as limitações de cada um dos seguintes tipos de estudo: ensaio clínico randomizado, coorte, de caso-controle, transversal e ecológico.\nPara as questões formuladas a seguir, explique o tipo de estudo que seria recomendado. Descreva, sempre que possível, os grupos que seriam usados e as possíveis fontes de vício.\n\nA pílula anticoncepcional é um fator de risco de tromboembolia?\nUsinas nucleares podem causar defeitos congênitos nos filhos de mães que moram em áreas próximas das usinas?\nA poluição do ar pode causar câncer de pulmão?\nA cor do capacete está associada a acidentes graves com motociclistas?\nDieta vegetariana representa risco para a saúde de crianças e adolescentes?"
+  },
+  {
     "objectID": "estudos_de_casos/estudo01.html",
     "href": "estudos_de_casos/estudo01.html",
     "title": "Estudo de Caso: Desgaste de lentes de contato",
@@ -88,7 +123,7 @@
     "href": "cronograma.html",
     "title": "Cronograma da disciplina",
     "section": "",
-    "text": "Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nData\nTópico\nArtigo\nSlides\nEC\nLE\nScript\nAvaliação\nProjeto\n\n\n\n\n1\nSeg, 11/11\nApresentação da disciplina\n\n\n\n\n\n\n\n\n\n\nQua, 13/11\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n2\nSeg, 18/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 20/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n3\nSeg, 25/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 27/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n4\nSeg, 02/12\nRelato (Série) de casos\n\n️\n\n\n\n\n\n\n\n\nQua, 04/11\nEstudos de coorte\n\n️\n\n\n\n\n\n\n\n5\nSeg, 09/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n\nQua, 11/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n6\nSeg, 16/12\nEstudos caso-controle\n\n️\n\n\n\n\n\n\n\n\nQua, 18/12\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n\n23/12 a 19/01\nRecesso Acadêmico\n\n\n\n\n\n\n\n\n\n7\nSeg, 20/01\nEstudos Transversais\n\n️\n\n\n\n\n\n\n\n\nQua, 22/01\nEstudos Ecológicos\n\n️\n\n\n\n\n\n\n\n8\nSeg, 27/01\nEnsaios clínicos aleatorizados\n\n️\n\n\n\n\n\n\n\n\nQua, 29/01\nNão haverá aula!",
+    "text": "Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nData\nTópico\nArtigo\nSlides\nEC\nLE\nScript\nAvaliação\nProjeto\n\n\n\n\n1\nSeg, 11/11\nApresentação da disciplina\n\n\n\n\n\n\n\n\n\n\nQua, 13/11\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n2\nSeg, 18/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 20/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n3\nSeg, 25/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 27/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n4\nSeg, 02/12\nRelato (Série) de casos\n\n️\n\n\n\n\n\n\n\n\nQua, 04/11\nEstudos de coorte\n\n️\n\n\n\n\n\n\n\n5\nSeg, 09/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n\nQua, 11/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n6\nSeg, 16/12\nEstudos caso-controle\n\n️\n\n\n\n\n\n\n\n\nQua, 18/12\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n\n23/12 a 19/01\nRecesso Acadêmico\n\n\n\n\n\n\n\n\n\n7\nSeg, 20/01\nEstudos Transversais\n\n️\n\n\n\n\n\n\n\n\nQua, 22/01\nEstudos Ecológicos\n\n️\n\n\n\n\n\n\n\n8\nSeg, 27/01\nEnsaios clínicos aleatorizados\n\n️\n\n\n\n\n\n\n\n\nQua, 29/01\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n9\nSeg, 03/02\nNão haverá aula!\n\n\n\n️\n\n\n\n\n\n\nQua, 05/02\nOutros tipos de estudos\n\n️",
     "crumbs": [
       "Cronograma da disciplina"
     ]
@@ -997,6 +1032,13 @@
     "text": "Características principais\nNíveis de medida\n\n\n\nMedidas agregadas: médias ou proporções obtidas a partir de dados individuais\n\n\nExemplo: Média de idade, % de hipertensão\n\n\n\n\n\n\n\nMedidas coletivas: características que não variam entre indivíduos do mesmo grupo\n\n\nExemplo: Imposto sobre tabaco, características do sistema de saúde"
   },
   {
+    "objectID": "aulas/Planejamento/index.html#características-principais-14",
+    "href": "aulas/Planejamento/index.html#características-principais-14",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\n\n\nEstudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.\n\n\nnível de poluição do ar: é mais fácil medir o nível médio de poluição do ar de determinada cidade do que o quanto cada indivíduo respira ao longo do dia.\n\nvariáveis com pouca variabilidade intra-grupos, mas com muita variabilidade entre grupos: exposição à radiação em Chernobyl."
+  },
+  {
     "objectID": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos",
     "href": "aulas/Planejamento/index.html#tipos-de-estudos-ecológicos",
     "title": "Planejamento na área da saúde",
@@ -1137,13 +1179,6 @@
     "text": "Estudos Experimentais\nEstudos em que o pesquisador manipula o fator de exposição, ou seja, provoca uma modificação intencional em algum aspecto do estado de saúde dos indivíduos, através da introdução de um esquema profilático ou terapêutico."
   },
   {
-    "objectID": "aulas/Planejamento/index.html#características-principais-14",
-    "href": "aulas/Planejamento/index.html#características-principais-14",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\n\n\nEstudos ecológicos viabilizam estudar variáveis que, apesar de serem individuais, são muito difíceis de serem estudadas a nível individual.\n\n\nnível de poluição do ar: é mais fácil medir o nível médio de poluição do ar de determinada cidade do que o quanto cada indivíduo respira ao longo do dia.\n\nvariáveis com pouca variabilidade intra-grupos, mas com muita variabilidade entre grupos: exposição à radiação em Chernobyl."
-  },
-  {
     "objectID": "aulas/Planejamento/index.html#características-principais-15",
     "href": "aulas/Planejamento/index.html#características-principais-15",
     "title": "Planejamento na área da saúde",
@@ -1191,6 +1226,20 @@
     "title": "Planejamento na área da saúde",
     "section": "Características principais",
     "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-22",
+    "href": "aulas/Planejamento/index.html#características-principais-22",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#características-principais-23",
+    "href": "aulas/Planejamento/index.html#características-principais-23",
+    "title": "Planejamento na área da saúde",
+    "section": "Características principais",
+    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!\nLogo, quaisquer diferenças na ocorrência do desfecho entre grupos só podem ser consequência dos efeitos da intervenção."
   },
   {
     "objectID": "aulas/Planejamento/index.html#fases-da-pesquisa",
@@ -1256,6 +1305,48 @@
     "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\n\n\nPor mais que o mascaramento seja uma característica importante de um ensaio clínico, sua implementação nem sempre é viável devido, por exemplo, à natureza de algumas intervenções\n\nPor exemplo, procedimentos cirúrgicos, tratamentos fisioterapêuticos e psicológicos.\n\n\n\n\n\n\nSempre que for factível manter o mascaramento, ele deve ser utilizado.\n\nQuanto mais mascaramento, mais robustas serão as conclusões do estudo.\nMascaramento dos analistas de dados é sempre possível!"
   },
   {
+    "objectID": "aulas/Planejamento/index.html#tipos-de-ensaios-clínicos",
+    "href": "aulas/Planejamento/index.html#tipos-de-ensaios-clínicos",
+    "title": "Planejamento na área da saúde",
+    "section": "Tipos de ensaios clínicos",
+    "text": "Tipos de ensaios clínicos\n\nDelineamento mais simples: dois grupos (intervenção e controle)\n\n\n\n\nPodemos estender esse delineamento incluindo mais grupos\n\nECR avaliando o efeito de um novo medicamento em três grupos de participantes: placebo, dose baixa e dose intermediária\n\n\n\n\n\n\nDelineamentos mais complexos: ensaios cruzados ou crossover e ensaios fatoriais"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-crossover",
+    "href": "aulas/Planejamento/index.html#ensaios-crossover",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios crossover\n",
+    "text": "Ensaios crossover\n\n\n\n\n\nWashout: período para cessação do efeito residual da intervenção, caso necessário."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-crossover-1",
+    "href": "aulas/Planejamento/index.html#ensaios-crossover-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios crossover\n",
+    "text": "Ensaios crossover\n\n\n\n\n👍\n\n\nCada participante é seu próprio controle: comparabilidade garantida\n\nOs resultados são mais estáveis\n\nreduz variabilidade amostral\n\n\n\n\n\n\n\n👎\n\n\n\nEfeito da intervenção deve durar pouco e desaparecer com o tempo (washout)\n\ncaso contrário: ordem da alocação fará diferença\n\n\n\nA intervenção não pode prevenir a ocorrência do desfecho\n\ncaso contrário: ordem da alocação fará diferença\n\n\nO desfecho deve ser de curta duração e recorrente"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-fatorias",
+    "href": "aulas/Planejamento/index.html#ensaios-fatorias",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios fatorias",
+    "text": "Ensaios fatorias\n\nUtilizado quando se quer avaliar mais de uma intervenção"
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-fatoriais",
+    "href": "aulas/Planejamento/index.html#ensaios-fatoriais",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios fatoriais",
+    "text": "Ensaios fatoriais\n\n\n\n👍\n\n\n\nPermitem responder mais de uma pergunta no mesmo estudo.\n\nIntervenção A \\(\\times\\) plabebo\nIntervenção B \\(\\times\\) plabebo\nIntervenção A + intervenção B \\(\\times\\) intervenção A\netc\n\n\nPermite testar uma hipótese menos “madura” junto com outra mais “amadurecida”\nPermite testar o efeitos de interações entre intervenções."
+  },
+  {
+    "objectID": "aulas/Planejamento/index.html#ensaios-fatoriais-1",
+    "href": "aulas/Planejamento/index.html#ensaios-fatoriais-1",
+    "title": "Planejamento na área da saúde",
+    "section": "Ensaios fatoriais",
+    "text": "Ensaios fatoriais\n\n\n\n👎\n\n\nMaior complexidade do delineamento\n\nNem sempre faz sentido combinar intervenções\n\nduas intervenções combinadas podem gerar efeitos colateriais imprevistos."
+  },
+  {
     "objectID": "aulas/Planejamento/index.html#análise-de-dados-2",
     "href": "aulas/Planejamento/index.html#análise-de-dados-2",
     "title": "Planejamento na área da saúde",
@@ -1303,13 +1394,6 @@
     "title": "Planejamento na área da saúde",
     "section": "Vantagens e desvantagens",
     "text": "Vantagens e desvantagens\n\n\n👍\n\n\nNão são sujeitos a causalidade reversa.\n\nAlocação da intervenção é feita pelos pesquisadores, e após os participantes são acompanhados.\n\n\nSão de natureza experimental (randomização e controle preciso da intervenção)\n\n\n\n\n\n👎\n\n\nÀs vezes são muito caros, demorados e complexos\nPodem não ser generalizáveis devido aos critérios de exclusão\nCorrem o risco de serem eticamente inaceitáveis\nA desistência ao tratamento pode ser grande."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#vantagens-e-desvantagens-3",
-    "href": "aulas/Planejamento/index.html#vantagens-e-desvantagens-3",
-    "title": "Planejamento na área da saúde",
-    "section": "Vantagens e desvantagens",
-    "text": "Vantagens e desvantagens\n\n\n👎\n\n\nÀs vezes são muito caros, demorados e complexos\nPodem não ser generalizáveis devido aos critérios de exclusão\nCorrem o risco de serem eticamente inaceitáveis\nA desistência ao tratamento pode ser grande."
   },
   {
     "objectID": "aulas/Planejamento/index.html#ensaios-de-campo-1",
@@ -2049,6 +2133,16 @@
     "text": "Patel et al. (2002) realizaram um estudo cuja intenção era determinar se a função neuropsicológica nas pessoas infectadas com HIV estaria correlacionada à perda de volume cerebral. O desempenho neuropsicológico foi acessado pela aplicação de uma bateria de teste de funcionamento neuropsicológico (NPZ-8), enquanto o volume cerebral foi medido como porcentagem de volume parenquimatoso do cérebro, obtido pela imagem de ressonância magnética (MRI). Os pesquisadores formularam uma hipótese de que existe uma relação entre essas duas medidas antes mesmo que a disfunção clínica visível seja evidente.\nA Tabela abaixo mostra medidas de volume parenquimatoso do cérebro (PBV), função neuropsicológica (NPZ-8), status de HIV (positivo ou negativo), se o paciente foi diagnosticado ou não como manifestando o estágio do complexo de demência da AIDS (ADC) e o status do sistema imunológico (CD4) para os indivíduos envolvidos no estudo. Valores mais baixos de PBV indicam menor volume cerebral, enquanto escores mais baixos de NPZ-8 indicam melhor função neuropsicológica. Um valor ADC positivo indica que foi feito um diagnóstico de demência da AIDS. Para pacientes com AIDS, contagens de CD4 mais altas estão associadas ao melhor funcionamento do sistema imunológico.\n\n\n\n\n\n\nIndivíduo\n\n\nPBV\n\n\nNPZ-8\n\n\nHIV\n\n\nADC\n\n\nCD4\n\n\n\n\n\n\n1\n\n\n0,791\n\n\n12\n\n\n+\n\n\n+\n\n\n16\n\n\n\n\n2\n\n\n0,782\n\n\n5\n\n\n+\n\n\n+\n\n\n324\n\n\n\n\n3\n\n\n0,646\n\n\n3\n\n\n+\n\n\n+\n\n\n256\n\n\n\n\n4\n\n\n0,740\n\n\n5\n\n\n+\n\n\n+\n\n\n563\n\n\n\n\n5\n\n\n0,804\n\n\n2\n\n\n+\n\n\n+\n\n\n321\n\n\n\n\n6\n\n\n0,858\n\n\n6\n\n\n+\n\n\n+\n\n\n190\n\n\n\n\n7\n\n\n0,729\n\n\n8\n\n\n+\n\n\n+\n\n\n818\n\n\n\n\n8\n\n\n0,803\n\n\n0\n\n\n+\n\n\n-\n\n\n355\n\n\n\n\n9\n\n\n0,831\n\n\n3\n\n\n+\n\n\n-\n\n\n465\n\n\n\n\n10\n\n\n0,826\n\n\n0\n\n\n+\n\n\n-\n\n\n519\n\n\n\n\n11\n\n\n0,786\n\n\n0\n\n\n+\n\n\n-\n\n\n87\n\n\n\n\n12\n\n\n0,882\n\n\n7\n\n\n+\n\n\n-\n\n\n108\n\n\n\n\n13\n\n\n0,889\n\n\n3\n\n\n+\n\n\n-\n\n\n190\n\n\n\n\n14\n\n\n0,917\n\n\n0\n\n\n+\n\n\n-\n\n\n573\n\n\n\n\n15\n\n\n0,885\n\n\n0\n\n\n+\n\n\n-\n\n\n1032\n\n\n\n\n16\n\n\n0,886\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n17\n\n\n0,883\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n18\n\n\n0,851\n\n\n1\n\n\n-\n\n\n\n\n\n\n\n\n19\n\n\n0,897\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n20\n\n\n0,901\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n\n\nQuestões\nBaseado nesse estudo de caso, responda as seguintes questões:\n\nConstrua uma distribuição de frequências para o escores NPZ-8.\nConstrua um histograma de frequência relativa e um polígono de frequências relativa para os escores NPZ-8.\nCalcule a média, mediana e moda para os dados NPZ-8.\nCalcule a média, mediana e moda para os dados PBV.\nCalcule a variância e o desvio-padrão para os dados NPZ-8.\nEncontre os quartis dos dados NPZ-8.\nObserve o histograma e o polígono de frequências da variável NPZ-8 constuídos no exercício 2. Pela sua compreensão, você caracteriza essa distribuição simétrica ou assimétrica (positiva ou negativa)?\nCalcule a assimetria para os dados NPZ-8. Esse cálculo confirma sua observação feita no exercício anterior?\nCalcule a assimetria para os dados NPZ-8 usando apenas dados dos 15 indivíduos infectados. A inclusão dos cinco indivíduos saudáveis no conjunto de dados aumenta de forma marcante a assimetria, em sua opinião?\n\n\n\n\n\n\nReferências\n\nPatel, Sohil, Dennis Kolson, Guila Glosser, Isabel Matozzo, Yulin Ge, James Babb, Lois Mannon, e Robert Grossman. 2002. «Correlation between Percentage of Brain Parenchymal Volume and Neurocognitive Performance in HIV-Infected Patients». AJNR. American journal of neuroradiology 23 (abril): 543–49."
   },
   {
+    "objectID": "exercicios.html",
+    "href": "exercicios.html",
+    "title": "Listas de exercicios",
+    "section": "",
+    "text": "Lista de exercícios 01",
+    "crumbs": [
+      "Listas de exercicios"
+    ]
+  },
+  {
     "objectID": "plano.html",
     "href": "plano.html",
     "title": "Plano de Ensino",
@@ -2136,13 +2230,6 @@
     "text": "Slides\n Estudos caso-controle"
   },
   {
-    "objectID": "aulas/Planejamento/index.html#características-principais-22",
-    "href": "aulas/Planejamento/index.html#características-principais-22",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!"
-  },
-  {
     "objectID": "programacao/semana-8.html",
     "href": "programacao/semana-8.html",
     "title": "Semana 08",
@@ -2169,75 +2256,5 @@
     "title": "Semana 08",
     "section": "Slides",
     "text": "Slides\n Ensaios Clínicos Aleatorizados"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#tipos-de-ensaios-clínicos",
-    "href": "aulas/Planejamento/index.html#tipos-de-ensaios-clínicos",
-    "title": "Planejamento na área da saúde",
-    "section": "Tipos de ensaios clínicos",
-    "text": "Tipos de ensaios clínicos\n\nDelineamento mais simples: dois grupos (intervenção e controle)\n\n\n\n\nPodemos estender esse delineamento incluindo mais grupos\n\nECR avaliando o efeito de um novo medicamento em três grupos de participantes: placebo, dose baixa e dose intermediária\n\n\n\n\n\n\nDelineamentos mais complexos: ensaios cruzados ou crossover e ensaios fatoriais"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#estudos-crossover",
-    "href": "aulas/Planejamento/index.html#estudos-crossover",
-    "title": "Planejamento na área da saúde",
-    "section": "Estudos crossover\n",
-    "text": "Estudos crossover\n\n\n\n\n\nWashout: período para cessação do efeito residual da intervenção, caso necessário."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#ensaios-crossover",
-    "href": "aulas/Planejamento/index.html#ensaios-crossover",
-    "title": "Planejamento na área da saúde",
-    "section": "Ensaios crossover\n",
-    "text": "Ensaios crossover\n\n\n\n\n\nWashout: período para cessação do efeito residual da intervenção, caso necessário."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#ensaios-crossover-1",
-    "href": "aulas/Planejamento/index.html#ensaios-crossover-1",
-    "title": "Planejamento na área da saúde",
-    "section": "Ensaios crossover\n",
-    "text": "Ensaios crossover\n\n\n\n\n👍\n\n\nCada participante é seu próprio controle: comparabilidade garantida\n\nOs resultados são mais estáveis\n\nreduz variabilidade amostral\n\n\n\n\n\n\n\n👎\n\n\n\nEfeito da intervenção deve durar pouco e desaparecer com o tempo (washout)\n\ncaso contrário: ordem da alocação fará diferença\n\n\n\nA intervenção não pode prevenir a ocorrência do desfecho\n\ncaso contrário: ordem da alocação fará diferença\n\n\nO desfecho deve ser de curta duração e recorrente"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#ensaios-fatorias",
-    "href": "aulas/Planejamento/index.html#ensaios-fatorias",
-    "title": "Planejamento na área da saúde",
-    "section": "Ensaios fatorias",
-    "text": "Ensaios fatorias\n\nUtilizado quando se quer avaliar mais de uma intervenção"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#ensaios-crossover-2",
-    "href": "aulas/Planejamento/index.html#ensaios-crossover-2",
-    "title": "Planejamento na área da saúde",
-    "section": "Ensaios crossover\n",
-    "text": "Ensaios crossover\n\n\n\n\n👍\n\n\n\nPermitem responder mais de uma pergunta no mesmo estudo.\n\nIntervenção A \\(\\times\\) plabebo\nIntervenção B \\(\\times\\) plabebo\nIntervenção A + intervenção B \\(\\times\\) intervenção A\netc\n\n\nPermite testar uma hipótese menos “madura” junto com outra mais “amadurecida”\nPermite testar o efeitos de interações entre intervenções.\n\n\n\n\n\n👎\n\n\nMaior complexidade do delineamento\n\nNem sempre faz sentido combinar intervenções\n\nduas intervenções combinadas podem gerar efeitos colateriais imprevistos.\n\n\nO desfecho deve ser de curta duração e recorrente"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#ensaios-fatoriais",
-    "href": "aulas/Planejamento/index.html#ensaios-fatoriais",
-    "title": "Planejamento na área da saúde",
-    "section": "Ensaios fatoriais",
-    "text": "Ensaios fatoriais\n\n\n\n👍\n\n\n\nPermitem responder mais de uma pergunta no mesmo estudo.\n\nIntervenção A \\(\\times\\) plabebo\nIntervenção B \\(\\times\\) plabebo\nIntervenção A + intervenção B \\(\\times\\) intervenção A\netc\n\n\nPermite testar uma hipótese menos “madura” junto com outra mais “amadurecida”\nPermite testar o efeitos de interações entre intervenções."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#ensaios-fatoriais-1",
-    "href": "aulas/Planejamento/index.html#ensaios-fatoriais-1",
-    "title": "Planejamento na área da saúde",
-    "section": "Ensaios fatoriais",
-    "text": "Ensaios fatoriais\n\n\n\n👎\n\n\nMaior complexidade do delineamento\n\nNem sempre faz sentido combinar intervenções\n\nduas intervenções combinadas podem gerar efeitos colateriais imprevistos."
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#mascaramento-6",
-    "href": "aulas/Planejamento/index.html#mascaramento-6",
-    "title": "Planejamento na área da saúde",
-    "section": "Mascaramento",
-    "text": "Mascaramento\nTodos os ensaios clínicos devem ser mascarados?\n\n\n\nPor mais que o mascaramento seja uma característica importante de um ensaio clínico, sua implementação nem sempre é viável devido, por exemplo, à natureza de algumas intervenções\n\nPor exemplo, procedimentos cirúrgicos, tratamentos fisioterapêuticos e psicológicos.\n\n\n\n\n\n\nSempre que for factível manter o mascaramento, ele deve ser utilizado.\n\nQuanto mais mascaramento, mais robustas serão as conclusões do estudo.\nMascaramento dos analistas de dados é sempre possível!"
-  },
-  {
-    "objectID": "aulas/Planejamento/index.html#características-principais-23",
-    "href": "aulas/Planejamento/index.html#características-principais-23",
-    "title": "Planejamento na área da saúde",
-    "section": "Características principais",
-    "text": "Características principais\nCada grupo pode ser entendido como uma subamostra da amostra total\n\nComo se a amostra total fosse a população e cada grupo uma amostra\n\nIsto significa que cada grupo é similar à amostra total\n\nOs grupos são parecidos entre si!\nLogo, quaisquer diferenças na ocorrência do desfecho entre grupos só podem ser consequência dos efeitos da intervenção."
   }
 ]

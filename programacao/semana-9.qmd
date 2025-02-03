@@ -1,0 +1,46 @@
+---
+title: "Semana 09"
+---
+
+## Entrega lista de exercícios 01
+
+::: callout-important
+
+## Fique Atento!
+
+{{< fa file-lines size=lg >}} [Lista de exercícios 01](/exercicios/lista01.html "Lista de exercícios 01"){aria-label="Lista de exercícios 01"} 
+
+-   Data de entrega:
+    -   10 de fevereiro de 2025
+:::
+
+
+
+## Leitura: artigos interessantes sobre...
+
+### Ensaios de campo
+
+{{< fa file-pdf size=lg >}} [Impactos da implementação dos dez passos da alimentação saudável para crianças: ensaio de campo randomizado](/artigos/artigo_ensaio_campo.pdf)
+
+### Ensaios comunitários
+
+{{< fa file-pdf size=lg >}} [Educação nutricional e consumo de frutas e hortaliças: ensaio comunitário controlado](/artigos/artigo_ensaio_comunitários.pdf)
+
+
+### Estudos de bioequivalência
+
+{{< fa file-pdf size=lg >}} [Métodos de Determinação do Ornidazol em Comprimidos Revestidos: Desenvolvimento, Validação e Comparação Estatística](/artigos/artigo_bioequivalencia.pdf)
+
+{{< fa file-pdf size=lg >}} [Average bioequivalence of single 500 mg doses of two oral formulations of levofloxacin: a randomized, open-label, two-period crossover study in healthy adult Brazilian volunteers](/artigos/artigo_bioequivalencia_2.pdf)
+
+### Estudos com delineamentos sequenciais ou adaptativos
+
+{{< fa file-pdf size=lg >}} [Antivirais para pacientes adultos hospitalizados com infecção por SARS-CoV-2: Um estudo de Fase II/III, randomizado, multicêntrico, controlado por placebo, adaptativo,commúltiplos braçose estágios.COALITION COVID-19 BRAZIL IX – REVOLUTIOn: protocolo e plano de análise estatística](/artigos/artigo_ensaio_adaptativo.pdf)
+
+### Méta-análise
+
+{{< fa file-pdf size=lg >}} [Risco de iniciação ao tabagismo com o uso de cigarros eletrônicos: revisão sistemática e meta-análise](/artigos/artigo_metaanalise.pdf)
+
+## Slides
+
+{{< fa file-powerpoint size=lg >}} [Outros tipos de estudos](/aulas/Planejamento/#outros-tipos-de-estudo "Outros tipos de estudo"){aria-label="Outros tipos de estudo"}

@@ -1,0 +1,31 @@
+---
+title: "Lista de exercícios 01"
+---
+
+1) Uma investigação realizada em banco de sangue de um hospital chegou aos seguintes resultados: entre 2 mil pessoas que receberam transfusão sanguínea, acompanhadas durante um ano, 200 contraíram hepatite. No grupo controle, de 5 mil pessoas que não receberam transfusão, acompanhadas igualmente durante idêntico período, apenas cinco contraíram a doença. Faça uma tabela 2 × 2 com os resultados. Pergunta-se: 
+
+    a) Trata-se de um estudo de coorte ou de caso controle? Por quê? 
+    b) Qual o risco de uma pessoa contrair hepatite, tendo recebido transfusão de sangue? 
+    c) E o risco de ter hepatite sem ter recebido transfusão de sangue? Quantas vezes um risco é maior do que o outro?
+    
+2) Em uma visita de uma equipe de profissionais de saúde, com a duração de uma semana, a um município do estado de Tocantins, todos os adultos de um pequeno povoado e de fazendas vizinhas foram examinados. Entre os resultados obtidos estão os seguintes: de 40 pessoas com sorologia positiva para *Tripanosoma cruzi*, quatro eram desnutridas, enquanto em 100 outros indivíduos, com sorologia negativa para *Tripanossoma cruzi* 10 foram rotulados como desnutridos. Faça uma tabela 2 × 2 com os resultados. Pergunta-se: qual o tipo de estudo? Por quê?
+
+3) Uma investigação foi realizada para verificar a eficácia de uma nova vacina contra a hepatite B. Foram selecionados 2 mil adultos, em alto risco de contrair a doença, que concordaram em participar na pesquisa. Eles foram aleatorizados para constituir o grupo experimental e o controle, cada um com mil indivíduos. Ao final da investigação foram confirmados 10 casos de hepatite B no grupo experimental e 50 no de controle. Faça uma tabela 2 × 2 com os resultados. Pergunta-se: 
+
+    a) Qual o tipo de estudo e por quê? 
+    b) Qual o risco de uma pessoa contrair hepatite, se vacinada? 
+    c) E o risco de contrair hepatite, se não-vacinada?
+    
+4) Um total de 30 crianças recém-nascidas, portadoras de anomalias congênitas do coração, foram examinadas e suas mães interrogadas com respeito a exposições potencialmente teratogênicas: 10 relataram que tinham tido rubéola no primeiro trimestre de gestação em questão. Entre as crianças sadias, nascidas sem evidências de malformação congênita, foram selecionadas 300 para o grupo-controle; 20 mães afirmaram que tinham tido rubéola no primeiro trimestre da gravidez. Faça uma tabela 2 × 2 com os resultados. Pergunta-se: qual o tipo de estudo?
+
+5) Uma investigação foi realizada pela comparação de estatísticas de diversos países, sendo encontrada correlação positiva, estatisticamente significativa, entre o montante de cigarros, *per capita*, vendido à população e o coeficiente de mortalidade por doenças cardiovasculares. Pergunta-se: qual o tipo de estudo?
+
+6) Enumere as vantagens e as limitações de cada um dos seguintes tipos de estudo: ensaio clínico randomizado, coorte, de caso-controle, transversal e ecológico. 
+
+7) Para as questões formuladas a seguir, explique o tipo de estudo que seria recomendado. Descreva, sempre que possível, os grupos que seriam usados e as possíveis fontes de vício.
+
+    a) A pílula anticoncepcional é um fator de risco de tromboembolia?
+    b) Usinas nucleares podem causar defeitos congênitos nos filhos de mães que moram em áreas próximas das usinas?
+    c) A poluição do ar pode causar câncer de pulmão?
+    d) A cor do capacete está associada a acidentes graves com motociclistas?
+    e) Dieta vegetariana representa risco para a saúde de crianças e adolescentes?

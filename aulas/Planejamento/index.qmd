@@ -2964,6 +2964,8 @@ $$EF = 1 - RR = (1 - 0,135) \times 100 = 86,5\%$$
 
 ::::
 
+# Outros tipos de estudo
+
 
 # Ensaios de Campo
 
@@ -3048,7 +3050,6 @@ Limitações: Dificuldade de isolar uma comunidade.
 
 
 
-# Outros tipos de estudo
 
 
 # Estudos de bioequivalência
