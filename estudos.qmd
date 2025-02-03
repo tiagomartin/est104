@@ -6,3 +6,4 @@ title: "Estudos de Caso"
 
 -   [Estudo de Caso 02: Correlação entre volume cerebral e desempenho neurocognitivo em paciente infectados por HIV](estudos_de_casos/estudo02.html "Estudo de caso 02"){aria-label="Estudo de caso 02"}
 
+-   [Estudo de Caso 03: Ensaio clínico sobre a eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores](estudos_de_casos/estudo03.html "Estudo de caso 03"){aria-label="Estudo de caso 03"}

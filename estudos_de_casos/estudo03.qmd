@@ -1,0 +1,238 @@
+---
+title: "Estudo de Caso: Ensaio clínico sobre a eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores"
+lang: pt
+toc: true
+code-annotations: "hover"
+bibliography: references.bib
+---
+
+
+A tianeptina é um fármaco antidepressivo do grupo dos tricíclicos. Sua ação antidepressiva potencial foi demonstrada em estudos pré-clínicos com testes em animais. @rocha95 relata os resultados de um ensaio clínico aleatorizado controlado, multicêntrico e duplo-cego, realizado com o objetivo de estudar a eficácia e a tolerabilidade da tianeptina. Participaram desse ensaio pacientes de Belo Horizonte, Rio de Janeiro e Campinas.
+
+Foram selecionados pacientes com episódios depressivos maiores de intensidade moderada ou grave, que procuraram espontaneamente o ambulatório ou que foram encaminhados por profissionais da área de saúde, psiquiatras ou não. Na casuística havia pacientes de ambos os sexos, com idades entre 18 e 60 anos e que assinaram o termo de consentimento livre e esclarecido para participação no estudo. Os pacientes tinham indicação para tratamento antidepressivo farmacológico e foram alocados aleatoriamente no grupo tratamento (que recebeu a tianeptina) ou no grupo controle (que recebeu o placebo). Mais detalhes sobre os critérios de inclusão e exclusão e da metodologia da pesquisa podem ser encontrados em @rocha95.
+
+
+A depressão foi quantificada por meio da escala de depressão de Montgomery e Asberg (abreviado por MADRS)(@Montgomery79), composta dos seguintes itens:
+
+    a) Tristeza aparente;
+    b) Tristeza expressa;
+    c) Tensão interna;
+    d) Redução do sono;
+    e) Redução do apetite;
+    f) Dificuldades de concentração;
+    g) Lassidão;
+    h) Incapacidade para ressentir;
+    i) Pensamentos pessimistas;
+    j) Ideias de suicídio.
+    
+
+A pontuação de cada item varia de zero a seis e, portanto, o escore total varia de zero a 60, sendo que valores mais altos indicam mais gravidade da depressão. A classificação da escala é a seguinte:
+
+- ausência de depressão (0 a 6);
+- depressão leve (7 a 19);
+- depressão moderada (20 a 34);
+- depressão grave (35 a 60).
+
+
+O escore foi obtido para cada paciente 7, 14, 21, 28 e 42 dias após o início do ensaio. Os resultados completos de toda a análise estatística para todos os pacientes dos três centros podem ser encontrados em @rocha95. São apresentados aqui alguns resultados de pacientes de Belo Horizonte.
+
+Pelo planejamento adotado, os dois grupos (tianeptina e placebo) não diferiram em termos de depressão no início do ensaio. Assim, evidência sobre o efeito da tianeptina é obtida comparando-se os dois grupos ao fim de 42 dias. A tabela abaixo apresenta os escores finais dos pacientes dos dois grupos admitidos em Belo Horizonte.
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;margin:0px auto;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-rcmx{border-color:inherit;font-family:"Lucida Console", Monaco, monospace !important;font-size:14px;font-weight:bold;
+  text-align:center;vertical-align:top}
+.tg .tg-ir54{border-color:inherit;font-family:"Lucida Console", Monaco, monospace !important;font-size:14px;text-align:center;
+  vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-rcmx">Placebo</th>
+    <th class="tg-rcmx">Tianeptina</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-ir54">6</td>
+    <td class="tg-ir54">10</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">33</td>
+    <td class="tg-ir54">8</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">21</td>
+    <td class="tg-ir54">17</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">26</td>
+    <td class="tg-ir54">4</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">10</td>
+    <td class="tg-ir54">17</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">29</td>
+    <td class="tg-ir54">14</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">33</td>
+    <td class="tg-ir54">9</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">29</td>
+    <td class="tg-ir54">4</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">37</td>
+    <td class="tg-ir54">21</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">15</td>
+    <td class="tg-ir54">3</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">2</td>
+    <td class="tg-ir54">7</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">21</td>
+    <td class="tg-ir54">10</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">7</td>
+    <td class="tg-ir54">29</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">26</td>
+    <td class="tg-ir54">13</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54">13</td>
+    <td class="tg-ir54">14</td>
+  </tr>
+  <tr>
+    <td class="tg-ir54"></td>
+    <td class="tg-ir54">2</td>
+  </tr>
+</tbody></table>
+
+
+### Questões
+
+Baseado nesse estudo de caso, responda as seguintes questões:
+
+1) O que podemos concluir a respeito da eficácia da tianeptina no tratamento de episódios depressivos maiores?
+
+2) Foi verificado também se houve diminuição so escore de depressão entre os pacientes de um dos grupos durante o desenvolvimento do estudo. A tabela abaixo mostra os escores dos pacientes do grupo tianeptina que foram admitidos em Belo Horizonte no primeiro dia ($x_1$) e no último dia ($x_{42}$).
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;margin:0px auto;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-rcmx{border-color:inherit;font-family:"Lucida Console", Monaco, monospace !important;font-size:14px;font-weight:bold;
+  text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-ir54{border-color:inherit;font-family:"Lucida Console", Monaco, monospace !important;font-size:14px;text-align:center;
+  vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-fymr">Nº</th>
+    <th class="tg-rcmx">$x_1$</th>
+    <th class="tg-rcmx">$x_{42}$</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">1</td>
+    <td class="tg-ir54">24</td>
+    <td class="tg-ir54">10</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">2</td>
+    <td class="tg-ir54">46</td>
+    <td class="tg-ir54">8</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">3</td>
+    <td class="tg-ir54">26</td>
+    <td class="tg-ir54">17</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4</td>
+    <td class="tg-ir54">44</td>
+    <td class="tg-ir54">4</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">5</td>
+    <td class="tg-ir54">27</td>
+    <td class="tg-ir54">17</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">6</td>
+    <td class="tg-ir54">34</td>
+    <td class="tg-ir54">14</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7</td>
+    <td class="tg-ir54">33</td>
+    <td class="tg-ir54">9</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">8</td>
+    <td class="tg-ir54">24</td>
+    <td class="tg-ir54">4</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">9</td>
+    <td class="tg-ir54">16</td>
+    <td class="tg-ir54">21</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">10</td>
+    <td class="tg-ir54">30</td>
+    <td class="tg-ir54">3</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">11</td>
+    <td class="tg-ir54">38</td>
+    <td class="tg-ir54">7</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">12</td>
+    <td class="tg-ir54">8</td>
+    <td class="tg-ir54">10</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">13</td>
+    <td class="tg-ir54">24</td>
+    <td class="tg-ir54">29</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">14</td>
+    <td class="tg-ir54">27</td>
+    <td class="tg-ir54">13</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">15</td>
+    <td class="tg-ir54">34</td>
+    <td class="tg-ir54">14</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">16</td>
+    <td class="tg-ir54">14</td>
+    <td class="tg-ir54">2</td>
+  </tr>
+</tbody></table>
+
+
+O que podemos afirmar a respeito dos níveis de depressão para pacientes que fizeram uso de tianeptina?

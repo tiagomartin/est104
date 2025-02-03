@@ -112,21 +112,524 @@
     "text": "Uma investigação realizada em banco de sangue de um hospital chegou aos seguintes resultados: entre 2 mil pessoas que receberam transfusão sanguínea, acompanhadas durante um ano, 200 contraíram hepatite. No grupo controle, de 5 mil pessoas que não receberam transfusão, acompanhadas igualmente durante idêntico período, apenas cinco contraíram a doença. Faça uma tabela 2 × 2 com os resultados. Pergunta-se:\n\nTrata-se de um estudo de coorte ou de caso controle? Por quê?\nQual o risco de uma pessoa contrair hepatite, tendo recebido transfusão de sangue?\nE o risco de ter hepatite sem ter recebido transfusão de sangue? Quantas vezes um risco é maior do que o outro?\n\nEm uma visita de uma equipe de profissionais de saúde, com a duração de uma semana, a um município do estado de Tocantins, todos os adultos de um pequeno povoado e de fazendas vizinhas foram examinados. Entre os resultados obtidos estão os seguintes: de 40 pessoas com sorologia positiva para Tripanosoma cruzi, quatro eram desnutridas, enquanto em 100 outros indivíduos, com sorologia negativa para Tripanossoma cruzi 10 foram rotulados como desnutridos. Faça uma tabela 2 × 2 com os resultados. Pergunta-se: qual o tipo de estudo? Por quê?\nUma investigação foi realizada para verificar a eficácia de uma nova vacina contra a hepatite B. Foram selecionados 2 mil adultos, em alto risco de contrair a doença, que concordaram em participar na pesquisa. Eles foram aleatorizados para constituir o grupo experimental e o controle, cada um com mil indivíduos. Ao final da investigação foram confirmados 10 casos de hepatite B no grupo experimental e 50 no de controle. Faça uma tabela 2 × 2 com os resultados. Pergunta-se:\n\nQual o tipo de estudo e por quê?\nQual o risco de uma pessoa contrair hepatite, se vacinada?\nE o risco de contrair hepatite, se não-vacinada?\n\nUm total de 30 crianças recém-nascidas, portadoras de anomalias congênitas do coração, foram examinadas e suas mães interrogadas com respeito a exposições potencialmente teratogênicas: 10 relataram que tinham tido rubéola no primeiro trimestre de gestação em questão. Entre as crianças sadias, nascidas sem evidências de malformação congênita, foram selecionadas 300 para o grupo-controle; 20 mães afirmaram que tinham tido rubéola no primeiro trimestre da gravidez. Faça uma tabela 2 × 2 com os resultados. Pergunta-se: qual o tipo de estudo?\nUma investigação foi realizada pela comparação de estatísticas de diversos países, sendo encontrada correlação positiva, estatisticamente significativa, entre o montante de cigarros, per capita, vendido à população e o coeficiente de mortalidade por doenças cardiovasculares. Pergunta-se: qual o tipo de estudo?\nEnumere as vantagens e as limitações de cada um dos seguintes tipos de estudo: ensaio clínico randomizado, coorte, de caso-controle, transversal e ecológico.\nPara as questões formuladas a seguir, explique o tipo de estudo que seria recomendado. Descreva, sempre que possível, os grupos que seriam usados e as possíveis fontes de vício.\n\nA pílula anticoncepcional é um fator de risco de tromboembolia?\nUsinas nucleares podem causar defeitos congênitos nos filhos de mães que moram em áreas próximas das usinas?\nA poluição do ar pode causar câncer de pulmão?\nA cor do capacete está associada a acidentes graves com motociclistas?\nDieta vegetariana representa risco para a saúde de crianças e adolescentes?"
   },
   {
-    "objectID": "estudos_de_casos/estudo01.html",
-    "href": "estudos_de_casos/estudo01.html",
-    "title": "Estudo de Caso: Desgaste de lentes de contato",
+    "objectID": "estudos_de_casos/estudo02.html",
+    "href": "estudos_de_casos/estudo02.html",
+    "title": "Estudo de Caso: Correlação entre volume cerebral e desempenho neurocognitivo em paciente infectados por HIV",
     "section": "",
-    "text": "Coles et al. (2002) abordaram a possibilidade das novas lentes de contato gelatinosas tratadas com uma solução de condicionamento oferesem um maior grau de conforto ao paciente do que lentes semelhantes sem esse tratamento. Para isso,\n\nSessenta e um usuários experientes de lentes de contato com características oculares incomuns foram recrutados no banco de dados de indivíduos da Breman Consultants e por anúncios em jornais locais. Para serem elegíveis para participar do estudo, os indivíduos tinham que ter pelo menos 18 anos de idade e estar usando lentes de contato gelatinosas com sucesso por pelo menos um mês antes do estudo. Os míopes com até -12,00 D com menos de 0,75 D de anisometropia foram incluídos.\n\nOs dados de 59 dos indivíduos, 24 homens e 35 mulheres, foram considerados apropriados para análise. A idade média desses indivíduos era de 31,5, com desvio padrão de 10,2.\nOs pacientes foram categorizados como pertencentes a um de dois grupos, aqueles que no começo do estudo responderam com um “sim” à pergunta “Você é capaz de usar suas lentes de contato pelo tempo que desejar?” e aqueles que responderam negativamente à mesma pergunta. Os pacientes nas duas categorias tiveram uma lente condicionada colocada em um olho escolhido aleatoriamente e uma lente não condicionada colocada no outro olho. A ordem de inserção, isto é, lente condicionada primeiro ou lente não condicionada primeiro, também foi aleatória. Os pacientes não puderam saber qual das lentes era condicionada.\nAs lentes foram inseridas durante uma visita na parte da manhã ao local da pesquisa. Depois da inserção, os indivíduos responderam com qual lente eles se sentiam mais confortáveis. Aproximandamente oito horas depois, os indivíduos retornaram para uma visita à tarde, quando foram novamente questionados sobre a lente mais confortável. Os pacientes não poderiam indicar “nenhuma diferença”, de modo que foram exigidas designações de escolha forçada. Os resultados para essa parte do estudo são dados na Tabela abaixo.\n\n\n\n\n\n\n\n\nNão\n\n\nSim\n\n\n\n\nLente tratada\n\n\nLente não tratada\n\n\nLente tratada\n\n\nLente não tratada\n\n\n\n\n\n\nManhã\n\n\n10\n\n\n2\n\n\n23\n\n\n24\n\n\n\n\nTarde\n\n\n7\n\n\n5\n\n\n26\n\n\n21\n\n\n\n\n\nNa tabela, “não” significa não para a pergunta de duração, “sim” significa sim para a pergunta de duração, “lente tratada” significa que o indivíduo escolheu a lente tratada com solução de condicionamento, “lente não tratada” significa que o indivíduo escolheu a lente sem solução de condicionamento, “manhã” significa que a avaliação foi feita durante a visita da manhã, e “tarde” significa que a avaliação foi feita durante a visita da tarde.\nAlém desses dados, diversas variáveis de saúde ocular foram avaliadas para cada olho em cada visita. Essas medições constituem uma escala contínua.\n\nQuestões\nBaseado nesse estudo de caso, responda as seguintes questões:\n\nIdentifique a amostra nesse estudo.\nA população nesse estudo é bem identificada? Justifique sua resposta.\nDescreva a população da melhor forma possível.\nPodemos encontrar uma estatística descritiva nesse estudo? Se sim, dê exemplos.\nPodemos encontrar um parâmetro nesse estudo? Se sim, dê exemplos; se não, explique o motivo.\nPodemos encontrar algum dado nesse estudo? Se sim, dê exemplos.\n\n\n\n\n\n\nReferências\n\nColes, Chantal, Noel Brennan, Vicki Shuley, Jill Woods, Melissa Hall, Brennan Consultants, Joe Vehige, e Peter Simmons. 2002. «THE INFLUENCE OF LENS CONDITIONING ON SIGNS AND SYMPTOMS WITH NEW HYDROGEL LENSES.» Optometry and Vision Science 79 (dezembro): 138. https://doi.org/10.1097/00006324-200212001-00263."
+    "text": "Patel et al. (2002) realizaram um estudo cuja intenção era determinar se a função neuropsicológica nas pessoas infectadas com HIV estaria correlacionada à perda de volume cerebral. O desempenho neuropsicológico foi acessado pela aplicação de uma bateria de teste de funcionamento neuropsicológico (NPZ-8), enquanto o volume cerebral foi medido como porcentagem de volume parenquimatoso do cérebro, obtido pela imagem de ressonância magnética (MRI). Os pesquisadores formularam uma hipótese de que existe uma relação entre essas duas medidas antes mesmo que a disfunção clínica visível seja evidente.\nA Tabela abaixo mostra medidas de volume parenquimatoso do cérebro (PBV), função neuropsicológica (NPZ-8), status de HIV (positivo ou negativo), se o paciente foi diagnosticado ou não como manifestando o estágio do complexo de demência da AIDS (ADC) e o status do sistema imunológico (CD4) para os indivíduos envolvidos no estudo. Valores mais baixos de PBV indicam menor volume cerebral, enquanto escores mais baixos de NPZ-8 indicam melhor função neuropsicológica. Um valor ADC positivo indica que foi feito um diagnóstico de demência da AIDS. Para pacientes com AIDS, contagens de CD4 mais altas estão associadas ao melhor funcionamento do sistema imunológico.\n\n\n\n\n\n\nIndivíduo\n\n\nPBV\n\n\nNPZ-8\n\n\nHIV\n\n\nADC\n\n\nCD4\n\n\n\n\n\n\n1\n\n\n0,791\n\n\n12\n\n\n+\n\n\n+\n\n\n16\n\n\n\n\n2\n\n\n0,782\n\n\n5\n\n\n+\n\n\n+\n\n\n324\n\n\n\n\n3\n\n\n0,646\n\n\n3\n\n\n+\n\n\n+\n\n\n256\n\n\n\n\n4\n\n\n0,740\n\n\n5\n\n\n+\n\n\n+\n\n\n563\n\n\n\n\n5\n\n\n0,804\n\n\n2\n\n\n+\n\n\n+\n\n\n321\n\n\n\n\n6\n\n\n0,858\n\n\n6\n\n\n+\n\n\n+\n\n\n190\n\n\n\n\n7\n\n\n0,729\n\n\n8\n\n\n+\n\n\n+\n\n\n818\n\n\n\n\n8\n\n\n0,803\n\n\n0\n\n\n+\n\n\n-\n\n\n355\n\n\n\n\n9\n\n\n0,831\n\n\n3\n\n\n+\n\n\n-\n\n\n465\n\n\n\n\n10\n\n\n0,826\n\n\n0\n\n\n+\n\n\n-\n\n\n519\n\n\n\n\n11\n\n\n0,786\n\n\n0\n\n\n+\n\n\n-\n\n\n87\n\n\n\n\n12\n\n\n0,882\n\n\n7\n\n\n+\n\n\n-\n\n\n108\n\n\n\n\n13\n\n\n0,889\n\n\n3\n\n\n+\n\n\n-\n\n\n190\n\n\n\n\n14\n\n\n0,917\n\n\n0\n\n\n+\n\n\n-\n\n\n573\n\n\n\n\n15\n\n\n0,885\n\n\n0\n\n\n+\n\n\n-\n\n\n1032\n\n\n\n\n16\n\n\n0,886\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n17\n\n\n0,883\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n18\n\n\n0,851\n\n\n1\n\n\n-\n\n\n\n\n\n\n\n\n19\n\n\n0,897\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n20\n\n\n0,901\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n\n\nQuestões\nBaseado nesse estudo de caso, responda as seguintes questões:\n\nConstrua uma distribuição de frequências para o escores NPZ-8.\nConstrua um histograma de frequência relativa e um polígono de frequências relativa para os escores NPZ-8.\nCalcule a média, mediana e moda para os dados NPZ-8.\nCalcule a média, mediana e moda para os dados PBV.\nCalcule a variância e o desvio-padrão para os dados NPZ-8.\nEncontre os quartis dos dados NPZ-8.\nObserve o histograma e o polígono de frequências da variável NPZ-8 constuídos no exercício 2. Pela sua compreensão, você caracteriza essa distribuição simétrica ou assimétrica (positiva ou negativa)?\nCalcule a assimetria para os dados NPZ-8. Esse cálculo confirma sua observação feita no exercício anterior?\nCalcule a assimetria para os dados NPZ-8 usando apenas dados dos 15 indivíduos infectados. A inclusão dos cinco indivíduos saudáveis no conjunto de dados aumenta de forma marcante a assimetria, em sua opinião?\n\n\n\n\n\n\nReferências\n\nPatel, Sohil, Dennis Kolson, Guila Glosser, Isabel Matozzo, Yulin Ge, James Babb, Lois Mannon, e Robert Grossman. 2002. «Correlation between Percentage of Brain Parenchymal Volume and Neurocognitive Performance in HIV-Infected Patients». AJNR. American journal of neuroradiology 23 (abril): 543–49."
   },
   {
-    "objectID": "cronograma.html",
-    "href": "cronograma.html",
-    "title": "Cronograma da disciplina",
+    "objectID": "estudos.html",
+    "href": "estudos.html",
+    "title": "Estudos de Caso",
     "section": "",
-    "text": "Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nData\nTópico\nArtigo\nSlides\nEC\nLE\nScript\nAvaliação\nProjeto\n\n\n\n\n1\nSeg, 11/11\nApresentação da disciplina\n\n\n\n\n\n\n\n\n\n\nQua, 13/11\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n2\nSeg, 18/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 20/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n3\nSeg, 25/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 27/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n4\nSeg, 02/12\nRelato (Série) de casos\n\n️\n\n\n\n\n\n\n\n\nQua, 04/11\nEstudos de coorte\n\n️\n\n\n\n\n\n\n\n5\nSeg, 09/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n\nQua, 11/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n6\nSeg, 16/12\nEstudos caso-controle\n\n️\n\n\n\n\n\n\n\n\nQua, 18/12\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n\n23/12 a 19/01\nRecesso Acadêmico\n\n\n\n\n\n\n\n\n\n7\nSeg, 20/01\nEstudos Transversais\n\n️\n\n\n\n\n\n\n\n\nQua, 22/01\nEstudos Ecológicos\n\n️\n\n\n\n\n\n\n\n8\nSeg, 27/01\nEnsaios clínicos aleatorizados\n\n️\n\n\n\n\n\n\n\n\nQua, 29/01\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n9\nSeg, 03/02\nNão haverá aula!\n\n\n\n️\n\n\n\n\n\n\nQua, 05/02\nOutros tipos de estudos\n\n️",
+    "text": "Estudo de Caso 01: Desgaste de lentes de contato\nEstudo de Caso 02: Correlação entre volume cerebral e desempenho neurocognitivo em paciente infectados por HIV\nEstudo de Caso 03: Ensaio clínico sobre a eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores",
     "crumbs": [
-      "Cronograma da disciplina"
+      "Estudos de Caso"
     ]
+  },
+  {
+    "objectID": "aulas.html",
+    "href": "aulas.html",
+    "title": "Aulas",
+    "section": "",
+    "text": "Conceitos básicos\nPlanejamento na área de saúde\nMedidas de acurácia e testes diagnósticos\nModelos Logístico e Riscos Proporcionais (Cox)",
+    "crumbs": [
+      "Aulas"
+    ]
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html",
+    "href": "analise_dados/recem_nascidos.html",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "",
+    "text": "Considere o conjunto de dados referente a um estudo sobre recém-nascidos prematuros de baixo peso. Os dados de cada recém-nascido estão dispostos em uma linha e cada coluna corresponde à informação de uma variável específica."
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html#objetivos",
+    "href": "analise_dados/recem_nascidos.html#objetivos",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nExplorar os dados sobre recém-nascidos prematuros.\n\nFonte dos dados:\n\nhttps://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv"
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html#preparação",
+    "href": "analise_dados/recem_nascidos.html#preparação",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "Preparação",
+    "text": "Preparação\n\nCarregando os pacotes R\n\npacman::p_load(\n  rio,          # importa arquivos\n  here,         # localiza arquivos\n  skimr,        # gera visualização dos dados\n  tidyverse,    # gestão dos dados + gráficos no ggplot2 \n  gtsummary,    # resumo estatísticos e testes\n  rstatix,      # resumo e testes estatísticos\n  janitor,      # adiciona números absolutos e porcentagens às tabelas\n  scales,       # facilmente converte proporções para porcentagens\n  flextable,    # converte tabelas para o formato de imagens\n  descriptr     # construir tabela de distribuição de frequência em classes\n1  )\n\n\n1\n\nA função p_load(), do pacote pacman, instala os pacotes, caso não estejam instalados, e os carrega no R para utilização."
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html#carregando-os-dados",
+    "href": "analise_dados/recem_nascidos.html#carregando-os-dados",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "Carregando os dados",
+    "text": "Carregando os dados\n\n1dados_brutos = rio::import(\"https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv\")\n\n\n1\n\nUso da função import() do pacote rio para importar um conjunto de dados fornecendo o caminho para o arquivo (incluindo o nome do arquivo e a extensão do arquivo) entre aspas. Após a importação, os dados são armazenados na variável dados_brutos"
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html#conhecendo-a-base-de-dados",
+    "href": "analise_dados/recem_nascidos.html#conhecendo-a-base-de-dados",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "Conhecendo a base de dados",
+    "text": "Conhecendo a base de dados\n\nO que cada linha significa?\nQuais são as variáveis presentes na base de dados?\nQual é o tipo de cada variável? É o esperado? \n\n\ndados_brutos %&gt;% \n1  glimpse()\n\n\n1\n\nA função glimpse() é usada para visualizar um resumo da estrutura do conjunto de dados. Ela mostra o número de observações e variáveis, além de listar as variáveis presentes e seus tipos.\n\n\n\n\nRows: 48\nColumns: 9\n$ registro          &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…\n$ pre_natal         &lt;chr&gt; \"N\", \"S\", \"N\", \"N\", \"N\", \"S\", \"N\", \"S\", \"N\", \"N\", \"N…\n$ n_consultas       &lt;int&gt; 0, 5, 0, 0, 0, 2, 0, 4, 0, 0, 0, 4, 0, 5, 1, 5, 4, 3…\n$ sexo              &lt;chr&gt; \"F\", \"M\", \"F\", \"F\", \"M\", \"F\", \"F\", \"M\", \"F\", \"M\", \"F…\n$ peso              &lt;int&gt; 750, 650, 650, 750, 800, 600, 940, 940, 900, 600, 61…\n$ comprimento       &lt;int&gt; 31, 32, 33, 33, 33, 34, 34, 34, 34, 28, 31, 31, 32, …\n$ idade_gestacional &lt;int&gt; 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, …\n$ tempo_permanencia &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 3, 4, 5, 5, 15, 75,…\n$ desfecho          &lt;chr&gt; \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O…"
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html#explore-seus-dados",
+    "href": "analise_dados/recem_nascidos.html#explore-seus-dados",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "Explore seus dados",
+    "text": "Explore seus dados"
+  },
+  {
+    "objectID": "analise_dados/recem_nascidos.html#obtenha-informações-sobre-cada-variável-no-banco-de-dados",
+    "href": "analise_dados/recem_nascidos.html#obtenha-informações-sobre-cada-variável-no-banco-de-dados",
+    "title": "Análise de dados: Recém-nascidos prematuros",
+    "section": "Obtenha informações sobre cada variável no banco de dados",
+    "text": "Obtenha informações sobre cada variável no banco de dados\n\ndados_brutos %&gt;% \n  select(-c(registro)) %&gt;% \n  skim()\n\n\nData summary\n\n\nName\nPiped data\n\n\nNumber of rows\n48\n\n\nNumber of columns\n8\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n3\n\n\nnumeric\n5\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\npre_natal\n0\n1\n1\n1\n0\n2\n0\n\n\nsexo\n0\n1\n1\n1\n0\n2\n0\n\n\ndesfecho\n0\n1\n1\n1\n0\n2\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nn_consultas\n0\n1\n2.00\n2.16\n0\n0\n1.5\n4.00\n8\n▇▃▂▂▁\n\n\npeso\n0\n1\n782.92\n160.72\n100\n690\n800.0\n900.00\n980\n▁▁▂▆▇\n\n\ncomprimento\n0\n1\n32.92\n3.25\n26\n32\n33.0\n34.00\n49\n▂▇▁▁▁\n\n\nidade_gestacional\n0\n1\n29.42\n1.41\n28\n28\n29.0\n30.00\n33\n▇▂▂▁▁\n\n\ntempo_permanencia\n0\n1\n17.10\n28.69\n1\n1\n3.0\n8.25\n111\n▇▁▁▁▁\n\n\n\n\n\n\nResumos estatísticos\n\ndados_brutos %&gt;% \n  select(-c(registro)) %&gt;% \n  get_summary_stats(type = \"common\")                    # tipo do resumo estatístico a ser gerado\n\n# A tibble: 5 × 10\n  variable              n   min   max median    iqr  mean     sd     se     ci\n  &lt;fct&gt;             &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n1 n_consultas          48     0     8    1.5   4      2     2.16  0.312  0.628\n2 peso                 48   100   980  800   210    783.  161.   23.2   46.7  \n3 comprimento          48    26    49   33     2     32.9   3.25  0.47   0.945\n4 idade_gestacional    48    28    33   29     2     29.4   1.41  0.204  0.41 \n5 tempo_permanencia    48     1   111    3     7.25  17.1  28.7   4.14   8.33 \n\n\n\n\nQuais são os desfechos presentes na base de dados?\n\ndados_brutos  %&gt;%  \n1  distinct(desfecho)\n\n\n1\n\nA função distinct() é usada para retornar apenas os valores únicos de uma variável (ou conjunto de variáveis).\n\n\n\n\n  desfecho\n1        O\n2        V\n\n\n\n\nDistribuição de frequências da variável sexo\n\ndados_brutos %&gt;%               # fonte dos dados\n  tabyl(sexo) %&gt;%              # tabula números absolutos e proporções por sexo\n  adorn_pct_formatting() %&gt;%   # converte as proporções para porcentagens\n  adorn_totals(where = \"row\")  # adiciona uma linha chamada 'Total', com os totais\n\n  sexo  n percent\n     F 29   60.4%\n     M 19   39.6%\n Total 48       -\n\n\n\n\nDistribuição de frequências da variável número de consultas\n\ndados_brutos %&gt;% group_by(n_consultas) %&gt;%\n  summarise(fa = n()) %&gt;%\n  mutate(fr = fa / sum(fa),\n         Fr = fr * 100) %&gt;% \n1  adorn_totals(where = 'row')\n\n\n1\n\nPodemos utilizar as funções adorn_*(), do pacote janitor, em outras tabelas criadas por outras funções.\n\n\n\n\n n_consultas fa         fr         Fr\n           0 21 0.43750000  43.750000\n           1  3 0.06250000   6.250000\n           2  4 0.08333333   8.333333\n           3  6 0.12500000  12.500000\n           4  8 0.16666667  16.666667\n           5  3 0.06250000   6.250000\n           6  2 0.04166667   4.166667\n           8  1 0.02083333   2.083333\n       Total 48 1.00000000 100.000000\n\n\n\n\nDistribuição de frequências da variável peso\n\ndados_brutos %&gt;% \n  ds_freq_table(peso,7)  \n\n                                         Variable: peso                                           \n|-----------------------------------------------------------------------------------------------|\n|                Bins                 | Frequency | Cum Frequency |   Percent    | Cum Percent  |\n|-----------------------------------------------------------------------------------------------|\n|       100        -      225.7       |     1     |       1       |     2.08     |     2.08     |\n|-----------------------------------------------------------------------------------------------|\n|      225.7       -      351.4       |     0     |       1       |      0       |     2.08     |\n|-----------------------------------------------------------------------------------------------|\n|      351.4       -      477.1       |     0     |       1       |      0       |     2.08     |\n|-----------------------------------------------------------------------------------------------|\n|      477.1       -      602.9       |     5     |       6       |    10.42     |     12.5     |\n|-----------------------------------------------------------------------------------------------|\n|      602.9       -      728.6       |     8     |      14       |    16.67     |    29.17     |\n|-----------------------------------------------------------------------------------------------|\n|      728.6       -      854.3       |    13     |      27       |    27.08     |    56.25     |\n|-----------------------------------------------------------------------------------------------|\n|      854.3       -       980        |    21     |      48       |    43.75     |     100      |\n|-----------------------------------------------------------------------------------------------|\n|                Total                |    48     |       -       |    100.00    |      -       |\n|-----------------------------------------------------------------------------------------------|\n\n\nou, de forma alternativa,\n\ndados_brutos %&gt;% \n  mutate(classes = cut(peso ,breaks = 7)) %&gt;% \n  group_by(classes) %&gt;% \n  summarise(fa = n()) %&gt;% \n  complete(classes, fill = list(fa = 0)) %&gt;% \n  mutate(fr = fa / sum(fa),\n         Fr = fr * 100) %&gt;% \n  adorn_totals(where = 'row')\n\n    classes fa         fr         Fr\n (99.1,226]  1 0.02083333   2.083333\n  (226,351]  0 0.00000000   0.000000\n  (351,477]  0 0.00000000   0.000000\n  (477,603]  5 0.10416667  10.416667\n  (603,729]  8 0.16666667  16.666667\n  (729,854] 13 0.27083333  27.083333\n  (854,981] 21 0.43750000  43.750000\n      Total 48 1.00000000 100.000000\n\n\n\n\nFaixa de peso proporcional por desfecho\n\ndados_brutos %&gt;%\n  mutate(classes = cut(peso ,breaks = 7)) %&gt;% \n  group_by(desfecho) %&gt;% \n  count(classes) %&gt;% \n  complete(classes, fill = list(n = 0)) %&gt;%  \n  mutate(porcentagem = scales::percent(n / sum(n)))\n\n# A tibble: 14 × 4\n# Groups:   desfecho [2]\n   desfecho classes        n porcentagem\n   &lt;chr&gt;    &lt;fct&gt;      &lt;int&gt; &lt;chr&gt;      \n 1 O        (99.1,226]     0 0.0%       \n 2 O        (226,351]      0 0.0%       \n 3 O        (351,477]      0 0.0%       \n 4 O        (477,603]      5 13.2%      \n 5 O        (603,729]      8 21.1%      \n 6 O        (729,854]     11 28.9%      \n 7 O        (854,981]     14 36.8%      \n 8 V        (99.1,226]     1 10%        \n 9 V        (226,351]      0 0%         \n10 V        (351,477]      0 0%         \n11 V        (477,603]      0 0%         \n12 V        (603,729]      0 0%         \n13 V        (729,854]      2 20%        \n14 V        (854,981]      7 70%        \n\n\n\n\nVisualizando graficamente\n\ndados_brutos %&gt;%\n  mutate(classes = cut(peso ,breaks = 7)) %&gt;% \n  group_by(desfecho) %&gt;% \n  count(classes) %&gt;% \n  complete(classes, fill = list(n = 0)) %&gt;%     # agrupe e tabule as contagens utilizando duas variáveis\n  ggplot()+                       # utilize a tabulação gerada no ggplot\n    geom_col(                     # crie um gráfico de barras\n      mapping = aes(   \n        x = desfecho,              # mapeie o grupo desfecho para o eixo x\n        fill = classes,           # mapeie o grupo classes para o fill\n        y = n))                   # mapeie as contagens (coluna 'n') para o eixo y\n\n\n\n\n\n\n\n\n\n\nCalculando os percentis da variavel peso por desfecho\n\ndados_brutos %&gt;% \n  group_by(desfecho) %&gt;% \n  rstatix::get_summary_stats(peso, type = \"quantile\")\n\n# A tibble: 2 × 8\n  desfecho variable     n  `0%` `25%` `50%` `75%` `100%`\n  &lt;chr&gt;    &lt;fct&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;\n1 O        peso        38   550  652.   785  900     980\n2 V        peso        10   100  830    865  928.    970\n\n\n\n\nResumo dos dados agregados\n\ndados_brutos %&gt;% \n  select(-c(registro)) %&gt;% \n  group_by(desfecho) %&gt;% \n  summarise(across(\n    .cols = where(is.numeric),  # all numeric columns in the data frame\n    .fns = mean,\n    na.rm=T))\n\n# A tibble: 2 × 6\n  desfecho n_consultas  peso comprimento idade_gestacional tempo_permanencia\n  &lt;chr&gt;          &lt;dbl&gt; &lt;dbl&gt;       &lt;dbl&gt;             &lt;dbl&gt;             &lt;dbl&gt;\n1 O               1.61  776.        32.7              29.0              4.18\n2 V               3.5   808         33.9              30.9             66.2 \n\n\n\n\nTabela de contingência das variáveis pre_natal e desfecho\n\ndados_brutos %&gt;% \n  tabyl(pre_natal, desfecho)%&gt;% \n  adorn_totals(where = 'both')\n\n pre_natal  O  V Total\n         N 19  2    21\n         S 19  8    27\n     Total 38 10    48\n\n\n\n\nVisualizando graficamente\n\ndados_brutos %&gt;% \n  group_by(pre_natal, desfecho) %&gt;% \n  summarise(n = n()) %&gt;% \n  ggplot(aes(x = desfecho, y = n, fill = pre_natal)) +\n  geom_col(position = \"dodge\")\n\n\n\n\n\n\n\n\n\n\nFazer consultas pré natal está associado ao desfecho?\n\ndados_brutos %&gt;% \n  tabyl(pre_natal, desfecho) %&gt;% \n  chisq.test()\n\n\n    Pearson's Chi-squared test with Yates' continuity correction\n\ndata:  .\nX-squared = 1.8045, df = 1, p-value = 0.1792\n\n\n\n\nRelação entre peso e comprimento dos recém-nascidos\n\ndados_brutos %&gt;% \n  ggplot(aes(x = comprimento,\n             y = peso)) +\n  geom_point()+\n  labs(title=\"Relação entre peso e comprimento dos recém-nascidos\",\n       x = \"Comprimento (cm)\",\n       y = \"Peso (g)\")\n\n\n\n\n\n\n\n\n\n\nDistribuição de pesos segundo sexo dos recém-nascidos\n\ndados_brutos %&gt;% \n  ggplot(aes(x = sexo,\n             y = peso)) +\n  geom_boxplot()+\n  labs(title=\"Distribuição de pesos segundo sexo dos recém-nascidos\",\n       x = \"Sexo\",\n       y = \"Peso (g)\")"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre",
+    "section": "",
+    "text": "Disciplina oferecida em caráter eletivo no semestre 2024/2"
+  },
+  {
+    "objectID": "analises.html",
+    "href": "analises.html",
+    "title": "Análise de dados",
+    "section": "",
+    "text": "Recém-nascidos",
+    "crumbs": [
+      "Análise de dados"
+    ]
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#estatística",
+    "href": "aulas/Conceitos básicos/index.html#estatística",
+    "title": "Conceitos básicos",
+    "section": "Estatística",
+    "text": "Estatística\n\nÉ a ciência que oferece uma coleção de métodos para produzir e obter dados, organizá-los, resumi-los, analisá-los, interpretá-los e deles extrair conhecimento.\n\nTriola (1999)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#estatística-1",
+    "href": "aulas/Conceitos básicos/index.html#estatística-1",
+    "title": "Conceitos básicos",
+    "section": "Estatística",
+    "text": "Estatística\nMétodos estatísticos são essenciais no estudo de situações em que as variáveis de interesse estão sujeitas a flutuações aleatórias.\n\nEste é o caso de estudos na área da saúde.\n\n\n\nPor exemplo, pressão arterial\n\nvaria não só entre indivíduos, como também no mesmo indivíduo."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#bioestatística",
+    "href": "aulas/Conceitos básicos/index.html#bioestatística",
+    "title": "Conceitos básicos",
+    "section": "Bioestatística",
+    "text": "Bioestatística\nConvencionou-se chamar de Bioestatística o conjunto de métodos estatísticos usados para o planejamento e análise de dados de estudos de ciências médicas, biológicas ou, de forma mais geral, da área de saúde."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#áreas-da-estatística",
+    "href": "aulas/Conceitos básicos/index.html#áreas-da-estatística",
+    "title": "Conceitos básicos",
+    "section": "Áreas da Estatística",
+    "text": "Áreas da Estatística"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#população-e-amostra",
+    "href": "aulas/Conceitos básicos/index.html#população-e-amostra",
+    "title": "Conceitos básicos",
+    "section": "População e Amostra",
+    "text": "População e Amostra"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#população-e-amostra-1",
+    "href": "aulas/Conceitos básicos/index.html#população-e-amostra-1",
+    "title": "Conceitos básicos",
+    "section": "População e Amostra",
+    "text": "População e Amostra"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#variável",
+    "href": "aulas/Conceitos básicos/index.html#variável",
+    "title": "Conceitos básicos",
+    "section": "Variável",
+    "text": "Variável\nCaracterística de interesse a ser analisada."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#variável-1",
+    "href": "aulas/Conceitos básicos/index.html#variável-1",
+    "title": "Conceitos básicos",
+    "section": "Variável",
+    "text": "Variável"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#desfechos-de-saúde",
+    "href": "aulas/Conceitos básicos/index.html#desfechos-de-saúde",
+    "title": "Conceitos básicos",
+    "section": "Desfechos de saúde",
+    "text": "Desfechos de saúde\n\n\nMorte: Um desfecho ruim, se for antes do tempo\n\n\n\n\nDoença: Um conjunto de sintomas, sinais físicos e anormalidades laboratoriais\n\n\n\n\n\nDesconforto: Sintomas como dor, náusea, dispneia, prurido e zumbido\n\n\n\n\n\nDeficiência funcional: Limitação na capacidade de funcional desempenhar as atividades normais em casa, o trabalho ou no lazer\n\n\n\n\n\nDescontentamento: Reação emocional à doença e ao seu cuidado, como tristeza e raiva"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro",
+    "href": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro",
+    "title": "Conceitos básicos",
+    "section": "Estimativa e Parâmetro",
+    "text": "Estimativa e Parâmetro\nParâmetros são informações extraídas da população"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro-1",
+    "href": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro-1",
+    "title": "Conceitos básicos",
+    "section": "Estimativa e Parâmetro",
+    "text": "Estimativa e Parâmetro\nEstimativas são informações extraídas da amostra"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#margem-de-erro",
+    "href": "aulas/Conceitos básicos/index.html#margem-de-erro",
+    "title": "Conceitos básicos",
+    "section": "Margem de erro",
+    "text": "Margem de erro\nÉ a diferença máxima provável entre o valor da estimativa e o verdadeiro valor do parâmetro populacional"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#margem-de-erro-1",
+    "href": "aulas/Conceitos básicos/index.html#margem-de-erro-1",
+    "title": "Conceitos básicos",
+    "section": "Margem de erro",
+    "text": "Margem de erro\nÉ a diferença máxima provavel entre o valor da estimativa e o verdadeiro valor do parâmetro populacional\n\\[ e = z_{\\frac{\\alpha}{2}}\\dfrac{\\sigma}{\\sqrt{n}}\\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-ou-vício",
+    "href": "aulas/Conceitos básicos/index.html#viés-ou-vício",
+    "title": "Conceitos básicos",
+    "section": "Viés ou Vício",
+    "text": "Viés ou Vício\nTecnicamente, é definido como a diferença entre a estimativa e o verdadeiro valor do parâmetro.\n\nNa prática, é considerado como um erro sistemático, que ocorre no momento da coleta das informações sobre as variáveis de interesse."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-ou-vício-1",
+    "href": "aulas/Conceitos básicos/index.html#viés-ou-vício-1",
+    "title": "Conceitos básicos",
+    "section": "Viés ou Vício",
+    "text": "Viés ou Vício"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-de-seleção",
+    "href": "aulas/Conceitos básicos/index.html#viés-de-seleção",
+    "title": "Conceitos básicos",
+    "section": "Viés de seleção",
+    "text": "Viés de seleção\nUm estudo sobre tabagismo e demência encontrou um potencial viés de seleção em idosos.\n\nO viés de seleção devido à censura pela morte foi uma das explicações para a menor taxa relativa de demência em fumantes com idade mais avançada."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-de-aferição",
+    "href": "aulas/Conceitos básicos/index.html#viés-de-aferição",
+    "title": "Conceitos básicos",
+    "section": "Viés de aferição",
+    "text": "Viés de aferição\n\n\nHipertensão do jaleco branco\nAumento na pressão sistólica, quando a pressão é aferida manualmente por um médico ou por enfermeiro sem vínculo prévio com o paciente."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-de-confusão",
+    "href": "aulas/Conceitos básicos/index.html#viés-de-confusão",
+    "title": "Conceitos básicos",
+    "section": "Viés de confusão",
+    "text": "Viés de confusão\n\n\nVariáveis confundidoras\nA relação entre ingestão de antioxidantes e risco de doenças cardiovasculares é potencialmente confundida pelas características do paciente e por comportamentos relacionados tanto ao uso de antioxidantes quanto ao desenvolvimento de doenças cardiovasculares."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-de-confusão-1",
+    "href": "aulas/Conceitos básicos/index.html#viés-de-confusão-1",
+    "title": "Conceitos básicos",
+    "section": "Viés de confusão",
+    "text": "Viés de confusão\n\n\nVariáveis confundidoras\nA relação entre ingestão de antioxidantes e risco de doenças cardiovasculares é potencialmente confundida pelas características do paciente e por comportamentos relacionados tanto ao uso de antioxidantes quanto ao desenvolvimento de doenças cardiovasculares."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#acaso",
+    "href": "aulas/Conceitos básicos/index.html#acaso",
+    "title": "Conceitos básicos",
+    "section": "Acaso",
+    "text": "Acaso\nAs observações sobre as doenças são normalmente feitas em uma amostra de pacientes, uma vez que não é possível estudar todos os pacientes que apresentam a doença em questão."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#acaso-1",
+    "href": "aulas/Conceitos básicos/index.html#acaso-1",
+    "title": "Conceitos básicos",
+    "section": "Acaso",
+    "text": "Acaso\n\nVariação aleatória\n\nAs observações sobre as doenças são normalmente feitas em uma amostra de pacientes, uma vez que não é possível estudar todos os pacientes que apresentam a doença em questão."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#viés-e-acaso",
+    "href": "aulas/Conceitos básicos/index.html#viés-e-acaso",
+    "title": "Conceitos básicos",
+    "section": "Viés e Acaso",
+    "text": "Viés e Acaso"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem",
+    "href": "aulas/Conceitos básicos/index.html#amostragem",
+    "title": "Conceitos básicos",
+    "section": "Amostragem",
+    "text": "Amostragem\nTrata-se do precedimento para a coleta da amostra.\n\n\nPor que amostrar?\n\n\nEconomia: Em geral é mais econômico levantar apenas uma parte da população\n\nCenso x PNAD"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-1",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-1",
+    "title": "Conceitos básicos",
+    "section": "Amostragem",
+    "text": "Amostragem\n\n\nTempo: Maior rapidez; por vezes, nem há tempo suficiente para observar toda a população\n\nA três dias das eleições, não haveria tempo para sondar toda a população\n\n\n\n\n\n\nConfiabilidade: Avaliando número menor de elementos, é possível dar mais atenção e cuidado a cada elemento observado."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-2",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-2",
+    "title": "Conceitos básicos",
+    "section": "Amostragem",
+    "text": "Amostragem\n\n\nDetalhamento: É possível aprofundar a análise, por exemplo, avaliando mais variáveis.\n\n\n\n\nAnálises destrutivas: Neste caso, não faz sentido avaliar toda a população!\n\nPor exemplo, em um lote de cobaias, algumas são sacrificadas para estudos histológicos."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#representatividade",
+    "href": "aulas/Conceitos básicos/index.html#representatividade",
+    "title": "Conceitos básicos",
+    "section": "Representatividade",
+    "text": "Representatividade\n\n\nQualidade das amostras de terem ou reproduzirem, sem tendenciosidade, as propriedades da população\nDeseja-se sempre amostras representativas!"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#unidade-amostral",
+    "href": "aulas/Conceitos básicos/index.html#unidade-amostral",
+    "title": "Conceitos básicos",
+    "section": "Unidade Amostral",
+    "text": "Unidade Amostral\nElemento, definido pela pesquisa, ao qual corresponde cada observação\n\nPode ser um indivíduo ou um conjunto de indivíduos"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio",
+    "href": "aulas/Conceitos básicos/index.html#sorteio",
+    "title": "Conceitos básicos",
+    "section": "Sorteio",
+    "text": "Sorteio\nProcedimento que confere a todos os elementos de um conjunto a mesma probabilidade de serem tomados\n\n\nAmostragem aleatória\nQuando algum mecanismo de sorteio é utilizado para compor a amostra"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#mecanismos-físicos",
+    "href": "aulas/Conceitos básicos/index.html#mecanismos-físicos",
+    "title": "Conceitos básicos",
+    "section": "Mecanismos físicos",
+    "text": "Mecanismos físicos"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#números-aleatórios",
+    "href": "aulas/Conceitos básicos/index.html#números-aleatórios",
+    "title": "Conceitos básicos",
+    "section": "Números Aleatórios",
+    "text": "Números Aleatórios\n\n\n\n\n\n\n\nNúmeros aleatórios entre 0,000 e 0,999\n\\[\\fbox{SHIFT} \\quad \\fbox{Ran#} \\quad \\fbox{=}\\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#números-aleatórios-1",
+    "href": "aulas/Conceitos básicos/index.html#números-aleatórios-1",
+    "title": "Conceitos básicos",
+    "section": "Números Aleatórios",
+    "text": "Números Aleatórios\n\n\n\n\n\n\n\nfunção =ALEATÓRIO()\n\nnúmeros aleatórios entre 0 e 1\n\n\n\nou,\n\n\nfunção =ALEATÓRIOENTRE(a;b)\n\nnúmeros aleatórios entre valores escolhidos “a” e “b”"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-1",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-1",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-2",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-2",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-3",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-3",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-4",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-4",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]\nRepita o processo n vezes"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-5",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-5",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\nExemplo: Em uma turma de Estatística, há N = 41 alunos matriculados. Podemos numerá-los conforme a ordem alfabética.\n\n\nSuponha que desejamos sortear n = 3 alunos.\n\n\n\n\nSuponha ainda que os números aleatórios tenham sido\n\n\\[0,567\\quad\\quad\\quad 0,024\\quad\\quad\\quad 0,788 \\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-6",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-6",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\nOs alunos sorteados serão…\n\\[ 0,5+\\frac{41}{0,999}\\times 0,567 = 23,77 \\approx 24 \\rightarrow \\text{aluno }24 \\]\n\n\\[ 0,5+\\frac{41}{0,999}\\times 0,024 = 1,48 \\approx 1 \\rightarrow \\text{aluno }1 \\]\n\n\n\\[ 0,5+\\frac{41}{0,999}\\times 0,788 = 32,84 \\approx 33 \\rightarrow \\text{aluno }33 \\]"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#prática",
+    "href": "aulas/Conceitos básicos/index.html#prática",
+    "title": "Conceitos básicos",
+    "section": "Prática",
+    "text": "Prática\n\nDos 12 alunos matriculados na disciplina EST104 neste semestre, queremos sortear 4 para comporem uma amostra\nPara isso, usaremos o método 1 gerando números aleatórios via calculadora!\n\n\n\n\n\n−&plus;\n\n05:00"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-7",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-7",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-8",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-8",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-9",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-9",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-10",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-10",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)\nToma-se os n primeiros elementos neste novo conjunto. Estes são os elementos sorteados."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-11",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-11",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\nExemplo: Suponha que disponhamos de 12 voluntários para um ensaio clínico em que queremos comparar um novo medicamento com um placebo.\n\nTemos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas que receberão o placebo (Grupo 2)."
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-12",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-12",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\nProcedimento"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-13",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-13",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-14",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-14",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-15",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-15",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-16",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-16",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios\nOs 6 primeiros estarão no Grupo 1, e os outros 6 no Grupo 2"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-17",
+    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-17",
+    "title": "Conceitos básicos",
+    "section": "Sorteio de n elementos de um total de N",
+    "text": "Sorteio de n elementos de um total de N\n\n\n\n\n\n\n\nVoluntário\n\n\nNúmero Aleatório\n\n\n\n\n\nIndivíduo 1\n\n\n0,964\n\n\n\n\nIndivíduo 2\n\n\n0,017\n\n\n\n\nIndivíduo 3\n\n\n0,043\n\n\n\n\nIndivíduo 4\n\n\n0,199\n\n\n\n\nIndivíduo 5\n\n\n0,900\n\n\n\n\nIndivíduo 6\n\n\n0,786\n\n\n\n\nIndivíduo 7\n\n\n0,177\n\n\n\n\nIndivíduo 8\n\n\n0,181\n\n\n\n\nIndivíduo 9\n\n\n0,309\n\n\n\n\nIndivíduo 10\n\n\n0,003\n\n\n\n\nIndivíduo 11\n\n\n0,247\n\n\n\n\nIndivíduo 12\n\n\n0,665\n\n\n\n\n\n\n\n\n\n\n\n\nGrupo\n\n\nNúmero Aleatório\n\n\nVoluntário\n\n\n\n\n\n1\n\n\n0,003\n\n\nIndivíduo 10\n\n\n\n\n1\n\n\n0,017\n\n\nIndivíduo 2\n\n\n\n\n1\n\n\n0,043\n\n\nIndivíduo 3\n\n\n\n\n1\n\n\n0,177\n\n\nIndivíduo 7\n\n\n\n\n1\n\n\n0,181\n\n\nIndivíduo 8\n\n\n\n\n1\n\n\n0,199\n\n\nIndivíduo 4\n\n\n\n\n2\n\n\n0,247\n\n\nIndivíduo 11\n\n\n\n\n2\n\n\n0,309\n\n\nIndivíduo 9\n\n\n\n\n2\n\n\n0,665\n\n\nIndivíduo 12\n\n\n\n\n2\n\n\n0,786\n\n\nIndivíduo 6\n\n\n\n\n2\n\n\n0,900\n\n\nIndivíduo 5\n\n\n\n\n2\n\n\n0,964\n\n\nIndivíduo 1"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#prática-1",
+    "href": "aulas/Conceitos básicos/index.html#prática-1",
+    "title": "Conceitos básicos",
+    "section": "Prática",
+    "text": "Prática\n\nDos 12 alunos matriculados na disciplina EST104 neste semestre, queremos formar dois grupos\nPara isso, usaremos o método 2 gerando números aleatórios via calculadora!\n\n\n\n\n\n−&plus;\n\n05:00"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-1",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-1",
+    "title": "Conceitos básicos",
+    "section": "Amostragem não aleatória",
+    "text": "Amostragem não aleatória\nQuando o sorteio não é possível ou viável\n\n\nInacessibilidade: Nem sempre todos os elementos da população estão disponíveis\n\nEx.: Estudo de casos de doença (apenas) dentre os pacientes atendidos em um centro"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-2",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-2",
+    "title": "Conceitos básicos",
+    "section": "Amostragem não aleatória",
+    "text": "Amostragem não aleatória\n\n\nOperacionalidade: Nem sempre é viável identificar ou numerar todos os elementos, mesmo estando acessíveis.\n\nEx.: Amostra de folhas de uma árvore para uma análise de composição química\n\n\n\n\n\n\nPopulações contínuas: Se a população é formada de material contínuo (como líquido ou gás), não é possível enumerar os elementos da população\n\nEx.: amostras de água em pontos do rio para avaliar poluentes"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-3",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-3",
+    "title": "Conceitos básicos",
+    "section": "Amostragem não aleatória",
+    "text": "Amostragem não aleatória\n\nPopulações infinitas\n\n\nSe a amostra é não aleatória, deve-se ao menos tentar garantir sua representatividade\n\n\n\n\nColeta a esmo: Apesar da subjetividade possível, consiste em tentar evitar tendenciosidade, coletando “ao acaso”\n\nentrevistar pessoas na rua, \ncoletar folhas em diferentes alturas e profundidades da copa"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-4",
+    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-4",
+    "title": "Conceitos básicos",
+    "section": "Amostragem não aleatória",
+    "text": "Amostragem não aleatória\nQuando parte da população é inacessível, buscar investigar se o segmento amostrado a representa, ou se devemos restringir as conclusões\n\nMuitas vezes, a amostra a esmo, para fins de análise, é considerada aleatória.\n\n\nMas atenção sobre a representatividade!"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#aplicações",
+    "href": "aulas/Conceitos básicos/index.html#aplicações",
+    "title": "Conceitos básicos",
+    "section": "Aplicações",
+    "text": "Aplicações\n\n\nLevantamentos epidemiológicos\n\nprevalência de doenças\nidentificação de grupos mais susceptíveis\n\n\n\n\n\nAvaliação de fatores de risco de doenças\n\n\n\n\n\nComparação de tratamentos para doenças\n\ntratamento medicamentoso vs cirúrgico\ndiferentes associações de medicamentos"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#aplicações-1",
+    "href": "aulas/Conceitos básicos/index.html#aplicações-1",
+    "title": "Conceitos básicos",
+    "section": "Aplicações",
+    "text": "Aplicações\n\nComparação de medicamentos: bioequivalência\n\n\n\nAvaliação de eficácia de vacinas\n\n\n\n\nEstratégias de diagnóstico e de tratamentos para estabelecer conduta clínica\n\n\n\n\nAvaliação de serviços de ambulatórios e hospitais"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#impacto-de-celular-na-saúde",
+    "href": "aulas/Conceitos básicos/index.html#impacto-de-celular-na-saúde",
+    "title": "Conceitos básicos",
+    "section": "Impacto de celular na saúde",
+    "text": "Impacto de celular na saúde\nNeste estudo, os autores revisaram dados de 63 estudos conduzidos entre 1994 e 2022. A revisão analisou cânceres cerebrais em adultos e crianças, assim como cânceres nas glândulas salivares e leucemia, e os riscos relacionados ao uso de telefones móveis, estações de base e transmissão, assim como exposição ocupacional e indicou que não houve alta dos casos.\nKaripidis et al. (2024)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#consumo-de-carne-vermelha-e-câncer",
+    "href": "aulas/Conceitos básicos/index.html#consumo-de-carne-vermelha-e-câncer",
+    "title": "Conceitos básicos",
+    "section": "Consumo de carne vermelha e câncer",
+    "text": "Consumo de carne vermelha e câncer\nParra-Soto et al. (2022) investigaram diferentes tipos de dieta (onívora, apenas com carne branca, pescetariana e vegetariana/vegana) e sua associação com o desenvolvimento de câncer colorretal. Esses estudos indicam que limitar o consumo de carne é uma medida importante para a redução do risco de câncer colorretal.\nParra Soto et al. (2022)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#medicamentos-para-disfunção-erétil-e-perda-de-audição",
+    "href": "aulas/Conceitos básicos/index.html#medicamentos-para-disfunção-erétil-e-perda-de-audição",
+    "title": "Conceitos básicos",
+    "section": "Medicamentos para disfunção erétil e perda de audição",
+    "text": "Medicamentos para disfunção erétil e perda de audição\nOs autores descrevem o caso de um paciente que desenvolveu perda auditiva neurossensorial súbita unilateral possivelmente relacionada ao uso de vardenafil para disfunção erétil. Este caso fornece mais evidências de que o consumo de inibidores da PDE-5 deve ser considerado como uma possível causa em pacientes que apresentam perda auditiva neurossensorial súbita.\nSnodgrass et al. (2010)"
+  },
+  {
+    "objectID": "aulas/Conceitos básicos/index.html#references",
+    "href": "aulas/Conceitos básicos/index.html#references",
+    "title": "Conceitos básicos",
+    "section": "References",
+    "text": "References\n\n\nKaripidis, Ken, Dan Baaken, Tom Loney, Maria Blettner, Chris Brzozek, Mark Elwood, Clement Narh, et al. 2024. “The Effect of Exposure to Radiofrequency Fields on Cancer Risk in the General and Working Population: A Systematic Review of Human Observational Studies – Part i: Most Researched Outcomes.” Environment International 191: 108983. https://doi.org/https://doi.org/10.1016/j.envint.2024.108983.\n\n\nParra Soto, Solange, Danay Ahumada, Fanny Petermann-Rocha, Jirapitcha Boonpor, Jose Gallegos, Jana Anderson, Linda Sharp, et al. 2022. “Association of Meat, Vegetarian, Pescatarian and Fish-Poultry Diets with Risk of 19 Cancer Sites and All Cancer: Findings from the UK Biobank Prospective Cohort Study and Meta-Analysis.” BMC Medicine 20 (February). https://doi.org/10.1186/s12916-022-02257-9.\n\n\nSnodgrass, Amanda J., Heather M. Campbell, David L. Mace, Victoria L. Faria, Kathleen M. Swanson, and Mark Holodniy. 2010. “Sudden Sensorineural Hearing Loss Associated with Vardenafil.” Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy 30 (1): 112–12. https://doi.org/https://doi.org/10.1592/phco.30.1.112.\n\n\nTriola, M. F. 1999. Introducao a Estatistica. Livros Técnicos e Cientı́ficos. https://books.google.com.br/books?id=wqLqtwAACAAJ."
   },
   {
     "objectID": "aulas/Planejamento/index.html#planejamento-de-estudos",
@@ -1613,524 +2116,28 @@
     "text": "References\n\n\nBarker, D. J. P., and C. Osmond. 1986. “INFANT MORTALITY, CHILDHOOD NUTRITION, AND ISCHAEMIC HEART DISEASE IN ENGLAND AND WALES.” The Lancet 327 (8489): 1077–81. https://doi.org/https://doi.org/10.1016/S0140-6736(86)91340-1.\n\n\nGlass, Gene. 1976. “Primary, Secondary, and Meta-Analysis of Research.” Educational Researcher 5 (November): 3–8. https://doi.org/10.3102/0013189X005010003.\n\n\nJunior, João Gualberto Diniz AND Iwasaki, Adenauer Marinho de Oliveira Góes AND Júnior, and Tatiana Rocha AND Terci Petterle Paulo Henrique AND Protta. 2007. “Oclusão aterosclerótica da aorta abdominal com fluxo arterial para os membros inferiores mantido pela artéria mesentérica inferior: Relato de caso.” Revista Paraense de Medicina 21 (December): 63–68. http://scielo.iec.gov.br/scielo.php?script=sci_arttext&pid=S0101-59072007000400011&nrm=iso.\n\n\nMota, Alline Oliveira das Neves, Mayara Silva Nascimento, Juliana Bacellar Nunes de Brito, Carlos Victor da Silva Nascimento, Lorena de Britto Pereira Cruz, Maria Amélia Lopes dos Santos, Francisca Regina Oliveira Carneiro, and Carla Andréa Avelar Pires. 2021. “Hanseníase Na Infância: Uma Série de Casos / Leprosy in Childhood: A Case Series.” Brazilian Journal of Development 7 (3): 22354–65. https://doi.org/10.34117/bjdv7n3-108.\n\n\nSantana, Alanny, and Janaina Dias. 2021. “Tremor Essencial e Aspectos Psicológicos: Considerações Sobre Estudos Insuficientes Associados.” Revista Psicologia e Saúde 2 (February): 81–94. https://doi.org/10.20435/pssa.vi.990.\n\n\nSouza, Erdnaxela Fernandes do Carmo, and Rosa Áurea Quintella Fernandes. 2014. “Breastfeeding Self-Efficacy: A Cohort Study.” Acta Paulista de Enfermagem 27 (5): 465–70. https://doi.org/10.1590/1982-0194201400076.\n\n\nSulheim, Steinar, Arne Ekeland, Ingar Holme, and Roald Bahr. 2017. “Helmet Use and Risk of Head Injuries in Alpine Skiers and Snowboarders: Changes After an Interval of One Decade.” British Journal of Sports Medicine 51 (1): 44–50. https://doi.org/10.1136/bjsports-2015-095798."
   },
   {
-    "objectID": "aulas/Conceitos básicos/index.html#estatística",
-    "href": "aulas/Conceitos básicos/index.html#estatística",
-    "title": "Conceitos básicos",
-    "section": "Estatística",
-    "text": "Estatística\n\nÉ a ciência que oferece uma coleção de métodos para produzir e obter dados, organizá-los, resumi-los, analisá-los, interpretá-los e deles extrair conhecimento.\n\nTriola (1999)"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#estatística-1",
-    "href": "aulas/Conceitos básicos/index.html#estatística-1",
-    "title": "Conceitos básicos",
-    "section": "Estatística",
-    "text": "Estatística\nMétodos estatísticos são essenciais no estudo de situações em que as variáveis de interesse estão sujeitas a flutuações aleatórias.\n\nEste é o caso de estudos na área da saúde.\n\n\n\nPor exemplo, pressão arterial\n\nvaria não só entre indivíduos, como também no mesmo indivíduo."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#bioestatística",
-    "href": "aulas/Conceitos básicos/index.html#bioestatística",
-    "title": "Conceitos básicos",
-    "section": "Bioestatística",
-    "text": "Bioestatística\nConvencionou-se chamar de Bioestatística o conjunto de métodos estatísticos usados para o planejamento e análise de dados de estudos de ciências médicas, biológicas ou, de forma mais geral, da área de saúde."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#áreas-da-estatística",
-    "href": "aulas/Conceitos básicos/index.html#áreas-da-estatística",
-    "title": "Conceitos básicos",
-    "section": "Áreas da Estatística",
-    "text": "Áreas da Estatística"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#população-e-amostra",
-    "href": "aulas/Conceitos básicos/index.html#população-e-amostra",
-    "title": "Conceitos básicos",
-    "section": "População e Amostra",
-    "text": "População e Amostra"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#população-e-amostra-1",
-    "href": "aulas/Conceitos básicos/index.html#população-e-amostra-1",
-    "title": "Conceitos básicos",
-    "section": "População e Amostra",
-    "text": "População e Amostra"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#variável",
-    "href": "aulas/Conceitos básicos/index.html#variável",
-    "title": "Conceitos básicos",
-    "section": "Variável",
-    "text": "Variável\nCaracterística de interesse a ser analisada."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#variável-1",
-    "href": "aulas/Conceitos básicos/index.html#variável-1",
-    "title": "Conceitos básicos",
-    "section": "Variável",
-    "text": "Variável"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#desfechos-de-saúde",
-    "href": "aulas/Conceitos básicos/index.html#desfechos-de-saúde",
-    "title": "Conceitos básicos",
-    "section": "Desfechos de saúde",
-    "text": "Desfechos de saúde\n\n\nMorte: Um desfecho ruim, se for antes do tempo\n\n\n\n\nDoença: Um conjunto de sintomas, sinais físicos e anormalidades laboratoriais\n\n\n\n\n\nDesconforto: Sintomas como dor, náusea, dispneia, prurido e zumbido\n\n\n\n\n\nDeficiência funcional: Limitação na capacidade de funcional desempenhar as atividades normais em casa, o trabalho ou no lazer\n\n\n\n\n\nDescontentamento: Reação emocional à doença e ao seu cuidado, como tristeza e raiva"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro",
-    "href": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro",
-    "title": "Conceitos básicos",
-    "section": "Estimativa e Parâmetro",
-    "text": "Estimativa e Parâmetro\nParâmetros são informações extraídas da população"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro-1",
-    "href": "aulas/Conceitos básicos/index.html#estimativa-e-parâmetro-1",
-    "title": "Conceitos básicos",
-    "section": "Estimativa e Parâmetro",
-    "text": "Estimativa e Parâmetro\nEstimativas são informações extraídas da amostra"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#margem-de-erro",
-    "href": "aulas/Conceitos básicos/index.html#margem-de-erro",
-    "title": "Conceitos básicos",
-    "section": "Margem de erro",
-    "text": "Margem de erro\nÉ a diferença máxima provável entre o valor da estimativa e o verdadeiro valor do parâmetro populacional"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#margem-de-erro-1",
-    "href": "aulas/Conceitos básicos/index.html#margem-de-erro-1",
-    "title": "Conceitos básicos",
-    "section": "Margem de erro",
-    "text": "Margem de erro\nÉ a diferença máxima provavel entre o valor da estimativa e o verdadeiro valor do parâmetro populacional\n\\[ e = z_{\\frac{\\alpha}{2}}\\dfrac{\\sigma}{\\sqrt{n}}\\]"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#viés-ou-vício",
-    "href": "aulas/Conceitos básicos/index.html#viés-ou-vício",
-    "title": "Conceitos básicos",
-    "section": "Viés ou Vício",
-    "text": "Viés ou Vício\nTecnicamente, é definido como a diferença entre a estimativa e o verdadeiro valor do parâmetro.\n\nNa prática, é considerado como um erro sistemático, que ocorre no momento da coleta das informações sobre as variáveis de interesse."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#viés-ou-vício-1",
-    "href": "aulas/Conceitos básicos/index.html#viés-ou-vício-1",
-    "title": "Conceitos básicos",
-    "section": "Viés ou Vício",
-    "text": "Viés ou Vício"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#viés-de-seleção",
-    "href": "aulas/Conceitos básicos/index.html#viés-de-seleção",
-    "title": "Conceitos básicos",
-    "section": "Viés de seleção",
-    "text": "Viés de seleção\nUm estudo sobre tabagismo e demência encontrou um potencial viés de seleção em idosos.\n\nO viés de seleção devido à censura pela morte foi uma das explicações para a menor taxa relativa de demência em fumantes com idade mais avançada."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#viés-de-aferição",
-    "href": "aulas/Conceitos básicos/index.html#viés-de-aferição",
-    "title": "Conceitos básicos",
-    "section": "Viés de aferição",
-    "text": "Viés de aferição\n\n\nHipertensão do jaleco branco\nAumento na pressão sistólica, quando a pressão é aferida manualmente por um médico ou por enfermeiro sem vínculo prévio com o paciente."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#viés-de-confusão",
-    "href": "aulas/Conceitos básicos/index.html#viés-de-confusão",
-    "title": "Conceitos básicos",
-    "section": "Viés de confusão",
-    "text": "Viés de confusão\n\n\nVariáveis confundidoras\nA relação entre ingestão de antioxidantes e risco de doenças cardiovasculares é potencialmente confundida pelas características do paciente e por comportamentos relacionados tanto ao uso de antioxidantes quanto ao desenvolvimento de doenças cardiovasculares."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#viés-de-confusão-1",
-    "href": "aulas/Conceitos básicos/index.html#viés-de-confusão-1",
-    "title": "Conceitos básicos",
-    "section": "Viés de confusão",
-    "text": "Viés de confusão\n\n\nVariáveis confundidoras\nA relação entre ingestão de antioxidantes e risco de doenças cardiovasculares é potencialmente confundida pelas características do paciente e por comportamentos relacionados tanto ao uso de antioxidantes quanto ao desenvolvimento de doenças cardiovasculares."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#acaso",
-    "href": "aulas/Conceitos básicos/index.html#acaso",
-    "title": "Conceitos básicos",
-    "section": "Acaso",
-    "text": "Acaso\nAs observações sobre as doenças são normalmente feitas em uma amostra de pacientes, uma vez que não é possível estudar todos os pacientes que apresentam a doença em questão."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#acaso-1",
-    "href": "aulas/Conceitos básicos/index.html#acaso-1",
-    "title": "Conceitos básicos",
-    "section": "Acaso",
-    "text": "Acaso\n\nVariação aleatória\n\nAs observações sobre as doenças são normalmente feitas em uma amostra de pacientes, uma vez que não é possível estudar todos os pacientes que apresentam a doença em questão."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#viés-e-acaso",
-    "href": "aulas/Conceitos básicos/index.html#viés-e-acaso",
-    "title": "Conceitos básicos",
-    "section": "Viés e Acaso",
-    "text": "Viés e Acaso"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#amostragem",
-    "href": "aulas/Conceitos básicos/index.html#amostragem",
-    "title": "Conceitos básicos",
-    "section": "Amostragem",
-    "text": "Amostragem\nTrata-se do precedimento para a coleta da amostra.\n\n\nPor que amostrar?\n\n\nEconomia: Em geral é mais econômico levantar apenas uma parte da população\n\nCenso x PNAD"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#amostragem-1",
-    "href": "aulas/Conceitos básicos/index.html#amostragem-1",
-    "title": "Conceitos básicos",
-    "section": "Amostragem",
-    "text": "Amostragem\n\n\nTempo: Maior rapidez; por vezes, nem há tempo suficiente para observar toda a população\n\nA três dias das eleições, não haveria tempo para sondar toda a população\n\n\n\n\n\n\nConfiabilidade: Avaliando número menor de elementos, é possível dar mais atenção e cuidado a cada elemento observado."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#amostragem-2",
-    "href": "aulas/Conceitos básicos/index.html#amostragem-2",
-    "title": "Conceitos básicos",
-    "section": "Amostragem",
-    "text": "Amostragem\n\n\nDetalhamento: É possível aprofundar a análise, por exemplo, avaliando mais variáveis.\n\n\n\n\nAnálises destrutivas: Neste caso, não faz sentido avaliar toda a população!\n\nPor exemplo, em um lote de cobaias, algumas são sacrificadas para estudos histológicos."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#representatividade",
-    "href": "aulas/Conceitos básicos/index.html#representatividade",
-    "title": "Conceitos básicos",
-    "section": "Representatividade",
-    "text": "Representatividade\n\n\nQualidade das amostras de terem ou reproduzirem, sem tendenciosidade, as propriedades da população\nDeseja-se sempre amostras representativas!"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#unidade-amostral",
-    "href": "aulas/Conceitos básicos/index.html#unidade-amostral",
-    "title": "Conceitos básicos",
-    "section": "Unidade Amostral",
-    "text": "Unidade Amostral\nElemento, definido pela pesquisa, ao qual corresponde cada observação\n\nPode ser um indivíduo ou um conjunto de indivíduos"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio",
-    "href": "aulas/Conceitos básicos/index.html#sorteio",
-    "title": "Conceitos básicos",
-    "section": "Sorteio",
-    "text": "Sorteio\nProcedimento que confere a todos os elementos de um conjunto a mesma probabilidade de serem tomados\n\n\nAmostragem aleatória\nQuando algum mecanismo de sorteio é utilizado para compor a amostra"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#mecanismos-físicos",
-    "href": "aulas/Conceitos básicos/index.html#mecanismos-físicos",
-    "title": "Conceitos básicos",
-    "section": "Mecanismos físicos",
-    "text": "Mecanismos físicos"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#números-aleatórios",
-    "href": "aulas/Conceitos básicos/index.html#números-aleatórios",
-    "title": "Conceitos básicos",
-    "section": "Números Aleatórios",
-    "text": "Números Aleatórios\n\n\n\n\n\n\n\nNúmeros aleatórios entre 0,000 e 0,999\n\\[\\fbox{SHIFT} \\quad \\fbox{Ran#} \\quad \\fbox{=}\\]"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#números-aleatórios-1",
-    "href": "aulas/Conceitos básicos/index.html#números-aleatórios-1",
-    "title": "Conceitos básicos",
-    "section": "Números Aleatórios",
-    "text": "Números Aleatórios\n\n\n\n\n\n\n\nfunção =ALEATÓRIO()\n\nnúmeros aleatórios entre 0 e 1\n\n\n\nou,\n\n\nfunção =ALEATÓRIOENTRE(a;b)\n\nnúmeros aleatórios entre valores escolhidos “a” e “b”"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-1",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-1",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-2",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-2",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-3",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-3",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-4",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-4",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 1: utilizando n números aleatórios\n\nEnumere os elementos da população de 1 a N\nGere um número aleatório entre 0,000 e 0,999\nO elemento sorteado é aquele identificado pelo número: \\[ 0,5+\\frac{N}{0,999}\\times \\text{n}^{\\underline{\\text{o}}}\\text{ aleatório gerado} \\]\nRepita o processo n vezes"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-5",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-5",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\nExemplo: Em uma turma de Estatística, há N = 41 alunos matriculados. Podemos numerá-los conforme a ordem alfabética.\n\n\nSuponha que desejamos sortear n = 3 alunos.\n\n\n\n\nSuponha ainda que os números aleatórios tenham sido\n\n\\[0,567\\quad\\quad\\quad 0,024\\quad\\quad\\quad 0,788 \\]"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-6",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-6",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\nOs alunos sorteados serão…\n\\[ 0,5+\\frac{41}{0,999}\\times 0,567 = 23,77 \\approx 24 \\rightarrow \\text{aluno }24 \\]\n\n\\[ 0,5+\\frac{41}{0,999}\\times 0,024 = 1,48 \\approx 1 \\rightarrow \\text{aluno }1 \\]\n\n\n\\[ 0,5+\\frac{41}{0,999}\\times 0,788 = 32,84 \\approx 33 \\rightarrow \\text{aluno }33 \\]"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#prática",
-    "href": "aulas/Conceitos básicos/index.html#prática",
-    "title": "Conceitos básicos",
-    "section": "Prática",
-    "text": "Prática\n\nDos 12 alunos matriculados na disciplina EST104 neste semestre, queremos sortear 4 para comporem uma amostra\nPara isso, usaremos o método 1 gerando números aleatórios via calculadora!\n\n\n\n\n\n−&plus;\n\n05:00"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-7",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-7",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-8",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-8",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-9",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-9",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-10",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-10",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nMétodo 2: utilizando N números aleatórios\n\nGera-se um número aleatório para cada um dos N elementos da população\nOrdena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)\nToma-se os n primeiros elementos neste novo conjunto. Estes são os elementos sorteados."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-11",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-11",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\nExemplo: Suponha que disponhamos de 12 voluntários para um ensaio clínico em que queremos comparar um novo medicamento com um placebo.\n\nTemos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas que receberão o placebo (Grupo 2)."
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-12",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-12",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\nProcedimento"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-13",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-13",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-14",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-14",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-15",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-15",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-16",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-16",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\nProcedimento\n\nIdentifique os voluntários de 1 a 12\nGere um número aleatório para cada um\nOrdene-os conforme os números aleatórios\nOs 6 primeiros estarão no Grupo 1, e os outros 6 no Grupo 2"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-17",
-    "href": "aulas/Conceitos básicos/index.html#sorteio-de-n-elementos-de-um-total-de-n-17",
-    "title": "Conceitos básicos",
-    "section": "Sorteio de n elementos de um total de N",
-    "text": "Sorteio de n elementos de um total de N\n\n\n\n\n\n\n\nVoluntário\n\n\nNúmero Aleatório\n\n\n\n\n\nIndivíduo 1\n\n\n0,964\n\n\n\n\nIndivíduo 2\n\n\n0,017\n\n\n\n\nIndivíduo 3\n\n\n0,043\n\n\n\n\nIndivíduo 4\n\n\n0,199\n\n\n\n\nIndivíduo 5\n\n\n0,900\n\n\n\n\nIndivíduo 6\n\n\n0,786\n\n\n\n\nIndivíduo 7\n\n\n0,177\n\n\n\n\nIndivíduo 8\n\n\n0,181\n\n\n\n\nIndivíduo 9\n\n\n0,309\n\n\n\n\nIndivíduo 10\n\n\n0,003\n\n\n\n\nIndivíduo 11\n\n\n0,247\n\n\n\n\nIndivíduo 12\n\n\n0,665\n\n\n\n\n\n\n\n\n\n\n\n\nGrupo\n\n\nNúmero Aleatório\n\n\nVoluntário\n\n\n\n\n\n1\n\n\n0,003\n\n\nIndivíduo 10\n\n\n\n\n1\n\n\n0,017\n\n\nIndivíduo 2\n\n\n\n\n1\n\n\n0,043\n\n\nIndivíduo 3\n\n\n\n\n1\n\n\n0,177\n\n\nIndivíduo 7\n\n\n\n\n1\n\n\n0,181\n\n\nIndivíduo 8\n\n\n\n\n1\n\n\n0,199\n\n\nIndivíduo 4\n\n\n\n\n2\n\n\n0,247\n\n\nIndivíduo 11\n\n\n\n\n2\n\n\n0,309\n\n\nIndivíduo 9\n\n\n\n\n2\n\n\n0,665\n\n\nIndivíduo 12\n\n\n\n\n2\n\n\n0,786\n\n\nIndivíduo 6\n\n\n\n\n2\n\n\n0,900\n\n\nIndivíduo 5\n\n\n\n\n2\n\n\n0,964\n\n\nIndivíduo 1"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#prática-1",
-    "href": "aulas/Conceitos básicos/index.html#prática-1",
-    "title": "Conceitos básicos",
-    "section": "Prática",
-    "text": "Prática\n\nDos 12 alunos matriculados na disciplina EST104 neste semestre, queremos formar dois grupos\nPara isso, usaremos o método 2 gerando números aleatórios via calculadora!\n\n\n\n\n\n−&plus;\n\n05:00"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-1",
-    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-1",
-    "title": "Conceitos básicos",
-    "section": "Amostragem não aleatória",
-    "text": "Amostragem não aleatória\nQuando o sorteio não é possível ou viável\n\n\nInacessibilidade: Nem sempre todos os elementos da população estão disponíveis\n\nEx.: Estudo de casos de doença (apenas) dentre os pacientes atendidos em um centro"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-2",
-    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-2",
-    "title": "Conceitos básicos",
-    "section": "Amostragem não aleatória",
-    "text": "Amostragem não aleatória\n\n\nOperacionalidade: Nem sempre é viável identificar ou numerar todos os elementos, mesmo estando acessíveis.\n\nEx.: Amostra de folhas de uma árvore para uma análise de composição química\n\n\n\n\n\n\nPopulações contínuas: Se a população é formada de material contínuo (como líquido ou gás), não é possível enumerar os elementos da população\n\nEx.: amostras de água em pontos do rio para avaliar poluentes"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-3",
-    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-3",
-    "title": "Conceitos básicos",
-    "section": "Amostragem não aleatória",
-    "text": "Amostragem não aleatória\n\nPopulações infinitas\n\n\nSe a amostra é não aleatória, deve-se ao menos tentar garantir sua representatividade\n\n\n\n\nColeta a esmo: Apesar da subjetividade possível, consiste em tentar evitar tendenciosidade, coletando “ao acaso”\n\nentrevistar pessoas na rua, \ncoletar folhas em diferentes alturas e profundidades da copa"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-4",
-    "href": "aulas/Conceitos básicos/index.html#amostragem-não-aleatória-4",
-    "title": "Conceitos básicos",
-    "section": "Amostragem não aleatória",
-    "text": "Amostragem não aleatória\nQuando parte da população é inacessível, buscar investigar se o segmento amostrado a representa, ou se devemos restringir as conclusões\n\nMuitas vezes, a amostra a esmo, para fins de análise, é considerada aleatória.\n\n\nMas atenção sobre a representatividade!"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#aplicações",
-    "href": "aulas/Conceitos básicos/index.html#aplicações",
-    "title": "Conceitos básicos",
-    "section": "Aplicações",
-    "text": "Aplicações\n\n\nLevantamentos epidemiológicos\n\nprevalência de doenças\nidentificação de grupos mais susceptíveis\n\n\n\n\n\nAvaliação de fatores de risco de doenças\n\n\n\n\n\nComparação de tratamentos para doenças\n\ntratamento medicamentoso vs cirúrgico\ndiferentes associações de medicamentos"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#aplicações-1",
-    "href": "aulas/Conceitos básicos/index.html#aplicações-1",
-    "title": "Conceitos básicos",
-    "section": "Aplicações",
-    "text": "Aplicações\n\nComparação de medicamentos: bioequivalência\n\n\n\nAvaliação de eficácia de vacinas\n\n\n\n\nEstratégias de diagnóstico e de tratamentos para estabelecer conduta clínica\n\n\n\n\nAvaliação de serviços de ambulatórios e hospitais"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#impacto-de-celular-na-saúde",
-    "href": "aulas/Conceitos básicos/index.html#impacto-de-celular-na-saúde",
-    "title": "Conceitos básicos",
-    "section": "Impacto de celular na saúde",
-    "text": "Impacto de celular na saúde\nNeste estudo, os autores revisaram dados de 63 estudos conduzidos entre 1994 e 2022. A revisão analisou cânceres cerebrais em adultos e crianças, assim como cânceres nas glândulas salivares e leucemia, e os riscos relacionados ao uso de telefones móveis, estações de base e transmissão, assim como exposição ocupacional e indicou que não houve alta dos casos.\nKaripidis et al. (2024)"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#consumo-de-carne-vermelha-e-câncer",
-    "href": "aulas/Conceitos básicos/index.html#consumo-de-carne-vermelha-e-câncer",
-    "title": "Conceitos básicos",
-    "section": "Consumo de carne vermelha e câncer",
-    "text": "Consumo de carne vermelha e câncer\nParra-Soto et al. (2022) investigaram diferentes tipos de dieta (onívora, apenas com carne branca, pescetariana e vegetariana/vegana) e sua associação com o desenvolvimento de câncer colorretal. Esses estudos indicam que limitar o consumo de carne é uma medida importante para a redução do risco de câncer colorretal.\nParra Soto et al. (2022)"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#medicamentos-para-disfunção-erétil-e-perda-de-audição",
-    "href": "aulas/Conceitos básicos/index.html#medicamentos-para-disfunção-erétil-e-perda-de-audição",
-    "title": "Conceitos básicos",
-    "section": "Medicamentos para disfunção erétil e perda de audição",
-    "text": "Medicamentos para disfunção erétil e perda de audição\nOs autores descrevem o caso de um paciente que desenvolveu perda auditiva neurossensorial súbita unilateral possivelmente relacionada ao uso de vardenafil para disfunção erétil. Este caso fornece mais evidências de que o consumo de inibidores da PDE-5 deve ser considerado como uma possível causa em pacientes que apresentam perda auditiva neurossensorial súbita.\nSnodgrass et al. (2010)"
-  },
-  {
-    "objectID": "aulas/Conceitos básicos/index.html#references",
-    "href": "aulas/Conceitos básicos/index.html#references",
-    "title": "Conceitos básicos",
-    "section": "References",
-    "text": "References\n\n\nKaripidis, Ken, Dan Baaken, Tom Loney, Maria Blettner, Chris Brzozek, Mark Elwood, Clement Narh, et al. 2024. “The Effect of Exposure to Radiofrequency Fields on Cancer Risk in the General and Working Population: A Systematic Review of Human Observational Studies – Part i: Most Researched Outcomes.” Environment International 191: 108983. https://doi.org/https://doi.org/10.1016/j.envint.2024.108983.\n\n\nParra Soto, Solange, Danay Ahumada, Fanny Petermann-Rocha, Jirapitcha Boonpor, Jose Gallegos, Jana Anderson, Linda Sharp, et al. 2022. “Association of Meat, Vegetarian, Pescatarian and Fish-Poultry Diets with Risk of 19 Cancer Sites and All Cancer: Findings from the UK Biobank Prospective Cohort Study and Meta-Analysis.” BMC Medicine 20 (February). https://doi.org/10.1186/s12916-022-02257-9.\n\n\nSnodgrass, Amanda J., Heather M. Campbell, David L. Mace, Victoria L. Faria, Kathleen M. Swanson, and Mark Holodniy. 2010. “Sudden Sensorineural Hearing Loss Associated with Vardenafil.” Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy 30 (1): 112–12. https://doi.org/https://doi.org/10.1592/phco.30.1.112.\n\n\nTriola, M. F. 1999. Introducao a Estatistica. Livros Técnicos e Cientı́ficos. https://books.google.com.br/books?id=wqLqtwAACAAJ."
-  },
-  {
-    "objectID": "analises.html",
-    "href": "analises.html",
-    "title": "Análise de dados",
+    "objectID": "cronograma.html",
+    "href": "cronograma.html",
+    "title": "Cronograma da disciplina",
     "section": "",
-    "text": "Recém-nascidos",
+    "text": "Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemana\nData\nTópico\nArtigo\nSlides\nEC\nLE\nScript\nAvaliação\nProjeto\n\n\n\n\n1\nSeg, 11/11\nApresentação da disciplina\n\n\n\n\n\n\n\n\n\n\nQua, 13/11\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n2\nSeg, 18/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 20/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n3\nSeg, 25/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n\nQua, 27/11\nConceitos básicos\n\n️\n\n\n\n\n\n\n\n4\nSeg, 02/12\nRelato (Série) de casos\n\n️\n\n\n\n\n\n\n\n\nQua, 04/11\nEstudos de coorte\n\n️\n\n\n\n\n\n\n\n5\nSeg, 09/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n\nQua, 11/12\nNão haverá aula! (Encontro de Saberes)\n\n\n\n\n\n\n\n\n\n6\nSeg, 16/12\nEstudos caso-controle\n\n️\n\n\n\n\n\n\n\n\nQua, 18/12\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n\n23/12 a 19/01\nRecesso Acadêmico\n\n\n\n\n\n\n\n\n\n7\nSeg, 20/01\nEstudos Transversais\n\n️\n\n\n\n\n\n\n\n\nQua, 22/01\nEstudos Ecológicos\n\n️\n\n\n\n\n\n\n\n8\nSeg, 27/01\nEnsaios clínicos aleatorizados\n\n️\n\n\n\n\n\n\n\n\nQua, 29/01\nNão haverá aula!\n\n\n\n\n\n\n\n\n\n9\nSeg, 03/02\nNão haverá aula!\n\n\n\n️\n\n\n\n\n\n\nQua, 05/02\nOutros tipos de estudos\n\n️",
     "crumbs": [
-      "Análise de dados"
+      "Cronograma da disciplina"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre",
+    "objectID": "estudos_de_casos/estudo01.html",
+    "href": "estudos_de_casos/estudo01.html",
+    "title": "Estudo de Caso: Desgaste de lentes de contato",
     "section": "",
-    "text": "Disciplina oferecida em caráter eletivo no semestre 2024/2"
+    "text": "Coles et al. (2002) abordaram a possibilidade das novas lentes de contato gelatinosas tratadas com uma solução de condicionamento oferesem um maior grau de conforto ao paciente do que lentes semelhantes sem esse tratamento. Para isso,\n\nSessenta e um usuários experientes de lentes de contato com características oculares incomuns foram recrutados no banco de dados de indivíduos da Breman Consultants e por anúncios em jornais locais. Para serem elegíveis para participar do estudo, os indivíduos tinham que ter pelo menos 18 anos de idade e estar usando lentes de contato gelatinosas com sucesso por pelo menos um mês antes do estudo. Os míopes com até -12,00 D com menos de 0,75 D de anisometropia foram incluídos.\n\nOs dados de 59 dos indivíduos, 24 homens e 35 mulheres, foram considerados apropriados para análise. A idade média desses indivíduos era de 31,5, com desvio padrão de 10,2.\nOs pacientes foram categorizados como pertencentes a um de dois grupos, aqueles que no começo do estudo responderam com um “sim” à pergunta “Você é capaz de usar suas lentes de contato pelo tempo que desejar?” e aqueles que responderam negativamente à mesma pergunta. Os pacientes nas duas categorias tiveram uma lente condicionada colocada em um olho escolhido aleatoriamente e uma lente não condicionada colocada no outro olho. A ordem de inserção, isto é, lente condicionada primeiro ou lente não condicionada primeiro, também foi aleatória. Os pacientes não puderam saber qual das lentes era condicionada.\nAs lentes foram inseridas durante uma visita na parte da manhã ao local da pesquisa. Depois da inserção, os indivíduos responderam com qual lente eles se sentiam mais confortáveis. Aproximandamente oito horas depois, os indivíduos retornaram para uma visita à tarde, quando foram novamente questionados sobre a lente mais confortável. Os pacientes não poderiam indicar “nenhuma diferença”, de modo que foram exigidas designações de escolha forçada. Os resultados para essa parte do estudo são dados na Tabela abaixo.\n\n\n\n\n\n\n\n\nNão\n\n\nSim\n\n\n\n\nLente tratada\n\n\nLente não tratada\n\n\nLente tratada\n\n\nLente não tratada\n\n\n\n\n\n\nManhã\n\n\n10\n\n\n2\n\n\n23\n\n\n24\n\n\n\n\nTarde\n\n\n7\n\n\n5\n\n\n26\n\n\n21\n\n\n\n\n\nNa tabela, “não” significa não para a pergunta de duração, “sim” significa sim para a pergunta de duração, “lente tratada” significa que o indivíduo escolheu a lente tratada com solução de condicionamento, “lente não tratada” significa que o indivíduo escolheu a lente sem solução de condicionamento, “manhã” significa que a avaliação foi feita durante a visita da manhã, e “tarde” significa que a avaliação foi feita durante a visita da tarde.\nAlém desses dados, diversas variáveis de saúde ocular foram avaliadas para cada olho em cada visita. Essas medições constituem uma escala contínua.\n\nQuestões\nBaseado nesse estudo de caso, responda as seguintes questões:\n\nIdentifique a amostra nesse estudo.\nA população nesse estudo é bem identificada? Justifique sua resposta.\nDescreva a população da melhor forma possível.\nPodemos encontrar uma estatística descritiva nesse estudo? Se sim, dê exemplos.\nPodemos encontrar um parâmetro nesse estudo? Se sim, dê exemplos; se não, explique o motivo.\nPodemos encontrar algum dado nesse estudo? Se sim, dê exemplos.\n\n\n\n\n\n\nReferências\n\nColes, Chantal, Noel Brennan, Vicki Shuley, Jill Woods, Melissa Hall, Brennan Consultants, Joe Vehige, e Peter Simmons. 2002. «THE INFLUENCE OF LENS CONDITIONING ON SIGNS AND SYMPTOMS WITH NEW HYDROGEL LENSES.» Optometry and Vision Science 79 (dezembro): 138. https://doi.org/10.1097/00006324-200212001-00263."
   },
   {
-    "objectID": "analise_dados/recem_nascidos.html",
-    "href": "analise_dados/recem_nascidos.html",
-    "title": "Análise de dados: Recém-nascidos prematuros",
+    "objectID": "estudos_de_casos/estudo03.html",
+    "href": "estudos_de_casos/estudo03.html",
+    "title": "Estudo de Caso: Ensaio clínico sobre a eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores",
     "section": "",
-    "text": "Considere o conjunto de dados referente a um estudo sobre recém-nascidos prematuros de baixo peso. Os dados de cada recém-nascido estão dispostos em uma linha e cada coluna corresponde à informação de uma variável específica."
-  },
-  {
-    "objectID": "analise_dados/recem_nascidos.html#objetivos",
-    "href": "analise_dados/recem_nascidos.html#objetivos",
-    "title": "Análise de dados: Recém-nascidos prematuros",
-    "section": "Objetivos",
-    "text": "Objetivos\n\nExplorar os dados sobre recém-nascidos prematuros.\n\nFonte dos dados:\n\nhttps://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv"
-  },
-  {
-    "objectID": "analise_dados/recem_nascidos.html#preparação",
-    "href": "analise_dados/recem_nascidos.html#preparação",
-    "title": "Análise de dados: Recém-nascidos prematuros",
-    "section": "Preparação",
-    "text": "Preparação\n\nCarregando os pacotes R\n\npacman::p_load(\n  rio,          # importa arquivos\n  here,         # localiza arquivos\n  skimr,        # gera visualização dos dados\n  tidyverse,    # gestão dos dados + gráficos no ggplot2 \n  gtsummary,    # resumo estatísticos e testes\n  rstatix,      # resumo e testes estatísticos\n  janitor,      # adiciona números absolutos e porcentagens às tabelas\n  scales,       # facilmente converte proporções para porcentagens\n  flextable,    # converte tabelas para o formato de imagens\n  descriptr     # construir tabela de distribuição de frequência em classes\n1  )\n\n\n1\n\nA função p_load(), do pacote pacman, instala os pacotes, caso não estejam instalados, e os carrega no R para utilização."
-  },
-  {
-    "objectID": "analise_dados/recem_nascidos.html#carregando-os-dados",
-    "href": "analise_dados/recem_nascidos.html#carregando-os-dados",
-    "title": "Análise de dados: Recém-nascidos prematuros",
-    "section": "Carregando os dados",
-    "text": "Carregando os dados\n\n1dados_brutos = rio::import(\"https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/recem_nascidos.csv\")\n\n\n1\n\nUso da função import() do pacote rio para importar um conjunto de dados fornecendo o caminho para o arquivo (incluindo o nome do arquivo e a extensão do arquivo) entre aspas. Após a importação, os dados são armazenados na variável dados_brutos"
-  },
-  {
-    "objectID": "analise_dados/recem_nascidos.html#conhecendo-a-base-de-dados",
-    "href": "analise_dados/recem_nascidos.html#conhecendo-a-base-de-dados",
-    "title": "Análise de dados: Recém-nascidos prematuros",
-    "section": "Conhecendo a base de dados",
-    "text": "Conhecendo a base de dados\n\nO que cada linha significa?\nQuais são as variáveis presentes na base de dados?\nQual é o tipo de cada variável? É o esperado? \n\n\ndados_brutos %&gt;% \n1  glimpse()\n\n\n1\n\nA função glimpse() é usada para visualizar um resumo da estrutura do conjunto de dados. Ela mostra o número de observações e variáveis, além de listar as variáveis presentes e seus tipos.\n\n\n\n\nRows: 48\nColumns: 9\n$ registro          &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…\n$ pre_natal         &lt;chr&gt; \"N\", \"S\", \"N\", \"N\", \"N\", \"S\", \"N\", \"S\", \"N\", \"N\", \"N…\n$ n_consultas       &lt;int&gt; 0, 5, 0, 0, 0, 2, 0, 4, 0, 0, 0, 4, 0, 5, 1, 5, 4, 3…\n$ sexo              &lt;chr&gt; \"F\", \"M\", \"F\", \"F\", \"M\", \"F\", \"F\", \"M\", \"F\", \"M\", \"F…\n$ peso              &lt;int&gt; 750, 650, 650, 750, 800, 600, 940, 940, 900, 600, 61…\n$ comprimento       &lt;int&gt; 31, 32, 33, 33, 33, 34, 34, 34, 34, 28, 31, 31, 32, …\n$ idade_gestacional &lt;int&gt; 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, …\n$ tempo_permanencia &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 3, 4, 5, 5, 15, 75,…\n$ desfecho          &lt;chr&gt; \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O\", \"O…"
-  },
-  {
-    "objectID": "analise_dados/recem_nascidos.html#explore-seus-dados",
-    "href": "analise_dados/recem_nascidos.html#explore-seus-dados",
-    "title": "Análise de dados: Recém-nascidos prematuros",
-    "section": "Explore seus dados",
-    "text": "Explore seus dados"
-  },
-  {
-    "objectID": "analise_dados/recem_nascidos.html#obtenha-informações-sobre-cada-variável-no-banco-de-dados",
-    "href": "analise_dados/recem_nascidos.html#obtenha-informações-sobre-cada-variável-no-banco-de-dados",
-    "title": "Análise de dados: Recém-nascidos prematuros",
-    "section": "Obtenha informações sobre cada variável no banco de dados",
-    "text": "Obtenha informações sobre cada variável no banco de dados\n\ndados_brutos %&gt;% \n  select(-c(registro)) %&gt;% \n  skim()\n\n\nData summary\n\n\nName\nPiped data\n\n\nNumber of rows\n48\n\n\nNumber of columns\n8\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n3\n\n\nnumeric\n5\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\npre_natal\n0\n1\n1\n1\n0\n2\n0\n\n\nsexo\n0\n1\n1\n1\n0\n2\n0\n\n\ndesfecho\n0\n1\n1\n1\n0\n2\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nn_consultas\n0\n1\n2.00\n2.16\n0\n0\n1.5\n4.00\n8\n▇▃▂▂▁\n\n\npeso\n0\n1\n782.92\n160.72\n100\n690\n800.0\n900.00\n980\n▁▁▂▆▇\n\n\ncomprimento\n0\n1\n32.92\n3.25\n26\n32\n33.0\n34.00\n49\n▂▇▁▁▁\n\n\nidade_gestacional\n0\n1\n29.42\n1.41\n28\n28\n29.0\n30.00\n33\n▇▂▂▁▁\n\n\ntempo_permanencia\n0\n1\n17.10\n28.69\n1\n1\n3.0\n8.25\n111\n▇▁▁▁▁\n\n\n\n\n\n\nResumos estatísticos\n\ndados_brutos %&gt;% \n  select(-c(registro)) %&gt;% \n  get_summary_stats(type = \"common\")                    # tipo do resumo estatístico a ser gerado\n\n# A tibble: 5 × 10\n  variable              n   min   max median    iqr  mean     sd     se     ci\n  &lt;fct&gt;             &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n1 n_consultas          48     0     8    1.5   4      2     2.16  0.312  0.628\n2 peso                 48   100   980  800   210    783.  161.   23.2   46.7  \n3 comprimento          48    26    49   33     2     32.9   3.25  0.47   0.945\n4 idade_gestacional    48    28    33   29     2     29.4   1.41  0.204  0.41 \n5 tempo_permanencia    48     1   111    3     7.25  17.1  28.7   4.14   8.33 \n\n\n\n\nQuais são os desfechos presentes na base de dados?\n\ndados_brutos  %&gt;%  \n1  distinct(desfecho)\n\n\n1\n\nA função distinct() é usada para retornar apenas os valores únicos de uma variável (ou conjunto de variáveis).\n\n\n\n\n  desfecho\n1        O\n2        V\n\n\n\n\nDistribuição de frequências da variável sexo\n\ndados_brutos %&gt;%               # fonte dos dados\n  tabyl(sexo) %&gt;%              # tabula números absolutos e proporções por sexo\n  adorn_pct_formatting() %&gt;%   # converte as proporções para porcentagens\n  adorn_totals(where = \"row\")  # adiciona uma linha chamada 'Total', com os totais\n\n  sexo  n percent\n     F 29   60.4%\n     M 19   39.6%\n Total 48       -\n\n\n\n\nDistribuição de frequências da variável número de consultas\n\ndados_brutos %&gt;% group_by(n_consultas) %&gt;%\n  summarise(fa = n()) %&gt;%\n  mutate(fr = fa / sum(fa),\n         Fr = fr * 100) %&gt;% \n1  adorn_totals(where = 'row')\n\n\n1\n\nPodemos utilizar as funções adorn_*(), do pacote janitor, em outras tabelas criadas por outras funções.\n\n\n\n\n n_consultas fa         fr         Fr\n           0 21 0.43750000  43.750000\n           1  3 0.06250000   6.250000\n           2  4 0.08333333   8.333333\n           3  6 0.12500000  12.500000\n           4  8 0.16666667  16.666667\n           5  3 0.06250000   6.250000\n           6  2 0.04166667   4.166667\n           8  1 0.02083333   2.083333\n       Total 48 1.00000000 100.000000\n\n\n\n\nDistribuição de frequências da variável peso\n\ndados_brutos %&gt;% \n  ds_freq_table(peso,7)  \n\n                                         Variable: peso                                           \n|-----------------------------------------------------------------------------------------------|\n|                Bins                 | Frequency | Cum Frequency |   Percent    | Cum Percent  |\n|-----------------------------------------------------------------------------------------------|\n|       100        -      225.7       |     1     |       1       |     2.08     |     2.08     |\n|-----------------------------------------------------------------------------------------------|\n|      225.7       -      351.4       |     0     |       1       |      0       |     2.08     |\n|-----------------------------------------------------------------------------------------------|\n|      351.4       -      477.1       |     0     |       1       |      0       |     2.08     |\n|-----------------------------------------------------------------------------------------------|\n|      477.1       -      602.9       |     5     |       6       |    10.42     |     12.5     |\n|-----------------------------------------------------------------------------------------------|\n|      602.9       -      728.6       |     8     |      14       |    16.67     |    29.17     |\n|-----------------------------------------------------------------------------------------------|\n|      728.6       -      854.3       |    13     |      27       |    27.08     |    56.25     |\n|-----------------------------------------------------------------------------------------------|\n|      854.3       -       980        |    21     |      48       |    43.75     |     100      |\n|-----------------------------------------------------------------------------------------------|\n|                Total                |    48     |       -       |    100.00    |      -       |\n|-----------------------------------------------------------------------------------------------|\n\n\nou, de forma alternativa,\n\ndados_brutos %&gt;% \n  mutate(classes = cut(peso ,breaks = 7)) %&gt;% \n  group_by(classes) %&gt;% \n  summarise(fa = n()) %&gt;% \n  complete(classes, fill = list(fa = 0)) %&gt;% \n  mutate(fr = fa / sum(fa),\n         Fr = fr * 100) %&gt;% \n  adorn_totals(where = 'row')\n\n    classes fa         fr         Fr\n (99.1,226]  1 0.02083333   2.083333\n  (226,351]  0 0.00000000   0.000000\n  (351,477]  0 0.00000000   0.000000\n  (477,603]  5 0.10416667  10.416667\n  (603,729]  8 0.16666667  16.666667\n  (729,854] 13 0.27083333  27.083333\n  (854,981] 21 0.43750000  43.750000\n      Total 48 1.00000000 100.000000\n\n\n\n\nFaixa de peso proporcional por desfecho\n\ndados_brutos %&gt;%\n  mutate(classes = cut(peso ,breaks = 7)) %&gt;% \n  group_by(desfecho) %&gt;% \n  count(classes) %&gt;% \n  complete(classes, fill = list(n = 0)) %&gt;%  \n  mutate(porcentagem = scales::percent(n / sum(n)))\n\n# A tibble: 14 × 4\n# Groups:   desfecho [2]\n   desfecho classes        n porcentagem\n   &lt;chr&gt;    &lt;fct&gt;      &lt;int&gt; &lt;chr&gt;      \n 1 O        (99.1,226]     0 0.0%       \n 2 O        (226,351]      0 0.0%       \n 3 O        (351,477]      0 0.0%       \n 4 O        (477,603]      5 13.2%      \n 5 O        (603,729]      8 21.1%      \n 6 O        (729,854]     11 28.9%      \n 7 O        (854,981]     14 36.8%      \n 8 V        (99.1,226]     1 10%        \n 9 V        (226,351]      0 0%         \n10 V        (351,477]      0 0%         \n11 V        (477,603]      0 0%         \n12 V        (603,729]      0 0%         \n13 V        (729,854]      2 20%        \n14 V        (854,981]      7 70%        \n\n\n\n\nVisualizando graficamente\n\ndados_brutos %&gt;%\n  mutate(classes = cut(peso ,breaks = 7)) %&gt;% \n  group_by(desfecho) %&gt;% \n  count(classes) %&gt;% \n  complete(classes, fill = list(n = 0)) %&gt;%     # agrupe e tabule as contagens utilizando duas variáveis\n  ggplot()+                       # utilize a tabulação gerada no ggplot\n    geom_col(                     # crie um gráfico de barras\n      mapping = aes(   \n        x = desfecho,              # mapeie o grupo desfecho para o eixo x\n        fill = classes,           # mapeie o grupo classes para o fill\n        y = n))                   # mapeie as contagens (coluna 'n') para o eixo y\n\n\n\n\n\n\n\n\n\n\nCalculando os percentis da variavel peso por desfecho\n\ndados_brutos %&gt;% \n  group_by(desfecho) %&gt;% \n  rstatix::get_summary_stats(peso, type = \"quantile\")\n\n# A tibble: 2 × 8\n  desfecho variable     n  `0%` `25%` `50%` `75%` `100%`\n  &lt;chr&gt;    &lt;fct&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;\n1 O        peso        38   550  652.   785  900     980\n2 V        peso        10   100  830    865  928.    970\n\n\n\n\nResumo dos dados agregados\n\ndados_brutos %&gt;% \n  select(-c(registro)) %&gt;% \n  group_by(desfecho) %&gt;% \n  summarise(across(\n    .cols = where(is.numeric),  # all numeric columns in the data frame\n    .fns = mean,\n    na.rm=T))\n\n# A tibble: 2 × 6\n  desfecho n_consultas  peso comprimento idade_gestacional tempo_permanencia\n  &lt;chr&gt;          &lt;dbl&gt; &lt;dbl&gt;       &lt;dbl&gt;             &lt;dbl&gt;             &lt;dbl&gt;\n1 O               1.61  776.        32.7              29.0              4.18\n2 V               3.5   808         33.9              30.9             66.2 \n\n\n\n\nTabela de contingência das variáveis pre_natal e desfecho\n\ndados_brutos %&gt;% \n  tabyl(pre_natal, desfecho)%&gt;% \n  adorn_totals(where = 'both')\n\n pre_natal  O  V Total\n         N 19  2    21\n         S 19  8    27\n     Total 38 10    48\n\n\n\n\nVisualizando graficamente\n\ndados_brutos %&gt;% \n  group_by(pre_natal, desfecho) %&gt;% \n  summarise(n = n()) %&gt;% \n  ggplot(aes(x = desfecho, y = n, fill = pre_natal)) +\n  geom_col(position = \"dodge\")\n\n\n\n\n\n\n\n\n\n\nFazer consultas pré natal está associado ao desfecho?\n\ndados_brutos %&gt;% \n  tabyl(pre_natal, desfecho) %&gt;% \n  chisq.test()\n\n\n    Pearson's Chi-squared test with Yates' continuity correction\n\ndata:  .\nX-squared = 1.8045, df = 1, p-value = 0.1792\n\n\n\n\nRelação entre peso e comprimento dos recém-nascidos\n\ndados_brutos %&gt;% \n  ggplot(aes(x = comprimento,\n             y = peso)) +\n  geom_point()+\n  labs(title=\"Relação entre peso e comprimento dos recém-nascidos\",\n       x = \"Comprimento (cm)\",\n       y = \"Peso (g)\")\n\n\n\n\n\n\n\n\n\n\nDistribuição de pesos segundo sexo dos recém-nascidos\n\ndados_brutos %&gt;% \n  ggplot(aes(x = sexo,\n             y = peso)) +\n  geom_boxplot()+\n  labs(title=\"Distribuição de pesos segundo sexo dos recém-nascidos\",\n       x = \"Sexo\",\n       y = \"Peso (g)\")"
-  },
-  {
-    "objectID": "aulas.html",
-    "href": "aulas.html",
-    "title": "Aulas",
-    "section": "",
-    "text": "Conceitos básicos\nPlanejamento na área de saúde\nMedidas de acurácia e testes diagnósticos\nModelos Logístico e Riscos Proporcionais (Cox)",
-    "crumbs": [
-      "Aulas"
-    ]
-  },
-  {
-    "objectID": "estudos.html",
-    "href": "estudos.html",
-    "title": "Estudos de Caso",
-    "section": "",
-    "text": "Estudo de Caso 01: Desgaste de lentes de contato\nEstudo de Caso 02: Correlação entre volume cerebral e desempenho neurocognitivo em paciente infectados por HIV",
-    "crumbs": [
-      "Estudos de Caso"
-    ]
-  },
-  {
-    "objectID": "estudos_de_casos/estudo02.html",
-    "href": "estudos_de_casos/estudo02.html",
-    "title": "Estudo de Caso: Correlação entre volume cerebral e desempenho neurocognitivo em paciente infectados por HIV",
-    "section": "",
-    "text": "Patel et al. (2002) realizaram um estudo cuja intenção era determinar se a função neuropsicológica nas pessoas infectadas com HIV estaria correlacionada à perda de volume cerebral. O desempenho neuropsicológico foi acessado pela aplicação de uma bateria de teste de funcionamento neuropsicológico (NPZ-8), enquanto o volume cerebral foi medido como porcentagem de volume parenquimatoso do cérebro, obtido pela imagem de ressonância magnética (MRI). Os pesquisadores formularam uma hipótese de que existe uma relação entre essas duas medidas antes mesmo que a disfunção clínica visível seja evidente.\nA Tabela abaixo mostra medidas de volume parenquimatoso do cérebro (PBV), função neuropsicológica (NPZ-8), status de HIV (positivo ou negativo), se o paciente foi diagnosticado ou não como manifestando o estágio do complexo de demência da AIDS (ADC) e o status do sistema imunológico (CD4) para os indivíduos envolvidos no estudo. Valores mais baixos de PBV indicam menor volume cerebral, enquanto escores mais baixos de NPZ-8 indicam melhor função neuropsicológica. Um valor ADC positivo indica que foi feito um diagnóstico de demência da AIDS. Para pacientes com AIDS, contagens de CD4 mais altas estão associadas ao melhor funcionamento do sistema imunológico.\n\n\n\n\n\n\nIndivíduo\n\n\nPBV\n\n\nNPZ-8\n\n\nHIV\n\n\nADC\n\n\nCD4\n\n\n\n\n\n\n1\n\n\n0,791\n\n\n12\n\n\n+\n\n\n+\n\n\n16\n\n\n\n\n2\n\n\n0,782\n\n\n5\n\n\n+\n\n\n+\n\n\n324\n\n\n\n\n3\n\n\n0,646\n\n\n3\n\n\n+\n\n\n+\n\n\n256\n\n\n\n\n4\n\n\n0,740\n\n\n5\n\n\n+\n\n\n+\n\n\n563\n\n\n\n\n5\n\n\n0,804\n\n\n2\n\n\n+\n\n\n+\n\n\n321\n\n\n\n\n6\n\n\n0,858\n\n\n6\n\n\n+\n\n\n+\n\n\n190\n\n\n\n\n7\n\n\n0,729\n\n\n8\n\n\n+\n\n\n+\n\n\n818\n\n\n\n\n8\n\n\n0,803\n\n\n0\n\n\n+\n\n\n-\n\n\n355\n\n\n\n\n9\n\n\n0,831\n\n\n3\n\n\n+\n\n\n-\n\n\n465\n\n\n\n\n10\n\n\n0,826\n\n\n0\n\n\n+\n\n\n-\n\n\n519\n\n\n\n\n11\n\n\n0,786\n\n\n0\n\n\n+\n\n\n-\n\n\n87\n\n\n\n\n12\n\n\n0,882\n\n\n7\n\n\n+\n\n\n-\n\n\n108\n\n\n\n\n13\n\n\n0,889\n\n\n3\n\n\n+\n\n\n-\n\n\n190\n\n\n\n\n14\n\n\n0,917\n\n\n0\n\n\n+\n\n\n-\n\n\n573\n\n\n\n\n15\n\n\n0,885\n\n\n0\n\n\n+\n\n\n-\n\n\n1032\n\n\n\n\n16\n\n\n0,886\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n17\n\n\n0,883\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n18\n\n\n0,851\n\n\n1\n\n\n-\n\n\n\n\n\n\n\n\n19\n\n\n0,897\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n20\n\n\n0,901\n\n\n0\n\n\n-\n\n\n\n\n\n\n\n\n\n\nQuestões\nBaseado nesse estudo de caso, responda as seguintes questões:\n\nConstrua uma distribuição de frequências para o escores NPZ-8.\nConstrua um histograma de frequência relativa e um polígono de frequências relativa para os escores NPZ-8.\nCalcule a média, mediana e moda para os dados NPZ-8.\nCalcule a média, mediana e moda para os dados PBV.\nCalcule a variância e o desvio-padrão para os dados NPZ-8.\nEncontre os quartis dos dados NPZ-8.\nObserve o histograma e o polígono de frequências da variável NPZ-8 constuídos no exercício 2. Pela sua compreensão, você caracteriza essa distribuição simétrica ou assimétrica (positiva ou negativa)?\nCalcule a assimetria para os dados NPZ-8. Esse cálculo confirma sua observação feita no exercício anterior?\nCalcule a assimetria para os dados NPZ-8 usando apenas dados dos 15 indivíduos infectados. A inclusão dos cinco indivíduos saudáveis no conjunto de dados aumenta de forma marcante a assimetria, em sua opinião?\n\n\n\n\n\n\nReferências\n\nPatel, Sohil, Dennis Kolson, Guila Glosser, Isabel Matozzo, Yulin Ge, James Babb, Lois Mannon, e Robert Grossman. 2002. «Correlation between Percentage of Brain Parenchymal Volume and Neurocognitive Performance in HIV-Infected Patients». AJNR. American journal of neuroradiology 23 (abril): 543–49."
+    "text": "A tianeptina é um fármaco antidepressivo do grupo dos tricíclicos. Sua ação antidepressiva potencial foi demonstrada em estudos pré-clínicos com testes em animais. ROCHA (1995) relata os resultados de um ensaio clínico aleatorizado controlado, multicêntrico e duplo-cego, realizado com o objetivo de estudar a eficácia e a tolerabilidade da tianeptina. Participaram desse ensaio pacientes de Belo Horizonte, Rio de Janeiro e Campinas.\nForam selecionados pacientes com episódios depressivos maiores de intensidade moderada ou grave, que procuraram espontaneamente o ambulatório ou que foram encaminhados por profissionais da área de saúde, psiquiatras ou não. Na casuística havia pacientes de ambos os sexos, com idades entre 18 e 60 anos e que assinaram o termo de consentimento livre e esclarecido para participação no estudo. Os pacientes tinham indicação para tratamento antidepressivo farmacológico e foram alocados aleatoriamente no grupo tratamento (que recebeu a tianeptina) ou no grupo controle (que recebeu o placebo). Mais detalhes sobre os critérios de inclusão e exclusão e da metodologia da pesquisa podem ser encontrados em ROCHA (1995).\nA depressão foi quantificada por meio da escala de depressão de Montgomery e Asberg (abreviado por MADRS)(Montgomery e Åsberg (1979)), composta dos seguintes itens:\na) Tristeza aparente;\nb) Tristeza expressa;\nc) Tensão interna;\nd) Redução do sono;\ne) Redução do apetite;\nf) Dificuldades de concentração;\ng) Lassidão;\nh) Incapacidade para ressentir;\ni) Pensamentos pessimistas;\nj) Ideias de suicídio.\nA pontuação de cada item varia de zero a seis e, portanto, o escore total varia de zero a 60, sendo que valores mais altos indicam mais gravidade da depressão. A classificação da escala é a seguinte:\n\nausência de depressão (0 a 6);\ndepressão leve (7 a 19);\ndepressão moderada (20 a 34);\ndepressão grave (35 a 60).\n\nO escore foi obtido para cada paciente 7, 14, 21, 28 e 42 dias após o início do ensaio. Os resultados completos de toda a análise estatística para todos os pacientes dos três centros podem ser encontrados em ROCHA (1995). São apresentados aqui alguns resultados de pacientes de Belo Horizonte.\nPelo planejamento adotado, os dois grupos (tianeptina e placebo) não diferiram em termos de depressão no início do ensaio. Assim, evidência sobre o efeito da tianeptina é obtida comparando-se os dois grupos ao fim de 42 dias. A tabela abaixo apresenta os escores finais dos pacientes dos dois grupos admitidos em Belo Horizonte.\n\n\n\n\n\nPlacebo\n\n\nTianeptina\n\n\n\n\n\n\n6\n\n\n10\n\n\n\n\n33\n\n\n8\n\n\n\n\n21\n\n\n17\n\n\n\n\n26\n\n\n4\n\n\n\n\n10\n\n\n17\n\n\n\n\n29\n\n\n14\n\n\n\n\n33\n\n\n9\n\n\n\n\n29\n\n\n4\n\n\n\n\n37\n\n\n21\n\n\n\n\n15\n\n\n3\n\n\n\n\n2\n\n\n7\n\n\n\n\n21\n\n\n10\n\n\n\n\n7\n\n\n29\n\n\n\n\n26\n\n\n13\n\n\n\n\n13\n\n\n14\n\n\n\n\n\n\n2\n\n\n\n\n\nQuestões\nBaseado nesse estudo de caso, responda as seguintes questões:\n\nO que podemos concluir a respeito da eficácia da tianeptina no tratamento de episódios depressivos maiores?\nFoi verificado também se houve diminuição so escore de depressão entre os pacientes de um dos grupos durante o desenvolvimento do estudo. A tabela abaixo mostra os escores dos pacientes do grupo tianeptina que foram admitidos em Belo Horizonte no primeiro dia (\\(x_1\\)) e no último dia (\\(x_{42}\\)).\n\n\n\n\n\n\nNº\n\n\n\\(x_1\\)\n\n\n\\(x_{42}\\)\n\n\n\n\n\n\n1\n\n\n24\n\n\n10\n\n\n\n\n2\n\n\n46\n\n\n8\n\n\n\n\n3\n\n\n26\n\n\n17\n\n\n\n\n4\n\n\n44\n\n\n4\n\n\n\n\n5\n\n\n27\n\n\n17\n\n\n\n\n6\n\n\n34\n\n\n14\n\n\n\n\n7\n\n\n33\n\n\n9\n\n\n\n\n8\n\n\n24\n\n\n4\n\n\n\n\n9\n\n\n16\n\n\n21\n\n\n\n\n10\n\n\n30\n\n\n3\n\n\n\n\n11\n\n\n38\n\n\n7\n\n\n\n\n12\n\n\n8\n\n\n10\n\n\n\n\n13\n\n\n24\n\n\n29\n\n\n\n\n14\n\n\n27\n\n\n13\n\n\n\n\n15\n\n\n34\n\n\n14\n\n\n\n\n16\n\n\n14\n\n\n2\n\n\n\n\nO que podemos afirmar a respeito dos níveis de depressão para pacientes que fizeram uso de tianeptina?\n\n\n\n\n\nReferências\n\nMontgomery, Stuart A., e Marie Åsberg. 1979. «A New Depression Scale Designed to be Sensitive to Change». British Journal of Psychiatry 134 (4): 382–89. https://doi.org/10.1192/bjp.134.4.382.\n\n\nROCHA, Fábio Lopes. 1995. «Eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores : estudo multicêntrico, duplo-cego, controlado com placebo». Dissertação (mestrado), Universidade Federal de Minas Gerais, Departamento de Medicina Preventiva e Social."
   },
   {
     "objectID": "exercicios.html",
