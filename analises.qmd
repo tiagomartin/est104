@@ -1,6 +1,7 @@
 ---
 title: "Análise de dados"
-editor: visual
 ---
 
 -   [Recém-nascidos](analise_dados/recem_nascidos.html "Script análise de dados"){aria-label="Script análise de dados"}
+
+-   [Eficácia da vitamina C](analise_dados/vitamina_C.html "Script análise de dados"){aria-label="Script análise de dados"}

@@ -6,19 +6,20 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-fe43d0015be6fd5bd60fe62033074fe8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.7">
-<title>EST104 - Estatística Aplicada à Saúde – Conceitos básicos</title>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-<link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
-<link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
-<style>
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.57">
+
+  <title>EST104 - Estatística Aplicada à Saúde – Conceitos básicos</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -51,12 +52,210 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-<link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-d93bc018bdf99669d7d438d50ccc6206.css">
-<link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-<link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-<link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-<link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
-<style type="text/css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
       overflow: auto;
@@ -143,8 +342,10 @@
       margin-right: 0; 
     }
   </style>
-<link href="../../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
-<script src="../../site_libs/countdown-0.4.0/countdown.js"></script>
+  <link href="../../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
+
+  <script src="../../site_libs/countdown-0.4.0/countdown.js"></script>
+
 <meta property="og:title" content="Conceitos básicos – EST104 - Estatística Aplicada à Saúde">
 <meta property="og:site_name" content="EST104 - Estatística Aplicada à Saúde">
 </head>
@@ -152,17 +353,22 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../../images/back.jpeg" data-background-opacity="0.3" data-background-size="cover" class="quarto-title-block center"><h1 class="title">Conceitos básicos</h1>
+<section id="title-slide" data-background-image="../../images/back.jpeg" data-background-opacity="0.3" data-background-size="cover" class="quarto-title-block center">
+  <h1 class="title">Conceitos básicos</h1>
 
 <div class="quarto-title-authors">
 </div>
 
-</section><section id="estatística" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Estatística</h2>
+</section>
+<section id="estatística" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Estatística</h2>
 <blockquote>
 <p>É a ciência que oferece uma coleção de métodos para produzir e obter dados, organizá-los, resumi-los, analisá-los, interpretá-los e deles extrair conhecimento.</p>
 </blockquote>
 <p><span class="citation" data-cites="triola1999">Triola (<a href="#/references" role="doc-biblioref" onclick="">1999</a>)</span></p>
-</section><section id="estatística-1" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Estatística</h2>
+</section>
+<section id="estatística-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Estatística</h2>
 <p>Métodos estatísticos são essenciais no estudo de situações em que as variáveis de interesse estão sujeitas a flutuações aleatórias.</p>
 <div class="fragment">
 <p>Este é o caso de estudos na área da saúde.</p>
@@ -172,103 +378,135 @@
 <li>Por exemplo, pressão arterial
 <ul>
 <li>varia não só entre indivíduos, como também no mesmo indivíduo.</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 </div>
-</section><section id="bioestatística" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Bioestatística</h2>
+</section>
+<section id="bioestatística" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Bioestatística</h2>
 <p>Convencionou-se chamar de <strong>Bioestatística</strong> o conjunto de métodos estatísticos usados para o planejamento e análise de dados de estudos de <strong>ciências médicas</strong>, <strong>biológicas</strong> ou, de forma mais geral, da <strong>área de saúde</strong>.</p>
-</section><section id="áreas-da-estatística" class="slide level2"><h2>Áreas da Estatística</h2>
+</section>
+<section id="áreas-da-estatística" class="slide level2">
+<h2>Áreas da Estatística</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><a href="../..\images/areas.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="../..\images/areas.png" class="quarto-figure quarto-figure-center"></a></p>
+<figure>
+<p><a href="../..\images/areas.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="../..\images/areas.png" class="quarto-figure quarto-figure-center"></a></p>
 </figure>
 </div>
-</section><section id="população-e-amostra" class="slide level2"><h2>População e Amostra</h2>
+</section>
+<section id="população-e-amostra" class="slide level2">
+<h2>População e Amostra</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><a href="../..\images/amostragem.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="../..\images/amostragem.png" class="quarto-figure quarto-figure-center"></a></p>
+<figure>
+<p><a href="../..\images/amostragem.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="../..\images/amostragem.png" class="quarto-figure quarto-figure-center"></a></p>
 </figure>
 </div>
-</section><section id="população-e-amostra-1" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">População e Amostra</h2>
+</section>
+<section id="população-e-amostra-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">População e Amostra</h2>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><a href="../..\images/amostragem2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="../..\images/amostragem2.png" class="quarto-figure quarto-figure-center"></a></p>
+<figure>
+<p><a href="../..\images/amostragem2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="../..\images/amostragem2.png" class="quarto-figure quarto-figure-center"></a></p>
 </figure>
 </div>
-</section><section id="variável" class="slide level2"><h2>Variável</h2>
+</section>
+<section id="variável" class="slide level2">
+<h2>Variável</h2>
 <p>Característica de interesse a ser analisada.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><a href="../..\images/tiposVar.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="../..\images/tiposVar.png" class="quarto-figure quarto-figure-center"></a></p>
+<figure>
+<p><a href="../..\images/tiposVar.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="../..\images/tiposVar.png" class="quarto-figure quarto-figure-center"></a></p>
 </figure>
 </div>
-</section><section id="variável-1" class="slide level2"><h2>Variável</h2>
+</section>
+<section id="variável-1" class="slide level2">
+<h2>Variável</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><a href="../..\images/tiposVar2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="../..\images/tiposVar2.png" class="quarto-figure quarto-figure-center"></a></p>
+<figure>
+<p><a href="../..\images/tiposVar2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="../..\images/tiposVar2.png" class="quarto-figure quarto-figure-center"></a></p>
 </figure>
 </div>
-</section><section id="desfechos-de-saúde" class="slide level2"><h2>Desfechos de saúde</h2>
+</section>
+<section id="desfechos-de-saúde" class="slide level2">
+<h2>Desfechos de saúde</h2>
 <ul>
-<li>
-<strong>Morte:</strong> Um desfecho ruim, se for antes do tempo</li>
+<li><strong>Morte:</strong> Um desfecho ruim, se for antes do tempo</li>
 </ul>
 <div class="fragment">
 <ul>
-<li>
-<strong>Doença:</strong> Um conjunto de sintomas, sinais físicos e anormalidades laboratoriais</li>
+<li><strong>Doença:</strong> Um conjunto de sintomas, sinais físicos e anormalidades laboratoriais</li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li>
-<strong>Desconforto:</strong> Sintomas como dor, náusea, dispneia, prurido e zumbido</li>
+<li><strong>Desconforto:</strong> Sintomas como dor, náusea, dispneia, prurido e zumbido</li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li>
-<strong>Deficiência funcional:</strong> Limitação na capacidade de funcional desempenhar as atividades normais em casa, o trabalho ou no lazer</li>
+<li><strong>Deficiência funcional:</strong> Limitação na capacidade de funcional desempenhar as atividades normais em casa, o trabalho ou no lazer</li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li>
-<strong>Descontentamento:</strong> Reação emocional à doença e ao seu cuidado, como tristeza e raiva</li>
+<li><strong>Descontentamento:</strong> Reação emocional à doença e ao seu cuidado, como tristeza e raiva</li>
 </ul>
 </div>
-</section><section id="estimativa-e-parâmetro" class="slide level2"><h2>Estimativa e Parâmetro</h2>
+</section>
+<section id="estimativa-e-parâmetro" class="slide level2">
+<h2>Estimativa e Parâmetro</h2>
 <p>Parâmetros são informações extraídas da população</p>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><a href="../..\images/parametro.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="../..\images/parametro.png" class="quarto-figure quarto-figure-center"></a></p>
+<figure>
+<p><a href="../..\images/parametro.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="../..\images/parametro.png" class="quarto-figure quarto-figure-center"></a></p>
 </figure>
 </div>
-</section><section id="estimativa-e-parâmetro-1" class="slide level2"><h2>Estimativa e Parâmetro</h2>
+</section>
+<section id="estimativa-e-parâmetro-1" class="slide level2">
+<h2>Estimativa e Parâmetro</h2>
 <p>Estimativas são informações extraídas da amostra</p>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><a href="../..\images/estatistica.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="../..\images/estatistica.png" class="quarto-figure quarto-figure-center"></a></p>
+<figure>
+<p><a href="../..\images/estatistica.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="../..\images/estatistica.png" class="quarto-figure quarto-figure-center"></a></p>
 </figure>
 </div>
-</section><section id="margem-de-erro" class="slide level2"><h2>Margem de erro</h2>
+</section>
+<section id="margem-de-erro" class="slide level2">
+<h2>Margem de erro</h2>
 <p>É a diferença máxima provável entre o valor da estimativa e o verdadeiro valor do parâmetro populacional</p>
-</section><section id="margem-de-erro-1" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Margem de erro</h2>
+</section>
+<section id="margem-de-erro-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Margem de erro</h2>
 <p>É a diferença máxima provavel entre o valor da estimativa e o verdadeiro valor do parâmetro populacional</p>
 <p><span class="math display">\[ e = z_{\frac{\alpha}{2}}\dfrac{\sigma}{\sqrt{n}}\]</span></p>
-</section><section id="viés-ou-vício" class="slide level2"><h2>Viés ou Vício</h2>
+</section>
+<section id="viés-ou-vício" class="slide level2">
+<h2>Viés ou Vício</h2>
 <p>Tecnicamente, é definido como a <strong>diferença entre a estimativa e o verdadeiro valor do parâmetro</strong>.</p>
 <div class="fragment">
 <p>Na prática, é considerado como um <strong>erro sistemático</strong>, que ocorre no momento da coleta das informações sobre as variáveis de interesse.</p>
 </div>
-</section><section id="viés-ou-vício-1" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Viés ou Vício</h2>
+</section>
+<section id="viés-ou-vício-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Viés ou Vício</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><a href="../..\images/vies.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="../..\images/vies.png" class="quarto-figure quarto-figure-center"></a></p>
+<figure>
+<p><a href="../..\images/vies.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="../..\images/vies.png" class="quarto-figure quarto-figure-center"></a></p>
 </figure>
 </div>
-</section><section id="viés-de-seleção" class="slide level2"><h2>Viés de seleção</h2>
+</section>
+<section id="viés-de-seleção" class="slide level2">
+<h2>Viés de seleção</h2>
 <p>Um estudo sobre tabagismo e demência encontrou um potencial viés de seleção em idosos.</p>
 <div class="fragment">
 <p>O viés de seleção devido à censura pela morte foi uma das explicações para a menor taxa relativa de demência em fumantes com idade mais avançada.</p>
 </div>
-</section><section id="viés-de-aferição" class="slide level2"><h2>Viés de aferição</h2>
+</section>
+<section id="viés-de-aferição" class="slide level2">
+<h2>Viés de aferição</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <p><strong>Hipertensão do jaleco branco</strong></p>
@@ -276,7 +514,9 @@
 </div><div class="column" style="width:40%;">
 <p><a href="../..\images/jalecoBranco2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="../..\images/jalecoBranco2.png" data-top="140" width="450"></a></p>
 </div></div>
-</section><section id="viés-de-confusão" class="slide level2"><h2>Viés de confusão</h2>
+</section>
+<section id="viés-de-confusão" class="slide level2">
+<h2>Viés de confusão</h2>
 <div class="columns">
 <div class="column" style="font-size: 32px;">
 <p><strong>Variáveis confundidoras</strong></p>
@@ -284,7 +524,9 @@
 </div><div class="column" style="width:40%;">
 <p><a href="../..\images/confundimento1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="../..\images/confundimento1.png" data-top="140" width="650"></a></p>
 </div></div>
-</section><section id="viés-de-confusão-1" class="slide level2"><h2>Viés de confusão</h2>
+</section>
+<section id="viés-de-confusão-1" class="slide level2">
+<h2>Viés de confusão</h2>
 <div class="columns">
 <div class="column" style="font-size: 32px;">
 <p><strong>Variáveis confundidoras</strong></p>
@@ -292,165 +534,193 @@
 </div><div class="column" style="width:40%;">
 <p><a href="../..\images/confundimento2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="../..\images/confundimento2.png" data-top="140" width="650"></a></p>
 </div></div>
-</section><section id="acaso" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Acaso</h2>
+</section>
+<section id="acaso" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Acaso</h2>
 <p>As observações sobre as doenças são normalmente feitas em uma amostra de pacientes, uma vez que não é possível estudar todos os pacientes que apresentam a doença em questão.</p>
-</section><section id="acaso-1" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Acaso</h2>
+</section>
+<section id="acaso-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Acaso</h2>
 <div style="margin-top: 100px; font-size: 2em; color: #30AF9E; text-align: center;">
 <p><strong>Variação aleatória</strong></p>
 </div>
 <p>As observações sobre as doenças são normalmente feitas em uma amostra de pacientes, uma vez que não é possível estudar todos os pacientes que apresentam a doença em questão.</p>
-</section><section id="viés-e-acaso" class="slide level2"><h2>Viés e Acaso</h2>
+</section>
+<section id="viés-e-acaso" class="slide level2">
+<h2>Viés e Acaso</h2>
 
-<img data-src="../..\images/viesAcaso2.png" class="r-stretch quarto-figure quarto-figure-center"></section><section id="amostragem" class="slide level2"><h2>Amostragem</h2>
+<img data-src="../..\images/viesAcaso2.png" class="r-stretch quarto-figure quarto-figure-center"></section>
+<section id="amostragem" class="slide level2">
+<h2>Amostragem</h2>
 <p>Trata-se do precedimento para a coleta da amostra.</p>
 <div class="fragment">
 <p><br></p>
 <h3 id="por-que-amostrar">Por que amostrar?</h3>
 <ul>
-<li>
-<p><strong>Economia:</strong> Em geral é mais econômico levantar apenas uma parte da população</p>
+<li><p><strong>Economia:</strong> Em geral é mais econômico levantar apenas uma parte da população</p>
 <ul>
 <li>Censo x PNAD</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 </div>
-</section><section id="amostragem-1" class="slide level2"><h2>Amostragem</h2>
+</section>
+<section id="amostragem-1" class="slide level2">
+<h2>Amostragem</h2>
 <ul>
-<li>
-<p><strong>Tempo:</strong> Maior rapidez; por vezes, nem há tempo suficiente para observar toda a população</p>
+<li><p><strong>Tempo:</strong> Maior rapidez; por vezes, nem há tempo suficiente para observar toda a população</p>
 <ul>
 <li>A três dias das eleições, não haveria tempo para sondar toda a população</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 <div class="fragment">
 <ul>
-<li>
-<strong>Confiabilidade:</strong> Avaliando número menor de elementos, é possível dar mais atenção e cuidado a cada elemento observado.</li>
+<li><strong>Confiabilidade:</strong> Avaliando número menor de elementos, é possível dar mais atenção e cuidado a cada elemento observado.</li>
 </ul>
 </div>
-</section><section id="amostragem-2" class="slide level2"><h2>Amostragem</h2>
+</section>
+<section id="amostragem-2" class="slide level2">
+<h2>Amostragem</h2>
 <ul>
-<li>
-<strong>Detalhamento:</strong> É possível aprofundar a análise, por exemplo, avaliando mais variáveis.</li>
+<li><strong>Detalhamento:</strong> É possível aprofundar a análise, por exemplo, avaliando mais variáveis.</li>
 </ul>
 <div class="fragment">
 <ul>
-<li>
-<p><strong>Análises destrutivas:</strong> Neste caso, não faz sentido avaliar toda a população!</p>
+<li><p><strong>Análises destrutivas:</strong> Neste caso, não faz sentido avaliar toda a população!</p>
 <ul>
 <li>Por exemplo, em um lote de cobaias, algumas são sacrificadas para estudos histológicos.</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 </div>
-</section><section id="representatividade" class="slide level2"><h2>Representatividade</h2>
+</section>
+<section id="representatividade" class="slide level2">
+<h2>Representatividade</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <p>Qualidade das amostras de terem ou reproduzirem, sem tendenciosidade, as propriedades da população</p>
 <p>Deseja-se sempre <strong>amostras representativas!</strong></p>
 </div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><a href="../..\images/amostra_repres.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="../..\images/amostra_repres.jpeg" class="quarto-figure quarto-figure-center"></a></p>
+<figure>
+<p><a href="../..\images/amostra_repres.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="../..\images/amostra_repres.jpeg" class="quarto-figure quarto-figure-center"></a></p>
 </figure>
 </div>
 </div></div>
-</section><section id="unidade-amostral" class="slide level2"><h2>Unidade Amostral</h2>
+</section>
+<section id="unidade-amostral" class="slide level2">
+<h2>Unidade Amostral</h2>
 <p>Elemento, <strong>definido pela pesquisa</strong>, ao qual corresponde cada observação</p>
 
 <img data-src="../..\images/unidade_amostral.png" class="r-stretch quarto-figure quarto-figure-center"><p>Pode ser um indivíduo ou um conjunto de indivíduos</p>
-</section><section id="sorteio" class="slide level2"><h2>Sorteio</h2>
+</section>
+<section id="sorteio" class="slide level2">
+<h2>Sorteio</h2>
 <p>Procedimento que confere a <strong>todos os elementos</strong> de um conjunto a <strong>mesma probabilidade</strong> de serem tomados</p>
 <p><br></p>
 <div class="fragment">
 <h3 id="amostragem-aleatória">Amostragem aleatória</h3>
 <p>Quando algum <strong>mecanismo de sorteio</strong> é utilizado para compor a amostra</p>
 </div>
-</section><section><section id="mecanismos-de-sorteio" class="title-slide slide level1 center"><h1>Mecanismos de sorteio</h1>
+</section>
+<section>
+<section id="mecanismos-de-sorteio" class="title-slide slide level1 center">
+<h1>Mecanismos de sorteio</h1>
 
-</section><section id="mecanismos-físicos" class="slide level2"><h2>Mecanismos físicos</h2>
+</section>
+<section id="mecanismos-físicos" class="slide level2">
+<h2>Mecanismos físicos</h2>
 
-<img data-src="../..\images/sorteio.jpg" class="quarto-figure quarto-figure-center r-stretch"></section><section id="números-aleatórios" class="slide level2"><h2>Números Aleatórios</h2>
+<img data-src="../..\images/sorteio.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="números-aleatórios" class="slide level2">
+<h2>Números Aleatórios</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="../..\images/calculadora.png" class="quarto-figure quarto-figure-center"></p>
+<figure>
+<p><img data-src="../..\images/calculadora.png" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 </div><div class="column" style="width:60%;">
 <p>Números aleatórios entre 0,000 e 0,999</p>
 <p><span class="math display">\[\fbox{SHIFT} \quad \fbox{Ran#} \quad \fbox{=}\]</span></p>
 </div></div>
-</section><section id="números-aleatórios-1" class="slide level2"><h2>Números Aleatórios</h2>
+</section>
+<section id="números-aleatórios-1" class="slide level2">
+<h2>Números Aleatórios</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
 <p><img data-src="../..\images/excel.png" class="absolute" style="top: 110px; left: 0px; width: 400px; height: 200px; "></p>
 <p><img data-src="../..\images/libre.png" class="absolute" style="top: 310px; left: 0px; width: 400px; height: 200px; "></p>
 </div><div class="column" style="width:70%;">
 <ul>
-<li>
-<p>função <strong>=ALEATÓRIO()</strong></p>
+<li><p>função <strong>=ALEATÓRIO()</strong></p>
 <ul>
 <li>números aleatórios entre 0 e 1</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 <p>ou,</p>
 <ul>
-<li>
-<p>função <strong>=ALEATÓRIOENTRE(a;b)</strong></p>
+<li><p>função <strong>=ALEATÓRIOENTRE(a;b)</strong></p>
 <ul>
 <li>números aleatórios entre valores escolhidos “a” e “b”</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 </div></div>
-</section></section><section><section id="procedimentos-do-sorteio" class="title-slide slide level1 center"><h1>Procedimentos do sorteio</h1>
+</section></section>
+<section>
+<section id="procedimentos-do-sorteio" class="title-slide slide level1 center">
+<h1>Procedimentos do sorteio</h1>
 
-</section><section id="sorteio-de-n-elementos-de-um-total-de-n" class="slide level2"><h2>Sorteio de n elementos de um total de N</h2>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n" class="slide level2">
+<h2>Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<strong>Método 1:</strong> utilizando n números aleatórios</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-1" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+<li><strong>Método 1:</strong> utilizando n números aleatórios</li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p><strong>Método 1:</strong> utilizando n números aleatórios</p>
+<li><p><strong>Método 1:</strong> utilizando n números aleatórios</p>
 <ol type="1">
 <li>Enumere os elementos da população de 1 a N</li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-2" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-2" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p><strong>Método 1:</strong> utilizando n números aleatórios</p>
+<li><p><strong>Método 1:</strong> utilizando n números aleatórios</p>
 <ol type="1">
 <li><p>Enumere os elementos da população de 1 a N</p></li>
 <li><p>Gere um número aleatório entre 0,000 e 0,999</p></li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-3" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-3" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p><strong>Método 1:</strong> utilizando n números aleatórios</p>
+<li><p><strong>Método 1:</strong> utilizando n números aleatórios</p>
 <ol type="1">
 <li><p>Enumere os elementos da população de 1 a N</p></li>
 <li><p>Gere um número aleatório entre 0,000 e 0,999</p></li>
 <li><p>O elemento sorteado é aquele identificado pelo número: <span class="math display">\[ 0,5+\frac{N}{0,999}\times \text{n}^{\underline{\text{o}}}\text{ aleatório gerado} \]</span></p></li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-4" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-4" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p><strong>Método 1:</strong> utilizando n números aleatórios</p>
+<li><p><strong>Método 1:</strong> utilizando n números aleatórios</p>
 <ol type="1">
 <li><p>Enumere os elementos da população de 1 a N</p></li>
 <li><p>Gere um número aleatório entre 0,000 e 0,999</p></li>
 <li><p>O elemento sorteado é aquele identificado pelo número: <span class="math display">\[ 0,5+\frac{N}{0,999}\times \text{n}^{\underline{\text{o}}}\text{ aleatório gerado} \]</span></p></li>
 <li><p>Repita o processo n vezes</p></li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-5" class="slide level2"><h2>Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-5" class="slide level2">
+<h2>Sorteio de n elementos de um total de N</h2>
 <p><strong>Exemplo:</strong> Em uma turma de Estatística, há N = 41 alunos matriculados. Podemos numerá-los conforme a ordem alfabética.</p>
 <div class="fragment">
 <ul>
@@ -463,7 +733,9 @@
 </ul>
 <p><span class="math display">\[0,567\quad\quad\quad 0,024\quad\quad\quad 0,788 \]</span></p>
 </div>
-</section><section id="sorteio-de-n-elementos-de-um-total-de-n-6" class="slide level2"><h2>Sorteio de n elementos de um total de N</h2>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-6" class="slide level2">
+<h2>Sorteio de n elementos de um total de N</h2>
 <p>Os alunos sorteados serão…</p>
 <p><span class="math display">\[ 0,5+\frac{41}{0,999}\times 0,567 = 23,77 \approx 24 \rightarrow \text{aluno }24 \]</span></p>
 <div class="fragment">
@@ -472,7 +744,9 @@
 <div class="fragment">
 <p><span class="math display">\[ 0,5+\frac{41}{0,999}\times 0,788 = 32,84 \approx 33 \rightarrow \text{aluno }33 \]</span></p>
 </div>
-</section><section id="prática" class="slide level2"><h2>Prática</h2>
+</section>
+<section id="prática" class="slide level2">
+<h2>Prática</h2>
 <ul>
 <li><p>Dos 12 alunos matriculados na disciplina EST104 neste semestre, queremos sortear 4 para comporem uma amostra</p></li>
 <li><p>Para isso, usaremos o <strong>método 1</strong> gerando números aleatórios via calculadora!</p></li>
@@ -480,91 +754,105 @@
 <div class="cell">
 <div class="cell-output-display">
 <div class="countdown" id="timer_87c1e4ee" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls">
-<button class="countdown-bump-down">−</button><button class="countdown-bump-up">&amp;plus;</button>
-</div>
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 </div>
 </div>
-</section><section id="sorteio-de-n-elementos-de-um-total-de-n-7" class="slide level2"><h2>Sorteio de n elementos de um total de N</h2>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-7" class="slide level2">
+<h2>Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<strong>Método 2:</strong> utilizando N números aleatórios</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-8" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+<li><strong>Método 2:</strong> utilizando N números aleatórios</li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-8" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p><strong>Método 2:</strong> utilizando N números aleatórios</p>
+<li><p><strong>Método 2:</strong> utilizando N números aleatórios</p>
 <ol type="1">
 <li>Gera-se um número aleatório para cada um dos N elementos da população</li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-9" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-9" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p><strong>Método 2:</strong> utilizando N números aleatórios</p>
+<li><p><strong>Método 2:</strong> utilizando N números aleatórios</p>
 <ol type="1">
 <li><p>Gera-se um número aleatório para cada um dos N elementos da população</p></li>
 <li><p>Ordena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)</p></li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-10" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-10" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p><strong>Método 2:</strong> utilizando N números aleatórios</p>
+<li><p><strong>Método 2:</strong> utilizando N números aleatórios</p>
 <ol type="1">
 <li><p>Gera-se um número aleatório para cada um dos N elementos da população</p></li>
 <li><p>Ordena-se os elementos da população conforme os números aleatórios (a consequência disso é “embaralhar” os elementos da população)</p></li>
 <li><p>Toma-se os n primeiros elementos neste novo conjunto. Estes são os elementos sorteados.</p></li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-11" class="slide level2"><h2>Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-11" class="slide level2">
+<h2>Sorteio de n elementos de um total de N</h2>
 <p><strong>Exemplo:</strong> Suponha que disponhamos de 12 voluntários para um ensaio clínico em que queremos comparar um novo medicamento com um placebo.</p>
 <div class="fragment">
 <p>Temos que sortear 6 pessoas que receberão o medicamento (Grupo 1), e 6 pessoas que receberão o placebo (Grupo 2).</p>
 </div>
-</section><section id="sorteio-de-n-elementos-de-um-total-de-n-12" class="slide level2"><h2>Sorteio de n elementos de um total de N</h2>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-12" class="slide level2">
+<h2>Sorteio de n elementos de um total de N</h2>
 <ul>
 <li>Procedimento</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-13" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-13" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p>Procedimento</p>
+<li><p>Procedimento</p>
 <ol type="1">
 <li>Identifique os voluntários de 1 a 12</li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-14" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-14" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p>Procedimento</p>
+<li><p>Procedimento</p>
 <ol type="1">
 <li><p>Identifique os voluntários de 1 a 12</p></li>
 <li><p>Gere um número aleatório para cada um</p></li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-15" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-15" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p>Procedimento</p>
+<li><p>Procedimento</p>
 <ol type="1">
 <li><p>Identifique os voluntários de 1 a 12</p></li>
 <li><p>Gere um número aleatório para cada um</p></li>
 <li><p>Ordene-os conforme os números aleatórios</p></li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-16" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-16" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <ul>
-<li>
-<p>Procedimento</p>
+<li><p>Procedimento</p>
 <ol type="1">
 <li><p>Identifique os voluntários de 1 a 12</p></li>
 <li><p>Gere um número aleatório para cada um</p></li>
 <li><p>Ordene-os conforme os números aleatórios</p></li>
 <li><p>Os 6 primeiros estarão no Grupo 1, e os outros 6 no Grupo 2</p></li>
-</ol>
-</li>
-</ul></section><section id="sorteio-de-n-elementos-de-um-total-de-n-17" class="slide level2" data-auto-animate="true"><h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
+</ol></li>
+</ul>
+</section>
+<section id="sorteio-de-n-elementos-de-um-total-de-n-17" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Sorteio de n elementos de um total de N</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <center>
@@ -578,14 +866,16 @@
 .tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
-<thead><tr>
+<thead>
+<tr>
 <th class="tg-7btt">
 Voluntário
 </th>
 <th class="tg-7btt">
 Número Aleatório
 </th>
-</tr></thead>
+</tr>
+</thead>
 <tbody>
 <tr>
 <td class="tg-c3ow">
@@ -683,7 +973,8 @@ Indivíduo 12
 0,665
 </td>
 </tr>
-<tr></tr>
+<tr>
+</tr>
 </tbody>
 </table>
 </center>
@@ -701,7 +992,8 @@ Indivíduo 12
 .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
-<thead><tr>
+<thead>
+<tr>
 <th class="tg-0lax">
 <span style="font-weight:bold">Grupo</span>
 </th>
@@ -711,7 +1003,8 @@ Número Aleatório
 <th class="tg-amwm">
 Voluntário
 </th>
-</tr></thead>
+</tr>
+</thead>
 <tbody>
 <tr>
 <td class="tg-baqh">
@@ -845,12 +1138,15 @@ Indivíduo 5
 Indivíduo 1
 </td>
 </tr>
-<tr></tr>
+<tr>
+</tr>
 </tbody>
 </table>
 </center>
 </div></div>
-</section><section id="prática-1" class="slide level2"><h2>Prática</h2>
+</section>
+<section id="prática-1" class="slide level2">
+<h2>Prática</h2>
 <ul>
 <li><p>Dos 12 alunos matriculados na disciplina EST104 neste semestre, queremos formar dois grupos</p></li>
 <li><p>Para isso, usaremos o <strong>método 2</strong> gerando números aleatórios via calculadora!</p></li>
@@ -858,44 +1154,46 @@ Indivíduo 1
 <div class="cell">
 <div class="cell-output-display">
 <div class="countdown" id="timer_cfe2d4e5" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls">
-<button class="countdown-bump-down">−</button><button class="countdown-bump-up">&amp;plus;</button>
-</div>
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 </div>
 </div>
-</section></section><section><section id="amostragem-não-aleatória" class="title-slide slide level1 center"><h1>Amostragem não aleatória</h1>
+</section></section>
+<section>
+<section id="amostragem-não-aleatória" class="title-slide slide level1 center">
+<h1>Amostragem não aleatória</h1>
 
-</section><section id="amostragem-não-aleatória-1" class="slide level2"><h2>Amostragem não aleatória</h2>
+</section>
+<section id="amostragem-não-aleatória-1" class="slide level2">
+<h2>Amostragem não aleatória</h2>
 <p>Quando o sorteio não é possível ou viável</p>
 <ul>
-<li>
-<p><strong>Inacessibilidade:</strong> Nem sempre todos os elementos da população estão disponíveis</p>
+<li><p><strong>Inacessibilidade:</strong> Nem sempre todos os elementos da população estão disponíveis</p>
 <ul>
 <li>Ex.: Estudo de casos de doença (apenas) dentre os pacientes atendidos em um centro</li>
+</ul></li>
 </ul>
-</li>
-</ul></section><section id="amostragem-não-aleatória-2" class="slide level2"><h2>Amostragem não aleatória</h2>
+</section>
+<section id="amostragem-não-aleatória-2" class="slide level2">
+<h2>Amostragem não aleatória</h2>
 <ul>
-<li>
-<p><strong>Operacionalidade:</strong> Nem sempre é viável identificar ou numerar todos os elementos, mesmo estando acessíveis.</p>
+<li><p><strong>Operacionalidade:</strong> Nem sempre é viável identificar ou numerar todos os elementos, mesmo estando acessíveis.</p>
 <ul>
 <li>Ex.: Amostra de folhas de uma árvore para uma análise de composição química</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 <div class="fragment">
 <ul>
-<li>
-<p><strong>Populações contínuas:</strong> Se a população é formada de material contínuo (como líquido ou gás), não é possível enumerar os elementos da população</p>
+<li><p><strong>Populações contínuas:</strong> Se a população é formada de material contínuo (como líquido ou gás), não é possível enumerar os elementos da população</p>
 <ul>
 <li>Ex.: amostras de água em pontos do rio para avaliar poluentes</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 </div>
-</section><section id="amostragem-não-aleatória-3" class="slide level2"><h2>Amostragem não aleatória</h2>
+</section>
+<section id="amostragem-não-aleatória-3" class="slide level2">
+<h2>Amostragem não aleatória</h2>
 <ul>
 <li><strong>Populações infinitas</strong></li>
 </ul>
@@ -904,16 +1202,16 @@ Indivíduo 1
 </div>
 <div class="fragment">
 <ul>
-<li>
-<p><strong>Coleta a esmo:</strong> Apesar da subjetividade possível, consiste em tentar evitar tendenciosidade, coletando “ao acaso”</p>
+<li><p><strong>Coleta a esmo:</strong> Apesar da subjetividade possível, consiste em tentar evitar tendenciosidade, coletando “ao acaso”</p>
 <ul>
 <li>entrevistar pessoas na rua, </li>
 <li>coletar folhas em diferentes alturas e profundidades da copa</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 </div>
-</section><section id="amostragem-não-aleatória-4" class="slide level2"><h2>Amostragem não aleatória</h2>
+</section>
+<section id="amostragem-não-aleatória-4" class="slide level2">
+<h2>Amostragem não aleatória</h2>
 <p>Quando parte da população é inacessível, buscar investigar se o segmento amostrado a representa, ou se devemos restringir as conclusões</p>
 <div class="fragment">
 <p>Muitas vezes, a amostra a esmo, para fins de análise, é considerada aleatória.</p>
@@ -921,17 +1219,20 @@ Indivíduo 1
 <div class="fragment">
 <p>Mas atenção sobre a representatividade!</p>
 </div>
-</section></section><section><section id="aplicações-potenciais" class="title-slide slide level1 center"><h1>Aplicações potenciais</h1>
+</section></section>
+<section>
+<section id="aplicações-potenciais" class="title-slide slide level1 center">
+<h1>Aplicações potenciais</h1>
 
-</section><section id="aplicações" class="slide level2"><h2>Aplicações</h2>
+</section>
+<section id="aplicações" class="slide level2">
+<h2>Aplicações</h2>
 <ul>
-<li>
-<p>Levantamentos epidemiológicos</p>
+<li><p>Levantamentos epidemiológicos</p>
 <ul>
 <li>prevalência de doenças</li>
 <li>identificação de grupos mais susceptíveis</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 <div class="fragment">
 <ul>
@@ -940,16 +1241,16 @@ Indivíduo 1
 </div>
 <div class="fragment">
 <ul>
-<li>
-<p>Comparação de tratamentos para doenças</p>
+<li><p>Comparação de tratamentos para doenças</p>
 <ul>
 <li>tratamento medicamentoso <em>vs</em> cirúrgico</li>
 <li>diferentes associações de medicamentos</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 </div>
-</section><section id="aplicações-1" class="slide level2"><h2>Aplicações</h2>
+</section>
+<section id="aplicações-1" class="slide level2">
+<h2>Aplicações</h2>
 <ul>
 <li>Comparação de medicamentos: bioequivalência</li>
 </ul>
@@ -968,18 +1269,29 @@ Indivíduo 1
 <li>Avaliação de serviços de ambulatórios e hospitais</li>
 </ul>
 </div>
-</section></section><section><section id="exemplos-de-estudos" class="title-slide slide level1 center"><h1>Exemplos de estudos</h1>
+</section></section>
+<section>
+<section id="exemplos-de-estudos" class="title-slide slide level1 center">
+<h1>Exemplos de estudos</h1>
 
-</section><section id="impacto-de-celular-na-saúde" class="slide level2"><h2>Impacto de celular na saúde</h2>
+</section>
+<section id="impacto-de-celular-na-saúde" class="slide level2">
+<h2>Impacto de celular na saúde</h2>
 <p>Neste estudo, os autores revisaram dados de 63 estudos conduzidos entre 1994 e 2022. A revisão analisou cânceres cerebrais em adultos e crianças, assim como cânceres nas glândulas salivares e leucemia, e os riscos relacionados ao uso de telefones móveis, estações de base e transmissão, assim como exposição ocupacional e indicou que não houve alta dos casos.</p>
 <p><span class="citation" data-cites="KARIPIDIS2024108983">Karipidis et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></p>
-</section><section id="consumo-de-carne-vermelha-e-câncer" class="slide level2"><h2>Consumo de carne vermelha e câncer</h2>
+</section>
+<section id="consumo-de-carne-vermelha-e-câncer" class="slide level2">
+<h2>Consumo de carne vermelha e câncer</h2>
 <p>Parra-Soto et al.&nbsp;(2022) investigaram diferentes tipos de dieta (onívora, apenas com carne branca, pescetariana e vegetariana/vegana) e sua associação com o desenvolvimento de câncer colorretal. Esses estudos indicam que limitar o consumo de carne é uma medida importante para a redução do risco de câncer colorretal.</p>
 <p><span class="citation" data-cites="parra-soto-2022">Parra Soto et al. (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span></p>
-</section><section id="medicamentos-para-disfunção-erétil-e-perda-de-audição" class="slide level2"><h2>Medicamentos para disfunção erétil e perda de audição</h2>
+</section>
+<section id="medicamentos-para-disfunção-erétil-e-perda-de-audição" class="slide level2">
+<h2>Medicamentos para disfunção erétil e perda de audição</h2>
 <p>Os autores descrevem o caso de um paciente que desenvolveu perda auditiva neurossensorial súbita unilateral possivelmente relacionada ao uso de vardenafil para disfunção erétil. Este caso fornece mais evidências de que o consumo de inibidores da PDE-5 deve ser considerado como uma possível causa em pacientes que apresentam perda auditiva neurossensorial súbita.</p>
 <p><span class="citation" data-cites="snodgrass-2010">Snodgrass et al. (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span></p>
-</section><section id="references" class="slide level2 smaller scrollable" data-visibility="uncounted"><h2>References</h2>
+</section>
+<section id="references" class="slide level2 smaller scrollable" data-visibility="uncounted">
+<h2>References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-KARIPIDIS2024108983" class="csl-entry" role="listitem">
 Karipidis, Ken, Dan Baaken, Tom Loney, Maria Blettner, Chris Brzozek, Mark Elwood, Clement Narh, et al. 2024. <span>“The Effect of Exposure to Radiofrequency Fields on Cancer Risk in the General and Working Population: A Systematic Review of Human Observational Studies – Part i: Most Researched Outcomes.”</span> <em>Environment International</em> 191: 108983. https://doi.org/<a href="https://doi.org/10.1016/j.envint.2024.108983">https://doi.org/10.1016/j.envint.2024.108983</a>.
@@ -995,16 +1307,32 @@ Triola, M. F. 1999. <em>Introducao a Estatistica</em>. Livros T<span>é</span>cn
 </div>
 </div>
 
-
-</section></section>
-</div>
-  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
-</div></div>
+</div>
+</section></section>
+    </div>
+  </div>
 
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="../../site_libs/revealjs/dist/reveal.js"></script><!-- reveal.js plugins --><script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script><script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script><script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script><script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script><script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script><script src="../../site_libs/revealjs/plugin/notes/notes.js"></script><script src="../../site_libs/revealjs/plugin/search/search.js"></script><script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script><script src="../../site_libs/revealjs/plugin/math/math.js"></script><script>window.define = window.backupDefine; window.backupDefine = undefined;</script><script>
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
@@ -1015,8 +1343,7 @@ Triola, M. F. 1999. <em>Introducao a Estatistica</em>. Livros T<span>é</span>cn
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -1170,7 +1497,7 @@ Triola, M. F. 1999. <em>Introducao a Estatistica</em>. Livros T<span>é</span>cn
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1195,42 +1522,84 @@ Triola, M. F. 1999. <em>Introducao a Estatistica</em>. Livros T<span>é</span>cn
           RevealZoom
         ]
       });
-    </script><script>
+    </script>
+    
+
+    <script>
+
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
       // slide changes (different for each slide format).
+
       (function () {
+
         // dispatch for htmlwidgets
+
         function fireSlideEnter() {
+
           const event = window.document.createEvent("Event");
+
           event.initEvent("slideenter", true, true);
+
           window.document.dispatchEvent(event);
+
         }
+
     
+
         function fireSlideChanged(previousSlide, currentSlide) {
+
           fireSlideEnter();
+
     
+
           // dispatch for shiny
+
           if (window.jQuery) {
+
             if (previousSlide) {
+
               window.jQuery(previousSlide).trigger("hidden");
+
             }
+
             if (currentSlide) {
+
               window.jQuery(currentSlide).trigger("shown");
+
             }
+
           }
+
         }
+
     
+
         // hookup for slidy
+
         if (window.w3c_slidy) {
+
           window.w3c_slidy.add_observer(function (slide_num) {
+
             // slide_num starts at position 1
+
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
           });
+
         }
+
     
+
       })();
-    </script><script id="quarto-html-after-body" type="application/javascript">
+
+    </script>
+
+    
+
+    <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
         const mode = bsSheetEl.getAttribute("data-mode");
@@ -1309,6 +1678,8 @@ Triola, M. F. 1999. <em>Introducao a Estatistica</em>. Livros T<span>é</span>cn
       });
       clipboard.on('success', onCopySuccess);
       if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
         const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
           text: getTextToCopy,
           container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -1414,7 +1785,8 @@ Triola, M. F. 1999. <em>Introducao a Estatistica</em>. Livros T<span>é</span>cn
         }
       }
     });
-    </script><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox","openEffect":"zoom"});
     (function() {
       let previousOnload = window.onload;
       window.onload = () => {
@@ -1446,6 +1818,6 @@ Triola, M. F. 1999. <em>Introducao a Estatistica</em>. Livros T<span>é</span>cn
       
     })();
               </script>
-
+    
 
 </body></html>

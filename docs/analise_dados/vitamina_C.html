@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.7.7">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Cronograma da disciplina – EST104 - Estatística Aplicada à Saúde</title>
+<title>Análise de dados: Eficácia da vitamina C para prevenção de resfriados – EST104 - Estatística Aplicada à Saúde</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +20,60 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./plano.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-fe43d0015be6fd5bd60fe62033074fe8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-1711544753feb65bf9d2198e7222e7d1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-c31c0101bef6dbc27f91c921b73cacbb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-51e27b74fbd13efd78a07743a708c48e.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -57,22 +88,51 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Cronograma da disciplina – EST104 - Estatística Aplicada à Saúde">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Análise de dados: Eficácia da vitamina C para prevenção de resfriados – EST104 - Estatística Aplicada à Saúde">
 <meta property="og:description" content="Homepage da disciplina EST104 - Estatística Aplicada à Saúde, 2024/2.">
 <meta property="og:site_name" content="EST104 - Estatística Aplicada à Saúde">
 </head>
@@ -83,13 +143,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cronograma.html">Cronograma da disciplina</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Análise de dados: Eficácia da vitamina C para prevenção de resfriados</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -100,54 +160,54 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/tiagomartin/est104" title="github" class="quarto-navigation-tool px-1" aria-label="github"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Procurar"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./aulas.html" class="sidebar-item-text sidebar-link">
+  <a href="../aulas.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Aulas</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./estudos.html" class="sidebar-item-text sidebar-link">
+  <a href="../estudos.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Estudos de Caso</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./exercicios.html" class="sidebar-item-text sidebar-link">
+  <a href="../exercicios.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Listas de exercicios</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./analises.html" class="sidebar-item-text sidebar-link">
+  <a href="../analises.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Análise de dados</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./plano.html" class="sidebar-item-text sidebar-link">
+  <a href="../plano.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Plano de Ensino</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./cronograma.html" class="sidebar-item-text sidebar-link active">
+  <a href="../cronograma.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cronograma da disciplina</span></a>
   </div>
 </li>
@@ -156,15 +216,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#e-como-faria-isso-no-r" id="toc-e-como-faria-isso-no-r" class="nav-link active" data-scroll-target="#e-como-faria-isso-no-r">E como faria isso no R?</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/tiagomartin/est104/edit/main/analise_dados/vitamina_C.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/tiagomartin/est104/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Cronograma da disciplina</h1>
+<h1 class="title">Análise de dados: Eficácia da vitamina C para prevenção de resfriados</h1>
 </div>
 
 
@@ -181,278 +247,233 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semestre. Este cronograma será atualizado conforme o semestre avança.</p>
-<!-- https://fontawesome.com/search?o=r&m=free -->
-<!-- https://jpswalsh.github.io/academicons/ -->
-<!-- [](/weeks/week-1.html#prepare){aria-label="Week 1 summary"}  |  [️](/slides/lec-1.html "Lecture slides"){aria-label="Lecture 1 slides"}  |       [](/ae/ae-0-movies.html "Application exercise"){aria-label="Application Exercise 0 instructions"} -->
-<!--   -  scripts -->
-<!--    -  slides -->
-<!--   -  estudo de caso -->
-<!--   -  artigo -->
-<!--   -  tabelas estatisticas -->
-<!-- {{< fa-solid fa-file-lines 2xl >}}  -  exercicios -->
-<div class="column-screen-inset-right">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 5%">
-<col style="width: 10%">
-<col style="width: 30%">
-<col style="width: 5%">
-<col style="width: 5%">
-<col style="width: 5%">
-<col style="width: 5%">
-<col style="width: 5%">
-<col style="width: 5%">
-<col style="width: 5%">
-</colgroup>
+<p>Por anos existe a controvérsia se a vitamina C ajuda na prevenção de resfriados e vários estudos têm sido realizados para tal investigação. Em um pequeno ensaio clínico realizado com 103 crianças, 57 receberam vitamina C e 46 receberam um placebo. Foram obtidos os resultados apresentados na tabela abaixo:</p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;margin:0px auto;}
+.tg td{background-color:#fff;border-bottom-width:1px;border-color:#ccc;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#333;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#f0f0f0;border-bottom-width:1px;border-color:#ccc;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#333;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-upsm{border-color:inherit;font-family:Tahoma, Geneva, sans-serif !important;font-size:14px;text-align:center;
+  vertical-align:middle}
+.tg .tg-wal4{border-color:inherit;font-family:Tahoma, Geneva, sans-serif !important;font-size:14px;text-align:left;
+  vertical-align:top}
+.tg .tg-yo96{border-color:inherit;font-family:Tahoma, Geneva, sans-serif !important;font-size:14px;text-align:center;
+  vertical-align:top}
+</style>
+<table class="tg">
 <thead>
-<tr class="header">
-<th style="text-align: center;">Semana</th>
-<th>Data</th>
-<th>Tópico</th>
-<th style="text-align: center;">Artigo</th>
-<th style="text-align: center;">Slides</th>
-<th style="text-align: center;">EC</th>
-<th style="text-align: center;">LE</th>
-<th style="text-align: center;">Script</th>
-<th style="text-align: center;">Avaliação</th>
-<th style="text-align: center;">Projeto</th>
+<tr>
+<th class="tg-upsm" rowspan="2">
+Grupo
+</th>
+<th class="tg-yo96" colspan="2">
+Resfriado
+</th>
+<th class="tg-upsm" rowspan="2">
+Total
+</th>
+</tr>
+<tr>
+<th class="tg-yo96">
+Sem
+</th>
+<th class="tg-yo96">
+Com
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td style="text-align: center;"><a href="programacao/semana-1.html">1</a></td>
-<td>Seg, 11/11</td>
-<td>Apresentação da disciplina</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<tr>
+<td class="tg-wal4">
+Vitamina C
+</td>
+<td class="tg-yo96">
+21 (37%)
+</td>
+<td class="tg-yo96">
+36 (63%)
+</td>
+<td class="tg-yo96">
+57 (100%)
+</td>
 </tr>
-<tr class="even">
-<td style="text-align: center;"></td>
-<td>Qua, 13/11</td>
-<td>Não haverá aula!</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<tr>
+<td class="tg-wal4">
+Placebo
+</td>
+<td class="tg-yo96">
+11 (24%)
+</td>
+<td class="tg-yo96">
+35 (76%)
+</td>
+<td class="tg-yo96">
+46 (100%)
+</td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;"><a href="programacao/semana-2.html">2</a></td>
-<td>Seg, 18/11</td>
-<td>Conceitos básicos</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><a href="aulas/Conceitos básicos/index.html" aria-label="Conceitos básicos" title="Conceitos básicos"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"></td>
-<td>Qua, 20/11</td>
-<td>Conceitos básicos</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><a href="aulas/Conceitos básicos/index.html" aria-label="Conceitos básicos" title="Conceitos básicos"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"><a href="estudos_de_casos/estudo01.html" aria-label="Estudo de caso 01" title="Estudo de caso 01"><i class="fa-solid fa-laptop-file fa-2xl" aria-label="laptop-file"></i></a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><a href="programacao/semana-3.html">3</a></td>
-<td>Seg, 25/11</td>
-<td>Conceitos básicos</td>
-<td style="text-align: center;"><a href="artigos/Entendendo_analise_estatistica.pdf"><i class="fa-solid fa-file-pdf fa-2xl" aria-label="file-pdf"></i></a></td>
-<td style="text-align: center;"><a href="aulas/Conceitos básicos/index.html" aria-label="Conceitos básicos" title="Conceitos básicos"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"></td>
-<td>Qua, 27/11</td>
-<td>Conceitos básicos</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><a href="aulas/Conceitos básicos/index.html" aria-label="Conceitos básicos" title="Conceitos básicos"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"><a href="estudos_de_casos/estudo02.html" aria-label="Estudo de caso 02" title="Estudo de caso 02"><i class="fa-solid fa-laptop-file fa-2xl" aria-label="laptop-file"></i></a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><a href=".\analise_dados/recem_nascidos.html" aria-label="Script análise de dados" title="Script análise de dados"><i class="fa-brands fa-r-project fa-2xl" aria-label="r-project"></i></a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><a href="programacao/semana-4.html">4</a></td>
-<td>Seg, 02/12</td>
-<td>Relato (Série) de casos</td>
-<td style="text-align: center;"><a href="artigos/relato_de_caso_coronavirus_coracao.pdf"><i class="fa-solid fa-file-pdf fa-2xl" aria-label="file-pdf"></i></a></td>
-<td style="text-align: center;"><a href=".\aulas/Planejamento/index.html" aria-label="Relato e Séries de casos" title="Relato e Séries de casos"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"></td>
-<td>Qua, 04/11</td>
-<td>Estudos de coorte</td>
-<td style="text-align: center;"><a href="artigos/impacto_funcionalidade_idosos_estudo_coorte.pdf"><i class="fa-solid fa-file-pdf fa-2xl" aria-label="file-pdf"></i></a></td>
-<td style="text-align: center;"><a href=".\aulas/Planejamento/#/estudos-observacionais-analíticos" aria-label="Estudos de coorte" title="Estudos de coorte"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><a href="programacao/semana-5.html">5</a></td>
-<td>Seg, 09/12</td>
-<td>Não haverá aula! (Encontro de Saberes)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"></td>
-<td>Qua, 11/12</td>
-<td>Não haverá aula! (Encontro de Saberes)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><a href="programacao/semana-6.html">6</a></td>
-<td>Seg, 16/12</td>
-<td>Estudos caso-controle</td>
-<td style="text-align: center;"><a href="artigos/fatores_cancer_boca_caso_controle.pdf"><i class="fa-solid fa-file-pdf fa-2xl" aria-label="file-pdf"></i></a></td>
-<td style="text-align: center;"><a href=".\aulas/Planejamento/#/estudo-caso-controle" aria-label="Estudos caso-controle" title="Estudos caso-controle"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"></td>
-<td>Qua, 18/12</td>
-<td>Não haverá aula!</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"></td>
-<td>23/12 a 19/01</td>
-<td>Recesso Acadêmico</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><a href="programacao/semana-7.html">7</a></td>
-<td>Seg, 20/01</td>
-<td>Estudos Transversais</td>
-<td style="text-align: center;"><a href="artigos/Prevalência_fatores_associados_bruxismo_estudo_transversal.pdf"><i class="fa-solid fa-file-pdf fa-2xl" aria-label="file-pdf"></i></a></td>
-<td style="text-align: center;"><a href=".\aulas/Planejamento/#/estudos-transversais" aria-label="Estudos transversais" title="Estudos transversais"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"></td>
-<td>Qua, 22/01</td>
-<td>Estudos Ecológicos</td>
-<td style="text-align: center;"><a href="artigos/Aumento_das_internações_por_síndrome_de_Guillain-Barré_no_Brasil_estudo_ecológico.pdf"><i class="fa-solid fa-file-pdf fa-2xl" aria-label="file-pdf"></i></a></td>
-<td style="text-align: center;"><a href=".\aulas/Planejamento/#estudos-ecológicos" aria-label="Estudos ecológicos" title="Estudos ecológicos"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><a href="programacao/semana-8.html">8</a></td>
-<td>Seg, 27/01</td>
-<td>Ensaios clínicos aleatorizados</td>
-<td style="text-align: center;"><a href="artigos/Administração orofaríngea de colostro em recém-nascidos com gastrosquise_ensaio clínico randomizado.pdf"><i class="fa-solid fa-file-pdf fa-2xl" aria-label="file-pdf"></i></a></td>
-<td style="text-align: center;"><a href=".\aulas/Planejamento/#estudos-experimentais" aria-label="Ensaios Clínicos Aleatorizados" title="Ensaios Clínicos Aleatorizados"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"></td>
-<td>Qua, 29/01</td>
-<td>Não haverá aula!</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><a href="programacao/semana-9.html">9</a></td>
-<td>Seg, 03/02</td>
-<td>Não haverá aula!</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><a href=".\exercicios/lista01.html" aria-label="Lista de Exercícios 01" title="Lista de Exercícios 01"><i class="fa-solid fa-file-lines fa-2xl" aria-label="file-lines"></i>️</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"></td>
-<td>Qua, 05/02</td>
-<td>Outros tipos de estudos</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><a href=".\aulas/Planejamento/#outros-tipos-de-estudo" aria-label="Outros tipos de estudo" title="Outros tipos de estudo"><i class="fa-solid fa-file-powerpoint fa-2xl" aria-label="file-powerpoint"></i>️</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<tr>
+<td class="tg-wal4">
+Total
+</td>
+<td class="tg-yo96">
+32 (31%)
+</td>
+<td class="tg-yo96">
+71 (69%)
+</td>
+<td class="tg-yo96">
+103 (100%)
+</td>
 </tr>
 </tbody>
 </table>
+<p>Podemos notar que, entre as crianças que tomaram a vitamina C, 63% ficaram resfriados, enquanto que, entre os que tomaram o placebo, 76% ficaram resfriados. Queremos testar a hipótese nula de que não há associação entre a ingestão de vitamina C e a criança ficar resfriada, ou seja,</p>
+<p><span class="math inline">\(H_0:\)</span> A proporção de crianças que ficou doente entre os que tomaram vitamina C é igual à proporção dos que ficaram doentes entre os que não tomaram,</p>
+<p>ao nível de significância de <span class="math inline">\(\alpha = 0,05\)</span>. A hipótese alternativa é que exista uma associação.</p>
+<p>Quando consideramos amostras independentes de dados nominais agrupados em categorias, o teste qui-quadrado pode ser usado para determinar se as proporções de algum evento de interesse são idênticas em vários grupos. Neste caso, para começar, precisamos calcular a frequência esperada de cada uma das caselas da tabela acima, sob <span class="math inline">\(H_0\)</span>.</p>
+<p>Considerando a hipótese nula verdadeira, as proporções de crianças resfriadas são iguais nos dois grupos (vitamina C e placebo). Assim, a proporção global de crianças que ficaram resfriadas é</p>
+<p><span class="math display">\[\dfrac{71}{103} \approx 69\%,\]</span></p>
+<p>e a proporção de crianças que não ficaram resfriadas é</p>
+<p><span class="math display">\[\dfrac{32}{103} \approx 31\%.\]</span></p>
+<p>Então, entre as 57 crianças que tomaram vitamina C, esperaríamos que 31%, ou</p>
+<p><span class="math display">\[\dfrac{57 \times 32}{103} = 17,7,\]</span></p>
+<p>não fiquem resfriadas e que 69% ou</p>
+<p><span class="math display">\[\dfrac{57 \times 71}{103} = 39,3,\]</span></p>
+<p>fiquem resfriadas. Analogamante, entre as 46 crianças que tomaram o placebo, esperamos que</p>
+<p><span class="math display">\[\dfrac{46 \times 32}{103} = 14,3,\]</span> não se resfriem e</p>
+<p><span class="math display">\[\dfrac{46 \times 71}{103} = 31,7,\]</span> fiquem resfriadas.</p>
+<p>Assim, a tabela de frequências esperadas é</p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;margin:0px auto;}
+.tg td{background-color:#fff;border-bottom-width:1px;border-color:#ccc;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#333;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#f0f0f0;border-bottom-width:1px;border-color:#ccc;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#333;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-upsm{border-color:inherit;font-family:Tahoma, Geneva, sans-serif !important;font-size:14px;text-align:center;
+  vertical-align:middle}
+.tg .tg-wal4{border-color:inherit;font-family:Tahoma, Geneva, sans-serif !important;font-size:14px;text-align:left;
+  vertical-align:top}
+.tg .tg-yo96{border-color:inherit;font-family:Tahoma, Geneva, sans-serif !important;font-size:14px;text-align:center;
+  vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-upsm" rowspan="2">
+Grupo
+</th>
+<th class="tg-yo96" colspan="2">
+Resfriado
+</th>
+<th class="tg-upsm" rowspan="2">
+Total
+</th>
+</tr>
+<tr>
+<th class="tg-yo96">
+Sem
+</th>
+<th class="tg-yo96">
+Com
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-wal4">
+Vitamina C
+</td>
+<td class="tg-yo96">
+17,7 (31%)
+</td>
+<td class="tg-yo96">
+39,3 (69%)
+</td>
+<td class="tg-yo96">
+57 (100%)
+</td>
+</tr>
+<tr>
+<td class="tg-wal4">
+Placebo
+</td>
+<td class="tg-yo96">
+14,3 (31%)
+</td>
+<td class="tg-yo96">
+31,7 (69%)
+</td>
+<td class="tg-yo96">
+46 (100%)
+</td>
+</tr>
+<tr>
+<td class="tg-wal4">
+Total
+</td>
+<td class="tg-yo96">
+32 (31%)
+</td>
+<td class="tg-yo96">
+71 (69%)
+</td>
+<td class="tg-yo96">
+103 (100%)
+</td>
+</tr>
+</tbody>
+</table>
+<p>Como a frequência esperada de cada casela da tabela maior do que 5, prosseguimos com o teste qui-quadrado, calculando a estatística</p>
+<p><span class="math display">\[
+\begin{eqnarray*}\chi^2 &amp;=&amp; \displaystyle{\sum_{i=1}^4}\dfrac{(|O_i - E_i|)^2}{E_i} \\ &amp;=&amp; \dfrac{(21-17,7)^2}{17,7}+\dfrac{(11-14,3)^2}{14,3} + \dfrac{(36-39,3)^2}{39,3}+\dfrac{(35-31,7)^2}{31,7} \\ &amp;=&amp; 0,61+0,76+0,28+0,34 = 1,99
+\end{eqnarray*}
+\]</span></p>
+<p>O valor crítico ao nível de significância de 5% da distribuição <a href="..\documentos/Tabela da Qui-quadrado.pdf">qui-quadrado</a> com 1 grau de liberdade é 3,841. Como <span class="math inline">\(\chi^2 = 1,99 &lt; 3,841 = \chi^2_1(0,05)\)</span>, com esse tamanho de amostra não foi detectada diferença significativa entre os grupos (vitamina C e placebo).</p>
+<section id="e-como-faria-isso-no-r" class="level3">
+<h3 class="anchored" data-anchor-id="e-como-faria-isso-no-r">E como faria isso no R?</h3>
+<p>No R, faríamos da seguinte forma</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>tabela <span class="ot">=</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">21</span>,<span class="dv">36</span>,<span class="dv">11</span>,<span class="dv">35</span>), <span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow=</span><span class="cn">TRUE</span>, <span class="at">dimnames=</span> <span class="fu">list</span>(<span class="fu">c</span>(<span class="st">'Vitamina C'</span>, <span class="st">'Placebo'</span>), <span class="fu">c</span>(<span class="st">'Sem resfriado'</span>, <span class="st">'Com resfriado'</span>)))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>tabela</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>           Sem resfriado Com resfriado
+Vitamina C            21            36
+Placebo               11            35</code></pre>
 </div>
+</div>
+<p>Para realizarmos um teste qui-quadrado no R, basta utilizarmos a função <strong>chisq.test()</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-3"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-3-1"><a href="#annotated-cell-3-1" aria-hidden="true" tabindex="-1"></a>tabela <span class="sc">%&gt;%</span> </span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-3" data-target-annotation="1">1</button><span id="annotated-cell-3-2" class="code-annotation-target"><a href="#annotated-cell-3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">chisq.test</span>(<span class="at">correct =</span> <span class="cn">FALSE</span>)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-hidden code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-3" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-3" data-code-lines="2" data-code-annotation="1">O parâmetro <strong>correct = FALSE</strong> na função <strong>chisq.test()</strong>, indica que estamos procedendo o teste qui-quadrado sem a correção de continuidade de Yates. Como regra básica essa correção é usada quando o tamanho da amostra é menor que 40 ou quando há pelo menos uma classe com frequência esperada menor que 5.</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Pearson's Chi-squared test
+
+data:  .
+X-squared = 1.987, df = 1, p-value = 0.1587</code></pre>
+</div>
+</div>
+<p>Note que podemos chegar à mesma conclusão, de que não foi detectada diferença significativa entre os grupos (vitamina C e placebo) olhando apenas para o p-valor. Neste caso temos</p>
+<p><span class="math display">\[\text{p-valor} = P(\chi_1^2 \geq 1,99) = 0,1587 &gt; 0,05 = \alpha.\]</span> Logo, não rejeitamos a hipótese <span class="math inline">\(H_0\)</span>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -642,12 +663,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiada");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiada");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -681,8 +702,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -793,7 +812,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -960,25 +978,64 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         }
       };
     }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
+      const annoteTargets = window.document.querySelectorAll('.code-annotation-anchor');
+      for (let i=0; i<annoteTargets.length; i++) {
+        const annoteTarget = annoteTargets[i];
+        const targetCell = annoteTarget.getAttribute("data-target-cell");
+        const targetAnnotation = annoteTarget.getAttribute("data-target-annotation");
+        const contentFn = () => {
+          const content = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          if (content) {
+            const tipContent = content.cloneNode(true);
+            tipContent.classList.add("code-annotation-tip-content");
+            return tipContent.outerHTML;
           }
-        });
+        }
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          onShow: (instance) => {
+            selectCodeLines(instance.reference);
+            instance.reference.classList.add('code-annotation-active');
+            window.tippy.hideAll();
+          },
+          onHide: (instance) => {
+            unselectCodeLines();
+            instance.reference.classList.remove('code-annotation-active');
+          },
+          maxWidth: 300,
+          delay: [50, 0],
+          duration: [200, 0],
+          offset: [5, 10],
+          arrow: true,
+          appendTo: function(el) {
+            return el.parentElement.parentElement.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'quarto',
+          placement: 'right',
+          popperOptions: {
+            modifiers: [
+            {
+              name: 'flip',
+              options: {
+                flipVariations: false, // true by default
+                allowedAutoPlacements: ['right'],
+                fallbackPlacements: ['right', 'top', 'top-start', 'top-end', 'bottom', 'bottom-start', 'bottom-end', 'left'],
+              },
+            },
+            {
+              name: 'preventOverflow',
+              options: {
+                mainAxis: false,
+                altAxis: false
+              }
+            }
+            ]        
+          }      
+        };
+        window.tippy(annoteTarget, config); 
       }
   const findCites = (el) => {
     const parentEl = el.parentElement;
@@ -1019,15 +1076,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./plano.html" class="pagination-link" aria-label="Plano de Ensino">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Plano de Ensino</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1036,7 +1084,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/tiagomartin/est104/edit/main/cronograma.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/tiagomartin/est104/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/tiagomartin/est104/edit/main/analise_dados/vitamina_C.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/tiagomartin/est104/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída usando <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
