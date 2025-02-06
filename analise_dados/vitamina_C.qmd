@@ -147,7 +147,7 @@ $$
 
 O valor crítico ao nível de significância de 5% da distribuição [qui-quadrado](/documentos/Tabela%20da%20Qui-quadrado.pdf) com 1 grau de liberdade é 3,841. Como $\chi^2 = 1,99 < 3,841 = \chi^2_1(0,05)$, com esse tamanho de amostra não foi detectada diferença significativa entre os grupos (vitamina C e placebo).
 
-### E como faria isso no R?
+### E como faríamos isso no R?
 
 No R, faríamos da seguinte forma
 

@@ -221,7 +221,7 @@ window.Quarto = {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#e-como-faria-isso-no-r" id="toc-e-como-faria-isso-no-r" class="nav-link active" data-scroll-target="#e-como-faria-isso-no-r">E como faria isso no R?</a></li>
+  <li><a href="#e-como-faríamos-isso-no-r" id="toc-e-como-faríamos-isso-no-r" class="nav-link active" data-scroll-target="#e-como-faríamos-isso-no-r">E como faríamos isso no R?</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/tiagomartin/est104/edit/main/analise_dados/vitamina_C.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/tiagomartin/est104/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -434,8 +434,8 @@ Total
 \end{eqnarray*}
 \]</span></p>
 <p>O valor crítico ao nível de significância de 5% da distribuição <a href="..\documentos/Tabela da Qui-quadrado.pdf">qui-quadrado</a> com 1 grau de liberdade é 3,841. Como <span class="math inline">\(\chi^2 = 1,99 &lt; 3,841 = \chi^2_1(0,05)\)</span>, com esse tamanho de amostra não foi detectada diferença significativa entre os grupos (vitamina C e placebo).</p>
-<section id="e-como-faria-isso-no-r" class="level3">
-<h3 class="anchored" data-anchor-id="e-como-faria-isso-no-r">E como faria isso no R?</h3>
+<section id="e-como-faríamos-isso-no-r" class="level3">
+<h3 class="anchored" data-anchor-id="e-como-faríamos-isso-no-r">E como faríamos isso no R?</h3>
 <p>No R, faríamos da seguinte forma</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>tabela <span class="ot">=</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">21</span>,<span class="dv">36</span>,<span class="dv">11</span>,<span class="dv">35</span>), <span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow=</span><span class="cn">TRUE</span>, <span class="at">dimnames=</span> <span class="fu">list</span>(<span class="fu">c</span>(<span class="st">'Vitamina C'</span>, <span class="st">'Placebo'</span>), <span class="fu">c</span>(<span class="st">'Sem resfriado'</span>, <span class="st">'Com resfriado'</span>)))</span>
