@@ -1,0 +1,194 @@
+---
+title: "Análise de dados: Eficácia do captopril na redução da pressão arterial sistólica"
+lang: pt
+toc: true
+code-annotations: "hover"
+---
+
+Um grupo de pesquisadores realizou um ensaio clínico randomizado, duplo-cego e controlado por placebo para avaliar a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão estágio 2.
+
+Foram recrutados 200 pacientes, randomizados em dois grupos:
+
+- Grupo Intervenção (Captopril): 100 pacientes
+- Grupo Controle (Placebo): 100 pacientes
+
+Os pesquisadores coletaram os seguintes dados após 12 semanas de tratamento:
+
+- Redução da PAS (mmHg) – variável contínua
+- Idade (anos) – variável contínua
+- Índice de Massa Corporal (IMC, kg/m²) – variável contínua
+- Presença de Diabetes (Sim/Não) – variável categórica
+- Uso prévio de anti-hipertensivos (Sim/Não) – variável categórica
+- Eventos adversos (Sim/Não) – variável categórica
+
+
+## Objetivos
+
+- Explorar os dados sobre a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão estágio 2.
+
+- Verificar a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão estágio 2 
+- Verificar se a ocorrência de eventos adversos difere entre os grupos.
+
+<!-- - Investigar se há uma interação entre o efeito do captopril e a presença de diabetes na redução da PAS. -->
+
+
+
+Fonte dos dados:
+
+- <https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/dados_ensaio_clinico_complexo.csv>
+
+
+
+## Preparação
+
+
+### Carregando os pacotes R
+
+
+```{r}
+pacman::p_load(
+  rio,          # importa arquivos
+  here,         # localiza arquivos
+  skimr,        # gera visualização dos dados
+  tidyverse,    # gestão dos dados + gráficos no ggplot2 
+  gtsummary,    # resumo estatísticos e testes
+  rstatix,      # resumo e testes estatísticos
+  janitor,      # adiciona números absolutos e porcentagens às tabelas
+  scales,       # facilmente converte proporções para porcentagens
+  flextable,    # converte tabelas para o formato de imagens
+  descriptr,    # construir tabela de distribuição de frequência em classes
+  car,          # aplicação do teste de Levene para homogeneidade de variâncias
+  BSDA          # aplicação do teste z para comparação de médias
+  ) 
+```
+
+## Carregando os dados
+
+```{r}
+dados_brutos = rio::import("https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/dados_ensaio_clinico_complexo.csv")
+dados_brutos %>% str()
+```
+
+## Explorando os dados sobre a eficácia do captopril na redução da pressão arterial sistólica (PAS) 
+
+Os principais resultados descritivos são:
+
+```{r}
+dados_brutos %>% 
+  group_by(Grupo) %>% 
+  summarise(Media_Red_PAS = mean(Redução_PAS_mmHg, na.rm=TRUE), 
+            DP_Red_PAS = sd(Redução_PAS_mmHg, na.rm=TRUE))
+```
+
+Podemos observar que, em média, o uso de captopril reflete em uma maior redução da pressão arterial sistólica. Essa mesma informação pode ser visualizada analisando a distribuição da redução da PAS por meio de histogramas, indicando uma maior redução média no grupo intervenção.
+
+```{r}
+dados_brutos %>% 
+  ggplot(aes(x=Redução_PAS_mmHg, fill=Grupo)) + 
+  geom_histogram(alpha=0.6, position="identity", bins=30) + 
+  labs(title="Distribuição da Redução da PAS", x="Redução da PAS (mmHg)", y="Frequência")
+```
+
+
+## Verificando a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão
+
+Como a variável *Redução da PAS (mmHg)* é uma variável contínua, para verificar se, de fato, o uso do captopril reduz a pressão arterial sistólica (PAS) em pacientes com hipertensão, podemos realizar um teste t para amostras independentes para comparar as médias de redução da PAS entre os grupos.
+
+Para aplicação do teste t para amostras independentes, alguns pressupostos devem ser satisfeitos:
+
+    a) A variável resposta tem distribuição normal nos dois grupos
+    b) As variâncias dois dois grupos são iguais, ou seja, há homocedasticidade
+    
+
+Verifiquemos se a primeira suposição é satisfeita, usando a função **shapiro.test()** do R para aplicação do teste de normalidade de Shapiro-Wilk nas amostras de cada grupo (intervenção e placebo), adotando um nível de significância $\alpha = 0,05$.
+
+$H_0:$ a variável de interesse é oriunda de uma população com distribuição normal;
+
+$H_a:$ a variável de interesse não é oriunda de uma população com distribuição normal.
+
+```{r message=FALSE, warning=FALSE}
+dados_brutos %>% 
+  dplyr::select(Grupo,Redução_PAS_mmHg) %>% 
+  group_by(Grupo) %>%  
+  summarise_all(.funs = funs(statistic = shapiro.test(.)$statistic, 
+                             p.value = shapiro.test(.)$p.value))
+```
+
+Note que em ambos os grupos o p-valor do teste de normalidade foi maior que o nível de significância adotado, indicando a não rejeição da hipótese nula. Logo é aceitável dizer que a variável *Redução da PAS (mmHg)* tem distribuição normal nos dois grupos.
+
+A segunda suposição pode ser testada utilizando o teste de Levene. É realizado com a função **leveneTest()** do pacote *car* do R.
+
+$H_0: \sigma_I^2 = \sigma_P^2$ (as variâncias são iguais) 
+
+$H_a:\sigma_I^2 \neq \sigma_P^2$ (as variâncias não são iguais)
+
+
+em que $\sigma_I^2$ representa a variância do grupo intervenção e $\sigma_P^2$ a variância do grupo placebo.
+
+```{r}
+leveneTest(Redução_PAS_mmHg ~ as.factor(Grupo), data = dados_brutos)
+```
+
+Podemos observar que o teste somente foi significativo a um nível de significância $\alpha = 0,01$, o que inviabilizaria a aplicação do teste t ao nível de $5\%$ de significância.  Porém, no caso de amostras grandes ($n_1$ e $n_2 \geq 30$), dispomos de um teste em que não é necessária qualquer suposição adicional sobre $\sigma_I^2$ e $\sigma_P^2$, ou seja, as variâncias podem ser iguais ou diferentes. Trata-se do teste z para comparação de médias ($Z_{médias}$).
+
+
+
+Sejam então, as seguintes hipóteses:
+
+$$H_0: \mu_I - \mu_P = 0$$
+$$H_a: \mu_I - \mu_P > 0$$
+em que $\mu_I$ representa a média do grupo intervenção e $\mu_P$ a média do grupo placebo. A estatística do teste para testar a hipótese de igualdade de médias é dada por
+
+$$Z_{médias} = \dfrac{(\bar{x}_I - \bar{x}_P) - (\mu_I - \mu_P)}{\sqrt{\dfrac{s_I^2}{n_I} + \dfrac{s_P^2}{n_P}}}$$
+Sob $H_0$, temos que 
+
+$$Z_{médias} \sim N(0,1)$$
+No R executamos o teste z para comparação de médias da seguinte forma:
+
+```{r}
+captopril = dados_brutos %>% 
+  dplyr::filter(Grupo=='Intervenção') %>% 
+  dplyr::select(Redução_PAS_mmHg) %>% 
+  unlist()
+
+placebo = dados_brutos %>% 
+  dplyr::filter(Grupo=='Controle') %>% 
+  dplyr::select(Redução_PAS_mmHg) %>% unlist()
+
+BSDA::z.test(x = captopril,y = placebo,
+              alternative = "greater",
+              sigma.x = sd(captopril),
+              sigma.y = sd(placebo),
+              conf.level = 0.95)
+```
+
+A estatística do teste z para comparação de médias calculada foi $Z_{médias} = 9,3053$ e o p-valor correspondente foi aproximadamente igual a zero ($p-value < 2.2e-16$). Como esse valor p é menor que $0,05 = \alpha$, temos evidências suficientes para rejeitar a hipótese nula. Assim, concluímos que a redução média da pressão arterial sistólica (PAS) em pacientes com hipertensão é significativamente maior entre os pacientes que tomaram o captopril do que entre os que não tomaram, a um nível de significância igual a 5%. Logo, podemos afirmar que o captopril é eficaz na redução da pressão arterial sistólica (PAS).
+
+## Verificando se a ocorrência de eventos adversos difere entre os grupos.
+
+Como a variável *Eventos_Adversos* é uma variável categórica com dois níveis (Sim = 1/Não = 0), podemos montar uma tabela de contingência para verificar  se a ocorrência de eventos adversos difere entre os grupos.
+
+```{r}
+tabela = dados_brutos %>% 
+  tabyl(Grupo, Eventos_Adversos)%>% 
+  adorn_totals(where = 'both')
+
+tabela
+```
+
+Usamos o teste qui-quadrado para verificar se existe associação entre os eventos adversos e o grupo na qual o paciente pertence:
+
+$H_0:$ A proporção de pacientes que tiveram eventos adversos ao tomar captopril é igual à proporção de pacientes que tiveram eventos adversos ao tomar placebo
+
+```{r, warning=FALSE}
+chisq.test(tabela, correct = FALSE)
+```
+
+O valor crítico ao nível de significância de 5% da distribuição [qui-quadrado](/documentos/Tabela%20da%20Qui-quadrado.pdf) com 1 grau de liberdade é 3,841. Como $\chi^2 = 2,6071 < 3,841 = \chi^2_1(0,05)$, com esse tamanho de amostra não foi detectada diferença significativa entre os grupos (Intervenção e Controle).
+
+Note que podemos chegar à mesma conclusão, de que não foi detectada diferença significativa entre os grupos (Intervenção e Controle) olhando apenas para o p-valor. Neste caso temos
+
+$$\text{p-valor} = P(\chi_1^2 \geq 2,6071) = 0,1064 > 0,05 = \alpha.$$
+Logo, não rejeitamos a hipótese $H_0$. Assim, a ocorrência de eventos adversos não difere entre os grupos.
+
+

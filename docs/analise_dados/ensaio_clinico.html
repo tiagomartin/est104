@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Estudo de Caso: Ensaio clínico sobre a eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores – EST104 - Estatística Aplicada à Saúde</title>
+<title>Análise de dados: Eficácia do captopril na redução da pressão arterial sistólica – EST104 - Estatística Aplicada à Saúde</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -118,9 +132,12 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Estudo de Caso: Ensaio clínico sobre a eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores – EST104 - Estatística Aplicada à Saúde">
+<meta property="og:title" content="Análise de dados: Eficácia do captopril na redução da pressão arterial sistólica – EST104 - Estatística Aplicada à Saúde">
 <meta property="og:description" content="Homepage da disciplina EST104 - Estatística Aplicada à Saúde, 2024/2.">
+<meta property="og:image" content="http://professortp.com.br/est104/analise_dados/ensaio_clinico_files/figure-html/unnamed-chunk-4-1.png">
 <meta property="og:site_name" content="EST104 - Estatística Aplicada à Saúde">
+<meta property="og:image:height" content="960">
+<meta property="og:image:width" content="1344">
 </head>
 
 <body class="nav-sidebar docked">
@@ -132,7 +149,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Estudo de Caso: Ensaio clínico sobre a eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Análise de dados: Eficácia do captopril na redução da pressão arterial sistólica</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -207,16 +224,24 @@ window.Quarto = {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#questões" id="toc-questões" class="nav-link active" data-scroll-target="#questões">Questões</a></li>
+  <li><a href="#objetivos" id="toc-objetivos" class="nav-link active" data-scroll-target="#objetivos">Objetivos</a></li>
+  <li><a href="#preparação" id="toc-preparação" class="nav-link" data-scroll-target="#preparação">Preparação</a>
+  <ul class="collapse">
+  <li><a href="#carregando-os-pacotes-r" id="toc-carregando-os-pacotes-r" class="nav-link" data-scroll-target="#carregando-os-pacotes-r">Carregando os pacotes R</a></li>
+  </ul></li>
+  <li><a href="#carregando-os-dados" id="toc-carregando-os-dados" class="nav-link" data-scroll-target="#carregando-os-dados">Carregando os dados</a></li>
+  <li><a href="#explorando-os-dados-sobre-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas" id="toc-explorando-os-dados-sobre-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas" class="nav-link" data-scroll-target="#explorando-os-dados-sobre-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas">Explorando os dados sobre a eficácia do captopril na redução da pressão arterial sistólica (PAS)</a></li>
+  <li><a href="#verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão" id="toc-verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão" class="nav-link" data-scroll-target="#verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão">Verificando a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão</a></li>
+  <li><a href="#verificando-se-a-ocorrência-de-eventos-adversos-difere-entre-os-grupos." id="toc-verificando-se-a-ocorrência-de-eventos-adversos-difere-entre-os-grupos." class="nav-link" data-scroll-target="#verificando-se-a-ocorrência-de-eventos-adversos-difere-entre-os-grupos.">Verificando se a ocorrência de eventos adversos difere entre os grupos.</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/tiagomartin/est104/edit/main/estudos_de_casos/estudo03.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/tiagomartin/est104/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/tiagomartin/est104/edit/main/analise_dados/ensaio_clinico.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/tiagomartin/est104/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Estudo de Caso: Ensaio clínico sobre a eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores</h1>
+<h1 class="title">Análise de dados: Eficácia do captopril na redução da pressão arterial sistólica</h1>
 </div>
 
 
@@ -233,407 +258,216 @@ window.Quarto = {
 </header>
 
 
-<p>A tianeptina é um fármaco antidepressivo do grupo dos tricíclicos. Sua ação antidepressiva potencial foi demonstrada em estudos pré-clínicos com testes em animais. <span class="citation" data-cites="rocha95">ROCHA (<a href="#ref-rocha95" role="doc-biblioref">1995</a>)</span> relata os resultados de um ensaio clínico aleatorizado controlado, multicêntrico e duplo-cego, realizado com o objetivo de estudar a eficácia e a tolerabilidade da tianeptina. Participaram desse ensaio pacientes de Belo Horizonte, Rio de Janeiro e Campinas.</p>
-<p>Foram selecionados pacientes com episódios depressivos maiores de intensidade moderada ou grave, que procuraram espontaneamente o ambulatório ou que foram encaminhados por profissionais da área de saúde, psiquiatras ou não. Na casuística havia pacientes de ambos os sexos, com idades entre 18 e 60 anos e que assinaram o termo de consentimento livre e esclarecido para participação no estudo. Os pacientes tinham indicação para tratamento antidepressivo farmacológico e foram alocados aleatoriamente no grupo tratamento (que recebeu a tianeptina) ou no grupo controle (que recebeu o placebo). Mais detalhes sobre os critérios de inclusão e exclusão e da metodologia da pesquisa podem ser encontrados em <span class="citation" data-cites="rocha95">ROCHA (<a href="#ref-rocha95" role="doc-biblioref">1995</a>)</span>.</p>
-<p>A depressão foi quantificada por meio da escala de depressão de Montgomery e Asberg (abreviado por MADRS)(<span class="citation" data-cites="Montgomery79">Montgomery e Åsberg (<a href="#ref-Montgomery79" role="doc-biblioref">1979</a>)</span>), composta dos seguintes itens:</p>
-<pre><code>a) Tristeza aparente;
-b) Tristeza expressa;
-c) Tensão interna;
-d) Redução do sono;
-e) Redução do apetite;
-f) Dificuldades de concentração;
-g) Lassidão;
-h) Incapacidade para ressentir;
-i) Pensamentos pessimistas;
-j) Ideias de suicídio.</code></pre>
-<p>A pontuação de cada item varia de zero a seis e, portanto, o escore total varia de zero a 60, sendo que valores mais altos indicam mais gravidade da depressão. A classificação da escala é a seguinte:</p>
+<p>Um grupo de pesquisadores realizou um ensaio clínico randomizado, duplo-cego e controlado por placebo para avaliar a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão estágio 2.</p>
+<p>Foram recrutados 200 pacientes, randomizados em dois grupos:</p>
 <ul>
-<li>ausência de depressão (0 a 6);</li>
-<li>depressão leve (7 a 19);</li>
-<li>depressão moderada (20 a 34);</li>
-<li>depressão grave (35 a 60).</li>
+<li>Grupo Intervenção (Captopril): 100 pacientes</li>
+<li>Grupo Controle (Placebo): 100 pacientes</li>
 </ul>
-<p>O escore foi obtido para cada paciente 7, 14, 21, 28 e 42 dias após o início do ensaio. Os resultados completos de toda a análise estatística para todos os pacientes dos três centros podem ser encontrados em <span class="citation" data-cites="rocha95">ROCHA (<a href="#ref-rocha95" role="doc-biblioref">1995</a>)</span>. São apresentados aqui alguns resultados de pacientes de Belo Horizonte.</p>
-<p>Pelo planejamento adotado, os dois grupos (tianeptina e placebo) não diferiram em termos de depressão no início do ensaio. Assim, evidência sobre o efeito da tianeptina é obtida comparando-se os dois grupos ao fim de 42 dias. A tabela abaixo apresenta os escores finais dos pacientes dos dois grupos admitidos em Belo Horizonte.</p>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;margin:0px auto;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-rcmx{border-color:inherit;font-family:"Lucida Console", Monaco, monospace !important;font-size:14px;font-weight:bold;
-  text-align:center;vertical-align:top}
-.tg .tg-ir54{border-color:inherit;font-family:"Lucida Console", Monaco, monospace !important;font-size:14px;text-align:center;
-  vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-<tr>
-<th class="tg-rcmx">
-Placebo
-</th>
-<th class="tg-rcmx">
-Tianeptina
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tg-ir54">
-6
-</td>
-<td class="tg-ir54">
-10
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-33
-</td>
-<td class="tg-ir54">
-8
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-21
-</td>
-<td class="tg-ir54">
-17
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-26
-</td>
-<td class="tg-ir54">
-4
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-10
-</td>
-<td class="tg-ir54">
-17
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-29
-</td>
-<td class="tg-ir54">
-14
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-33
-</td>
-<td class="tg-ir54">
-9
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-29
-</td>
-<td class="tg-ir54">
-4
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-37
-</td>
-<td class="tg-ir54">
-21
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-15
-</td>
-<td class="tg-ir54">
-3
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-2
-</td>
-<td class="tg-ir54">
-7
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-21
-</td>
-<td class="tg-ir54">
-10
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-7
-</td>
-<td class="tg-ir54">
-29
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-26
-</td>
-<td class="tg-ir54">
-13
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-13
-</td>
-<td class="tg-ir54">
-14
-</td>
-</tr>
-<tr>
-<td class="tg-ir54">
-</td>
-<td class="tg-ir54">
-2
-</td>
-</tr>
-</tbody>
-</table>
-<section id="questões" class="level3">
-<h3 class="anchored" data-anchor-id="questões">Questões</h3>
-<p>Baseado nesse estudo de caso, responda as seguintes questões:</p>
-<ol type="1">
-<li><p>O que podemos concluir a respeito da eficácia da tianeptina no tratamento de episódios depressivos maiores?</p></li>
-<li><p>Foi verificado também se houve diminuição so escore de depressão entre os pacientes de um dos grupos durante o desenvolvimento do estudo. A tabela abaixo mostra os escores dos pacientes do grupo tianeptina que foram admitidos em Belo Horizonte no primeiro dia (<span class="math inline">\(x_1\)</span>) e no último dia (<span class="math inline">\(x_{42}\)</span>).</p></li>
-</ol>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;margin:0px auto;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-rcmx{border-color:inherit;font-family:"Lucida Console", Monaco, monospace !important;font-size:14px;font-weight:bold;
-  text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-ir54{border-color:inherit;font-family:"Lucida Console", Monaco, monospace !important;font-size:14px;text-align:center;
-  vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-<tr>
-<th class="tg-fymr">
-Nº
-</th>
-<th class="tg-rcmx">
-<span class="math inline">\(x_1\)</span>
-</th>
-<th class="tg-rcmx">
-<span class="math inline">\(x_{42}\)</span>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tg-0pky">
-1
-</td>
-<td class="tg-ir54">
-24
-</td>
-<td class="tg-ir54">
-10
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-2
-</td>
-<td class="tg-ir54">
-46
-</td>
-<td class="tg-ir54">
-8
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-3
-</td>
-<td class="tg-ir54">
-26
-</td>
-<td class="tg-ir54">
-17
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-4
-</td>
-<td class="tg-ir54">
-44
-</td>
-<td class="tg-ir54">
-4
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-5
-</td>
-<td class="tg-ir54">
-27
-</td>
-<td class="tg-ir54">
-17
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-6
-</td>
-<td class="tg-ir54">
-34
-</td>
-<td class="tg-ir54">
-14
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-7
-</td>
-<td class="tg-ir54">
-33
-</td>
-<td class="tg-ir54">
-9
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-8
-</td>
-<td class="tg-ir54">
-24
-</td>
-<td class="tg-ir54">
-4
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-9
-</td>
-<td class="tg-ir54">
-16
-</td>
-<td class="tg-ir54">
-21
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-10
-</td>
-<td class="tg-ir54">
-30
-</td>
-<td class="tg-ir54">
-3
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-11
-</td>
-<td class="tg-ir54">
-38
-</td>
-<td class="tg-ir54">
-7
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-12
-</td>
-<td class="tg-ir54">
-8
-</td>
-<td class="tg-ir54">
-10
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-13
-</td>
-<td class="tg-ir54">
-24
-</td>
-<td class="tg-ir54">
-29
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-14
-</td>
-<td class="tg-ir54">
-27
-</td>
-<td class="tg-ir54">
-13
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-15
-</td>
-<td class="tg-ir54">
-34
-</td>
-<td class="tg-ir54">
-14
-</td>
-</tr>
-<tr>
-<td class="tg-0pky">
-16
-</td>
-<td class="tg-ir54">
-14
-</td>
-<td class="tg-ir54">
-2
-</td>
-</tr>
-</tbody>
-</table>
-<p>O que podemos afirmar a respeito dos níveis de depressão para pacientes que fizeram uso de tianeptina?</p>
+<p>Os pesquisadores coletaram os seguintes dados após 12 semanas de tratamento:</p>
+<ul>
+<li>Redução da PAS (mmHg) – variável contínua</li>
+<li>Idade (anos) – variável contínua</li>
+<li>Índice de Massa Corporal (IMC, kg/m²) – variável contínua</li>
+<li>Presença de Diabetes (Sim/Não) – variável categórica</li>
+<li>Uso prévio de anti-hipertensivos (Sim/Não) – variável categórica</li>
+<li>Eventos adversos (Sim/Não) – variável categórica</li>
+</ul>
+<section id="objetivos" class="level2">
+<h2 class="anchored" data-anchor-id="objetivos">Objetivos</h2>
+<ul>
+<li><p>Explorar os dados sobre a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão estágio 2.</p></li>
+<li><p>Verificar a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão estágio 2</p></li>
+<li><p>Verificar se a ocorrência de eventos adversos difere entre os grupos.</p></li>
+</ul>
+<!-- - Investigar se há uma interação entre o efeito do captopril e a presença de diabetes na redução da PAS. -->
+<p>Fonte dos dados:</p>
+<ul>
+<li><a href="https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/dados_ensaio_clinico_complexo.csv" class="uri">https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/dados_ensaio_clinico_complexo.csv</a></li>
+</ul>
+</section>
+<section id="preparação" class="level2">
+<h2 class="anchored" data-anchor-id="preparação">Preparação</h2>
+<section id="carregando-os-pacotes-r" class="level3">
+<h3 class="anchored" data-anchor-id="carregando-os-pacotes-r">Carregando os pacotes R</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  rio,          <span class="co"># importa arquivos</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  here,         <span class="co"># localiza arquivos</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  skimr,        <span class="co"># gera visualização dos dados</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  tidyverse,    <span class="co"># gestão dos dados + gráficos no ggplot2 </span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  gtsummary,    <span class="co"># resumo estatísticos e testes</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  rstatix,      <span class="co"># resumo e testes estatísticos</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  janitor,      <span class="co"># adiciona números absolutos e porcentagens às tabelas</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  scales,       <span class="co"># facilmente converte proporções para porcentagens</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  flextable,    <span class="co"># converte tabelas para o formato de imagens</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  descriptr,    <span class="co"># construir tabela de distribuição de frequência em classes</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  car,          <span class="co"># aplicação do teste de Levene para homogeneidade de variâncias</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  BSDA          <span class="co"># aplicação do teste z para comparação de médias</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  ) </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="carregando-os-dados" class="level2">
+<h2 class="anchored" data-anchor-id="carregando-os-dados">Carregando os dados</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>dados_brutos <span class="ot">=</span> rio<span class="sc">::</span><span class="fu">import</span>(<span class="st">"https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/dados_ensaio_clinico_complexo.csv"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>dados_brutos <span class="sc">%&gt;%</span> <span class="fu">str</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>'data.frame':   200 obs. of  8 variables:
+ $ Paciente             : int  1 2 3 4 5 6 7 8 9 10 ...
+ $ Grupo                : chr  "Intervenção" "Intervenção" "Intervenção" "Intervenção" ...
+ $ Idade                : int  64 58 66 75 57 57 75 67 55 65 ...
+ $ IMC                  : num  29.4 30.2 32.3 32.2 22.5 ...
+ $ Diabetes             : int  0 0 0 1 1 1 1 0 0 1 ...
+ $ Uso_Anti_hipertensivo: int  0 1 0 0 0 1 1 1 0 1 ...
+ $ Redução_PAS_mmHg     : num  17.46 1.32 4.21 20.95 16.37 ...
+ $ Eventos_Adversos     : int  0 0 0 0 0 0 0 1 1 1 ...</code></pre>
+</div>
+</div>
+</section>
+<section id="explorando-os-dados-sobre-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas" class="level2">
+<h2 class="anchored" data-anchor-id="explorando-os-dados-sobre-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas">Explorando os dados sobre a eficácia do captopril na redução da pressão arterial sistólica (PAS)</h2>
+<p>Os principais resultados descritivos são:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>dados_brutos <span class="sc">%&gt;%</span> </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Grupo) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Media_Red_PAS =</span> <span class="fu">mean</span>(Redução_PAS_mmHg, <span class="at">na.rm=</span><span class="cn">TRUE</span>), </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">DP_Red_PAS =</span> <span class="fu">sd</span>(Redução_PAS_mmHg, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 3
+  Grupo       Media_Red_PAS DP_Red_PAS
+  &lt;chr&gt;               &lt;dbl&gt;      &lt;dbl&gt;
+1 Controle             6.61       5.59
+2 Intervenção         15.3        7.43</code></pre>
+</div>
+</div>
+<p>Podemos observar que, em média, o uso de captopril reflete em uma maior redução da pressão arterial sistólica. Essa mesma informação pode ser visualizada analisando a distribuição da redução da PAS por meio de histogramas, indicando uma maior redução média no grupo intervenção.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>dados_brutos <span class="sc">%&gt;%</span> </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span>Redução_PAS_mmHg, <span class="at">fill=</span>Grupo)) <span class="sc">+</span> </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">alpha=</span><span class="fl">0.6</span>, <span class="at">position=</span><span class="st">"identity"</span>, <span class="at">bins=</span><span class="dv">30</span>) <span class="sc">+</span> </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Distribuição da Redução da PAS"</span>, <span class="at">x=</span><span class="st">"Redução da PAS (mmHg)"</span>, <span class="at">y=</span><span class="st">"Frequência"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ensaio_clinico_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão" class="level2">
+<h2 class="anchored" data-anchor-id="verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão">Verificando a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão</h2>
+<p>Como a variável <em>Redução da PAS (mmHg)</em> é uma variável contínua, para verificar se, de fato, o uso do captopril reduz a pressão arterial sistólica (PAS) em pacientes com hipertensão, podemos realizar um teste t para amostras independentes para comparar as médias de redução da PAS entre os grupos.</p>
+<p>Para aplicação do teste t para amostras independentes, alguns pressupostos devem ser satisfeitos:</p>
+<pre><code>a) A variável resposta tem distribuição normal nos dois grupos
+b) As variâncias dois dois grupos são iguais, ou seja, há homocedasticidade</code></pre>
+<p>Verifiquemos se a primeira suposição é satisfeita, usando a função <strong>shapiro.test()</strong> do R para aplicação do teste de normalidade de Shapiro-Wilk nas amostras de cada grupo (intervenção e placebo), adotando um nível de significância <span class="math inline">\(\alpha = 0,05\)</span>.</p>
+<p><span class="math inline">\(H_0:\)</span> a variável de interesse é oriunda de uma população com distribuição normal;</p>
+<p><span class="math inline">\(H_a:\)</span> a variável de interesse não é oriunda de uma população com distribuição normal.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>dados_brutos <span class="sc">%&gt;%</span> </span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(Grupo,Redução_PAS_mmHg) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Grupo) <span class="sc">%&gt;%</span>  </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise_all</span>(<span class="at">.funs =</span> <span class="fu">funs</span>(<span class="at">statistic =</span> <span class="fu">shapiro.test</span>(.)<span class="sc">$</span>statistic, </span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>                             <span class="at">p.value =</span> <span class="fu">shapiro.test</span>(.)<span class="sc">$</span>p.value))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 3
+  Grupo       statistic p.value
+  &lt;chr&gt;           &lt;dbl&gt;   &lt;dbl&gt;
+1 Controle        0.975  0.0518
+2 Intervenção     0.985  0.300 </code></pre>
+</div>
+</div>
+<p>Note que em ambos os grupos o p-valor do teste de normalidade foi maior que o nível de significância adotado, indicando a não rejeição da hipótese nula. Logo é aceitável dizer que a variável <em>Redução da PAS (mmHg)</em> tem distribuição normal nos dois grupos.</p>
+<p>A segunda suposição pode ser testada utilizando o teste de Levene. É realizado com a função <strong>leveneTest()</strong> do pacote <em>car</em> do R.</p>
+<p><span class="math inline">\(H_0: \sigma_I^2 = \sigma_P^2\)</span> (as variâncias são iguais)</p>
+<p><span class="math inline">\(H_a:\sigma_I^2 \neq \sigma_P^2\)</span> (as variâncias não são iguais)</p>
+<p>em que <span class="math inline">\(\sigma_I^2\)</span> representa a variância do grupo intervenção e <span class="math inline">\(\sigma_P^2\)</span> a variância do grupo placebo.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">leveneTest</span>(Redução_PAS_mmHg <span class="sc">~</span> <span class="fu">as.factor</span>(Grupo), <span class="at">data =</span> dados_brutos)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Levene's Test for Homogeneity of Variance (center = median)
+       Df F value  Pr(&gt;F)  
+group   1  6.0561 0.01471 *
+      198                  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+<p>Podemos observar que o teste somente foi significativo a um nível de significância <span class="math inline">\(\alpha = 0,01\)</span>, o que inviabilizaria a aplicação do teste t ao nível de <span class="math inline">\(5\%\)</span> de significância. Porém, no caso de amostras grandes (<span class="math inline">\(n_1\)</span> e <span class="math inline">\(n_2 \geq 30\)</span>), dispomos de um teste em que não é necessária qualquer suposição adicional sobre <span class="math inline">\(\sigma_I^2\)</span> e <span class="math inline">\(\sigma_P^2\)</span>, ou seja, as variâncias podem ser iguais ou diferentes. Trata-se do teste z para comparação de médias (<span class="math inline">\(Z_{médias}\)</span>).</p>
+<p>Sejam então, as seguintes hipóteses:</p>
+<p><span class="math display">\[H_0: \mu_I - \mu_P = 0\]</span> <span class="math display">\[H_a: \mu_I - \mu_P &gt; 0\]</span> em que <span class="math inline">\(\mu_I\)</span> representa a média do grupo intervenção e <span class="math inline">\(\mu_P\)</span> a média do grupo placebo. A estatística do teste para testar a hipótese de igualdade de médias é dada por</p>
+<p><span class="math display">\[Z_{médias} = \dfrac{(\bar{x}_I - \bar{x}_P) - (\mu_I - \mu_P)}{\sqrt{\dfrac{s_I^2}{n_I} + \dfrac{s_P^2}{n_P}}}\]</span> Sob <span class="math inline">\(H_0\)</span>, temos que</p>
+<p><span class="math display">\[Z_{médias} \sim N(0,1)\]</span> No R executamos o teste z para comparação de médias da seguinte forma:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>captopril <span class="ot">=</span> dados_brutos <span class="sc">%&gt;%</span> </span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(Grupo<span class="sc">==</span><span class="st">'Intervenção'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(Redução_PAS_mmHg) <span class="sc">%&gt;%</span> </span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unlist</span>()</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>placebo <span class="ot">=</span> dados_brutos <span class="sc">%&gt;%</span> </span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(Grupo<span class="sc">==</span><span class="st">'Controle'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(Redução_PAS_mmHg) <span class="sc">%&gt;%</span> <span class="fu">unlist</span>()</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>BSDA<span class="sc">::</span><span class="fu">z.test</span>(<span class="at">x =</span> captopril,<span class="at">y =</span> placebo,</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>              <span class="at">alternative =</span> <span class="st">"greater"</span>,</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>              <span class="at">sigma.x =</span> <span class="fu">sd</span>(captopril),</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>              <span class="at">sigma.y =</span> <span class="fu">sd</span>(placebo),</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>              <span class="at">conf.level =</span> <span class="fl">0.95</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Two-sample z-Test
 
+data:  captopril and placebo
+z = 9.3053, p-value &lt; 2.2e-16
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 7.123878       NA
+sample estimates:
+mean of x mean of y 
+15.259091  6.605576 </code></pre>
+</div>
+</div>
+<p>A estatística do teste z para comparação de médias calculada foi <span class="math inline">\(Z_{médias} = 9,3053\)</span> e o p-valor correspondente foi aproximadamente igual a zero (<span class="math inline">\(p-value &lt; 2.2e-16\)</span>). Como esse valor p é menor que <span class="math inline">\(0,05 = \alpha\)</span>, temos evidências suficientes para rejeitar a hipótese nula. Assim, concluímos que a redução média da pressão arterial sistólica (PAS) em pacientes com hipertensão é significativamente maior entre os pacientes que tomaram o captopril do que entre os que não tomaram, a um nível de significância igual a 5%. Logo, podemos afirmar que o captopril é eficaz na redução da pressão arterial sistólica (PAS).</p>
+</section>
+<section id="verificando-se-a-ocorrência-de-eventos-adversos-difere-entre-os-grupos." class="level2">
+<h2 class="anchored" data-anchor-id="verificando-se-a-ocorrência-de-eventos-adversos-difere-entre-os-grupos.">Verificando se a ocorrência de eventos adversos difere entre os grupos.</h2>
+<p>Como a variável <em>Eventos_Adversos</em> é uma variável categórica com dois níveis (Sim = 1/Não = 0), podemos montar uma tabela de contingência para verificar se a ocorrência de eventos adversos difere entre os grupos.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>tabela <span class="ot">=</span> dados_brutos <span class="sc">%&gt;%</span> </span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tabyl</span>(Grupo, Eventos_Adversos)<span class="sc">%&gt;%</span> </span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">adorn_totals</span>(<span class="at">where =</span> <span class="st">'both'</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>tabela</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>       Grupo   0  1 Total
+    Controle  93  7   100
+ Intervenção  86 14   100
+       Total 179 21   200</code></pre>
+</div>
+</div>
+<p>Usamos o teste qui-quadrado para verificar se existe associação entre os eventos adversos e o grupo na qual o paciente pertence:</p>
+<p><span class="math inline">\(H_0:\)</span> A proporção de pacientes que tiveram eventos adversos ao tomar captopril é igual à proporção de pacientes que tiveram eventos adversos ao tomar placebo</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chisq.test</span>(tabela, <span class="at">correct =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Pearson's Chi-squared test
+
+data:  tabela
+X-squared = 2.6071, df = 1, p-value = 0.1064</code></pre>
+</div>
+</div>
+<p>O valor crítico ao nível de significância de 5% da distribuição <a href="..\documentos/Tabela da Qui-quadrado.pdf">qui-quadrado</a> com 1 grau de liberdade é 3,841. Como <span class="math inline">\(\chi^2 = 2,6071 &lt; 3,841 = \chi^2_1(0,05)\)</span>, com esse tamanho de amostra não foi detectada diferença significativa entre os grupos (Intervenção e Controle).</p>
+<p>Note que podemos chegar à mesma conclusão, de que não foi detectada diferença significativa entre os grupos (Intervenção e Controle) olhando apenas para o p-valor. Neste caso temos</p>
+<p><span class="math display">\[\text{p-valor} = P(\chi_1^2 \geq 2,6071) = 0,1064 &gt; 0,05 = \alpha.\]</span> Logo, não rejeitamos a hipótese <span class="math inline">\(H_0\)</span>. Assim, a ocorrência de eventos adversos não difere entre os grupos.</p>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-Montgomery79" class="csl-entry" role="listitem">
-Montgomery, Stuart A., e Marie Åsberg. 1979. <span>«A New Depression Scale Designed to be Sensitive to Change»</span>. <em>British Journal of Psychiatry</em> 134 (4): 382–89. <a href="https://doi.org/10.1192/bjp.134.4.382">https://doi.org/10.1192/bjp.134.4.382</a>.
-</div>
-<div id="ref-rocha95" class="csl-entry" role="listitem">
-ROCHA, Fábio Lopes. 1995. <span>«Eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores : estudo multicêntrico, duplo-cego, controlado com placebo»</span>. Dissertação (mestrado), Universidade Federal de Minas Gerais, Departamento de Medicina Preventiva e Social.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1242,7 +1076,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/tiagomartin/est104/edit/main/estudos_de_casos/estudo03.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/tiagomartin/est104/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/tiagomartin/est104/edit/main/analise_dados/ensaio_clinico.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/tiagomartin/est104/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Página construída usando <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
