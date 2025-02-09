@@ -1,5 +1,5 @@
 ---
-title: "Semana 09"
+title: "Semana 10"
 ---
 
 
@@ -9,13 +9,16 @@ title: "Semana 09"
 
 {{< fa file-pdf size=lg >}} [Entendendo os testes diagnósticos. Parte 2](/artigos/Entendendo os testes diagnósticos_P2.pdf)
 
+{{< fa file-pdf size=lg >}} [Entendendo os testes diagnósticos. Parte 3](/artigos/Entendendo os testes diagnósticos_P3.pdf)
+
+
 ## Exercício em aula
 
 ::: callout-important
 
 ## Fique Atento!
 
-{{< fa file-powerpoint size=2xl >}}[Ensaios clínicos no R](/aulas/Planejamento/ensaios_no_R.html "Ensaios clínicos no R"){aria-label="Ensaios clínicos no R"}
+{{< fa file-powerpoint size=lg >}} [Ensaios clínicos no R](/aulas/Planejamento/ensaios_no_R.html "Ensaios clínicos no R"){aria-label="Ensaios clínicos no R"}
 
 
 -   Data de entrega:
