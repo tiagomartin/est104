@@ -2347,5 +2347,467 @@
     "title": "Análise de dados: Eficácia do captopril na redução da pressão arterial sistólica",
     "section": "Verificando se a ocorrência de eventos adversos difere entre os grupos.",
     "text": "Verificando se a ocorrência de eventos adversos difere entre os grupos.\nComo a variável Eventos_Adversos é uma variável categórica com dois níveis (Sim = 1/Não = 0), podemos montar uma tabela de contingência para verificar se a ocorrência de eventos adversos difere entre os grupos.\n\ntabela = dados_brutos %&gt;% \n  tabyl(Grupo, Eventos_Adversos)%&gt;% \n  adorn_totals(where = 'both')\n\ntabela\n\n       Grupo   0  1 Total\n    Controle  93  7   100\n Intervenção  86 14   100\n       Total 179 21   200\n\n\nUsamos o teste qui-quadrado para verificar se existe associação entre os eventos adversos e o grupo na qual o paciente pertence:\n\\(H_0:\\) A proporção de pacientes que tiveram eventos adversos ao tomar captopril é igual à proporção de pacientes que tiveram eventos adversos ao tomar placebo\n\nchisq.test(tabela, correct = FALSE)\n\n\n    Pearson's Chi-squared test\n\ndata:  tabela\nX-squared = 2.6071, df = 1, p-value = 0.1064\n\n\nO valor crítico ao nível de significância de 5% da distribuição qui-quadrado com 1 grau de liberdade é 3,841. Como \\(\\chi^2 = 2,6071 &lt; 3,841 = \\chi^2_1(0,05)\\), com esse tamanho de amostra não foi detectada diferença significativa entre os grupos (Intervenção e Controle).\nNote que podemos chegar à mesma conclusão, de que não foi detectada diferença significativa entre os grupos (Intervenção e Controle) olhando apenas para o p-valor. Neste caso temos\n\\[\\text{p-valor} = P(\\chi_1^2 \\geq 2,6071) = 0,1064 &gt; 0,05 = \\alpha.\\] Logo, não rejeitamos a hipótese \\(H_0\\). Assim, a ocorrência de eventos adversos não difere entre os grupos."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#o-que-são-testes-diagnósticos",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#o-que-são-testes-diagnósticos",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "O que são testes diagnósticos?",
+    "text": "O que são testes diagnósticos?\nAo fazer um diagnóstico, um médico estabelece um conjunto de diagnósticos alternativos com base nos sinais e sintomas do paciente. Progressivamente ele reduz suas alternativas até chegar à uma doença específica.\n\nAlternativamente, ele pode ter fortes evidências de que o paciente tem uma determinada doença e deseja apenas sua confirmação. Para chegar à uma conclusão final o médico utiliza-se de testes diagnósticos:\n\nexames de laboratório (ex. dosagem de glicose)\nexame clínico (ex. auscultação do pulmão)\nquestionário (ex. CDI (Children’s Depression Inventory))"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#section",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#section",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "",
+    "text": "Sensibilidade\nEspecificidade\nÍndice de Youden (J)\nImplicações\n\n\n\n\n1.00\n1.00\n1.00\nTeste perfeito, ferramenta de diagnóstico ideal\n\n\n0.90\n0.85\n0.75\nExcelente teste, altamente confiável\n\n\n0.80\n0.90\n0.70\nTeste muito bom, geralmente confiável\n\n\n0.70\n0.95\n0.65\nBom teste, adequado para uso\n\n\n0.85\n0.80\n0.65\nBom teste, adequado para uso\n\n\n0.50\n1.00\n0.50\nTeste moderado, aplicação limitada\n\n\n0.60\n0.70\n0.30\nTeste justo, recomenda-se cautela\n\n\n0.40\n0.90\n0.30\nTeste justo, recomenda-se cautela\n\n\n0.30\n0.80\n0.10\nTeste ruim, não recomendado\n\n\n0.20\n0.50\n-0.30\nTeste inadequado, resultados enganosos"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#o-que-são-testes-diagnósticos-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#o-que-são-testes-diagnósticos-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "O que são testes diagnósticos?",
+    "text": "O que são testes diagnósticos?\nUm teste diagnóstico é um instrumento capaz de diagnosticar a doença com determinada precisão.\n\nOs objetivos dos testes incluem a triagem de pacientes, o diagnóstico de doenças e o acompanhamento ou prognóstico referente a evolução do paciente.\n\n\nPara cada teste diagnóstico existe um valor de referência que determina a classificação do resultado do teste como negativo ou positivo."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#o-que-são-testes-diagnósticos-2",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#o-que-são-testes-diagnósticos-2",
+    "title": "Medidas de acurácia e testes diagnósticos",
+    "section": "O que são testes diagnósticos?",
+    "text": "O que são testes diagnósticos?\nUm teste diagnóstico é considerado útil quando ele identifica bem a presença da doença.\n\nAntes de ser adotado o teste deve ser avaliado para verificar sua capacidade de acerto.\n\n\nEsta avaliação é feita aplicando-se o teste a dois grupos de pessoas: um grupo doente o outro não doente.\n\n\nNesta fase, o diagnóstico é feito por outro teste chamado padrão ouro."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#validade-de-testes-diagnósticos",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#validade-de-testes-diagnósticos",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Validade de testes diagnósticos",
+    "text": "Validade de testes diagnósticos\nUm teste diagnóstico é considerado útil quando ele identifica bem a presença da doença.\n\nValidade/Acurácia é a habilidade de um teste em separar os indivíduos doentes daqueles saudáveis.\n\n\nAntes de ser adotado o teste deve ser avaliado para verificar sua capacidade de acerto.\n\n\nEsta avaliação é feita aplicando-se o teste a dois grupos de pessoas: um grupo doente o outro não doente.\n\n\nNesta fase, o diagnóstico é feito por outro teste chamado padrão ouro."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#testes-padrão-ouro",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#testes-padrão-ouro",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Testes padrão ouro",
+    "text": "Testes padrão ouro\n\n\n\n\n\n\n\n\n\n\nReferência para detecção e/ou quantificação de determinado analito.\nUsado como padrão para comparação de novos testes que foram desenvolvidos e, assim, obter sua validade clinico-diagnóstica.\nHipoteticamente o teste padrão ouro identifica todos os não doentes e todos os doentes.\nNa prática, o teste perfeito não existe."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#avaliação-de-testes-de-diagnóstico",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#avaliação-de-testes-de-diagnóstico",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Avaliação de testes de diagnóstico",
+    "text": "Avaliação de testes de diagnóstico\nEsquema padrão dos dados para um teste diagnóstico\n\n\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n    \n        \n\n\n\n\n\n\n\n\n\n\nT+\nT-\nTotal\n\n\nD+\na\nb\nn1 = a + b\n\n\nD\n\n-\nc\nd\nn2 = c + d\n\n\nTotal\na + c\nb + d\nn = a + b + c + d\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\\(T_+\\): O resultado do teste é positivo\n\\(T_-\\): O resultado do teste é negativo\n\n\n\n\\(D_+\\): Indivíduo portador da doença\n\\(D_-\\): Indivíduo não portador da doença"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#sensibilidade-e-especificidade",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#sensibilidade-e-especificidade",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Sensibilidade e especificidade",
+    "text": "Sensibilidade e especificidade\nNa análise da qualidade/acurácia de testes diagnósticos, temos interesse em conhecer duas probabilidades condicionais\n\n\nSensibilidade: probabilidade de o teste ser positivo, sabendo-se que o paciente que está sendo examinado é realmente doente, ou seja,\n\n\\[s = P(T_+|D_+)\\]\n\n\n\nEspecificidade: probabilidade de o teste ser negativo sabendo-se que o paciente examinado não tem a doença, ou seja,\n\n\\[e = P(T_-|D_-)\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#estimação-da-sensibilidade-e-especificidade",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#estimação-da-sensibilidade-e-especificidade",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Estimação da sensibilidade e especificidade",
+    "text": "Estimação da sensibilidade e especificidade\nUsando a definição de probabilidade condicional, a sensibilidade pode ser estimada por\n\\[s = P(T_+|D_+) = \\dfrac{P(T_+ \\cap D_+)}{P(D_+)} = \\dfrac{a}{a+b}\\]\n\ne a especificidade, por\n\\[e = P(T_-|D_-) = \\dfrac{P(T_- \\cap D_-)}{P(D_-)} = \\dfrac{d}{c+d}\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#sensibilidade-e-especificidade-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#sensibilidade-e-especificidade-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Sensibilidade e especificidade",
+    "text": "Sensibilidade e especificidade\n\nEspecificidade: probabilidade de o teste ser negativo sabendo-se que o paciente examinado não tem a doença, ou seja,\n\n\\[e = P(T_-|D_-)\\]\n- Um **teste específico** raramente classificará de forma errônea as pessoas como sendo portadoras da doença quando elas não são"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-sensibilidade-e-especificidade",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-sensibilidade-e-especificidade",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo da sensibilidade e especificidade",
+    "text": "Cálculo da sensibilidade e especificidade\nMalacarne et al. (2019) avaliaram o desempenho de testes para o diagnóstico de tuberculose pulmonar em populações indígenas no Brasil. Os resultados para o teste rápido molecular (TRM) em comparação à cultura de escarro (teste padrão ouro) para todas as amostras de escarro combinadas são mostrados na tabela abaixo.\n\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeste Rápido Molecular (TRM)\n\n\n\n\nCultura do escarro\nTeste positivo (T+)\nTeste negativo (T-)\nTotal\n\n\n\n\nCom TB (D+)\n54\n4\n58\n\n\nSem TB (D-)\n7\n401\n408\n\n\nTotal\n61\n405\n466"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#references",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#references",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "References",
+    "text": "References\n\n\nMalacarne, Jocieli, Alexsandro Heirich, Eunice Cunha, Ida Kolte, Reinaldo Santos, and Paulo Basta. 2019. “Performance of Diagnostic Tests for Pulmonary Tuberculosis in Indigenous Populations in Brazil: The Contribution of Rapid Molecular Testing.” Jornal Brasileiro de Pneumologia 45 (April). https://doi.org/10.1590/1806-3713/e20180185.\n\n\nVecchio, Thomas J. 1966. “Predictive Value of a Single Diagnostic Test in Unselected Populations.” New England Journal of Medicine 274 (21): 1171–73. https://doi.org/10.1056/NEJM196605262742104."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-sensibilidade-e-especificidade-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-sensibilidade-e-especificidade-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo da sensibilidade e especificidade",
+    "text": "Cálculo da sensibilidade e especificidade\nA sensibilidade e a especificidade para o teste rápido molecular (TRM) são dadas, respectivamente, por\n\\[s = \\dfrac{a}{a+b} = \\dfrac{54}{54+4} = 0,9310\\]\ne,\n\\[e = \\dfrac{d}{c+d} = \\dfrac{401}{7+401} = 0,9828\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-da-sensibilidade-e-especificidade",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-da-sensibilidade-e-especificidade",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Combinação da sensibilidade e especificidade",
+    "text": "Combinação da sensibilidade e especificidade\nAlgumas medidas importantes podem ser obtidas pela combinação da sensibilidade e da especificidade:\n\nOdds ratio\nÍndice de Youden\nRazão de verossimilhanças\nAcurácia"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#odds-ratio",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#odds-ratio",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Odds ratio",
+    "text": "Odds ratio\nEm aulas anteriores, definimos a chance de um evento ocorrer ou odds como sendo\n\\[\\dfrac{p}{1-p}\\] em que \\(p\\) é a probabilidade do evendo ocorrer. Isto é, a razão entre a probabilidade de um evento ocorrer e de não ocorrer.\n\nA medida conhecida como odds ratio (OR) é definida como a razão de duas odds."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#estimação-da-sensibilidade-e-especificidade-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#estimação-da-sensibilidade-e-especificidade-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Estimação da sensibilidade e especificidade",
+    "text": "Estimação da sensibilidade e especificidade\nAs estimativas dos complementares da sensibilidade e da especificidade são mostrados na tabela abaixo\n\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n    \n        \n\n\n\n\n\n\n\n\n\n\nT+\nT-\nTotal\n\n\nD+\ns = \\(\\frac{a}{a+b}\\)\n1-s = \\(\\frac{b}{a+b}\\)\n1\n\n\nD\n\n-\n1-e = \\(\\frac{c}{c+d}\\)\ne = \\(\\frac{d}{c+d}\\)\n1"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#odds-ratio-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#odds-ratio-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Odds ratio",
+    "text": "Odds ratio\nNo contexto de qualidade de testes de diagnóstico, a medida OR é definida por:\n\\[OR = \\dfrac{\\dfrac{s}{1-s}}{\\dfrac{1-e}{e}} = \\dfrac{se}{(1-s)(1-e)}\\]\nA definição resulta da razão do produto da sensibilidade e especificidade pelo produto dos seus complementares."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#odds-ratio-2",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#odds-ratio-2",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Odds ratio",
+    "text": "Odds ratio\nInterpretação:\n\n\\(OR \\approx 1\\): indica que a chance de um resultado de teste positivo é a mesma para pacientes com a condição (\\(D_+\\)) e sem a condição (\\(D_-\\))\n\n\n\n\\(OR &gt; 1\\): indica que a chance de um resultado de teste positivo é mais alta para pacientes com a condição.\n\n\n\n\n\\(OR &lt; 1\\): indica que a chance de um resultado de teste positivo é mais alta para pacientes sem a condição."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-odds-ratio",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-odds-ratio",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo da odds ratio",
+    "text": "Cálculo da odds ratio\nVoltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas \n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeste Rápido Molecular (TRM)\n\n\n\n\nCultura do escarro\nTeste positivo (T+)\nTeste negativo (T-)\nTotal\n\n\n\n\nCom TB (D+)\n54\n4\n58\n\n\nSem TB (D-)\n7\n401\n408\n\n\nTotal\n61\n405\n466"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#índice-de-yuoden",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#índice-de-yuoden",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Índice de Yuoden",
+    "text": "Índice de Yuoden"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-odds-ratio-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-odds-ratio-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo da odds ratio",
+    "text": "Cálculo da odds ratio\nBaseado nos dados acima, vimos que\n\\[s = \\dfrac{54}{54+4} = 0,9310 \\text{          e         } e = \\dfrac{401}{7+401} = 0,9828\\] Assim,\n\\[OR = \\dfrac{se}{(1-s)(1-e)} = \\dfrac{0,9310 \\times 0,9828}{(1-0,9310)\\times (1-0,9828)} = 770,96\\]\n\nINTERPRETAÇÃO: A chance de um resultado de teste positivo é de mais de 770 vezes em pacientes com tuberculose pulmonar em relação à do grupo sem a doença."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#índice-de-youden",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#índice-de-youden",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Índice de Youden",
+    "text": "Índice de Youden\nO índice de Youden (\\(J\\)) varia entre -1 e 1, e é definido como\n\\[J = s +  e - 1\\]\n\nInterpretação:\n\nPara um teste perfeito, \\(J = 1\\)\nQuanto mais altas as somas de classificações corretas do teste, nos casos em que a condição do paciente é conhecida, insto é \\(s + e\\), maior será \\(J\\)."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-índice-de-youden",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-índice-de-youden",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo do Índice de Youden",
+    "text": "Cálculo do Índice de Youden\nVoltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas. Neste exemplo, vimos que \\(s = 0,9310\\) e \\(e = 0,9828\\), de forma que\n\\[J = s +  e - 1 = 0,9310 + 0,9828 - 1  = 0,9138\\]\n\nINTERPRETAÇÃO: De acordo com o Índice de Youden, o teste rápido molecular (TRM) é um excelente teste, altamente confiável para o diagnóstico de tuberculose pulmonar em populações indígenas."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#valores-referência-para-o-índice-de-youden",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#valores-referência-para-o-índice-de-youden",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Valores referência para o Índice de Youden",
+    "text": "Valores referência para o Índice de Youden\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\nSensibilidade\nEspecificidade\nÍndice de Youden (J)\nImplicações\n\n\n\n\n1.00\n1.00\n1.00\nTeste perfeito, ferramenta de diagnóstico ideal\n\n\n0.90\n0.85\n0.75\nExcelente teste, altamente confiável\n\n\n0.80\n0.90\n0.70\nTeste muito bom, geralmente confiável\n\n\n0.70\n0.95\n0.65\nBom teste, adequado para uso\n\n\n0.85\n0.80\n0.65\nBom teste, adequado para uso\n\n\n0.50\n1.00\n0.50\nTeste moderado, aplicação limitada\n\n\n0.60\n0.70\n0.30\nTeste justo, recomenda-se cautela\n\n\n0.40\n0.90\n0.30\nTeste justo, recomenda-se cautela\n\n\n0.30\n0.80\n0.10\nTeste ruim, não recomendado\n\n\n0.20\n0.50\n-0.30\nTeste inadequado, resultados enganosos"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#razão-de-verossimilhanças",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#razão-de-verossimilhanças",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Razão de verossimilhanças",
+    "text": "Razão de verossimilhanças\nO índice da razão de verossimilhanças (\\(RV\\)) é definido como a razão entre probabilidades do resultado do teste (positivo ou negativo), entre aqueles com a condição (\\(D_+\\)) e sem a condição (\\(D_-\\)). Assim,\n\\[RV_+ =  \\dfrac{P(T_+|D_+)}{P(T_+|D_-)} = \\dfrac{s}{1-e} \\text{        e       } RV_- = \\dfrac{P(T_-|D_+)}{P(T_-|D_-)} = \\dfrac{1-s}{e}\\]\n\nO índice \\(RV\\) indica a magnitude da evidência de que determinado resultado do teste (positivo ou negativo) fornece a favor da presença da condição em relação à sua ausência."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#razão-de-verossimilhanças-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#razão-de-verossimilhanças-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Razão de verossimilhanças",
+    "text": "Razão de verossimilhanças\nInterpretação:\n\n\\(RV \\approx 1\\): indica que o resultado do teste é igualmente provável nos grupos com e sem a condição.\n\n\n\n\\(RV &gt; 1\\): indica que o resultado do teste é mais provável entre aqueles com a condição comparado aos sem a condição.\n\n\n\n\n\\(RV &lt; 1\\): indica que o resultado do teste é mais provável entre aqueles sem a condição comparado aos com a condição."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-razão-de-verossimilhanças",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-razão-de-verossimilhanças",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo da Razão de verossimilhanças",
+    "text": "Cálculo da Razão de verossimilhanças\nVoltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas. Neste exemplo, vimos que \\(s = 0,9310\\) e \\(e = 0,9828\\), de forma que\n\\[RV_+ =  \\dfrac{P(T_+|D_+)}{P(T_+|D_-)} = \\dfrac{s}{1-e} = \\dfrac{0,9310}{1 - 0,9828}  = 54,13\\]\n\ne,\n\\[RV_- = \\dfrac{P(T_-|D_+)}{P(T_-|D_-)} = \\dfrac{1-s}{e} =\\dfrac{1-0,9310}{0,9828} = 0,07\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-razão-de-verossimilhanças-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-razão-de-verossimilhanças-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo da Razão de verossimilhanças",
+    "text": "Cálculo da Razão de verossimilhanças\n\n\nINTERPRETAÇÃO: Um resultado positivo é aproximadamente 54 vezes mais provável em pacientes com tuberculose pulmonar do que os não doentes e o resultado negativo é aproximadamente 14 vezes \\(\\left(\\dfrac{1}{0,07} = 14,24 \\right)\\) mais provável em pacientes não doentes."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#acurácia",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#acurácia",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Acurácia",
+    "text": "Acurácia\nA acurácia ou probabilidade de um resultado de teste correto é definida por\n\\[acc = P(T_+ \\cap D_+) + P(T_- \\cap D_-)\\] que, pode ser pensada como a proporção de verdadeiros positivos (\\(VP\\)) ou verdadeiros negativos (\\(VN\\)).\n\nTrata-se da média ponderada de sensibilidade e especificidade, com pesos iguais à prevalência (\\(p\\)) e ao complementar da prevalência (\\(1-p\\)).\n\\[acc = P(T_+ \\cap D_+) + P(T_- \\cap D_-) = ps + (1-p)e\\]\n\n\nTambém podemos estimar a acurácia usando \\(acc = \\dfrac{a + d}{a+b+c+d}\\)"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-acurácia",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-acurácia",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo da acurácia",
+    "text": "Cálculo da acurácia\nVoltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas.\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeste Rápido Molecular (TRM)\n\n\n\n\nCultura do escarro\nTeste positivo (T+)\nTeste negativo (T-)\nTotal\n\n\n\n\nCom TB (D+)\n54\n4\n58\n\n\nSem TB (D-)\n7\n401\n408\n\n\nTotal\n61\n405\n466\n\n\n\n\n\n\n\nNeste exemplo, vimos que \\(s = 0,9310\\) e \\(e = 0,9828\\). A prevalência da doença é estimada por \\(p = \\dfrac{58}{466} = 0,12\\), de forma que\n\\[acc = ps + (1-p)e = 0,12 \\times 0,9310 + (1-0,12) \\times 0,9828 = 0,976\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-acurácia-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-acurácia-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo da acurácia",
+    "text": "Cálculo da acurácia\nou ainda,\n\\[acc = \\dfrac{54+401}{466} = 0,976\\]\n\n\nINTERPRETAÇÃO: Esperam-se 97,6% de resultados corretos ao aplicar o teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#valor-de-predição-de-um-teste",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#valor-de-predição-de-um-teste",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Valor de predição de um teste",
+    "text": "Valor de predição de um teste\nOs índices de sensibilidade e especificidade são ilustrativos e bons sintetizadores das qualidades gerais de um teste mas têm uma limitação séria: não ajudam a decisão da equipe médica que, recebendo um paciente com resultado positivo do teste, precisa avaliar se o paciente está ou não doente.\n\nNão se pode depender apenas da sensibilidade e da especificidade, pois estes índices são provenientes de uma situação em que há certeza total sobre o diagnóstico, o que não acontece no consultório médico.\n\n\nDaí, temos a necessidade de dois outros índices que refletem melhor a realidade prática."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#valor-de-predição-de-um-teste-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#valor-de-predição-de-um-teste-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Valor de predição de um teste",
+    "text": "Valor de predição de um teste\nÀ equipe médica seria mais interessante conhecer o valor de predição positiva (VPP) e o valor de predição negativa (VPN) de um teste:\n\n\nValor da predição positiva (\\(VPP\\)): probabilidade do paciente estar realmente doente quando o resultado do teste é positivo, ou seja,\n\n\\[VPP = P(D_+|T_+)\\]\n\n\n\nValor da predição negativa (\\(VPN\\)): probabilidade do paciente não estar doente quando o resultado do teste é negativo, ou seja,\n\n\\[VPP = P(D_-|T_-)\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#valor-de-predição-de-um-teste-2",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#valor-de-predição-de-um-teste-2",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Valor de predição de um teste",
+    "text": "Valor de predição de um teste\nA maneira mais fácil de calcular o \\(VPP\\) e o \\(VPN\\) é através da tabela abaixo, sugerida por Vecchio (1966).\n\nSeja \\(p = P(D_{+})\\) a prevalência (ou proporção) da doença na população de interesse, ou a probabilidade de doença pré-teste.\n\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProporção com resultado\n\n\n\nPopulação\nProporção\nPositivo\nNegativo\n\n\n\n\nDoente\np\nps\np(1-s)\n\n\nSadia\n1 - p\n(1-p)(1-e)\n(1-p)e\n\n\nTotal\n1\nps + (1-p)(1-e)\np(1-s)+(1-p)e"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#valor-preditivo-positivo-e-negativo",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#valor-preditivo-positivo-e-negativo",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Valor preditivo positivo e negativo",
+    "text": "Valor preditivo positivo e negativo\nO valor de predição positiva é obtido dividindo-se a frequência de pacientes doentes pelo total dos testes positivos\n\\[VPP = \\dfrac{ps}{ps + (1-p)(1-e)}\\]\n\nDe forma análoga, considerando-se os pacientes sadios obtemos o valor de predição negativa\n\\[VPN = \\dfrac{(1-p)e}{p(1-s) + (1-p)e}\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#valor-preditivo-positivo-e-negativo-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#valor-preditivo-positivo-e-negativo-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Valor preditivo positivo e negativo",
+    "text": "Valor preditivo positivo e negativo\nObservações:\n\nNote que as expressões de \\(VPP\\) e \\(VPN\\) dependem do conhecimento da prevalência \\(p\\), ou seja, da probabilidade de resultados corretos de diagnóstico.\nJá a sensibilidade e especificidade não dependem do conhecimento de \\(p\\)."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-vpp-e-vpn",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-vpp-e-vpn",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo do VPP e VPN",
+    "text": "Cálculo do VPP e VPN\nVoltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas.\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeste Rápido Molecular (TRM)\n\n\n\n\nCultura do escarro\nTeste positivo (T+)\nTeste negativo (T-)\nTotal\n\n\n\n\nCom TB (D+)\n54\n4\n58\n\n\nSem TB (D-)\n7\n401\n408\n\n\nTotal\n61\n405\n466\n\n\n\n\n\n\n\nNeste exemplo, vimos que \\(s = 0,9310\\) e \\(e = 0,9828\\). A prevalência da doença é estimada por \\(p = \\dfrac{58}{466} = 0,12\\), de forma que"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-vpp-e-vpn-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-vpp-e-vpn-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo do VPP e VPN",
+    "text": "Cálculo do VPP e VPN\n\\[VPP = \\dfrac{ps}{ps + (1-p)(1-e)} = \\dfrac{0,12 \\times 0,9310}{0,12 \\times 0,9310 + (1 - 0,12) \\times (1 - 0,9828)} = 0,88\\]\n\ne,\n\\[VPN = \\dfrac{(1-p)e}{p(1-s) + (1-p)e} = \\dfrac{(1-0,12) \\times 0,9828}{0,12 \\times (1-0,9310) + (1-0,12) \\times 0,9828} = 0,99\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-vpp-e-vpn-2",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-vpp-e-vpn-2",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo do VPP e VPN",
+    "text": "Cálculo do VPP e VPN\n\nINTERPRETAÇÃO: Note que os valores de \\(VPP\\) e \\(VPN\\) são bastante altos. Se o resultado do teste rápido molecular (TRM) é negativo, a chance do paciente não ter tuberculose pulmonar é de 99%. Por outro lado, o fato de o teste diagnóstico dar positivo elevou a probabilidade de o paciente estar doente de 12% para 88%.\n\n\n\nSão esperados após a aplicação do teste rápido molecular (TRM), são esperados 12% de falso-positivos e 1% de falso-negativos."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-vpp-e-vpn-3",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-vpp-e-vpn-3",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo do VPP e VPN",
+    "text": "Cálculo do VPP e VPN\nConsiderações importantes:\n\nQuanto maior o valor da sensibilidade (mais próximo de 1), mais o valor do \\(VPN\\) vai se aproximando de 1.\n\nAssim um teste muito sensível é útil para descartar o diagnóstico se ele der negativo.\n\n\n\n\nQuanto maior o valor de especificidade (mais próximo de 1), mais o valor do \\(VPP\\) vai se aproximando de 1.\n\nAssim um teste muito específico é útil para confirmar o diagnóstico se ele der positivo."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#decisões-incorretas",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#decisões-incorretas",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Decisões incorretas",
+    "text": "Decisões incorretas\nUm teste ideal seria aquele que apresentasse 100% de sensibilidade e de especificidade. Na prática isso não acontece, de forma que podemos definir duas condições de decisões incorretas baseados em testes diagnósticos:\n\n\nProbabilidade de Falso-Positivo (\\(PFP\\)): Proporção de indivíduos que não tem a doença entre aqueles com o teste positivo, ou seja,\n\n\\[PFP = P(D_-|T_+) = 1 - P(D_+|T_+) = 1 - VPP\\]\n\n\n\nProbabilidade de Falso-Negativo (\\(PFN\\)): Proporção de indivíduos que tem a doença entre aqueles com o teste negativo, ou seja,\n\n\\[PFN = P(D_+|T_-) = 1 - P(D_-|T_-) = 1 - VPN\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#decisões-incorretas-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#decisões-incorretas-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Decisões incorretas",
+    "text": "Decisões incorretas\nEssas quantidades podem ser estimadas, respectivamente, por\n\n\\[PFP = 1 - VPP = 1 - \\dfrac{ps}{ps + (1-p)(1-e)} = \\dfrac{(1-p)(1-e)}{ps + (1-p)(1-e)}\\]\n\n\ne,\n\\[PFN = 1 - VPN = 1 - \\dfrac{(1-p)e}{p(1-s) + (1-p)e} = \\dfrac{p(1-s)}{p(1-s) + (1-p)e}\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-de-pfp-e-pfn",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-de-pfp-e-pfn",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo de PFP e PFN",
+    "text": "Cálculo de PFP e PFN\nVoltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas.\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeste Rápido Molecular (TRM)\n\n\n\n\nCultura do escarro\nTeste positivo (T+)\nTeste negativo (T-)\nTotal\n\n\n\n\nCom TB (D+)\n54\n4\n58\n\n\nSem TB (D-)\n7\n401\n408\n\n\nTotal\n61\n405\n466\n\n\n\n\n\n\n\nNeste exemplo, vimos que \\(s = 0,9310\\) e \\(e = 0,9828\\). A prevalência da doença é estimada por \\(p = \\dfrac{58}{466} = 0,12\\), de forma que"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-de-pfp-e-pfn-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-de-pfp-e-pfn-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Cálculo de PFP e PFN",
+    "text": "Cálculo de PFP e PFN\n\\[PFP = \\dfrac{(1-p)(1-e)}{ps + (1-p)(1-e)} = \\dfrac{(1-0,12)\\times(1-0,9828)}{0,12 \\times 0,9310 + (1-0,12)\\times(1-0,9828)} = 0,12\\]\n\ne,\n\\[PFN = \\dfrac{p(1-s)}{p(1-s) + (1-p)e} = \\dfrac{0,12 \\times (1-0,9310)}{0,12 \\times (1-0,9310) + (1-0,12)\\times 0,9828} = 0,01\\]\n\n\n\nINTERPRETAÇÃO: Esperam-se 12% de resultados falsos positivos ao aplicar o teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas. Por outro lado, o TRM mostra-se útil para excluir a doença, uma vez que a probabilidade de um resultado falso-negativo é de 1%."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-de-testes-diagnósticos",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-de-testes-diagnósticos",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Combinação de testes diagnósticos",
+    "text": "Combinação de testes diagnósticos\nMuitas vezes, para o diagnóstico de certa doença, dispomos apenas de testes com \\(VPN\\) ou \\(VPP\\) baixos ou se existe um bom teste, este é muito caro ou oferece grande risco e/ou desconforto ao paciente.\n\nNestas circunstâncias, uma opção é o uso de uma combinação de testes mais simples. A associação de testes eleva a qualidade do diagnóstico, diminuindo o número de resultados incorretos.\n\n\nQuando dois ou mais testes são usados para se chegar a um diagnóstico é preciso saber como são obtidos os índices de qualidade do testes múltiplos. Restringiremos ao caso de apenas dois testes e as idéias podem ser estendidas para o caso de mais testes."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#formas-de-combinação-de-testes",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#formas-de-combinação-de-testes",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Formas de combinação de testes",
+    "text": "Formas de combinação de testes\nAs maneiras mais simples de se formar um teste múltiplo a partir dos resultados de dois testes são os esquemas em paralelo (simultâneo) e em série (sequencial).\n\nNo caso do teste em paralelo, se um dos dois testes for positivo o teste conjunto também é positivo.\n\n\nO teste em série é considerado positivo apenas se os dois testes individuais forem positivos."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#formas-de-combinação-de-testes-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#formas-de-combinação-de-testes-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Formas de combinação de testes",
+    "text": "Formas de combinação de testes\nChamando os testes originais de \\(A\\) e \\(B\\), o teste em paralelo de \\(T_p\\) e o em série de \\(T_s\\), e usando a linguagem de conjuntos temos que:\n\n\\[T_{p+} = A_+ \\cup B_+\\]\n\n\ne,\n\\[T_{s+} = A_+ \\cap B_+\\]\n\n\nAs sensibilidades e especificidades de \\(T_p\\) e \\(T_s\\) são calculadas com o auxílio das regras de cálculo de probabilidades de eventos vistas anteriormente."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-paralelo",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-paralelo",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Combinação em paralelo",
+    "text": "Combinação em paralelo\nÉ de maior utilidade em casos de emergência, quando se necessita de uma abordagem rápida, ou nos casos em que os pacientes são provenientes de lugares distantes.\n\nA tabela abaixo mostra o resultado do teste em paralelo dependendo da classificação dos testes individuais A e B\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\n\n\n\n\n\nTeste A\nTeste B\nTeste em paralelo\n\n\n\n\n-\n-\n-\n\n\n-\n+\n+\n\n\n+\n-\n+\n\n\n+\n+\n+"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-paralelo-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-paralelo-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Combinação em paralelo",
+    "text": "Combinação em paralelo\nAdmitindo-se que os testes \\(A\\) e \\(B\\) são independentes, a sensibilidade do teste em paralelo (\\(s_{P}\\)) é calculada por:\n\\[\n\\begin{eqnarray*}\ns_p &=& P(T_{p+}|D_+) = P(A_+ \\cup B_+|D_+) \\\\ &=& P(A_+|D_+) + P(B_+|D_+) - P(A_+ \\cap B_+|D_+)\n\\end{eqnarray*}\n\\]\nou seja, a sensibilidade do teste em paralelo (\\(s_p\\)) é dada por:\n\\[s_p = s_A + s_B - s_A \\times s_B\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-paralelo-2",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-paralelo-2",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Combinação em paralelo",
+    "text": "Combinação em paralelo\nAdmitindo-se que os testes \\(A\\) e \\(B\\) são independentes, a especificidade do teste em paralelo (\\(e_{P}\\)) é calculada por:\n\\[\n\\begin{eqnarray*}\ne_p &=& P(T_{p-}|D_-) = P(A_- \\cap B_-|D_-) \\\\ &=& P(A_-|D_-) \\times P(B_-|D_-)\n\\end{eqnarray*}\n\\]\nou seja, a sensibilidade do teste em paralelo (\\(e_p\\)) é dada por:\n\\[e_p = e_A \\times e_B\\]\n\nOs índices \\(VPP\\) e \\(VPN\\) são calculados utilizando-se a sensibilidade e especificidade da combinação em paralelo e a prevalência da doença na população de interesse."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-série",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-série",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Combinação em série",
+    "text": "Combinação em série\nNesse caso, os testes são aplicados consecutivamente, sendo o segundo teste aplicado apenas se o primeiro apresentar resultado positivo. Assim, o custo desse tipo de combinação é menor.\n\nEsse procedimento é indicado em situações onde não há necessidade de rápido atendimento e quando o paciente poder ser acompanhado ao longo do tempo."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-série-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-série-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Combinação em série",
+    "text": "Combinação em série\nA tabela abaixo mostra o resultado do teste em série dependendo da classificação dos testes individuais A e B\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\n\n\n\n\n\nTeste A\nTeste B\nTeste em série\n\n\n\n\n-\nDesnecessário\n-\n\n\n+\n-\n-\n\n\n+\n+\n+\n\n\n\n\n\n\n\n\n\n\n\n\nSe os dois testes A e B são independentes, a sensibilidade (\\(s_{s}\\)) deste teste é:\n\\[\\displaystyle s_s=P(T_{s+}\\vert D_{+})=P(A_{+}\\cap B_{+}\\vert D_{+})=P(A_{+}\\vert D_{+})\\times P(B_{+}\\vert D_{+})=s_A \\times s_B\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-série-2",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-série-2",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Combinação em série",
+    "text": "Combinação em série\nA partir de raciocínio análogo, obtemos a expressão para a especificidade (\\(e_s\\)):\n\\[\n\\begin{eqnarray*}\ne_s &=& P(T_{s-}|D_-) = P(A_- \\cup B_-|D_-) \\\\ &=& P(A_-|D_-) + P(B_-|D_-) - P(A_-\\cap B_-|D_-)\n\\end{eqnarray*}\n\\]\nou seja,\n\\[\\displaystyle e_{s}=e_A+e_B-e_A \\times e_B\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-série-3",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#combinação-em-série-3",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Combinação em série",
+    "text": "Combinação em série\nNovamente os valores de \\(VPP\\) e \\(VPN\\) são obtidos usando-se a sensibilidade e especificidade calculadas acima.\n\nPara os cálculos da sensibilidade e especificidade da associação em série e em paralelo, a independência dos dois testes é crucial. Quando os testes não forem independentes, não há uma forma analítica simples para se obter tais índices para um teste composto."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Exemplo de combinação de testes diagnósticos",
+    "text": "Exemplo de combinação de testes diagnósticos\nImagine um paciente idoso com apresentando dores persistentes nas costas e no abdômen, e perda de peso. Na ausência de uma explicação para estes sintomas, a possibilidade de câncer de pâncreas é frequentemente levantada para se verificar esta possibilidade diagnóstica que ambos os testes de ultrassom e tomografia computadorizada do pâncreas sejam solicitados. A sensibilidade e especificidade de ambos os testes são dadas abaixo:\n\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\n\n\n\n\n\nTeste\nSensibilidade\nEspecificidade\n\n\n\n\nA: Ultrassom\n0,80\n0,60\n\n\nB: Tomografia\n0,90\n0,90"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Exemplo de combinação de testes diagnósticos",
+    "text": "Exemplo de combinação de testes diagnósticos\nAdmitindo-se que os resultados dos dois testes sejam independentes, a sensibilidade e a especificidade dos testes combinados em paralelo seriam dadas, respectivamente, por\n\\[s_p = s_A + s_B - s_A \\times s_B = 0,80 + 0,90 - 0,80 \\times 0,90 = 0,98\\]\n\ne,\n\\[e_p = e_A \\times e_B = 0,60 \\times 0,90 =  0,54\\]\n\n\nNote que quando executados em paralelo, a sensibilidade combinada é maior que o mais sensível dos testes, mas a especificidade é menor."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-2",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-2",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Exemplo de combinação de testes diagnósticos",
+    "text": "Exemplo de combinação de testes diagnósticos\nAdmitindo-se que os resultados dos dois testes sejam independentes, a sensibilidade e a especificidade dos testes combinados em série seriam dadas, respectivamente, por\n\\[\\displaystyle s_s=s_A \\times s_B = 0,80 \\times 0,90 = 0,72\\]\n\ne,\n\\[\\displaystyle e_{s}=e_A+e_B-e_A \\times e_B = 0,60 + 0,90 - 0,60 \\times 0,90 = 0,96\\]\n\n\nNote que quando executados em série, a especificidade combinada é maior que o mais específico dos testes, mas a sensibilidade é menor."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-3",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-3",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Exemplo de combinação de testes diagnósticos",
+    "text": "Exemplo de combinação de testes diagnósticos\nAdmitindo-se que a prevalência do câncer de pâncreas no Brasil seja de 2%, encontre os \\(VPP\\), \\(VPN\\), \\(PFP\\) e \\(PFN\\) para cada um ddos testes individuais e combinados.\n\nPara o teste A: Ultrassom, temos\n\\[VPP = \\dfrac{ps}{ps + (1-p)(1-e)} = \\dfrac{0,02 \\times 0,80}{0,02 \\times 0,80 + (1 - 0,02) \\times (1 - 0,60)} = 0,0392\\]\n\n\ne,\n\\[VPN = \\dfrac{(1-p)e}{p(1-s) + (1-p)e} = \\dfrac{(1-0,02) \\times 0,60}{0,02 \\times (1-0,80) + (1-0,02) \\times 0,60} = 0,9932\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-4",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-4",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Exemplo de combinação de testes diagnósticos",
+    "text": "Exemplo de combinação de testes diagnósticos\nPara o teste B: Tomografia, temos\n\\[VPP = \\dfrac{ps}{ps + (1-p)(1-e)} = \\dfrac{0,02 \\times 0,90}{0,02 \\times 0,90 + (1 - 0,02) \\times (1 - 0,90)} = 0,1552\\]\n\ne,\n\\[VPN = \\dfrac{(1-p)e}{p(1-s) + (1-p)e} = \\dfrac{(1-0,02) \\times 0,90}{0,02 \\times (1-0,90) + (1-0,02) \\times 0,90} = 0,9977\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-5",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-5",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Exemplo de combinação de testes diagnósticos",
+    "text": "Exemplo de combinação de testes diagnósticos\nPara os testes combinados em paralelo, temos\n\\[VPP = \\dfrac{ps}{ps + (1-p)(1-e)} = \\dfrac{0,02 \\times 0,98}{0,02 \\times 0,98 + (1 - 0,02) \\times (1 - 0,54)} = 0,0416\\]\n\ne,\n\\[VPN = \\dfrac{(1-p)e}{p(1-s) + (1-p)e} = \\dfrac{(1-0,02) \\times 0,54}{0,02 \\times (1-0,98) + (1-0,02) \\times 0,54} = 0,9992\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-6",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-6",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Exemplo de combinação de testes diagnósticos",
+    "text": "Exemplo de combinação de testes diagnósticos\nPara os testes combinados em série, temos\n\\[VPP = \\dfrac{ps}{ps + (1-p)(1-e)} = \\dfrac{0,02 \\times 0,72}{0,02 \\times 0,72 + (1 - 0,02) \\times (1 - 0,96)} = 0,2686\\]\n\ne,\n\\[VPN = \\dfrac{(1-p)e}{p(1-s) + (1-p)e} = \\dfrac{(1-0,02) \\times 0,96}{0,02 \\times (1-0,72) + (1-0,02) \\times 0,96} = 0,9941\\]"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-7",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-7",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Exemplo de combinação de testes diagnósticos",
+    "text": "Exemplo de combinação de testes diagnósticos\nResumindo os resultados em uma tabela,\n\n\n\n    \n    \n    \n\n\n    \n     \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeste\nSensibilidade\nEspecificidade\nVPP\nVPN\nPFP = 1 - VPP\nPFN = 1 - VPN\n\n\n\n\nA: Ultrassom\n0,80\n0,60\n0,0392\n0,9932\n0,9608\n0,0068\n\n\nB: Tomografia\n0,90\n0,90\n0,1552\n0,9977\n0,8448\n0,0023\n\n\nParalelo\n0,98\n0,54\n0,0416\n0,9992\n0,9584\n0,0008\n\n\nSérie\n0,72\n0,96\n0,2686\n0,9941\n0,7314\n0,0059\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInterpretação:\n\nA combinação em paralelo apresenta alta sensibilidade (98%), mas sua especificidade é mais baixa que a dos testes isolados. Já a combinação em série apresenta alta especificidade (96%), enquanto que a sensibilidade é relativamente baixa comparada com os testes isolados."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-8",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#exemplo-de-combinação-de-testes-diagnósticos-8",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Exemplo de combinação de testes diagnósticos",
+    "text": "Exemplo de combinação de testes diagnósticos\n\nComo esperado, os valores de predição negativa (\\(VPN\\)) são altos, tanto para os testes isolados como para os testes combinados. Entretanto, os valores de predição positiva (\\(VPP\\)) não são altos, sendo que a combinação em série proporcionou o melhor resultado (26,86%)\n\n\n\nPor outro lado, a aplicação do teste combinado em paralelo mostra-se útil para excluir a doença, uma vez que a probabilidade de um resultado falso-negativo é de menos de 1%."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#necessidade-da-combinação-de-testes",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#necessidade-da-combinação-de-testes",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Necessidade da combinação de testes",
+    "text": "Necessidade da combinação de testes\nHá pelo menos duas situações em que a necessidade de combinação de testes surge naturalmente: triagem e diagnóstico individual.\n\n\nTriagem: É um tipo de procedimento que visa classificar pessoas assintomáticas quanto à probabilidade de terem ou não a doença.\n\nÉ aplicado em grande número de pessoas de uma população\nNão faz por si só o diagnóstico, mas aponta as pessoas que tem maior probabilidade de estarem doentes.\nPara essas, é indicado um outro teste diagnóstico para comprovar ou não a presença da doença (testes em série)."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#necessidade-da-combinação-de-testes-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#necessidade-da-combinação-de-testes-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Necessidade da combinação de testes",
+    "text": "Necessidade da combinação de testes\n\nDiagnóstico individual: Aparecem os dois tipos de combinação: em série e em paralelo.\n\nA combinação em paralelo é usada em casos de urgência ou para pacientes residentes em lugares distantes.\nA combinação em série é usada em consultórios e clínicas hospitalares e em casos de testes caros e arriscados."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#necessidade-da-combinação-de-testes-2",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#necessidade-da-combinação-de-testes-2",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Necessidade da combinação de testes",
+    "text": "Necessidade da combinação de testes\n\nDiagnóstico individual: Aparecem os dois tipos de combinação: em série e em paralelo.\n\nA combinação em paralelo é usada em casos de urgência ou para pacientes residentes em lugares distantes.\nA combinação em série é usada em consultórios e clínicas hospitalares e em casos de testes caros e arriscados."
   }
 ]

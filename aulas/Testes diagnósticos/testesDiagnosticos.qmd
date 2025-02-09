@@ -1,0 +1,2078 @@
+---
+title: "Medidas de acurácia de testes diagnósticos"
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    footer: ""
+    theme: quartomonothemer.scss
+    slide-number: c/t
+    show-slide-number: all
+incremental: false
+code-link: true
+bibliography: references.bib
+title-slide-attributes:
+    data-background-image: /images/back.jpeg
+    data-background-size: cover
+    data-background-opacity: "0.3"
+---
+
+# Testes diagnósticos
+
+## O que são testes diagnósticos?
+
+Ao fazer um diagnóstico, um médico estabelece um conjunto de diagnósticos alternativos com base nos sinais e sintomas do paciente. Progressivamente ele reduz suas alternativas até chegar à uma doença específica.
+
+. . .
+
+
+Alternativamente, ele pode ter fortes evidências de que o paciente tem uma determinada doença e deseja apenas sua confirmação. Para chegar à uma conclusão final o médico utiliza-se de testes diagnósticos:
+
+- exames de laboratório (ex. dosagem de glicose)
+- exame clínico (ex. auscultação do pulmão)
+- questionário (ex. CDI (Children's Depression Inventory))
+
+
+## O que são testes diagnósticos?
+
+Um **teste diagnóstico** é um instrumento capaz de **diagnosticar** a doença com determinada **precisão**. 
+
+. . .
+
+Os objetivos dos testes incluem a triagem de pacientes, o diagnóstico de doenças e o acompanhamento ou prognóstico referente a evolução do paciente.
+
+. . .
+
+Para cada teste diagnóstico existe um valor de referência que determina a classificação do resultado do teste como **negativo** ou **positivo**.
+
+
+
+
+## Validade de testes diagnósticos
+
+Um teste diagnóstico é considerado **útil** quando ele identifica bem a presença da doença. 
+
+. . .
+
+**Validade/Acurácia** é a habilidade de um teste em separar os indivíduos doentes daqueles saudáveis.
+
+
+. . .
+
+Antes de ser adotado o teste deve ser avaliado para verificar sua capacidade de acerto. 
+
+. . .
+
+
+Esta avaliação é feita aplicando-se o teste a dois grupos de pessoas: um grupo doente o outro não doente. 
+
+. . .
+
+Nesta fase, o diagnóstico é feito por outro teste chamado **padrão ouro**.
+
+
+## Testes padrão ouro
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](/images/selo_teste_ouro.png){fig-align="center"} 
+:::
+
+::: {.column width="70%"}
+- **Referência** para detecção e/ou quantificação de determinado analito.
+
+- Usado como padrão para comparação de novos testes que foram desenvolvidos e, assim, obter sua **validade** **clinico-diagnóstica**.
+
+- Hipoteticamente o teste padrão ouro identifica **todos** os não doentes e **todos** os doentes.
+
+- Na prática, o teste perfeito não existe. 
+:::
+
+::::
+
+## Avaliação de testes de diagnóstico
+
+Esquema padrão dos dados para um teste diagnóstico
+
+<br>
+
+. . .
+
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab"> </td>
+                <td class="cab">T<sub>+</sub></td>
+                <td class="cab">T<sub>-</sub></td>
+                <td class="cab">Total</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">D<sub>+</sub></td>
+                <td class="cont"> a </td>
+                <td class="cont"> b </td>
+                <td class="cont">n<sub>1</sub> = a + b </td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">D<sub>-</td>
+                <td class="cont"> c </td>
+                <td class="cont"> d </td>
+                <td class="cont">n<sub>2</sub> = c + d </td>
+            </tr>
+
+            <tr class="item color">
+                <td class="cab">Total</td>
+                <td class="cont"> a + c </td>
+                <td class="cont"> b + d </td>
+                <td class="cont"> n = a + b + c + d </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+```
+
+. . .
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="48%"}
+- $T_+$: O resultado do teste é positivo
+- $T_-$: O resultado do teste é negativo
+:::
+
+::: {.column width="52%"}
+- $D_+$: Indivíduo portador da doença
+- $D_-$: Indivíduo não portador da doença
+:::
+
+::::
+
+
+## Sensibilidade e especificidade
+
+Na análise da **qualidade/acurácia** de testes diagnósticos, temos interesse em conhecer duas probabilidades condicionais
+
+. . .
+
+- **Sensibilidade:** probabilidade de o teste ser positivo, sabendo-se que o paciente que está sendo examinado é realmente doente, ou seja,
+
+$$s = P(T_+|D_+)$$
+
+
+. . .
+
+- **Especificidade:** probabilidade de o teste ser negativo sabendo-se que o paciente examinado não tem a doença, ou seja,
+
+$$e = P(T_-|D_-)$$
+
+
+## Estimação da sensibilidade e especificidade
+
+Usando a definição de probabilidade condicional, a sensibilidade pode ser estimada por
+
+$$s = P(T_+|D_+) = \dfrac{P(T_+ \cap D_+)}{P(D_+)} = \dfrac{a}{a+b}$$
+
+. . . 
+
+e a especificidade, por 
+
+$$e = P(T_-|D_-) = \dfrac{P(T_- \cap D_-)}{P(D_-)} = \dfrac{d}{c+d}$$
+
+## Estimação da sensibilidade e especificidade
+
+As estimativas dos complementares da sensibilidade e da especificidade são mostrados na tabela abaixo
+
+<br>
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cab"> </td>
+                <td class="cab">T<sub>+</sub></td>
+                <td class="cab">T<sub>-</sub></td>
+                <td class="cab">Total</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">D<sub>+</sub></td>
+                <td class="cont"> s = <math>
+      <mfrac>
+            <mrow>
+                <mn>a</mn>
+            </mrow>
+            <mn>a+b</mn>
+      </mfrac>
+</math> </td>
+                <td class="cont"> 1-s = <math><mfrac>
+            <mrow>
+                <mn>b</mn>
+            </mrow>
+            <mn>a+b</mn>
+      </mfrac></math> </td>
+                <td class="cont">1</td>
+            </tr>
+
+            <tr class="item">
+                <td class="cab">D<sub>-</td>
+                <td class="cont"> 1-e = <math><mfrac>
+            <mrow>
+                <mn>c</mn>
+            </mrow>
+            <mn>c+d</mn>
+      </mfrac></math> </td>
+                <td class="cont"> e = <math><mfrac>
+            <mrow>
+                <mn>d</mn>
+            </mrow>
+            <mn>c+d</mn>
+      </mfrac></math> </td>
+                <td class="cont">1</td>
+            </tr>
+
+      </table>
+    </div>
+</body>
+</html>
+```
+
+
+
+## Cálculo da sensibilidade e especificidade
+
+@Malacarne19 avaliaram o desempenho de testes para o diagnóstico de tuberculose pulmonar em populações indígenas no Brasil. Os resultados para o teste rápido molecular (TRM) em comparação à cultura de escarro (teste padrão ouro) para todas as amostras de escarro combinadas são mostrados na tabela abaixo.
+
+. . .
+
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:30px;">
+Teste Rápido Molecular (TRM)
+</div>
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+</tr>
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Cultura do escarro
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste positivo (T<sub>+</sub>)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste negativo (T<sub>-</sub>) 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Total
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Com TB (D<sub>+</sub>)
+</td>
+<td style="text-align:center;font-size:30px;">
+54
+</td>
+<td style="text-align:center;font-size:30px;">
+4
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+58
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Sem TB (D<sub>-</sub>)
+</td>
+<td style="text-align:center;font-size:30px;">
+7
+</td>
+<td style="text-align:center;font-size:30px;">
+401
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+408
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:30px;">
+Total
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+61
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+405
+</td>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:30px;">
+466
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+
+## Cálculo da sensibilidade e especificidade
+
+A sensibilidade e a especificidade para o teste rápido molecular (TRM) são dadas, respectivamente, por
+
+$$s = \dfrac{a}{a+b} = \dfrac{54}{54+4} = 0,9310$$
+
+e,
+
+$$e = \dfrac{d}{c+d} = \dfrac{401}{7+401} = 0,9828$$
+
+
+## Combinação da sensibilidade e especificidade
+
+Algumas medidas importantes podem ser obtidas pela **combinação** da sensibilidade e da especificidade:
+
+- *Odds ratio*
+- Índice de Youden
+- Razão de verossimilhanças
+- Acurácia
+
+
+## Odds ratio
+
+Em aulas anteriores, definimos a **chance** de um evento ocorrer ou *odds* como sendo
+
+$$\dfrac{p}{1-p}$$
+em que $p$ é a probabilidade do evendo ocorrer. Isto é, a razão entre a probabilidade de um evento ocorrer e de não ocorrer.
+
+. . . 
+
+A medida conhecida como *odds ratio (OR)* é definida como a razão de duas *odds*.
+
+
+
+## Odds ratio
+
+No contexto de qualidade de testes de diagnóstico, a medida *OR* é definida por:
+
+$$OR = \dfrac{\dfrac{s}{1-s}}{\dfrac{1-e}{e}} = \dfrac{se}{(1-s)(1-e)}$$
+
+A definição resulta da razão do produto da sensibilidade e especificidade pelo produto dos seus complementares.
+
+
+
+## Odds ratio
+
+Interpretação:
+
+- $OR \approx 1$: indica que a chance de um resultado de teste positivo é a mesma para pacientes com a condição ($D_+$) e sem a condição ($D_-$)
+
+. . .
+
+- $OR > 1$: indica que a chance de um resultado de teste positivo é mais alta para pacientes **com** a condição.
+
+. . .
+
+- $OR < 1$: indica que a chance de um resultado de teste positivo é mais alta para pacientes **sem** a condição.
+
+
+## Cálculo da odds ratio
+
+Voltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas 
+<br>
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:30px;">
+Teste Rápido Molecular (TRM)
+</div>
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+</tr>
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Cultura do escarro
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste positivo (T<sub>+</sub>)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste negativo (T<sub>-</sub>) 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Total
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Com TB (D<sub>+</sub>)
+</td>
+<td style="text-align:center;font-size:30px;">
+54
+</td>
+<td style="text-align:center;font-size:30px;">
+4
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+58
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Sem TB (D<sub>-</sub>)
+</td>
+<td style="text-align:center;font-size:30px;">
+7
+</td>
+<td style="text-align:center;font-size:30px;">
+401
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+408
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:30px;">
+Total
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+61
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+405
+</td>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:30px;">
+466
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+## Cálculo da odds ratio
+
+Baseado nos dados acima, vimos que 
+
+$$s = \dfrac{54}{54+4} = 0,9310 \text{          e         } e = \dfrac{401}{7+401} = 0,9828$$
+Assim,
+
+$$OR = \dfrac{se}{(1-s)(1-e)} = \dfrac{0,9310 \times 0,9828}{(1-0,9310)\times (1-0,9828)} = 770,96$$
+
+- **INTERPRETAÇÃO:** A chance de um resultado de teste positivo é de mais de 770 vezes em pacientes com tuberculose pulmonar em relação  à do grupo sem a doença.
+
+
+
+## Índice de Youden
+
+O índice de Youden ($J$) varia entre -1 e 1, e é definido como
+
+
+$$J = s +  e - 1$$
+
+. . .
+
+Interpretação:
+
+- Para um teste perfeito, $J = 1$
+
+- Quanto mais altas as somas de classificações corretas do teste, nos casos em que a condição do paciente é conhecida, insto é $s + e$, maior será $J$.
+
+## Valores referência para o Índice de Youden 
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;font-size:25px;"><span style="color: #003300;">Sensibilidade</span></th>
+<th><span style="color: #003300;font-size:25px;">Especificidade</span></th>
+<th><span style="color: #003300;font-size:25px;">Índice de Youden (J)</span></th>
+<th><span style="color: #003300;font-size:25px;">Implicações</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span style="color: #003300;font-size:25px;">1.00</span></td>
+<td><span style="color: #003300;font-size:25px;">1.00</span></td>
+<td><span style="color: #003300;font-size:25px;">1.00</span></td>
+<td><span style="color: #003300;font-size:25px;">Teste perfeito, ferramenta de diagnóstico ideal</span></td>
+</tr>
+<tr>
+<td><span style="color: #003300;font-size:25px;">0.90</span></td>
+<td><span style="color: #003300;font-size:25px;">0.85</span></td>
+<td><span style="color: #003300;font-size:25px;">0.75</span></td>
+<td><span style="color: #003300;font-size:25px;">Excelente teste, altamente confiável</span></td>
+</tr>
+<tr>
+<td><span style="color: #003300;font-size:25px;">0.80</span></td>
+<td><span style="color: #003300;font-size:25px;">0.90</span></td>
+<td><span style="color: #003300;font-size:25px;">0.70</span></td>
+<td><span style="color: #003300;font-size:25px;">Teste muito bom, geralmente confiável</span></td>
+</tr>
+<tr>
+<td><span style="color: #003300;font-size:25px;">0.70</span></td>
+<td><span style="color: #003300;font-size:25px;">0.95</span></td>
+<td><span style="color: #003300;font-size:25px;">0.65</span></td>
+<td><span style="color: #003300;font-size:25px;">Bom teste, adequado para uso</span></td>
+</tr>
+<tr>
+<td><span style="color: #003300;font-size:25px;">0.85</span></td>
+<td><span style="color: #003300;font-size:25px;">0.80</span></td>
+<td><span style="color: #003300;font-size:25px;">0.65</span></td>
+<td><span style="color: #003300;font-size:25px;">Bom teste, adequado para uso</span></td>
+</tr>
+<tr>
+<td><span style="color: #003300;font-size:25px;">0.50</span></td>
+<td><span style="color: #003300;font-size:25px;">1.00</span></td>
+<td><span style="color: #003300;font-size:25px;">0.50</span></td>
+<td><span style="color: #003300;font-size:25px;">Teste moderado, aplicação limitada</span></td>
+</tr>
+<tr>
+<td><span style="color: #003300;font-size:25px;">0.60</span></td>
+<td><span style="color: #003300;font-size:25px;">0.70</span></td>
+<td><span style="color: #003300;font-size:25px;">0.30</span></td>
+<td><span style="color: #003300;font-size:25px;">Teste justo, recomenda-se cautela</span></td>
+</tr>
+<tr>
+<td><span style="color: #003300;font-size:25px;">0.40</span></td>
+<td><span style="color: #003300;font-size:25px;">0.90</span></td>
+<td><span style="color: #003300;font-size:25px;">0.30</span></td>
+<td><span style="color: #003300;font-size:25px;">Teste justo, recomenda-se cautela</span></td>
+</tr>
+<tr>
+<td><span style="color: #003300;font-size:25px;">0.30</span></td>
+<td><span style="color: #003300;font-size:25px;">0.80</span></td>
+<td><span style="color: #003300;font-size:25px;">0.10</span></td>
+<td><span style="color: #003300;font-size:25px;">Teste ruim, não recomendado</span></td>
+</tr>
+<tr>
+<td><span style="color: #003300;font-size:25px;">0.20</span></td>
+<td><span style="color: #003300;font-size:25px;">0.50</span></td>
+<td><span style="color: #003300;font-size:25px;">-0.30</span></td>
+<td><span style="color: #003300;font-size:25px;">Teste inadequado, resultados enganosos</span></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+
+
+## Cálculo do Índice de Youden
+
+Voltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas. Neste exemplo, vimos que $s = 0,9310$ e $e = 0,9828$, de forma que
+
+
+$$J = s +  e - 1 = 0,9310 + 0,9828 - 1  = 0,9138$$
+
+
+
+- **INTERPRETAÇÃO:** De acordo com o Índice de Youden, o teste rápido molecular (TRM) é um excelente teste, altamente confiável para o diagnóstico de tuberculose pulmonar em populações indígenas.
+
+
+
+
+## Razão de verossimilhanças
+
+O índice da razão de verossimilhanças ($RV$) é definido como a razão entre probabilidades do resultado do teste (positivo ou negativo), entre aqueles com a condição ($D_+$) e sem a condição ($D_-$). Assim,
+
+
+$$RV_+ =  \dfrac{P(T_+|D_+)}{P(T_+|D_-)} = \dfrac{s}{1-e} \text{        e       } RV_- = \dfrac{P(T_-|D_+)}{P(T_-|D_-)} = \dfrac{1-s}{e}$$ 
+
+
+. . .
+
+
+O índice $RV$ indica a magnitude da evidência de que determinado resultado do  teste (positivo ou negativo) fornece a  favor da presença da condição em relação à sua ausência.
+
+
+
+## Razão de verossimilhanças
+
+
+Interpretação:
+
+- $RV \approx 1$: indica que o resultado  do teste é igualmente provável nos grupos com e sem a condição.
+
+. . .
+
+- $RV > 1$: indica que o resultado do teste  é mais provável entre aqueles com a condição comparado aos sem a condição.
+
+. . .
+
+- $RV < 1$: indica que o resultado do teste é mais provável entre aqueles sem a condição comparado aos com a condição.
+
+
+
+
+
+## Cálculo da Razão de verossimilhanças
+
+Voltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas. Neste exemplo, vimos que $s = 0,9310$ e $e = 0,9828$, de forma que
+
+
+$$RV_+ =  \dfrac{P(T_+|D_+)}{P(T_+|D_-)} = \dfrac{s}{1-e} = \dfrac{0,9310}{1 - 0,9828}  = 54,13$$
+
+. . .
+
+
+e,
+
+$$RV_- = \dfrac{P(T_-|D_+)}{P(T_-|D_-)} = \dfrac{1-s}{e} =\dfrac{1-0,9310}{0,9828} = 0,07$$
+
+
+## Cálculo da Razão de verossimilhanças
+
+<br>
+
+
+- **INTERPRETAÇÃO:** Um resultado positivo é aproximadamente 54 vezes mais provável em pacientes com tuberculose pulmonar do que os não doentes e o resultado negativo é aproximadamente 14 vezes $\left(\dfrac{1}{0,07} = 14,24 \right)$ mais provável em pacientes não doentes.
+
+
+
+## Acurácia
+
+A acurácia ou probabilidade de um resultado de teste correto é definida por
+
+$$acc = P(T_+ \cap D_+) + P(T_- \cap D_-)$$
+que, pode ser pensada como a proporção de verdadeiros positivos ($VP$) ou verdadeiros negativos ($VN$).
+
+
+. . .
+
+
+
+Trata-se da média ponderada de sensibilidade e especificidade, com pesos iguais à prevalência ($p$) e ao complementar da prevalência ($1-p$).
+
+$$acc = P(T_+ \cap D_+) + P(T_- \cap D_-) = ps + (1-p)e$$
+
+. . .
+
+
+Também podemos estimar a acurácia usando $acc = \dfrac{a + d}{a+b+c+d}$
+
+
+
+## Cálculo da acurácia
+
+Voltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas.
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:30px;">
+Teste Rápido Molecular (TRM)
+</div>
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+</tr>
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Cultura do escarro
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste positivo (T<sub>+</sub>)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste negativo (T<sub>-</sub>) 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Total
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Com TB (D<sub>+</sub>)
+</td>
+<td style="text-align:center;font-size:30px;">
+54
+</td>
+<td style="text-align:center;font-size:30px;">
+4
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+58
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Sem TB (D<sub>-</sub>)
+</td>
+<td style="text-align:center;font-size:30px;">
+7
+</td>
+<td style="text-align:center;font-size:30px;">
+401
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+408
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:30px;">
+Total
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+61
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+405
+</td>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:30px;">
+466
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+. . .
+
+
+Neste exemplo, vimos que $s = 0,9310$ e $e = 0,9828$. A prevalência da doença é estimada por $p = \dfrac{58}{466} = 0,12$, de forma que
+
+$$acc = ps + (1-p)e = 0,12 \times 0,9310 + (1-0,12) \times 0,9828 = 0,976$$
+
+
+## Cálculo da acurácia
+
+
+ou ainda, 
+
+$$acc = \dfrac{54+401}{466} = 0,976$$
+
+. . .
+
+
+- **INTERPRETAÇÃO:** Esperam-se 97,6% de resultados corretos ao aplicar o teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas.
+
+
+
+
+## Valor de predição de um teste
+
+Os índices de sensibilidade e especificidade são ilustrativos e bons sintetizadores das qualidades gerais de um teste mas têm uma limitação séria: **não ajudam a decisão da equipe médica que, recebendo um paciente com resultado positivo do teste, precisa avaliar se o paciente está ou não doente**.
+
+. . .
+
+
+Não se pode depender apenas da sensibilidade e da especificidade, pois estes índices são provenientes de uma situação em que há certeza total sobre o diagnóstico, o que não acontece no consultório médico.
+
+
+. . .
+
+Daí, temos a necessidade de dois outros índices que refletem melhor a realidade prática.
+
+
+
+## Valor de predição de um teste
+
+À equipe médica seria mais interessante conhecer o valor de predição positiva (VPP) e o valor de predição negativa (VPN) de um teste:
+
+
+. . .
+
+- **Valor da predição positiva ($VPP$):** probabilidade do paciente estar **realmente doente** quando o resultado do **teste é positivo**, ou seja,
+
+$$VPP = P(D_+|T_+)$$
+
+. . .
+
+
+- **Valor da predição negativa ($VPN$):** probabilidade do paciente **não estar doente** quando o resultado do **teste é negativo**, ou seja,
+
+$$VPP = P(D_-|T_-)$$
+
+
+## Valor de predição de um teste
+
+
+A maneira mais fácil de calcular o $VPP$ e o $VPN$ é através da tabela abaixo, sugerida por @Vecchio66. 
+
+. . .
+
+Seja $p = P(D_{+})$ a **prevalência** (ou proporção) da doença na população de interesse, ou a **probabilidade de doença pré-teste**.
+
+<br>
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+</tr>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:30px;">
+Proporção com resultado
+</div>
+</th>
+</tr>
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+População
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Proporção
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Positivo 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Negativo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Doente
+</td>
+<td style="text-align:center;font-style: italic;font-size:30px;">
+p
+</td>
+<td style="text-align:center;font-style: italic;font-size:30px;">
+ps
+</td>
+<td style="text-align:center;font-style: italic;font-size:30px;">
+p(1-s)
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Sadia
+</td>
+<td style="text-align:center;font-style: italic;font-size:30px;">
+1 - p
+</td>
+<td style="text-align:center;font-style: italic;font-size:30px;">
+(1-p)(1-e)
+</td>
+<td style="text-align:center;font-style: italic;;font-size:30px;">
+(1-p)e
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:30px;">
+Total
+</td>
+<td style="text-align:center;font-style: italic;font-size:30px;">
+1
+</td>
+<td style="text-align:center;font-style: italic;font-size:30px;">
+ps + (1-p)(1-e)
+</td>
+<td style="text-align:center;font-style: italic;font-size:30px;">
+p(1-s)+(1-p)e
+</td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+## Valor preditivo positivo e negativo
+
+O valor de predição positiva é obtido dividindo-se a frequência de pacientes doentes pelo total dos testes positivos
+
+$$VPP = \dfrac{ps}{ps + (1-p)(1-e)}$$
+
+
+. . .
+
+
+De forma análoga, considerando-se os pacientes sadios obtemos o valor de predição negativa
+
+$$VPN = \dfrac{(1-p)e}{p(1-s) + (1-p)e}$$
+
+
+## Valor preditivo positivo e negativo
+
+
+Observações:
+
+
+- Note que as expressões de $VPP$ e $VPN$ dependem do conhecimento da prevalência $p$, ou seja, da probabilidade de resultados corretos de diagnóstico.
+
+
+- Já a sensibilidade e especificidade não dependem do conhecimento de $p$.
+
+
+
+
+## Cálculo do VPP e VPN
+
+Voltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas.
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:30px;">
+Teste Rápido Molecular (TRM)
+</div>
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+</tr>
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Cultura do escarro
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste positivo (T<sub>+</sub>)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste negativo (T<sub>-</sub>) 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Total
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Com TB (D<sub>+</sub>)
+</td>
+<td style="text-align:center;font-size:30px;">
+54
+</td>
+<td style="text-align:center;font-size:30px;">
+4
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+58
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Sem TB (D<sub>-</sub>)
+</td>
+<td style="text-align:center;font-size:30px;">
+7
+</td>
+<td style="text-align:center;font-size:30px;">
+401
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+408
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:30px;">
+Total
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+61
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+405
+</td>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:30px;">
+466
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+. . .
+
+
+Neste exemplo, vimos que $s = 0,9310$ e $e = 0,9828$. A prevalência da doença é estimada por $p = \dfrac{58}{466} = 0,12$, de forma que
+
+
+## Cálculo do VPP e VPN
+
+
+
+$$VPP = \dfrac{ps}{ps + (1-p)(1-e)} = \dfrac{0,12 \times 0,9310}{0,12 \times 0,9310 + (1 - 0,12) \times (1 - 0,9828)} = 0,88$$
+
+
+. . .
+
+
+e,
+
+$$VPN = \dfrac{(1-p)e}{p(1-s) + (1-p)e} = \dfrac{(1-0,12) \times 0,9828}{0,12 \times (1-0,9310) + (1-0,12) \times 0,9828} = 0,99$$
+
+
+## Cálculo do VPP e VPN
+
+
+
+- **INTERPRETAÇÃO:** Note que os valores de $VPP$ e $VPN$ são bastante altos. Se o resultado do teste rápido molecular (TRM) é negativo, a chance do paciente não ter tuberculose pulmonar é de 99%. Por outro lado, o fato de o teste diagnóstico dar positivo elevou a probabilidade de o paciente estar doente de 12% para 88%.
+
+. . .
+
+- São esperados após a aplicação do teste rápido molecular (TRM), são esperados 12% de falso-positivos e 1% de falso-negativos.
+
+
+
+## Cálculo do VPP e VPN
+
+
+
+Considerações importantes:
+
+
+- Quanto maior o valor da sensibilidade (mais próximo de 1), mais o valor do $VPN$ vai se aproximando de 1.
+
+    - Assim um teste **muito sensível** é útil para **descartar o diagnóstico** se ele der **negativo**.
+
+
+. . .
+
+
+
+- Quanto maior o valor de especificidade (mais próximo de 1), mais o valor do $VPP$ vai se aproximando de 1.
+
+    - Assim um teste **muito específico** é útil para **confirmar o diagnóstico** se ele der **positivo**.
+
+
+
+
+
+## Decisões incorretas
+
+
+Um **teste ideal** seria aquele que apresentasse 100% de sensibilidade e de especificidade. **Na prática** isso não acontece, de forma que podemos definir duas condições de **decisões incorretas** baseados em testes diagnósticos:
+
+. . .
+
+- **Probabilidade de Falso-Positivo ($PFP$):** Proporção de indivíduos que não tem a doença entre aqueles com o teste positivo, ou seja,
+
+$$PFP = P(D_-|T_+) = 1 - P(D_+|T_+) = 1 - VPP$$
+
+. . .
+
+
+- **Probabilidade de Falso-Negativo ($PFN$):** Proporção de indivíduos que tem a doença entre aqueles com o teste negativo, ou seja,
+
+$$PFN = P(D_+|T_-) = 1 - P(D_-|T_-) = 1 - VPN$$
+
+## Decisões incorretas
+
+Essas quantidades podem ser estimadas, respectivamente, por
+
+. . .
+
+$$PFP = 1 - VPP = 1 - \dfrac{ps}{ps + (1-p)(1-e)} = \dfrac{(1-p)(1-e)}{ps + (1-p)(1-e)}$$
+
+
+
+. . .
+
+
+e,
+
+
+$$PFN = 1 - VPN = 1 - \dfrac{(1-p)e}{p(1-s) + (1-p)e} = \dfrac{p(1-s)}{p(1-s) + (1-p)e}$$
+
+
+## Cálculo de PFP e PFN
+
+Voltando ao exemplo do teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas.
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:30px;">
+Teste Rápido Molecular (TRM)
+</div>
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+</tr>
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Cultura do escarro
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste positivo (T<sub>+</sub>)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste negativo (T<sub>-</sub>) 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Total
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Com TB (D<sub>+</sub>)
+</td>
+<td style="text-align:center;font-size:30px;">
+54
+</td>
+<td style="text-align:center;font-size:30px;">
+4
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+58
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+Sem TB (D<sub>-</sub>)
+</td>
+<td style="text-align:center;font-size:30px;">
+7
+</td>
+<td style="text-align:center;font-size:30px;">
+401
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+408
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:30px;">
+Total
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+61
+</td>
+<td style="text-align:center;font-weight: bold;font-size:30px;">
+405
+</td>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:30px;">
+466
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+. . .
+
+
+Neste exemplo, vimos que $s = 0,9310$ e $e = 0,9828$. A prevalência da doença é estimada por $p = \dfrac{58}{466} = 0,12$, de forma que
+
+
+## Cálculo de PFP e PFN
+
+
+$$PFP = \dfrac{(1-p)(1-e)}{ps + (1-p)(1-e)} = \dfrac{(1-0,12)\times(1-0,9828)}{0,12 \times 0,9310 + (1-0,12)\times(1-0,9828)} = 0,12$$
+
+
+
+. . .
+
+
+e,
+
+
+$$PFN = \dfrac{p(1-s)}{p(1-s) + (1-p)e} = \dfrac{0,12 \times (1-0,9310)}{0,12 \times (1-0,9310) + (1-0,12)\times 0,9828} = 0,01$$
+
+
+. . .
+
+
+- **INTERPRETAÇÃO:** Esperam-se 12% de resultados falsos positivos ao aplicar o teste rápido molecular (TRM) para o diagnóstico de tuberculose pulmonar em populações indígenas. Por outro lado, o TRM mostra-se útil para excluir a doença, uma vez que a probabilidade de um resultado falso-negativo é de 1%.
+
+
+
+
+## Combinação de testes diagnósticos
+
+Muitas vezes, para o diagnóstico de certa doença, dispomos apenas de testes com $VPN$ ou $VPP$ baixos ou se existe um bom teste, este é **muito caro** ou oferece **grande risco e/ou desconforto** ao paciente.
+
+
+. . .
+
+
+Nestas circunstâncias, uma opção é o uso de uma **combinação de testes mais simples**. A associação de testes **eleva a qualidade** do diagnóstico, diminuindo o número de **resultados incorretos**.
+
+
+. . .
+
+Quando dois ou mais testes são usados para se chegar a um diagnóstico é preciso saber como são obtidos os índices de qualidade do testes múltiplos. Restringiremos ao caso de apenas dois testes e as idéias podem ser estendidas para o caso de mais testes.
+
+
+## Formas de combinação de testes
+
+As maneiras mais simples de se formar um **teste múltiplo** a partir dos resultados de dois testes são os esquemas em **paralelo (simultâneo)**  e em **série  (sequencial)**.
+
+
+. . .
+
+No caso do **teste em paralelo**, se **um dos dois testes for positivo** o teste conjunto também é **positivo**.
+
+
+. . .
+
+O **teste em série** é considerado **positivo** apenas se **os dois testes individuais forem positivos**.
+
+
+## Formas de combinação de testes
+
+
+Chamando os testes originais de $A$ e $B$, o teste em paralelo de $T_p$ e o em série de $T_s$, e usando a linguagem de conjuntos temos que:
+
+. . .
+
+
+$$T_{p+} = A_+ \cup B_+$$
+
+. . .
+
+
+e,
+
+
+
+$$T_{s+} = A_+ \cap B_+$$
+
+. . .
+
+As sensibilidades e especificidades de $T_p$ e $T_s$ são calculadas com o auxílio das regras de cálculo de probabilidades de eventos vistas anteriormente.
+
+
+
+## Combinação em paralelo
+
+É de maior utilidade em casos de emergência, quando se necessita de uma abordagem rápida, ou nos casos em que os pacientes são provenientes de lugares distantes.
+
+. . .
+
+A tabela abaixo mostra o resultado do teste em paralelo dependendo da classificação dos testes individuais A e B
+
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+</tr>
+
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste A
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste B
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste em paralelo 
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-size:30px;">
+-
+</td>
+<td style="text-align:center;font-size:30px;">
+-
+</td>
+<td style="text-align:center;font-size:30px;">
+-
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:30px;">
+-
+</td>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+<td style="text-align:center;font-size:30px;">
+-
+</td>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+## Combinação em paralelo
+
+Admitindo-se que os testes $A$ e $B$ são independentes, a sensibilidade do teste em paralelo ($s_{P}$) é calculada por:
+
+
+$$
+\begin{eqnarray*}
+s_p &=& P(T_{p+}|D_+) = P(A_+ \cup B_+|D_+) \\ &=& P(A_+|D_+) + P(B_+|D_+) - P(A_+ \cap B_+|D_+)
+\end{eqnarray*}
+$$
+
+ou seja, a sensibilidade do teste em paralelo ($s_p$) é dada por:
+
+$$s_p = s_A + s_B - s_A \times s_B$$
+
+
+## Combinação em paralelo
+
+Admitindo-se que os testes $A$ e $B$ são independentes, a especificidade do teste em paralelo ($e_{P}$) é calculada por:
+
+
+$$
+\begin{eqnarray*}
+e_p &=& P(T_{p-}|D_-) = P(A_- \cap B_-|D_-) \\ &=& P(A_-|D_-) \times P(B_-|D_-)
+\end{eqnarray*}
+$$
+
+ou seja, a sensibilidade do teste em paralelo ($e_p$) é dada por:
+
+$$e_p = e_A \times e_B$$
+
+. . .
+
+
+Os índices $VPP$ e $VPN$ são calculados utilizando-se a sensibilidade e especificidade da combinação em paralelo e a prevalência da doença na população de interesse.
+
+
+
+## Combinação em série
+
+
+
+Nesse caso, os testes são aplicados **consecutivamente**, sendo o **segundo teste** aplicado apenas se o primeiro apresentar **resultado positivo**. Assim, o **custo** desse tipo de combinação é **menor**.
+
+. . .
+
+Esse procedimento é indicado em situações onde não há necessidade de rápido atendimento e quando o paciente poder
+ser acompanhado ao longo do tempo.
+
+
+
+## Combinação em série
+
+A tabela abaixo mostra o resultado do teste em série dependendo da classificação dos testes individuais A e B
+
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+</tr>
+
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste A
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste B
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste em série 
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-size:30px;">
+-
+</td>
+<td style="text-align:center;font-size:30px;">
+Desnecessário
+</td>
+<td style="text-align:center;font-size:30px;">
+-
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+<td style="text-align:center;font-size:30px;">
+-
+</td>
+<td style="text-align:center;font-size:30px;">
+-
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+<td style="text-align:center;font-size:30px;">
++
+</td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+
+. . .
+
+
+Se os dois testes A e B são independentes, a sensibilidade ($s_{s}$) deste teste é:
+
+
+
+$$\displaystyle s_s=P(T_{s+}\vert D_{+})=P(A_{+}\cap B_{+}\vert D_{+})=P(A_{+}\vert D_{+})\times P(B_{+}\vert D_{+})=s_A \times s_B$$
+
+
+## Combinação em série
+
+
+A partir de raciocínio análogo, obtemos a expressão para a especificidade ($e_s$):
+
+$$
+\begin{eqnarray*}
+e_s &=& P(T_{s-}|D_-) = P(A_- \cup B_-|D_-) \\ &=& P(A_-|D_-) + P(B_-|D_-) - P(A_-\cap B_-|D_-)
+\end{eqnarray*}
+$$
+
+ou seja, 
+
+
+
+$$\displaystyle e_{s}=e_A+e_B-e_A \times e_B$$
+
+## Combinação em série
+
+Novamente os valores de $VPP$ e $VPN$ são obtidos usando-se a sensibilidade e especificidade calculadas acima.
+
+
+. . .
+
+Para os cálculos da sensibilidade e especificidade da associação em série e em paralelo, a **independência dos dois testes é crucial**. Quando os testes **não forem independentes**, não há uma forma analítica simples para se obter tais índices para um teste composto.
+
+
+
+## Exemplo de combinação de testes diagnósticos
+
+
+Imagine  um  paciente  idoso com apresentando dores persistentes nas costas e  no  abdômen,  e  perda  de  peso.  Na ausência  de  uma  explicação  para  estes sintomas,  a  possibilidade  de  câncer  de pâncreas é frequentemente levantada para se  verificar  esta  possibilidade  diagnóstica que  ambos  os  testes  de  ultrassom  e tomografia computadorizada do pâncreas sejam solicitados. A sensibilidade e especificidade de ambos os testes são dadas abaixo:
+
+<br>
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+</tr>
+
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Sensibilidade
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Especificidade 
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-size:30px;">
+A: Ultrassom
+</td>
+<td style="text-align:center;font-size:30px;">
+0,80
+</td>
+<td style="text-align:center;font-size:30px;">
+0,60
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:30px;">
+B: Tomografia
+</td>
+<td style="text-align:center;font-size:30px;">
+0,90
+</td>
+<td style="text-align:center;font-size:30px;">
+0,90
+</td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+
+## Exemplo de combinação de testes diagnósticos
+
+Admitindo-se que os resultados dos dois testes sejam independentes, a sensibilidade e a especificidade dos testes combinados em paralelo seriam dadas, respectivamente, por
+
+$$s_p = s_A + s_B - s_A \times s_B = 0,80 + 0,90 - 0,80 \times 0,90 = 0,98$$
+
+. . .
+
+e,
+
+
+$$e_p = e_A \times e_B = 0,60 \times 0,90 =  0,54$$
+
+. . .
+
+
+Note que quando executados em paralelo, a sensibilidade combinada é maior que o mais sensível dos testes, mas a especificidade é menor.
+
+
+
+
+## Exemplo de combinação de testes diagnósticos
+
+Admitindo-se que os resultados dos dois testes sejam independentes, a sensibilidade e a especificidade dos testes combinados em série seriam dadas, respectivamente, por
+
+$$\displaystyle s_s=s_A \times s_B = 0,80 \times 0,90 = 0,72$$
+
+. . .
+
+e,
+
+
+$$\displaystyle e_{s}=e_A+e_B-e_A \times e_B = 0,60 + 0,90 - 0,60 \times 0,90 = 0,96$$
+
+. . .
+
+
+Note que quando executados em série, a especificidade combinada é maior que o mais específico dos testes, mas a sensibilidade é menor.
+
+
+## Exemplo de combinação de testes diagnósticos
+
+Admitindo-se que a prevalência do câncer de pâncreas no Brasil seja de 2%, encontre os $VPP$, $VPN$, $PFP$ e $PFN$ para cada um ddos testes individuais e combinados.
+
+. . .
+
+
+Para o teste A: Ultrassom, temos
+
+$$VPP = \dfrac{ps}{ps + (1-p)(1-e)} = \dfrac{0,02 \times 0,80}{0,02 \times 0,80 + (1 - 0,02) \times (1 - 0,60)} = 0,0392$$
+
+
+. . .
+
+
+e,
+
+$$VPN = \dfrac{(1-p)e}{p(1-s) + (1-p)e} = \dfrac{(1-0,02) \times 0,60}{0,02 \times (1-0,80) + (1-0,02) \times 0,60} = 0,9932$$
+
+
+
+
+## Exemplo de combinação de testes diagnósticos
+
+
+Para o teste B: Tomografia, temos
+
+$$VPP = \dfrac{ps}{ps + (1-p)(1-e)} = \dfrac{0,02 \times 0,90}{0,02 \times 0,90 + (1 - 0,02) \times (1 - 0,90)} = 0,1552$$
+
+
+. . .
+
+
+e,
+
+$$VPN = \dfrac{(1-p)e}{p(1-s) + (1-p)e} = \dfrac{(1-0,02) \times 0,90}{0,02 \times (1-0,90) + (1-0,02) \times 0,90} = 0,9977$$
+
+
+
+## Exemplo de combinação de testes diagnósticos
+
+
+Para os testes combinados em paralelo, temos
+
+$$VPP = \dfrac{ps}{ps + (1-p)(1-e)} = \dfrac{0,02 \times 0,98}{0,02 \times 0,98 + (1 - 0,02) \times (1 - 0,54)} = 0,0416$$
+
+
+. . .
+
+
+e,
+
+$$VPN = \dfrac{(1-p)e}{p(1-s) + (1-p)e} = \dfrac{(1-0,02) \times 0,54}{0,02 \times (1-0,98) + (1-0,02) \times 0,54} = 0,9992$$
+
+
+## Exemplo de combinação de testes diagnósticos
+
+
+Para os testes combinados em série, temos
+
+$$VPP = \dfrac{ps}{ps + (1-p)(1-e)} = \dfrac{0,02 \times 0,72}{0,02 \times 0,72 + (1 - 0,02) \times (1 - 0,96)} = 0,2686$$
+
+
+. . .
+
+
+e,
+
+$$VPN = \dfrac{(1-p)e}{p(1-s) + (1-p)e} = \dfrac{(1-0,02) \times 0,96}{0,02 \times (1-0,72) + (1-0,02) \times 0,96} = 0,9941$$
+
+## Exemplo de combinação de testes diagnósticos
+
+Resumindo os resultados em uma tabela,
+
+. . .
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+</tr>
+
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Teste 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Sensibilidade
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+Especificidade 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+VPP 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+VPN 
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+PFP = 1 - VPP
+</th>
+<th style="text-align:center;font-weight: bold;font-size:30px;">
+PFN = 1 - VPN
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;font-size:30px;">
+A: Ultrassom
+</td>
+<td style="text-align:center;font-size:30px;">
+0,80
+</td>
+<td style="text-align:center;font-size:30px;">
+0,60
+</td>
+<td style="text-align:center;font-size:30px;">
+0,0392
+</td>
+<td style="text-align:center;font-size:30px;">
+0,9932
+</td>
+<td style="text-align:center;font-size:30px;">
+0,9608
+</td>
+<td style="text-align:center;font-size:30px;">
+0,0068
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-size:30px;">
+B: Tomografia
+</td>
+<td style="text-align:center;font-size:30px;">
+0,90
+</td>
+<td style="text-align:center;font-size:30px;">
+0,90
+</td>
+<td style="text-align:center;font-size:30px;">
+0,1552
+</td>
+<td style="text-align:center;font-size:30px;">
+0,9977
+</td>
+<td style="text-align:center;font-size:30px;">
+0,8448
+</td>
+<td style="text-align:center;font-size:30px;">
+0,0023
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-size:30px;">
+Paralelo
+</td>
+<td style="text-align:center;font-size:30px;">
+0,98
+</td>
+<td style="text-align:center;font-size:30px;">
+0,54
+</td>
+<td style="text-align:center;font-size:30px;">
+0,0416
+</td>
+<td style="text-align:center;font-size:30px;">
+0,9992
+</td>
+<td style="text-align:center;font-size:30px;">
+0,9584
+</td>
+<td style="text-align:center;font-size:30px;">
+0,0008
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-size:30px;">
+Série
+</td>
+<td style="text-align:center;font-size:30px;">
+0,72
+</td>
+<td style="text-align:center;font-size:30px;">
+0,96
+</td>
+<td style="text-align:center;font-size:30px;">
+0,2686
+</td>
+<td style="text-align:center;font-size:30px;">
+0,9941
+</td>
+<td style="text-align:center;font-size:30px;">
+0,7314
+</td>
+<td style="text-align:center;font-size:30px;">
+0,0059
+</td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+. . .
+
+Interpretação:
+
+
+- A combinação em paralelo apresenta alta sensibilidade (98%), mas sua especificidade é mais baixa que a dos testes isolados. Já a combinação em série apresenta alta especificidade (96%), enquanto que a sensibilidade é relativamente baixa comparada com os testes isolados.
+
+
+
+## Exemplo de combinação de testes diagnósticos
+
+
+- Como esperado, os valores de predição negativa ($VPN$) são altos, tanto para os testes isolados como para os testes combinados. Entretanto, os valores de predição positiva ($VPP$) não são altos, sendo que a combinação em série proporcionou o melhor resultado (26,86%)
+
+
+. . .
+ 
+
+- Por outro lado, a aplicação do teste combinado em paralelo mostra-se útil para excluir a doença, uma vez que a probabilidade de um resultado falso-negativo é de menos de 1%.
+
+
+
+## Necessidade da combinação de testes
+
+
+Há pelo menos duas situações em que a necessidade de combinação de testes surge naturalmente: **triagem** e **diagnóstico individual**.
+
+. . .
+
+- **Triagem:** É um tipo de procedimento que visa classificar pessoas assintomáticas quanto à probabilidade de terem ou não a doença. 
+
+    - É aplicado em grande número de pessoas de uma população
+    - Não faz por si só o diagnóstico, mas aponta as pessoas que tem maior probabilidade de estarem doentes. 
+    - Para essas, é indicado um outro teste diagnóstico para comprovar ou não a presença da doença (testes em série).
+
+
+
+
+
+## Necessidade da combinação de testes
+
+
+
+- **Diagnóstico individual:** Aparecem os dois tipos de combinação: em série e em paralelo. 
+
+  - A combinação em paralelo é usada em casos de urgência ou para pacientes residentes em lugares distantes.
+
+  - A combinação em série é usada em consultórios e clínicas hospitalares e em casos de testes caros e arriscados.
+
+
+
+
+
+
+
+
+## References {visibility="uncounted"}
+
+::: {#refs}
+:::
