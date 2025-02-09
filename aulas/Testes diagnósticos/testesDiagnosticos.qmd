@@ -2069,7 +2069,7 @@ Há pelo menos duas situações em que a necessidade de combinação de testes s
 
 
 
-
+## Testes diagnósticos baseados em variáveis contínuas
 
 
 ## References {visibility="uncounted"}

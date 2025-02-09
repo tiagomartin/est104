@@ -2809,5 +2809,180 @@
     "title": "Medidas de acurácia de testes diagnósticos",
     "section": "Necessidade da combinação de testes",
     "text": "Necessidade da combinação de testes\n\nDiagnóstico individual: Aparecem os dois tipos de combinação: em série e em paralelo.\n\nA combinação em paralelo é usada em casos de urgência ou para pacientes residentes em lugares distantes.\nA combinação em série é usada em consultórios e clínicas hospitalares e em casos de testes caros e arriscados."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#estudo-de-caso",
+    "href": "aulas/Planejamento/ensaios_no_R.html#estudo-de-caso",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Estudo de caso",
+    "text": "Estudo de caso\nUm grupo de pesquisadores realizou um ensaio clínico randomizado, duplo-cego e controlado por placebo para avaliar a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão estágio 2.\nForam recrutados 200 pacientes, randomizados em dois grupos:\n\nGrupo Intervenção (Captopril): 100 pacientes\nGrupo Controle (Placebo): 100 pacientes\n\nOs pesquisadores coletaram os seguintes dados após 12 semanas de tratamento:\n\nRedução da PAS (mmHg) – variável contínua\nIdade (anos) – variável contínua\nÍndice de Massa Corporal (IMC, kg/m²) – variável contínua\nPresença de Diabetes (Sim/Não) – variável categórica\nUso prévio de anti-hipertensivos (Sim/Não) – variável categórica\nEventos adversos (Sim/Não) – variável categórica"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#descrição-do-ensaio-clínico",
+    "href": "aulas/Planejamento/ensaios_no_R.html#descrição-do-ensaio-clínico",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Descrição do ensaio clínico",
+    "text": "Descrição do ensaio clínico\nUm grupo de pesquisadores realizou um ensaio clínico randomizado, duplo-cego e controlado por placebo para avaliar a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão estágio 2.\nForam recrutados 200 pacientes, randomizados em dois grupos:\n\nGrupo Intervenção (Captopril): 100 pacientes\nGrupo Controle (Placebo): 100 pacientes"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#descrição-do-ensaio-clínico-1",
+    "href": "aulas/Planejamento/ensaios_no_R.html#descrição-do-ensaio-clínico-1",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Descrição do ensaio clínico",
+    "text": "Descrição do ensaio clínico\nOs pesquisadores coletaram os seguintes dados após 12 semanas de tratamento:\n\nRedução da PAS (mmHg) – variável contínua\nIdade (anos) – variável contínua\nÍndice de Massa Corporal (IMC, kg/m²) – variável contínua\nPresença de Diabetes (Sim/Não) – variável categórica\nUso prévio de anti-hipertensivos (Sim/Não) – variável categórica\nEventos adversos (Sim/Não) – variável categórica"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#objetivos",
+    "href": "aulas/Planejamento/ensaios_no_R.html#objetivos",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nExplorar os dados sobre a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão estágio 2.\nVerificar a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão estágio 2\nVerificar se a ocorrência de eventos adversos difere entre os grupos."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#preparação",
+    "href": "aulas/Planejamento/ensaios_no_R.html#preparação",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Preparação",
+    "text": "Preparação\nCarregando os pacotes R\n\npacman::p_load(\n  rio,          # importa arquivos\n  here,         # localiza arquivos\n  skimr,        # gera visualização dos dados\n  tidyverse,    # gestão dos dados + gráficos no ggplot2 \n  gtsummary,    # resumo estatísticos e testes\n  rstatix,      # resumo e testes estatísticos\n  janitor,      # adiciona números absolutos e porcentagens às tabelas\n  scales,       # facilmente converte proporções para porcentagens\n  flextable,    # converte tabelas para o formato de imagens\n  descriptr,    # construir tabela de distribuição de frequência em classes\n  car,          # aplicação do teste de Levene para homogeneidade de variâncias\n  BSDA          # aplicação do teste z para comparação de médias\n  )"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#code-line-highlighting",
+    "href": "aulas/Planejamento/ensaios_no_R.html#code-line-highlighting",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Code line-highlighting",
+    "text": "Code line-highlighting\nUse #| code-line-numbers: \"3\" syntax - will highlight line and fade other lines\n\n\n```{r}\n#| output-location: column\n#| code-line-numbers: \"3\"\n\nlibrary(ggplot2)\n\nmtcars |&gt; \n  ggplot(aes(x = disp, y = mpg)) +\n  geom_point() +\n  geom_smooth(method = \"loess\", formula = \"y~x\")\n```"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#code-line-highlighting-1",
+    "href": "aulas/Planejamento/ensaios_no_R.html#code-line-highlighting-1",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Code line-highlighting",
+    "text": "Code line-highlighting\nSometimes you want to make a point though…\n\n\n```{r}\n#| output-location: column\n#| code-line-numbers: \"|3\"\n\nlibrary(ggplot2)\n\nmtcars |&gt; \n  ggplot(aes(x = disp, y = mpg)) +\n  geom_point() +\n  geom_smooth(method = \"loess\", formula = \"y~x\")\n```"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#code-line-highlighting-2",
+    "href": "aulas/Planejamento/ensaios_no_R.html#code-line-highlighting-2",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Code line-highlighting",
+    "text": "Code line-highlighting\nAnd I often want to “walk through” a set of code!\n\n\n```{r}\n#| output-location: column\n#| code-line-numbers: \"|3|5|8|10\"\n\nlibrary(ggplot2)\n\nmtcars |&gt; \n  ggplot(aes(x = disp, y = mpg)) +\n  geom_point() +\n  geom_smooth(method = \"loess\", formula = \"y~x\")\n```"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#carregando-os-dados",
+    "href": "aulas/Planejamento/ensaios_no_R.html#carregando-os-dados",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Carregando os dados",
+    "text": "Carregando os dados\n\n\ndados_brutos = rio::import(\"https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/dados_ensaio_clinico_complexo.csv\")\ndados_brutos %&gt;% str()\n\n'data.frame':   200 obs. of  8 variables:\n $ Paciente             : int  1 2 3 4 5 6 7 8 9 10 ...\n $ Grupo                : chr  \"Intervenção\" \"Intervenção\" \"Intervenção\" \"Intervenção\" ...\n $ Idade                : int  64 58 66 75 57 57 75 67 55 65 ...\n $ IMC                  : num  29.4 30.2 32.3 32.2 22.5 ...\n $ Diabetes             : int  0 0 0 1 1 1 1 0 0 1 ...\n $ Uso_Anti_hipertensivo: int  0 1 0 0 0 1 1 1 0 1 ...\n $ Redução_PAS_mmHg     : num  17.46 1.32 4.21 20.95 16.37 ...\n $ Eventos_Adversos     : int  0 0 0 0 0 0 0 1 1 1 ..."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#carregando-os-dados-output",
+    "href": "aulas/Planejamento/ensaios_no_R.html#carregando-os-dados-output",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Carregando os dados",
+    "text": "Carregando os dados\n\n'data.frame':   200 obs. of  8 variables:\n $ Paciente             : int  1 2 3 4 5 6 7 8 9 10 ...\n $ Grupo                : chr  \"Intervenção\" \"Intervenção\" \"Intervenção\" \"Intervenção\" ...\n $ Idade                : int  64 58 66 75 57 57 75 67 55 65 ...\n $ IMC                  : num  29.4 30.2 32.3 32.2 22.5 ...\n $ Diabetes             : int  0 0 0 1 1 1 1 0 0 1 ...\n $ Uso_Anti_hipertensivo: int  0 1 0 0 0 1 1 1 0 1 ...\n $ Redução_PAS_mmHg     : num  17.46 1.32 4.21 20.95 16.37 ...\n $ Eventos_Adversos     : int  0 0 0 0 0 0 0 1 1 1 ..."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#explorando-os-dados-sobre-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas",
+    "href": "aulas/Planejamento/ensaios_no_R.html#explorando-os-dados-sobre-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Explorando os dados sobre a eficácia do captopril na redução da pressão arterial sistólica (PAS)",
+    "text": "Explorando os dados sobre a eficácia do captopril na redução da pressão arterial sistólica (PAS)\n\n\ndados_brutos %&gt;% \n  group_by(Grupo) %&gt;% \n  summarise(Media_Red_PAS = mean(Redução_PAS_mmHg, na.rm=TRUE), \n            DP_Red_PAS = sd(Redução_PAS_mmHg, na.rm=TRUE))\n\n# A tibble: 2 × 3\n  Grupo       Media_Red_PAS DP_Red_PAS\n  &lt;chr&gt;               &lt;dbl&gt;      &lt;dbl&gt;\n1 Controle             6.61       5.59\n2 Intervenção         15.3        7.43"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#explorando-os-dados-sobre-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-1",
+    "href": "aulas/Planejamento/ensaios_no_R.html#explorando-os-dados-sobre-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-1",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Explorando os dados sobre a eficácia do captopril na redução da pressão arterial sistólica (PAS)",
+    "text": "Explorando os dados sobre a eficácia do captopril na redução da pressão arterial sistólica (PAS)\n\n\ndados_brutos %&gt;% \n  ggplot(aes(x=Redução_PAS_mmHg, fill=Grupo)) + \n  geom_histogram(alpha=0.6, position=\"identity\", bins=30) + \n  labs(title=\"Distribuição da Redução da PAS\", x=\"Redução da PAS (mmHg)\", y=\"Frequência\")"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão",
+    "href": "aulas/Planejamento/ensaios_no_R.html#verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Verificando a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão",
+    "text": "Verificando a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão\n\\(H_0:\\) a variável de interesse é oriunda de uma população com distribuição normal;\n\\(H_a:\\) a variável de interesse não é oriunda de uma população com distribuição normal.\n\ndados_brutos %&gt;% \n  dplyr::select(Grupo,Redução_PAS_mmHg) %&gt;% \n  group_by(Grupo) %&gt;%  \n  summarise_all(.funs = funs(statistic = shapiro.test(.)$statistic, \n                             p.value = shapiro.test(.)$p.value))\n\n# A tibble: 2 × 3\n  Grupo       statistic p.value\n  &lt;chr&gt;           &lt;dbl&gt;   &lt;dbl&gt;\n1 Controle        0.975  0.0518\n2 Intervenção     0.985  0.300"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão-1",
+    "href": "aulas/Planejamento/ensaios_no_R.html#verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão-1",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Verificando a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão",
+    "text": "Verificando a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão\n\\[H_0: \\sigma_I^2 = \\sigma_P^2\\]\n\\[H_a:\\sigma_I^2 \\neq \\sigma_P^2\\]\n\n\nleveneTest(Redução_PAS_mmHg ~ as.factor(Grupo), data = dados_brutos)\n\nLevene's Test for Homogeneity of Variance (center = median)\n       Df F value  Pr(&gt;F)  \ngroup   1  6.0561 0.01471 *\n      198                  \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão-2",
+    "href": "aulas/Planejamento/ensaios_no_R.html#verificando-a-eficácia-do-captopril-na-redução-da-pressão-arterial-sistólica-pas-em-pacientes-com-hipertensão-2",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Verificando a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão",
+    "text": "Verificando a eficácia do captopril na redução da pressão arterial sistólica (PAS) em pacientes com hipertensão\n\\[H_0: \\mu_I - \\mu_P = 0\\] \\[H_a: \\mu_I - \\mu_P &gt; 0\\]\n\n\ncaptopril = dados_brutos %&gt;% \n  dplyr::filter(Grupo=='Intervenção') %&gt;% \n  dplyr::select(Redução_PAS_mmHg) %&gt;% \n  unlist()\n\nplacebo = dados_brutos %&gt;% \n  dplyr::filter(Grupo=='Controle') %&gt;% \n  dplyr::select(Redução_PAS_mmHg) %&gt;% unlist()\n\nBSDA::z.test(x = captopril,y = placebo,\n              alternative = \"greater\",\n              sigma.x = sd(captopril),\n              sigma.y = sd(placebo),\n              conf.level = 0.95)\n\n\n\n    Two-sample z-Test\n\ndata:  captopril and placebo\nz = 9.3053, p-value &lt; 2.2e-16\nalternative hypothesis: true difference in means is greater than 0\n95 percent confidence interval:\n 7.123878       NA\nsample estimates:\nmean of x mean of y \n15.259091  6.605576"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#verificando-se-a-ocorrência-de-eventos-adversos-difere-entre-os-grupos.",
+    "href": "aulas/Planejamento/ensaios_no_R.html#verificando-se-a-ocorrência-de-eventos-adversos-difere-entre-os-grupos.",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Verificando se a ocorrência de eventos adversos difere entre os grupos.",
+    "text": "Verificando se a ocorrência de eventos adversos difere entre os grupos.\n\n\ntabela = dados_brutos %&gt;% \n  tabyl(Grupo, Eventos_Adversos)%&gt;% \n  adorn_totals(where = 'both')\n\ntabela\n\n\n       Grupo   0  1 Total\n    Controle  93  7   100\n Intervenção  86 14   100\n       Total 179 21   200\n\n\n\\(H_0:\\) A proporção de pacientes que tiveram eventos adversos ao tomar captopril é igual à proporção de pacientes que tiveram eventos adversos ao tomar placebo\n\nchisq.test(tabela, correct = FALSE)\n\n\n    Pearson's Chi-squared test\n\ndata:  tabela\nX-squared = 2.6071, df = 1, p-value = 0.1064"
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#exercício-sobre-ensaio-clínico",
+    "href": "aulas/Planejamento/ensaios_no_R.html#exercício-sobre-ensaio-clínico",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Exercício sobre ensaio clínico",
+    "text": "Exercício sobre ensaio clínico\nUm ensaio clínico randomizado foi conduzido para avaliar o impacto do empagliflozina (um inibidor de SGLT2) na redução do risco cardiovascular em pacientes com diabetes tipo 2.\nO estudo incluiu 800 participantes, randomizados para dois grupos:\n\nGrupo Empagliflozina (n=400): Receberam Empagliflozina em conjunto com tratamento padrão.\nGrupo Controle (n=400): Receberam apenas o tratamento padrão.\n\nDesfecho primário: Ocorrência de evento cardiovascular maior (infarto, AVC ou morte cardiovascular).\nOs pacientes foram acompanhados por 4 anos, e múltiplas variáveis contínuas e categóricas foram coletadas."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#descrição-sobre-ensaio-clínico",
+    "href": "aulas/Planejamento/ensaios_no_R.html#descrição-sobre-ensaio-clínico",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Descrição sobre ensaio clínico",
+    "text": "Descrição sobre ensaio clínico\nUm ensaio clínico randomizado foi conduzido para avaliar o impacto do empagliflozina (um inibidor de SGLT2) na redução do risco cardiovascular em pacientes com diabetes tipo 2.\nO estudo incluiu 800 participantes, randomizados para dois grupos:\n\nGrupo Empagliflozina (n=400): Receberam Empagliflozina em conjunto com tratamento padrão.\nGrupo Controle (n=400): Receberam apenas o tratamento padrão."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#descrição-sobre-ensaio-clínico-1",
+    "href": "aulas/Planejamento/ensaios_no_R.html#descrição-sobre-ensaio-clínico-1",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Descrição sobre ensaio clínico",
+    "text": "Descrição sobre ensaio clínico\nDesfecho primário: Ocorrência de evento cardiovascular maior (infarto, AVC ou morte cardiovascular).\nOs pacientes foram acompanhados por 4 anos, e múltiplas variáveis contínuas e categóricas foram coletadas."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#descrição-do-ensaio-clínico-2",
+    "href": "aulas/Planejamento/ensaios_no_R.html#descrição-do-ensaio-clínico-2",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Descrição do ensaio clínico",
+    "text": "Descrição do ensaio clínico\nUm ensaio clínico randomizado foi conduzido para avaliar o impacto do empagliflozina (um inibidor de SGLT2) na redução do risco cardiovascular em pacientes com diabetes tipo 2.\nO estudo incluiu 800 participantes, randomizados para dois grupos:\n\nGrupo Empagliflozina (n=400): Receberam empagliflozina em conjunto com tratamento padrão.\nGrupo Controle (n=400): Receberam apenas o tratamento padrão."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#descrição-do-ensaio-clínico-3",
+    "href": "aulas/Planejamento/ensaios_no_R.html#descrição-do-ensaio-clínico-3",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Descrição do ensaio clínico",
+    "text": "Descrição do ensaio clínico\nDesfecho primário: Ocorrência de evento cardiovascular maior (infarto, AVC ou morte cardiovascular).\nOs pacientes foram acompanhados por 4 anos, e múltiplas variáveis contínuas e categóricas foram coletadas."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#descrição-do-ensaio-clínico-4",
+    "href": "aulas/Planejamento/ensaios_no_R.html#descrição-do-ensaio-clínico-4",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Descrição do ensaio clínico",
+    "text": "Descrição do ensaio clínico\nDescrição das Variáveis\n\nGrupo: “Empagliflozina” ou “Controle”.\nSexo: “Masculino” ou “Feminino”.\nFaixa Etária: “40-50”, “51-60” ou “&gt;60” anos.\nHipertensão: 1 = hipertensão prévia, 0 = sem hipertensão.\nUso de Estatina: 1 = sim, 0 = não.\nHbA1c Inicial (%): Nível inicial de hemoglobina glicada.\nRedução HbA1c (%): Queda no nível de HbA1c ao longo do estudo.\nIMC Inicial (kg/m²): Índice de massa corporal no início do estudo.\nRedução IMC (kg/m²): Mudança no IMC após 4 anos.\nEvento Cardiovascular: 1 = infarto, AVC ou morte cardiovascular; 0 = sem evento."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#descrição-das-variáveis",
+    "href": "aulas/Planejamento/ensaios_no_R.html#descrição-das-variáveis",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Descrição das Variáveis",
+    "text": "Descrição das Variáveis\n\nGrupo: “Empagliflozina” ou “Controle”.\nSexo: “Masculino” ou “Feminino”.\nFaixa Etária: “40-50”, “51-60” ou “&gt;60” anos.\nHipertensão: 1 = hipertensão prévia, 0 = sem hipertensão.\nUso de Estatina: 1 = sim, 0 = não.\nHbA1c Inicial (%): Nível inicial de hemoglobina glicada.\nRedução HbA1c (%): Queda no nível de HbA1c ao longo do estudo.\nIMC Inicial (kg/m²): Índice de massa corporal no início do estudo.\nRedução IMC (kg/m²): Mudança no IMC após 4 anos.\nEvento Cardiovascular: 1 = infarto, AVC ou morte cardiovascular; 0 = sem evento."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#objetivos-1",
+    "href": "aulas/Planejamento/ensaios_no_R.html#objetivos-1",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nExplorar os dados sobre a eficácia do empagliflozina na redução do risco cardiovascular em pacientes com diabetes tipo 2.\nVerificar a eficácia do empagliflozina na redução do risco cardiovascular em pacientes com diabetes tipo 2.\nVerificar se a ocorrência de eventos cardiovasculares difere entre os grupos.\nVerificar se existe associação entre o uso de Estatina e a ocorrência de eventos cardiovasculares.\nVerificar a eficácia do empagliflozina na redução do nível de HbA1c.\nVerificar a eficácia do empagliflozina na redução do IMC dos pacientes."
+  },
+  {
+    "objectID": "aulas/Planejamento/ensaios_no_R.html#base-de-dados",
+    "href": "aulas/Planejamento/ensaios_no_R.html#base-de-dados",
+    "title": "Como analisar ensaios clínicos no R?",
+    "section": "Base de dados",
+    "text": "Base de dados\nFonte dos dados:\n-Empagliflozina"
   }
 ]
