@@ -6,6 +6,6 @@ title: "Aulas"
 
 -   [Planejamento na área de saúde](aulas/Planejamento/index.html "Planejamento na área de saúde"){aria-label="Planejamento na área de saúde"}
 
--   Medidas de acurácia e testes diagnósticos
+-   [Medidas de acurácia de testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html "Medidas e acurácia de testes de diagnósticos"){aria-label="Medidas e acurácia de testes de diagnósticos"}
 
 -   Modelos Logístico e Riscos Proporcionais (Cox)

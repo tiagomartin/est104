@@ -1,0 +1,42 @@
+---
+title: "Semana 09"
+---
+
+
+## Leituras interessantes
+
+{{< fa file-pdf size=lg >}} [Entendendo os testes diagnósticos. Parte 1](/artigos/Entendendo os testes diagnósticos_P1.pdf)
+
+{{< fa file-pdf size=lg >}} [Entendendo os testes diagnósticos. Parte 2](/artigos/Entendendo os testes diagnósticos_P2.pdf)
+
+## Exercício em aula
+
+::: callout-important
+
+## Fique Atento!
+
+{{< fa file-powerpoint size=2xl >}}[Ensaios clínicos no R](/aulas/Planejamento/ensaios_no_R.html "Ensaios clínicos no R"){aria-label="Ensaios clínicos no R"}
+
+
+-   Data de entrega:
+    -   12 de fevereiro de 2025
+:::
+
+
+
+## Estudo de caso
+
+::: callout-important
+
+## Fique Atento!
+
+{{< fa laptop-file size=lg >}} [Estudo de Caso 03: Ensaio clínico sobre a eficácia e tolerabilidade da tianeptina no tratamento de episódios depressivos maiores](/estudos_de_casos/estudo03.html "Estudo de caso 03"){aria-label="Estudo de caso 03"} 
+
+-   Data de entrega:
+    -   17 de fevereiro de 2025
+:::
+
+
+## Slides
+
+{{< fa file-powerpoint size=lg >}} [Testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html "Testes diagnósticos"){aria-label="Testes diagnósticos"}
