@@ -1597,10 +1597,180 @@ e_s &amp;=&amp; P(T_{s-}|D_-) = P(A_- \cup B_-|D_-) \\ &amp;=&amp; P(A_-|D_-) + 
 </section>
 <section id="testes-diagnósticos-baseados-em-variáveis-contínuas" class="slide level2">
 <h2>Testes diagnósticos baseados em variáveis contínuas</h2>
+<p>Até agora, definimos a qualidade de um teste diagnóstico utilizando variáveis dicotômicas (teste positivo/teste negativo, doente/sadio)</p>
+<div class="fragment">
+<p>Em muitas situações, variáveis quantitativas servem como indicador de uma doença:</p>
+</div>
+<div class="fragment">
+<ul>
+<li>níveis de pressão diastólica para diagnóstico de hipertensão;</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>glicemia elevada para diagnóstico de diabetes;</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>entre outras.</li>
+</ul>
+</div>
+</section>
+<section id="testes-diagnósticos-baseados-em-variáveis-contínuas-1" class="slide level2">
+<h2>Testes diagnósticos baseados em variáveis contínuas</h2>
+<p>Para dados de variáveis contínuas, surge a questão de como <strong>dicotomizar</strong> de forma que os dados sejam colocados no formato da tabela considerada anteriormente.</p>
+<div class="fragment">
+<p>A ideia é estabelecer o limite entre o que será considerado sadio ou doente, ou seja, o valor a partir do qual o teste é considerado positivo ou negativo.</p>
+</div>
+<div class="fragment">
+<p>A esse limite chamamos <em>valor de referência</em> ou <em>ponto de corte</em>.</p>
+<div class="columns">
+<div class="column" style="width:10%;">
+<p><span style="font-size:100px;">🔎</span></p>
+</div><div class="column" style="width:90%;">
+<div style="margin-top: 40px; font-size: 1.5em; color: red;">
+<p>Qual o melhor ponto de corte?</p>
+</div>
+</div></div>
+</div>
+</section>
+<section id="curva-roc-receiver-operator-characteristic" class="slide level2">
+<h2>Curva ROC (Receiver Operator Characteristic)</h2>
+<p>A <strong>curva ROC</strong> avalia o desempenho dos testes e a variação da sensibilidade e especificidade para diferentes valores de corte num gráfico que apresenta a proporção dos verdadeiros positivos (sensibilidade), no eixo Y, versus a proporção dos falsos positivos (1-especificidade), no eixo X.</p>
+<div class="fragment">
+<p>Desta forma, a Curva ROC é um <strong>gráfico de sensibilidade</strong>.</p>
+</div>
+</section>
+<section id="curva-roc-receiver-operator-characteristic-1" class="slide level2">
+<h2>Curva ROC (Receiver Operator Characteristic)</h2>
+
+<img data-src="../..\images/roc.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="curva-roc-receiver-operator-characteristic-2" class="slide level2">
+<h2>Curva ROC (Receiver Operator Characteristic)</h2>
+<ul>
+<li>Observe que na curva 1, é representado o ponto de maior acurácia do teste (100%). Aqui temos a situação do teste ideal (<span class="math inline">\(s=1\)</span>, <span class="math inline">\(e=1\)</span>).</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>A curva 2 representa uma boa curva, por exemplo, uma acurácia de 85%, que significa que em 85% das vezes em que for utilizado, o teste discriminará os verdadeiros positivos e negativos, mas também significa que em 15% das vezes fornecerá um falso resultado.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>A curva 3, expressa a acurácia de 50% e significa que o teste é tão bom quanto qualquer escolha ao acaso. Em geral, uma acurácia maior ou igual a 70% é considerada satisfatória.</li>
+</ul>
+</div>
+</section>
+<section id="curva-roc-receiver-operator-characteristic-3" class="slide level2">
+<h2>Curva ROC (Receiver Operator Characteristic)</h2>
+<p>O valor escolhido como <strong>ponto de corte</strong> influenciará as características do teste.</p>
+<div class="fragment">
+<p>Na curva 2, quanto menor o ponto de corte (ponto A), maior é a sensibilidade, mas menor é a especificidade. Neste caso, se pretendemos um <strong>teste muito sensível</strong> e <strong>menos específico</strong>, escolhe-se este ponto para obter uma <strong>menor proporção de falsos negativos</strong> e uma <strong>maior proporção de falsos positivos</strong>.</p>
+</div>
+<div class="fragment">
+<p>O ponto de corte localizado no ponto B permite pôr em evidência os valores para os quais existe maior optimização da sensibilidade em função da especificidade.</p>
+</div>
+<div class="fragment">
+<p>Já quanto maior o ponto de corte (ponto C), maior especificidade, porém, menor sensibilidade. Neste caso, se pretendemos um <strong>teste muito específico</strong> e <strong>menos sensível</strong>, escolhe-se o ponto C, obtendo-se uma <strong>menor proporção de falsos positivos</strong> e <strong>uma maior proporção de falsos negativos</strong>.</p>
+</div>
+</section>
+<section id="curva-roc-receiver-operator-characteristic-4" class="slide level2">
+<h2>Curva ROC (Receiver Operator Characteristic)</h2>
+<p>O valor do <strong>ponto de corte</strong> é definido como um valor que pode ser selecionado, arbitrariamente, pelo pesquisador entre os valores possíveis para a variável de decisão.</p>
+<div class="fragment">
+<p>Acima do ponto de corte, o paciente é classificado como positivo (teste positivo, presença de doença) e, abaixo, é classificado como negativo (teste negativo, ausência de doença).</p>
+</div>
+<div class="fragment">
+<p>Para cada ponto de corte são calculados valores de sensibilidade e especificidade, dispostos no gráfico.</p>
+</div>
+<div class="fragment">
+<p>A <a href="http://152.92.92.7:3838/curvaROC/">aplicação Curva ROC</a> (<span class="citation" data-cites="freire21">FREIRE (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span>) mostra o efeito sobre a sensibilidade e especificidade quando variamos o ponto de corte de uma variável de teste contínua.</p>
+</div>
+</section>
+<section id="área-sob-a-curva-roc-auc-roc" class="slide level2">
+<h2>Área sob a curva ROC (AUC-ROC)</h2>
+<p>Existem algumas formas de <strong>resumir a acurácia</strong> de um teste diagnóstico</p>
+<div class="fragment">
+<p>A <strong>área sob a curva ROC (AUC-ROC)</strong> é uma medida resumo usual do desempenho de um teste, já que ela é estimada levando-se em consideraçãoo <strong>todos</strong> os possíveis valores para sensibilidade e especificidade.</p>
+</div>
+<div class="fragment">
+<p>Essa área pode variar de 0 a 1. Quanto mais próxima a curva ROC do canto superior esquerdo do gráfico, mais próxima de 1 é a área sob a curva e melhor é o desempenho do teste.</p>
+</div>
+</section>
+<section id="área-sob-a-curva-roc-auc-roc-1" class="slide level2">
+<h2>Área sob a curva ROC (AUC-ROC)</h2>
+<p><br></p>
+
+<img data-src="../..\images/auc.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade" class="slide level2">
+<h2>Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?</h2>
+<p>Idealmente, os testes utilizados devem ter alta sensibilidade e especificidade.</p>
+<div class="fragment">
+<p>Na prática, nem sempre existem testes disponíveis com <strong>características ótimas</strong>.</p>
+</div>
+<div class="fragment">
+<p>É relativamente comum a situação em que há mais de um teste disponível. Daí, surge a necessidade da comparação entre eles para a escolha mais adequada.</p>
+</div>
+</section>
+<section id="escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade-1" class="slide level2">
+<h2>Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?</h2>
+<p>Suponha que dois testes diagnósticos estão disponíveis: um com alta sensibilidade, mas relativamente baixa especificidade, e outro com alta especificidade e relativamente baixa sensibilidade.</p>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:10%;">
+<p><span style="font-size:100px;">🤔</span></p>
+</div><div class="column" style="width:90%;">
+<div style="margin-top: 40px; font-size: 1.5em; color: red;">
+<p>Qual seria a melhor escolha?</p>
+</div>
+</div></div>
+</div>
+</section>
+<section id="escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade-2" class="slide level2">
+<h2>Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?</h2>
+<p>Os valores de predição (<span class="math inline">\(VPP\)</span> e <span class="math inline">\(VPN\)</span>) dependem conjuntamente da sensibilidade (<span class="math inline">\(s\)</span>), da especificidade (<span class="math inline">\(e\)</span>) e da prevalência (<span class="math inline">\(p\)</span>).</p>
+<div class="fragment">
+<ul>
+<li>Quando a prevalência é baixa, o <span class="math inline">\(VPP\)</span> é mais influenciado pela especificidade.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>O <span class="math inline">\(VPN\)</span> é pouco influenciado tanto pela sensibilidade quanto pela especificidade e é alto.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Para prevalência alta, o <span class="math inline">\(VPP\)</span> é próximo de um, independentemente ddos valores da sensibilidade e da especificidade.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>O <span class="math inline">\(VPN\)</span> é influenciado mais pela sensibilidade do que pela especificidade.</li>
+</ul>
+</div>
+</section>
+<section id="escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade-3" class="slide level2">
+<h2>Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?</h2>
+<p>Assim, existem evidências para as seguintes conclusões:</p>
+<div class="fragment">
+<ol type="1">
+<li>Um <strong>teste com alta especificidade</strong> deve ser usado quando a <strong>prevalência da doença é relativamente baixa</strong> (<em>doença rara</em>), mesmo que o teste tenha relativamente baixa sensibilidade.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="2" type="1">
+<li>Um <strong>teste com alta sensibilidade</strong> deve ser usado quando a <strong>prevalência da doença é alta</strong> (<em>doença comum</em>), mesmo que o teste tenha relativamente baixa especificidade.</li>
+</ol>
+</div>
 </section>
 <section id="references" class="slide level2 smaller scrollable" data-visibility="uncounted">
 <h2>References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-freire21" class="csl-entry" role="listitem">
+FREIRE, Sergio Miranda. 2021. <span>“Bioestatística Básica.”</span> Rio de Janeiro: Ed. do autor. 2021. <a href="http://www.lampada.uerj.br/bioestatisticabasica">http://www.lampada.uerj.br/bioestatisticabasica</a>.
+</div>
 <div id="ref-Malacarne19" class="csl-entry" role="listitem">
 Malacarne, Jocieli, Alexsandro Heirich, Eunice Cunha, Ida Kolte, Reinaldo Santos, and Paulo Basta. 2019. <span>“Performance of Diagnostic Tests for Pulmonary Tuberculosis in Indigenous Populations in Brazil: The Contribution of Rapid Molecular Testing.”</span> <em>Jornal Brasileiro de Pneumologia</em> 45 (April). <a href="https://doi.org/10.1590/1806-3713/e20180185">https://doi.org/10.1590/1806-3713/e20180185</a>.
 </div>

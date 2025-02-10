@@ -2071,6 +2071,273 @@ Há pelo menos duas situações em que a necessidade de combinação de testes s
 
 ## Testes diagnósticos baseados em variáveis contínuas
 
+Até agora, definimos a qualidade de um teste diagnóstico utilizando variáveis dicotômicas (teste positivo/teste negativo, doente/sadio)
+
+. . .
+
+Em muitas situações, variáveis quantitativas servem como indicador de uma doença:
+
+. . .
+
+- níveis de pressão diastólica para diagnóstico de hipertensão;
+
+
+. . .
+
+
+- glicemia elevada para diagnóstico de diabetes;
+
+
+. . .
+
+
+- entre outras.
+
+
+## Testes diagnósticos baseados em variáveis contínuas
+
+
+Para dados de variáveis contínuas, surge a questão de como **dicotomizar** de forma que os dados sejam colocados no formato da tabela considerada anteriormente.
+
+
+. . .
+
+
+A ideia é estabelecer o limite entre o que será considerado sadio ou doente, ou seja, o valor a partir do qual o teste é considerado positivo ou negativo.
+
+
+. . .
+
+
+A esse limite chamamos *valor de referência* ou *ponto de corte*.
+
+
+:::: {.columns}
+
+::: {.column width="10%"}
+<span style='font-size:100px;'>&#128270;</span>
+:::
+
+::: {.column width="90%"}
+::: {style="margin-top: 40px; font-size: 1.5em; color: red;"}
+Qual o melhor ponto de corte?
+:::
+:::
+
+::::
+
+
+
+## Curva ROC (Receiver Operator Characteristic)
+
+A **curva ROC** avalia o desempenho dos testes e a variação da sensibilidade e especificidade para diferentes valores de corte num gráfico que apresenta a proporção dos verdadeiros positivos (sensibilidade), no eixo Y, versus a proporção dos falsos positivos (1-especificidade), no eixo X. 
+
+. . .
+
+Desta forma, a Curva ROC é um **gráfico de sensibilidade**.
+
+
+## Curva ROC (Receiver Operator Characteristic)
+
+
+
+![](/images/roc.png){fig-align="center"} 
+
+## Curva ROC (Receiver Operator Characteristic)
+
+
+- Observe que na curva 1, é representado o ponto de maior acurácia do teste (100%). Aqui temos a situação do teste ideal ($s=1$, $e=1$).
+
+
+. . .
+
+
+- A curva 2 representa uma boa curva, por exemplo, uma acurácia de 85%, que significa que em 85% das vezes em que for utilizado, o teste discriminará os verdadeiros positivos e negativos, mas também significa que em 15% das vezes fornecerá um falso resultado. 
+
+
+. . .
+
+
+
+- A curva 3, expressa a acurácia de 50% e significa que o teste é tão bom quanto qualquer escolha ao acaso. Em geral, uma acurácia maior ou igual a 70% é considerada satisfatória.
+
+
+
+## Curva ROC (Receiver Operator Characteristic)
+
+
+
+O valor escolhido como **ponto de corte** influenciará as características do teste. 
+
+
+. . .
+
+
+
+Na curva 2, quanto menor o ponto de corte (ponto A), maior é a sensibilidade, mas menor é a especificidade.
+Neste caso, se pretendemos um **teste muito sensível** e **menos específico**, escolhe-se este ponto para obter uma **menor proporção de falsos negativos** e uma **maior proporção de falsos positivos**. 
+
+
+. . .
+
+
+O ponto de corte localizado no ponto B permite pôr em evidência os valores para os quais existe maior optimização da sensibilidade em função da especificidade. 
+
+
+. . .
+
+
+Já quanto maior o ponto de corte (ponto C), maior especificidade, porém, menor sensibilidade. Neste caso, se pretendemos um **teste muito específico** e **menos sensível**, escolhe-se o ponto C, obtendo-se uma **menor proporção de falsos positivos** e **uma maior proporção de falsos negativos**.
+
+
+
+
+
+## Curva ROC (Receiver Operator Characteristic)
+
+
+O valor do **ponto de corte** é definido como um valor que pode ser selecionado, arbitrariamente, pelo pesquisador entre os valores possíveis para a variável de decisão. 
+
+
+. . .
+
+
+Acima do ponto de corte, o paciente é classificado como positivo (teste positivo, presença de doença) e, abaixo, é classificado como negativo (teste negativo, ausência de doença). 
+
+
+. . .
+
+
+
+Para cada ponto de corte são calculados valores de sensibilidade e especificidade, dispostos no gráfico.
+
+
+. . .
+
+
+
+A [aplicação Curva ROC](http://152.92.92.7:3838/curvaROC/) (@freire21) mostra o efeito sobre a sensibilidade e especificidade quando variamos o ponto de corte de uma variável de teste contínua.
+
+
+
+## Área sob a curva ROC (AUC-ROC)
+
+
+Existem algumas formas de **resumir a acurácia** de um teste diagnóstico 
+
+
+. . .
+
+
+
+A **área sob a curva ROC (AUC-ROC)** é uma medida resumo usual do desempenho de um teste, já que ela é estimada levando-se em consideraçãoo **todos** os possíveis valores para sensibilidade e especificidade.
+
+
+
+. . .
+
+
+Essa área pode variar de 0 a 1. Quanto mais próxima a curva ROC do canto superior esquerdo do gráfico, mais próxima de 1 é a área sob a curva e melhor é o desempenho do teste.
+
+## Área sob a curva ROC (AUC-ROC)
+
+<br>
+
+![](/images/auc.png){fig-align="center"} 
+
+
+
+## Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?
+
+Idealmente, os testes utilizados devem ter alta sensibilidade e especificidade.
+
+. . .
+
+
+Na prática, nem sempre existem testes disponíveis com **características ótimas**.
+
+
+. . .
+
+
+É relativamente comum a situação em que há mais de um teste disponível. Daí, surge a necessidade da comparação entre eles para a escolha mais adequada.
+
+
+
+## Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?
+
+
+Suponha que dois testes diagnósticos estão disponíveis: um com alta sensibilidade, mas relativamente baixa especificidade, e outro com alta especificidade e relativamente baixa sensibilidade.
+
+
+. . .
+
+
+:::: {.columns}
+
+::: {.column width="10%"}
+<span style='font-size:100px;'>&#129300;</span>
+:::
+
+::: {.column width="90%"}
+::: {style="margin-top: 40px; font-size: 1.5em; color: red;"}
+Qual seria a melhor escolha?
+:::
+:::
+
+::::
+
+
+
+## Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?
+
+Os valores de predição ($VPP$ e $VPN$) dependem conjuntamente da sensibilidade ($s$), da especificidade ($e$) e da prevalência ($p$).
+
+. . .
+
+
+- Quando a prevalência é baixa, o $VPP$ é mais influenciado pela especificidade.
+
+
+. . . 
+
+
+
+- O $VPN$ é pouco influenciado tanto pela sensibilidade quanto pela especificidade e é alto.
+
+
+. . .
+
+
+- Para prevalência alta, o $VPP$ é próximo de um, independentemente ddos valores da sensibilidade e da especificidade.
+
+
+. . .
+
+
+- O $VPN$ é influenciado mais pela sensibilidade do que pela especificidade.
+
+
+
+
+## Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?
+
+
+Assim, existem evidências para as seguintes conclusões:
+
+
+. . .
+
+
+1) Um **teste com alta especificidade** deve ser usado quando a **prevalência da doença é relativamente baixa** (*doença rara*), mesmo que o teste tenha relativamente baixa sensibilidade.
+
+
+. . .
+
+
+2) Um **teste com alta sensibilidade** deve ser usado quando a **prevalência da doença é alta** (*doença comum*), mesmo que o teste tenha relativamente baixa especificidade.
+
+
 
 ## References {visibility="uncounted"}
 

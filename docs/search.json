@@ -2430,7 +2430,7 @@
     "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#references",
     "title": "Medidas de acurácia de testes diagnósticos",
     "section": "References",
-    "text": "References\n\n\nMalacarne, Jocieli, Alexsandro Heirich, Eunice Cunha, Ida Kolte, Reinaldo Santos, and Paulo Basta. 2019. “Performance of Diagnostic Tests for Pulmonary Tuberculosis in Indigenous Populations in Brazil: The Contribution of Rapid Molecular Testing.” Jornal Brasileiro de Pneumologia 45 (April). https://doi.org/10.1590/1806-3713/e20180185.\n\n\nVecchio, Thomas J. 1966. “Predictive Value of a Single Diagnostic Test in Unselected Populations.” New England Journal of Medicine 274 (21): 1171–73. https://doi.org/10.1056/NEJM196605262742104."
+    "text": "References\n\n\nFREIRE, Sergio Miranda. 2021. “Bioestatística Básica.” Rio de Janeiro: Ed. do autor. 2021. http://www.lampada.uerj.br/bioestatisticabasica.\n\n\nMalacarne, Jocieli, Alexsandro Heirich, Eunice Cunha, Ida Kolte, Reinaldo Santos, and Paulo Basta. 2019. “Performance of Diagnostic Tests for Pulmonary Tuberculosis in Indigenous Populations in Brazil: The Contribution of Rapid Molecular Testing.” Jornal Brasileiro de Pneumologia 45 (April). https://doi.org/10.1590/1806-3713/e20180185.\n\n\nVecchio, Thomas J. 1966. “Predictive Value of a Single Diagnostic Test in Unselected Populations.” New England Journal of Medicine 274 (21): 1171–73. https://doi.org/10.1056/NEJM196605262742104."
   },
   {
     "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-da-sensibilidade-e-especificidade-1",
@@ -2997,7 +2997,7 @@
     "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#testes-diagnósticos-baseados-em-variáveis-contínuas",
     "title": "Medidas de acurácia de testes diagnósticos",
     "section": "Testes diagnósticos baseados em variáveis contínuas",
-    "text": "Testes diagnósticos baseados em variáveis contínuas"
+    "text": "Testes diagnósticos baseados em variáveis contínuas\nAté agora, definimos a qualidade de um teste diagnóstico utilizando variáveis dicotômicas (teste positivo/teste negativo, doente/sadio)\n\nEm muitas situações, variáveis quantitativas servem como indicador de uma doença:\n\n\n\nníveis de pressão diastólica para diagnóstico de hipertensão;\n\n\n\n\nglicemia elevada para diagnóstico de diabetes;\n\n\n\n\nentre outras."
   },
   {
     "objectID": "programacao/semana-10.html",
@@ -3033,5 +3033,103 @@
     "title": "Semana 10",
     "section": "",
     "text": "Entendendo os testes diagnósticos. Parte 1\n Entendendo os testes diagnósticos. Parte 2\n Entendendo os testes diagnósticos. Parte 3"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#testes-diagnósticos-baseados-em-variáveis-contínuas-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#testes-diagnósticos-baseados-em-variáveis-contínuas-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Testes diagnósticos baseados em variáveis contínuas",
+    "text": "Testes diagnósticos baseados em variáveis contínuas\nPara dados de variáveis contínuas, surge a questão de como dicotomizar de forma que os dados sejam colocados no formato da tabela considerada anteriormente.\n\nA ideia é estabelecer o limite entre o que será considerado sadio ou doente, ou seja, o valor a partir do qual o teste é considerado positivo ou negativo.\n\n\nA esse limite chamamos valor de referência ou ponto de corte.\n\n\n🔎\n\n\nQual o melhor ponto de corte?"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Curva ROC",
+    "text": "Curva ROC"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Curva ROC (Receiver Operator Characteristic)",
+    "text": "Curva ROC (Receiver Operator Characteristic)\nA curva ROC avalia o desempenho dos testes e a variação da sensibilidade e especificidade para diferentes valores de corte num gráfico que apresenta a proporção dos verdadeiros positivos (sensibilidade), no eixo Y, versus a proporção dos falsos positivos (1-especificidade), no eixo X.\n\nDesta forma, a Curva ROC é um gráfico de sensibilidade."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Curva ROC (Receiver Operator Characteristic)",
+    "text": "Curva ROC (Receiver Operator Characteristic)"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic-2",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic-2",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Curva ROC (Receiver Operator Characteristic)",
+    "text": "Curva ROC (Receiver Operator Characteristic)\n\nObserve que na curva 1, é representado o ponto de maior acurácia do teste (100%). Aqui temos a situação do teste ideal (\\(s=1\\), \\(e=1\\)).\n\n\n\nA curva 2 representa uma boa curva, por exemplo, uma acurácia de 85%, que significa que em 85% das vezes em que for utilizado, o teste discriminará os verdadeiros positivos e negativos, mas também significa que em 15% das vezes fornecerá um falso resultado.\n\n\n\n\nA curva 3, expressa a acurácia de 50% e significa que o teste é tão bom quanto qualquer escolha ao acaso. Em geral, uma acurácia maior ou igual a 70% é considerada satisfatória."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic-3",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic-3",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Curva ROC (Receiver Operator Characteristic)",
+    "text": "Curva ROC (Receiver Operator Characteristic)\nO valor escolhido como ponto de corte influenciará as características do teste.\n\nNa curva 2, quanto menor o ponto de corte (ponto A), maior é a sensibilidade, mas menor é a especificidade. Neste caso, se pretendemos um teste muito sensível e menos específico, escolhe-se este ponto para obter uma menor proporção de falsos negativos e uma maior proporção de falsos positivos.\n\n\nO ponto de corte localizado no ponto B permite pôr em evidência os valores para os quais existe maior optimização da sensibilidade em função da especificidade.\n\n\nJá quanto maior o ponto de corte (ponto C), maior especificidade, porém, menor sensibilidade. Neste caso, se pretendemos um teste muito específico e menos sensível, escolhe-se o ponto C, obtendo-se uma menor proporção de falsos positivos e uma maior proporção de falsos negativos."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic-4",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic-4",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Curva ROC (Receiver Operator Characteristic)",
+    "text": "Curva ROC (Receiver Operator Characteristic)\nO valor do ponto de corte é definido como um valor que pode ser selecionado, arbitrariamente, pelo pesquisador entre os valores possíveis para a variável de decisão.\n\nAcima do ponto de corte, o paciente é classificado como positivo (teste positivo, presença de doença) e, abaixo, é classificado como negativo (teste negativo, ausência de doença).\n\n\nPara cada ponto de corte são calculados valores de sensibilidade e especificidade, dispostos no gráfico.\n\n\nA aplicação Curva ROC (FREIRE (2021)) mostra o efeito sobre a sensibilidade e especificidade quando variamos o ponto de corte de uma variável de teste contínua."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic-5",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#curva-roc-receiver-operator-characteristic-5",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Curva ROC (Receiver Operator Characteristic)",
+    "text": "Curva ROC (Receiver Operator Characteristic)\n, a área abaixo da curva (AUC) define a probabilidade do teste em detectar os verdadeiros positivos e os verdadeiros negativos, ou seja, expressa a acurácia do teste. A curva ROC é uma forma de representar a relação antagônica entre a sensibilidade e a especificidade. Para construir uma curva ROC traça-se um diagrama que represente a sensibilidade em"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#área-sob-a-curva-roc-auc-roc",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#área-sob-a-curva-roc-auc-roc",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Área sob a curva ROC (AUC-ROC)",
+    "text": "Área sob a curva ROC (AUC-ROC)\nExistem algumas formas de resumir a acurácia de um teste diagnóstico\n\nA área sob a curva ROC (AUC-ROC) é uma medida resumo usual do desempenho de um teste, já que ela é estimada levando-se em consideraçãoo todos os possíveis valores para sensibilidade e especificidade.\n\n\nEssa área pode variar de 0 a 1. Quanto mais próxima a curva ROC do canto superior esquerdo do gráfico, mais próxima de 1 é a área sob a curva e melhor é o desempenho do teste."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#área-sob-a-curva-roc-auc-roc-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#área-sob-a-curva-roc-auc-roc-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Área sob a curva ROC (AUC-ROC)",
+    "text": "Área sob a curva ROC (AUC-ROC)"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?",
+    "text": "Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?\nIdealmente, os testes utilizados devem ter alta sensibilidade e especificidade.\n\nNa prática, nem sempre existem testes disponíveis com características ótimas.\n\n\nÉ relativamente comum a situação em que há mais de um teste disponível. Daí, surge a necessidade da comparação entre eles para a escolha mais adequada."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade-1",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade-1",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?",
+    "text": "Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?\nSuponha que dois testes diagnósticos estão disponíveis: um com alta sensibilidade, mas relativamente baixa especificidade, e outro com alta especificidade e relativamente baixa sensibilidade.\n\n\n\n🤔\n\n\nQual seria a melhor escolha?"
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade-2",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade-2",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?",
+    "text": "Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?\nOs valores de predição (\\(VPP\\) e \\(VPN\\)) dependem conjuntamente da sensibilidade (\\(s\\)), da especificidade (\\(e\\)) e da prevalência (\\(p\\)).\n\n\nQuando a prevalência é baixa, o \\(VPP\\) é mais influenciado pela especificidade.\n\n\n\n\nO \\(VPN\\) é pouco influenciado tanto pela sensibilidade quanto pela especificidade e é alto.\n\n\n\n\nPara prevalência alta, o \\(VPP\\) é próximo de um, independentemente ddos valores da sensibilidade e da especificidade.\n\n\n\n\nO \\(VPN\\) é influenciado mais pela sensibilidade do que pela especificidade."
+  },
+  {
+    "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade-3",
+    "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#escolha-entre-testes-diagnósticos-mais-sensibilidade-ou-mais-especificidade-3",
+    "title": "Medidas de acurácia de testes diagnósticos",
+    "section": "Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?",
+    "text": "Escolha entre testes diagnósticos: mais sensibilidade ou mais especificidade?\nAssim, existem evidências para as seguintes conclusões:\n\n\nUm teste com alta especificidade deve ser usado quando a prevalência da doença é relativamente baixa (doença rara), mesmo que o teste tenha relativamente baixa sensibilidade.\n\n\n\n\nUm teste com alta sensibilidade deve ser usado quando a prevalência da doença é alta (doença comum), mesmo que o teste tenha relativamente baixa especificidade."
   }
 ]
