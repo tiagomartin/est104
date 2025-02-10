@@ -42,4 +42,6 @@ title: "Semana 10"
 
 ## Slides
 
+{{< fa file-powerpoint size=lg >}} [Ensaios clínicos no R](/aulas/Planejamento/ensaios_no_R.html "Ensaios clínicos no R"){aria-label="Ensaios clínicos no R"}
+
 {{< fa file-powerpoint size=lg >}} [Testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html "Testes diagnósticos"){aria-label="Testes diagnósticos"}
