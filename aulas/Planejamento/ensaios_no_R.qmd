@@ -224,8 +224,6 @@ Os pacientes foram acompanhados por 4 anos, e múltiplas variáveis contínuas e
 
 - Explorar os dados sobre a eficácia do empagliflozina na redução do risco cardiovascular em pacientes com diabetes tipo 2.
 
-- Verificar a eficácia do empagliflozina na redução do risco cardiovascular em pacientes com diabetes tipo 2.
-
 - Verificar se a ocorrência de eventos cardiovasculares difere entre os grupos.
 
 - Verificar se existe associação entre o uso de Estatina e a ocorrência de eventos cardiovasculares.
