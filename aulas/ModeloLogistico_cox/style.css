@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Monaco';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.container{
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto; 
+    background-color: rgb(245, 242, 242);
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.77);
+    box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.77);
+}
+
+.container table{
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+.container table tr td.cab{
+    height: 56px;
+    font-size: 30px;
+    font-weight: 900;
+   letter-spacing: .25px;
+   text-align: center;
+   padding: 0 10px;
+   width: auto;
+   background-color: rgb(71,102,123);
+   color: #ffffff;
+}
+.container table tr.item td{
+    border-bottom: 1px solid #c8cacc;
+    padding: 0 10px;
+    text-align: center;
+    width: auto;
+}
+.container table tr.item{
+    height: 60px;
+}
+
+.container table tr td {
+    vertical-align: middle;
+    width: 50%;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.container table tr.item td.desc{
+    text-align: left;
+}
+
+.container table tr.item td.cont{
+    text-align: center;
+}
+
+.color{
+    background-color:rgb(220, 220, 220);
+}
