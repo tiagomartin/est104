@@ -3112,6 +3112,7 @@
     ]
   },
   {
+<<<<<<< HEAD
     "objectID": "programacao/semana-10.html",
     "href": "programacao/semana-10.html",
     "title": "Semana 10",
@@ -3250,5 +3251,75 @@
     "title": "Semana 08",
     "section": "Slides",
     "text": "Slides\n Ensaios Clínicos Aleatorizados"
+=======
+    "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#carregando-os-dados-1",
+    "href": "aulas/ModeloLogistico_cox/logistico_cox.html#carregando-os-dados-1",
+    "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
+    "section": "Carregando os dados",
+    "text": "Carregando os dados\n\n# Selecionar variáveis relevantes e remover NAs\ndados &lt;- NHANES %&gt;%\n  filter(!is.na(BPSysAve) & !is.na(BMI) & !is.na(Age) & !is.na(Gender) & \n           !is.na(TotChol) & !is.na(SleepHrsNight) & !is.na(SmokeNow) & !is.na(Diabetes)) %&gt;%\n  dplyr::select(BPSysAve, BMI, Age, Gender, TotChol,SleepHrsNight,  SmokeNow, Diabetes)"
+  },
+  {
+    "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#manipulação-dos-dados-1",
+    "href": "aulas/ModeloLogistico_cox/logistico_cox.html#manipulação-dos-dados-1",
+    "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
+    "section": "Manipulação dos dados",
+    "text": "Manipulação dos dados\n\n# Renomear variáveis para facilitar\ncolnames(dados) &lt;- c(\"PAS\", \"IMC\", \"Idade\", \"Sexo\", \"Colesterol\", \"HorasDeSonoNoite\", \"Fumante\", \"Diabetes\")\n\n# Transformar Sexo e Fumante em fatores\ndados$Sexo &lt;- as.factor(dados$Sexo)\ndados$Fumante &lt;- as.factor(dados$Fumante)\ndados$Diabetes &lt;- as.factor(dados$Diabetes)\n\n# Estrutura dos dados\n\ndados %&gt;% \n  str()\n\ntibble [2,938 × 8] (S3: tbl_df/tbl/data.frame)\n $ PAS             : int [1:2938] 113 113 113 112 111 127 128 152 122 144 ...\n $ IMC             : num [1:2938] 32.2 32.2 32.2 30.6 23.7 ...\n $ Idade           : int [1:2938] 34 34 34 49 66 58 33 60 57 44 ...\n $ Sexo            : Factor w/ 2 levels \"female\",\"male\": 2 2 2 1 2 1 2 2 1 2 ...\n $ Colesterol      : num [1:2938] 3.49 3.49 3.49 6.7 4.99 4.78 5.59 6.39 5.04 5.61 ...\n $ HorasDeSonoNoite: int [1:2938] 4 4 4 8 7 5 6 6 8 4 ...\n $ Fumante         : Factor w/ 2 levels \"No\",\"Yes\": 1 1 1 2 1 2 1 1 1 2 ...\n $ Diabetes        : Factor w/ 2 levels \"No\",\"Yes\": 1 1 1 1 1 1 1 1 1 2 ..."
+  },
+  {
+    "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#ajuste-do-modelo-1",
+    "href": "aulas/ModeloLogistico_cox/logistico_cox.html#ajuste-do-modelo-1",
+    "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
+    "section": "Ajuste do modelo",
+    "text": "Ajuste do modelo\n\n# Ajustar modelo de regressão logistica\nmodelo_logistico &lt;- glm(Diabetes ~ ., data = dados, family = binomial(link='logit'))\n\n# Resumo do modelo\nsummary(modelo_logistico)\n\n\nCall:\nglm(formula = Diabetes ~ ., family = binomial(link = \"logit\"), \n    data = dados)\n\nCoefficients:\n                  Estimate Std. Error z value Pr(&gt;|z|)    \n(Intercept)      -7.746757   0.721204 -10.741  &lt; 2e-16 ***\nPAS               0.003845   0.003409   1.128  0.25925    \nIMC               0.104682   0.009341  11.206  &lt; 2e-16 ***\nIdade             0.051445   0.004731  10.874  &lt; 2e-16 ***\nSexomale          0.317999   0.131212   2.424  0.01537 *  \nColesterol       -0.198636   0.061478  -3.231  0.00123 ** \nHorasDeSonoNoite  0.023144   0.045036   0.514  0.60733    \nFumanteYes       -0.183802   0.145628  -1.262  0.20690    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n(Dispersion parameter for binomial family taken to be 1)\n\n    Null deviance: 2101.4  on 2937  degrees of freedom\nResidual deviance: 1734.2  on 2930  degrees of freedom\nAIC: 1750.2\n\nNumber of Fisher Scoring iterations: 6"
+  },
+  {
+    "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#avaliação-do-modelo-1",
+    "href": "aulas/ModeloLogistico_cox/logistico_cox.html#avaliação-do-modelo-1",
+    "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
+    "section": "Avaliação do modelo",
+    "text": "Avaliação do modelo\n\npar(mfrow=c(2,2))\nplot(modelo_logistico)"
+  },
+  {
+    "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#interpretação-do-modelo-1",
+    "href": "aulas/ModeloLogistico_cox/logistico_cox.html#interpretação-do-modelo-1",
+    "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
+    "section": "Interpretação do modelo",
+    "text": "Interpretação do modelo\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\nVariável\nOddsRatio\np-valor\nInterpretação\n\n\n\n\nPAS\n1,004\n0,259\nNão significativo (p-valor &gt; 0,05) indicando que a PAS não teve efeito estatisticamente relevante no fato de ter diabetes.\n\n\nIMC\n1,110\n&lt; 0,001\nA cada aumento de 1 unidade no IMC, a chace do paciente ter diabetes aumenta em 11%, mantendo as outras variáveis constantes.\n\n\nIdade\n1,05\n&lt; 0,001\nA cada ano a mais de idade, a chace do paciente ter diabetes aumenta em 5%, mantendo as outras variáveis constantes.\n\n\nSexo (Masculino)\n1,37\n&lt; 0,015\nA chance de um paciente do sexo masculino ter diabetes é 37% maior que do sexo feminino.\n\n\nColesterol\n0,82\n0,001\nPara cada aumento de 1 mg/dL no colesterol, a chace do paciente ter diabetes diminui em 18%, mantendo as outras variáveis constantes.\n\n\nHoras de sono\n1,02\n0,607\nNão significativo (p &gt; 0.05), indicando que o horas de sonoo não teve efeito estatisticamente relevante no fato do paciente ter diabetes.\n\n\nFumante (Sim)\n0,83\n0,207\nNão significativo (p &gt; 0.05), indicando que o tabagismo não teve efeito estatisticamente relevante no fato do paciente ter diabetes."
+  },
+  {
+    "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#avaliando-odds-ratio",
+    "href": "aulas/ModeloLogistico_cox/logistico_cox.html#avaliando-odds-ratio",
+    "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
+    "section": "Avaliando odds ratio\n",
+    "text": "Avaliando odds ratio\n\n\nlogitor(Diabetes ~., data=dados)\n\nCall:\nlogitor(formula = Diabetes ~ ., data = dados)\n\nOdds Ratio:\n                 OddsRatio Std. Err.       z     P&gt;|z|    \nPAS              1.0038527 0.0034216  1.1282  0.259253    \nIMC              1.1103572 0.0103724 11.2061 &lt; 2.2e-16 ***\nIdade            1.0527909 0.0049805 10.8744 &lt; 2.2e-16 ***\nSexomale         1.3743748 0.1803346  2.4235  0.015370 *  \nColesterol       0.8198486 0.0504025 -3.2310  0.001234 ** \nHorasDeSonoNoite 1.0234136 0.0460907  0.5139  0.607328    \nFumanteYes       0.8321009 0.1211769 -1.2621  0.206900    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1"
+  },
+  {
+    "objectID": "programacao/semana-11.html",
+    "href": "programacao/semana-11.html",
+    "title": "Semana 11",
+    "section": "",
+    "text": "Semana dedicada ao Prof. Eduardo Bearzoti"
+  },
+  {
+    "objectID": "programacao/semana-11.html#artigo",
+    "href": "programacao/semana-11.html#artigo",
+    "title": "Semana 11",
+    "section": "Artigo",
+    "text": "Artigo\n Doença Hepática Gordurosa Não-Alcoólica: associação com síndrome metabólica e fatores de risco cardiovascular"
+  },
+  {
+    "objectID": "programacao/semana-11.html#estudo-de-caso",
+    "href": "programacao/semana-11.html#estudo-de-caso",
+    "title": "Semana 11",
+    "section": "Estudo de caso",
+    "text": "Estudo de caso\n Estudo de Caso: Interpretando o Estudo de Caso: DHGNA versus Fatores de Risco"
+  },
+  {
+    "objectID": "programacao/semana-11.html#slides",
+    "href": "programacao/semana-11.html#slides",
+    "title": "Semana 11",
+    "section": "Slides",
+    "text": "Slides\n Razão de chances: Aplicações na área da saúde"
+>>>>>>> c6825d1feb5421c9fb0a9848c3f294d7a83d11f3
   }
 ]

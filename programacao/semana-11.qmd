@@ -1,5 +1,23 @@
 ---
-title: "Semana 10"
+title: "Semana 11"
 ---
 
 Semana dedicada ao Prof. Eduardo Bearzoti
+
+
+
+## Artigo
+
+
+{{< fa file-pdf size=lg >}} [Doença Hepática Gordurosa Não-Alcoólica: associação com síndrome metabólica e fatores de risco cardiovascular](/Material Prof Eduardo Bearzoti/Artigo_Original.pdf)
+
+
+## Estudo de caso
+
+{{< fa laptop-file size=lg >}} [Estudo de Caso: Interpretando o Estudo de Caso: DHGNA versus Fatores de Risco](/Material Prof Eduardo Bearzoti/Estudo_Caso_Interpretacao.pdf "Estudo de caso"){aria-label="Estudo de caso"} 
+
+
+
+## Slides
+
+{{< fa file-powerpoint size=lg >}} [Razão de chances: Aplicações na área da saúde](/Material Prof Eduardo Bearzoti/Seminario1_Cad.pdf "Razão de chances: Aplicações na área da saúde"){aria-label="Razão de chances: Aplicações na área da saúde"}
