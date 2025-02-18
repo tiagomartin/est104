@@ -3326,7 +3326,7 @@
     "href": "aulas/ModeloLogistico_cox/logistico_cox.html#descrição-da-base-de-dados-4",
     "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
     "section": "Descrição da base de dados",
-    "text": "Descrição da base de dados\nO conjunto de dados contém casos de um estudo que foi conduzido entre 1958 e 1970 no Hospital Billings da Universidade de Chicago sobre a sobrevivência de pacientes que foram submetidos a cirurgia de mama. Os dados incluem:\n\nIdade do paciente no momento da operação (numérico)\nAno da operação do paciente (ano - 1900, numérico)\nNúmero de nódulos axilares positivos detectados (numérico)\nStatus de sobrevivência (atributo de classe)\n\n1 = o paciente sobreviveu 5 anos ou mais\n2 = o paciente morreu em 5 anos"
+    "text": "Descrição da base de dados\nO conjunto de dados contém casos de um estudo que foi conduzido entre 1958 e 1970 no Hospital Billings da Universidade de Chicago sobre a sobrevivência de pacientes que foram submetidos a cirurgia de mama. Os dados incluem:\n\nIdade do paciente no momento da operação (numérico)\nAno da operação do paciente (ano - 1900, numérico)\nNúmero de nódulos axilares positivos detectados (numérico)\nStatus de sobrevivência (dicotômica)\n\n1 = o paciente sobreviveu 5 anos ou mais\n2 = o paciente morreu em 5 anos"
   },
   {
     "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#hazard-ratio-hr-1",
@@ -3340,13 +3340,41 @@
     "href": "aulas/ModeloLogistico_cox/logistico_cox.html#preparação-2",
     "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
     "section": "Preparação",
-    "text": "Preparação\nCarregando os pacotes R\n\npacman::p_load(\nNHANES,\ntidyverse,\ncar,\nlmtest\n  )"
+    "text": "Preparação\nCarregando os pacotes R\n\npacman::p_load(\ntidyverse,\nsurvival,\nsurvminer\n  )"
   },
   {
     "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#carregando-os-dados-2",
     "href": "aulas/ModeloLogistico_cox/logistico_cox.html#carregando-os-dados-2",
     "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
     "section": "Carregando os dados",
-    "text": "Carregando os dados"
+    "text": "Carregando os dados\n\ndados = rio::import(\"https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/haberman.csv\")\n\ndados %&gt;% \n  str()\n\n'data.frame':   306 obs. of  4 variables:\n $ idade  : int  30 30 30 31 31 33 33 34 34 34 ...\n $ anoOper: int  64 62 65 59 65 58 60 59 66 58 ...\n $ numNod : int  1 3 0 2 4 10 0 0 9 30 ...\n $ status : int  1 1 1 1 1 1 1 2 2 1 ..."
+  },
+  {
+    "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#ajuste-do-modelo-2",
+    "href": "aulas/ModeloLogistico_cox/logistico_cox.html#ajuste-do-modelo-2",
+    "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
+    "section": "Ajuste do modelo",
+    "text": "Ajuste do modelo\n\n# Ajustando o modelo de Cox\nmodelo_cox &lt;- coxph(Surv(idade, status=='2') ~ ., data = dados)\n\n# Resumo do modelo\nsummary(modelo_cox)\n\nCall:\ncoxph(formula = Surv(idade, status == \"2\") ~ ., data = dados)\n\n  n= 306, number of events= 81 \n\n            coef exp(coef) se(coef)      z Pr(&gt;|z|)    \nanoOper -0.02801   0.97238  0.03474 -0.806     0.42    \nnumNod   0.05517   1.05672  0.01009  5.469 4.52e-08 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n        exp(coef) exp(-coef) lower .95 upper .95\nanoOper    0.9724     1.0284    0.9084     1.041\nnumNod     1.0567     0.9463    1.0360     1.078\n\nConcordance= 0.631  (se = 0.041 )\nLikelihood ratio test= 21.81  on 2 df,   p=2e-05\nWald test            = 30.08  on 2 df,   p=3e-07\nScore (logrank) test = 32.88  on 2 df,   p=7e-08"
+  },
+  {
+    "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#interpretação",
+    "href": "aulas/ModeloLogistico_cox/logistico_cox.html#interpretação",
+    "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
+    "section": "Interpretação",
+    "text": "Interpretação\nO ano da operação do paciente não tem relação significativa com o desfecho do paciente (\\(p-valor = 0,42 &gt; 0,05\\)) ao nível de 5% de significância.\n\nJá o número de nódulos axilares positivos detectados têm efeito significativo na sobrevida dos pacientes. Cada aumento de uma nódulo detectado foi associado um aumento médio de 5,67% no risco de mortalidade do paciente em 5 anos, após considerar outras covariáveis.\n\n\nO IC de 95% para esse aumento ficou entre 3,6% e 7,8% (\\(p-valor &lt;&lt; 0,001\\))"
+  },
+  {
+    "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#hazard-ratio-hr-2",
+    "href": "aulas/ModeloLogistico_cox/logistico_cox.html#hazard-ratio-hr-2",
+    "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
+    "section": "Hazard Ratio (HR)",
+    "text": "Hazard Ratio (HR)\n\nggforest(modelo_cox, data = dados)"
+  },
+  {
+    "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#ajuste-do-modelo-3",
+    "href": "aulas/ModeloLogistico_cox/logistico_cox.html#ajuste-do-modelo-3",
+    "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
+    "section": "Ajuste do modelo",
+    "text": "Ajuste do modelo\n\ncoxph(Surv(idade, status=='2') ~ ., data = dados) %&gt;% \n  tbl_regression(exp = TRUE) \n\n\n\n\n\nCharacteristic\n\nHR1\n\n\n95% CI1\n\np-value\n\n\n\nanoOper\n0.97\n0.91, 1.04\n0.4\n\n\nnumNod\n1.06\n1.04, 1.08\n&lt;0.001\n\n\n\n\n1 HR = Hazard Ratio, CI = Confidence Interval"
   }
 ]

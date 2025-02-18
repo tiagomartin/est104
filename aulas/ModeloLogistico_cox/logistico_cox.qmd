@@ -1129,7 +1129,7 @@ O conjunto de dados contém casos de um estudo que foi conduzido entre 1958 e 19
 - Idade do paciente no momento da operação (numérico)
 - Ano da operação do paciente (ano - 1900, numérico)
 - Número de nódulos axilares positivos detectados (numérico)
-- Status de sobrevivência (atributo de classe)
+- Status de sobrevivência (dicotômica)
     - 1 = o paciente sobreviveu 5 anos ou mais
     - 2 = o paciente morreu em 5 anos
 
@@ -1142,12 +1142,47 @@ O conjunto de dados contém casos de um estudo que foi conduzido entre 1958 e 19
 
 ```{r, eval=TRUE}
 pacman::p_load(
-NHANES,
 tidyverse,
-car,
-lmtest
+survival,
+survminer
   ) 
 ```
 
 ## Carregando os dados
 
+```{r}
+dados = rio::import("https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/haberman.csv")
+
+dados %>% 
+  str()
+```
+
+## Ajuste do modelo
+
+```{r}
+# Ajustando o modelo de Cox
+modelo_cox <- coxph(Surv(idade, status=='2') ~ ., data = dados)
+
+# Resumo do modelo
+summary(modelo_cox)
+```
+
+
+## Hazard Ratio (HR)
+
+```{r}
+ggforest(modelo_cox, data = dados)
+```
+
+
+## Interpretação
+
+O ano da operação do paciente não tem relação significativa com o desfecho do paciente ($p-valor = 0,42 > 0,05$) ao nível de 5% de significância.
+
+. . .
+
+Já o número de nódulos axilares positivos detectados têm efeito significativo na sobrevida dos pacientes. Cada aumento de uma nódulo detectado foi associado um aumento médio de 5,67% no risco de mortalidade do paciente em 5 anos, após considerar outras covariáveis.
+
+. . .
+
+O IC de 95% para esse aumento ficou entre 3,6% e 7,8% ($p-valor << 0,001$)
