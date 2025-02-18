@@ -988,3 +988,166 @@ Não significativo (p > 0.05), indicando que o tabagismo não teve efeito estati
 </html>
 ```
 
+
+# Modelo de riscos proporcionais (Cox)
+
+## Análise de sobrevivência
+
+Quando desfechos são associados com **tempo até o evento**, não estamos limitados a estudar um **ponto específico no tempo**, como é feito em estudos transversais.
+
+
+. . .
+
+
+Em vez disso, podemos estar interessados em saber se a probabilidade do evento tende a ser maior (ou menor) ao **longo de todo período de acompanhamento**.
+
+
+. . .
+
+A **análise de sobrevivência** é utilizada para responder essa questão mais ampla.
+
+
+. . .
+
+
+Em estudos de análise de sobrevivência, o problema-chave é o dado considerado **censurado**, ou seja, quando o evento (desfecho) **não ocorreu** quer seja porque o estudo terminou antes da ocorrência do desfecho ou porque se perdeu o acompanhamento do caso.
+
+
+
+## Análise de sobrevivência
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**Dados censurados**
+
+![](/images/censura.png){width="600" height="450" fig-align="center"}
+:::
+
+::: {.column width="50%" .fragment}
+
+**Dados censurados à direita:** maioria
+
+![](/images/censura_direita.png){fig-align="center"}
+
+:::
+
+::::
+
+
+
+## Análise de sobrevivência
+
+
+Indicada para estudos longitudinais (coorte, ensaios clínicos), ou seja, o mesmo grupo de indivíduos é acompanhado durante um **intervalo de tempo** preestabelecido pelo pesquisador.
+
+
+. . .
+
+
+A **grande vantagem** nesse tipo de análise é que se permite utilizar informações de **todos** os participantes até o momento da ocorrência do evento ou quando são censurados.
+
+
+
+## Regressão de riscos 
+
+O modelo de sobrevida mais comum é o **modelo de riscos proporcionais de Cox**. Este modelo permite que as covariáveis, numéricas ou categóricas, variem com o tempo.
+
+
+
+
+. . .
+
+
+Assume-se, nesse modelo, que os tempos $t_i$, $i = 1, \cdots , n$, são independentes e que a taxa de falha (risco) tem a seguinte forma:
+
+
+$$\lambda(t) = \lambda_0(t) \exp (\beta_1 X_1 + \cdots + \beta_pX_p)$$
+
+
+. . .
+
+
+O componente não-paramétrico, $\lambda_0(t)$, não é especificado e é uma função não-negativa do tempo. Ele é usualmente chamado de função de base ou risco basal.
+
+
+
+## Regressão de riscos 
+
+O componente paramétrico $\exp(\mathbf{x^t \beta})$ é o nosso interesse, em especial no vetor de parâmetros $\mathbf{\beta}$.
+
+
+. . .
+
+O modelo é conhecido por ter taxas de falhas proporcionais. Este fato é conveniente na sua interpretação, ou seja, a razão das taxas de falha de dois indivíduos diferentes $i$ e $j$ é dada por
+
+
+$$\dfrac{\lambda_i(t)}{\lambda_j(t)} = \dfrac{\exp(\mathbf{x_i^t \beta})}{\exp(\mathbf{x_j^t \beta})} = \exp(\mathbf{x_i^t \beta} - \mathbf{x_j^t \beta}),$$
+que não depende do tempo.
+
+
+. . .
+
+Assim, se um indivíduo no início do estudo tem um risco de morte igual a duas vezes o risco de um segundo indivíduo, entao esta razão de riscos será a mesma para todo o período de acompanhamento.
+
+
+## Hazard Ratio (HR)
+
+
+O Hazard Ratio (HR) é uma medida estatística amplamente utilizada em estudos de sobrevivência e análises de risco, especialmente em pesquisas médicas e epidemiológicas. 
+
+. . .
+
+
+Em um modelo de Cox, a razão de risco (HR) é usada para medir o efeito de uma variável preditora no risco do evento. 
+
+
+. . .
+
+É dada por
+
+$$HR = \exp({\beta_i}), i = 1, \cdots, p,$$
+sendo $\beta_i$ os coeficientes estimados do modelo de regressão de cox.
+
+## Hazard Ratio (HR)
+
+
+A HR representa o risco relativo do evento ocorrer para uma dada mudança de unidade na variável preditora, com uma $HR$ maior que 1 indicando um risco aumentado e uma $HR$ menor que 1 indicando um risco diminuído.
+
+
+
+
+# Exemplo 
+
+## Descrição da base de dados
+
+O conjunto de dados contém casos de um estudo que foi conduzido entre 1958 e 1970 no Hospital Billings da Universidade de Chicago sobre a sobrevivência de pacientes que foram submetidos a cirurgia de mama. Os dados incluem:
+
+
+- Idade do paciente no momento da operação (numérico)
+- Ano da operação do paciente (ano - 1900, numérico)
+- Número de nódulos axilares positivos detectados (numérico)
+- Status de sobrevivência (atributo de classe)
+    - 1 = o paciente sobreviveu 5 anos ou mais
+    - 2 = o paciente morreu em 5 anos
+
+
+## Preparação
+
+
+### Carregando os pacotes R
+
+
+```{r, eval=TRUE}
+pacman::p_load(
+NHANES,
+tidyverse,
+car,
+lmtest
+  ) 
+```
+
+## Carregando os dados
+

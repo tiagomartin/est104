@@ -822,7 +822,93 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 <td style="text-align: center;"></td>
 </tr>
 </tbody>
-</table>
+</table></section></section><section><section id="modelo-de-riscos-proporcionais-cox" class="title-slide slide level1 center"><h1>Modelo de riscos proporcionais (Cox)</h1>
+
+</section><section id="análise-de-sobrevivência" class="slide level2"><h2>Análise de sobrevivência</h2>
+<p>Quando desfechos são associados com <strong>tempo até o evento</strong>, não estamos limitados a estudar um <strong>ponto específico no tempo</strong>, como é feito em estudos transversais.</p>
+<div class="fragment">
+<p>Em vez disso, podemos estar interessados em saber se a probabilidade do evento tende a ser maior (ou menor) ao <strong>longo de todo período de acompanhamento</strong>.</p>
+</div>
+<div class="fragment">
+<p>A <strong>análise de sobrevivência</strong> é utilizada para responder essa questão mais ampla.</p>
+</div>
+<div class="fragment">
+<p>Em estudos de análise de sobrevivência, o problema-chave é o dado considerado <strong>censurado</strong>, ou seja, quando o evento (desfecho) <strong>não ocorreu</strong> quer seja porque o estudo terminou antes da ocorrência do desfecho ou porque se perdeu o acompanhamento do caso.</p>
+</div>
+</section><section id="análise-de-sobrevivência-1" class="slide level2"><h2>Análise de sobrevivência</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Dados censurados</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="../..\images/censura.png" class="quarto-figure quarto-figure-center" width="600" height="450"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<p><strong>Dados censurados à direita:</strong> maioria</p>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="../..\images/censura_direita.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+</section><section id="análise-de-sobrevivência-2" class="slide level2"><h2>Análise de sobrevivência</h2>
+<p>Indicada para estudos longitudinais (coorte, ensaios clínicos), ou seja, o mesmo grupo de indivíduos é acompanhado durante um <strong>intervalo de tempo</strong> preestabelecido pelo pesquisador.</p>
+<div class="fragment">
+<p>A <strong>grande vantagem</strong> nesse tipo de análise é que se permite utilizar informações de <strong>todos</strong> os participantes até o momento da ocorrência do evento ou quando são censurados.</p>
+</div>
+</section><section id="regressão-de-riscos" class="slide level2"><h2>Regressão de riscos</h2>
+<p>O modelo de sobrevida mais comum é o <strong>modelo de riscos proporcionais de Cox</strong>. Este modelo permite que as covariáveis, numéricas ou categóricas, variem com o tempo.</p>
+<div class="fragment">
+<p>Assume-se, nesse modelo, que os tempos <span class="math inline">\(t_i\)</span>, <span class="math inline">\(i = 1, \cdots , n\)</span>, são independentes e que a taxa de falha (risco) tem a seguinte forma:</p>
+<p><span class="math display">\[\lambda(t) = \lambda_0(t) \exp (\beta_1 X_1 + \cdots + \beta_pX_p)\]</span></p>
+</div>
+<div class="fragment">
+<p>O componente não-paramétrico, <span class="math inline">\(\lambda_0(t)\)</span>, não é especificado e é uma função não-negativa do tempo. Ele é usualmente chamado de função de base ou risco basal.</p>
+</div>
+</section><section id="regressão-de-riscos-1" class="slide level2"><h2>Regressão de riscos</h2>
+<p>O componente paramétrico <span class="math inline">\(\exp(\mathbf{x^t \beta})\)</span> é o nosso interesse, em especial no vetor de parâmetros <span class="math inline">\(\mathbf{\beta}\)</span>.</p>
+<div class="fragment">
+<p>O modelo é conhecido por ter taxas de falhas proporcionais. Este fato é conveniente na sua interpretação, ou seja, a razão das taxas de falha de dois indivíduos diferentes <span class="math inline">\(i\)</span> e <span class="math inline">\(j\)</span> é dada por</p>
+<p><span class="math display">\[\dfrac{\lambda_i(t)}{\lambda_j(t)} = \dfrac{\exp(\mathbf{x_i^t \beta})}{\exp(\mathbf{x_j^t \beta})} = \exp(\mathbf{x_i^t \beta} - \mathbf{x_j^t \beta}),\]</span> que não depende do tempo.</p>
+</div>
+<div class="fragment">
+<p>Assim, se um indivíduo no início do estudo tem um risco de morte igual a duas vezes o risco de um segundo indivíduo, entao esta razão de riscos será a mesma para todo o período de acompanhamento.</p>
+</div>
+</section><section id="hazard-ratio-hr" class="slide level2"><h2>Hazard Ratio (HR)</h2>
+<p>O Hazard Ratio (HR) é uma medida estatística amplamente utilizada em estudos de sobrevivência e análises de risco, especialmente em pesquisas médicas e epidemiológicas.</p>
+<div class="fragment">
+<p>Em um modelo de Cox, a razão de risco (HR) é usada para medir o efeito de uma variável preditora no risco do evento.</p>
+</div>
+<div class="fragment">
+<p>É dada por</p>
+<p><span class="math display">\[HR = \exp({\beta_i}), i = 1, \cdots, p,\]</span> sendo <span class="math inline">\(\beta_i\)</span> os coeficientes estimados do modelo de regressão de cox.</p>
+</div>
+</section><section id="hazard-ratio-hr-1" class="slide level2"><h2>Hazard Ratio (HR)</h2>
+<p>A HR representa o risco relativo do evento ocorrer para uma dada mudança de unidade na variável preditora, com uma <span class="math inline">\(HR\)</span> maior que 1 indicando um risco aumentado e uma <span class="math inline">\(HR\)</span> menor que 1 indicando um risco diminuído.</p>
+</section></section><section><section id="exemplo-2" class="title-slide slide level1 center"><h1>Exemplo</h1>
+
+</section><section id="descrição-da-base-de-dados-4" class="slide level2"><h2>Descrição da base de dados</h2>
+<p>O conjunto de dados contém casos de um estudo que foi conduzido entre 1958 e 1970 no Hospital Billings da Universidade de Chicago sobre a sobrevivência de pacientes que foram submetidos a cirurgia de mama. Os dados incluem:</p>
+<ul>
+<li>Idade do paciente no momento da operação (numérico)</li>
+<li>Ano da operação do paciente (ano - 1900, numérico)</li>
+<li>Número de nódulos axilares positivos detectados (numérico)</li>
+<li>Status de sobrevivência (atributo de classe)
+<ul>
+<li>1 = o paciente sobreviveu 5 anos ou mais</li>
+<li>2 = o paciente morreu em 5 anos</li>
+</ul>
+</li>
+</ul></section><section id="preparação-2" class="slide level2"><h2>Preparação</h2>
+<h3 id="carregando-os-pacotes-r-2">Carregando os pacotes R</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(</span>
+<span id="cb16-2"><a></a>NHANES,</span>
+<span id="cb16-3"><a></a>tidyverse,</span>
+<span id="cb16-4"><a></a>car,</span>
+<span id="cb16-5"><a></a>lmtest</span>
+<span id="cb16-6"><a></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section><section id="carregando-os-dados-2" class="slide level2"><h2>Carregando os dados</h2>
 
 
 </section></section>
