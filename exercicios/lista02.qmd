@@ -1,0 +1,417 @@
+---
+title: "Lista de exercícios 02"
+---
+
+1) Um exame físico foi usado para rastrear câncer de mama em 2500 mulheres com comprovação de biópsia adenocarcinoma da mama e em 5000 mulheres controle (pareadas por raça e idade). Os resultados do o exame físico foi positivo (isto é, uma massa foi detectada à palpação) em 1800 casos e em 800 mulheres controle, todos os quais não mostraram evidência de câncer na biópsia.
+
+  a) Qual foi a sensibilidade do exame físico?
+  b) Qual foi a especificidade do exame físico?
+  c) Encontre o valor preditivo positivo do exame físico.
+
+
+2) Um teste de triagem é usado da mesma maneira em duas populações semelhantes, mas a quantidade de resultados falso-positivos entre aqueles que testam positivo na população A é menor do que entre aqueles que testam positivo na população B. Qual é a explicação provável para este achado?
+
+  a) É impossível determinar o que causou a diferença
+  b) A especificidade do teste é menor na população A
+  c) A prevalência da doença é menor na população A
+  d) A prevalência da doença é maior na população A
+  e) A especificidade do teste é maior na população A
+
+
+3) Um exame físico e um teste audiométrico foram realizados em 500 pessoas com suspeita de problemas de audição, dos quais 300 foram casos confirmados. Os resultados dos exames estão a seguir:
+
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:15px;">
+Exame físico
+</div>
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:15px;">
+Teste audiométrico
+</div>
+</th>
+</tr>
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+Problema de audição
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+positivo (T<sub>+</sub>)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+negativo (T<sub>-</sub>) 
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+positivo (T<sub>+</sub>)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+negativo (T<sub>-</sub>) 
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+Presente (D<sub>+</sub>)
+</td>
+<td style="text-align:center;font-size:15px;">
+240
+</td>
+<td style="text-align:center;font-size:15px;">
+60
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+270
+</td>
+<td style="text-align:center;font-size:15px;">
+30
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+Ausente (D<sub>-</sub>)
+</td>
+<td style="text-align:center;font-size:15px;">
+40
+</td>
+<td style="text-align:center;font-size:15px;">
+160
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+60
+</td>
+<td style="text-align:center;font-size:15px;">
+140
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:15px;">
+Total
+</td>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+280
+</td>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+320
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+330
+</td>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+170
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+Comparado com o exame físico, o teste audiométrico é:
+
+  a) Igualmente sensível e específico
+  b) Menos sensível e menos específico
+  c) Menos sensível e mais específico
+  d) Mais sensível e menos específico
+  e) Mais sensível e mais específico
+
+
+4) Dois pediatras querem investigar um novo teste de laboratório que identifica infecções por estreptococos. Dr. Kidd usa o teste de cultura padrão, que tem uma sensibilidade de 90% e especificidade de 96%. Dr. Childs usa o novo teste, que é 96% sensível e 96% específico. Se 200 pacientes forem submetidos à cultura com ambos os testes, qual das seguintes opções está correta?
+
+
+  a) Dr. Kidd irá identificar corretamente mais pessoas com infecção por estreptococos do que o Dr. Childs
+  b) Dr. Kidd irá identificar corretamente menos pessoas com infecção por estreptococos do que o Dr. Childs
+  c) Dr. Kidd irá corretamente identificar mais pessoas sem infecção estreptocócica do que o Dr.Childs
+  d) A prevalência de infecção estreptocócica é necessária para determinar qual pediatra irá identificar corretamente o maior número de pessoas com a doença
+
+
+5) Um estudo de rastreamento do câncer de cólon está sendo conduzido em Notingham, na Inglaterra. Indivíduos de 50 a 75 anos serão rastreados com o teste Hemoccult. Neste teste, uma amostra de fezes é testada quanto à presença de sangue. O teste Hemoccult tem uma sensibilidade de 70% e uma especificidade de 75%. Se Nottingham tiver uma prevalência de 12/1000 para câncer de cólon, qual é o valor preditivo positivo do teste?
+
+
+6) Um pesquisador, interessado em avaliar dois novos exames de glicemia de jejum para o diagnóstico de *diabetes mellitus*, realizou o seguinte estudo: coletou amostras de sangue de 50 pacientes com diabetes confirmado e 50 amostras de pacientes normais. Aplicou os dois exames nas 100 amostras e encontrou os seguintes resultados de sensibilidade
+e especificidade para diferentes pontos de corte, conforme a seguinte tabela:
+
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:15px;">
+Exame A
+</div>
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:15px;">
+Exame B
+</div>
+</th>
+</tr>
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+Ponto de corte
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+Sensibilidade (%)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+Especificidade (%) 
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+Sensibilidade (%)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+Especificidade (%) 
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-size:15px;">
+50 mg%
+</td>
+<td style="text-align:center;font-size:15px;">
+10
+</td>
+<td style="text-align:center;font-size:15px;">
+100
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+10
+</td>
+<td style="text-align:center;font-size:15px;">
+97,5 
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:15px;">
+60 mg%
+</td>
+<td style="text-align:center;font-size:15px;">
+30
+</td>
+<td style="text-align:center;font-size:15px;">
+99
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+20
+</td>
+<td style="text-align:center;font-size:15px;">
+97 
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:15px;">
+70 mg%
+</td>
+<td style="text-align:center;font-size:15px;">
+70
+</td>
+<td style="text-align:center;font-size:15px;">
+97,5
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+50
+</td>
+<td style="text-align:center;font-size:15px;">
+90 
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:15px;">
+80 mg%
+</td>
+<td style="text-align:center;font-size:15px;">
+80
+</td>
+<td style="text-align:center;font-size:15px;">
+91
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+70
+</td>
+<td style="text-align:center;font-size:15px;">
+78 
+</td>
+</tr>
+<td style="text-align:center;font-size:15px;">
+90 mg%
+</td>
+<td style="text-align:center;font-size:15px;">
+82
+</td>
+<td style="text-align:center;font-size:15px;">
+90
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+80
+</tdd>
+<td style="text-align:center;font-size:15px;">
+67 
+</td>
+</tr>
+<td style="text-align:center;font-size:15px;">
+100 mg%
+</td>
+<td style="text-align:center;font-size:15px;">
+90
+</td>
+<td style="text-align:center;font-size:15px;">
+82
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+90
+</td>
+<td style="text-align:center;font-size:15px;">
+40 
+</td>
+</tr>
+<td style="text-align:center;font-size:15px;">
+110 mg%
+</td>
+<td style="text-align:center;font-size:15px;">
+95
+</td>
+<td style="text-align:center;font-size:15px;">
+70
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+92,5
+</td>
+<td style="text-align:center;font-size:15px;">
+20
+</td>
+</tr>
+<td style="text-align:center;font-size:15px;">
+120 mg%
+</td>
+<td style="text-align:center;font-size:15px;">
+97
+</td>
+<td style="text-align:center;font-size:15px;">
+60
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+93
+</td>
+<td style="text-align:center;font-size:15px;">
+15
+</td>
+</tr>
+<td style="text-align:center;font-size:15px;">
+130 mg%
+</td>
+<td style="text-align:center;font-size:15px;">
+100
+</td>
+<td style="text-align:center;font-size:15px;">
+30
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+95
+</td>
+<td style="text-align:center;font-size:15px;">
+7,5 
+</td>
+</tr>
+<td style="text-align:center;font-size:15px;">
+140 mg%
+</td>
+<td style="text-align:center;font-size:15px;">
+100
+</td>
+<td style="text-align:center;font-size:15px;">
+10
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+97,5
+</td>
+<td style="text-align:center;font-size:15px;">
+0,5 
+</td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+  a) A partir de que valor em mg % o Exame A é mais sensível que o Exame B?
+  b) Construa a curva ROC (receiver operator curve) para cada exame.
+  c) Qual dos exames é o melhor para o diagnóstico de diabetes mellitus? Justifique.
+    

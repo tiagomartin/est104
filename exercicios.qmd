@@ -3,3 +3,5 @@ title: "Listas de exercicios"
 ---
 
 -   [Lista de exercícios 01](exercicios/lista01.html "Lista de exercícios 01"){aria-label="Lista de exercícios 01"}
+
+-   [Lista de exercícios 02](exercicios/lista02.html "Lista de exercícios 02"){aria-label="Lista de exercícios 02"}
