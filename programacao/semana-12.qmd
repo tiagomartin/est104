@@ -9,6 +9,19 @@ title: "Semana 12"
 {{< fa file-pdf size=lg >}} [Avaliação do Teste Rápido Utilizando o Antígeno Recombinante k39 no Diagnóstico da Leishmaniose Visceral no Brasil](/artigos/Avaliação do Teste Rápido Utilizando o Antígeno Recombinante.pdf)
 
 
+## Entrega lista de exercícios 02
+
+::: callout-important
+
+## Fique Atento!
+
+{{< fa file-lines size=lg >}} [Lista de exercícios 02](/exercicios/lista02.html "Lista de exercícios 02"){aria-label="Lista de exercícios 02"} 
+
+-   Data de entrega:
+    -   10 de março de 2025
+:::
+
+
 ## Slides
 
 {{< fa file-powerpoint size=lg >}} [Testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html#/valor-de-predição-de-um-teste "Testes diagnósticos"){aria-label="Testes diagnósticos"}
