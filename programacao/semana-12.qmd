@@ -1,0 +1,16 @@
+---
+title: "Semana 12"
+---
+
+## Leituras interessantes
+
+{{< fa file-pdf size=lg >}} [Teste Rápido para Deteação da Infecção pelo HIV-1 em Gestantes](/artigos/Teste Rapido para Deteccao da Infeccao pelo HIV-1 em Gestantes.pdf)
+
+{{< fa file-pdf size=lg >}} [Avaliação do Teste Rápido Utilizando o Antígeno Recombinante k39 no Diagnóstico da Leishmaniose Visceral no Brasil](/artigos/Avaliação do Teste Rápido Utilizando o Antígeno Recombinante.pdf)
+
+
+## Slides
+
+{{< fa file-powerpoint size=lg >}} [Testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html#/valor-de-predição-de-um-teste "Testes diagnósticos"){aria-label="Testes diagnósticos"}
+
+{{< fa file-powerpoint size=lg >}} [Testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html#/valor-de-predição-de-um-teste "Testes diagnósticos"){aria-label="Testes diagnósticos"}

@@ -1,0 +1,159 @@
+---
+title: "Estudo de Caso: Avaliação dos testes rápidos Optimal-IT<sup><span>&#174;</span></sup> e ICT P.f./P.v.<sup>&reg;</sup> para o diagnóstico da malária, na Atenção Básica de Saúde, no município de Manaus, Amazonas"
+lang: pt
+toc: true
+code-annotations: "hover"
+bibliography: references.bib
+---
+
+<br>
+
+A malária é uma doença infecciosa, febril, aguda e potencialmente grave. Ela é causada pelo parasita do gênero *Plasmodium*, transmitido ao homem, na maioria das vezes pela picada de mosquitos do gênero *Anopheles* infectados, também conhecido como *mosquito-prego*. No entanto, também pode ser transmitida pelo compartilhamento de seringas, transfusão de sangue ou até mesmo da mãe para feto, na gravidez.
+
+O diagnóstico da malária é realizado rotineiramente pelo **exame da gota espessa**, entretanto, esta técnica requer o treinamento de microscopistas e pode consumir muito tempo. Além disso, a manutenção inadequada dos equipamentos e a falta de material de rotina aumentam a probabilidade de resultados não confiáveis nos casos de baixa parasitemia.
+
+Diante da necessidade de novas alternativas diagnósticas para a malária, especialmente em áreas de difícil implantação
+da microscopia óptica, @Arcanjo07 verificaram a concordância dos testes Optimal-IT<sup>&reg;</sup> e ICT P.f./P.v.<sup>&reg;</sup> com o método da gota espessa, na atenção básica de saúde, no município de Manaus, AM, ao longo do ano de 2004.
+
+
+Foram utilizadas 164 amostras de sangue de indivíduos de ambos sexos, de todas as faixas etárias, sintomáticos ou não, que procuraram três Casas de Saúde na Zona Norte do Município de Manaus. As unidades de saúde foram selecionadas pela sua proximidade às áreas de maior endemicidade para malária, naquele ano. Outras 54 amostras coletadas de bolsas de sangue da Agência Transfusional da Fundação de Hematologia e Hemoterapia do Amazonas na Fundação de Medicina Tropical do Amazonas foram utilizadas como controle. Uma amostra foi considerada inválida em cada teste, por não apresentar linha controle. Nas 54 amostras controle, colhidas de bolsas de sangue para transfusão, os exames de gota espessa e testes rápidos foram negativos em todos os casos, totalizando 217 amostras.
+
+Os resultados foram resumidos na tabela abaixo:
+
+
+```{=html}
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
+    rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:15px;">
+Optimal-IT<sup><span>&#174;</span></sup>
+</div>
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; font-size:15px;">
+ICT P.f./P.v.<sup>&reg;</sup>
+</div>
+</th>
+</tr>
+<tr>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+Gota espessa
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+positivo (T<sub>+</sub>)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+negativo (T<sub>-</sub>) 
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+positivo (T<sub>+</sub>)
+</th>
+<th style="text-align:center;font-weight: bold;font-size:15px;">
+negativo (T<sub>-</sub>) 
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+Positiva (D<sub>+</sub>)
+</td>
+<td style="text-align:center;font-size:15px;">
+44
+</td>
+<td style="text-align:center;font-size:15px;">
+17
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+48
+</td>
+<td style="text-align:center;font-size:15px;">
+13
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+Negativa (D<sub>-</sub>)
+</td>
+<td style="text-align:center;font-size:15px;">
+11
+</td>
+<td style="text-align:center;font-size:15px;">
+145
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-size:15px;">
+0
+</td>
+<td style="text-align:center;font-size:15px;">
+156
+</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight: bold;font-weight: bold;font-size:15px;">
+Total
+</td>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+55
+</td>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+162
+</td>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+48
+</td>
+<td style="text-align:center;font-weight: bold;font-size:15px;">
+169
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+
+### Questões
+
+Baseado nesse estudo de caso, responda as seguintes questões:
+
+1) Encontre a sensibilidade e a especificidade de cada teste. Qual o mais sensível? E o mais específico? Interprete os resultados.
+
+2) Encontre as medidas de avaliação dos testes baseadas na combinação de sensibilidade e especificidade para ambos os testes. Interprete os resultados.
+
+3) Considerando que a prevalência da malária, em 2004, na cidade de Manaus foi de 26,9%, encontre os valores preditivos positivo ($VPP$) e negativo ($VPN$) dos testes. Encontre também as probabilidades de falso-positivo ($PFP$) e falso-negativo ($PFN$). Interprete os resultados.
+
+4) Encontre todas as medidas de avaliação de qualidade dos testes descritas acima para testes múltiplos,
+
+      a) combinados em paralelo,
+      b) combinados em série.
+      
+   Resuma os resultados em uma tabela e interprete.
+
+5) Se a equipe médica tivesse recursos para aplicação de apenas um desses testes, qual você recomendaria? Por que?
