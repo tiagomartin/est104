@@ -21,19 +21,12 @@ title: "Lista de exercícios 02"
 3) Um exame físico e um teste audiométrico foram realizados em 500 pessoas com suspeita de problemas de audição, dos quais 300 foram casos confirmados. Os resultados dos exames estão a seguir:
 
 
-```{=html}
+
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <!-- Link da fonte está na descrição -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
-    rel="stylesheet"> 
-
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
@@ -136,7 +129,7 @@ Total
 </table>
 </body>
 </html>
-```
+
 
 
 Comparado com o exame físico, o teste audiométrico é:
@@ -164,19 +157,12 @@ Comparado com o exame físico, o teste audiométrico é:
 e especificidade para diferentes pontos de corte, conforme a seguinte tabela:
 
 
-```{=html}
+
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <!-- Link da fonte está na descrição -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
-    rel="stylesheet"> 
-
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
@@ -408,7 +394,7 @@ Especificidade (%)
 </table>
 </body>
 </html>
-```
+
 
 
   a) A partir de que valor em mg% o Exame A é mais sensível que o Exame B?

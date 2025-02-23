@@ -6,7 +6,7 @@ code-annotations: "hover"
 bibliography: references.bib
 ---
 
-<br>
+
 
 A malária é uma doença infecciosa, febril, aguda e potencialmente grave. Ela é causada pelo parasita do gênero *Plasmodium*, transmitido ao homem, na maioria das vezes pela picada de mosquitos do gênero *Anopheles* infectados, também conhecido como *mosquito-prego*. No entanto, também pode ser transmitida pelo compartilhamento de seringas, transfusão de sangue ou até mesmo da mãe para feto, na gravidez.
 
@@ -21,19 +21,12 @@ Foram utilizadas 164 amostras de sangue de indivíduos de ambos sexos, de todas 
 Os resultados foram resumidos na tabela abaixo:
 
 
-```{=html}
+
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <!-- Link da fonte está na descrição -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&display=swap" 
-    rel="stylesheet"> 
-
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
@@ -136,7 +129,7 @@ Total
 </table>
 </body>
 </html>
-```
+
 
 
 ### Questões
