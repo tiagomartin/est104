@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.7">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Análise de dados: Avaliação de um Teste Diagnóstico para Diabetes – EST104 - Estatística Aplicada à Saúde</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-fe43d0015be6fd5bd60fe62033074fe8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-1711544753feb65bf9d2198e7222e7d1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-c31c0101bef6dbc27f91c921b73cacbb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-51e27b74fbd13efd78a07743a708c48e.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Análise de dados: Avaliação de um Teste Diagnóstico para Diabetes – EST104 - Estatística Aplicada à Saúde">
+<meta property="og:description" content="Homepage da disciplina EST104 - Estatística Aplicada à Saúde, 2024/2.">
+<meta property="og:image" content="http://professortp.com.br/est104/analise_dados/teste_diabetes_files/figure-html/unnamed-chunk-6-1.png">
+<meta property="og:site_name" content="EST104 - Estatística Aplicada à Saúde">
+<meta property="og:image:height" content="960">
+<meta property="og:image:width" content="1344">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Análise de dados: Avaliação de um Teste Diagnóstico para Diabetes</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="https://github.com/tiagomartin/est104" title="github" class="quarto-navigation-tool px-1" aria-label="github"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Procurar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aulas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../estudos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Estudos de Caso</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../exercicios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listas de exercicios</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../analises.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Análise de dados</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../plano.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Plano de Ensino</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cronograma.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cronograma da disciplina</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#contexto-do-problema" id="toc-contexto-do-problema" class="nav-link active" data-scroll-target="#contexto-do-problema">Contexto do Problema</a></li>
+  <li><a href="#objetivo-do-estudo" id="toc-objetivo-do-estudo" class="nav-link" data-scroll-target="#objetivo-do-estudo">Objetivo do Estudo</a></li>
+  <li><a href="#metodologia" id="toc-metodologia" class="nav-link" data-scroll-target="#metodologia">Metodologia</a>
+  <ul class="collapse">
+  <li><a href="#amostra-do-estudo" id="toc-amostra-do-estudo" class="nav-link" data-scroll-target="#amostra-do-estudo">Amostra do Estudo</a></li>
+  <li><a href="#coleta-de-dados" id="toc-coleta-de-dados" class="nav-link" data-scroll-target="#coleta-de-dados">Coleta de Dados</a></li>
+  <li><a href="#carregando-os-pacotes-r" id="toc-carregando-os-pacotes-r" class="nav-link" data-scroll-target="#carregando-os-pacotes-r">Carregando os pacotes R</a></li>
+  <li><a href="#carregando-os-dados" id="toc-carregando-os-dados" class="nav-link" data-scroll-target="#carregando-os-dados">Carregando os dados</a></li>
+  <li><a href="#tabela-de-contingência-das-variáveis-doença-e-teste-positivo" id="toc-tabela-de-contingência-das-variáveis-doença-e-teste-positivo" class="nav-link" data-scroll-target="#tabela-de-contingência-das-variáveis-doença-e-teste-positivo">Tabela de contingência das variáveis doença e teste positivo</a></li>
+  <li><a href="#cálculo-das-métricas" id="toc-cálculo-das-métricas" class="nav-link" data-scroll-target="#cálculo-das-métricas">Cálculo das Métricas</a></li>
+  </ul></li>
+  <li><a href="#discussão-dos-resultados" id="toc-discussão-dos-resultados" class="nav-link" data-scroll-target="#discussão-dos-resultados">Discussão dos Resultados</a>
+  <ul class="collapse">
+  <li><a href="#outras-interpretações" id="toc-outras-interpretações" class="nav-link" data-scroll-target="#outras-interpretações">Outras interpretações</a></li>
+  <li><a href="#índice-de-youden-e-odds-ratio" id="toc-índice-de-youden-e-odds-ratio" class="nav-link" data-scroll-target="#índice-de-youden-e-odds-ratio">Índice de Youden e <em>Odds Ratio</em></a></li>
+  <li><a href="#intervalos-de-confiança" id="toc-intervalos-de-confiança" class="nav-link" data-scroll-target="#intervalos-de-confiança">Intervalos de confiança</a></li>
+  </ul></li>
+  <li><a href="#e-se-a-variável-desfecho-for-contínua" id="toc-e-se-a-variável-desfecho-for-contínua" class="nav-link" data-scroll-target="#e-se-a-variável-desfecho-for-contínua">E se a variável desfecho for contínua?</a>
+  <ul class="collapse">
+  <li><a href="#curva-roc-e-área-sob-a-curva-auc" id="toc-curva-roc-e-área-sob-a-curva-auc" class="nav-link" data-scroll-target="#curva-roc-e-área-sob-a-curva-auc">Curva ROC e Área Sob a Curva (AUC)</a></li>
+  <li><a href="#escolha-do-melhor-ponto-de-corte" id="toc-escolha-do-melhor-ponto-de-corte" class="nav-link" data-scroll-target="#escolha-do-melhor-ponto-de-corte">Escolha do Melhor Ponto de Corte</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/tiagomartin/est104/edit/main/analise_dados/teste_diabetes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/tiagomartin/est104/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Análise de dados: Avaliação de um Teste Diagnóstico para Diabetes</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="contexto-do-problema" class="level2">
+<h2 class="anchored" data-anchor-id="contexto-do-problema">Contexto do Problema</h2>
+<p>Um novo teste diagnóstico para diabetes foi desenvolvido por uma equipe de pesquisadores. Esse teste visa detectar a presença da doença com maior eficiência e menor custo em comparação ao teste de referência, que é o exame de glicemia em jejum. Antes de sua implementação na prática clínica, é necessário avaliar sua acurácia diagnóstica.</p>
+</section>
+<section id="objetivo-do-estudo" class="level2">
+<h2 class="anchored" data-anchor-id="objetivo-do-estudo">Objetivo do Estudo</h2>
+<p>Avaliar a performance do novo teste diagnóstico em relação ao padrão-ouro (exame de glicemia em jejum).</p>
+</section>
+<section id="metodologia" class="level2">
+<h2 class="anchored" data-anchor-id="metodologia">Metodologia</h2>
+<section id="amostra-do-estudo" class="level3">
+<h3 class="anchored" data-anchor-id="amostra-do-estudo">Amostra do Estudo</h3>
+<p>Foram selecionados 500 indivíduos aleatoriamente em uma unidade de saúde. Cada participante realizou tanto o novo teste diagnóstico quanto o exame de glicemia em jejum.</p>
+</section>
+<section id="coleta-de-dados" class="level3">
+<h3 class="anchored" data-anchor-id="coleta-de-dados">Coleta de Dados</h3>
+<p>Os participantes foram classificados em dois grupos:</p>
+<ul>
+<li>Doença presente: Indivíduos diagnosticados com diabetes pelo exame de glicemia em jejum.</li>
+<li>Doença ausente: Indivíduos sem diagnóstico de diabetes pelo exame de glicemia em jejum.</li>
+</ul>
+<p>Os resultados do novo teste diagnóstico foram comparados ao exame de glicemia em jejum para determinar a acurácia do teste.</p>
+<p>Fonte dos dados:</p>
+<ul>
+<li><a href="https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/teste_diabetes.csv" class="uri">https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/teste_diabetes.csv</a></li>
+</ul>
+</section>
+<section id="carregando-os-pacotes-r" class="level3">
+<h3 class="anchored" data-anchor-id="carregando-os-pacotes-r">Carregando os pacotes R</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  rio,          <span class="co"># importa arquivos</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  tidyverse,    <span class="co"># gestão dos dados + gráficos no ggplot2 </span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  janitor,      <span class="co"># adiciona números absolutos e porcentagens às tabelas</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  pROC,         <span class="co"># construção da curva ROC</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  epiR,         <span class="co"># cálculo das métricas de avaliação</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  cutpointr     <span class="co"># grafico da curva ROC</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="carregando-os-dados" class="level3">
+<h3 class="anchored" data-anchor-id="carregando-os-dados">Carregando os dados</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>dados <span class="ot">=</span> rio<span class="sc">::</span><span class="fu">import</span>(<span class="st">"https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/teste_diabetes.csv"</span>) </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>dados <span class="sc">%&gt;%</span> </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">str</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>'data.frame':   500 obs. of  4 variables:
+ $ V1            : int  1 2 3 4 5 6 7 8 9 10 ...
+ $ doenca        : int  0 1 0 1 1 0 0 1 0 0 ...
+ $ teste_positivo: int  0 1 0 1 1 0 0 1 0 0 ...
+ $ glicemia      : num  73.2 147.8 103.1 110.3 165.7 ...</code></pre>
+</div>
+</div>
+</section>
+<section id="tabela-de-contingência-das-variáveis-doença-e-teste-positivo" class="level3">
+<h3 class="anchored" data-anchor-id="tabela-de-contingência-das-variáveis-doença-e-teste-positivo">Tabela de contingência das variáveis doença e teste positivo</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>tabela <span class="ot">=</span> <span class="fu">table</span>(<span class="at">Referencia =</span> dados<span class="sc">$</span>doenca, <span class="at">Teste =</span> dados<span class="sc">$</span>teste_positivo)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>tabela</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>          Teste
+Referencia   0   1
+         0 278  27
+         1  20 175</code></pre>
+</div>
+</div>
+</section>
+<section id="cálculo-das-métricas" class="level3">
+<h3 class="anchored" data-anchor-id="cálculo-das-métricas">Cálculo das Métricas</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>metr <span class="ot">=</span> <span class="fu">epi.tests</span>(tabela)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>metr</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>          Outcome +    Outcome -      Total
+Test +          278           27        305
+Test -           20          175        195
+Total           298          202        500
+
+Point estimates and 95% CIs:
+--------------------------------------------------------------
+Apparent prevalence *                  0.61 (0.57, 0.65)
+True prevalence *                      0.60 (0.55, 0.64)
+Sensitivity *                          0.93 (0.90, 0.96)
+Specificity *                          0.87 (0.81, 0.91)
+Positive predictive value *            0.91 (0.87, 0.94)
+Negative predictive value *            0.90 (0.85, 0.94)
+Positive likelihood ratio              6.98 (4.91, 9.93)
+Negative likelihood ratio              0.08 (0.05, 0.12)
+False T+ proportion for true D- *      0.13 (0.09, 0.19)
+False T- proportion for true D+ *      0.07 (0.04, 0.10)
+False T+ proportion for T+ *           0.09 (0.06, 0.13)
+False T- proportion for T- *           0.10 (0.06, 0.15)
+Correctly classified proportion *      0.91 (0.88, 0.93)
+--------------------------------------------------------------
+* Exact CIs</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="discussão-dos-resultados" class="level2">
+<h2 class="anchored" data-anchor-id="discussão-dos-resultados">Discussão dos Resultados</h2>
+<p>A prevalência real (<span class="math inline">\(pr\)</span>) de diabetes é função dos resultados do exame de referência enquanto que a prevalência aparente (<span class="math inline">\(pa\)</span>) é função dos resultados da aplicação do teste, ou seja,</p>
+<p><span class="math display">\[pr = \dfrac{298}{500} \approx 0,60  \text{           e          } pa = \dfrac{305}{500} = 0,61\]</span></p>
+<p>O novo teste diagnóstico apresentou alta sensibilidade (93%), indicando que ele identifica corretamente a maioria dos indivíduos com diabetes. A especificidade de 87% sugere que o teste também é eficaz em descartar aqueles sem a doença.</p>
+<p>Os valores preditivos indicam a confiabilidade dos resultados do teste: 91% das pessoas com teste positivo realmente têm diabetes, enquanto 90% das pessoas com teste negativo realmente não têm a doença.</p>
+<p>A acurácia global de 91% sugere que o teste é uma ferramenta útil, mas deve ser avaliado em combinação com outros fatores clínicos antes de sua adoção generalizada.</p>
+<p>Note que o valor <span class="math inline">\(RV_+ = 6,98\)</span> indica que um resultado positivo é aproximadamente 7 vezes mais provável em pacientes com diabetes do que os não doentes, enquanto que o resultado negativo (<span class="math inline">\(RV_- = 0,08\)</span>) é 12,5 vezes <span class="math inline">\(\left( \dfrac{1}{0,08}=12,5 \right)\)</span> mais provável em pacientes não doentes.</p>
+<section id="outras-interpretações" class="level3">
+<h3 class="anchored" data-anchor-id="outras-interpretações">Outras interpretações</h3>
+<ul>
+<li><p>False <span class="math inline">\(T_+\)</span> proportion for true <span class="math inline">\(D_-\)</span> = 0,13: Proporção de falsos positivos (<span class="math inline">\(PFP\)</span>) entre aqueles que realmente não têm a doença (<span class="math inline">\(D_-\)</span>), ou seja, 13% das pessoas sem a doença foram classificadas erroneamente como positivas pelo teste. Um teste com alta proporção de falsos positivos pode levar a diagnósticos errôneos e ansiedade desnecessária para pacientes saudáveis. Se esse valor for alto, pode ser necessário aumentar a especificidade do teste.</p></li>
+<li><p>False <span class="math inline">\(T_-\)</span> proportion for true <span class="math inline">\(D_+\)</span> = 0,07: Essa é a proporção de falsos negativos (<span class="math inline">\(PFN\)</span>) entre aqueles que realmente têm a doença (<span class="math inline">\(D_+\)</span>), ou seja, 7% das pessoas com a doença foram classificadas erroneamente como negativas pelo teste. Um teste com falsos negativos pode perder casos reais da doença, o que pode ser perigoso, especialmente se a doença exigir tratamento precoce. Se esse valor for alto, pode ser necessário aumentar a sensibilidade do teste.</p></li>
+<li><p>False <span class="math inline">\(T_+\)</span> proportion for <span class="math inline">\(T_+\)</span> = 0,09: Essa é a proporção de falsos positivos entre todos os testes positivos (<span class="math inline">\(T_+\)</span>), ou seja, entre todos os pacientes que tiveram um teste positivo, 9% eram na verdade saudáveis. Isso afeta o Valor Preditivo Positivo (<span class="math inline">\(VPP\)</span>). Se essa proporção for alta, significa que um teste positivo nem sempre confirma a doença.</p></li>
+<li><p>False <span class="math inline">\(T_-\)</span> proportion for <span class="math inline">\(T_-\)</span> = 0,10: Essa é a proporção de falsos negativos entre todos os testes negativos (<span class="math inline">\(T_-\)</span>), ou seja, entre todos os pacientes que tiveram um teste negativo, 10% na verdade tinham a doença. Isso afeta o Valor Preditivo Negativo (<span class="math inline">\(VPN\)</span>). Se essa proporção for alta, significa que um teste negativo nem sempre exclui a doença.</p></li>
+</ul>
+</section>
+<section id="índice-de-youden-e-odds-ratio" class="level3">
+<h3 class="anchored" data-anchor-id="índice-de-youden-e-odds-ratio">Índice de Youden e <em>Odds Ratio</em></h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>metr<span class="sc">$</span>detail</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   statistic         est       lower       upper
+1         ap  0.61000000  0.56569956   0.6529917
+2         tp  0.59600000  0.55152589   0.6393322
+3         se  0.93288591  0.89824865   0.9585262
+4         sp  0.86633663  0.81151436   0.9100326
+5    diag.ac  0.90600000  0.87696239   0.9301138
+6    diag.or 90.09259259 49.03156269 165.5398032
+7       nndx  1.25121596  1.15133247   1.4089210
+8     youden  0.79922254  0.70976302   0.8685588
+9     pv.pos  0.91147541  0.87381587   0.9408505
+10    pv.neg  0.89743590  0.84604758   0.9362173
+11    lr.pos  6.97936863  4.90648290   9.9280049
+12    lr.neg  0.07746884  0.05055819   0.1187032
+13    p.rout  0.39000000  0.34700826   0.4343004
+14     p.rin  0.61000000  0.56569956   0.6529917
+15    p.tpdn  0.13366337  0.08996739   0.1884856
+16    p.tndp  0.06711409  0.04147376   0.1017513
+17    p.dntp  0.08852459  0.05914948   0.1261841
+18    p.dptn  0.10256410  0.06378268   0.1539524</code></pre>
+</div>
+</div>
+<p>Temos que o índice de Youden foi igual a 0,80 (0,71;0,87), indicando que o novo teste é um excelente, altamente confiável para o diagnóstico de diabetes. Temos ainda que, a <em>odds ratio</em> foi igual a 90,09 (49,03; 165,54), indicando que a chance de um resultado de teste positivo é de 90 vezes em pacientes com diabetes em relação à do grupo sem a doença.</p>
+</section>
+<section id="intervalos-de-confiança" class="level3">
+<h3 class="anchored" data-anchor-id="intervalos-de-confiança">Intervalos de confiança</h3>
+<ol type="1">
+<li>Intervalo de Confiança para Sensibilidade, Especificidade, VPP, VPN e Proporções</li>
+</ol>
+<p>Essas métricas seguem uma distribuição binomial, e o intervalo de confiança pode ser calculado usando a fórmula do IC binomial de Wald:</p>
+<p><span class="math display">\[IC = \hat{p} \pm z_{\frac{\alpha}{2}} \times \sqrt{\dfrac{\hat{p}(1-\hat{p})}{n}}\]</span></p>
+<p>em que,</p>
+<ul>
+<li><span class="math inline">\(\hat{p}\)</span> é a estimativa da proporção (por exemplo: sensibilidade = 0,93).</li>
+<li><span class="math inline">\(z_{\frac{\alpha}{2}}\)</span> é o valor crítico da distribuição normal para um nível de confiança de <span class="math inline">\((1 - \alpha)\)</span>% (1,96 para 95%).</li>
+<li><span class="math inline">\(n\)</span> é o número total de indivíduos no grupo correspondente (por exemplo: para sensibilidade, n = 298).</li>
+</ul>
+<ol start="2" type="1">
+<li>Intervalo de Confiança para Razões de Verossimilhança (Likelihood Ratios)</li>
+</ol>
+<p>Os <span class="math inline">\(RV_+\)</span> e <span class="math inline">\(RV_-\)</span> não seguem diretamente uma distribuição binomial, então aplicamos a transformação logarítmica para calcular o IC:</p>
+<p><span class="math display">\[IC = \exp(\ln(\hat{RV}) \pm  z_{\frac{\alpha}{2}}  \times SE)\]</span></p>
+<p>em que o erro padrão (<span class="math inline">\(SE\)</span>) é dado por</p>
+<p><span class="math display">\[SE = \sqrt{\dfrac{1}{a} - \dfrac{1}{a+b} + \dfrac{1}{d} - \dfrac{1}{c+d}}\]</span></p>
+<ol start="3" type="1">
+<li>Intervalo de Confiança para o Índice de Youden</li>
+</ol>
+<p>Para calcular o intervalo de confiança (IC) do Índice de Youden, usamos a seguinte fórmula:</p>
+<p><span class="math display">\[SE_J = \sqrt(SE^2_s + SE_e^2)\]</span> sendo <span class="math inline">\(SE_s\)</span> o erro paddrão da sensibilidade e <span class="math inline">\(SE_e\)</span>, o r=erro padrão da especificidade. Assim, o IC do Índice de Youden é dado por:</p>
+<p><span class="math display">\[IC = J \pm z_{\frac{\alpha}{2}} \times SE_J\]</span></p>
+<ol start="4" type="1">
+<li>Intervalo de confiança para <em>odds ratio</em></li>
+</ol>
+<p>O intervalo de confiança para o <span class="math inline">\(OR\)</span>, pode ser calculado com a seguinte fórmula:</p>
+<p><span class="math display">\[IC = \exp(\ln(OR) \pm z_{\frac{\alpha}{2}} \times SE_{\ln(OR)})\]</span> sendo</p>
+<p><span class="math display">\[SE_{\ln(OR)} = \sqrt{\dfrac{1}{a} + \dfrac{1}{b} + \dfrac{1}{c} + \dfrac{1}{d}}\]</span></p>
+</section>
+</section>
+<section id="e-se-a-variável-desfecho-for-contínua" class="level2">
+<h2 class="anchored" data-anchor-id="e-se-a-variável-desfecho-for-contínua">E se a variável desfecho for contínua?</h2>
+<p>Vamos considerar a variável <em>Índice de Glicemia</em> para avaliação do diagnóstico.</p>
+<section id="curva-roc-e-área-sob-a-curva-auc" class="level3">
+<h3 class="anchored" data-anchor-id="curva-roc-e-área-sob-a-curva-auc">Curva ROC e Área Sob a Curva (AUC)</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>roc_obj <span class="ot">=</span> pROC<span class="sc">::</span><span class="fu">roc</span>(dados<span class="sc">$</span>doenca, dados<span class="sc">$</span>glicemia)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Setting levels: control = 0, case = 1</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Setting direction: controls &lt; cases</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(roc_obj, <span class="at">main =</span> <span class="st">"Curva ROC do Teste Diagnóstico"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="teste_diabetes_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>auc_valor <span class="ot">=</span> pROC<span class="sc">::</span><span class="fu">auc</span>(roc_obj)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="do">##Área sob a Curva (AUC)</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>auc_valor</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Area under the curve: 0.9901</code></pre>
+</div>
+</div>
+<p>A Curva ROC (Receiver Operating Characteristic) avalia a capacidade do teste em distinguir entre pacientes com e sem diabetes. O principal indicador de performance é a Área Sob a Curva (AUC):</p>
+<ul>
+<li>AUC = 1.0 → Teste perfeito (classifica todos corretamente).</li>
+<li>AUC ≥ 0.9 → Teste excelente.</li>
+<li>AUC entre 0.8 e 0.9 → Teste muito bom.</li>
+<li>AUC entre 0.7 e 0.8 → Teste razoável.</li>
+<li>AUC entre 0.5 e 0.7 → Teste fraco.</li>
+<li>AUC = 0.5 → O teste não tem poder discriminatório (equivalente ao acaso).</li>
+</ul>
+<p>Se obtivermos, por exemplo, AUC = 0,9901, isso indica que o teste tem um excelente desempenho em distinguir pacientes com e sem diabetes.</p>
+</section>
+<section id="escolha-do-melhor-ponto-de-corte" class="level3">
+<h3 class="anchored" data-anchor-id="escolha-do-melhor-ponto-de-corte">Escolha do Melhor Ponto de Corte</h3>
+<p>Um teste com desfecho contínuo precisa de um ponto de corte para ser usado na prática clínica. O índice de Youden é um critério comum para encontrar o limiar ideal:</p>
+<p><span class="math display">\[J = Sensibilidade+Especificidade−1\]</span></p>
+<p>O melhor ponto de corte é aquele que maximiza simultaneamente a sensibilidade e a especificidade. Se priorizamos detectar todos os casos (sensibilidade alta), podemos escolher um ponto de corte mais baixo. Se queremos evitar falsos positivos, podemos escolher um ponto de corte mais alto.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-9"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-9-1"><a href="#annotated-cell-9-1" aria-hidden="true" tabindex="-1"></a>cp <span class="ot">=</span> <span class="fu">cutpointr</span>(dados,  glicemia, doenca, </span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-9" data-target-annotation="1">1</button><span id="annotated-cell-9-2" class="code-annotation-target"><a href="#annotated-cell-9-2" aria-hidden="true" tabindex="-1"></a>                <span class="at">method =</span> maximize_metric, <span class="at">metric =</span> youden)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-hidden code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-9" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-9" data-code-lines="2" data-code-annotation="1">A função cutpointr() do pacote <em>cutpointr</em> determina e avalia pontos de corte ideais baseados em uma métrica específica. Para uma introdução ao pacote, consulte vignette(“cutpointr”, package = “cutpointr”).</span>
+</dd>
+</dl>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Assuming the positive class is 1</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Assuming the positive class has higher x values</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>cp<span class="sc">$</span>optimal_cutpoint</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 117.7534</code></pre>
+</div>
+</div>
+<p>Podemos observar que para este exemplo, o ponto de corte ótimo foi igual a 117,7534, indicando que pacientes com valores acima desse limite são mais propensos a ter diabetes, enquanto valores abaixo desse limite indicam baixo risco.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Algumas métricas de avaliação</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(cp)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Method: maximize_metric 
+Predictor: glicemia 
+Outcome: doenca 
+Direction: &gt;= 
+
+    AUC   n n_pos n_neg
+ 0.9901 500   195   305
+
+ optimal_cutpoint youden   acc sensitivity specificity  tp fn fp  tn
+         117.7534 0.9164 0.958       0.959      0.9574 187  8 13 292
+
+Predictor summary: 
+    Data     Min.        5%   1st Qu.    Median      Mean   3rd Qu.      95%
+ Overall 45.75192  69.90402  85.84629 101.76185 112.67595 140.95893 170.6583
+       0 45.75192  66.15261  80.00629  88.80496  89.59556  98.61755 116.4540
+       1 93.02906 119.23256 137.15388 148.79227 148.77605 162.67633 177.8412
+     Max.       SD NAs
+ 190.8391 33.28575   0
+ 141.3164 15.06062   0
+ 190.8391 18.62637   0</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Curva roc</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(cp)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="teste_diabetes_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Se o objetivo for detectar o máximo de casos de diabetes (exemplo: triagem populacional), escolhemos um ponto de corte com alta sensibilidade (aceitando mais falsos positivos). Se o objetivo for garantir que apenas os verdadeiros doentes sejam diagnosticados (exemplo: evitar sobretratamento), escolhemos um ponto de corte com alta especificidade (aceitando mais falsos negativos). Em muitos casos clínicos, o ponto de corte pode ser ajustado com base em fatores de risco individuais.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("http:\/\/professortp\.com\.br\/est104\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      const annoteTargets = window.document.querySelectorAll('.code-annotation-anchor');
+      for (let i=0; i<annoteTargets.length; i++) {
+        const annoteTarget = annoteTargets[i];
+        const targetCell = annoteTarget.getAttribute("data-target-cell");
+        const targetAnnotation = annoteTarget.getAttribute("data-target-annotation");
+        const contentFn = () => {
+          const content = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          if (content) {
+            const tipContent = content.cloneNode(true);
+            tipContent.classList.add("code-annotation-tip-content");
+            return tipContent.outerHTML;
+          }
+        }
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          onShow: (instance) => {
+            selectCodeLines(instance.reference);
+            instance.reference.classList.add('code-annotation-active');
+            window.tippy.hideAll();
+          },
+          onHide: (instance) => {
+            unselectCodeLines();
+            instance.reference.classList.remove('code-annotation-active');
+          },
+          maxWidth: 300,
+          delay: [50, 0],
+          duration: [200, 0],
+          offset: [5, 10],
+          arrow: true,
+          appendTo: function(el) {
+            return el.parentElement.parentElement.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'quarto',
+          placement: 'right',
+          popperOptions: {
+            modifiers: [
+            {
+              name: 'flip',
+              options: {
+                flipVariations: false, // true by default
+                allowedAutoPlacements: ['right'],
+                fallbackPlacements: ['right', 'top', 'top-start', 'top-end', 'bottom', 'bottom-start', 'bottom-end', 'left'],
+              },
+            },
+            {
+              name: 'preventOverflow',
+              options: {
+                mainAxis: false,
+                altAxis: false
+              }
+            }
+            ]        
+          }      
+        };
+        window.tippy(annoteTarget, config); 
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2024, Tiago Pereira</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/tiagomartin/est104/edit/main/analise_dados/teste_diabetes.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/tiagomartin/est104/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Página construída usando <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

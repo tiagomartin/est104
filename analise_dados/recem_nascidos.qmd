@@ -189,6 +189,7 @@ dados_brutos %>%
   tabyl(pre_natal, desfecho)%>% 
   adorn_totals(where = 'both')
 ```
+
 ### Visualizando graficamente
 
 ```{r message=FALSE}

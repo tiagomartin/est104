@@ -7,3 +7,5 @@ title: "Análise de dados"
 -   [Eficácia da vitamina C](analise_dados/vitamina_C.html "Script análise de dados"){aria-label="Script análise de dados"}
 
 -   [Eficácia do captopril](analise_dados/ensaio_clinico.html "Script análise de dados"){aria-label="Script análise de dados"}
+
+-   [Avaliação de teste para diabetes](analise_dados/teste_diabetes.html "Script análise de dados"){aria-label="Script análise de dados"}
