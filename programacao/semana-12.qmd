@@ -43,4 +43,4 @@ title: "Semana 12"
 
 {{< fa file-powerpoint size=lg >}} [Testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html#/valor-de-predição-de-um-teste "Testes diagnósticos"){aria-label="Testes diagnósticos"}
 
-{{< fa file-powerpoint size=lg >}} [Testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html#/valor-de-predição-de-um-teste "Testes diagnósticos"){aria-label="Testes diagnósticos"}
+{{< fa file-powerpoint size=lg >}} [Testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html#/combinação-em-paralelo "Testes diagnósticos"){aria-label="Testes diagnósticos"}

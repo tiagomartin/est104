@@ -1165,11 +1165,11 @@ $$VPN = \dfrac{(1-p)e}{p(1-s) + (1-p)e} = \dfrac{(1-0,12) \times 0,9828}{0,12 \t
 
 
 
-- **INTERPRETAÇÃO:** Note que os valores de $VPP$ e $VPN$ são bastante altos. Se o resultado do teste rápido molecular (TRM) é negativo, a chance do paciente não ter tuberculose pulmonar é de 99%. Por outro lado, o fato de o teste diagnóstico dar positivo elevou a probabilidade de o paciente estar doente de 12% para 88%.
+- **INTERPRETAÇÃO:** Note que os valores de $VPP$ e $VPN$ são bastante altos. Se o resultado do teste rápido molecular (TRM) é negativo, a probabilidade do paciente não ter tuberculose pulmonar é de 99%. Por outro lado, o fato de o teste diagnóstico dar positivo elevou a probabilidade de o paciente estar doente de 12% para 88%.
 
 . . .
 
-- São esperados após a aplicação do teste rápido molecular (TRM), são esperados 12% de falso-positivos e 1% de falso-negativos.
+- Após a aplicação do teste rápido molecular (TRM), são esperados 12% de falso-positivos e 1% de falso-negativos.
 
 
 

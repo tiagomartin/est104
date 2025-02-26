@@ -447,7 +447,7 @@
     "href": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-vpp-e-vpn-2",
     "title": "Medidas de acurácia de testes diagnósticos",
     "section": "Cálculo do VPP e VPN",
-    "text": "Cálculo do VPP e VPN\n\nINTERPRETAÇÃO: Note que os valores de \\(VPP\\) e \\(VPN\\) são bastante altos. Se o resultado do teste rápido molecular (TRM) é negativo, a chance do paciente não ter tuberculose pulmonar é de 99%. Por outro lado, o fato de o teste diagnóstico dar positivo elevou a probabilidade de o paciente estar doente de 12% para 88%.\n\n\n\nSão esperados após a aplicação do teste rápido molecular (TRM), são esperados 12% de falso-positivos e 1% de falso-negativos."
+    "text": "Cálculo do VPP e VPN\n\nINTERPRETAÇÃO: Note que os valores de \\(VPP\\) e \\(VPN\\) são bastante altos. Se o resultado do teste rápido molecular (TRM) é negativo, a probabilidade do paciente não ter tuberculose pulmonar é de 99%. Por outro lado, o fato de o teste diagnóstico dar positivo elevou a probabilidade de o paciente estar doente de 12% para 88%.\n\n\n\nApós a aplicação do teste rápido molecular (TRM), são esperados 12% de falso-positivos e 1% de falso-negativos."
   },
   {
     "objectID": "aulas/Testes diagnósticos/testesDiagnosticos.html#cálculo-do-vpp-e-vpn-3",
