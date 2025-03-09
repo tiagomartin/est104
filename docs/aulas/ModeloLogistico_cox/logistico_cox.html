@@ -331,13 +331,7 @@ Multiple R-squared:  0.1956,    Adjusted R-squared:  0.194
 F-statistic: 118.9 on 6 and 2933 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 </div>
-</section><section id="avaliação-do-modelo" class="slide level2"><h2>Avaliação do modelo</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="fu">par</span>(<span class="at">mfrow=</span><span class="fu">c</span>(<span class="dv">2</span>,<span class="dv">2</span>))</span>
-<span id="cb7-2"><a></a><span class="fu">plot</span>(modelo_multiplo)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-
-</div>
-<img data-src="logistico_cox_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section><section id="interpretação-do-modelo" class="slide level2"><h2>Interpretação do modelo</h2>
+</section><section id="interpretação-do-modelo" class="slide level2"><h2>Interpretação do modelo</h2>
 
 
     <meta charset="UTF-8">
@@ -594,13 +588,14 @@ F-statistic: 118.9 on 6 and 2933 DF,  p-value: &lt; 2.2e-16</code></pre>
 <li>
 <strong>Interpretação:</strong> O coeficiente do peso indica que, para cada aumento de 1 grama no peso ao nascer, o logaritmo da chance de que um bebê desenvolva BPD diminui de 0,0042, em média.</li>
 </ul>
+</div>
+</section><section id="modelo-de-regressão-logística-3" class="slide level2"><h2>Modelo de regressão logística</h2>
 <p>Qual a probabilidade de que um bebê, retirado desta população pesando 750g ao nascer, irá desenvolver BPD?</p>
 <p><span class="math display">\[
 \begin{eqnarray*}
 \ln\left ( \frac{\hat{p}}{1-\hat{p}} \right) = 4,0343 - 0,0042 x
 \end{eqnarray*}
 \]</span></p>
-</div>
 <div class="fragment">
 <p>Trocando-se <span class="math inline">\(x\)</span> por 750, temos</p>
 <p><span class="math display">\[
@@ -609,21 +604,21 @@ F-statistic: 118.9 on 6 and 2933 DF,  p-value: &lt; 2.2e-16</code></pre>
 \end{eqnarray*}
 \]</span></p>
 </div>
-</section><section id="modelo-de-regressão-logística-3" class="slide level2"><h2>Modelo de regressão logística</h2>
+</section><section id="modelo-de-regressão-logística-4" class="slide level2"><h2>Modelo de regressão logística</h2>
 <p>Aplicando a função exponencial em ambos os lados, temos</p>
 <p><span class="math display">\[
 \begin{eqnarray*}
 \ln\left ( \frac{\hat{p}}{1-\hat{p}} \right) &amp;=&amp; 0,8843 \\ \frac{\hat{p}}{1-\hat{p}} &amp;=&amp; e^{0,8843} = 2,4113
 \end{eqnarray*}
 \]</span></p>
-</section><section id="modelo-de-regressão-logística-4" class="slide level2"><h2>Modelo de regressão logística</h2>
+</section><section id="modelo-de-regressão-logística-5" class="slide level2"><h2>Modelo de regressão logística</h2>
 <p>Isolando <span class="math inline">\(\hat{p}\)</span>:</p>
 <p><span class="math display">\[
 \begin{eqnarray*}
 \frac{\hat{p}}{1-\hat{p}} &amp;=&amp; 2,4113 \\ \hat{p} &amp;=&amp; 2,4113 - 2,4113 \hat{p} \\ \hat{p} + 2,4113 \hat{p} &amp;=&amp; 2,4113 \\ (1 + 2,4113)\hat{p} &amp;=&amp; 2,4113 \\ \hat{p} &amp;=&amp; \dfrac{2,4113}{1 + 2,4113} = 0,708
 \end{eqnarray*}
 \]</span></p>
-</section><section id="modelo-de-regressão-logística-5" class="slide level2"><h2>Modelo de regressão logística</h2>
+</section><section id="modelo-de-regressão-logística-6" class="slide level2"><h2>Modelo de regressão logística</h2>
 <p>A probabilidade estimada de que uma criança, que pesa 750g ao nascer, desenvolva BPD é de 0,708.</p>
 <div class="fragment">
 <p>Se calculássemos a probabilidade estimada <span class="math inline">\(\hat{p}\)</span> para cada valor observado dos pesos ao nascer e plotássemos <span class="math inline">\(\hat{p} \times\)</span> o peso, teríamos</p>
@@ -652,35 +647,35 @@ F-statistic: 118.9 on 6 and 2933 DF,  p-value: &lt; 2.2e-16</code></pre>
 </ul></section><section id="preparação-1" class="slide level2"><h2>Preparação</h2>
 <h3 id="carregando-os-pacotes-r-1">Carregando os pacotes R</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(</span>
-<span id="cb8-2"><a></a>NHANES,</span>
-<span id="cb8-3"><a></a>tidyverse,</span>
-<span id="cb8-4"><a></a>car,</span>
-<span id="cb8-5"><a></a>lmtest</span>
-<span id="cb8-6"><a></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(</span>
+<span id="cb7-2"><a></a>NHANES,</span>
+<span id="cb7-3"><a></a>tidyverse,</span>
+<span id="cb7-4"><a></a>car,</span>
+<span id="cb7-5"><a></a>lmtest</span>
+<span id="cb7-6"><a></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section><section id="carregando-os-dados-1" class="slide level2"><h2>Carregando os dados</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a><span class="co"># Selecionar variáveis relevantes e remover NAs</span></span>
-<span id="cb9-2"><a></a>dados <span class="ot">&lt;-</span> NHANES <span class="sc">%&gt;%</span></span>
-<span id="cb9-3"><a></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(BPSysAve) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(BMI) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(Age) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(Gender) <span class="sc">&amp;</span> </span>
-<span id="cb9-4"><a></a>           <span class="sc">!</span><span class="fu">is.na</span>(TotChol) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(SleepHrsNight) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(SmokeNow) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(Diabetes)) <span class="sc">%&gt;%</span></span>
-<span id="cb9-5"><a></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(BPSysAve, BMI, Age, Gender, TotChol,SleepHrsNight,  SmokeNow, Diabetes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a><span class="co"># Selecionar variáveis relevantes e remover NAs</span></span>
+<span id="cb8-2"><a></a>dados <span class="ot">&lt;-</span> NHANES <span class="sc">%&gt;%</span></span>
+<span id="cb8-3"><a></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(BPSysAve) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(BMI) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(Age) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(Gender) <span class="sc">&amp;</span> </span>
+<span id="cb8-4"><a></a>           <span class="sc">!</span><span class="fu">is.na</span>(TotChol) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(SleepHrsNight) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(SmokeNow) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(Diabetes)) <span class="sc">%&gt;%</span></span>
+<span id="cb8-5"><a></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(BPSysAve, BMI, Age, Gender, TotChol,SleepHrsNight,  SmokeNow, Diabetes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section><section id="manipulação-dos-dados-1" class="slide level2"><h2>Manipulação dos dados</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="co"># Renomear variáveis para facilitar</span></span>
-<span id="cb10-2"><a></a><span class="fu">colnames</span>(dados) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"PAS"</span>, <span class="st">"IMC"</span>, <span class="st">"Idade"</span>, <span class="st">"Sexo"</span>, <span class="st">"Colesterol"</span>, <span class="st">"HorasDeSonoNoite"</span>, <span class="st">"Fumante"</span>, <span class="st">"Diabetes"</span>)</span>
-<span id="cb10-3"><a></a></span>
-<span id="cb10-4"><a></a><span class="co"># Transformar Sexo e Fumante em fatores</span></span>
-<span id="cb10-5"><a></a>dados<span class="sc">$</span>Sexo <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(dados<span class="sc">$</span>Sexo)</span>
-<span id="cb10-6"><a></a>dados<span class="sc">$</span>Fumante <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(dados<span class="sc">$</span>Fumante)</span>
-<span id="cb10-7"><a></a>dados<span class="sc">$</span>Diabetes <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(dados<span class="sc">$</span>Diabetes)</span>
-<span id="cb10-8"><a></a></span>
-<span id="cb10-9"><a></a><span class="co"># Estrutura dos dados</span></span>
-<span id="cb10-10"><a></a></span>
-<span id="cb10-11"><a></a>dados <span class="sc">%&gt;%</span> </span>
-<span id="cb10-12"><a></a>  <span class="fu">str</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a><span class="co"># Renomear variáveis para facilitar</span></span>
+<span id="cb9-2"><a></a><span class="fu">colnames</span>(dados) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"PAS"</span>, <span class="st">"IMC"</span>, <span class="st">"Idade"</span>, <span class="st">"Sexo"</span>, <span class="st">"Colesterol"</span>, <span class="st">"HorasDeSonoNoite"</span>, <span class="st">"Fumante"</span>, <span class="st">"Diabetes"</span>)</span>
+<span id="cb9-3"><a></a></span>
+<span id="cb9-4"><a></a><span class="co"># Transformar Sexo e Fumante em fatores</span></span>
+<span id="cb9-5"><a></a>dados<span class="sc">$</span>Sexo <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(dados<span class="sc">$</span>Sexo)</span>
+<span id="cb9-6"><a></a>dados<span class="sc">$</span>Fumante <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(dados<span class="sc">$</span>Fumante)</span>
+<span id="cb9-7"><a></a>dados<span class="sc">$</span>Diabetes <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(dados<span class="sc">$</span>Diabetes)</span>
+<span id="cb9-8"><a></a></span>
+<span id="cb9-9"><a></a><span class="co"># Estrutura dos dados</span></span>
+<span id="cb9-10"><a></a></span>
+<span id="cb9-11"><a></a>dados <span class="sc">%&gt;%</span> </span>
+<span id="cb9-12"><a></a>  <span class="fu">str</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>tibble [2,938 × 8] (S3: tbl_df/tbl/data.frame)
  $ PAS             : int [1:2938] 113 113 113 112 111 127 128 152 122 144 ...
@@ -695,11 +690,11 @@ F-statistic: 118.9 on 6 and 2933 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 </section><section id="ajuste-do-modelo-1" class="slide level2"><h2>Ajuste do modelo</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="co"># Ajustar modelo de regressão logistica</span></span>
-<span id="cb12-2"><a></a>modelo_logistico <span class="ot">&lt;-</span> <span class="fu">glm</span>(Diabetes <span class="sc">~</span> ., <span class="at">data =</span> dados, <span class="at">family =</span> <span class="fu">binomial</span>(<span class="at">link=</span><span class="st">'logit'</span>))</span>
-<span id="cb12-3"><a></a></span>
-<span id="cb12-4"><a></a><span class="co"># Resumo do modelo</span></span>
-<span id="cb12-5"><a></a><span class="fu">summary</span>(modelo_logistico)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="co"># Ajustar modelo de regressão logistica</span></span>
+<span id="cb11-2"><a></a>modelo_logistico <span class="ot">&lt;-</span> <span class="fu">glm</span>(Diabetes <span class="sc">~</span> ., <span class="at">data =</span> dados, <span class="at">family =</span> <span class="fu">binomial</span>(<span class="at">link=</span><span class="st">'logit'</span>))</span>
+<span id="cb11-3"><a></a></span>
+<span id="cb11-4"><a></a><span class="co"># Resumo do modelo</span></span>
+<span id="cb11-5"><a></a><span class="fu">summary</span>(modelo_logistico)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -731,7 +726,7 @@ Number of Fisher Scoring iterations: 6</code></pre>
 </section><section id="avaliando-odds-ratio" class="slide level2"><h2>Avaliando <em>odds ratio</em>
 </h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a><span class="fu">logitor</span>(Diabetes <span class="sc">~</span>., <span class="at">data=</span>dados)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a><span class="fu">logitor</span>(Diabetes <span class="sc">~</span>., <span class="at">data=</span>dados)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Call:
 logitor(formula = Diabetes ~ ., data = dados)
@@ -901,18 +896,18 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </ul></section><section id="preparação-2" class="slide level2"><h2>Preparação</h2>
 <h3 id="carregando-os-pacotes-r-2">Carregando os pacotes R</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(</span>
-<span id="cb16-2"><a></a>tidyverse,</span>
-<span id="cb16-3"><a></a>survival,</span>
-<span id="cb16-4"><a></a>survminer</span>
-<span id="cb16-5"><a></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(</span>
+<span id="cb15-2"><a></a>tidyverse,</span>
+<span id="cb15-3"><a></a>survival,</span>
+<span id="cb15-4"><a></a>survminer</span>
+<span id="cb15-5"><a></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section><section id="carregando-os-dados-2" class="slide level2"><h2>Carregando os dados</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a>dados <span class="ot">=</span> rio<span class="sc">::</span><span class="fu">import</span>(<span class="st">"https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/haberman.csv"</span>)</span>
-<span id="cb17-2"><a></a></span>
-<span id="cb17-3"><a></a>dados <span class="sc">%&gt;%</span> </span>
-<span id="cb17-4"><a></a>  <span class="fu">str</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a></a>dados <span class="ot">=</span> rio<span class="sc">::</span><span class="fu">import</span>(<span class="st">"https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/haberman.csv"</span>)</span>
+<span id="cb16-2"><a></a></span>
+<span id="cb16-3"><a></a>dados <span class="sc">%&gt;%</span> </span>
+<span id="cb16-4"><a></a>  <span class="fu">str</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'data.frame':   306 obs. of  4 variables:
  $ idade  : int  30 30 30 31 31 33 33 34 34 34 ...
@@ -923,11 +918,11 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </div>
 </section><section id="ajuste-do-modelo-2" class="slide level2"><h2>Ajuste do modelo</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a><span class="co"># Ajustando o modelo de Cox</span></span>
-<span id="cb19-2"><a></a>modelo_cox <span class="ot">&lt;-</span> <span class="fu">coxph</span>(<span class="fu">Surv</span>(idade, status<span class="sc">==</span><span class="st">'2'</span>) <span class="sc">~</span> ., <span class="at">data =</span> dados)</span>
-<span id="cb19-3"><a></a></span>
-<span id="cb19-4"><a></a><span class="co"># Resumo do modelo</span></span>
-<span id="cb19-5"><a></a><span class="fu">summary</span>(modelo_cox)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a></a><span class="co"># Ajustando o modelo de Cox</span></span>
+<span id="cb18-2"><a></a>modelo_cox <span class="ot">&lt;-</span> <span class="fu">coxph</span>(<span class="fu">Surv</span>(idade, status<span class="sc">==</span><span class="st">'2'</span>) <span class="sc">~</span> ., <span class="at">data =</span> dados)</span>
+<span id="cb18-3"><a></a></span>
+<span id="cb18-4"><a></a><span class="co"># Resumo do modelo</span></span>
+<span id="cb18-5"><a></a><span class="fu">summary</span>(modelo_cox)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Call:
 coxph(formula = Surv(idade, status == "2") ~ ., data = dados)
@@ -952,10 +947,10 @@ Score (logrank) test = 32.88  on 2 df,   p=7e-08</code></pre>
 </div>
 </section><section id="hazard-ratio-hr-2" class="slide level2"><h2>Hazard Ratio (HR)</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a><span class="fu">ggforest</span>(modelo_cox, <span class="at">data =</span> dados)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a></a><span class="fu">ggforest</span>(modelo_cox, <span class="at">data =</span> dados)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="logistico_cox_files/figure-revealjs/unnamed-chunk-14-1.png" width="960" class="r-stretch"></section><section id="interpretação" class="slide level2"><h2>Interpretação</h2>
+<img data-src="logistico_cox_files/figure-revealjs/unnamed-chunk-13-1.png" width="960" class="r-stretch"></section><section id="interpretação" class="slide level2"><h2>Interpretação</h2>
 <p>O ano da operação do paciente não tem relação significativa com o desfecho do paciente (<span class="math inline">\(p-valor = 0,42 &gt; 0,05\)</span>) ao nível de 5% de significância.</p>
 <div class="fragment">
 <p>Já o número de nódulos axilares positivos detectados têm efeito significativo na sobrevida dos pacientes. Cada aumento de uma nódulo detectado foi associado um aumento médio de 5,67% no risco de mortalidade do paciente em 5 anos, após considerar outras covariáveis.</p>

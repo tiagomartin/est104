@@ -23,22 +23,6 @@ title: "Semana 12"
 
 
 
-## Estudo de caso
-
-::: callout-important
-
-## Fique Atento!
-
-{{< fa laptop-file size=lg >}} [Estudo de Caso 04: Avaliação dos testes rápidos Optimal-IT<sup><span>&#174;</span></sup> e ICT P.f./P.v.<sup>&reg;</sup> para o diagnóstico da malária, na Atenção Básica de Saúde, no município de Manaus, Amazonas](/estudos_de_casos/estudo04.html "Estudo de caso 04"){aria-label="Estudo de caso 04"} 
-
--   Data de entrega:
-    -   17 de março de 2025
-:::
-
-
-
-
-
 ## Slides
 
 {{< fa file-powerpoint size=lg >}} [Testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html#/valor-de-predição-de-um-teste "Testes diagnósticos"){aria-label="Testes diagnósticos"}

@@ -8,4 +8,4 @@ title: "Aulas"
 
 -   [Medidas de acurácia de testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html "Medidas e acurácia de testes de diagnósticos"){aria-label="Medidas e acurácia de testes de diagnósticos"}
 
--   Modelos Logístico e Riscos Proporcionais (Cox)
+-  [Modelos Logístico e Riscos Proporcionais (Cox)](/aulas/ModeloLogistico_cox/logistico_cox.html "Modelos logístico e riscos proporcionais"){aria-label="Modelos logístico e riscos proporcionais"}

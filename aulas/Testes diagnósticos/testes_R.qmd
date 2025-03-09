@@ -1,0 +1,224 @@
+---
+title: "Como analisar a qualidade de testes diagnósticos no R?"
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    footer: ""
+    theme: quartomonothemer.scss
+    slide-number: c/t
+    show-slide-number: all
+incremental: false
+code-link: true
+bibliography: references.bib
+title-slide-attributes:
+    data-background-image: /images/back.jpeg
+    data-background-size: cover
+    data-background-opacity: "0.3"
+execute:
+  echo: true
+---
+
+
+## Contexto do Problema
+
+<br>
+
+Um novo teste diagnóstico para diabetes foi desenvolvido por uma equipe de pesquisadores. Esse teste visa detectar a presença da doença com maior eficiência e menor custo em comparação ao teste de referência, que é o exame de glicemia em jejum. Antes de sua implementação na prática clínica, é necessário avaliar sua acurácia diagnóstica.
+
+
+**Objetivo:** Avaliar a performance do novo teste diagnóstico em relação ao padrão-ouro (exame de glicemia em jejum).
+
+
+## Metodologia
+
+
+Foram selecionados 500 indivíduos aleatoriamente em uma unidade de saúde. Cada participante realizou tanto o novo teste diagnóstico quanto o exame de glicemia em jejum.
+
+. . .
+
+Os participantes foram classificados em dois grupos:
+
+- Doença presente: Indivíduos diagnosticados com diabetes pelo exame de glicemia em jejum.
+- Doença ausente: Indivíduos sem diagnóstico de diabetes pelo exame de glicemia em jejum.
+
+. . .
+
+Os resultados do novo teste diagnóstico foram comparados ao exame de glicemia em jejum para determinar a acurácia do teste.
+
+
+## Carregando os pacotes R
+
+<br>
+
+```{r}
+pacman::p_load(
+  rio,          # importa arquivos
+  tidyverse,    # gestão dos dados + gráficos no ggplot2 
+  janitor,      # adiciona números absolutos e porcentagens às tabelas
+  pROC,         # construção da curva ROC
+  epiR,         # cálculo das métricas de avaliação
+  cutpointr     # grafico da curva ROC
+  )
+```
+
+
+## Carregando os dados
+
+<br>
+
+```{r}
+dados = rio::import("https://raw.githubusercontent.com/tiagomartin/est104/refs/heads/master/dados/teste_diabetes.csv") 
+
+dados %>% 
+  str()
+```
+
+## Tabela de contingência das variáveis doença e teste positivo
+
+<br>
+
+```{r}
+#| output-location: column
+tabela = table(Referencia = dados$doenca, Teste = dados$teste_positivo)
+  
+# Calculo das métricas
+
+metr = epi.tests(tabela, method = "exact", digits = 2, conf.level = 0.95)
+
+metr
+```
+
+## Índice de Youden e *Odds Ratio*
+
+```{r}
+
+# Índice de Youden
+
+metr$detail[metr$detail$statistic == "youden",]
+
+# Odds ratio
+
+metr$detail[metr$detail$statistic == "diag.or",]
+
+# Qual a proporção de indivíduos descartados como tendo alto risco de diabetes?
+
+metr$detail[metr$detail$statistic == "p.rout",] 
+
+# Qual a proporção de indivíduos considerados de alto risco de diabetes?
+
+metr$detail[metr$detail$statistic == "p.rin",] 
+
+```
+
+## Outras métricas
+
+<br>
+<br>
+
+```{r}
+# Qual é a proporção de resultados falso-positivos? Ou seja, qual é a proporção de indivíduos com teste positivo entre aqueles que são negativos para a doença?
+
+metr$detail[metr$detail$statistic == "p.tpdn",]
+
+# Qual é a proporção de resultados falso-negativos? Ou seja, qual é a proporção de indivíduos com teste negativo entre aqueles que são positivos para a doença?
+
+metr$detail[metr$detail$statistic == "p.tndp",]
+
+```
+
+
+# E se a variável desfecho for contínua?
+
+## E se a variável desfecho for contínua?
+
+
+
+<br>
+<br>
+
+Vamos considerar a variável *Índice de Glicemia* para avaliação do diagnóstico.
+
+<br>
+
+```{r}
+dados$glicemia %>% 
+  head()
+
+
+dados$glicemia %>% 
+  summary()
+```
+
+
+
+
+## Curva ROC e Área Sob a Curva (AUC)
+
+<br>
+
+```{r}
+#| output-location: column
+
+roc_obj = pROC::roc(dados$doenca, dados$glicemia)
+plot(roc_obj, main = "Curva ROC do Teste Diagnóstico")
+
+```
+
+```{r}
+#| output-location: column
+##Área sob a Curva (AUC)
+auc_valor = pROC::auc(roc_obj)
+auc_valor
+```
+
+
+## Escolha do Melhor Ponto de Corte
+
+
+```{r}
+cp = cutpointr(dados,  glicemia, doenca, 
+                method = maximize_metric, metric = youden)
+
+cp$optimal_cutpoint
+```
+
+
+```{r}
+## Algumas métricas de avaliação
+
+summary(cp)
+```
+
+## Curva ROC
+
+```{r}
+## Curva roc
+
+plot(cp)
+```
+
+
+## Métricas de avaliação
+
+```{r}
+#| output-location: column
+
+dados$teste_cont = ifelse(dados$glicemia >= cp$optimal_cutpoint, 1, 0)
+
+tabela_cont = table(Referencia = dados$doenca, Teste = dados$teste_cont)
+  
+# Calculo das métricas
+
+metr_cont = epi.tests(tabela_cont, method = "exact", digits = 2, conf.level = 0.95)
+
+metr_cont
+```
+
+
+## Outras métricas
+
+```{r}
+metr_cont$detail
+```
+

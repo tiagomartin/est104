@@ -1,0 +1,37 @@
+---
+title: "Semana 13"
+---
+
+
+## Leituras interessantes
+
+{{< fa file-pdf size=lg >}} [Análise de dados de gastroenterite hemorrágica canina para identificar fatores de risco por regressão logística](/artigos/Análise de dados de gastroenterite hemorrágica canina para identificar fatores de risco por regressão logística.pdf)
+
+{{< fa file-pdf size=lg >}} [Fatores associados à obesidade em idosos cadastrados na rede básica de saúde do município de Botucatu, São Paulo](/artigos/Fatores associados à obesidade em idosos.pdf)
+
+
+## Estudo de caso
+
+::: callout-important
+
+## Fique Atento!
+
+{{< fa laptop-file size=lg >}} [Estudo de Caso 04: Avaliação dos testes rápidos Optimal-IT<sup><span>&#174;</span></sup> e ICT P.f./P.v.<sup>&reg;</sup> para o diagnóstico da malária, na Atenção Básica de Saúde, no município de Manaus, Amazonas](/estudos_de_casos/estudo04.html "Estudo de caso 04"){aria-label="Estudo de caso 04"} 
+
+-   Data de entrega:
+    -   17 de março de 2025
+:::
+
+
+
+## Slides
+
+{{< fa file-powerpoint size=lg >}} [Testes diagnósticos no R](/aulas/Testes%20diagnósticos/testes_R.html "Testes diagnósticos no R"){aria-label="Testes diagnósticos no R"}
+
+{{< fa file-powerpoint size=lg >}} [Modelos de regressão logística e riscos proporcionais](/aulas/ModeloLogistico_cox/logistico_cox.html#/title-slide "Modelos logístico e riscos proporcionais"){aria-label="Modelos logístico e riscos proporcionais"}
+
+
+
+## Script avaliação da qualidade de testes diagnósticos no R
+
+{{< fa brands r-project size=lg >}}[Análise de dados: Avaliação de um Teste Diagnóstico para Diabetes](/analise_dados/teste_diabetes.html "Script análise de dados"){aria-label="Script análise de dados"}

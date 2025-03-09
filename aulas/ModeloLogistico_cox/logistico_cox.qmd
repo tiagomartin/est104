@@ -180,13 +180,6 @@ summary(modelo_multiplo)
 ```
 
 
-## Avaliação do modelo
-
-```{r}
-par(mfrow=c(2,2))
-plot(modelo_multiplo)
-```
-
 
 ## Interpretação do modelo
 
@@ -685,7 +678,7 @@ $$\ln\left ( \frac{\hat{p}}{1-\hat{p}} \right) = 4,0343 - 0,0042 x$$
 
 
 
-
+## Modelo de regressão logística
 
 
 Qual a probabilidade de que um bebê, retirado desta população pesando 750g ao nascer, irá desenvolver BPD?
