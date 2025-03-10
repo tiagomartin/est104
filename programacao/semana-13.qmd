@@ -3,13 +3,6 @@ title: "Semana 13"
 ---
 
 
-## Leituras interessantes
-
-{{< fa file-pdf size=lg >}} [Análise de dados de gastroenterite hemorrágica canina para identificar fatores de risco por regressão logística](/artigos/Análise de dados de gastroenterite hemorrágica canina para identificar fatores de risco por regressão logística.pdf)
-
-{{< fa file-pdf size=lg >}} [Fatores associados à obesidade em idosos cadastrados na rede básica de saúde do município de Botucatu, São Paulo](/artigos/Fatores associados à obesidade em idosos.pdf)
-
-
 ## Estudo de caso
 
 ::: callout-important
@@ -27,8 +20,6 @@ title: "Semana 13"
 ## Slides
 
 {{< fa file-powerpoint size=lg >}} [Testes diagnósticos no R](/aulas/Testes%20diagnósticos/testes_R.html "Testes diagnósticos no R"){aria-label="Testes diagnósticos no R"}
-
-{{< fa file-powerpoint size=lg >}} [Modelos de regressão logística e riscos proporcionais](/aulas/ModeloLogistico_cox/logistico_cox.html#/title-slide "Modelos logístico e riscos proporcionais"){aria-label="Modelos logístico e riscos proporcionais"}
 
 
 
