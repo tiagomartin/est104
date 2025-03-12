@@ -49,9 +49,9 @@ Esta página contém um esboço dos tópicos, conteúdos e tarefas para o semest
 |     | Seg, 03/03 | Carnaval  |  |  |  |  |  |  | 
 |     | Qua, 05/03  | Carnaval |         |  | | | | |
 |  [13](programacao/semana-13.html)  | Seg, 10/03 | Não haverá aula! |   |   |   | |   |
-|                           | Qua, 12/03 | Testes diagnósticos no R |   |[{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Testes%20diagnósticos/testes_R.html "Testes diagnósticos no R"){aria-label="Testes diagnósticos no R"}   |  [ {{< fa laptop-file size=2xl >}}](estudos_de_casos/estudo04.html "Estudo de caso 04"){aria-label="Estudo de caso 04"}  | |  [{{< fa brands r-project size=2xl >}}](/analise_dados/teste_diabetes.html "Script análise de dados"){aria-label="Script análise de dados"} |
-|  [14](programacao/semana-14.html)  | Seg, 17/03 |  Modelos de regressão logística e riscos proporcionais |[{{< fa file-pdf size=2xl >}}](/artigos/Fatores associados à obesidade em idosos.pdf)   |[{{< fa file-powerpoint size=2xl >}}️   ](/aulas/ModeloLogistico_cox/logistico_cox.html#/title-slide "Modelos logístico e riscos proporcionais"){aria-label="Modelos logístico e riscos proporcionais"}   |    | |   |
-|                           | Qua, 20/03 | Modelos de regressão logística e riscos proporcionais |   |[{{< fa file-powerpoint size=2xl >}}️   ](/aulas/ModeloLogistico_cox/logistico_cox.html#/title-slide "Modelos logístico e riscos proporcionais"){aria-label="Modelos logístico e riscos proporcionais"}   |    | |   |
+|                           | Qua, 12/03 |  Não haverá aula! |   |   |   | |   |
+|  [14](programacao/semana-14.html)  | Seg, 17/03 | Testes diagnósticos no R |   |[{{< fa file-powerpoint size=2xl >}}️   ](/aulas/Testes%20diagnósticos/testes_R.html "Testes diagnósticos no R"){aria-label="Testes diagnósticos no R"}   |  [ {{< fa laptop-file size=2xl >}}](estudos_de_casos/estudo04.html "Estudo de caso 04"){aria-label="Estudo de caso 04"}  | |  [{{< fa brands r-project size=2xl >}}](/analise_dados/teste_diabetes.html "Script análise de dados"){aria-label="Script análise de dados"} |
+|                           | Qua, 20/03 |  Modelos de regressão logística e riscos proporcionais |[{{< fa file-pdf size=2xl >}}](/artigos/Fatores associados à obesidade em idosos.pdf)   |[{{< fa file-powerpoint size=2xl >}}️   ](/aulas/ModeloLogistico_cox/logistico_cox.html#/title-slide "Modelos logístico e riscos proporcionais"){aria-label="Modelos logístico e riscos proporcionais"}   |    | |   |
 :::
 
 ```{r echo = FALSE}
