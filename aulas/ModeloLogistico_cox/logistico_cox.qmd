@@ -570,7 +570,7 @@ Sob inspeção, este modelo não é viável, uma vez que $p$ é uma probabilidad
 . . .
 
 
-O termo $\alpha + \beta x$, ao contrário, pode assumir valores fora desse intervalo.
+O termo $\beta_0 + \beta_1 x$, ao contrário, pode assumir valores fora desse intervalo.
 
 
 

@@ -1938,7 +1938,7 @@
     "href": "aulas/ModeloLogistico_cox/logistico_cox.html#função-logística",
     "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
     "section": "Função logística",
-    "text": "Função logística\nA primeira estratégia poderia ser ajustar um modelo da forma\n\\[p = \\beta_0 + \\beta_1 x\\] onde \\(x\\) representa o peso ao nascer.\n\nSob inspeção, este modelo não é viável, uma vez que \\(p\\) é uma probabilidade, podendo assumir, portanto, valores entre 0 e 1.\n\n\nO termo \\(\\alpha + \\beta x\\), ao contrário, pode assumir valores fora desse intervalo."
+    "text": "Função logística\nA primeira estratégia poderia ser ajustar um modelo da forma\n\\[p = \\beta_0 + \\beta_1 x\\] onde \\(x\\) representa o peso ao nascer.\n\nSob inspeção, este modelo não é viável, uma vez que \\(p\\) é uma probabilidade, podendo assumir, portanto, valores entre 0 e 1.\n\n\nO termo \\(\\beta_0 + \\beta_1 x\\), ao contrário, pode assumir valores fora desse intervalo."
   },
   {
     "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#função-logística-1",
