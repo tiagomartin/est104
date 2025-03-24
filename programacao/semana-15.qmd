@@ -1,0 +1,16 @@
+---
+title: "Semana 15"
+---
+
+
+## Leituras interessantes
+
+{{< fa file-pdf size=lg >}} [Uso da regressão de Cox para estimar fatores associados a óbito neonatal em UTI privada](/artigos/Uso da regressão de Cox para estimar fatores associados a óbito.pdf)
+
+{{< fa file-pdf size=lg >}} [Fatores Preditores da Mortalidade Hospitalar e de Complicações Per-Operatórias Graves em Cirurgia de Revascularização do Miocárdio](/artigos/Fatores Preditores da Mortalidade Hospitalar_COX.pdf)
+
+
+
+## Slides
+
+{{< fa file-powerpoint size=lg >}} [Modelos de regressão logística e riscos proporcionais](/aulas/ModeloLogistico_cox/logistico_cox.html#/modelo-de-riscos-proporcionais-cox "Modelos logístico e riscos proporcionais"){aria-label="Modelos logístico e riscos proporcionais"}
