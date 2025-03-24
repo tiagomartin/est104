@@ -2134,7 +2134,7 @@
     "href": "aulas/ModeloLogistico_cox/logistico_cox.html#preparação-2",
     "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
     "section": "Preparação",
-    "text": "Preparação\nCarregando os pacotes R\n\npacman::p_load(\ntidyverse,\nsurvival,\nsurvminer\n  )"
+    "text": "Preparação\nCarregando os pacotes R\n\npacman::p_load(\n  rio,\n  tidyverse,\n  survival,\n  survminer\n)"
   },
   {
     "objectID": "aulas/ModeloLogistico_cox/logistico_cox.html#carregando-os-dados-2",
@@ -2162,7 +2162,7 @@
     "href": "aulas/ModeloLogistico_cox/logistico_cox.html#interpretação",
     "title": "Modelo de regressão logística e Modelos de risco proporcionais (Cox)",
     "section": "Interpretação",
-    "text": "Interpretação\nO ano da operação do paciente não tem relação significativa com o desfecho do paciente (\\(p-valor = 0,42 &gt; 0,05\\)) ao nível de 5% de significância.\n\nJá o número de nódulos axilares positivos detectados têm efeito significativo na sobrevida dos pacientes. Cada aumento de uma nódulo detectado foi associado um aumento médio de 5,67% no risco de mortalidade do paciente em 5 anos, após considerar outras covariáveis.\n\n\nO IC de 95% para esse aumento ficou entre 3,6% e 7,8% (\\(p-valor &lt;&lt; 0,001\\))"
+    "text": "Interpretação\nO ano da operação do paciente não tem relação significativa com o desfecho do paciente (\\(p-valor = 0,42 &gt; 0,05\\)) ao nível de 5% de significância.\n\nJá o número de nódulos axilares positivos detectados têm efeito significativo na sobrevida dos pacientes. Cada aumento de um nódulo detectado foi associado um aumento médio de 5,67% no risco de mortalidade do paciente em 5 anos, após considerar outras covariáveis.\n\n\nO IC de 95% para esse aumento ficou entre 3,6% e 7,8% (\\(p-valor &lt;&lt; 0,001\\))"
   },
   {
     "objectID": "aulas/Conceitos básicos/index.html#estatística",

@@ -1135,10 +1135,11 @@ O conjunto de dados contém casos de um estudo que foi conduzido entre 1958 e 19
 
 ```{r, eval=TRUE}
 pacman::p_load(
-tidyverse,
-survival,
-survminer
-  ) 
+  rio,
+  tidyverse,
+  survival,
+  survminer
+) 
 ```
 
 ## Carregando os dados
@@ -1174,7 +1175,7 @@ O ano da operação do paciente não tem relação significativa com o desfecho 
 
 . . .
 
-Já o número de nódulos axilares positivos detectados têm efeito significativo na sobrevida dos pacientes. Cada aumento de uma nódulo detectado foi associado um aumento médio de 5,67% no risco de mortalidade do paciente em 5 anos, após considerar outras covariáveis.
+Já o número de nódulos axilares positivos detectados têm efeito significativo na sobrevida dos pacientes. Cada aumento de um nódulo detectado foi associado um aumento médio de 5,67% no risco de mortalidade do paciente em 5 anos, após considerar outras covariáveis.
 
 . . .
 

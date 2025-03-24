@@ -897,10 +897,11 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 <h3 id="carregando-os-pacotes-r-2">Carregando os pacotes R</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(</span>
-<span id="cb15-2"><a></a>tidyverse,</span>
-<span id="cb15-3"><a></a>survival,</span>
-<span id="cb15-4"><a></a>survminer</span>
-<span id="cb15-5"><a></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-2"><a></a>  rio,</span>
+<span id="cb15-3"><a></a>  tidyverse,</span>
+<span id="cb15-4"><a></a>  survival,</span>
+<span id="cb15-5"><a></a>  survminer</span>
+<span id="cb15-6"><a></a>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section><section id="carregando-os-dados-2" class="slide level2"><h2>Carregando os dados</h2>
 <div class="cell">
@@ -953,7 +954,7 @@ Score (logrank) test = 32.88  on 2 df,   p=7e-08</code></pre>
 <img data-src="logistico_cox_files/figure-revealjs/unnamed-chunk-13-1.png" width="960" class="r-stretch"></section><section id="interpretação" class="slide level2"><h2>Interpretação</h2>
 <p>O ano da operação do paciente não tem relação significativa com o desfecho do paciente (<span class="math inline">\(p-valor = 0,42 &gt; 0,05\)</span>) ao nível de 5% de significância.</p>
 <div class="fragment">
-<p>Já o número de nódulos axilares positivos detectados têm efeito significativo na sobrevida dos pacientes. Cada aumento de uma nódulo detectado foi associado um aumento médio de 5,67% no risco de mortalidade do paciente em 5 anos, após considerar outras covariáveis.</p>
+<p>Já o número de nódulos axilares positivos detectados têm efeito significativo na sobrevida dos pacientes. Cada aumento de um nódulo detectado foi associado um aumento médio de 5,67% no risco de mortalidade do paciente em 5 anos, após considerar outras covariáveis.</p>
 </div>
 <div class="fragment">
 <p>O IC de 95% para esse aumento ficou entre 3,6% e 7,8% (<span class="math inline">\(p-valor &lt;&lt; 0,001\)</span>)</p>
