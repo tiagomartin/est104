@@ -2,10 +2,17 @@
 title: "Aulas"
 ---
 
--   [Conceitos básicos](aulas/Conceitos%20básicos/index.html "Conceitos básicos"){aria-label="Conceitos básicos"}
-
+-   [Conceitos básicos](aulas/Conceitos%20básicos/index.html "Conceitos básicos"){aria-label="Conceitos básicos"} 
+    - [PDF](documentos/conceitos.pdf)
+    
 -   [Planejamento na área de saúde](aulas/Planejamento/index.html "Planejamento na área de saúde"){aria-label="Planejamento na área de saúde"}
+
+    - [PDF](documentos/planejamento.pdf)
 
 -   [Medidas de acurácia de testes diagnósticos](/aulas/Testes%20diagnósticos/testesDiagnosticos.html "Medidas e acurácia de testes de diagnósticos"){aria-label="Medidas e acurácia de testes de diagnósticos"}
 
+    - [PDF](documentos/testes.pdf)
+
 -  [Modelos Logístico e Riscos Proporcionais (Cox)](/aulas/ModeloLogistico_cox/logistico_cox.html "Modelos logístico e riscos proporcionais"){aria-label="Modelos logístico e riscos proporcionais"}
+
+    - [PDF](documentos/modelos.pdf)

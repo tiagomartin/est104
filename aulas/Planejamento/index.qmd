@@ -30,7 +30,7 @@ O planejamento de um estudo refere-se à forma de sua organização.
 
 ## Delineamentos na área de saúde 
 
-![](/images/tiposEstudo.png){fig-align="center"}
+![](/images/tiposEstudo.png){fig-align="center" width = "450"}
 
 ## Delineamentos na área de saúde 
 
